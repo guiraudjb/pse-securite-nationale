@@ -2,13 +2,12 @@
 
 Révision des publications de l'ANSSI, du SGDSN, de Viginum et du COMCYBER-MI, et des stratégies nationales (cybersécurité, IA, manipulations de l'information).
 
-57 modules, consultables depuis l'application de révision
+56 modules, consultables depuis l'application de révision
 https://guiraudjb.github.io/PSE25-27/ (ce dépôt en fournit les données via GitHub Pages).
 
 ## Séries
 
 - **03** : ANSSI, SGDSN et stratégies nationales
-- **04** : Stratégie cybersécurité 2026-2030
 
 ## Contenu par module
 
