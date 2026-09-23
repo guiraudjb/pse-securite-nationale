@@ -1,0 +1,5 @@
+# Généré par deploy.py / les scripts de génération audio, jamais versionné
+*/data/
+*/tts_assets/cache/
+podcast_mp3/
+__pycache__/
