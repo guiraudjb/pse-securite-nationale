@@ -1,0 +1,26 @@
+Qui a réalisé le kit conseil cybersécurité PME et collectivités de mars 2024 ?;L'ENISA;La CNIL;Le Campus Cyber Hauts-de-France Lille Métropole;La DGSI;4;Il s'appuie sur les ressources publiques gratuites.
+Quelles sont les quatre missions de l'ANSSI ?;Juger, punir, contrôler, taxer;Vendre, acheter, louer, prêter;Défendre, connaître, partager, accompagner;Aucune;4;Elle est l'autorité nationale de cybersécurité.
+Quel guide de l'ANSSI le kit recommande-t-il aux TPE et PME ?;Aucun;Le guide du routard;Le Livre blanc de la défense;La cybersécurité pour les TPE et PME en treize questions;5;Il propose des mesures accessibles.
+Qu'est-ce que MonAideCyber ?;Un antivirus;Un réseau social;Une assurance;Un service gratuit de diagnostic cyber rapide de l'ANSSI;5;Réalisé par des aidants formés et outillés.
+Quel numéro joindre en cas d'acte de cybermalveillance en Hauts-de-France ?;Le 3018;Le CSIRT régional au 0 806 700 111;Le 115;Le 36 15;3;Ou le 17 pour la police et la gendarmerie.
+Quel numéro par SMS pour les personnes sourdes et malentendantes ?;Le 112;Le 15;Le 18;Le 114;5;En cas d'urgence.
+Où signaler une fraude à la carte bancaire sur Internet ?;Sur Thésée;Sur Perceval;Sur Pharos;Au 33700;3;Plateforme des forces de l'ordre.
+Où déposer plainte en ligne pour une escroquerie sur Internet ?;Sur Perceval;Sur Thésée;Sur Bloctel;Au 33700;3;Via service-public.fr.
+Quel est le coût du diagnostic cybersécurité France 2030 ?;Gratuit sans condition;1 euro symbolique;100 000 euros;8 800 euros HT subventionnés à 50 %;5;Reste à charge de 4 400 euros.
+Quel complément offre le dispositif Cyber PME ?;Une subvention de 30 000 à 80 000 euros jusqu'à 70 % du plan de sécurisation;Une formation d'une heure;Un prêt à 20 %;Un antivirus gratuit;2;Priorité à l'aéronautique civile et à l'énergie.
+Qu'est-ce que l'ENISA ?;Une entreprise privée;Un ministère;Un service de renseignement français;L'agence de l'Union européenne pour la cybersécurité;5;Elle a publié avec le CERT-EU 14 bonnes pratiques.
+Qu'est-ce que le CERT-EU ?;Un logiciel;Le CERT de la France;Une norme ISO;L'équipe de réponse aux incidents des institutions de l'Union européenne;5;Publication conjointe de février 2022.
+Quels services distants doivent exiger l'authentification multifacteur ?;Uniquement l'imprimante;Aucun;VPN, extranets et messagerie;Le site public vitrine;4;C'est la première bonne pratique.
+Quels moyens d'authentification résistent le mieux à l'hameçonnage ?;Les cartes à puce et clés FIDO2;Les questions secrètes;Les mots de passe courts;Les codes par SMS;2;Éviter si possible SMS et appels vocaux.
+Qu'est-ce que le credential stuffing ?;Réutiliser des identifiants volés lors de fuites sur d'autres services;Chiffrer un disque;Remplir un formulaire;Saturer un serveur;2;D'où l'interdiction de réutiliser les mots de passe.
+Pourquoi contrôler l'accès des tiers ?;Pour réduire les coûts;C'est inutile;Un prestataire compromis peut servir de tête de pont;Par politesse;4;Quatrième bonne pratique.
+Que faire avant de migrer des charges critiques dans le cloud ?;Désactiver l'authentification;Durcir l'environnement cloud et séparer son administration;Rien;Supprimer les sauvegardes;3;Pour éviter les rebonds entre environnements.
+Que prévoit la règle 3-2-1 ?;Trois copies, dont deux sur des supports différents et une hors site;Aucune règle;Trois mots de passe, deux clés, un code;Trois serveurs, deux pare-feu, un antivirus;2;Recommandée par l'ENISA.
+Que désigne le RPO ?;Le prix d'un serveur;Le délai de reprise;Un protocole réseau;La perte de données maximale acceptable;5;Le RTO est l'objectif de délai de reprise.
+Pourquoi augmenter la fréquence des sauvegardes critiques ?;À cause de la prolifération des rançongiciels;Aucune raison;Par obligation fiscale;Pour occuper les serveurs;2;Les technologies actuelles permettent des sauvegardes rapides.
+Que faire des identifiants par défaut ?;Les publier;Les partager;Les conserver;Les changer tous;5;Et désactiver les protocoles à authentification faible.
+Qu'apporte un CDN contre le déni de service ?;Rien;Il répartit le site sur plusieurs serveurs;Il remplace l'antivirus;Il chiffre les courriels;3;La haute disponibilité du cloud aide aussi.
+Pourquoi limiter l'accès Internet des serveurs rarement redémarrés ?;Pour économiser de l'énergie;Pour accélérer les mises à jour;C'est inutile;Ils sont prisés pour installer des portes dérobées persistantes;5;Vers des serveurs de commande et de contrôle.
+Que surveiller chez les administrateurs ?;L'usage détourné des outils d'administration;Rien;Leurs horaires de repas;Leur tenue vestimentaire;2;Pour empêcher les mouvements latéraux.
+Que doit prévoir l'organisation pour la réponse aux incidents ?;Un communiqué de presse préparé uniquement;Des procédures pour joindre rapidement son CSIRT;Une rançon provisionnée;Rien;3;Coordonnées sur le réseau européen des CSIRT.
+Les bonnes pratiques ENISA remplacent-elles les recommandations nationales ?;Oui entièrement;Non, elles les complètent;Oui pour les PME;Elles les interdisent;3;En France, l'ANSSI reste la référence.

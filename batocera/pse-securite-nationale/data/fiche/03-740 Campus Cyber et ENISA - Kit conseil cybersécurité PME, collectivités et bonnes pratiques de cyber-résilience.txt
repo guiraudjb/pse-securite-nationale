@@ -1,0 +1,113 @@
+KIT CONSEIL CYBERSÉCURITÉ PME ET COLLECTIVITÉS DU CAMPUS CYBER HAUTS-DE-FRANCE LILLE MÉTROPOLE, MARS 2024, ET PUBLICATION CONJOINTE ENISA ET CERT-EU RENFORCER LA CYBER-RÉSILIENCE DE VOTRE ORGANISATION, FÉVRIER 2022.
+
+LEXIQUE COMPLET.
+
+      Le Campus Cyber Hauts-de-France Lille Métropole fédère acteurs privés et publics de la cybersécurité, les sensibilise, les oriente, les assiste et développe la filière régionale.
+
+      L'ANSSI, agence nationale de la sécurité des systèmes d'information, est l'autorité nationale de cybersécurité, dont les missions sont défendre, connaître, partager et accompagner.
+
+      MonAideCyber est un service gratuit de diagnostic cyber rapide de l'ANSSI, réalisé par des aidants formés et outillés, pour les entités déjà sensibilisées.
+
+      Le CSIRT régional est le centre de réponse aux incidents de proximité, comme le CSIRT Hauts-de-France joignable au 0 806 700 111.
+
+      L'ENISA est l'agence de l'Union européenne pour la cybersécurité, et le CERT-EU l'équipe de réponse aux incidents de toutes les institutions, organes et agences de l'Union.
+
+      Le credential stuffing consiste à réutiliser sur d'autres services des identifiants volés lors de fuites de données.
+
+      La règle de sauvegarde trois-deux-un impose trois copies complètes des données, dont deux sur des supports de types différents et au moins une hors site.
+
+      Le RTO est l'objectif de délai de reprise après un incident, et le RPO l'objectif de point de reprise, c'est-à-dire la perte de données maximale acceptable.
+
+      Le CDN, réseau de diffusion de contenu, répartit un site sur plusieurs serveurs pour résister aux dénis de service.
+
+      Les clés FIDO2 et les cartes à puce sont des moyens d'authentification résistants à l'hameçonnage.
+
+COURS DÉTAILLÉ.
+
+I. LE KIT CONSEIL DU CAMPUS CYBER HAUTS-DE-FRANCE.
+
+   A. Objet.
+
+      Le kit aide les collectivités et entreprises à s'informer sur les risques, connaître les mesures indispensables et savoir à qui s'adresser en cas d'attaque, en s'appuyant sur les ressources gratuites de l'ANSSI, de Cybermalveillance.gouv.fr, de la gendarmerie, de la police et de la CNIL.
+
+      Il recommande le guide de l'ANSSI la cybersécurité pour les TPE et PME en treize questions et les treize fiches réflexes de Cybermalveillance.gouv.fr pour les professionnels.
+
+   B. S'informer et prévenir.
+
+      Pour s'informer, on s'adresse à Cybermalveillance.gouv.fr, au délégué régional de l'ANSSI, à la gendarmerie, à la préfecture de police, au Campus Cyber et à la CNIL.
+
+      Des sensibilisations gratuites sont proposées par l'ANSSI régionale, le Campus Cyber, le CSIRT régional et la gendarmerie au titre de la sécurité économique.
+
+      Le diagnostic gratuit MonAideCyber s'adresse aux entités publiques et privées de toute taille.
+
+   C. Réagir en cas d'attaque.
+
+      En cas d'acte de cybermalveillance, on contacte le CSIRT régional, la police ou la gendarmerie au 17, ou le 114 par SMS pour les personnes sourdes et malentendantes, et Cybermalveillance.gouv.fr.
+
+      Les entités régulées et certaines administrations déclarent leurs incidents à l'ANSSI, et les plaintes relatives aux données personnelles vont à la CNIL.
+
+      Une fraude à la carte bancaire se signale sur Perceval, un contenu illicite sur Pharos, un spam vocal ou SMS au 33700, et une escroquerie en ligne donne lieu à plainte sur Thésée.
+
+   D. Les financements.
+
+      Le diagnostic cybersécurité France 2030 est une mission de conseil de huit jours de huit mille huit cents euros hors taxes subventionnée à cinquante pour cent, soit quatre mille quatre cents euros restant à charge.
+
+      Le dispositif Cyber PME de France 2030 ajoute une subvention de trente mille à quatre-vingt mille euros, jusqu'à soixante-dix pour cent du plan de sécurisation, avec priorité à l'aéronautique civile et à l'énergie au sens de NIS 2.
+
+      La mission de conseil cybersécurité de Bpifrance, de treize jours, vise les PME d'au moins douze millions d'euros de chiffre d'affaires, trois ans d'existence et dix salariés, et les ETI.
+
+      En Hauts-de-France, les Pass Cyber Formation, Conseil et Investissement financent formation, audits et tests d'intrusion, et investissements de protection.
+
+II. LES QUATORZE BONNES PRATIQUES DE L'ENISA ET DU CERT-EU.
+
+   A. Identités et accès.
+
+      Exiger l'authentification multifacteur pour tous les services accessibles à distance, VPN, extranet et messagerie, en évitant si possible les codes par SMS ou appel au profit de cartes à puce ou de clés FIDO2.
+
+      Interdire la réutilisation des mots de passe, qui permet le credential stuffing, vérifier ses adresses sur des services de détection de fuites et encourager un gestionnaire de mots de passe d'entreprise.
+
+      Changer tous les identifiants par défaut et désactiver les protocoles sans authentification forte ou à mot de passe en clair.
+
+      Segmenter le réseau et décider des accès en tenant compte d'attributs comme l'appareil, l'environnement et le chemin d'accès.
+
+   B. Systèmes et tiers.
+
+      Maintenir tous les logiciels à jour, en priorisant les vulnérabilités critiques, sans oublier les redémarrages, et inciter les utilisateurs à mettre à jour leurs équipements personnels.
+
+      Contrôler strictement l'accès des tiers aux réseaux internes, car un prestataire compromis peut servir de tête de pont.
+
+      Durcir les environnements cloud avant d'y migrer des charges critiques et séparer leur administration de celle des systèmes sur site.
+
+      Bloquer ou limiter fortement l'accès à Internet des serveurs rarement redémarrés, prisés pour installer des portes dérobées vers des serveurs de commande et de contrôle.
+
+   C. Sauvegardes, messagerie et résilience.
+
+      Appliquer la règle trois-deux-un, fixer des RTO et RPO explicites, contrôler et journaliser l'accès aux sauvegardes, tester régulièrement les restaurations et augmenter la fréquence des sauvegardes critiques face aux rançongiciels.
+
+      Sécuriser la messagerie par un filtrage antispam et une passerelle sécurisée appliquant des politiques éprouvées.
+
+      Protéger les sites contre les dénis de service par un CDN ou la haute disponibilité du cloud, et automatiser les procédures de reprise.
+
+   D. Humain et réponse.
+
+      Former régulièrement les administrateurs à la politique de sécurité et surveiller l'usage détourné des outils d'administration.
+
+      Organiser des sensibilisations régulières des utilisateurs à l'hameçonnage.
+
+      Disposer de procédures pour joindre rapidement son CSIRT, dont les coordonnées figurent sur le réseau européen des CSIRT.
+
+POINTS D'ATTENTION.
+
+      Ces bonnes pratiques complètent sans les remplacer les recommandations de l'autorité nationale, en France l'ANSSI.
+
+      Les codes à usage unique par SMS sont moins sûrs que les clés physiques résistantes à l'hameçonnage.
+
+      Une sauvegarde non testée ne garantit pas la reprise.
+
+      Le choix de l'interlocuteur dépend de la nature de l'incident : CSIRT, forces de l'ordre, ANSSI, CNIL ou plateformes spécialisées.
+
+EXEMPLES CITÉS.
+
+      Un attaquant réutilise sur la messagerie d'une entreprise un couple identifiant et mot de passe issu de la fuite d'un site sans rapport.
+
+      Un serveur jamais redémarré et connecté à Internet est détourné pour héberger une balise persistante vers un serveur de commande.
