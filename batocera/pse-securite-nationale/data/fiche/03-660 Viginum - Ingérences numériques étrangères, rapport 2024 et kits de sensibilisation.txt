@@ -1,0 +1,147 @@
+VIGINUM, SERVICE DE VIGILANCE ET DE PROTECTION CONTRE LES INGÉRENCES NUMÉRIQUES ÉTRANGÈRES, RAPPORT D'ACTIVITÉ 2024 ET KITS DE SENSIBILISATION EN MISSION AVEC VIGINUM.
+
+LEXIQUE COMPLET.
+
+      Viginum est le service technique et opérationnel de l'État, rattaché au SGDSN et créé par le décret n°2021-922 du 13 juillet 2021, chargé de détecter et caractériser les ingérences numériques étrangères.
+
+      L'ingérence numérique étrangère, ou INE, est un phénomène inauthentique qui réunit quatre critères : une atteinte potentielle aux intérêts fondamentaux de la Nation, un contenu manifestement inexact ou trompeur, une diffusion artificielle ou automatisée, massive et délibérée, et l'implication directe ou indirecte d'un acteur étranger étatique, paraétatique ou non étatique.
+
+      La désinformation est la diffusion délibérée d'informations fausses ou trompeuses dans l'intention de nuire.
+
+      La mésinformation est la diffusion involontaire d'informations erronées, sans intention de nuire.
+
+      La malinformation est une information fondée sur la réalité mais utilisée pour porter préjudice.
+
+      La surinformation est l'excès d'informations qui empêche de comprendre, de vérifier et de garder un regard critique.
+
+      Le mode opératoire informationnel, ou MOI, est l'ensemble des comportements, outils, tactiques, techniques et procédures, dites TTP, et ressources d'un acteur malveillant.
+
+      L'opération informationnelle est l'emploi ponctuel de ressources et de TTP par un MOI pour des objectifs tactiques, et la campagne informationnelle un ensemble d'opérations au service d'objectifs stratégiques.
+
+      L'OSINT, ou renseignement d'origine sources ouvertes, est la méthode de Viginum, fondée exclusivement sur des sources publiques.
+
+      L'astroturfing consiste à faire croire qu'un sujet est un phénomène de masse par l'action coordonnée d'un petit groupe de comptes.
+
+      Le copy pasta est la publication répétée d'un même texte légèrement modifié pour amplifier un message sans être censuré.
+
+      Le typosquatting est l'enregistrement d'un nom de domaine très proche d'un site officiel pour tromper les internautes.
+
+      Le spammouflage, technique d'acteurs pro-chinois, dissimule des messages politiques au milieu de contenus anodins.
+
+      Le troll est une personne réelle qui provoque ou insulte pour déstabiliser le débat, alors que le bot est un compte automatisé.
+
+COURS DÉTAILLÉ.
+
+I. LE SERVICE VIGINUM.
+
+   A. Missions et cadre.
+
+      Viginum détecte et caractérise les INE, contribue aux travaux européens et internationaux, assiste les autorités garantes des grands scrutins et aide le SGDSN à coordonner la lutte contre les manipulations de l'information.
+
+      Le décret n°2021-1587 du 7 décembre 2021 l'autorise à collecter uniquement des contenus publics sur les plateformes dépassant cinq millions de visiteurs uniques mensuels en France, jamais les groupes fermés ni les messageries privées.
+
+      La liste des seize plateformes concernées est publique, la collecte exclut la reconnaissance faciale et vocale, et les données sont supprimées dans un délai maximum de quatre mois.
+
+      Un comité éthique et scientifique de huit personnalités, présidé par le conseiller d'État Jean-Luc Sauron, reçoit toutes les notes d'analyse et publie un rapport annuel.
+
+      Fin 2024, Viginum comptait cinquante-six agents d'une moyenne d'âge de trente-trois ans, sous la direction de Marc-Antoine Brillant, avec un datalab de huit docteurs et ingénieurs.
+
+   B. La menace informationnelle.
+
+      La menace est décrite comme un organisme vivant qui mute en permanence et comme une menace intime, car ses acteurs connaissent nos vulnérabilités.
+
+      Elle exploite l'érosion des médias traditionnels au profit des réseaux sociaux, l'essor des influenceurs et des médias d'opinion étrangers, et l'intelligence artificielle.
+
+      L'IA générative réduit les coûts de production de contenus et de faux profils, mais n'offre pas encore de solution efficace pour amplifier leur diffusion, qui reste le cœur d'une manœuvre.
+
+II. LES MODES OPÉRATOIRES CARACTÉRISÉS.
+
+   A. Les MOI russes.
+
+      Portal Kombat est un réseau de pseudo-portails d'information, initialement cent quatre-vingt-treize sites comme pravda-fr, qui relaie des contenus prorusses, administré par la société TigerWeb basée en Crimée, et dénoncé par la France, l'Allemagne et la Pologne au sommet du Triangle de Weimar le 12 février 2024.
+
+      Matriochka diffuse de faux contenus usurpant des médias occidentaux : des comptes seeders publient, puis des comptes quoters interpellent médias et fact-checkeurs pour saturer leurs cellules de vérification.
+
+      Storm-1516 produit photomontages, faux reportages joués par des acteurs amateurs et deepfakes, et a visé les élections européennes et législatives de 2024, la présidentielle américaine et les élections allemandes de 2025.
+
+   B. Les MOI azerbaïdjanais.
+
+      Le Baku Initiative Group, ou BIG, officine de propagande liée à l'État azerbaïdjanais, cible la France dans les DROM-COM et en Corse en instrumentalisant les mouvements indépendantistes, rapport UN-notorious BIG.
+
+      Lors des émeutes en Nouvelle-Calédonie des 15 et 16 mai 2024, mille six cent quatre-vingt-six comptes liés à des acteurs azerbaïdjanais ont diffusé par copy pasta un montage accusant la police de violences meurtrières.
+
+   C. Les élections roumaines.
+
+      Lors de la présidentielle roumaine de 2024, dont le premier tour a été annulé, l'algorithme de TikTok a été manipulé par astroturfing et plus d'une centaine d'influenceurs ont été recrutés à leur insu via des plateformes de marketing.
+
+III. LA PROTECTION DES GRANDS ÉVÉNEMENTS DE 2024.
+
+   A. Les élections.
+
+      En 2024, plus de soixante-dix pays ont voté, et Viginum a détecté vingt-cinq manœuvres visant les scrutins français, quatorze pour les européennes et onze pour les législatives.
+
+      Les stratégies visaient à polariser le débat, décrédibiliser la procédure électorale, alimenter la défiance envers les médias et exposer un candidat ou un parti.
+
+      Le faux site ensemble-24 promettait une prime de cent euros aux électeurs de la majorité présidentielle, amplifiée par le dispositif russe RRN.
+
+      Viginum coordonne son action avec le COLMI, l'Arcom, le Conseil constitutionnel et le ministère de l'Intérieur, et sensibilise les équipes de campagne avec l'ANSSI, la CNIL et l'Arcom.
+
+   B. Les jeux Olympiques et Paralympiques.
+
+      Quarante-trois manœuvres ont visé les Jeux de Paris entre avril 2023 et septembre 2024, pour nuire à l'image de la France, produire des effets économiques, contester les valeurs démocratiques ou amplifier des troubles.
+
+      Les procédés comprenaient doxxing d'athlètes, fausses bannières, vidéos usurpant des organisations officielles, hashtags et comptes inauthentiques, et des influenceurs comparant la cérémonie d'ouverture à celle de Pékin 2008, cumulant plus de sept millions de vues.
+
+IV. LES OUTILS ET LA COOPÉRATION.
+
+   A. Détection et recherche.
+
+      Le VIGISCORE estime le risque d'impact d'un phénomène à partir des modes opératoires, de la dynamique de propagation entre plateformes et communautés, et du contexte, sans dépendre des métriques des plateformes.
+
+      La méthode D3lta, publiée en open source sur GitHub, détecte trois types de duplication : copy pasta, reformulation et traduction.
+
+   B. Gouvernance et partenaires.
+
+      Le COLMI est l'instance pré-décisionnelle qui valide les options de réponse, et le COLMI-TECH, animé par Viginum, partage la connaissance et coordonne l'imputation.
+
+      Le ministère de l'Europe et des Affaires étrangères mène la communication stratégique pour dénoncer les manœuvres.
+
+      Une convention a été signée le 4 juillet 2024 avec l'Arcom, coordinateur français du règlement européen sur les services numériques, ou DSA, qui encadre les plateformes de plus de quarante-cinq millions d'utilisateurs.
+
+      La coopération avec certaines plateformes reste insuffisante, faute d'accès à leurs API hors publicité.
+
+      Viginum sensibilise les jeunes avec le CLEMI, Educ'Arte, le podcast Le debrief de Clara et Raphaël en huit épisodes et des challenges OSINT sur la plateforme The Osint Project, et prépare une académie de la lutte contre les manipulations de l'information pour informer, éduquer et former.
+
+V. LES CONSEILS AU PUBLIC.
+
+      Adopter une posture critique face aux titres accrocheurs et émotionnels, et croiser ses sources.
+
+      Vérifier les faits, les chiffres, la date et le contexte de publication.
+
+      Faire une recherche inversée d'images, par exemple avec Google Lens.
+
+      Repérer les comptes inauthentiques : création récente, rapport abonnés et abonnements déséquilibré, horaires de publication identiques, photo générée par IA.
+
+      Réfléchir avant de repartager et signaler les contenus illicites aux plateformes ou sur Pharos.
+
+POINTS D'ATTENTION.
+
+      Une INE exige la réunion des quatre critères, notamment l'implication d'un acteur étranger.
+
+      Viginum n'accède jamais aux messageries privées ni aux groupes fermés.
+
+      Le meilleur antidote reste le questionnement et la vérification de l'information par chaque citoyen.
+
+      Des personnalités politiques ont parfois repartagé des contenus de Storm-1516 de manière inconsciente ou opportuniste.
+
+EXEMPLES CITÉS.
+
+      Des photos présentées comme la France en feu pendant les Jeux montraient en réalité un incendie en Seine-et-Marne lors d'émeutes de 2023.
+
+      Une fausse facture prétendait que l'épouse du président ukrainien avait acheté une Bugatti de quatre millions et demi d'euros en France.
+
+      Une vidéo d'un prétendu membre du Hamas menaçant la France avant les Jeux présentait des fautes d'intonation.
+
+      Matriochka a usurpé l'identité de BFM TV, du Monde, du Parisien et de Viginum lui-même.
+
+      Le typosquatting diplomatie.gouv.fm au lieu de diplomatie.gouv.fr est une technique fréquente du MOI RRN.

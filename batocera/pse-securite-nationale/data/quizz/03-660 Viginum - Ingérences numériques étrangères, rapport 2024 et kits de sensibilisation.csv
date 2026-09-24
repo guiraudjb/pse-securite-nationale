@@ -1,0 +1,32 @@
+À quelle institution Viginum est-il rattaché ?;La CNIL;L'ANSSI;Le SGDSN;La DGSI;4;Il a été créé par le décret du 13 juillet 2021.
+Combien de critères définissent une ingérence numérique étrangère ?;Quatre;Deux;Six;Un;2;Atteinte aux intérêts, contenu trompeur, diffusion artificielle, acteur étranger.
+Quelle différence entre désinformation et mésinformation ?;La désinformation est intentionnelle, la mésinformation involontaire;La mésinformation est toujours vraie;La désinformation est toujours légale;Aucune;2;La malinformation utilise une information vraie pour nuire.
+Qu'est-ce que la malinformation ?;Une information réelle utilisée pour nuire;Une information fausse sans intention;Un excès d'information;Une publicité;2;Elle se fonde sur la réalité.
+Que signifie OSINT ?;Opération spéciale internationale;Organisation de sécurité interne;Renseignement d'origine sources ouvertes;Outil de surveillance intégré;4;Viginum travaille uniquement à partir de sources publiques.
+Quelles plateformes Viginum peut-il analyser ?;Toutes les messageries privées;Les courriels;Les contenus publics des plateformes dépassant 5 millions de visiteurs mensuels en France;Les groupes fermés;4;La liste de seize plateformes est publique.
+Dans quel délai les données collectées sont-elles supprimées ?;Jamais;Quatre mois maximum;Une semaine;Dix ans;3;La reconnaissance faciale et vocale est exclue.
+Qui suit l'activité de Viginum ?;Aucun organe;Le Parlement européen;Un comité éthique et scientifique de huit personnalités;Les plateformes;4;Il est présidé par Jean-Luc Sauron.
+Qu'est-ce qu'un MOI ?;Un ministère;Un ensemble de comportements, outils et TTP d'un acteur malveillant;Un média officiel;Un logiciel antivirus;3;Mode opératoire informationnel.
+Qu'est-ce que l'astroturfing ?;Une cyberattaque DDoS;Du jardinage;Un sondage officiel;Faire croire qu'un sujet est massif par l'action coordonnée d'un petit groupe;5;Il a servi à manipuler TikTok en Roumanie.
+Qu'est-ce que le typosquatting ?;Squatter un bâtiment;Enregistrer un nom de domaine très proche d'un site officiel;Pirater un clavier;Faire des fautes de frappe;3;Exemple : diplomatie.gouv.fm.
+Qu'est-ce que le spammouflage ?;Une publicité légale;Dissimuler des messages politiques parmi des contenus anodins;Un antispam;Un camouflage militaire;3;Technique caractéristique d'acteurs pro-chinois.
+Quelle différence entre un troll et un bot ?;Le troll est une personne réelle, le bot un compte automatisé;Le troll est un logiciel;Le bot est toujours humain;Aucune;2;Les deux perturbent le débat public.
+Qu'est-ce que Portal Kombat ?;Une plateforme de fact-checking;Un réseau russe de pseudo-portails d'information relayant des contenus prorusses;Un site gouvernemental;Un jeu vidéo;3;Administré par la société TigerWeb basée en Crimée.
+Qui a dénoncé Portal Kombat au sommet du Triangle de Weimar ?;La Chine;L'ONU;Les États-Unis seuls;La France, l'Allemagne et la Pologne;5;Le 12 février 2024.
+Comment fonctionne Matriochka ?;Par courrier postal;Par des publicités télévisées;Des seeders publient de faux contenus et des quoters interpellent médias et fact-checkeurs;Par des virus;4;L'objectif est de saturer les cellules de vérification.
+Quelles techniques utilise Storm-1516 ?;Des tracts papier;Uniquement des SMS;Photomontages, acteurs amateurs et deepfakes;Des émissions de radio;4;Il a visé plusieurs élections en 2024 et 2025.
+Qu'est-ce que le Baku Initiative Group ?;Une banque;Une officine de propagande liée à l'État azerbaïdjanais ciblant les DROM-COM et la Corse;Une ONG humanitaire française;Un club sportif;3;Il instrumentalise les mouvements indépendantistes.
+Combien de comptes ont diffusé le montage sur la Nouvelle-Calédonie en mai 2024 ?;1 686;168 000;Aucun;16;2;Ils étaient liés à des acteurs azerbaïdjanais.
+Pourquoi le premier tour de la présidentielle roumaine de 2024 a-t-il été annulé ?;À la suite de manipulations de l'information, notamment sur TikTok;Faute de candidats;Par erreur administrative;Pour cause de météo;2;Plus d'une centaine d'influenceurs ont été instrumentalisés.
+Combien de manœuvres ont visé les scrutins français de 2024 ?;2;Aucune;25;250;4;14 pour les européennes et 11 pour les législatives.
+Que promettait le faux site ensemble-24 ?;Un logement;Un emploi public;Une prime de 100 euros aux électeurs de la majorité présidentielle;Un vol gratuit;4;Il a été amplifié par le dispositif russe RRN.
+Combien de manœuvres ont visé les Jeux de Paris 2024 ?;Aucune;430;43;3;4;Entre avril 2023 et septembre 2024.
+À quoi sert le VIGISCORE ?;Noter les athlètes;Classer les médias;Estimer rapidement le risque d'impact d'un phénomène détecté;Calculer les impôts;4;Il s'affranchit des métriques des plateformes.
+Quels types de duplication la méthode D3lta détecte-t-elle ?;Virus, ver et cheval de Troie;Copy pasta, reformulation et traduction;Photo, vidéo et son;Aucun;3;Elle est publiée en open source sur GitHub.
+Quel est le rôle du COLMI ?;Instance pré-décisionnelle validant les options de réponse;Agence de presse;Plateforme de réseau social;Tribunal;2;Le COLMI-TECH coordonne la connaissance et l'imputation.
+Quelle autorité est coordinateur français du DSA ?;La DGSI;L'Arcom;La CNIL;L'ANSSI;3;Une convention a été signée avec Viginum le 4 juillet 2024.
+Que limite l'IA générative selon Viginum ?;Elle remplace les bots;Elle rend toute détection impossible;Elle n'est jamais utilisée;Elle réduit les coûts de production mais n'amplifie pas efficacement la diffusion;5;La propagation reste le cœur d'une manœuvre.
+Où signaler un contenu illicite en ligne ?;Au CERT ED;Nulle part;Auprès de la mairie;Sur Pharos ou auprès de la plateforme;5;Pharos est le portail officiel de signalement.
+Quel outil permet une recherche inversée d'image ?;Google Lens;Un tableur;Une calculatrice;Un traitement de texte;2;Il révèle si une image a déjà servi dans un autre contexte.
+Quel indice signale un compte inauthentique ?;Création récente et horaires de publication identiques;Des amis réels;Une photo de vacances;Un compte ancien et actif;2;Un rapport abonnés/abonnements déséquilibré aussi.
+Quelles missions aura l'académie de la lutte contre les manipulations de l'information ?;Informer, éduquer et former;Aucune;Punir, censurer et surveiller;Vendre, acheter et louer;2;Elle doit être préfigurée fin 2025.
