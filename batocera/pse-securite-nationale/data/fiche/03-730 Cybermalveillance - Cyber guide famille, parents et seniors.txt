@@ -1,0 +1,111 @@
+CYBER GUIDE FAMILLE DE CYBERMALVEILLANCE.GOUV.FR, DIX BONNES PRATIQUES ESSENTIELLES POUR PROTÉGER LES USAGES NUMÉRIQUES DE LA FAMILLE, ET DÉPLIANTS CYBERSÉCURITÉ PARENTS ET SENIORS DE L'UNAF, DE LA CNIL ET DE CYBERMALVEILLANCE.
+
+LEXIQUE COMPLET.
+
+      Le Cyber guide famille est un guide pédagogique de Cybermalveillance.gouv.fr qui présente dix bonnes pratiques et des conseils pour parler de cybersécurité aux enfants.
+
+      L'UNAF, union nationale des associations familiales, promeut, défend et représente les intérêts des familles et accompagne parents, aidants et seniors dans leurs usages numériques.
+
+      Le contrôle parental est un outil qui crée un espace sécurisé pour limiter et contrôler l'exposition des enfants aux risques en ligne.
+
+      L'arnaque sentimentale consiste à simuler des sentiments amoureux avec un faux profil pour gagner la confiance de la victime et lui soutirer de l'argent.
+
+      Le challenge dangereux est un jeu morbide diffusé sur les réseaux sociaux qui cible les enfants et adolescents.
+
+      Le 3018 est le numéro national des violences numériques, le 3020 celui du harcèlement, et le 116 006 celui de France Victimes.
+
+COURS DÉTAILLÉ.
+
+I. LE CONTEXTE.
+
+      Les foyers français comptent plus de six écrans et passent en moyenne deux heures trente par jour en ligne, et leur consommation d'Internet a été multipliée par cinq en dix ans.
+
+      En 2021, les demandes d'assistance à Cybermalveillance.gouv.fr ont progressé de près de soixante-dix pour cent, et quatre-vingt-dix pour cent concernaient le grand public.
+
+      Les familles sont des cibles vulnérables rarement conscientes des risques, et l'école doit transmettre avec elles une culture commune des menaces du cyberespace.
+
+II. LES DIX BONNES PRATIQUES DE LA FAMILLE.
+
+   A. Protéger les comptes et les données.
+
+      Première pratique, des mots de passe robustes : les parents ont de nombreux accès, messagerie, banque, espace famille, CAF ou impôts, et utiliser un seul mot de passe expose au piratage de tous les comptes, d'où des mots de passe longs, complexes et différents, la double authentification et un gestionnaire comme KeePass.
+
+      Deuxième pratique, sauvegarder régulièrement photos, vidéos, contacts et documents administratifs, avec une copie sur un support externe débranché après usage ou sur un cloud.
+
+      Troisième pratique, faire sans tarder les mises à jour de sécurité de tous les appareils, y compris les objets connectés, en activant l'installation automatique et uniquement depuis les sites officiels.
+
+      Quatrième pratique, utiliser un antivirus, gratuit ou payant, sur tous les équipements, aussi utile qu'une alarme dans le foyer, et faire des analyses approfondies.
+
+   B. Se méfier des escroqueries.
+
+      Cinquième pratique, être prudent lors des achats en ligne face aux faux sites, faux transporteurs, fausses promotions ou fausses confirmations de commande.
+
+      Il faut préférer un site français ou européen pour bénéficier de la réglementation européenne, vérifier sa notoriété et son adresse exacte, comparer les prix trop alléchants et utiliser des paiements sécurisés comme Paylib ou l'e-Carte Bleue.
+
+      Sixième pratique, se méfier des messages suspects, qui jouent sur la peur, l'appât du gain, la crédulité, l'urgence ou une situation du quotidien, comme la livraison de colis, la mise à jour de la carte Vitale ou le remboursement d'impôts.
+
+      Le premier réflexe est de ne pas cliquer, puis de contacter l'organisme par un autre moyen.
+
+   C. Maîtriser son environnement numérique.
+
+      Septième pratique, maîtriser ses réseaux sociaux, qui contiennent de nombreuses informations familiales, en protégeant l'accès, en réglant la confidentialité et en ne diffusant pas d'informations sensibles.
+
+      Vingt-huit pour cent des enfants de neuf à onze ans ont déjà un compte sur les réseaux sociaux, alors que l'âge minimal est généralement de treize ans et l'autorisation parentale obligatoire jusqu'à quinze ans, et soixante-dix-huit pour cent des parents ignorent ce que font leurs enfants en ligne.
+
+      Huitième pratique, éviter les Wi-Fi publics ou inconnus, en privilégiant la connexion mobile 3G, 4G ou 5G et en ne réalisant jamais d'opération sensible sur un Wi-Fi public.
+
+      Neuvième pratique, sécuriser les objets connectés, montres, thermostats, caméras, jouets ou babyphones, souvent maillon faible, en changeant le mot de passe par défaut, en les mettant à jour, en désactivant les fonctions inutiles et en les éteignant quand ils ne servent pas.
+
+   D. Parler du cyberharcèlement.
+
+      Dixième pratique, parler du cyberharcèlement, reconnaissable à son caractère répétitif et durable, aux conséquences parfois dramatiques jusqu'au suicide.
+
+      Douze pour cent des huit à dix-huit ans y ont déjà été confrontés.
+
+      Il faut libérer la parole en famille en demandant par exemple à l'enfant s'il sait ce qu'est le cyberharcèlement, s'il en a vu et ce qu'il ferait, et prévenir la direction de l'établissement si cela se produit à l'école.
+
+      Les sanctions sont considérablement aggravées quand la victime est mineure.
+
+III. PARLER DE CYBERSÉCURITÉ AUX ENFANTS.
+
+      Les enfants peuvent être victimes de contenus choquants ou illicites, incitation à la haine, propagande terroriste ou pédopornographie, à signaler sur internet-signalement.gouv.fr.
+
+      Ils peuvent aussi être auteurs de contenus illicites avec un sentiment d'impunité, alors qu'Internet n'est pas un espace de non-droit et que l'anonymat absolu n'existe pas.
+
+      Les ressources recommandées vont des Incollables et du cahier de vacances de la sécurité numérique pour les sept à onze ans au kit Cyber réflexes, à la Hack Academy et aux vidéos Internet is a biche pour les plus grands.
+
+      Le contrôle parental s'active en expliquant à l'enfant qu'il sert à limiter et contrôler son exposition aux risques.
+
+IV. LES DÉPLIANTS PARENTS ET SENIORS.
+
+      Selon une étude OpinionWay de juin 2023, une majorité de Français a déjà été victime d'une menace en ligne.
+
+      Les cyber réflexes communs sont des mots de passe robustes, des sauvegardes, la méfiance envers les messages inattendus et alarmistes et la sécurisation des appareils et logiciels.
+
+      Avant de fournir une information personnelle en ligne, il faut se demander si c'est nécessaire et justifié.
+
+      Les parents doivent parler régulièrement de sécurité avec leurs enfants, leur apprendre à ne pas partager leurs mots de passe, les aider à paramétrer leurs comptes et activer le contrôle parental.
+
+      Face aux arnaques sentimentales, les seniors doivent réfléchir avant de partager des informations sur les sites de rencontre, se méfier d'une personne qui trouve toujours une excuse pour ne pas se rencontrer et ne jamais envoyer d'argent à quelqu'un jamais rencontré.
+
+      Les aidants actifs s'absentent en moyenne seize jours par an du fait de leur rôle, et l'UNAF les accompagne pour une pratique responsable du numérique.
+
+      Pour signaler, on utilise Signal Spam pour un courriel, le 33700 pour un SMS et internet-signalement.gouv.fr pour un contenu illicite, et la CNIL répond aux questions sur les données personnelles.
+
+POINTS D'ATTENTION.
+
+      Un seul mot de passe pour toute la famille expose tous les comptes.
+
+      Un objet connecté non paramétré peut devenir la porte d'entrée du réseau familial.
+
+      Un enfant victime de cyberharcèlement n'ose souvent pas en parler, d'où l'importance d'ouvrir le dialogue.
+
+      Une offre trop alléchante en ligne doit toujours être comparée et vérifiée.
+
+EXEMPLES CITÉS.
+
+      Des faux sites de commerce sont créés pour la fête des mères ou des pères.
+
+      Des SMS frauduleux annoncent un colis en attente ou une mise à jour obligatoire de la carte Vitale.
+
+      Des messages privés à caractère pornographique ou incitant à la prostitution ciblent des adolescents sur les réseaux sociaux.
