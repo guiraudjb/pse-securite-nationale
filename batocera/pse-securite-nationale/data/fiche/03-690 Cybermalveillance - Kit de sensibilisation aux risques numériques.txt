@@ -1,0 +1,135 @@
+KIT DE SENSIBILISATION AUX RISQUES NUMÉRIQUES DE CYBERMALVEILLANCE.GOUV.FR, SIX FICHES DE BONNES PRATIQUES, TROIS FICHES RISQUES, QUIZ ET MÉMOS.
+
+LEXIQUE COMPLET.
+
+      Cybermalveillance.gouv.fr est le dispositif national d'assistance aux victimes d'actes de cybermalveillance, lancé en octobre 2017, incubé par l'ANSSI avec le ministère de l'Intérieur et piloté par le groupement d'intérêt public ACYMA.
+
+      Ses publics sont les particuliers, les entreprises et les collectivités hors opérateurs critiques, et ses missions l'assistance aux victimes, la prévention et la sensibilisation, et l'observation du risque numérique.
+
+      Les contenus du kit sont diffusés sous licence ouverte Etalab 2.0, qui autorise à les reproduire, adapter et diffuser en citant la source.
+
+      L'attaque par force brute consiste à essayer toutes les combinaisons possibles de caractères jusqu'à trouver le mot de passe.
+
+      La double authentification, aussi appelée authentification forte ou multifacteur, ajoute au mot de passe une confirmation par code, application, clé ou biométrie.
+
+      Le gestionnaire de mots de passe est un coffre-fort numérique, comme KeePass, logiciel libre certifié par l'ANSSI, qui stocke et génère des mots de passe complexes.
+
+      Le code IMEI, de quinze à dix-sept chiffres, est le numéro de série d'un appareil mobile, obtenu en tapant étoile dièse zéro six dièse, qui permet de le bloquer sur tous les réseaux en cas de vol.
+
+      L'hameçonnage, ou phishing, leurre l'internaute pour obtenir ses données personnelles ou bancaires en se faisant passer pour un tiers de confiance.
+
+      Le rançongiciel, ou ransomware, chiffre les fichiers ou bloque l'ordinateur et réclame une rançon.
+
+      L'arnaque au faux support technique effraie la victime par un faux message d'alerte pour lui faire appeler un prétendu support et payer un faux dépannage.
+
+COURS DÉTAILLÉ.
+
+I. LES MOTS DE PASSE, DIX BONNES PRATIQUES.
+
+      Utiliser un mot de passe différent pour chaque service, afin qu'un vol ne compromette qu'un seul compte.
+
+      Utiliser un mot de passe long et complexe d'au moins douze signes mêlant majuscules, minuscules, chiffres et caractères spéciaux, pour résister à la force brute.
+
+      Éviter les informations personnelles devinables et les suites comme 123456 ou azerty.
+
+      Utiliser un gestionnaire de mots de passe plutôt qu'un pense-bête ou un fichier non protégé.
+
+      Changer un mot de passe au moindre soupçon, ne jamais le communiquer à un tiers, même pour une prétendue maintenance.
+
+      Ne pas utiliser ses mots de passe sur un ordinateur partagé, ou alors en navigation privée en se déconnectant, puis les changer.
+
+      Activer la double authentification, changer les mots de passe par défaut, et choisir un mot de passe particulièrement robuste pour la messagerie, qui reçoit les liens de réinitialisation des autres comptes.
+
+      La méthode des premières lettres transforme une phrase en mot de passe, et la méthode phonétique joue sur les sons.
+
+II. LES RÉSEAUX SOCIAUX.
+
+      Protéger l'accès aux comptes, vérifier les paramètres de confidentialité, souvent très ouverts par défaut, et maîtriser ses publications qui peuvent être rediffusées.
+
+      Faire attention à qui l'on parle, ne jamais envoyer d'argent sans vérifier l'identité ni de photos intimes, et se méfier des jeux concours et super affaires.
+
+      Contrôler les applications tierces, éviter les ordinateurs et Wi-Fi publics, vérifier les connexions actives, faire preuve de discernement face aux fausses informations, et supprimer un compte inutilisé.
+
+      Se connecter à d'autres sites avec son compte de réseau social expose à un piratage en cascade.
+
+      Internet n'est pas une zone de non-droit : haine, cyberharcèlement ou atteinte au droit à l'image sont punis, et un mineur peut consentir seul au traitement de ses données à partir de quinze ans.
+
+      Le 3018 conseille gratuitement les victimes de cyberharcèlement, et Pharos reçoit les signalements de contenus illicites.
+
+III. LES APPAREILS MOBILES.
+
+      Mettre en place un code de déverrouillage difficile et le code PIN de la carte SIM, deux protections complémentaires, avec verrouillage automatique.
+
+      Chiffrer les données de l'appareil et de la carte mémoire, appliquer les mises à jour, sauvegarder, utiliser une solution de sécurité.
+
+      N'installer des applications que depuis les magasins officiels, contrôler leurs autorisations, ne pas laisser l'appareil sans surveillance ni le prêter.
+
+      Éviter les Wi-Fi publics, désactiver Wi-Fi, Bluetooth et NFC inutilisés, ne pas stocker de secrets sans chiffrement, et noter le code IMEI.
+
+IV. LES SAUVEGARDES.
+
+      Sauvegarder régulièrement, identifier les appareils concernés, déterminer les données à protéger et choisir une solution adaptée, y compris le cloud.
+
+      Planifier les sauvegardes et distinguer la sauvegarde complète, incrémentale qui copie ce qui a changé depuis la dernière sauvegarde, et différentielle qui copie ce qui a changé depuis la dernière sauvegarde complète.
+
+      Déconnecter le support après usage pour le protéger d'un rançongiciel, multiplier les supports dont un hors site, tester les restaurations et vérifier la durée de vie des supports, par exemple dix à quinze ans pour un DVD gravé.
+
+      Les professionnels sont soumis au RGPD et à la loi Informatique et libertés pour leurs sauvegardes de données personnelles.
+
+V. LES MISES À JOUR.
+
+      Mettre à jour sans tarder tous les appareils et logiciels, uniquement depuis les sites officiels, en activant l'installation automatique.
+
+      Distinguer les mises à jour critiques de sécurité et les mises à jour de version, se méfier des fausses alertes de mise à jour sur Internet, et tester puis sauvegarder avant une mise à jour en entreprise.
+
+      Protéger autrement, par isolement du réseau, les appareils qui ne peuvent plus être mis à jour, et vérifier la politique de mise à jour avant un achat.
+
+VI. LES USAGES PRO-PERSO.
+
+      Utiliser des mots de passe différents pour les services professionnels et personnels, ne pas mélanger les messageries, et avoir un usage responsable d'Internet au travail, que l'employeur peut contrôler.
+
+      Maîtriser ses propos sur les réseaux sociaux, ne pas utiliser de stockage en ligne personnel pour le travail sans autorisation, faire les mises à jour et utiliser un antivirus.
+
+      Ne jamais brancher une clé USB trouvée ou offerte, utiliser une clé pour chaque usage et éviter les Wi-Fi publics.
+
+VII. LES TROIS RISQUES.
+
+   A. L'hameçonnage.
+
+      En prévention, ne jamais communiquer d'informations sensibles par message ou téléphone, survoler les liens pour voir leur vraie adresse et vérifier l'adresse du site.
+
+      Victime, il faut faire opposition bancaire, changer le mot de passe, conserver les preuves, signaler sur Signal Spam et Phishing Initiative, déposer plainte et appeler Info Escroqueries au 0 805 805 817.
+
+      Les infractions sont l'escroquerie, cinq ans et trois cent soixante-quinze mille euros, la collecte frauduleuse de données, l'accès frauduleux à un système, l'usurpation d'identité et la contrefaçon de marque.
+
+   B. Les rançongiciels.
+
+      L'infection vient d'une pièce jointe, d'un lien, d'un site compromis ou d'une intrusion exploitant des vulnérabilités non corrigées.
+
+      Victime, il faut débrancher la machine du réseau, alerter l'informatique, ne pas payer la rançon, conserver les preuves, déposer plainte, notifier la CNIL en cas de violation de données, et chercher une solution sur No More Ransom.
+
+      Il s'agit juridiquement d'une extorsion, sept ans et cent mille euros, avec l'atteinte à un système de traitement automatisé de données.
+
+   C. Le faux support technique.
+
+      Il ne faut jamais appeler le numéro affiché, redémarrer l'appareil, purger le cache, désinstaller le programme de prise en main à distance et changer ses mots de passe.
+
+      Un support technique officiel ne contacte jamais un utilisateur pour lui réclamer de l'argent, et les faits se signalent sur internet-signalement.gouv.fr.
+
+POINTS D'ATTENTION.
+
+      Un logo officiel dans un message ne prouve pas son authenticité.
+
+      La messagerie est le compte le plus critique car elle permet de réinitialiser tous les autres.
+
+      Une sauvegarde connectée en permanence peut être chiffrée par un rançongiciel.
+
+      Si sa messagerie est piratée, il faut prévenir tous ses contacts.
+
+EXEMPLES CITÉS.
+
+      Des cybercriminels ont volé les données d'un casino américain grâce au thermomètre connecté d'un aquarium.
+
+      Une faille de trottinettes électriques permettait de les déverrouiller et de contrôler l'accélération sans mot de passe.
+
+      La phrase un tiens vaut mieux que deux tu l'auras devient le mot de passe 1tvmQ2tl'A.
