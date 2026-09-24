@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Pré-génère les fichiers audio TTS (quiz + flashcards) via VoiceStudio local,
-directement dans batocera/<dépôt>/tts_assets/cache/<module>/, avec la MÊME convention
+directement dans batocera/<dépôt>/tts_assets/cache/<module>/ (versionné : la page web
+lit aussi ces mp3 pour les QCM et les flashcards), avec la MÊME convention
 de sous-dossier/nom que tts.py : le jeu les trouve donc automatiquement en
 cache au lancement (plus de synthèse à la demande depuis l'abandon de Piper -
 un contenu non pré-généré reste simplement muet). Un sous-dossier par module (pas tout à plat) : plus
@@ -41,7 +42,7 @@ BATOCERA_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_DIR = os.path.dirname(BATOCERA_DIR)          # racine du dépôt thématique
 REPO_NAME = os.path.basename(REPO_DIR)
 GAME_DIR = os.path.join(BATOCERA_DIR, REPO_NAME)  # dossier du jeu, nommé comme le dépôt
-DATA_DIR = REPO_DIR                                 # modules.json, quizz/, flashcard/
+DATA_DIR = os.path.join(GAME_DIR, 'data')         # modules.json, quizz/, flashcard/ (source unique, lue aussi par la page web)
 CACHE_DIR = os.path.join(GAME_DIR, 'tts_assets', 'cache')
 
 VOICESTUDIO_URL = "http://127.0.0.1:3900/generate"

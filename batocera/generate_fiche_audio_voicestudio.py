@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Pré-génère la narration audio des fiches de révision via VoiceStudio local,
-dans fiche_audio/ à la racine du dépôt (lue aussi par la page web), lue en jeu via dl.fiche_audio_path() (voir
+dans batocera/<dépôt>/data/fiche_audio/ (lue aussi par la page web), lue en jeu via dl.fiche_audio_path() (voir
 data_loader.py) et pygame.mixer.music (streaming, pas pygame.mixer.Sound :
 ces fichiers sont bien trop longs pour tenir chargés entièrement en mémoire
 comme le quiz/flashcard).
@@ -40,9 +40,9 @@ BATOCERA_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_DIR = os.path.dirname(BATOCERA_DIR)          # racine du dépôt thématique
 REPO_NAME = os.path.basename(REPO_DIR)
 GAME_DIR = os.path.join(BATOCERA_DIR, REPO_NAME)  # dossier du jeu, nommé comme le dépôt
-DATA_DIR = REPO_DIR
-FICHE_DIR = os.path.join(REPO_DIR, 'fiche')
-OUT_DIR = os.path.join(REPO_DIR, 'fiche_audio')    # partagé avec la page web
+DATA_DIR = os.path.join(GAME_DIR, 'data')         # source unique (jeu ET page web)
+FICHE_DIR = os.path.join(DATA_DIR, 'fiche')
+OUT_DIR = os.path.join(DATA_DIR, 'fiche_audio')    # partagé avec la page web
 
 VOICESTUDIO_URL = "http://127.0.0.1:3900/generate"
 PROFILE_ID = "cc1ebb9c"  # NarrateurPSE_H1_clean : même voix que le quiz/flashcard

@@ -2,23 +2,24 @@
 """Déploie le jeu Batocera de ce dépôt thématique vers une ou plusieurs
 machines Batocera (partage SMB, via gio).
 
-1. Assemble batocera/<dépôt>/data/ à partir des dossiers du dépôt (liens
-   physiques : aucun espace disque en plus, rien de versionné en double) :
-   modules.json, fiche/, quizz/, flashcard/, fiche_audio/, infographie/,
-   chanson/*.mp3, et podcast/ converti en mp3 (SDL_mixer sur Batocera ne
-   décode pas l'AAC/m4a de NotebookLM ; conversion faite une seule fois et
-   conservée dans batocera/podcast_mp3/).
+Le dossier batocera/<dépôt>/ contient DÉJÀ tout ce dont le jeu a besoin
+(code, data/ = contenus des modules, tts_assets/cache/ = audio des QCM et
+flashcards) : c'est aussi la source unique lue par la page web. Rien n'est
+assemblé ni copié localement.
+
+1. Vérifie data/podcast/ : un podcast NotebookLM déposé en .m4a est converti
+   en .mp3 (SDL_mixer sur Batocera ne décode pas l'AAC) puis le .m4a est
+   supprimé — un seul format, lu par le jeu et par la page web.
 2. Copie le dossier du jeu vers smb://<hôte>/share/roms/pygame/<dépôt>/, en
    n'envoyant que les fichiers absents ou de taille différente côté distant.
 3. Ajoute l'entrée du jeu (nom + vignette) dans le gamelist.xml pygame
    distant si elle n'y est pas encore (sauvegarde gamelist.xml.bak avant).
 
 Usage : python3 deploy.py [hôte ...]      (défaut : HOSTS ci-dessous)
-        python3 deploy.py --build-only    (assemble data/ sans rien envoyer)
+        python3 deploy.py --build-only    (conversion des podcasts seulement)
 """
 import json
 import os
-import shutil
 import subprocess
 import sys
 from urllib.parse import quote
@@ -30,57 +31,25 @@ REPO_DIR = os.path.dirname(BATOCERA_DIR)
 REPO_NAME = os.path.basename(REPO_DIR)
 GAME_DIR = os.path.join(BATOCERA_DIR, REPO_NAME)
 DATA_DIR = os.path.join(GAME_DIR, 'data')
-PODCAST_MP3_DIR = os.path.join(BATOCERA_DIR, 'podcast_mp3')
 THUMB = os.path.join(BATOCERA_DIR, 'vignette.png')
 
-# (dossier source dans le dépôt, extensions retenues)
-DATA_SOURCES = [
-    ('fiche', ('.txt',)), ('quizz', ('.csv',)), ('flashcard', ('.csv',)),
-    ('fiche_audio', ('.mp3',)), ('infographie', ('.png',)), ('chanson', ('.mp3',)),
-]
 
-
-def link_or_copy(src, dst):
-    os.makedirs(os.path.dirname(dst), exist_ok=True)
-    if os.path.exists(dst):
-        os.remove(dst)
-    try:
-        os.link(src, dst)
-    except OSError:
-        shutil.copy2(src, dst)
-
-
-def build_data():
-    if os.path.isdir(DATA_DIR):
-        shutil.rmtree(DATA_DIR)
-    os.makedirs(DATA_DIR)
-    link_or_copy(os.path.join(REPO_DIR, 'modules.json'), os.path.join(DATA_DIR, 'modules.json'))
-    count = 0
-    for folder, exts in DATA_SOURCES:
-        src_dir = os.path.join(REPO_DIR, folder)
-        if not os.path.isdir(src_dir):
+def convert_podcasts():
+    """Convertit en mp3 les podcasts restés en .m4a dans data/podcast/."""
+    podcast_dir = os.path.join(DATA_DIR, 'podcast')
+    if not os.path.isdir(podcast_dir):
+        return
+    for name in sorted(os.listdir(podcast_dir)):
+        if not name.endswith('.m4a'):
             continue
-        for name in os.listdir(src_dir):
-            if name.endswith(exts):
-                link_or_copy(os.path.join(src_dir, name), os.path.join(DATA_DIR, folder, name))
-                count += 1
-    podcast_dir = os.path.join(REPO_DIR, 'podcast')
-    if os.path.isdir(podcast_dir):
-        os.makedirs(PODCAST_MP3_DIR, exist_ok=True)
-        for name in sorted(os.listdir(podcast_dir)):
-            if not name.endswith('.m4a'):
-                continue
-            mp3 = os.path.join(PODCAST_MP3_DIR, name[:-4] + '.mp3')
-            if not os.path.exists(mp3):
-                print('conversion mp3 :', name, flush=True)
-                tmp = mp3 + '.tmp.mp3'
-                subprocess.run(['ffmpeg', '-nostdin', '-loglevel', 'error', '-y', '-i',
-                                os.path.join(podcast_dir, name), '-codec:a', 'libmp3lame',
-                                '-qscale:a', '4', tmp], check=True)
-                os.replace(tmp, mp3)
-            link_or_copy(mp3, os.path.join(DATA_DIR, 'podcast', name[:-4] + '.mp3'))
-            count += 1
-    print('data/ assemblé : {} fichiers'.format(count), flush=True)
+        src = os.path.join(podcast_dir, name)
+        mp3 = src[:-4] + '.mp3'
+        print('conversion mp3 :', name, flush=True)
+        tmp = mp3 + '.tmp.mp3'
+        subprocess.run(['ffmpeg', '-nostdin', '-loglevel', 'error', '-y', '-i', src,
+                        '-codec:a', 'libmp3lame', '-qscale:a', '4', tmp], check=True)
+        os.replace(tmp, mp3)
+        os.remove(src)
 
 
 def smb_url(host, rel=''):
@@ -152,7 +121,7 @@ def register_gamelist(host):
 
 def main():
     args = sys.argv[1:]
-    build_data()
+    convert_podcasts()
     if '--build-only' in args:
         return
     hosts = [a for a in args if not a.startswith('--')] or HOSTS
