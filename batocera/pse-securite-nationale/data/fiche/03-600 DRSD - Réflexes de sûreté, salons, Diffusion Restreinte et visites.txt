@@ -1,0 +1,199 @@
+RÉFLEXES DE SÛRETÉ DES SALARIÉS, SALONS, DOCUMENTS DIFFUSION RESTREINTE ET PARCOURS DE NOTORIÉTÉ, SUPPORTS DE SENSIBILISATION DE LA DRSD 2024-2026.
+
+LEXIQUE COMPLET.
+
+      La DRSD, Direction du renseignement et de la sécurité de la défense, diffuse librement sur son site des affiches, des fiches et des mémos de sensibilisation à la sûreté destinés aux salariés des entreprises de défense.
+
+      Le fait inhabituel est tout événement qui mérite de s'étonner et doit être signalé au responsable sûreté, comme un individu photographiant le site, une question intrusive ou un drone en vol stationnaire.
+
+      La politique du bureau propre consiste à ranger sous clé documents et matériels sensibles en fin de journée, à détruire ce qui n'est plus utile et à effacer tableaux et feuilles annotées.
+
+      L'impression sécurisée libère un document seulement après authentification par code PIN ou par badge sur l'imprimante.
+
+      Le besoin d'en connaître est le principe selon lequel une information protégée n'est communiquée qu'aux personnes qui en ont besoin pour leur mission, en plus de l'habilitation lorsqu'elle est requise.
+
+      La mention Diffusion Restreinte, ou DR, signale le caractère sensible d'une information sans relever du secret de la défense nationale.
+
+      La mention Spécial France, ou SF, réserve un document aux personnes morales et physiques de nationalité française, y compris les binationaux.
+
+      La mention Non Protégé, notée NP entre crochets, placée avant une phrase ou un paragraphe d'un document DR, indique que cette partie n'est pas protégée.
+
+      L'agrégat désigne la réunion de plusieurs documents DR qui peut constituer un ensemble plus sensible justifiant une classification.
+
+      Le parcours de notoriété, ou parcours de visite, est un circuit préétabli avec le chargé de sûreté pour accueillir des visiteurs en évitant l'accès aux informations et locaux sensibles.
+
+      La station blanche est un poste isolé permettant de vérifier l'innocuité d'un support amovible avant toute connexion au système d'information.
+
+      Le rapport d'étonnement est le compte rendu des points positifs, problèmes et axes d'amélioration rédigé après un salon ou un incident.
+
+      Les biodatas sont les informations d'identité des visiteurs transmises à l'avance, comme la photo, les noms, la date et le lieu de naissance, la nationalité et la fonction.
+
+COURS DÉTAILLÉ.
+
+I. LES RÉFLEXES DE SÛRETÉ AU QUOTIDIEN.
+
+   A. Signaler les faits inhabituels.
+
+      L'affiche Tous concernés par la sûreté de décembre 2024 rappelle de ne jamais sous-estimer un fait inhabituel et de le signaler immédiatement au responsable sûreté ou sécurité, sans penser qu'une autre personne le fera.
+
+      Il ne faut pas hésiter à questionner un visiteur non accompagné qui semble chercher son chemin sur le site.
+
+      Les faits inhabituels à reconnaître sont notamment des questions intrusives sur le site, les employés ou les mesures de sûreté, des objets laissés sans surveillance, un individu photographiant, filmant ou dessinant le site, un individu qui traîne devant l'entrée, qui compte les piétons ou les véhicules, qui refuse de présenter une pièce d'identité, un véhicule stationné longtemps avec des occupants, une livraison à une heure anormale ou un drone en vol stationnaire.
+
+      Les numéros d'urgence rappelés sont le 112, le 15 pour le SAMU, le 17 pour la police, le 18 pour les pompiers et le 114 pour les urgences par SMS.
+
+   B. La discrétion professionnelle.
+
+      Il ne faut jamais échanger sur des sujets sensibles ou classifiés avec des personnes qui n'ont ni l'habilitation requise ni le besoin d'en connaître.
+
+      Les sujets professionnels ne doivent pas être évoqués dans les transports, les espaces publics, les couloirs ou devant la machine à café, car le couloir n'est pas une salle de réunion.
+
+      La discrétion s'applique aussi aux publications sur les réseaux sociaux et aux mesures de sûreté et au fonctionnement de l'établissement.
+
+      Les téléphones portables doivent rester hors de la salle de réunion lorsque des sujets sensibles ou classifiés sont abordés, car les murs ont des oreilles et les téléphones aussi.
+
+      Face à une question intrusive, il faut apporter une réponse évasive et signaler la situation.
+
+   C. La protection des informations et des accès.
+
+      Le badge doit être porté de manière apparente sur le site et retiré en sortant, car le garder dehors facilite l'identification et expose à des sollicitations, et sa perte ou son vol doit être signalé immédiatement.
+
+      La session informatique doit être verrouillée à chaque absence, même courte, et le bureau fermé à clé si des documents sensibles y sont accessibles.
+
+      Les impressions sensibles doivent être récupérées immédiatement, avec l'impression sécurisée quand elle existe, et tout document abandonné doit être signalé.
+
+      Aucun document sensible ne doit finir dans une poubelle : le broyeur ou le coffre sont à privilégier, selon le principe de l'écran vide et du bureau propre.
+
+      Aucun objet ne doit bloquer une porte en position ouverte, même un extincteur, car la porte doit rester fermée même en journée.
+
+   D. L'hygiène numérique.
+
+      Il faut un mot de passe différent pour chaque accès, d'au moins douze caractères mêlant majuscules, minuscules, chiffres et caractères spéciaux, stocké dans un gestionnaire de mots de passe idéalement certifié par l'ANSSI, avec la double authentification quand elle existe.
+
+   E. En déplacement.
+
+      Dans les transports et lieux publics, il faut éviter les sujets professionnels, rester discret dans ses lectures, taper discrètement ses identifiants et utiliser un filtre de confidentialité sur l'ordinateur et le téléphone.
+
+      Il ne faut pas se connecter aux Wi-Fi publics mais utiliser un VPN, désactiver le Wi-Fi et le Bluetooth dans les lieux publics et privilégier les prises secteur aux prises USB pour éviter l'aspiration de données.
+
+      En voiture, les affaires professionnelles se placent discrètement dans le coffre verrouillé, jamais sur la banquette, et un ordinateur ou des documents sensibles ne doivent jamais rester dans un véhicule stationné, même dans le coffre, car la voiture n'est pas un coffre-fort.
+
+      Avec un véhicule de location, il vaut mieux ne pas y connecter ses appareils professionnels et, en cas de connexion Bluetooth, effacer les données du véhicule.
+
+II. LES SALONS EN FRANCE ET À L'ÉTRANGER.
+
+   A. Les risques.
+
+      Les principaux risques lors des salons sont l'espionnage, le terrorisme, le sabotage ou la subversion, les attaques cyber comme le rançongiciel, l'atteinte réputationnelle et les vols de données ou de matériels.
+
+      Les impacts possibles sont la perte de marchés et d'avantages concurrentiels, la perte de confiance, la perte d'avance technologique et l'atteinte au patrimoine scientifique et technologique.
+
+      Les modes opératoires constatés sont les vols de matériels, de supports informatiques ou de badges d'exposant, les approches humaines par un ancien élève, un ancien collaborateur, un faux journaliste ou un faux stagiaire, les tentatives d'écoute, de prise de vue ou d'intrusion, et les attaques cyber par faux point d'accès, détournement du Wi-Fi ou supports amovibles.
+
+   B. Avant le salon.
+
+      L'équipe informe la chaîne de sûreté, tient compte des retours d'expérience, répartit les missions, inventorie le matériel, identifie les stands voisins et les délégations et oriente les écrans pour empêcher la capture des mots de passe.
+
+      Les équipes de communication n'exposent que des maquettes simples et brevetées et préparent un argumentaire pour les sujets sensibles.
+
+      Côté numérique, il faut mettre à jour les équipements, emporter seulement les données nécessaires, utiliser des mots de passe de circonstance, un VPN et des filtres de confidentialité.
+
+      Hors salon, il faut se méfier des sollicitations fortuites, des invitations et des cadeaux, ne jamais laisser ses outils sans surveillance, y compris dans le coffre de la chambre d'hôtel, et préférer le réseau mobile 4G ou 5G au Wi-Fi de l'hôtel.
+
+   C. Pendant et après le salon.
+
+      Une personne doit toujours rester sur le stand, l'identité des visiteurs doit être vérifiée par une carte de visite annotée et les prises de vue des prototypes doivent être interdites.
+
+      Les équipes sûreté réunissent les participants matin et soir, tiennent un carnet de bord des anomalies et remontent tout doute à la DRSD sous la forme qui, quoi, où, quand, comment.
+
+      Les supports amovibles sont contrôlés sur une station blanche et les postes sécurisés par câble antivol.
+
+      Le démontage est un moment critique où la vigilance baisse, d'où la présence nécessaire de l'équipe et la vérification des inventaires.
+
+      Au retour, il faut un inventaire complet, un rapport d'étonnement séparant la sûreté du commercial, et une vérification de tous les supports numériques par le responsable de la sécurité des systèmes d'information avant blanchiment.
+
+III. LA GESTION DES DOCUMENTS DIFFUSION RESTREINTE.
+
+   A. Le cadre.
+
+      La mention DR relève de l'annexe 1 de l'IGI 1300 du 9 août 2021 et ne relève pas du secret de la défense nationale.
+
+      Un document DR porte le timbre Diffusion Restreinte en haut et au milieu de chaque page.
+
+   B. Les règles de gestion.
+
+      Le document est enregistré au départ et à l'arrivée avec les références de l'émetteur, la date, le numéro d'enregistrement et le marquage, mais la mention DR ne figure pas sur le registre.
+
+      Aucune habilitation n'est requise pour le traiter, mais seules les personnes ayant le besoin d'en connaître y accèdent et il ne doit jamais rester sans surveillance.
+
+      Il se conserve dans un meuble fermant à clé, ses copies sont limitées et la reproduction se fait sur un équipement de niveau DR.
+
+      Il est recommandé de faire signer un engagement de non-divulgation, selon le modèle de l'annexe 14 de l'instruction ministérielle n° 900 du 27 août 2025.
+
+      Il se transmet sous double enveloppe, l'enveloppe intérieure portant la mention et les références, l'enveloppe extérieure seulement les indications d'acheminement.
+
+      Il est détruit de manière irréversible, par exemple au broyeur, et jamais jeté à la poubelle.
+
+   C. Les interdits.
+
+      Il est interdit de scanner un document DR pour le stocker ou le transmettre sur un système d'information ou un réseau non homologué DR, sauf avec un chiffrement qualifié ou agréé par l'ANSSI comme ACID ou ZED!, ZEDFREE et ZEDPRO n'étant pas agréés.
+
+      Ces règles renvoient à l'instruction interministérielle n° 901/SGDSN/ANSSI du 28 janvier 2015 sur les systèmes d'information sensibles.
+
+      Une personne étrangère ne peut pas se trouver à proximité d'une personne manipulant un document DR Spécial France.
+
+IV. LE PARCOURS DE NOTORIÉTÉ.
+
+   A. Principe.
+
+      L'accueil de visiteurs est un outil de rayonnement mais aussi un vecteur de captation d'informations, notamment par les concurrents et les délégations étrangères, et improvisation ne rime jamais avec visiteurs.
+
+      Le parcours de notoriété est obligatoire dans le cadre de la protection du potentiel scientifique et technique de la nation.
+
+      Il combine des mesures organisationnelles, humaines et techniques, et il ne traite pas des réunions donnant accès à des informations classifiées, régies par l'IGI 1300.
+
+   B. Se préparer en toutes circonstances.
+
+      Il faut identifier la sensibilité des locaux, réaliser une analyse de risques, définir des circuits excluant les zones sensibles, les tracer sur des plans protégés et tenir un registre des visiteurs conforme au RGPD.
+
+      La salle d'accueil doit être insonorisée, sans vue sur les bureaux sensibles, sans prise réseau accessible ni code Wi-Fi affiché, avec un Wi-Fi visiteurs séparé et des casiers pour les téléphones.
+
+      Un ordinateur dédié aux visites, non connecté au réseau, et une clé USB dédiée évitent qu'un visiteur prétextant une panne ne connecte une clé piégée.
+
+      Le badge visiteur ne porte que la mention VISITEUR, avec un tour de cou de couleur différente de celle des employés, et un badge sans contact ne donne que des droits très restreints.
+
+      L'encadrement comprend un responsable de visite et, si possible, deux accompagnateurs dont un serre-file.
+
+   C. Avant, la veille, le jour et après la visite.
+
+      Avant la visite, il faut connaître l'objectif et les interlocuteurs, recevoir les biodatas plusieurs jours avant, informer le référent DRSD, annoncer les règles d'accueil et éviter plusieurs délégations le même jour.
+
+      La veille, il faut contrôler le circuit, effacer tableaux et paperboards, vider les poubelles, préparer l'ordinateur en mode présentateur et rappeler les consignes au personnel.
+
+      Le jour de la visite, il faut vérifier les identités, remplir soi-même le registre, remettre les badges contre une pièce d'identité, accompagner la délégation en permanence et interdire photos, supports amovibles et QR codes proposés par les visiteurs.
+
+      Après la visite, il faut refaire le circuit, recueillir les étonnements du personnel et faire contrôler les supports utilisés ou offerts en cadeau.
+
+POINTS D'ATTENTION.
+
+      Le signalement d'un fait inhabituel ne doit jamais être laissé à quelqu'un d'autre.
+
+      La mention DR n'est pas une classification de défense mais impose discrétion et règles de protection.
+
+      Plusieurs documents DR rassemblés peuvent justifier une classification.
+
+      Certaines délégations étrangères intègrent au dernier moment des membres de services de renseignement.
+
+      Des lunettes connectées peuvent capter images et son, ce qui justifie de demander leur retrait.
+
+      Le démontage d'un stand est un moment de vulnérabilité maximale.
+
+EXEMPLES CITÉS.
+
+      Des visiteurs ont trempé leur cravate dans des solutions liquides pour prélever des échantillons, d'où le prêt de chaussures ou coques de sécurité plutôt que l'usage de leurs propres équipements.
+
+      Un visiteur peut prétexter la panne de son ordinateur portable pour connecter sa clé USB sur un poste de l'entreprise.
+
+      L'affiche Une viennoiserie offerte pour une session ouverte rappelle de verrouiller sa session, et l'affiche What happens in France stays in France illustre la mention Spécial France.
+
+      Un client ne devrait pas passer devant une pièce fabriquée pour l'un de ses concurrents.
