@@ -1,0 +1,145 @@
+FICHES RÉFLEXES DE CYBERMALVEILLANCE.GOUV.FR, COMPRENDRE LES RISQUES, RÉAGIR EN CAS D'ATTAQUE ET CONNAÎTRE LES INFRACTIONS.
+
+LEXIQUE COMPLET.
+
+      La fiche réflexe de Cybermalveillance.gouv.fr présente pour chaque menace sa définition, le but recherché, la conduite à tenir si l'on est victime, les mesures préventives et les infractions applicables.
+
+      Le STAD, système de traitement automatisé de données, désigne un système d'information protégé par les articles 323-1 à 323-7 du code pénal.
+
+      La défiguration est l'altération de l'apparence d'un site Internet par un pirate, qui démontre sa prise de contrôle.
+
+      Le déni de service distribué, ou DDoS, rend un serveur inaccessible en le saturant de requêtes ou en exploitant une faille.
+
+      L'escroquerie aux faux ordres de virement, ou FOVI, amène la victime à réaliser un virement non planifié, par exemple dans l'arnaque au président ou le faux changement de RIB d'un fournisseur ou d'un salarié.
+
+      Le chantage à la webcam prétendument piratée, ou cryptoporno, est un message affirmant détenir des vidéos compromettantes pour obtenir une rançon.
+
+      Le spam, ou pourriel, est une communication électronique non sollicitée à des fins publicitaires, commerciales ou malveillantes.
+
+      Une violation de données personnelles est l'accès ou la divulgation non autorisés d'informations permettant d'identifier une personne.
+
+      Bloctel est la liste d'opposition au démarchage téléphonique, et le 33700 la plateforme de signalement des spams par SMS ou appel.
+
+      Perceval est la plateforme du ministère de l'Intérieur pour signaler une fraude à la carte bancaire, THESEE celle des escroqueries en ligne, et internet-signalement.gouv.fr, ou Pharos, celle des contenus illicites.
+
+COURS DÉTAILLÉ.
+
+I. LES ATTAQUES CONTRE LES SYSTÈMES ET SITES.
+
+   A. Le piratage d'un système informatique.
+
+      Les pirates entrent par une faille ou un défaut de configuration, un virus, des identifiants volés par hameçonnage ou un mot de passe trop simple ou par défaut, et cherchent à se propager.
+
+      Il faut déconnecter ou mettre en quarantaine l'appareil, identifier la source et toute activité inhabituelle, évaluer l'étendue, collecter les preuves, porter plainte, scanner, réinstaller depuis une sauvegarde antérieure, changer les mots de passe et mettre à jour.
+
+      Les professionnels notifient la CNIL en cas de violation de données personnelles, limitent les privilèges et n'utilisent les comptes administrateurs qu'en cas de nécessité.
+
+   B. Les virus.
+
+      Un virus perturbe un système à l'insu de son propriétaire, qu'il s'agisse de rançongiciel, cheval de Troie ou logiciel espion, et se manifeste par des alertes, ralentissements ou fenêtres inexpliquées.
+
+      Il faut déconnecter l'équipement, identifier la source, conserver les preuves, scanner, changer les mots de passe, restaurer et en dernier recours réinstaller.
+
+   C. La défiguration et le déni de service.
+
+      La défiguration vise la notoriété, la revendication ou l'atteinte à l'image, et le DDoS peut servir de diversion pour une autre attaque.
+
+      Il faut déconnecter la machine ou alerter l'hébergeur, filtrer les requêtes, récupérer les journaux, copier la machine attaquée, corriger les failles et changer les mots de passe avant la remise en ligne.
+
+      Face à une menace de DDoS assortie d'une demande de rançon, il ne faut pas payer, et il faut demander à l'hébergeur une protection adaptée.
+
+   D. L'usurpation de site Internet professionnel.
+
+      Des escrocs imitent un site, une marque ou une organisation pour de faux sites de vente, de l'hameçonnage ou de la désinformation, même si la victime n'a pas de site.
+
+      Il faut réserver préventivement les noms de domaine voisins, gérer leurs échéances, créer des comptes officiels sur les réseaux sociaux et surveiller son identité en ligne.
+
+      Victime, il faut conserver les preuves, identifier hébergeur et bureau d'enregistrement par un service Whois ou RDAP, demander la fermeture au service abuse, signaler à Phishing Initiative, demander le déréférencement et orienter les clients trompés vers THESEE.
+
+II. LES ATTAQUES CONTRE LES COMPTES ET LES IDENTITÉS.
+
+   A. Le piratage de compte.
+
+      Il résulte d'un mot de passe trop simple, d'un hameçonnage ou de la réutilisation d'un mot de passe sur un site piraté.
+
+      Il faut contacter le service, vérifier le téléphone et l'adresse de récupération, changer le mot de passe partout, activer la double authentification, prévenir ses contacts et vérifier les publications et commandes.
+
+   B. L'usurpation d'identité et la fuite de données.
+
+      L'usurpation permet d'ouvrir des lignes ou comptes, de souscrire des crédits ou de créer de faux profils au nom de la victime.
+
+      Il faut conserver les preuves, signaler aux plateformes, porter plainte pour chaque fait, prévenir les banques, renouveler ses pièces d'identité, produire une attestation sur l'honneur et contacter la Banque de France.
+
+      Il est conseillé de marquer les copies de documents d'identité avec le motif, la date et le destinataire.
+
+      En cas de fuite de données, il faut lire le communiqué de l'organisme, se méfier des appels ciblés, changer ses mots de passe, surveiller ses comptes et saisir la CNIL si les données restent accessibles un mois après une demande de suppression.
+
+   C. Le cyberharcèlement.
+
+      Ce sont des agissements malveillants répétés, par une ou plusieurs personnes, aux conséquences parfois dramatiques.
+
+      Il ne faut pas répondre, en parler à un tiers de confiance, conserver les preuves, verrouiller ses comptes, bloquer et signaler, demander le déréférencement, signaler sur internet-signalement.gouv.fr, porter plainte et appeler le 3018.
+
+III. LES ESCROQUERIES FINANCIÈRES.
+
+   A. Les faux ordres de virement.
+
+      Ils jouent sur l'urgence et la confidentialité, souvent après le piratage d'une messagerie, avec un compte bénéficiaire à l'étranger.
+
+      Il faut identifier les virements, demander leur suspension ou le retour des fonds à la banque, conserver les preuves et porter plainte.
+
+      En prévention, il faut une procédure de validation hiérarchique non dérogeable des virements imprévus et des changements de coordonnées bancaires, et limiter la publication des noms des personnes habilitées.
+
+   B. La fraude à la carte bancaire.
+
+      Les coordonnées sont obtenues par hameçonnage, piratage, fuite de données, distributeur piégé ou commerçant malhonnête.
+
+      Il faut faire opposition, demander le remboursement, signaler sur Perceval et porter plainte, et privilégier les paiements sécurisés sans enregistrer sa carte.
+
+   C. Les arnaques à l'emploi.
+
+      Les fausses offres et propositions non sollicitées usurpent le nom et le SIRET d'entreprises pour soutirer argent ou données.
+
+      Il ne faut jamais payer pour un emploi ou une formation, ni transmettre RIB ou numéro de sécurité sociale avant une rencontre, ni encaisser un chèque d'un inconnu, que la banque peut annuler plusieurs semaines plus tard.
+
+      Une grande entreprise écrit depuis son propre nom de domaine, et le piratage de l'espace recruteur d'un site d'emploi doit être signalé au site et aux candidats contactés.
+
+IV. LES SOLLICITATIONS ABUSIVES.
+
+      Face au chantage à la webcam, il ne faut ni paniquer, ni répondre, ni payer, aucune mise à exécution n'ayant été démontrée, mais conserver les preuves, changer son mot de passe et porter plainte pour extorsion.
+
+      Face au spam électronique, il faut ne pas répondre, se désinscrire si l'émetteur est légitime, signaler sur Signal Spam, marquer comme indésirable, bloquer et saisir la CNIL si les envois persistent.
+
+      Face au spam téléphonique, il faut envoyer STOP, signaler au 33700, s'inscrire sur Bloctel, ne pas rappeler un numéro surtaxé et vérifier un numéro sur un annuaire inversé comme infosva.org.
+
+V. LES PRINCIPALES INFRACTIONS.
+
+      L'accès frauduleux à un STAD est puni de trois ans et cent mille euros, cinq ans et cent cinquante mille euros en cas de modification ou d'altération, sept ans et trois cent mille euros contre un système de l'État.
+
+      L'entrave au fonctionnement d'un STAD, qui couvre le DDoS, est punie de cinq ans et cent cinquante mille euros.
+
+      L'escroquerie est punie de cinq ans et trois cent soixante-quinze mille euros, l'extorsion de sept ans et cent mille euros, l'usurpation d'identité d'un an et quinze mille euros.
+
+      La collecte frauduleuse de données personnelles est punie de cinq ans et trois cent mille euros, l'atteinte au secret des correspondances d'un an et quarante-cinq mille euros.
+
+      Le cyberharcèlement est puni de deux ans et trente mille euros, trois ans et quarante-cinq mille euros si la victime est mineure, même si chaque membre d'un groupe n'a pas agi de façon répétée.
+
+      L'usage frauduleux d'un moyen de paiement est puni de sept ans et sept cent cinquante mille euros, et la contrefaçon de marque de trois ans et trois cent mille euros.
+
+POINTS D'ATTENTION.
+
+      La tentative d'atteinte à un STAD est punie des mêmes peines que l'infraction.
+
+      La plainte, même sans préjudice, permet recoupements et indemnisation.
+
+      Payer une rançon n'offre aucune garantie et alimente le système criminel.
+
+      Un chèque crédité sur son compte peut être annulé plusieurs semaines après.
+
+EXEMPLES CITÉS.
+
+      Une défiguration peut réduire un site à un écran noir portant la mention hacked.
+
+      Un faux recruteur injoignable car prétendument à l'étranger propose en entretien un poste différent de l'annonce.
+
+      Un escroc se présentant comme comptable d'un groupe a demandé à un fournisseur d'envoyer ses factures à l'ancien nom de domaine du groupe.
