@@ -1,0 +1,143 @@
+FEUILLE DE ROUTE DE LA SÉCURITÉ NUMÉRIQUE DE L'ÉTAT 2026-2027 ET DOSSIER DE PRESSE DU QUATRIÈME COMITÉ INTERMINISTÉRIEL POUR LA RÉSILIENCE NATIONALE DU 8 JUILLET 2026.
+
+LEXIQUE COMPLET.
+
+      L'instruction générale interministérielle n°1337, ou IGI 1337/SGDSN/ANSSI, organise la sécurité des systèmes d'information de l'État et de ses établissements publics et prévoit une feuille de route annuelle.
+
+      Le COSINUS, comité stratégique de la sécurité numérique, valide la feuille de route avant une concertation interministérielle.
+
+      Un système d'information à enjeux soutient les missions essentielles d'un ministère ou traite des données sensibles, selon une évaluation des besoins de sécurité et des impacts d'un incident.
+
+      L'homologation de sécurité est la décision, obligatoire au titre de l'article 4-3 du décret n°2019-1088 du 25 octobre 2019, qui autorise la mise en service d'un système d'information de l'État après analyse de ses risques.
+
+      Le maintien en condition de sécurité regroupe les mises à jour, la gestion des alertes et le remplacement des éléments obsolètes.
+
+      L'EDR ou XDR est un dispositif avancé de détection et de réponse aux attaques sur les postes et serveurs.
+
+      Le CSIRT ministériel est l'équipe de réponse aux incidents d'un ministère, mise en réseau avec le CERT-FR de l'ANSSI.
+
+      ProConnect est le mécanisme de fédération des identités des services numériques de l'État, qui remplace les comptes locaux.
+
+      La cryptographie post-quantique regroupe les algorithmes résistant aux capacités de calcul d'un futur ordinateur quantique.
+
+      Le CIRN, comité interministériel pour la résilience nationale, assure la cohérence, le suivi et l'impulsion de la stratégie nationale de résilience.
+
+      Les niveaux DEFSECNI sont les cinq niveaux de défense et de sécurité nationale, du niveau cinq en temps de paix au niveau un en crise majeure.
+
+COURS DÉTAILLÉ.
+
+I. LA FEUILLE DE ROUTE DE LA SÉCURITÉ NUMÉRIQUE DE L'ÉTAT 2026-2027.
+
+   A. Le contexte.
+
+      Les administrations publiques entrent dans le périmètre de la directive NIS 2, dont les articles 20 et 21 fixent les objectifs généraux repris par la feuille de route.
+
+      Les multiples intrusions et fuites de données de 2025 dans les ministères ont montré des vulnérabilités graves, et la feuille de route affermit les échéances malgré les contraintes budgétaires.
+
+      Elle compte dix objectifs, avec une priorité aux systèmes d'information à enjeux.
+
+   B. Gouvernance, homologation et écosystème.
+
+      Chaque ministère désigne un conseiller numérique chargé de la sécurité au cabinet du ministre dans le mois suivant sa nomination, intègre la cybersécurité dans les lettres de mission des directeurs, mobilise les corps d'inspection et formalise une politique d'audit.
+
+      La politique de sécurité des systèmes d'information de l'État intégrera le référentiel NIS 2 au plus tard au premier trimestre 2027.
+
+      Tout système migré vers le cloud est considéré comme nouveau et doit être homologué, et les SI soutenant les missions essentielles doivent l'être avant le 31 décembre 2026, les autres SI à enjeux avant fin 2028.
+
+      Les commissions d'homologation doivent présenter les risques résiduels liés aux objectifs non atteints, comme les correctifs, les revues de comptes ou les tests de restauration.
+
+      Les marchés numériques doivent intégrer des exigences de cybersécurité proportionnées avant fin 2026, et une politique de contrôle de la chaîne d'approvisionnement doit exister au 30 juin 2026.
+
+   C. Maintien en condition de sécurité et services exposés.
+
+      Les ministères définissent des procédures d'installation des correctifs, traitent les alertes et remplacent en priorité les équipements de sécurité obsolètes avant fin 2026, les autres éléments obsolètes des SI à enjeux avant le 1er mars 2028.
+
+      À défaut de mise à jour possible, des mesures d'atténuation conformes aux recommandations de l'ANSSI s'appliquent.
+
+      Le DNS et la messagerie, vecteurs privilégiés des attaques contre l'État, doivent être renforcés en 2026, notamment par le service interministériel DNS.
+
+   D. Identités, administration et supervision.
+
+      La gestion du cycle de vie des identités est automatisée à partir des bases de ressources humaines, dans une logique Zéro Trust.
+
+      Les droits d'accès des SI à enjeux sont revus au moins une fois par an, et les comptes génériques supprimés au 30 juin 2026 ou rendus traçables.
+
+      L'authentification multifacteur est exigée sur tous les SI à enjeux avant le 28 février 2027 et sur tous les SI avant le 28 février 2028, et pour tous les administrateurs avant fin 2026.
+
+      L'administration se fait depuis des postes dédiés, et les annuaires doivent atteindre le niveau trois de l'indicateur ADS.
+
+      Les ministères déploient des EDR ou XDR sur tous les postes et serveurs avant fin 2026 et consolident leurs CSIRT, qui peuvent partager avec le CERT-FR sans validation préalable.
+
+      Après un incident important, le ministère adresse six mois plus tard un point de suivi à l'ANSSI, au corps d'inspection et au Premier ministre.
+
+   E. Reprise d'activité et post-quantique.
+
+      Les plans de reprise sont testés au moins une fois par an, ainsi que les sauvegardes des SI à enjeux.
+
+      Certaines attaques captent dès aujourd'hui des informations durablement sensibles pour les déchiffrer plus tard, d'où l'urgence de la transition post-quantique.
+
+      Les ministères inventorient leurs données durablement sensibles d'ici fin 2026, identifient les briques techniques d'ici fin 2027, protègent tous les SI Diffusion Restreinte avant fin 2030, et ne déploient ensuite que des produits intégrant la cryptographie post-quantique.
+
+II. LE CIRN 4 DU 8 JUILLET 2026.
+
+   A. La stratégie nationale de résilience.
+
+      Définie en 2008 par le Livre blanc, la résilience est la capacité à résister à une agression ou une catastrophe puis à rétablir un fonctionnement normal ou socialement acceptable.
+
+      La stratégie nationale de résilience de 2022 comptait soixante-treize actions en trois axes, puis a été recentrée au CIRN 3 du 23 juin 2025 sur deux priorités et onze actions.
+
+      La démarche globale se résume en trois verbes : anticiper, se préparer, faire face ensemble.
+
+   B. Les principales décisions.
+
+      Le Gouvernement établit une liste de biens vitaux, protégée par le secret de la défense nationale, comme les couvertures de survie, groupes électrogènes, médicaments ou terres rares, sécurisée par relocalisation, diversification ou stocks stratégiques.
+
+      Un plan national de résilience des terres rares et aimants a été lancé, et certains opérateurs essentiels pourront être tenus de constituer des stocks.
+
+      Un exercice inédit de black-out électrique généralisé dans l'Hexagone est prévu.
+
+      La lutte anti-drones s'appuie sur un centre d'excellence et de labellisation à Brétigny-sur-Orge et sur une évolution du droit permettant aux opérateurs privés de neutraliser des drones.
+
+      La loi d'actualisation de la LPM, adoptée les 30 juin et 1er juillet 2026, crée l'état d'alerte de sécurité nationale, levier intermédiaire en deçà de l'état d'urgence.
+
+      La crise écologique est qualifiée d'urgence de sécurité nationale, avec une feuille de route commune du SGDSN et du secrétariat général pour la planification écologique.
+
+   C. Se préparer.
+
+      Le Plan de défense et de sécurité nationale lutte contre les stratégies hybrides et garantit la continuité de l'État selon les niveaux DEFSECNI.
+
+      Le plan Vigipirate rénové, en vigueur depuis le 22 juin 2026, compte trois niveaux, vigilance, vigilance renforcée et alerte attentat, avec un retour automatique au niveau intermédiaire après douze jours au niveau maximal sauf décision du Premier ministre.
+
+      L'exercice Orion 2026, du 22 septembre 2025 au 30 avril 2026, a mobilisé douze ministères et environ dix mille militaires pour un conflit de haute intensité en Europe de l'Est.
+
+   D. Faire face ensemble.
+
+      Les réserves sont regroupées en trois viviers : opérationnel autour d'une réserve de sécurité nationale, continuité des opérateurs essentiels, et volontariat local comme les réserves communales de sécurité civile.
+
+      Une plateforme de l'engagement recensera toutes les offres, et la Journée nationale de la résilience, chaque 13 octobre, s'étend aux menaces hybrides.
+
+      L'École renforce l'éducation à la défense dès la rentrée 2026, maintient deux exercices annuels de mise en sûreté et forme aux gestes qui sauvent.
+
+      Le Service civique, qui accueille environ quatre-vingt mille jeunes par an, expérimente une formation aux crises visant cinq mille jeunes d'ici mars 2027.
+
+      Les préfets publient le dossier départemental des risques majeurs et accompagnent les plans communaux de sauvegarde, un site de formation est ouvert aux élus et un guide pour les TPE et PME est annoncé.
+
+POINTS D'ATTENTION.
+
+      Une migration vers le cloud impose une nouvelle homologation.
+
+      L'authentification multifacteur et les postes d'administration dédiés sont des priorités à court terme.
+
+      La menace quantique est déjà actuelle pour les données durablement sensibles captées aujourd'hui.
+
+      La résilience de la Nation repose sur chacun, citoyens, entreprises et collectivités.
+
+EXEMPLES CITÉS.
+
+      Les attaques informatiques contre des infrastructures électriques en Pologne et le black-out espagnol montrent le risque de paralysie de la société.
+
+      Lors des canicules, les réservistes communaux de sécurité civile vont au contact des personnes vulnérables et distribuent de l'eau.
+
+      Le blocage du détroit d'Ormuz et l'arsenalisation du droit illustrent la fragilité des approvisionnements.
+
+      L'édition 2025 de la Journée nationale de la résilience a labellisé quinze mille actions.

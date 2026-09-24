@@ -1,0 +1,33 @@
+Quelle instruction organise la sécurité des SI de l'État ?;L'IGI 1300;L'IGI 1337;La DGI 320;L'II 901;3;Elle prévoit une feuille de route annuelle.
+Quel comité valide la feuille de route de la sécurité numérique de l'État ?;La CIEEMG;Le COLMI;Le CDSN;Le COSINUS;5;Comité stratégique de la sécurité numérique.
+Quelle directive fait entrer les administrations publiques dans le périmètre des entités régulées ?;RGPD;NIS 2;DORA;eIDAS;3;Ses articles 20 et 21 fixent les objectifs généraux.
+Qu'est-ce qu'un SI à enjeux ?;Un SI sans utilisateur;Un SI de jeux vidéo;Un SI obsolète;Un SI soutenant les missions essentielles ou traitant des données sensibles;5;Il est prioritaire dans la feuille de route.
+Quel texte rend l'homologation des SI de l'État obligatoire ?;Le RGPD;Le décret n°2019-1088 du 25 octobre 2019;Le Code civil;La loi de 1978;3;Article 4-3 du décret.
+Que devient un SI migré vers le cloud ?;Un SI supprimé;Un SI dispensé d'homologation;Un nouveau SI à homologuer;Un SI classifié;4;Une politique d'hébergement cloud est exigée.
+Quand les SI soutenant les missions essentielles doivent-ils être homologués ?;Avant le 31 décembre 2026;Jamais;Avant 2040;Avant 2020;2;Les autres SI à enjeux avant fin 2028.
+Qui chaque ministère doit-il désigner au cabinet du ministre ?;Un juriste;Un porte-parole;Un conseiller numérique chargé de la sécurité;Un chauffeur;4;Dans le mois suivant la nomination du ministre.
+Que doivent présenter les commissions d'homologation ?;Le budget de la cantine;Les risques résiduels liés aux objectifs non atteints;Les congés des agents;Rien;3;Par exemple les correctifs non déployés.
+Quels services exposés sont les vecteurs privilégiés des attaques contre l'État ?;Le DNS et la messagerie;Le téléphone fixe;L'ascenseur;L'imprimante et le fax;2;Le service interministériel DNS est à privilégier.
+Quand l'authentification multifacteur est-elle exigée sur tous les SI à enjeux ?;Avant 2020;Jamais;Avant 2035;Avant le 28 février 2027;5;Sur l'ensemble des SI avant le 28 février 2028.
+À quelle fréquence minimale revoir les droits d'accès des SI à enjeux ?;Jamais;Chaque jour;Tous les dix ans;Une fois par an;5;D'abord les comptes d'administration technique.
+Que faire des comptes génériques ?;Les partager;Les multiplier;Les supprimer ou, à défaut, renforcer leur traçabilité;Les publier;4;Échéance au 30 juin 2026.
+Qu'est-ce que ProConnect ?;Un antivirus;Le mécanisme de fédération des identités des services numériques de l'État;Un logiciel de paie;Un réseau social;3;Il remplace les comptes locaux.
+Depuis quels postes l'administration des SI doit-elle se faire ?;Depuis des postes dédiés;Depuis des postes personnels;Depuis n'importe quel poste;Depuis des cybercafés;2;Avec une authentification multifacteur des administrateurs.
+Quel niveau de l'indicateur ADS les annuaires doivent-ils atteindre ?;Aucun;Le niveau 10;Le niveau 3;Le niveau 1;4;Il protège contre les vulnérabilités connues.
+Quels dispositifs de détection doivent être déployés sur tous les postes et serveurs ?;EDR ou XDR;Des fax;Des caméras;Des alarmes incendie;2;Avant fin 2026, priorité aux SI à enjeux.
+Avec qui les CSIRT ministériels partagent-ils sans validation préalable ?;Les syndicats;Le CERT-FR;La presse;Les fournisseurs;3;Le CERT-FR est porté par l'ANSSI.
+Que doit faire un ministère six mois après un incident important ?;Changer de nom;Oublier l'incident;Adresser un point de suivi à l'ANSSI, au corps d'inspection et au Premier ministre;Rien;4;Il doit aussi suivre les recommandations de l'ANSSI.
+Pourquoi engager dès maintenant la transition post-quantique ?;Des données captées aujourd'hui pourront être déchiffrées plus tard;Par effet de mode;Pour réduire les coûts;Parce que les ordinateurs quantiques sont interdits;2;Le chantier est long.
+Avant quand les SI Diffusion Restreinte doivent-ils intégrer la cryptographie post-quantique ?;Fin 2026;Fin 2030;Jamais;2050;3;Ensuite, seuls des produits post-quantiques seront déployés.
+Quand s'est tenu le CIRN 4 ?;Le 14 juillet 2025;Le 8 juillet 2026;Le 1er janvier 2022;Le 13 octobre 2026;3;Il suit le CIRN 3 du 23 juin 2025.
+Combien d'actions comptait la stratégie nationale de résilience de 2022 ?;3;11;500;73;5;Elle a été recentrée en 2025 sur 11 actions.
+Quelles sont les trois étapes de la démarche globale de résilience ?;Anticiper, se préparer, faire face ensemble;Attendre, espérer, subir;Acheter, stocker, revendre;Aucune;2;C'est la devise du dossier CIRN 4.
+Pourquoi la liste des biens vitaux n'est-elle pas publique ?;Par oubli;Elle n'existe pas;Elle est protégée par le secret de la défense nationale;Elle est trop longue;4;Exemples : groupes électrogènes, médicaments, terres rares.
+Quel exercice inédit est prévu à la suite du CIRN 4 ?;Une invasion simulée;Un black-out électrique généralisé dans l'Hexagone;Une grève générale;Un tremblement de terre à Paris;3;Les réseaux essentiels doivent être endurcis.
+Où se trouve le centre d'excellence de lutte anti-drones ?;À Lyon;À Brétigny-sur-Orge;À Brest;À Strasbourg;3;Les opérateurs privés pourront neutraliser des drones.
+Qu'est-ce que l'état d'alerte de sécurité nationale ?;Un levier intermédiaire en deçà de l'état d'urgence;Une grève;Une élection anticipée;L'état de siège;2;Créé par la loi d'actualisation de la LPM.
+Quels sont les trois niveaux du plan Vigipirate rénové ?;Faible, moyen, fort;Paix, crise, guerre;Vigilance, vigilance renforcée, alerte attentat;Vert, orange, rouge;4;En vigueur depuis le 22 juin 2026.
+Que prévoit Vigipirate après 12 jours au niveau maximal ?;Rien;La fin du plan;Un passage au niveau 10;Un retour automatique au niveau intermédiaire sauf décision du Premier ministre;5;C'est une nouveauté de la réforme.
+Combien de niveaux DEFSECNI existe-t-il ?;Cinq, du niveau 5 en temps de paix au niveau 1 en crise majeure;Trois;Dix;Un;2;Ils structurent le Plan de défense et de sécurité nationale.
+Quand se tient la Journée nationale de la résilience ?;Chaque 14 juillet;Chaque 1er mai;Chaque 25 décembre;Chaque 13 octobre;5;Elle intègre désormais les menaces hybrides.
+Combien de jeunes le Service civique accueille-t-il chaque année ?;Environ 80 000;Environ 8 millions;Environ 800;Aucun;2;Une formation aux crises vise 5 000 jeunes d'ici mars 2027.
