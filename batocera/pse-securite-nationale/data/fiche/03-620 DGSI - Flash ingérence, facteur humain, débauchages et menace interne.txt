@@ -1,0 +1,155 @@
+FLASH INGÉRENCE ÉCONOMIQUE DE LA DGSI, LE FACTEUR HUMAIN, LES DÉBAUCHAGES, LES VOLS DE DONNÉES PAR DES COLLABORATEURS ET LES APPROCHES ÉTRANGÈRES, NUMÉROS 94, 98, 102, 106, 112 ET 116, 2023-2025.
+
+LEXIQUE COMPLET.
+
+      Le Flash ingérence économique est une publication mensuelle de la DGSI qui illustre par des cas anonymisés les actions d'ingérence dont sont victimes les entreprises et laboratoires français, afin de diffuser une culture de sécurité interne.
+
+      L'adresse de signalement de la DGSI pour les sujets de protection économique est securite-economique arobase interieur point gouv point fr.
+
+      Le débauchage est le recrutement ciblé de salariés d'un concurrent pour capter ses compétences, ses clients ou ses savoir-faire, ou pour le fragiliser.
+
+      La clause de non-concurrence interdit à un salarié, après son départ, de travailler pour un concurrent pendant une durée et sur une zone déterminées.
+
+      La clause de non-sollicitation interdit à un client, un cabinet de recrutement ou un cocontractant de recruter le personnel de l'entreprise.
+
+      La menace interne désigne les risques provenant de personnes ayant un accès légitime à l'entreprise, salariés, stagiaires ou prestataires.
+
+      Le keylogger est un logiciel espion qui enregistre toutes les frappes effectuées sur un clavier.
+
+      La faille zero-day est une vulnérabilité exploitée avant qu'un correctif ne soit disponible.
+
+      Le centre opérationnel de sécurité, ou COS, est une équipe d'experts qui surveille en permanence les systèmes d'information pour repérer une activité anormale.
+
+      La comparution sur reconnaissance préalable de culpabilité, ou CRPC, est une procédure pénale simplifiée pour un auteur qui reconnaît les faits.
+
+COURS DÉTAILLÉ.
+
+I. LES DÉBAUCHAGES, FLASH N°98 DE DÉCEMBRE 2023.
+
+   A. Un vecteur de déstabilisation.
+
+      Les débauchages conduits par des acteurs étrangers peuvent viser la majorité du personnel ou un seul salarié détenteur d'informations stratégiques ou de compétences rares.
+
+      Ils servent à développer une activité, acquérir des briques technologiques ou fragiliser un concurrent, avec pour conséquences perte de données, de savoir-faire, de clients et difficultés de recrutement.
+
+      Les petites entreprises, aux moyens juridiques, informatiques et humains limités, sont particulièrement menacées, jusqu'à leur pérennité.
+
+      Le droit du travail encadre le débauchage, et un nouvel employeur ayant désorganisé la société ciblée peut être condamné à réparation.
+
+   B. Les préconisations.
+
+      Il faut cartographier régulièrement ses concurrents et leurs méthodes de recrutement, notamment avant l'ouverture d'un site ou un déménagement.
+
+      Il faut anticiper les tensions internes, qui rendent les salariés plus réceptifs aux sollicitations et que les concurrents cherchent à repérer.
+
+      Les informations stratégiques et les fichiers clients doivent être répertoriés, d'accès restreint et leur consultation tracée.
+
+      Les contrats de travail doivent comporter une clause de non-concurrence de durée suffisante, une clause de non-sollicitation et une clause de confidentialité.
+
+      En cas de débauchage, il faut solliciter le service juridique ou un avocat, obtenir la restitution des supports, rassembler les preuves, déposer plainte et contacter la DGSI.
+
+II. LES VOLS DE DONNÉES PAR DES COLLABORATEURS, FLASH N°94 DE MAI 2023 ET N°106 D'OCTOBRE 2024.
+
+   A. Le risque du départ.
+
+      La fin d'une relation de travail, licenciement, démission, rupture conventionnelle, retraite ou fin de contrat, crée une vulnérabilité pour l'employeur.
+
+      Les motivations sont la monétisation, l'usage pour un nouvel employeur, la création d'une entreprise concurrente, la vengeance, la dénonciation ou l'opportunisme.
+
+      Les auteurs sont souvent des salariés en fin de contrat, des stagiaires ou des prestataires, dans les locaux ou à distance grâce au télétravail.
+
+      Ces vols sont souvent découverts tardivement, quand il n'est plus possible de collecter des preuves, ce qui complique les actions en justice.
+
+   B. Les préconisations.
+
+      Il faut identifier et classer les données sensibles, hiérarchiser les accès selon les profils et chiffrer les matériels qui les hébergent.
+
+      La politique de sécurité peut interdire l'envoi vers une messagerie personnelle et les clés USB, et imposer le changement des mots de passe des comptes partagés à chaque départ.
+
+      Des outils de surveillance des bases de données avec journaux permettent d'identifier les accès anormaux.
+
+      Le jour du départ, une liste récapitulative garantit la restitution des clés, badges et matériels, et les accès sont désactivés immédiatement.
+
+      En cas de vol, il faut obtenir des preuves avec l'équipe informatique ou par constat d'huissier, puis déposer plainte, démarche simple, rapide et gratuite.
+
+III. LES APPROCHES HORS DU CADRE PROFESSIONNEL ET SUR LES RÉSEAUX, FLASH N°102 D'AVRIL 2024 ET N°116 DE NOVEMBRE 2025.
+
+   A. Les approches dans la vie privée.
+
+      Des entités étrangères, cabinets d'intelligence économique ou services de renseignement approchent les salariés hors du travail pour profiter d'une vigilance amoindrie.
+
+      Les lieux de convivialité proches des sites sensibles et les activités associatives, sportives ou culturelles sont des occasions privilégiées.
+
+      Tous les salariés, même sans accès sensible, peuvent livrer des éléments d'ambiance, des mouvements de personnel ou des projets de déménagement.
+
+      Il faut rester discret sur son métier, ne pas révéler une habilitation, ne pas travailler sur des documents sensibles en public, utiliser un filtre d'écran et mettre fin immédiatement à un échange suspect.
+
+   B. Les réseaux sociaux professionnels.
+
+      Les approches malveillantes s'appuient sur les informations publiées par les cibles elles-mêmes, à des fins d'escroquerie, de déstabilisation ou de captation.
+
+      Leur caractère dématérialisé fait baisser la vigilance alors qu'elles s'inscrivent souvent dans des campagnes plus larges.
+
+      Un profil récent, avec peu de relations et un parcours incohérent, doit alerter, et une recherche d'image inversée révèle les photos usurpées.
+
+      Il vaut mieux ignorer une invitation suspecte que la refuser, car une demande ignorée empêche le faux profil d'en envoyer de nouvelles.
+
+      Le faux profil doit être signalé au responsable sûreté ou au fonctionnaire de sécurité défense, au service d'assistance du réseau et à la DGSI.
+
+IV. LE FACTEUR HUMAIN ET LES SYSTÈMES D'INFORMATION, FLASH N°112 D'AVRIL 2025.
+
+   A. Le constat.
+
+      Selon le World Economic Forum, quatre-vingt-quinze pour cent des violations de données ont une origine humaine, par inattention, méconnaissance des règles ou volonté de les contourner.
+
+      La politique de sécurité doit combiner une architecture technique robuste et un volet humain de formation, sensibilisation et responsabilisation.
+
+   B. Les préconisations.
+
+      Sur le plan technique, il faut un audit de sécurité, des mises à jour dès leur publication, des stations de décontamination pour les supports amovibles et des serveurs dédiés pour les données les plus sensibles.
+
+      Sur le plan humain, il faut une charte informatique signée par tous, une formation à l'hygiène numérique, le cloisonnement des accès, un centre opérationnel de sécurité et la réévaluation des accès des prestataires.
+
+      En cas d'incident, il faut couper les accès de la personne point d'entrée, déposer plainte, notifier la CNIL dans les soixante-douze heures si des données personnelles sont touchées et contacter la DGSI.
+
+POINTS D'ATTENTION.
+
+      Chaque salarié, quel que soit son poste, est une cible potentielle.
+
+      Une clause de non-concurrence trop courte ne dissuade pas un débauchage bien rémunéré.
+
+      Les droits informatiques d'un collaborateur qui part doivent être coupés sans délai.
+
+      Le dépôt de plainte est le meilleur moyen de sanctionner pénalement les auteurs de vols de données.
+
+      Un événement perçu comme isolé peut appartenir à une stratégie plus large, d'où l'intérêt de recouper les signalements internes.
+
+EXEMPLES CITÉS.
+
+      Un cabinet de recrutement étranger a démarché la moitié des salariés d'un sous-traitant en dénigrant leur employeur et en offrant plus de vingt pour cent d'augmentation, forçant l'arrêt temporaire de lignes de production.
+
+      Après deux refus de rachat, une société a vu un concurrent étranger débaucher deux experts sans clause de non-concurrence puis un troisième malgré une clause de six mois.
+
+      Une start-up étrangère installée près de sociétés françaises a débauché une dizaine de personnes en promettant trente pour cent de salaire en plus.
+
+      Un collaborateur étranger du secteur de la santé non renouvelé a téléchargé la nuit précédant son départ des dizaines de fichiers confidentiels.
+
+      Un cadre débauché après trente ans de maison a été surpris chargeant des dossiers papier dans sa voiture le jour de son départ.
+
+      Un consultant freelance dont le contrat a été rompu a utilisé ses droits encore actifs pour télécharger des données la nuit suivante.
+
+      Un cadre démissionnaire a copié plusieurs dizaines de milliers de fichiers sur un disque externe, repéré par une surveillance informatique mise en place pendant son préavis.
+
+      L'ingénieur d'un prestataire a copié plus de cinq mille fichiers sur une clé USB, dont les règles d'administration du réseau, et a été condamné à de la prison.
+
+      Un club sportif fréquenté par des salariés sensibles a vu affluer des ressortissants d'une même nationalité, et un restaurateur a mis ses membres en relation avec des étrangers.
+
+      Les gérants d'un restaurant proche de laboratoires sensibles questionnaient et photographiaient leurs clients au profit d'une activité de mise en relation.
+
+      Un faux cabinet de conseil sur un réseau professionnel a proposé un investissement à une start-up en difficulté, démasqué par une due diligence.
+
+      Un chercheur s'est vu promettre un don de millions d'euros par le faux chargé de communication d'une célébrité contre le paiement préalable d'une taxe.
+
+      Un salarié a ouvert sur son poste professionnel la pièce jointe piégée d'un faux recruteur, permettant l'exfiltration de centaines de fichiers.
+
+      Un salarié a prêté à ses collègues une clé USB personnelle contenant un keylogger pour récupérer leurs identifiants.
