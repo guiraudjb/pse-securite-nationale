@@ -1,0 +1,55 @@
+TITRE : Fiches réflexes Riddim
+
+[Intro]
+Fiches réflexes de Cybermalveillance
+Face à l'attaque, on garde l'assurance
+
+[Couplet 1]
+Faille, virus, identifiants volés
+Mot de passe trop simple ou par défaut laissé
+Le pirate entre et cherche à se propager
+Déconnecte l'équipement, faut pas traîner
+
+Identifier la source, conserver les preuves
+Scanner, changer les mots de passe, c'est la manœuvre
+Restaurer, et en dernier recours réinstaller
+Violation de données, la CNIL notifiée
+
+[Refrain]
+Déconnecter, conserver, signaler
+Porter plainte, jamais payer
+Fiches réflexes, gestes posés
+Cybermalveillance.gouv pour nous aider
+
+[Couplet 2]
+Site défiguré, alerter l'hébergeur
+Journaux récupérés, failles corrigées sans peur
+Faux site qui imite ta marque
+Whois, RDAP, abuse, on démasque
+
+Phishing Initiative pour signaler
+Compte piraté, contacts à prévenir, rapidement
+Double authentification activée
+Publications vérifiées, récupération contrôlée
+
+[Refrain]
+Déconnecter, conserver, signaler
+Porter plainte, jamais payer
+Fiches réflexes, gestes posés
+Cybermalveillance.gouv pour nous aider
+
+[Pont]
+Usurpation d'identité, les preuves gardées
+Plainte pour chaque fait, banques alertées
+Pièces d'identité renouvelées
+Attestation sur l'honneur, on va avancer
+
+[Refrain final]
+Déconnecter, conserver, signaler
+Porter plainte, jamais payer
+Fiches réflexes, gestes posés
+La victime n'est jamais isolée
+
+[Outro]
+One love, un réflexe, une fiche en main
+Face à la cyber, on trouve le chemin

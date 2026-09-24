@@ -1,0 +1,55 @@
+TITRE : Feuille de route numérique Riddim
+
+[Intro]
+Feuille de route deux mille vingt-six, vingt-sept
+Sécurité numérique de l'État, la mission est prête
+
+[Couplet 1]
+Les administrations entrent dans NIS deux
+Articles vingt et vingt et un, objectifs sérieux
+Dix objectifs, SI à enjeux en priorité
+La PSSIE intègre NIS deux en deux mille vingt-sept
+
+Homologation avec risques résiduels présentés
+Correctifs, revues de comptes, restauration testée
+Équipements de sécurité obsolètes remplacés
+Avant fin deux mille vingt-six, c'est décidé
+
+[Refrain]
+DNS et messagerie renforcés
+Comptes génériques supprimés ou tracés
+Revue des droits au moins une fois l'an
+Postes d'administration dédiés, maintenant
+
+[Couplet 2]
+Trente juin deux mille vingt-six, date limite
+Pour les comptes génériques, on agit vite
+Annuaires au niveau trois de l'indicateur ADS
+L'administration numérique sort de la détresse
+
+Service interministériel DNS
+Messagerie protégée, fini la faiblesse
+Vecteurs privilégiés des attaquants
+On les ferme, on les surveille, constamment
+
+[Refrain]
+DNS et messagerie renforcés
+Comptes génériques supprimés ou tracés
+Revue des droits au moins une fois l'an
+Postes d'administration dédiés, maintenant
+
+[Pont]
+CIRN quatre, résilience nationale
+Continuité, crise, la préparation totale
+Exercices, plans, coordination
+L'État se protège, c'est la mission
+
+[Refrain final]
+DNS et messagerie renforcés
+Comptes génériques supprimés ou tracés
+Revue des droits au moins une fois l'an
+L'État numérique résistant
+
+[Outro]
+One love, une feuille de route suivie
+Sécurité numérique, l'État est servi
