@@ -1,0 +1,147 @@
+FLASH INGÉRENCE ÉCONOMIQUE DE LA DGSI, LA CAPTATION TECHNOLOGIQUE, LA RECHERCHE, LA PROTECTION DES LOGICIELS ET L'USAGE DE L'INTELLIGENCE ARTIFICIELLE, NUMÉROS 90, 95, 96, 104, 114, 115 ET 117, 2023-2025.
+
+LEXIQUE COMPLET.
+
+      La captation technologique est l'appropriation, sans contrepartie, du savoir-faire ou des technologies d'une entreprise ou d'un laboratoire par un acteur étranger.
+
+      La rétro-ingénierie consiste à démonter et analyser un produit pour en comprendre la conception et le reproduire.
+
+      La protection du potentiel scientifique et technique de la nation, ou PPST, est le dispositif réglementaire qui protège les savoirs et savoir-faire stratégiques de la recherche et de l'industrie.
+
+      La zone à régime restrictif, ou ZRR, est un espace créé au titre de la PPST, dont l'accès est soumis à autorisation du chef d'établissement.
+
+      Le fonctionnaire de sécurité et de défense, ou FSD, est le référent sécurité d'un établissement de recherche ou d'enseignement supérieur, en lien avec le haut fonctionnaire de défense et de sécurité du ministère.
+
+      La recherche duale porte sur des travaux ayant des applications à la fois civiles et militaires.
+
+      Le dispositif Cifre, ou convention industrielle de formation par la recherche, associe un doctorant, un laboratoire et une entreprise.
+
+      L'enveloppe Soleau, déposée en ligne à l'INPI, prouve la date d'une création pendant cinq ans sans conférer de droit de propriété intellectuelle.
+
+      La saisie-contrefaçon permet à un commissaire de justice d'inspecter les locaux d'un contrefacteur présumé et d'y saisir des preuves.
+
+      L'hypertrucage, ou deepfake, est un contenu vidéo, audio ou image falsifié par intelligence artificielle.
+
+      L'hallucination désigne une réponse inventée de toutes pièces par une IA, statistiquement probable mais fausse.
+
+      L'empoisonnement des données consiste à injecter de fausses données dans l'apprentissage d'une IA pour la biaiser ou la saboter.
+
+COURS DÉTAILLÉ.
+
+I. LA CAPTATION PAR DES CLIENTS ET PARTENAIRES ÉTRANGERS, FLASH N°90 DE JANVIER 2023 ET N°96 DE SEPTEMBRE 2023.
+
+   A. La perte d'un marché.
+
+      Une relation commerciale avec un partenaire étranger peut aboutir, après quelques années, à une perte de marché ou de savoir-faire au détriment de la partie française.
+
+      Sous couvert de commandes peu nombreuses, des acteurs étrangers posent des questions techniques intrusives, demandent échantillons et identité des sous-traitants, visant en réalité la rétro-ingénierie.
+
+      Les produits copiés, parfois de moindre qualité et vendus sous une dénomination usurpée, nuisent aussi à la réputation de la société victime.
+
+   B. Les start-up exposées dès leur création.
+
+      Les jeunes sociétés innovantes sont particulièrement exposées alors que leurs dirigeants sont peu préparés, avec des menaces variées : vol de prototype, prise de participation, rétro-ingénierie, offres de rachat.
+
+      Certains marchés étrangers imposent la localisation de la production ou des partenariats locaux, et des fonds étrangers proposent un accès au marché contre des droits sur la propriété intellectuelle.
+
+   C. Les préconisations.
+
+      Avant toute commande, il faut évaluer l'honorabilité du client et de ses intermédiaires, interroger sur la destination et l'usage des produits et déterminer les informations à ne jamais communiquer.
+
+      Les contrats doivent protéger le potentiel technologique et commercial, prévoir des sanctions, formaliser toute promesse et délimiter les pouvoirs des mandataires, et il faut envisager brevets et marques en France et à l'étranger.
+
+      Il faut une veille permanente sur sa marque, ses produits et ses concurrents, et se désengager de tout client déloyal en prévenant ses partenaires.
+
+II. LA RECHERCHE CIBLÉE, FLASH N°95 DE JUIN 2023, N°104 DE JUIN 2024 ET N°114 DE JUIN 2025.
+
+   A. La recherche fondamentale.
+
+      Les risques de captation en recherche fondamentale sont sous-estimés, alors que ses résultats peuvent trouver des applications militaires ou civiles à court ou moyen terme.
+
+      Des universités étrangères proposent des partenariats en recherche fondamentale pour dissimuler les applications visées, parfois militaires, et préparer des coopérations officieuses en recherche appliquée.
+
+      L'évaluation PPST par le ministère de tutelle porte sur quatre risques : atteinte aux intérêts économiques, renforcement des arsenaux étrangers ou affaiblissement de la défense, prolifération des armes de destruction massive, et usage terroriste.
+
+   B. Les chercheurs primés.
+
+      Les lauréats de distinctions forment une communauté restreinte et facilement identifiable, ciblée par des coopérations déséquilibrées, des offres d'emploi très rémunérées ou des cadeaux disproportionnés.
+
+      Dès une distinction, il faut surveiller ses profils en ligne, consulter le FSD avant tout partenariat étranger, voyager avec du matériel dédié et le strict nécessaire, et refuser les cadeaux de valeur excessive qui créent une dépendance ou ouvrent au chantage.
+
+   C. Les chercheurs étrangers accueillis.
+
+      Les programmes d'accueil, comme la plateforme Choose France for Science créée en 2025, favorisent le rayonnement mais peuvent être détournés à des fins d'espionnage, ou exposer des chercheurs aux pressions de leur pays.
+
+      Il faut des partenariats officiels et équilibrés, un contrôle rigoureux des parcours même en recrutement accéléré, et envisager une ZRR pour les recherches sensibles.
+
+      Le règlement intérieur doit être traduit au moins en anglais et signé, les équipes sensibilisées aux comportements intrusifs, et la vigilance maintenue dans les échanges informels après le séjour.
+
+      En cas d'incident, il faut retirer les accès physiques et informatiques, prévenir le FSD, envisager une plainte et avertir la DGSI.
+
+III. LA PROTECTION DES LOGICIELS INDUSTRIELS, FLASH N°115 D'OCTOBRE 2025.
+
+   A. Les enjeux.
+
+      L'absence de protection des logiciels industriels expose concepteurs et clients à des pertes financières, des défaillances d'activité et des atteintes à la réputation, voire à la souveraineté.
+
+      Le logiciel est protégé par le droit d'auteur selon l'article L112-2 du code de la propriété intellectuelle s'il traduit un effort personnalisé, et il n'est brevetable qu'intégré à une machine ou un procédé.
+
+   B. Les préconisations.
+
+      Avant le projet, il faut constituer un dossier de preuves, déposer une enveloppe Soleau, faire signer des engagements de confidentialité, marquer le logiciel par des procédés d'identification, éventuellement liés à la blockchain, et afficher la protection.
+
+      Le brevet se dépose suffisamment tôt à l'INPI, à l'Office européen des brevets ou à l'OMPI selon la zone visée, se maintient par une taxe annuelle et dure vingt ans au maximum.
+
+      Pour le droit d'auteur, un dépôt probatoire peut se faire par pli recommandé scellé, chez un notaire, un commissaire de justice, l'Agence pour la protection des programmes ou l'INPI.
+
+      En cas de contrefaçon, il faut vérifier ses droits, adresser une mise en demeure, engager des poursuites avec saisie-contrefaçon et contacter la DGSI.
+
+IV. L'INTELLIGENCE ARTIFICIELLE AU TRAVAIL, FLASH N°117 DE DÉCEMBRE 2025.
+
+   A. Les risques.
+
+      Les versions grand public des IA génératives utilisent souvent les données saisies pour s'entraîner et les stockent parfois à l'étranger, sous des lois extraterritoriales.
+
+      Les connexions à des outils externes, API et plugins, augmentent les vulnérabilités.
+
+      Les biais sont la dépendance qui réduit la vigilance, la perte de contrôle des données, la reproduction de biais d'entraînement, l'effet boîte noire et les hallucinations.
+
+      Les attaquants utilisent l'IA pour générer des contenus malveillants, personnaliser l'hameçonnage ciblé, créer des deepfakes, tromper les algorithmes par exemples contradictoires et empoisonner les données.
+
+   B. Les préconisations.
+
+      Il faut encadrer l'IA dans la charte informatique avec un niveau de sensibilité autorisé, favoriser les IA françaises conformes au RGPD, privilégier l'IA en local et former les équipes.
+
+      Il faut signaler l'usage de l'IA à sa hiérarchie ou à son client, ne jamais y saisir de données personnelles ou confidentielles, se méfier des réponses biaisées et faire vérifier les résultats par des experts.
+
+POINTS D'ATTENTION.
+
+      Une commande unique accompagnée de questions techniques précises peut masquer une rétro-ingénierie.
+
+      Un partenariat en recherche fondamentale peut préparer une coopération officieuse en recherche appliquée à finalité militaire.
+
+      Ne pas breveter pour éviter la publication expose au vol sans recours si aucune autre protection n'existe.
+
+      Les décisions ne doivent jamais reposer uniquement sur les résultats d'une IA non vérifiés.
+
+EXEMPLES CITÉS.
+
+      Un intermédiaire étranger a déposé dans son pays un brevet sur la technologie d'un sous-traitant français, puis une entreprise locale a vendu des équipements identiques après une commande unique.
+
+      Un revendeur a dérobé le prototype d'une start-up pour le breveter, puis l'a dénigrée auprès de ses clients.
+
+      Une université étrangère a tenté d'obtenir les plans d'équipements de physique, approché un chercheur retraité puis proposé de les dupliquer, projet refusé par le ministère.
+
+      Un doctorant étranger a installé un logiciel espion sur l'ordinateur central de son unité de chimie avant d'être recruté par une université étrangère.
+
+      Un chercheur primé a reçu un virement inexpliqué des organisateurs d'un symposium étranger après des visites de sites sensibles.
+
+      Des stylos et clés USB capables d'enregistrer ont été retrouvés dans l'appartement d'un doctorant Cifre disparu avant sa soutenance.
+
+      Un client étranger a sauvegardé l'intégralité d'un logiciel de conception de pièces en prétextant une mise à jour.
+
+      Deux anciens salariés ont exploité un code source dans leur société concurrente, malgré des clauses de confidentialité et de non-concurrence.
+
+      Des salariés traduisaient des documents confidentiels avec une IA grand public étrangère sans autorisation.
+
+      Le responsable d'un site a interrompu une visioconférence où un deepfake de son dirigeant demandait un virement.
