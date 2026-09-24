@@ -1,0 +1,227 @@
+GUIDE DE SURVIE FACE À LA CRISE À L'USAGE DES ENTREPRISES DE LA BITD, DRSD 2024, ET MÉTHODE FLASH D'ÉLABORATION DES PCA.
+
+LEXIQUE COMPLET.
+
+      La crise est une situation globalement imprévisible où les faits recueillis montrent que les processus et l'organisation habituels ne permettent plus d'absorber la totalité des impacts et la multiplicité des parties prenantes concernées, impliquées ou à informer.
+
+      L'urgence se distingue de la crise car, dans l'urgence, l'organisation habituelle parvient encore à absorber les impacts et les parties prenantes.
+
+      L'événement déclencheur est l'événement majeur dont l'impact provoque la situation de crise, et qui doit être suivi rapidement de l'alerte puis de la mobilisation.
+
+      La cinétique de la crise désigne sa dynamique, son évolution constante, impossible à modéliser par anticipation.
+
+      Le point de rupture apparaît lorsque l'entité atteint la limite de maîtrise de la situation avec son organisation et ses procédures habituelles.
+
+      La culture de crise est l'ensemble des valeurs, connaissances, règles et comportements partagés qui permettent d'aborder et de surmonter une crise.
+
+      La pérennité est le caractère de ce qui dure : la survie à la crise en est un pilier, au-delà de la simple résilience.
+
+      La résilience est la capacité de résistance face aux perturbations jusqu'au retour à la stabilité.
+
+      La cellule de crise est l'espace et l'ensemble d'acteurs à partir desquels la crise est pilotée, les décisions prises et les informations centralisées, et elle n'est jamais standardisée.
+
+      Le manuel de crise rassemble les documents opérationnels essentiels au fonctionnement de la cellule de crise, sans listes de tâches trop sclérosantes.
+
+      Le plan d'actions est la procédure documentée décrivant comment la cellule de crise prévoit d'agir, et il ne peut être écrit qu'au moment de la crise.
+
+      Le point de situation est une intervention très courte, dix minutes au maximum, pendant laquelle le directeur de crise ou son adjoint met à jour les faits, actions, impacts et parties prenantes.
+
+      La main courante est le document récapitulatif, minute par minute, de la conduite de la crise, qui peut servir de pièce juridique.
+
+      Les biais cognitifs sont des erreurs systématiques de jugement issues des heuristiques, ces raccourcis de pensée utilisés quand une tâche est trop complexe.
+
+      La loi de Murphy affirme que tout ce qui est susceptible d'aller mal ira mal, c'est-à-dire que le plus improbable des événements reste possible.
+
+      Le RETEX, ou retour d'expérience, est la démarche a posteriori qui permet d'apprendre de la crise pour améliorer le dispositif.
+
+      Le PCA, plan de continuité d'activité, et le PRA, plan de reprise d'activité, permettent de maintenir puis de rétablir les activités critiques.
+
+      Le BIA, bilan d'impact sur l'activité, mesure la criticité des activités selon l'impact de leur interruption.
+
+      La DMIA, durée maximale d'interruption d'activité, est calculée en évaluant le BIA dans la durée.
+
+COURS DÉTAILLÉ.
+
+I. COMPRENDRE LA CRISE.
+
+   A. L'origine et l'esprit du guide.
+
+      Le guide a été rédigé par le bureau milieu industriel du Centre du conseil, de la prévention et des inspections de la DRSD, avec une préface du général de corps d'armée Philippe Susnjara, alors directeur de la DRSD.
+
+      Il répond au constat que, depuis la pandémie de COVID-19 en 2020, la plupart des entreprises de la BITD se sont retrouvées livrées à elles-mêmes face à des situations inédites, contrairement aux grands maîtres d'œuvre déjà préparés.
+
+      Le guide ne prétend pas proposer la solution aux crises mais positionne la démarche comme un instinct de survie, et ses fiches sont ordonnées chronologiquement, avant, pendant et après la crise.
+
+      Il s'adresse à tous les responsables, et pas seulement aux directeurs sûreté, car toute entreprise connaîtra une crise touchant tout son périmètre.
+
+   B. Les huit caractéristiques de la crise.
+
+      L'incertitude porte sur la dynamique et la gravité de la situation.
+
+      La perturbation déstabilise le fonctionnement normal sans plan permettant un retour immédiat à l'équilibre.
+
+      L'urgence et la pression temporelle transforment la situation usuelle.
+
+      Les impacts sont multiples, sur les personnes, l'activité, l'image, la responsabilité juridique et l'environnement.
+
+      Les parties prenantes apparaissent en nombre, impliquées, impactées ou à informer.
+
+      L'émotion et l'attractivité des médias découlent des caractéristiques précédentes, quelle que soit la taille de l'entité.
+
+      Le point de rupture survient quand l'entité atteint sa limite de maîtrise, et la cinétique traduit l'évolution constante et non linéaire de la crise.
+
+   C. Gérer ou piloter la crise.
+
+      L'expression gestion de crise est présentée comme un abus de langage, car on ne gère pas ce que l'on ne comprend ni ne contrôle.
+
+      Selon Raphaël de Vittoris, on ne gère pas plus une crise que le chaos, mais on peut se donner les chances d'y survivre, d'où la préférence pour l'expression pilotage de crise.
+
+II. AVANT LA CRISE.
+
+   A. Comprendre son environnement et bâtir une culture de crise.
+
+      L'entreprise doit connaître ses forces et faiblesses, avec des outils comme SWOT ou PESTEL, son environnement externe, ses parties prenantes et son environnement interne.
+
+      La culture de crise implique de penser la survie à la crise comme un pilier de la pérennité, de considérer la crise comme inéluctable, d'accepter l'incertitude et de maximiser ses capacités d'adaptation.
+
+      Il faut se méfier du biais de présomption, qui consiste à croire que l'organisation comprend une situation parce qu'elle dispose de routines pour l'affronter.
+
+      Les outils d'acculturation sont la sensibilisation, la formation, la formation de la direction, par exemple à l'IHEMI ou à l'IHEDN, les cours communs, les mises en situation et une politique globale de management de crise.
+
+   B. Les exercices de crise.
+
+      Les exercices vérifient le réalisme des procédures, rassemblent les acteurs, développent les réflexes et testent les organisations, les équipes et les moyens.
+
+      L'exercice partiel teste certaines procédures en temps court, l'exercice cadré est un test théorique sur table, l'exercice général teste l'ensemble des parties et l'exercice terrain se déroule en conditions réelles.
+
+      Il faut privilégier un format pédagogique à un format sur-stimulant, avec une durée raisonnable et un débriefing à chaud.
+
+   C. Les quatre piliers de la préparation.
+
+      Le premier pilier est l'organisation, avec une gouvernance et une organisation adaptée et agile.
+
+      Le deuxième pilier est le processus de réaction à la crise, le troisième la méthodologie de travail, simple et appropriée, et le quatrième les outils, besoins et supports, y compris en mode dégradé.
+
+   D. L'organisation.
+
+      La gouvernance repose sur une structure, une directive, qui est le texte de référence, et des documents opérationnels comme le manuel de crise et les fiches réflexes.
+
+      Pour les entités multi-sites, l'organisation comprend trois niveaux : la cellule de suivi de crise au niveau stratégique, la cellule de management de crise au niveau opératif et la cellule de réponse d'urgence terrain au niveau tactique.
+
+      Pour une PME, la cellule peut se limiter à un directeur de crise chargé aussi de la communication, une cellule de suivi et de main courante, une cellule systèmes d'information, une cellule ressources humaines et juridique, les officiers de sécurité et un responsable technique et logistique.
+
+      La cellule de veille recueille et diffuse l'information pertinente en temps normal et devient cellule anticipation en temps de crise, mais on ne prévient pas une crise, on se prépare à l'affronter.
+
+      L'ordre de priorité est de développer un système de survie à toute crise, puis de détecter les signaux forts, puis les signaux faibles.
+
+   E. Le processus et la méthodologie.
+
+      Le processus séquence la réaction en préparation, alerte, mobilisation, pilotage, sortie de crise et RETEX.
+
+      La méthodologie évite l'effet silo, facilite le partage d'informations et la coordination, accélère les décisions et réduit le stress.
+
+      Toute méthode de pilotage comporte quatre étapes : établir un constat clair des faits, analyser les impacts immédiats et futurs, lister les parties prenantes, puis définir un plan d'actions.
+
+      Les pathologies fréquentes des cellules de crise sont le pilotage oral, le maintien dans la zone de confort, l'absence de périmètre, le manque de suivi du plan d'actions et l'absence d'historisation.
+
+   F. Composer son équipe.
+
+      Les membres et leurs remplaçants sont identifiés en amont selon leur poste, leur personnalité et leurs compétences.
+
+      La direction de crise gagne à être incarnée par plusieurs personnes pour limiter les biais cognitifs d'un seul directeur.
+
+      Les facteurs humains à prendre en compte sont l'incertitude et l'ambiguïté, l'environnement émotionnel et l'impact du stress.
+
+      Les biais cognitifs typiques sont le biais de narration, le biais d'optimisme et le biais de confirmation.
+
+      Le modèle Process Communication de Taibi Kahler distingue six types de personnalité, rebelle, promoteur, rêveur, empathique, travaillomane et persévérant, à répartir selon les fonctions de la cellule.
+
+      Les compétences non techniques sont la conscience de la situation, le travail en équipe, le leadership de crise, la prise de décision et la gestion de la charge de travail.
+
+      Le travail en équipe repose sur la coopération, la coordination, la communication et les outils, et l'humain surpasse toujours l'outil.
+
+III. PENDANT LA CRISE.
+
+   A. La communication de crise.
+
+      La communication de crise, interne et externe, doit être anticipée par un plan de communication de crise.
+
+      Ses principes sont une stratégie intégrée, des moyens définis, un discours structuré, clair, éthique et honnête, la préemption du discours et la synchronisation avec les parties prenantes.
+
+      En externe, il faut occuper l'espace médiatique dès le temps zéro, car selon Warren Buffett il faut vingt ans pour se faire une réputation et cinq minutes pour la perdre.
+
+      Les pièges à éviter sont le silence, le manque d'empathie, la fermeture, le manque d'humilité, le déni, la mise en cause d'autrui, les déclarations rassurantes et le mensonge.
+
+      La trame du message comprend les faits, les actes, la compassion, l'engagement et la transparence.
+
+   B. De l'alerte à la mobilisation.
+
+      L'alerte suppose un schéma d'alerte, une astreinte et des moyens de communication alternatifs.
+
+      La mobilisation s'appuie sur une matrice de gravité de l'événement et, en cas de doute, sur le principe de réponse sur-prudente qui consiste à mobiliser la cellule.
+
+      L'espace de crise doit garantir la confidentialité, être bien localisé, équipé, aménagé et doublé d'une salle de back-up sur un autre site.
+
+   C. Le pilotage de crise.
+
+      Le pilotage enchaîne l'ouverture de la cellule, le briefing initial, la mise en œuvre du plan d'actions, la préparation du point de situation et le point de situation.
+
+      Le briefing initial rappelle les consignes et les rôles, établit un constat clair répondant à qui, quoi, où, quand et comment, et aboutit à un premier plan d'actions validé.
+
+      Les décisions exigent un effort d'objectivité, de la réactivité, une prise de risque assumée et le refus des réponses stéréotypées.
+
+      Le directeur de crise fixe la stratégie et arbitre, l'adjoint garantit la méthode et le suivi du plan d'actions, l'historien tient la main courante et la cellule anticipation propose des scénarios d'aggravation.
+
+IV. APRÈS LA CRISE ET CONTINUITÉ D'ACTIVITÉ.
+
+   A. La sortie de crise.
+
+      La sortie de crise se fait principalement par l'atteinte des objectifs fixés en début de crise et la fermeture de la cellule est prononcée par le directeur de crise.
+
+      Le retour à l'état initial est impossible, l'objectif étant un nouvel état d'équilibre, tout en restant capable de réarmer la cellule.
+
+      Un suivi psychologique doit être proposé aux personnels, y compris à ceux qui semblent avoir bien vécu la crise.
+
+   B. Le retour d'expérience.
+
+      Le RETEX à chaud a lieu juste après la crise, à l'oral, avec les membres de la cellule, et le RETEX à froid a lieu plus tard, par questionnaire ou entretiens, avec tous les acteurs concernés.
+
+      Il doit mettre en avant les faiblesses techniques, organisationnelles et du personnel, et ne doit pas servir à automatiser des actions-types, car la prochaine crise sera différente.
+
+   C. La méthode flash d'élaboration des PCA et PRA.
+
+      Le périmètre se définit en analysant l'environnement, en réalisant une analyse de risques, en mesurant la criticité des activités par le BIA, en calculant la DMIA et en identifiant les ressources névralgiques.
+
+      Les ressources névralgiques se classent en ressources humaines et intellectuelles, matériels et infrastructures, systèmes d'information et de communication, et prestataires et fournisseurs.
+
+      Le PCA prévoit des solutions de continuité préventives, à prévoir en amont, et palliatives, à mettre en place en cas de perturbation avérée.
+
+      Le PRA prévoit des solutions de rétablissement, des mesures de rattrapage et de récupération, et des mesures de protection.
+
+      L'activation consiste à analyser la situation, activer les PCA, planifier les solutions, faire des points de situation, activer les PRA une fois la continuité garantie, puis lever le dispositif et réaliser un RETEX.
+
+      Le maintien en condition opérationnelle repose sur des tests, des formations, des sensibilisations et la mise à jour des plans.
+
+POINTS D'ATTENTION.
+
+      On ne prévient pas une crise, on se prépare à l'affronter.
+
+      Une entité préparée et agile survivra mieux qu'une entité non préparée ayant pourtant détecté des signaux.
+
+      Le point de situation n'est pas une séance de brainstorming et dure dix minutes au maximum.
+
+      La main courante peut être utilisée comme pièce juridique.
+
+      La procédure à outrance est une fausse bonne idée, car le travail en cellule de crise exige créativité et posture dérogatoire.
+
+      Le RETEX doit être un travail d'humilité centré sur les faiblesses.
+
+EXEMPLES CITÉS.
+
+      Steve Jobs est cité en préface : la crise est l'occasion de se rappeler l'importance de l'innovation et de la créativité.
+
+      L'échelle de temps du BIA de la méthode flash va de quatre heures à un jour, deux ou trois jours, une semaine, deux semaines et plus d'un mois.
+
+      Le manuel de crise suggéré comprend notamment le processus d'alerte, la carte des acteurs, les outils, la salle de crise, la communication, la plateforme téléphonique, la sortie de crise et le RETEX.
+
+      Le type rêveur de Process Communication est jugé performant en cellule de pilotage et de synthèse, le type empathique en communication ou soutien, et le type promoteur en cellule d'urgence terrain.
