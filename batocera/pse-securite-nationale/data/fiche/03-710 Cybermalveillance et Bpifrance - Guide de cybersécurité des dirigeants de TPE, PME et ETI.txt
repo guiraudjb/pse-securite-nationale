@@ -1,0 +1,155 @@
+GUIDE DE CYBERSÉCURITÉ À DESTINATION DES DIRIGEANTS DE TPE, PME ET ETI DE BPIFRANCE ET CYBERMALVEILLANCE.GOUV.FR, FICHES COMMENT PILOTER SA CYBERSÉCURITÉ, QUE FAIRE EN CAS DE CYBERATTAQUE ET CONSIGNES AUX COLLABORATEURS.
+
+LEXIQUE COMPLET.
+
+      La cyber-hygiène désigne l'ensemble des bonnes pratiques simples que les collaborateurs observent pour limiter le risque d'attaque et de fuite d'information.
+
+      L'ingénierie sociale regroupe les techniques de manipulation qui exploitent la peur, la confiance, la curiosité, l'appât du gain et les relations hiérarchiques pour faire commettre un acte malveillant.
+
+      Le bruit cyber désigne la cybercriminalité de masse, faite d'attaques non ciblées diffusées à grande échelle qui exposent tout appareil connecté.
+
+      La surface d'attaque est l'ensemble des portes d'entrée qu'une entreprise offre aux cybercriminels, qui grandit avec sa numérisation.
+
+      La cyber-résilience est la capacité à maintenir une activité même dégradée après une attaque et à se rétablir rapidement.
+
+      Le plan d'assurance sécurité est le document par lequel un prestataire décrit comment il protège les données de son client, qui peut être annexé au contrat.
+
+      Le label ExpertCyber, créé par Cybermalveillance.gouv.fr avec les syndicats professionnels, la Fédération française de l'assurance et l'AFNOR, valorise les prestataires en sécurité numérique compétents et transparents.
+
+COURS DÉTAILLÉ.
+
+I. LES ENJEUX POUR LES TPE, PME ET ETI.
+
+   A. Des cibles mal protégées.
+
+      La transformation numérique, accélérée par la crise sanitaire de 2020, le cloud, l'Internet des objets et la 5G augmente la surface d'attaque.
+
+      Les rançongiciels WannaCry et NotPetya de 2017 ont paralysé des centaines de milliers d'entreprises dans le monde.
+
+      Toutes les entreprises détiennent des informations monnayables, et les sous-traitants sont souvent le maillon faible par lequel on atteint un grand groupe : quand la porte est blindée, le voleur passe par la fenêtre.
+
+   B. Pourquoi les dirigeants n'agissent pas.
+
+      Le premier frein est une connaissance superficielle du risque, délégué à l'informatique, avec une sous-estimation des menaces venant des fournisseurs, clients, partenaires et employés.
+
+      Le deuxième est le manque de solutions clés en main adaptées aux PME, le troisième le coût perçu, alors que la cyber-hygiène est simple et peu onéreuse.
+
+   C. Les valeurs à protéger.
+
+      La valeur financière est menacée par la perte de chiffre d'affaires, les frais de remise en service, compensations, frais juridiques, amendes, communication de crise et hausse des primes d'assurance.
+
+      La valeur réputationnelle souffre d'autant plus que le RGPD impose depuis 2018 de déclarer les fuites de données à la CNIL, et qu'une entreprise connue pour payer les rançons devient une cible récurrente.
+
+      La valeur intangible recouvre la propriété intellectuelle, la R&D, le portefeuille clients et l'avantage concurrentiel, et la valeur humaine le stress, l'épuisement et parfois le chômage technique.
+
+      La cybersécurité crée aussi de la valeur : argument commercial, critère de choix des sous-traitants dans l'aéronautique et la défense, exigence des banquiers, investisseurs et assureurs.
+
+II. LES PRINCIPALES CYBERATTAQUES.
+
+      Parmi les demandes d'assistance des entreprises, les rançongiciels représentent vingt-deux pour cent, les intrusions vingt pour cent, le piratage de compte quatorze pour cent, l'usurpation d'identité dix pour cent, l'hameçonnage huit pour cent, le déni de service cinq pour cent, la fraude au virement quatre pour cent et la défiguration deux pour cent.
+
+      L'hameçonnage n'est pas une attaque en soi mais le vecteur d'attaques ultérieures : piratage, intrusion, fraude au virement ou rançongiciel.
+
+      L'authentification multifacteur est la meilleure parade contre le piratage de compte.
+
+      Contre le déni de service, les solutions sont techniques : paramétrage du serveur, captcha, limitation des connexions et offre anti-DDoS de l'hébergeur.
+
+      La fraude aux faux ordres de virement prend deux formes, le changement de RIB et la fraude au président, et la seule parade vraiment efficace contre un faux changement de RIB est d'appeler directement le fournisseur avec des coordonnées fiables.
+
+      Il ne faut jamais prendre automatiquement en compte un RIB figurant sur une facture, ni réaliser un virement dans l'urgence.
+
+III. SE PRÉMUNIR.
+
+   A. Une culture d'entreprise.
+
+      Chaque collaborateur est un maillon de la chaîne, vecteur possible d'attaque ou vigie capable de la déjouer, et la culture de sécurité doit être incarnée par le dirigeant et le comité de direction.
+
+      Il faut interroger fournisseurs et prestataires sur leurs pratiques et nommer un référent cybersécurité au comité de direction, relais du dirigeant même si l'informatique est externalisée.
+
+   B. Les six règles de la cyber-hygiène.
+
+      Gérer ses mots de passe : longs, complexes, en phrases de passe, individuels, différents pour chaque usage, stockés dans un coffre-fort, changés régulièrement.
+
+      Sensibiliser ses collaborateurs par des formations, une charte informatique signée à la remise du matériel et un ambassadeur des bonnes pratiques.
+
+      Mettre à jour appareils, logiciels et antivirus, en tenant un registre des équipements et en utilisant deux éditeurs d'antivirus différents pour serveurs et postes.
+
+      Éviter les comportements à risque : pièces jointes suspectes, clé USB trouvée sur le parking, réseaux publics, mélange des usages personnels et professionnels.
+
+      Sauvegarder régulièrement, sur un support déconnecté et un site distinct, et tester les restaurations.
+
+      Mettre en place des garde-fous : filtrage d'Internet, gestion et recertification des droits d'accès informatiques et physiques, Wi-Fi sécurisé, VPN, blocage des ports USB inutiles et authentification multifacteur.
+
+   C. Se préparer au pire.
+
+      La question n'est pas de savoir si l'on sera attaqué mais quand, d'où une préparation en trois étapes : diagnostic, plan d'action, plan de continuité d'activité.
+
+      Bpifrance propose un Diag Cybersécurité de quatre jours avec un expert, un Autodiag gratuit en ligne, et avec la DGA un Diagnostic Cyber Défense pour les PME du secteur de la défense.
+
+IV. PILOTER SA CYBERSÉCURITÉ EN DIX ÉTAPES.
+
+      Faire un état des lieux de ses actifs numériques et de leurs responsables, puis évaluer la criticité de chaque système.
+
+      Évaluer son niveau de protection, puis définir un plan d'action priorisé selon le rapport criticité, coût et efficacité, sachant que quatre-vingts pour cent des cyberattaques pourraient être évitées par des mesures simples.
+
+      Se faire accompagner par un référent et un prestataire, sensibiliser ses collaborateurs, se préparer au pire par des plans de secours, un annuaire de crise et des exercices.
+
+      S'impliquer personnellement et montrer l'exemple, contrôler par des audits, et itérer pour tout nouveau système et globalement tous les deux à trois ans.
+
+V. RÉAGIR À UNE CYBERATTAQUE.
+
+   A. Sécuriser.
+
+      Mettre d'abord en sécurité les personnes si des équipements industriels peuvent dysfonctionner, puis déconnecter du réseau et d'Internet les équipements infectés.
+
+      Ne pas éteindre ni redémarrer les machines infectées, pour préserver les traces, et ne jamais entrer en contact avec les attaquants ni payer la rançon.
+
+   B. Alerter.
+
+      Alerter les collaborateurs, le support informatique, la banque, l'assureur, déposer plainte avant toute remédiation et notifier la CNIL dans les soixante-douze heures si des données personnelles sont exposées.
+
+      Les opérateurs d'importance vitale, opérateurs de services essentiels et fournisseurs de service numérique doivent informer l'ANSSI.
+
+      La cellule de crise tient un registre des événements et actions, et la communication doit être maîtrisée car les attaquants lisent ce qui est publié.
+
+   C. Remédier et reprendre.
+
+      Déclencher le plan de continuité, identifier avec certitude l'origine et l'étendue de l'attaque avant toute reprise, puis remettre en service progressivement sous surveillance.
+
+      Tirer les enseignements et définir les plans d'investissement techniques, organisationnels, contractuels, financiers et humains.
+
+      Prendre en compte les risques psychologiques : sidération, humiliation, sentiment d'incompétence ou de culpabilité des équipes.
+
+   D. Les consignes aux collaborateurs.
+
+      Débrancher la machine du réseau, ne pas l'éteindre, alerter au plus vite le support informatique, ne plus utiliser l'équipement et prévenir ses collègues.
+
+POINTS D'ATTENTION.
+
+      Une assurance de responsabilité civile ne couvre que les préjudices des tiers, pas les frais propres de l'entreprise, sauf garantie cyber spécifique.
+
+      Remettre en production sans connaître l'origine de l'attaque expose à une réplique.
+
+      Les cybercriminels partagent entre eux les vulnérabilités non corrigées de leurs victimes.
+
+      Le dépôt de plainte doit précéder la remédiation pour préserver les preuves.
+
+EXEMPLES CITÉS.
+
+      Un équipementier automobile a payé une rançon doublée après un compte à rebours sans jamais récupérer ses données, l'attaque venant d'un fournisseur interfacé.
+
+      Un site de rencontre a vu publier la totalité des profils détaillés de ses utilisateurs après une intrusion.
+
+      Un groupe hôtelier a découvert en fin d'année de petits virements frauduleux réalisés toute l'année avec les identifiants du directeur financier.
+
+      Un commerçant a reçu la facture d'une commande passée en son nom avec une copie volée de sa pièce d'identité.
+
+      Une salariée a donné ses coordonnées bancaires pour une fausse cagnotte de mariage secrète.
+
+      Une boutique en ligne a perdu plusieurs millions d'euros de ventes à cause d'un déni de service pendant les fêtes.
+
+      Un transporteur a vu ses clients payer ses factures sur le compte d'escrocs après un faux changement de RIB.
+
+      Un comptable seul un vendredi soir a exécuté le virement demandé par un faux dirigeant prétendument en déplacement à l'étranger.
+
+      Le site d'un transformateur de viande a été défiguré par des images militantes de la cause animale.

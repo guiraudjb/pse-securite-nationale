@@ -1,0 +1,31 @@
+Qui a coédité le guide de cybersécurité des dirigeants de TPE, PME et ETI ?;La DGSI et la DRSD;La CNIL et l'Arcom;Bpifrance et Cybermalveillance.gouv.fr;L'ENISA et l'OTAN;4;Il présente bonnes pratiques et réflexes.
+Qu'est-ce que la cyber-hygiène ?;Un logiciel antivirus;Le nettoyage des claviers;L'ensemble des bonnes pratiques simples des collaborateurs pour limiter les risques;Une norme ISO;4;Elle est peu coûteuse.
+Qu'est-ce que le bruit cyber ?;Le bruit des serveurs;La cybercriminalité de masse non ciblée;Une alarme;Une rumeur;3;Tout appareil connecté y est exposé.
+Pourquoi les sous-traitants sont-ils ciblés ?;Ils ne sont jamais ciblés;Ils sont souvent le maillon faible pour atteindre un grand groupe;Ils sont plus riches;Ils sont toujours bien protégés;3;Quand la porte est blindée, le voleur passe par la fenêtre.
+Quels rançongiciels ont paralysé le monde en 2017 ?;Aucun;WannaCry et NotPetya;Stuxnet et Flame;ILOVEYOU et Melissa;3;Des centaines de milliers d'entreprises touchées.
+Quel est le premier frein à l'action des dirigeants ?;Une connaissance superficielle du risque, délégué à l'informatique;L'absence de menace;La loi;Le manque de temps;2;Les menaces internes et de l'écosystème sont sous-estimées.
+Pourquoi une entreprise qui paie les rançons est-elle plus exposée ?;Elle est protégée par la police;Sa réputation circule chez les cybercriminels;Elle n'est plus ciblée;Elle devient plus riche;3;Ses failles non corrigées sont aussi partagées.
+Quelle attaque est la plus fréquente selon le guide ?;La défiguration avec 50 %;Le rançongiciel avec 22 %;Le déni de service avec 40 %;L'hameçonnage avec 90 %;3;Devant l'intrusion à 20 %.
+Pourquoi l'hameçonnage est-il décrit comme un vecteur ?;Il ne vise que les particuliers;Il est inoffensif;Il sert à préparer d'autres attaques comme le piratage ou le rançongiciel;Il est légal;4;Il récupère identifiants et codes.
+Quelle est la meilleure parade contre le piratage de compte ?;Un fond d'écran sombre;Le partage des identifiants;Un mot de passe court;L'authentification multifacteur;5;Elle complique la tâche des pirates.
+Quelle est la seule parade réellement efficace contre un faux changement de RIB ?;Appeler directement le fournisseur avec des coordonnées fiables;Répondre au courriel;Payer rapidement;Changer de banque;2;Ne jamais prendre automatiquement un RIB d'une facture.
+Quelles sont les deux formes de fraude aux faux ordres de virement ?;Le spam et le virus;Le changement de RIB et la fraude au président;La contrefaçon et la copie;Le vol et le recel;3;Elles reposent sur l'abus de confiance.
+Qui nommer au comité de direction pour la cybersécurité ?;Un auditeur externe uniquement;Un stagiaire;Un référent cybersécurité;Personne;4;Il reste utile même si l'informatique est externalisée.
+Pourquoi utiliser deux éditeurs d'antivirus différents ?;Un pour les serveurs et un autre pour les postes, afin de croiser les détections;Par obligation légale;Pour dépenser plus;Pour ralentir les postes;2;C'est une recommandation du guide.
+Que faire d'une clé USB trouvée sur le parking ?;Ne jamais la connecter;La donner à l'informatique branchée;La brancher pour trouver le propriétaire;La garder;2;Elle a probablement été déposée intentionnellement.
+Quelle est la bonne question en cybersécurité selon le guide ?;Combien coûte un antivirus;Aucune;Quand serons-nous attaqués, et non si;Qui est coupable;4;D'où la préparation au pire.
+Quelles sont les trois étapes de préparation ?;Plainte, enquête, jugement;Achat, installation, oubli;Diagnostic, plan d'action, plan de continuité;Aucune;4;Pour gagner en cyber-résilience.
+Combien de jours dure le Diag Cybersécurité de Bpifrance ?;Une heure;Six mois;Quatre jours;Un an;4;Avec un expert spécialisé.
+Quelle part des cyberattaques pourrait être évitée par des mesures simples ?;5 %;100 %;80 %;20 %;4;Mots de passe, sauvegardes, mises à jour, droits d'accès.
+À quelle fréquence réappliquer la méthode de pilotage ?;Pour tout nouveau système et globalement tous les deux à trois ans;Chaque jour;Tous les vingt ans;Jamais;2;C'est l'étape itérer.
+Que ne faut-il pas faire d'une machine infectée ?;La déconnecter du réseau;La mettre à l'écart;La signaler;L'éteindre ou la redémarrer;5;Cela effacerait les traces utiles à l'enquête.
+Quelle est la première priorité lors d'une cyberattaque sur un site industriel ?;La communication;La sécurité des personnes;Le paiement de la rançon;La sauvegarde du site web;3;Des automates ou issues peuvent dysfonctionner.
+Quand déposer plainte ?;Avant toute action de remédiation;Après la reprise complète;Un an après;Jamais;2;Pour préserver les preuves.
+Dans quel délai notifier la CNIL si des données personnelles sont exposées ?;72 heures;Un an;Un mois;Aucun délai;2;La notification peut être progressive.
+Qui doit en plus informer l'ANSSI ?;Personne;Tous les particuliers;Les OIV, OSE et fournisseurs de service numérique;Les associations sportives;4;Selon leur réglementation.
+Pourquoi prudence dans la communication de crise ?;Parce que c'est interdit;Aucune raison;Pour cacher les faits;Les attaquants lisent ce qui est publié;5;Il faut un juste niveau de transparence.
+Que couvre une assurance responsabilité civile en cas de cyberattaque ?;Les préjudices des tiers uniquement;Rien du tout;Tous les frais de l'entreprise;La rançon;2;Une garantie cyber spécifique couvre les frais propres.
+Pourquoi identifier l'origine de l'attaque avant toute reprise ?;Pour éviter une réplique ou réactivation du logiciel malveillant;Ce n'est pas nécessaire;Pour la presse;Pour l'assurance uniquement;2;La remise en service doit être progressive.
+Quelles sont les cinq consignes aux collaborateurs ?;Éteindre, redémarrer, oublier, supprimer, se taire;Débrancher, ne pas éteindre, alerter, ne plus utiliser l'équipement, prévenir ses collègues;Payer, négocier, attendre, partir, rentrer;Aucune;3;À afficher près des postes.
+Quel label valorise les prestataires en sécurité numérique ?;Qualiopi;SecNumCloud;ExpertCyber;ISO 9001;4;Créé par Cybermalveillance.gouv.fr avec l'AFNOR et la FFA.
+Quels risques psychologiques évoque la fiche dirigeants ?;L'euphorie;Aucun;Uniquement la fatigue physique;Sidération, humiliation, sentiment d'incompétence ou de culpabilité;5;Ils peuvent affecter les équipes après la crise.
