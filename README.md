@@ -2,8 +2,12 @@
 
 Révision des publications de l'ANSSI, du SGDSN, de Viginum et du COMCYBER-MI, et des stratégies nationales (cybersécurité, IA, manipulations de l'information).
 
-56 modules, consultables depuis l'application de révision
-https://guiraudjb.github.io/PSE25-27/ (ce dépôt en fournit les données via GitHub Pages).
+56 modules. **Module de formation autonome** : https://guiraudjb.github.io/pse-securite-nationale/
+(page `index.html` à la racine, `catalogue.json` limité à ce dépôt). Ses modules
+apparaissent aussi dans l'application commune https://guiraudjb.github.io/PSE25-27/.
+
+`index.html`, `sw.js` et les icônes sont une copie de la page commune
+(`PSE25-27/`) : les modifier là-bas puis lancer `scripts/sync-web.py`, jamais ici.
 
 ## Séries
 

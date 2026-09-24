@@ -1,0 +1,21 @@
+{
+  "name": "Sécurité nationale — Révision",
+  "short_name": "pse-securite-nationale",
+  "description": "Révision des publications de l'ANSSI, du SGDSN, de Viginum et du COMCYBER-MI, et des stratégies nationales (cybersécurité, IA, manipulations de l'information).",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5f5fe",
+  "theme_color": "#000091",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
