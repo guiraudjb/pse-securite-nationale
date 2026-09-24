@@ -1,0 +1,317 @@
+GUIDE PRATIQUE D'ANALYSE DE RISQUES DE LA DRSD ET DE LA DPID, SEPTEMBRE 2023.
+
+LEXIQUE COMPLET.
+
+      La DRSD, Direction du renseignement et de la sécurité de la défense, est le service de renseignement du ministère des Armées chargé de la contre-ingérence et de la protection des installations, moyens et activités de la défense, dirigé en 2023 par le général de corps d'armée Philippe Susnjara.
+
+      La DPID, Direction de la protection des installations, moyens et activités de la défense, est la direction du ministère des Armées qui a conçu ce guide conjointement avec la DRSD.
+
+      Le CDSE, Club des directeurs de sécurité et de sûreté des entreprises, est l'association professionnelle dont le président Stéphane Volant a rédigé la préface du guide.
+
+      VUCA est l'acronyme anglais de Volatility, Uncertainty, Complexity, Ambiguity, en français volatilité, incertitude, complexité et ambiguïté, parfois traduit par le sigle VICA.
+
+      Le management des risques désigne, selon la norme ISO 31000, les activités coordonnées dans le but de diriger et piloter une organisation vis-à-vis d'un risque.
+
+      Le risque correspond à la probabilité de survenance d'un événement dommageable pouvant porter préjudice à la réalisation des objectifs d'une organisation, et résulte de la probabilité de l'événement et de sa gravité.
+
+      Une menace est une manifestation signifiant une intention hostile, le projet de nuire, qui varie selon son auteur, ses ressources, son degré de motivation, ainsi que les capacités et vulnérabilités de l'entité menacée.
+
+      Un aléa est la manifestation d'un phénomène naturel ou anthropique qui exclut toute intention malveillante.
+
+      Une valeur est un bien, une personne, une information matérielle ou immatérielle ou un savoir-faire détenu par un organisme, précieux voire indispensable à son activité, et vulnérable du fait de son prix, de son attrait, de son coût, de son délai de remplacement ou de son caractère unique.
+
+      Une cible est une valeur qui représente une attractivité pour un auteur de malveillance.
+
+      L'attractivité mesure sur une échelle de 1 à 4 le degré d'attraction d'une valeur pour un auteur de malveillance, du niveau 1 où la cible n'est pas attractive au niveau 4 où elle est très attractive ou connue de nombreuses personnes.
+
+      La probabilité est la possibilité qu'un scénario se produise, cotée de P1 improbable à P5 quasi-certain.
+
+      La gravité mesure les effets de l'atteinte à l'organisation, cotée de G1 mineure à G5 critique.
+
+      Le niveau de criticité du risque est le degré d'importance d'un risque, calculé par la formule probabilité multipliée par la gravité au carré et cartographié sur une matrice des risques.
+
+      La matrice des risques est l'outil permettant de classer et de visualiser les scénarios selon leurs niveaux de probabilité et de gravité afin de déterminer un niveau de criticité.
+
+      Le risque brut est le risque dont la criticité est évaluée avant la prise en compte des moyens de maîtrise, et peut être significatif ou non significatif.
+
+      Le risque net est le risque dont la criticité est évaluée après la prise en compte des moyens de maîtrise, et peut être un risque significatif confirmé ou un risque significatif maîtrisé.
+
+      Le seuil d'acceptation du risque est la limite en dessous de laquelle les risques sont considérés comme maîtrisés par le propriétaire du risque, et au-dessus de laquelle ils exigent des moyens de maîtrise intégrés à un plan de traitement.
+
+      Le risque significatif est un risque dont l'évaluation brute dépasse le seuil d'acceptabilité, tandis que le risque non significatif reste en dessous de ce seuil.
+
+      Le risque significatif confirmé, ou non maîtrisé, est un risque net situé au-dessus du seuil d'acceptabilité, alors que le risque significatif maîtrisé est un risque net situé en dessous de ce seuil.
+
+      Le risque résiduel est le risque subsistant après le traitement du risque, également appelé risque pris, qui peut inclure un risque non identifié.
+
+      La vulnérabilité est une faiblesse d'une organisation ou d'un système susceptible d'être exploitée par des menaces ou d'augmenter l'exposition aux risques.
+
+      Les mesures de prévention sont les dispositifs ou actions qui diminuent la probabilité d'occurrence d'un risque par des solutions organisationnelles, techniques et humaines.
+
+      Les mesures de protection sont les dispositifs ou actions qui diminuent, réduisent ou contiennent les effets d'un risque après sa survenue.
+
+      Le moyen de maîtrise est une mesure de sécurité qui modifie le niveau de criticité du risque, sans toujours aboutir à la modification voulue.
+
+      Le propriétaire du risque est la personne ou l'entité ayant la responsabilité du risque et l'autorité pour le gérer, souvent le responsable d'organisme.
+
+      Le plan de traitement est la procédure documentée décrivant la façon dont l'organisation gère les risques identifiés et les mesures à mettre en œuvre pour rester sous le seuil d'acceptation.
+
+      Le refus du risque est la décision argumentée de ne pas s'engager dans une activité, ou de s'en retirer, afin de ne pas être exposé à un risque particulier.
+
+      L'acceptation du risque est la décision argumentée du propriétaire du risque en faveur de la prise d'un risque particulier, les risques acceptés restant surveillés et réexaminés.
+
+      Un scénario est une situation fictive, envisagée plausible, dans laquelle une menace ou un aléa affecte le personnel, les installations, les moyens ou les activités de la défense.
+
+      Les ISC sont les informations et supports classifiés relevant du secret de la défense nationale.
+
+      L'ATAP, Avis technique d'aptitude physique, est l'évaluation délivrée par la DRSD sur la cohérence entre l'analyse de risques et les moyens de protection d'un local destiné aux ISC.
+
+      L'IGI 1300 est l'instruction générale interministérielle n° 1300/SGDSN/PSE/PSD du 9 août 2021 sur la protection du secret de la défense nationale.
+
+      La DICT désigne les quatre critères de protection des ISC, à savoir la disponibilité, l'intégrité, la confidentialité et la traçabilité.
+
+      La BITD est la base industrielle et technologique de défense, c'est-à-dire l'ensemble des entreprises de l'industrie de défense.
+
+      La défense en profondeur est la superposition de couches de protection, appelées barrières périphériques, périmétriques et intérieures.
+
+COURS DÉTAILLÉ.
+
+I. L'OBJET DU GUIDE ET LE CONCEPT VUCA.
+
+   A. Un guide conjoint de la DPID et de la DRSD.
+
+      Le guide pratique d'analyse de risques, publié en septembre 2023, est le fruit d'un travail conjoint de professionnels de la gestion des risques de la DPID et de la DRSD.
+
+      Il est destiné aux organisations du ministère des Armées, militaires ou civiles, ainsi qu'aux entreprises de l'industrie de défense, pour identifier et analyser les risques puis adopter des mesures de prévention et de protection.
+
+      Il propose une approche structurée et méthodique, illustrée par des études de cas fictifs et des outils pratiques, afin de prendre des décisions éclairées et de renforcer la résilience de l'organisation.
+
+      Le directeur de la DRSD rappelle que la gestion des risques au sein du ministère des Armées est une responsabilité partagée.
+
+   B. Le concept VUCA présenté dans la préface.
+
+      Dans sa préface, Stéphane Volant, président du CDSE, cite le concept VUCA pour Volatility, Uncertainty, Complexity, Ambiguity.
+
+      Ce concept a été développé par l'US Army War College en 1991 pour redéfinir le contexte mondial de l'après-guerre froide, caractérisé par sa volatilité, son incertitude, sa complexité et son ambiguïté.
+
+      Pratiquement oubliée pendant trois décennies de mondialisation et de numérisation dites heureuses, l'idée connaît un regain d'intérêt depuis 2020 et la pandémie de COVID, cette fois dans le monde de l'entreprise, chez les dirigeants, les administrateurs et les théoriciens du management.
+
+      Le préfacier y voit la preuve que le monde militaire inspire le monde de l'entreprise, et inversement.
+
+      Dans un monde volatil, incertain, complexe et ambigu, les organisations doivent se préparer à toute éventualité, penser l'impensable et manager l'incertitude afin de garantir la continuité de leur activité.
+
+      Les directeurs sécurité-sûreté en sont les garants, car ils savent traduire les effets d'une crise en chiffre d'affaires, en EBITDA et en parts de marché, et mesurer la rentabilité de la prévention par l'indicateur du coût évité.
+
+      La juste analyse des risques est présentée comme le fondement de tout plan de gestion de crise et de continuité d'activité, dans une logique de légitime défense économique fondée sur le partage des bonnes pratiques.
+
+II. LE CADRE MÉTHODOLOGIQUE.
+
+   A. Les deux parties du guide.
+
+      La première partie développe une démarche tous risques, applicable à toutes les menaces et à tous les aléas et adaptée au contexte du ministère des Armées.
+
+      La seconde partie se concentre sur le risque malveillance visant le secret de la défense nationale, dans le cadre du dossier d'ATAP.
+
+      La méthodologie privilégie une approche ascendante, partant du contexte de l'organisation jusqu'à l'étude des scénarios de menaces et d'aléas, et n'a aucun caractère obligatoire.
+
+   B. Les normes et références mobilisées.
+
+      La norme ISO 31000 fournit un cadre et des lignes directrices pour gérer toute forme de risque.
+
+      La norme ISO 31010 décline les techniques d'appréciation du risque, utilisables par toute organisation quelle que soit sa taille.
+
+      La série de normes ISO/IEC 27000 décline ces principes pour la sécurité de l'information.
+
+      La méthode prend en compte les risques d'origine cyber mais ne remplace pas EBIOS Risk Manager, qui reste la méthode de référence pour l'homologation des systèmes numériques, même si elle peut s'y substituer dans certains cas comme un système de systèmes soumis à des menaces physiques et numériques.
+
+      L'arrêté du 2 juillet 2018 approuve une méthode d'analyse des risques pour le secteur des activités d'importance vitale, et la continuité d'activité peut s'appuyer sur le guide du SGDSN de 2022.
+
+   C. Le processus de management des risques.
+
+      Le processus comporte quatre phases itératives : l'appréciation des valeurs et de l'environnement, l'évaluation des risques, la maîtrise et le traitement des risques, puis la surveillance, le contrôle et le réexamen.
+
+      L'analyse de risques correspond aux phases d'appréciation et d'évaluation, et vise à étudier le contexte, identifier les valeurs, étudier les menaces et les aléas, identifier les scénarios, cartographier et évaluer les risques.
+
+      La démarche didactique est découpée en onze étapes.
+
+      La cotation pondère la gravité au carré afin de souligner que l'impact d'un événement dommageable prévaut sur la probabilité qu'il se produise, la probabilité restant un critère intrinsèquement incertain et moins objectif.
+
+III. L'APPRÉCIATION DES VALEURS ET DE L'ENVIRONNEMENT.
+
+   A. Étape 1, l'analyse de l'environnement.
+
+      L'environnement d'une organisation correspond au contexte externe et interne dans lequel elle cherche à définir et atteindre ses objectifs.
+
+      Le contexte interne s'étudie à travers la structure et l'accessibilité du site, l'organisation, les activités et objectifs, l'information et la communication, les capacités et ressources, ainsi que la sûreté et la sécurité existantes.
+
+      Le contexte externe s'étudie à travers les dimensions politique, économique, sociale, les malveillances, les relations contractuelles et l'environnement naturel ou industriel.
+
+      L'étude du contexte externe aide à coter la probabilité des scénarios, mais elle ne remplace pas le recensement des menaces et des aléas, qui s'appuie sur des catalogues existants.
+
+   B. Étape 2, l'identification des valeurs.
+
+      L'inventaire des valeurs couvre les ressources humaines, les ressources intellectuelles, les systèmes d'information, l'image, les infrastructures, les prestations externes, les matériels et capacités, et le transport.
+
+      Pour les menaces, l'attractivité de chaque valeur est cotée de 1 à 4.
+
+IV. L'ÉVALUATION DES RISQUES.
+
+   A. Étape 3, l'étude des scénarios crédibles.
+
+      Les valeurs sont confrontées aux sous-catégories du catalogue ministériel des menaces et des aléas à l'aide d'un tableau de croisement, chaque combinaison représentant un scénario à considérer.
+
+      Les menaces directes comprennent l'agression directe, le terrorisme, l'espionnage, le sabotage, la subversion, le crime organisé et l'acte de malveillance.
+
+      Les menaces indirectes comprennent les troubles sociétaux internes graves, la menace économique, le phénomène migratoire massif extérieur et le dommage collatéral causé par un incident ou un conflit extérieur.
+
+      Les aléas comprennent l'aléa naturel, l'aléa ou événement sanitaire et l'aléa technologique ou industriel.
+
+      Le catalogue ministériel classe les menaces et les aléas selon six typologies de référence : les acteurs ou événements déclencheurs, les milieux et champs, les modes opératoires ou types de manifestation, les vecteurs, et les cibles, la typologie des vecteurs ne s'appliquant qu'aux menaces.
+
+   B. Étape 4, la probabilité et la gravité.
+
+      La probabilité d'une menace humaine s'évalue par la crédibilité du scénario, à partir des antécédents, et par sa faisabilité, à partir de la technicité et des ressources des auteurs.
+
+      L'échelle de probabilité va de P1 improbable à P2 peu probable, P3 probable, P4 très probable et P5 quasi-certain, ce dernier niveau correspondant à un événement recensé plusieurs fois sur le site.
+
+      Les impacts potentiels se classent en impact humain et social, opérationnel, financier et juridique, sur l'environnement et sur l'image.
+
+      L'échelle de gravité va de G1 mineure à G2 peu significative, G3 significative, G4 grave et G5 critique, ce dernier niveau correspondant à des conséquences sectorielles ou régaliennes au-delà de l'organisation.
+
+   C. Étape 5, la criticité du risque brut.
+
+      Le niveau de criticité se calcule par la formule probabilité multipliée par la gravité au carré, ce qui donne une valeur de 1 à 125.
+
+      Le risque est faible de 1 à 11, moyen de 12 à 24, élevé de 25 à 49 et critique de 50 à 125.
+
+      À cette étape, ni les mesures de sécurité existantes ni le seuil d'acceptation ne sont encore pris en compte.
+
+   D. Étape 6, les vulnérabilités et les mesures existantes.
+
+      Les vulnérabilités s'identifient dans les catégories matériel, logiciel, réseau, personnel, organisme et partenaires, et infrastructure.
+
+      Une vulnérabilité n'entraîne pas de dommage par elle-même, puisqu'une menace est nécessaire pour l'exploiter, mais une mesure mal mise en œuvre peut en constituer une.
+
+      Les mesures existantes se recensent par une revue documentaire, des entretiens avec les responsables, une revue sur site de la sécurité physique et l'examen des audits internes.
+
+   E. Étape 7, la criticité du risque net.
+
+      Le dispositif de sûreté est évalué sur cinq niveaux, chacun associé à un coefficient appliqué au niveau de criticité brut.
+
+      Les mesures absentes ont un coefficient de 1, les mesures partielles de 0,8, les mesures de substitution de 0,6, les mesures performantes de 0,4 et les mesures excellentes de 0,2.
+
+      Le niveau de criticité net est égal au niveau de criticité brut multiplié par ce coefficient.
+
+   F. Étape 8, le seuil d'acceptation du risque.
+
+      Le propriétaire du risque fixe le seuil d'acceptation à partir de critères qui dépendent des politiques, des objectifs de l'organisation et des intérêts des parties prenantes.
+
+      Ces critères peuvent inclure des seuils multiples, un rapport entre bénéfice métier et risque, des critères différents selon les types de risques, ou varier selon la durée d'existence du risque.
+
+      Ils doivent être réévalués lors de toute modification majeure du contexte interne ou externe.
+
+V. LA MAÎTRISE, LE TRAITEMENT ET LA SURVEILLANCE DES RISQUES.
+
+   A. Étape 9, la hiérarchisation des risques.
+
+      La position des risques nets par rapport au seuil d'acceptation distingue les risques significatifs confirmés, au-dessus du seuil, des risques significatifs maîtrisés, en dessous.
+
+      Les risques sont hiérarchisés selon leur criticité nette et le seuil d'acceptation afin d'établir les priorités de traitement.
+
+   B. Étape 10, les mesures de traitement.
+
+      Le traitement du risque peut consister à refuser le risque, à le prendre pour saisir une opportunité, à éliminer sa source, à modifier sa probabilité ou ses conséquences, à le partager par contrat ou financement, ou à le maintenir par une décision argumentée.
+
+      Les trois stratégies principales sont accepter, pour des risques maîtrisés de faible criticité, éliminer, pour des risques confirmés de criticité élevée, et diminuer, par des mesures préventives et de protection.
+
+      Le plan de traitement combine des mesures permanentes, qui forment la posture permanente de défense et de sécurité, et des mesures additionnelles, temporaires, activées notamment selon la posture Vigipirate.
+
+      La protection du secret se réfère à l'IGI 1300 du 9 août 2021 et à l'instruction ministérielle n° 900/ARM/CAB/NP du 15 mars 2021.
+
+      Les mesures de prévention portent sur les infrastructures, les fournisseurs, les systèmes d'information et les ressources humaines, comme la protection physique, la diversification des fournisseurs, les sauvegardes ou la sensibilisation.
+
+      Les mesures de protection portent aussi sur ces quatre domaines, comme un site alternatif, un fournisseur de secours, des liaisons satellitaires de secours ou le travail à distance.
+
+      Le dispositif de protection est structuré selon la défense en profondeur, en respectant l'équation de sûreté.
+
+   C. Étape 11, la surveillance, le contrôle et le réexamen.
+
+      La surveillance des menaces s'appuie sur la réactualisation des directives nationales de sécurité et des instructions ministérielles, ainsi que sur la revue des événements et incidents de sûreté.
+
+      Le plan de traitement doit garantir qu'aucun risque n'est négligé, que les actions sont mises en œuvre et que la capacité de réponse est assurée.
+
+      Formations, entraînements, exercices, retours d'expérience et indicateurs de performance maintiennent le plan en condition opérationnelle dans un cycle d'amélioration continue.
+
+VI. L'ANALYSE DU RISQUE SÛRETÉ DANS LE CADRE DE L'ATAP.
+
+   A. D'une obligation de moyens à une logique d'effets.
+
+      Avant la refonte de l'IGI 1300 en 2021, la protection du secret reposait sur des normes de protection physique, soit une obligation de moyens.
+
+      La nouvelle réglementation impose une analyse didactique de risques pour définir au cas par cas les moyens de prévention et de protection, soit une logique d'effets à obtenir.
+
+      L'IGI 1300 distingue les lieux abritant des ISC et les lieux où des ISC sont seulement communiqués ou manipulés, comme les salles de réunion.
+
+      Le système de protection doit garantir la disponibilité, l'intégrité, la confidentialité et la traçabilité des ISC par des barrières successives multifonctions, homogènes, dissuasives, contrôlées et traçables.
+
+      La DRSD vérifie que les mesures permettent de détecter une intrusion suffisamment tôt et de la freiner le temps nécessaire à une intervention.
+
+   B. Les critères de recevabilité de l'analyse.
+
+      La DRSD évalue six critères : le respect du périmètre, le processus méthodologique, l'identification des risques, la cartographie des risques, les mesures de prévention et de protection décrites et cotées, et l'évaluation des risques à traiter et résiduels.
+
+      L'analyse de risques est nécessaire mais pas suffisante pour constituer le dossier d'ATAP.
+
+   C. L'étude de la menace.
+
+      Les acteurs de la menace sont étatiques, du crime organisé, terroristes, activistes idéologiques, officines spécialisées, vengeurs, malveillants pathologiques ou acteurs extérieurs comme des ONG ou agences d'influence.
+
+      La dangerosité d'un acteur se mesure en croisant ses ressources et sa motivation sur une échelle de 1 à 9.
+
+      Les objectifs des acteurs sont l'espionnage, le pré-positionnement stratégique, l'influence, l'entrave au fonctionnement, le lucratif, et le défi ou l'amusement.
+
+      L'objectif d'un malveillant n'est pas toujours la cible visée, qui peut n'être qu'un moyen de parvenir à son objectif final.
+
+      Les modes opératoires recensés vont de l'agression verbale et physique au blocus, au vol avec ou sans violence, au sabotage, à la manipulation et au chantage, à l'espionnage, à l'atteinte à l'image, à la prise d'otage, à l'enlèvement et au terrorisme.
+
+   D. L'évaluation du dispositif de sûreté.
+
+      La matrice de criticité utilisée est appelée matrice de PROUTY, qui permet de favoriser le facteur gravité lorsque les statistiques manquent pour justifier la probabilité.
+
+      Le dispositif de sûreté s'évalue selon le facteur d'ambiance, les mesures organisationnelles, les infrastructures et moyens techniques, et les ressources humaines.
+
+      Les cinq niveaux d'évaluation vont du niveau critique, mesure absente, au niveau très satisfaisant, mesure excellente faisant référence.
+
+      L'autodiagnostic couvre cinq domaines : l'organisation de la protection, la sécurité des personnes, la sécurité des ISC, la sécurité physique du site et la sécurité des systèmes d'information.
+
+POINTS D'ATTENTION.
+
+      La gravité est pondérée au carré dans le calcul de criticité, car l'impact d'un événement prévaut sur sa probabilité.
+
+      Le risque brut ignore les mesures existantes, alors que le risque net les intègre par un coefficient compris entre 0,2 et 1.
+
+      Une vulnérabilité ne cause pas de dommage sans menace pour l'exploiter.
+
+      La méthode ne remplace pas EBIOS Risk Manager pour l'homologation des systèmes numériques.
+
+      L'analyse de risques est nécessaire mais non suffisante pour obtenir un ATAP.
+
+      Le concept VUCA vient du monde militaire américain, l'US Army War College en 1991, et a été repris par le management d'entreprise après 2020.
+
+      Les critères d'acceptation doivent être réévalués à chaque changement majeur de contexte.
+
+EXEMPLES CITÉS.
+
+      La base navale fictive de la première partie s'étend sur 150 hectares, compte 5000 effectifs permanents et se situe à 15 kilomètres d'une usine Seveso seuil haut.
+
+      Le scénario A de collision d'un drone terroriste avec une frégate est coté P4 et G4, soit une criticité brute de 64 critique, ramenée à 26 élevée avec des mesures performantes.
+
+      Le scénario B de rejets chimiques d'une usine Seveso voisine est coté P2 et G3, soit une criticité brute de 18 moyenne, ramenée à 8 faible.
+
+      Le scénario C de vols de matériels après des violences urbaines est coté P5 et G1, soit une criticité brute de 5 faible, ramenée à 3 avec des mesures de substitution.
+
+      La confrontation des valeurs de la base navale au catalogue ministériel produit 51 combinaisons de scénarios.
+
+      La PME fictive SYSCOMDEF de la seconde partie compte 114 salariés, réalise 34 pour cent de son chiffre d'affaires dans la défense et prépare un ATAP pour un local abritant des ISC de niveau Secret.
+
+      Le vol de documents classifiés par un personnel de SYSCOMDEF est coté P4 et G5, soit une criticité brute de 100, ramenée à 60 avec des mesures de substitution.
