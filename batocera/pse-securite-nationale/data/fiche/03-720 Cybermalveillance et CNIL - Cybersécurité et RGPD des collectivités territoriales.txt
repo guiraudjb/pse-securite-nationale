@@ -1,0 +1,133 @@
+CYBERSÉCURITÉ ET PROTECTION DES DONNÉES DES COLLECTIVITÉS TERRITORIALES, MÉTHODE CLÉ EN MAIN DE CYBERMALVEILLANCE.GOUV.FR ET DE L'AMF, ÉTUDE DE MATURITÉ DES COLLECTIVITÉS ET GUIDE DE SENSIBILISATION AU RGPD DE LA CNIL.
+
+LEXIQUE COMPLET.
+
+      L'AMF, association des maires de France et des présidents d'intercommunalité, est partenaire de Cybermalveillance.gouv.fr pour la méthode clé en main de sensibilisation des agents.
+
+      L'EPCI, établissement public de coopération intercommunale, regroupe des communes pour exercer des compétences communes.
+
+      Une donnée personnelle est toute information se rapportant à une personne physique identifiée ou identifiable, directement comme un nom ou indirectement comme un numéro, une plaque, une voix ou une image, y compris par croisement.
+
+      Un traitement de données personnelles est toute opération sur ces données, collecte, conservation, consultation, communication, même sur papier.
+
+      Le responsable de traitement détermine les finalités et les moyens d'un traitement, par exemple la commune pour la liste électorale ou l'intercommunalité pour la gestion des déchets.
+
+      Le délégué à la protection des données, ou DPO, conseille, contrôle et sert de point de contact avec les personnes et la CNIL.
+
+      L'analyse d'impact relative à la protection des données, ou AIPD, évalue les risques d'un traitement pour la vie privée avant sa mise en œuvre.
+
+      Le sous-traitant au sens du RGPD traite des données pour le compte du responsable de traitement, comme un hébergeur ou une société de maintenance.
+
+COURS DÉTAILLÉ.
+
+I. LES COLLECTIVITÉS FACE AU RISQUE CYBER.
+
+   A. L'étude de maturité des collectivités.
+
+      L'étude a porté sur les collectivités de moins de vingt-cinq mille habitants, qui représentent quatre-vingt-dix-neuf pour cent des trente-quatre mille neuf cent quarante-cinq communes et deux tiers des Français, avec mille cent soixante-dix-huit répondants.
+
+      Rapporté à ses publics, Cybermalveillance.gouv.fr a assisté en 2022 trente-quatre collectivités pour une entreprise.
+
+      Une collectivité sur dix a été attaquée dans l'année, surtout par hameçonnage à quarante-six pour cent, avec pour conséquences l'interruption des services à quarante pour cent, la destruction de données, la perte financière et le vol de données.
+
+      Soixante-dix-huit pour cent des élus et agents ont été sensibilisés au moins une fois, contre un tiers en 2021, et soixante-sept pour cent pensent que la cybersécurité est l'affaire de tous.
+
+      Les interlocuteurs principaux sont les prestataires informatiques à soixante et onze pour cent, puis la gendarmerie, la police ou la préfecture, et la gestion de la sécurité est externalisée à soixante-douze pour cent.
+
+   B. Des moyens limités.
+
+      Quatre-vingts pour cent des collectivités ont moins de dix postes, soixante-cinq pour cent un budget informatique inférieur à cinq mille euros et soixante-quinze pour cent un budget cyber inférieur à deux mille euros.
+
+      Les outils les plus répandus sont les sauvegardes et l'antivirus à quatre-vingt-cinq pour cent, le pare-feu à soixante-deux pour cent, mais la double authentification n'atteint que dix pour cent.
+
+      Soixante-deux pour cent des répondants utilisent des équipements personnels, surtout le téléphone à quatre-vingt-huit pour cent et la clé USB à cinquante et un pour cent.
+
+      Seules quatorze pour cent se disent préparées et dix-neuf pour cent disposent d'une procédure de réaction.
+
+      Les freins sont le manque de connaissances à quarante-cinq pour cent, de ressources humaines, de temps et de budget, et les attentes portent sur les outils, le diagnostic, la sensibilisation des agents et des élus et l'aide financière.
+
+II. LA MÉTHODE CLÉ EN MAIN DE SENSIBILISATION DES AGENTS.
+
+   A. Les cinq clés.
+
+      Première clé, prendre conscience du risque : une seule intrusion peut arrêter les services, détruire ou diffuser les données des administrés, provoquer un effet domino, des pertes financières, une atteinte à l'image, des risques psychosociaux et engager la responsabilité civile, pénale et administrative.
+
+      Le top trois des attaques contre les collectivités est le rançongiciel, l'hameçonnage et le piratage de compte.
+
+      Deuxième clé, impliquer tous les publics, du stagiaire à l'élu, avec le réflexe de ne pas gérer seul un problème et d'alerter son responsable informatique, et un contact privilégié ou un élu engagé.
+
+      Troisième clé, s'appuyer sur de bonnes ressources en identifiant deux ou trois profils, en calibrant le discours, en privilégiant les solutions aux messages anxiogènes et en choisissant les canaux, puis en testant le programme.
+
+      Quatrième clé, décliner et répéter les messages selon un calendrier, avec des illustrations et des métaphores médicales sur l'hygiène numérique.
+
+      Cinquième clé, vérifier l'assimilation par des retours d'expérience, des quiz et une campagne de faux hameçonnage menée avec bienveillance, et mesurer l'engagement.
+
+   B. Le programme en trois actes.
+
+      Il repose sur quatre fondamentaux : les thèmes hameçonnage, mots de passe, réseaux sociaux et piratage de compte, quatre supports, vidéos, fiches, mémos et quiz, des canaux adaptés et un pilote du programme.
+
+      L'acte un est la réunion de lancement en présentiel, l'acte deux le cœur de la sensibilisation sur quatre périodes, l'acte trois la réunion de clôture avec bilan et questionnaire de satisfaction.
+
+      La démarche doit se poursuivre dans le temps et inclure les nouveaux arrivants.
+
+III. LE RGPD DANS LES COLLECTIVITÉS.
+
+   A. Le cadre.
+
+      Le RGPD, applicable depuis le 25 mai 2018, remplace les déclarations préalables par une logique de responsabilisation et de documentation continue.
+
+      La collectivité doit désigner un DPO, tenir un registre, encadrer la sous-traitance, sécuriser les données, organiser l'exercice des droits, notifier les violations et réaliser des AIPD pour les traitements à risque.
+
+      La CNIL conseille, reçoit les plaintes, contrôle et sanctionne jusqu'à vingt millions d'euros, et ne mandate aucune entreprise pour la mise en conformité.
+
+      Chaque traitement a une finalité déterminée et une base légale parmi six, le plus souvent l'obligation légale ou la mission d'intérêt public pour les collectivités, le consentement devant être libre, spécifique, éclairé et univoque.
+
+   B. Le délégué à la protection des données.
+
+      Toute structure publique doit désigner un DPO, interne, externe ou mutualisé, qui rend compte au plus haut niveau, agit en toute indépendance et sans conflit d'intérêts.
+
+      Le maire et les conseillers municipaux ne peuvent pas être DPO, et la fonction de directeur général des services est particulièrement problématique.
+
+      La désignation se notifie à la CNIL par téléservice.
+
+   C. Le plan d'action en quatre étapes.
+
+      Recenser les traitements dans un registre : responsable, finalités, personnes et données, destinataires, durées de conservation, mesures de sécurité et transferts hors Union européenne.
+
+      Faire le tri selon les principes de pertinence et de minimisation, restreindre les accès aux agents habilités et fixer les durées de conservation.
+
+      Respecter les droits des administrés : information, accès, rectification, opposition, effacement, portabilité et limitation, avec une réponse sous un mois, sachant que l'opposition ne s'applique pas à une obligation légale comme l'état civil.
+
+      Sécuriser les données contre l'accès illégitime, la modification et la disparition, et notifier les violations à la CNIL sous soixante-douze heures, voire informer les personnes si le risque est élevé.
+
+   D. Traitements à risque, sous-traitants et fiches pratiques.
+
+      Les données sensibles portent sur l'origine, les opinions, la religion, le syndicat, la santé, l'orientation sexuelle, la génétique et la biométrie, et une AIPD est en principe requise dès que deux des neuf critères de risque sont réunis.
+
+      Le contrat avec un sous-traitant doit inclure les clauses de l'article 28 du RGPD : transparence, sécurité, protection dès la conception, assistance et alerte.
+
+      Les tiers autorisés, comme les finances publiques, la justice ou les huissiers, ne reçoivent des données que sur demande écrite fondée sur un texte, par un canal sécurisé et avec traçabilité.
+
+      Les images de vidéoprotection sur la voie publique, soumises à autorisation préfectorale de cinq ans, se conservent en principe un mois au plus, et les enregistrements des caméras piétons de police municipale sont effacés au bout de six mois.
+
+      Les sites des collectivités doivent recueillir le consentement pour les traceurs non essentiels, et les téléservices ne collecter que le nécessaire, avec un identifiant par service ou FranceConnect.
+
+      Le cycle de vie des données comprend la base active, l'archivage intermédiaire et l'archivage définitif.
+
+POINTS D'ATTENTION.
+
+      Les plus petites communes sont les plus vulnérables et les moins conscientes du risque.
+
+      Un maire ne peut pas utiliser le fichier des inscriptions scolaires pour sa communication politique, alors que la liste électorale le permet.
+
+      La publication d'un événement d'état civil dans le bulletin municipal exige le consentement de l'intéressé.
+
+      La conformité est une démarche continue, pas un état figé.
+
+EXEMPLES CITÉS.
+
+      Pour une inscription scolaire, demander le numéro de sécurité sociale des parents n'est pas pertinent, et pour la cantine seul le régime alimentaire suffit.
+
+      Les données d'un fichier municipal de prévention de la délinquance se conservent en archive trois ans après le suivi et jamais au-delà de vingt-cinq ans de la personne.
+
+      La liste électorale peut être copiée par tout électeur, candidat ou parti qui s'engage à ne pas en faire un usage commercial.
