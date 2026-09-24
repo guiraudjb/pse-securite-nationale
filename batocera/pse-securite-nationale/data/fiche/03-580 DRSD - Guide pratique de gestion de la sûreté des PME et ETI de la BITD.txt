@@ -1,0 +1,247 @@
+GUIDE PRATIQUE DE GESTION DE LA SÛRETÉ À L'USAGE DES PME ET DES ETI DE LA BITD, DRSD 2026.
+
+LEXIQUE COMPLET.
+
+      La BITD, base industrielle et technologique de défense, désigne l'ensemble des entreprises qui conçoivent et produisent les équipements de défense, dont de nombreuses PME et ETI sous-traitantes.
+
+      La sûreté est la prévention et la lutte contre la malveillance, c'est-à-dire contre les risques d'origine humaine et intentionnelle.
+
+      La sécurité est la prévention et la lutte contre les risques accidentels, naturels et technologiques, c'est-à-dire d'origine non intentionnelle.
+
+      La malveillance est un risque d'origine humaine et intentionnel, par action ou par inaction, visant une personne ou le patrimoine matériel ou immatériel d'un organisme.
+
+      Le responsable sûreté est la personne désignée par la direction pour gérer la sûreté, souvent le dirigeant, le responsable des moyens généraux, le responsable QHSE ou le responsable des ressources humaines.
+
+      La politique générale de sûreté est le document qui fixe les orientations stratégiques de la direction en matière de sûreté, c'est-à-dire le quoi et le pourquoi.
+
+      Le plan de sûreté est le document de référence qui décrit comment l'entreprise protège ses valeurs face aux risques de sûreté et s'assure de son efficacité.
+
+      Le schéma directeur de sûreté, aussi appelé plan stratégique de sûreté, fixe la vision et la feuille de route de la sûreté à moyen terme, sur trois à cinq ans.
+
+      La revue de direction sûreté est l'évaluation formalisée, idéalement annuelle, par laquelle la direction vérifie la pertinence, l'adéquation et l'efficacité du système de management de la sûreté.
+
+      Le système de management de la sûreté, ou SMS, est l'outil opérationnel et méthodologique qui met en œuvre le plan de sûreté, c'est-à-dire le comment.
+
+      La défense en profondeur repose sur des barrières successives allant de la périphérie à la périmétrie puis à la volumétrie, avec des mesures humaines, organisationnelles et techniques homogènes, redondantes et complémentaires.
+
+      L'équation de sûreté impose que le temps de freinage soit strictement supérieur au temps cumulé de détection, de traitement de l'alarme et d'intervention.
+
+      La périphérie est l'espace extérieur de l'emprise, souvent matérialisé par la limite de propriété, la périmétrie est la zone comprise entre cette limite et l'enveloppe des bâtiments, et la volumétrie regroupe les volumes intérieurs des bâtiments.
+
+      Les mesures HOT sont les mesures humaines, organisationnelles et techniques d'un dispositif de sûreté.
+
+      Les dispositifs CADIVS regroupent le contrôle d'accès, la détection d'intrusion et la vidéosurveillance.
+
+      La DCIT désigne les quatre objectifs de la sécurité des informations, à savoir la disponibilité, la confidentialité, l'intégrité et la traçabilité.
+
+      Le PDCA, pour Plan, Do, Check, Act, est la démarche d'amélioration continue en quatre étapes, planifier, déployer, vérifier et ajuster.
+
+      Les indicateurs de suivi d'activité mesurent la quantité d'actions de sûreté, les KPI mesurent la qualité et l'efficacité par rapport aux objectifs, et les indicateurs de ROI mesurent la valeur économique de la sûreté.
+
+      La levée de doute est la vérification, à distance ou par une intervention humaine, qu'une alarme correspond à une intrusion réelle.
+
+      Le parcours de notoriété désigne l'organisation encadrée de la visite d'une délégation, notamment étrangère, au sein de l'entreprise.
+
+      Le CERT ED est le centre de réponse aux incidents informatiques de la DRSD au profit des entreprises de défense.
+
+      La méthode AGIR, utilisée en gestion de crise, consiste à afficher les faits, gérer les impacts, identifier les parties prenantes et répondre par un plan d'action.
+
+      Le RETEX, ou retour d'expérience, est l'analyse a posteriori d'un événement et de sa gestion pour en tirer des axes d'amélioration.
+
+COURS DÉTAILLÉ.
+
+I. LES ENJEUX ET L'OBJET DU GUIDE.
+
+   A. Des PME et ETI de défense particulièrement ciblées.
+
+      L'avant-propos du général de corps d'armée Aymeric Bonnemaison, directeur de la DRSD, constate le recours croissant aux actions hybrides et aux ingérences, comme l'espionnage, le sabotage, la guerre économique, les cyberattaques ou les atteintes à la réputation.
+
+      Les PME et ETI de la BITD sont jugées plus vulnérables que les grands groupes dont elles sont un maillon essentiel de la sous-traitance, alors qu'elles détiennent des savoir-faire critiques pour la souveraineté nationale.
+
+      L'ingénierie sociale, notamment par les réseaux sociaux, sert à repérer et approcher des collaborateurs aux postes stratégiques, cette phase de repérage précédant souvent des intrusions, des vols de documents ou des sabotages.
+
+      L'atteinte d'un seul sous-traitant peut remettre en cause l'intégrité d'un programme de défense entier.
+
+      Le guide a été élaboré par le bureau expertise protection sûreté du Centre du conseil, de la prévention et des inspections, le CCPI, de la DRSD.
+
+   B. La sûreté, facteur de compétitivité.
+
+      Dans sa préface, Geoffroy Roux de Bézieux, président d'honneur du MEDEF, rappelle son rapport de juin 2024 au Président de la République sur la sécurité économique des entreprises, qui concluait qu'il fallait renforcer la protection, Protect France, tout en restant attractif, Choose France.
+
+      L'article L4121-1 du code du travail impose au dirigeant une obligation de sécurité envers ses salariés, avec des moyens renforcés selon la jurisprudence Air France de 2015.
+
+      Les services achats des grands groupes de la BITD et de certaines administrations intègrent désormais la sûreté comme critère discriminant de choix des fournisseurs, comme pour la cybersécurité.
+
+      Alignée sur la stratégie de l'entreprise, la sûreté protège les actifs, renforce la résilience et la confiance des clients, et devient un véritable business partner plutôt qu'un simple centre de coût.
+
+   C. L'organisation du guide.
+
+      Le guide comporte une partie théorique sur les fondamentaux de la sûreté et une partie didactique de mise en œuvre fondée sur la méthode PDCA.
+
+      Chaque partie distingue les mesures pour commencer, qui sont les fondamentaux et les actions prioritaires, et les mesures pour aller plus loin, qui renforcent le dispositif initial.
+
+      Le guide ne traite pas de la protection du secret de la défense nationale, la PSDN, de la protection du potentiel scientifique et technique, la PPST, ni de la sécurité des activités d'importance vitale, la SAIV.
+
+II. LES GRANDS PRINCIPES ET LA GOUVERNANCE DE LA SÛRETÉ.
+
+   A. Les grands principes.
+
+      La sûreté doit être intégrée à la stratégie et au fonctionnement de l'entreprise pour protéger ses valeurs, à savoir son personnel, son patrimoine matériel et son patrimoine immatériel.
+
+      La direction doit s'engager clairement en validant et en incarnant la gouvernance de la sûreté, ce qui garantit sa légitimité, son financement et son efficacité.
+
+      L'architecture de sûreté doit être cohérente et adaptée, fondée sur la défense en profondeur et l'équation de sûreté, et conforme notamment au RGPD, au code de la sécurité intérieure et au code du travail.
+
+      La gestion du risque de sûreté s'appuie sur la norme ISO 31000 en se concentrant sur le risque de malveillance.
+
+      La sûreté est une responsabilité individuelle au profit du collectif, et la sensibilisation du personnel favorise la remontée des signaux faibles.
+
+      La sûreté est une chaîne dont la force dépend du maillon le plus faible, et elle s'inscrit dans une démarche d'amélioration continue.
+
+   B. La gouvernance de la sûreté.
+
+      La gouvernance est l'engagement stratégique de la direction qui définit la vision, les rôles, les ressources et la culture de sûreté.
+
+      La sûreté couvre trois domaines interdépendants : la sûreté du personnel, la sûreté physique et la sécurité des informations.
+
+      Le responsable sûreté doit disposer d'un positionnement hiérarchique adapté avec un accès direct à la direction, de l'autorité nécessaire, de ressources adéquates, des compétences requises et idéalement d'un adjoint.
+
+      Il peut recevoir une délégation de pouvoir, mais le dirigeant reste comptable du résultat du travail délégué.
+
+      La politique générale de sûreté définit la gouvernance, des objectifs mesurables, la conformité réglementaire, la documentation, la politique de sensibilisation et la revue de direction.
+
+      Le plan de sûreté poursuit trois finalités, protéger les valeurs, démontrer la maîtrise des risques et structurer la réponse face à l'imprévu, et comprend quatre parties : la gouvernance, l'évaluation des risques, le plan de traitement, et l'amélioration continue avec le contrôle.
+
+      La revue de direction sûreté doit vérifier l'adéquation entre stratégie et enjeux de sûreté, évaluer l'efficacité du dispositif, s'assurer des ressources et décider des priorités, et donne lieu à un procès-verbal.
+
+III. LE SYSTÈME DE MANAGEMENT DE LA SÛRETÉ.
+
+   A. Le management du risque de sûreté.
+
+      Le passage à l'acte d'un malveillant repose sur trois conditions : sa motivation, la facilité d'action et l'impunité potentielle.
+
+      La stratégie de sûreté vise à dissuader, alerter, bloquer ou à défaut freiner, réagir et intervenir, puis limiter ou supprimer les conséquences.
+
+      Une menace réunit trois éléments : un auteur, interne ou externe, un objectif, matériel, immatériel ou humain, et une méthode avec des moyens d'action.
+
+      Le règlement intérieur, obligatoire à partir de 50 salariés mais recommandé partout, offre un cadrage juridique, un outil de prévention, un levier disciplinaire et peut encadrer le principe de neutralité.
+
+   B. L'analyse et le traitement des risques.
+
+      L'analyse commence par la connaissance du contexte interne et externe, puis par l'identification des valeurs, et renvoie au guide pratique d'analyse de risques de la DRSD et de la DPID de 2023.
+
+      L'évaluation des risques se déroule en six étapes : scénarios crédibles, probabilité et gravité, criticité du risque brut, vulnérabilités et mesures existantes, criticité du risque net, puis seuil d'acceptation.
+
+      Le traitement des risques s'appuie sur trois stratégies, accepter, diminuer ou éliminer, et combine mesures de prévention et mesures de protection.
+
+   C. La surveillance, les procédures et la veille.
+
+      Les indicateurs de sûreté se répartissent entre indicateurs de suivi d'activité, comme le nombre de rondes, d'incidents ou de badges délivrés, indicateurs de performance, comme le pourcentage de personnes sensibilisées ou le temps moyen de levée de doute, et indicateurs de retour sur investissement, comme le coût des incidents évités ou le nombre de contrats gagnés grâce à la sûreté.
+
+      Un audit externe apporte un regard extérieur mais exige une sélection rigoureuse du prestataire, un accord de confidentialité, la protection des données et une restitution sécurisée.
+
+      Les procédures de sûreté formalisées permettent de pérenniser les pratiques, d'éviter les approximations et d'associer des sanctions en cas de non-respect.
+
+      Le dispositif de veille peut être stratégique, concurrentiel, technologique, réglementaire ou réputationnel, et il donne un temps d'avance dans un monde VICA, volatil, incertain, complexe et ambigu.
+
+   D. La continuité d'activité et la gestion de crise.
+
+      Le PCA et le PRA permettent de poursuivre ou de reprendre les activités critiques, en définissant leur périmètre, en les élaborant, en fixant leur processus d'activation et en assurant leur maintien en condition opérationnelle.
+
+      La crise se caractérise par huit traits : incertitude, perturbation, urgence, impacts multiples, parties prenantes, émotion et attrait des médias, point de rupture et cinétique.
+
+      Le plan de gestion de crise repose sur quatre piliers : l'organisation, le processus d'alerte, de mobilisation, de pilotage, de démobilisation et de RETEX, la méthode AGIR et les supports de crise.
+
+IV. LES TROIS DOMAINES DE LA SÛRETÉ.
+
+   A. La sûreté du personnel.
+
+      Le personnel est à la fois une valeur à protéger et une source potentielle de menace, volontaire ou non, d'où la vérification de l'éligibilité et de l'aptitude de chacun à accéder aux actifs stratégiques.
+
+      Les procédures clés comprennent les consignes de sûreté, le circuit d'arrivée et de départ des collaborateurs, la gestion des visiteurs, la sensibilisation et la gestion du personnel temporaire.
+
+      Pour les déplacements à l'international, l'employeur doit prévoir des mesures de prévention et de protection, suivre les conseils aux voyageurs du ministère de l'Europe et des Affaires étrangères et inscrire les salariés sur Ariane.
+
+      La jurisprudence Abidjan de la Cour de cassation du 7 décembre 2011 étend l'obligation de sécurité de l'employeur à la vie privée en déplacement à l'international.
+
+      Pour aller plus loin, l'entreprise peut ajouter un suffixe comme point ext à l'adresse électronique des personnels temporaires, et certaines zones exigent une enquête administrative préalable, comme les zones protégées, les points d'importance vitale, les zones réservées ou les zones à régime restrictif.
+
+   B. La sûreté physique des valeurs.
+
+      La sûreté physique consiste à identifier les zones où se trouvent les valeurs et à les protéger, en appliquant la sûreté par défaut et dès la conception, security by default et security by design.
+
+      Les dispositifs techniques doivent répondre à des normes, être adaptés à l'environnement, installés dans les règles de l'art, secourus électriquement, protégés, traçables et maintenus.
+
+      La protection mécanique, avec les clôtures, portails, parois, vitrages, volets, portes et serrures, constitue le socle minimal mais doit être complétée par un contrôle d'accès.
+
+      Le contrôle d'accès identifie une personne par ce qu'elle possède, ce qu'elle connaît ou ce qu'elle est, deux facteurs réunis constituant une authentification, et il doit respecter la proportionnalité, la consultation des représentants du personnel et la protection des données.
+
+      La détection d'intrusion déclenche l'alarme, l'alerte, la levée de doute et l'intervention, et une société de télésurveillance doit avoir levé le doute avant de solliciter les forces de sécurité intérieure.
+
+      La vidéosurveillance filmant la voie publique ou les abords exige une autorisation préfectorale valable cinq ans, on parle alors de vidéoprotection, avec trois niveaux d'exploitation, la surveillance, la reconnaissance et l'identification.
+
+      Les référentiels APSAD du CNPP servent de référence, D83 pour le contrôle d'accès, R81 pour la détection d'intrusion, R82 pour la vidéosurveillance et R31 pour la télésurveillance.
+
+      Pour aller plus loin, l'entreprise peut recourir à des agents privés de sécurité réglementés par le CNAPS, à des dispositifs anti-bélier, anti-franchissement ou à un générateur de brouillard, et à l'anti pass-back temporel ou géographique.
+
+   C. La sécurité des informations.
+
+      La sécurité des informations garantit la DCIT des informations de l'entreprise et de celles qui lui sont confiées, tout au long de leur cycle de vie, de la création à la destruction.
+
+      Les informations doivent être catégorisées afin d'identifier les plus critiques, comme les fichiers clients, la comptabilité, les brevets ou les mots de passe administrateur.
+
+      La sensibilisation à l'hygiène numérique suit les recommandations de l'ANSSI : repérer l'hameçonnage, utiliser un gestionnaire de mots de passe, activer la double authentification et signaler tout incident sans crainte de sanction.
+
+      Les procédures clés sont la charte informatique, le besoin d'en connaître, les mises à jour automatiques, la gestion des accès avec VPN et double authentification, et les sauvegardes régulières hors ligne.
+
+      Pour aller plus loin, l'entreprise désigne un RSSI, adopte une PSSI et une politique de protection de l'information, chiffre les données sensibles et rédige une charte d'usage de l'intelligence artificielle.
+
+V. LA MISE EN ŒUVRE PAR LE CYCLE PDCA.
+
+   A. Planifier.
+
+      Les actions pour commencer sont d'identifier un responsable sûreté, d'identifier les valeurs, de s'auto-évaluer avec le questionnaire du référentiel de sûreté physique de la DGA en treize exigences, d'identifier quatre ou cinq grands risques et de rédiger au moins une note de sûreté, a minima le règlement intérieur.
+
+      Pour aller plus loin, il faut préciser l'environnement, évaluer finement les risques et remplacer la note par une politique générale de sûreté, un plan de sûreté, un éventuel schéma directeur et une revue de direction.
+
+   B. Déployer.
+
+      Les actions pour commencer sont de formaliser la fonction de responsable sûreté et de son adjoint, de sensibiliser le personnel à l'arrivée puis régulièrement, chaque collaborateur devant être sensibilisé au moins tous les trois ans, de protéger physiquement les valeurs stratégiques et d'installer une détection d'intrusion.
+
+      Le dispositif minimal de détection comprend une détection volumétrique de préférence double technologie, une alarme sonore locale, une alerte vers la télésurveillance et une capacité de levée de doute, avec des codes individuels et une activation automatique le soir.
+
+      Pour partager des informations sensibles, il faut les chiffrer, privilégier des plateformes européennes et utiliser France Transfert avec les services de l'État.
+
+      Pour aller plus loin, le responsable sûreté renforce ses liens avec la DRSD, la DGSI, la DNRT, les référents sûreté, les douanes et ses pairs, développe la culture de sûreté, assure la maintenance des dispositifs et rédige les plans de crise et de continuité.
+
+   C. Vérifier et ajuster.
+
+      Vérifier consiste à tester les mesures et dispositifs, à évaluer les écarts par rapport aux objectifs et, pour aller plus loin, à analyser les KPI et ROI, réaliser des audits, des exercices et un RETEX structuré, et anticiper l'obsolescence.
+
+      Ajuster consiste à instaurer des points sûreté réguliers, par exemple trimestriels, à réparer les dispositifs défectueux, à renforcer la sensibilisation, à mettre à jour les procédures et, pour aller plus loin, à réaliser une revue de direction.
+
+      La méthode flash du guide résume ce cheminement en une liste de quinze actions pour commencer et de dix-neuf actions pour aller plus loin.
+
+POINTS D'ATTENTION.
+
+      Sûreté et sécurité ne se confondent pas, la sûreté traitant la malveillance et la sécurité les risques accidentels.
+
+      L'équation de sûreté exige un temps de freinage strictement supérieur au cumul des temps de détection, de traitement de l'alarme et d'intervention.
+
+      La grande majorité des intrusions passe par les accès, d'où l'importance du contrôle d'accès.
+
+      La vidéoprotection de l'espace public nécessite une autorisation préfectorale de cinq ans.
+
+      La confidentialité de certaines mesures de sûreté est une condition de leur efficacité.
+
+      Les dix règles élémentaires de la sûreté invitent chacun à se sentir concerné, respecter les consignes, signaler tout fait inhabituel, verrouiller sa session, utiliser des mots de passe robustes, rester discret et, en déplacement, garder son ordinateur, privilégier les prises secteur et éviter les Wi-Fi publics en utilisant un VPN.
+
+EXEMPLES CITÉS.
+
+      Les normes citées sont NF ISO 22300 sur le vocabulaire, NF ISO 22340 sur la sûreté préventive, NF ISO 22342 sur le plan de sûreté, NF ISO 31000 sur le management du risque et AFNOR SPEC 2404 sur le plan de sûreté.
+
+      Les ressources complémentaires citées sont les 29 fiches de sécurité économique du SISSE, le jeu des 8 familles de l'IHEMI, le guide ANSSI des TPE et PME en 13 questions et les guides DRSD d'analyse de risques, de survie face à la crise et d'élaboration des PCA.
+
+      Un indicateur de retour sur investissement peut être le nombre d'appels d'offres sensibles auxquels l'entreprise devient éligible grâce à son dispositif de sûreté.
+
+      La procédure de gestion des badges peut prévoir une activation d'un an pour les prestataires et de trois ans pour les collaborateurs, ainsi qu'une vérification annuelle de tous les badges.
