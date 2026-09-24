@@ -1,0 +1,113 @@
+REVUE DÉFIS N°1 DE 2013 DU DÉPARTEMENT SÉCURITÉ ÉCONOMIQUE DE L'INHESJ, DEVENU L'IHEMI, CONSACRÉE À LA CYBERSÉCURITÉ ET À L'INTELLIGENCE STRATÉGIQUE, UN REGARD HISTORIQUE SUR LA CONSTRUCTION DU DISPOSITIF FRANÇAIS.
+
+LEXIQUE COMPLET.
+
+      L'INHESJ, institut national des hautes études de la sécurité et de la justice, placé auprès du Premier ministre, a été intégré en 2020 à l'IHEMI, institut des hautes études du ministère de l'Intérieur, et publiait la revue trimestrielle Défis de son département sécurité économique.
+
+      L'intelligence économique est la maîtrise de l'information stratégique par la veille, la sécurité économique et l'influence, et l'intelligence stratégique en est la matrice plus large, qui touche la gouvernance et la fabrication de la stratégie.
+
+      La D2IE, délégation interministérielle à l'intelligence économique, dirigée en 2013 par Claude Revel et rattachée au Premier ministre par le décret du 22 août 2013, est l'ancêtre de l'actuel SISSE.
+
+      La cybersécurité est, selon la stratégie nationale de 2011, un état à atteindre, comme la sécurité routière, qui recouvre la sécurité des systèmes d'information, la lutte contre la cybercriminalité et la cyberdéfense.
+
+      La cyberdéfense est la protection active des systèmes d'information critiques contre l'espionnage, la déstabilisation et le sabotage.
+
+      L'APT, menace persistante avancée, désigne une campagne d'intrusion longue et discrète, comme APT1 attribuée en 2013 à l'unité chinoise 61398.
+
+      Le watering hole, ou trou d'eau, consiste à piéger un site fréquenté par les cibles visées.
+
+      La convention de Budapest du 23 novembre 2001 du Conseil de l'Europe est le seul instrument international dédié à la cybercriminalité.
+
+      Les OIV, opérateurs d'importance vitale, sont les opérateurs dont l'activité est indispensable à la vie de la Nation.
+
+COURS DÉTAILLÉ.
+
+I. LA REVUE ET SES AMBITIONS.
+
+      Lancée par Éric Delbecque, chef du département sécurité économique, Défis veut décloisonner l'intelligence économique, créer du sens et transmettre, et choisit la cybersécurité pour son premier numéro.
+
+      Elle défend l'idée que l'intelligence économique dérive d'une matrice plus fondamentale, l'intelligence stratégique, qui s'impose au privé comme au public.
+
+II. LE CYBERMONDE, ENJEU POLITIQUE ET RÔLE DES ÉTATS.
+
+   A. Un enjeu de société.
+
+      Pour la députée Axelle Lemaire, le cybermonde est une révolution anthropologique qui interroge les libertés individuelles, comme l'a montré l'affaire Prism, et le respect d'autrui sur les réseaux sociaux.
+
+      Le rapport Bockel du 18 juillet 2012 élève la cyberdéfense au rang de priorité nationale, et la loi de programmation militaire 2014-2019 permet à l'ANSSI d'analyser un logiciel malveillant et d'accéder au serveur à l'origine d'une attaque.
+
+      Le Livre blanc de 2013 annonce la régulation de la sécurité des systèmes des OIV : règles techniques, déclaration d'incidents, contrôles et audits.
+
+   B. Le rôle des États selon l'ANSSI.
+
+      Pour Patrick Pailloux, directeur général de l'ANSSI, la présence des États dans le cyberespace se justifie par des raisons technologiques et économiques, fonctionnelles, car tous les services essentiels dépendent du numérique, et de sécurité.
+
+      La cyberdéfense lutte contre trois menaces : l'espionnage, la déstabilisation par divulgation, indisponibilité ou propagande, et le sabotage d'équipements industriels.
+
+      L'ANSSI, créée en 2009 après le Livre blanc de 2008 et l'attaque contre l'Estonie, passe d'une centaine d'ingénieurs à trois cent cinquante en 2013, tandis que les ministères de la Justice et de l'Intérieur luttent contre la cybercriminalité.
+
+      L'État agit aussi par l'anticipation et la politique industrielle, la formation des compétences, les relations internationales et la sensibilisation, domaine où la marge de progression est la plus forte.
+
+III. LES SPÉCIFICITÉS DE LA CYBERSÉCURITÉ.
+
+      Pour Nicolas Arpagian, la cybersécurité couvre la sécurité des systèmes d'information et celle des données, et constitue un chantier permanent.
+
+      C'est un espace d'affrontement asymétrique où un individu isolé peut causer d'énormes dégâts, comme l'a montré WikiLeaks.
+
+      L'information peut primer sur la puissance : une clé USB peut livrer à un concurrent des années de recherche et développement.
+
+      Le cadre juridique reste inadapté, la gouvernance d'Internet dominée par les États-Unis, et les géants du numérique disposent de moyens comparables à ceux des États.
+
+      Les mesures de sécurité sont vécues comme des pesanteurs, d'où la nécessité d'une forte implication du management et d'une stratégie qui détermine ce que l'on protège et avec quels moyens.
+
+      En janvier 2013, un faux compte Twitter a fait chuter de vingt-cinq pour cent le cours d'une société cotée au Nasdaq.
+
+IV. LA RÉPONSE DES FORCES DE L'ORDRE ET DE LA JUSTICE.
+
+   A. Gendarmerie et police.
+
+      La gendarmerie travaille sur la prévention, la répression et la prospective, avec l'IRCGN, la division de lutte contre la cybercriminalité du STRJD, le plateau PICyAN de 2012 et le réseau N-TECH de près de mille enquêteurs spécialisés.
+
+      Elle appelle à étendre les cyberpatrouilles, à créer une cyberperquisition adaptée au cloud et à développer l'analyse sur machine vivante face au chiffrement.
+
+      Selon la BEFTI de la préfecture de police, les attaques les plus fréquentes sont les intrusions pour voler des données personnelles, les piratages de standards téléphoniques et les fraudes internes, et quatre-vingts pour cent des infractions sont commises par des personnes disposant d'un moyen informatique.
+
+      Les PME doivent d'abord élever leur culture de sécurité : contrat de maintenance prévoyant la récupération des données, sauvegarde des journaux, plan de continuité et charte informatique.
+
+   B. La justice et la coopération internationale.
+
+      La magistrate Myriam Quéméner décrit un millefeuille législatif depuis la loi Informatique et libertés de 1978 et la loi Godfrain de 1988, des difficultés de preuve numérique volatile et de compétence territoriale.
+
+      Les outils d'enquête comprennent l'infiltration sous pseudonyme, les cyberpatrouilles autorisées pour quatre mois renouvelables et la captation de données à distance issue de la LOPPSI 2 pour les infractions les plus graves en bande organisée.
+
+      Pour Thomas Cassuto, la cybercriminalité fait partie des dix eurocrimes de l'article 83 du traité sur le fonctionnement de l'Union, et la coopération s'appuie sur Europol, son centre EC3 créé en janvier 2013, Eurojust, Interpol et le point de contact français OCLCTIC joignable en permanence.
+
+V. PRESTATAIRES, INTELLIGENCE ÉCONOMIQUE ET GUERRE ÉCONOMIQUE.
+
+      L'avocat Étienne Drouard rappelle que la nationalité d'un prestataire compte : il reste soumis aux lois de son pays, comme le Patriot Act, quelle que soit la loi du contrat.
+
+      Transférer des données personnelles hors de l'Union sans garanties est puni de cinq ans et un million cinq cent mille euros d'amende, d'où l'intérêt de chiffrer chez le client ou de choisir des prestataires traitant les données en Europe.
+
+      Pour le CIGREF, la sécurité est désormais portée au niveau des comités exécutifs, et son étude de 2011 identifie huit familles de risques numériques évaluées selon la gravité, l'occurrence et le périmètre.
+
+      Claude Revel veut une D2IE stratège et experte, fondée sur la veille et l'anticipation, la sécurité économique, l'influence et la pédagogie, avec une formation de base en intelligence économique pour tous les étudiants.
+
+      Éric Delbecque appelle, après Prism, à tirer les conséquences d'un principe de réciprocité face aux puissances commercialement offensives, tout en construisant les coopérations d'une paix économique.
+
+POINTS D'ATTENTION.
+
+      Ce numéro de 2013 éclaire l'origine du dispositif actuel : ANSSI, obligations des OIV, D2IE devenue SISSE.
+
+      La principale faille des systèmes se situe entre la chaise et le clavier.
+
+      La cybersécurité n'est pas qu'une affaire de choix informatiques mais de gouvernance et d'implication de la direction.
+
+      La nationalité d'un prestataire est un risque juridique qui ne se négocie pas dans le contrat.
+
+EXEMPLES CITÉS.
+
+      Un soldat a transféré en quelques minutes des volumes considérables de télégrammes diplomatiques américains publiés ensuite par WikiLeaks.
+
+      Un prestataire dont le contrat n'était pas renouvelé a supprimé à distance des archives médicales et a été condamné à quatorze mois de prison avec sursis.
+
+      En juin 2013, les présidents chinois et américain ont conclu un accord sur le cyberespionnage, qualifié de Yalta numérique sans l'Europe.
