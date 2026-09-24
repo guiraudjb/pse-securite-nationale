@@ -1,0 +1,161 @@
+FLASH INGÉRENCE ÉCONOMIQUE DE LA DGSI, LA SÛRETÉ PHYSIQUE ET NUMÉRIQUE, LES REPÉRAGES, LES VOLS DE MATÉRIELS, LES SABOTAGES, LES VISITES ET SALONS ET LES OUTILS NUMÉRIQUES PERSONNELS, NUMÉROS 91, 93, 97, 103, 108, 110, 111 ET 113, 2023-2025.
+
+LEXIQUE COMPLET.
+
+      L'opération de repérage désigne l'ensemble des actions menées pour identifier les failles de sécurité d'un site en vue d'un vol, d'une dégradation ou d'un espionnage industriel.
+
+      Le sabotage est l'ensemble des actions visant à détériorer ou détruire intentionnellement du matériel, des installations, des informations ou l'image d'un acteur économique.
+
+      La sûreté bâtimentaire regroupe les mesures qui dissuadent, bloquent, ralentissent et détectent les intrusions physiques pour permettre l'intervention des forces de l'ordre.
+
+      Le tourisme industriel, ou tourisme de savoir-faire, désigne les visites d'entreprises ouvertes au public.
+
+      Le bring your own device, ou BYOD, est la pratique consistant à utiliser ses appareils personnels à des fins professionnelles.
+
+      La levée de doute est la vérification sur place d'une alarme ou d'un événement signalé par un système de détection.
+
+      Le rapport d'étonnement relate avec précision les événements anormaux constatés, par exemple lors d'un salon.
+
+      Le chiffrement de bout en bout garantit que seuls les participants d'un échange peuvent en lire le contenu.
+
+COURS DÉTAILLÉ.
+
+I. LES REPÉRAGES ET LA SÛRETÉ BÂTIMENTAIRE, FLASH N°93 D'AVRIL 2023 ET N°113 DE MAI 2025.
+
+   A. Les repérages.
+
+      Les repérages concernent tout type de structure et se déroulent aux abords, par photographies, ou à l'intérieur, en contournant les dispositifs de sécurité.
+
+      Les drones, moins coûteux, ont multiplié ces opérations.
+
+      Ils comportent souvent plusieurs étapes menées par plusieurs individus et vecteurs, piéton, véhicule stationné ou drone, aux moments de vigilance réduite : congés de juillet et août, nuit ou pause méridienne.
+
+      Il faut adapter la sécurité à la sensibilité du site, sensibiliser tous les salariés, créer une chaîne de sûreté avec des référents identifiés et faire accompagner les visiteurs.
+
+      En cas d'incident, il faut consigner tous les éléments, pour un drone la date, l'heure, la durée et une photo de l'appareil, intercepter l'individu et relever son identité, signaler aux autorités et à la DGSI et envisager une plainte.
+
+   B. La sûreté bâtimentaire.
+
+      Les risques physiques sont souvent négligés au profit du cyber alors qu'ils permettent vols, sabotages, espionnage et atteintes à la réputation.
+
+      Les mesures doivent dissuader, bloquer, ralentir et détecter, depuis l'extérieur et sur tous les accès, fenêtres, portes et terrasses, et être réévaluées périodiquement.
+
+      La DGSI propose gratuitement, sur simple demande, des missions de conseil en sûreté bâtimentaire, et des tests d'intrusion physique permettent de vérifier l'efficacité du dispositif.
+
+      Parmi les mesures, badges à codes couleur selon le statut, accompagnement des visiteurs, verrouillage des bureaux contrôlé aléatoirement, clôtures, barrières, signalétique claire, vitrages renforcés et détecteurs d'ouverture, de choc ou de présence reliés à un poste de sécurité.
+
+      Des mesures simples et peu coûteuses, parfois seulement organisationnelles, relèvent déjà nettement le niveau de sûreté.
+
+II. LES VOLS DE MATÉRIELS ET LES SABOTAGES, FLASH N°103 DE MAI 2024 ET N°108 DE DÉCEMBRE 2024.
+
+   A. Les vols de matériels sensibles.
+
+      Ordinateurs, tablettes, clés USB, disques durs, téléphones, prototypes et maquettes sont visés, dans les locaux ou lors des déplacements, le plus souvent grâce à des imprudences individuelles.
+
+      Le préjudice dépasse le coût du remplacement, et les conséquences d'une captation peuvent n'apparaître qu'après plusieurs années, avec l'arrivée d'un produit concurrent similaire.
+
+      Il faut ranger les badges dans des emplacements sécurisés, conserver les matériels sensibles sous clé ou en armoire forte et chiffrer tous les supports.
+
+      Après un vol, il faut évaluer les données compromises, prévenir le RSSI, désactiver à distance les accès, faire un retour d'expérience, surveiller la revente en ligne, déposer plainte et contacter la DGSI.
+
+   B. Les sabotages.
+
+      Motivés par une idéologie, une logique concurrentielle ou la volonté de nuire, ils peuvent provoquer arrêt de production, coûts de remise en état, chômage partiel et atteinte à la réputation.
+
+      Une entreprise peut subir un sabotage visant un tiers, comme le réseau électrique.
+
+      Il faut cartographier ses vulnérabilités selon la localisation, le secteur, la clientèle, l'actionnariat et l'exposition internationale, poser des barrières physiques et une vidéosurveillance, protéger les sites isolés par détection à distance, prévoir des équipements de secours et un stock de pièces, et établir un plan de continuité d'activité.
+
+      Les sabotages étant souvent précédés de repérages, il faut consigner le contexte des jours précédents et signaler même une tentative avortée.
+
+III. LES VISITES ET LES SALONS, FLASH N°110 DE FÉVRIER 2025 ET N°97 D'OCTOBRE 2023.
+
+   A. Les visites publiques.
+
+      En 2022, selon la DGE, vingt millions de personnes ont visité trois mille cinq cents entreprises françaises, soit vingt-cinq pour cent de plus en trois ans.
+
+      Ouvertes à tous et peu contrôlées, ces visites peuvent faciliter espionnage, repérage ou sabotage.
+
+      En amont, il faut obtenir l'accord de l'autorité compétente pour une ZRR, définir un parcours balisé excluant les zones sensibles, interdire par défaut photos et enregistrements, exiger les identités plusieurs jours avant, déconnecter les ordinateurs exposés et désactiver les ports USB, préparer le discours et prévenir le personnel.
+
+      Pendant la visite, il faut énoncer les consignes, ne jamais laisser un visiteur seul et couper court aux questions intrusives.
+
+      En cas d'incident, il faut suspendre les visites, prévenir les sites du même secteur, rassembler les preuves, déposer plainte et contacter la DGSI.
+
+   B. Les salons professionnels.
+
+      Les salons exposent à la captation de technologie, aux débauchages et aux partenariats déséquilibrés, dès le passage de frontière lorsqu'ils ont lieu à l'étranger.
+
+      En amont, il faut analyser l'emplacement du stand et les concurrents voisins, préparer des éléments de langage, rendre inutilisables les matériels exposés les plus stratégiques, prévoir des vitrines sécurisées et des appareils nomades dédiés avec VPN et chiffrement.
+
+      Pendant le salon, il faut couper Wi-Fi et Bluetooth, utiliser des messageries chiffrées, ne pas enregistrer de mots de passe dans les navigateurs, ne jamais laisser le stand sans surveillance, redoubler de vigilance le dernier jour, le plus propice au vol, et demander systématiquement une carte de visite.
+
+      Les coffres-forts des chambres d'hôtel ne doivent pas être considérés comme sûrs.
+
+      Après le salon, il faut démonter méticuleusement le stand, faire analyser les appareils avant de les reconnecter, changer tous les mots de passe et assurer une veille sur les informations publiées.
+
+IV. LES OUTILS NUMÉRIQUES, FLASH N°91 DE FÉVRIER 2023 ET N°111 DE MARS 2025.
+
+   A. Les visioconférences.
+
+      Généralisées depuis la crise sanitaire de 2020, elles exposent à la captation, aux escroqueries et aux usurpations d'identité.
+
+      Il faut privilégier le présentiel pour les sujets les plus stratégiques, protéger chaque session par un mot de passe et un lien différent, inclure ces logiciels dans les audits et impliquer le RSSI dans le télétravail.
+
+      L'ANSSI recommande des solutions chiffrées de bout en bout, comme l'application française Tixeo, une solution non qualifiée augmentant l'exposition aux lois extraterritoriales.
+
+      Avec des acteurs étrangers, il faut disposer de la liste complète des participants, se méfier des ajouts de dernière minute et rester ferme face aux demandes de déroger aux règles.
+
+   B. Les appareils personnels.
+
+      Le BYOD, souvent encouragé par souci d'économie et de flexibilité, accroît les risques cyber, matériels et humains, car les appareils personnels sont moins protégés et plus exposés au vol.
+
+      Il faut cloisonner usages personnels et professionnels par des sessions distinctes, interdire les transferts entre messageries, ne stocker que le nécessaire et appliquer l'hygiène numérique de l'ANSSI.
+
+      La charte doit encadrer le BYOD dès le recrutement, y compris la conduite à tenir en cas de perte, de vol ou de rétention d'un appareil par une autorité étrangère, et les accès doivent être revus à chaque changement de fonction ou départ.
+
+      En cas d'incident, de vol ou de suspicion de compromission, il faut prévenir le RSSI, lui confier l'appareil et porter plainte en précisant l'usage mixte.
+
+POINTS D'ATTENTION.
+
+      Un repérage isolé peut sembler anodin mais préparer une opération plus large, d'où la documentation de chaque incident.
+
+      Un individu intercepté doit toujours voir son identité relevée.
+
+      Une alarme défaillante ou une porte non verrouillée annulent les meilleurs dispositifs.
+
+      Les matériels non chiffrés rendent les données volées immédiatement exploitables.
+
+      Une entreprise encourageant le BYOD sans politique ni gestion à distance des mobiles ne peut pas savoir si ses données ont été compromises.
+
+EXEMPLES CITÉS.
+
+      Un drone a survolé trois fois en une semaine un site industriel, photographiant l'intérieur d'un hangar pendant les vacances scolaires.
+
+      Un militant d'ONG a visité plusieurs étages d'un siège sans badge en profitant de l'ascenseur, puis a été relâché sans vérification d'identité.
+
+      Un individu masqué a récupéré des badges laissés à l'accueil pour voler des ordinateurs non chiffrés contenant un projet stratégique.
+
+      Un prototype confidentiel a été volé dans le camion d'un transporteur stationné pour la nuit sur un parking d'hôtel.
+
+      Un ingénieur a laissé quelques minutes dans un parc son ordinateur déverrouillé, qui a été volé.
+
+      Deux individus masqués ont incendié un local d'équipements vitaux d'une usine alors que l'alarme était défaillante.
+
+      L'incendie de câbles électriques a privé de courant plusieurs milliers d'entités dont une zone industrielle stratégique.
+
+      Un étudiant étranger a pris plus de cinquante photos non autorisées lors de visites de sites sensibles.
+
+      Un intrus arrêté avec un badge falsifié avait repéré les accès lors de trois visites guidées.
+
+      De faux journalistes étrangers ont filmé une technologie en caméra cachée sur un salon avant d'être privés de badge.
+
+      Le matériel d'une start-up laissé derrière son stand lors de la dernière soirée a disparu alors que les caméras étaient déconnectées.
+
+      Une salariée étrangère coupait sa caméra et enregistrait les réunions sensibles en visioconférence.
+
+      Lors d'une visioconférence d'un institut agroalimentaire à inscription libre, des intrus ont pris les droits d'animateur pour diffuser une vidéo terroriste.
+
+      Les identifiants d'un salarié connecté depuis un ordinateur familial infecté sont apparus sur le dark web, donnant accès à toute la base clients.
+
+      Des autorités étrangères ont saisi et emporté le téléphone mixte d'un salarié après l'avoir fait déverrouiller.
