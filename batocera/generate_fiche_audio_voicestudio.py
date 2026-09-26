@@ -25,7 +25,7 @@ risque de contention et de corruption du contexte CUDA documenté dans la
 memory ci-dessus) - enchaîner après, pas en parallèle.
 
 Usage:
-    python3 generate_fiche_audio_voicestudio.py [--limit-modules N]
+    python3 generate_fiche_audio_voicestudio.py [--limit-modules N] [--only "<nom du module>"]
 """
 import argparse
 import json
@@ -104,12 +104,16 @@ def synth_fiche(base):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--limit-modules', type=int, default=None)
+    ap.add_argument('--only', action='append', default=[],
+                    help='ne traiter que ce module (nom exact, répétable)')
     args = ap.parse_args()
 
     modules = json.load(open(os.path.join(DATA_DIR, 'modules.json'), encoding='utf-8'))
     bases = [m[:-4] for m in modules]
     if args.limit_modules:
         bases = bases[:args.limit_modules]
+    if args.only:
+        bases = [b for b in bases if b in args.only]
 
     stats = {'ok': 0, 'skip': 0, 'error': 0}
     t_start = time.time()

@@ -26,7 +26,7 @@ artefacts d'écho/larsen constatés sur le premier batch avec num_step=16 et
 le preset par défaut "broadcast".
 
 Usage:
-    python3 generate_tts_voicestudio.py [--limit-modules N] [--only-quiz] [--only-flash]
+    python3 generate_tts_voicestudio.py [--limit-modules N] [--only "<nom du module>"] [--only-quiz] [--only-flash]
 """
 import argparse
 import csv
@@ -139,12 +139,16 @@ def main():
     ap.add_argument('--limit-modules', type=int, default=None)
     ap.add_argument('--only-quiz', action='store_true')
     ap.add_argument('--only-flash', action='store_true')
+    ap.add_argument('--only', action='append', default=[],
+                    help='ne traiter que ce module (nom exact, répétable)')
     args = ap.parse_args()
 
     modules = json.load(open(os.path.join(DATA_DIR, 'modules.json'), encoding='utf-8'))
     bases = [m[:-4] for m in modules]
     if args.limit_modules:
         bases = bases[:args.limit_modules]
+    if args.only:
+        bases = [b for b in bases if b in args.only]
 
     stats = {'ok': 0, 'skip': 0, 'error': 0}
     t_start = time.time()
