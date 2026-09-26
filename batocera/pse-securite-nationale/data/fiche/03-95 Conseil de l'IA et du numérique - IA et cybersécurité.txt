@@ -1,0 +1,225 @@
+ANALYSE DES ENJEUX ET DES DYNAMIQUES ENTRE L'INTELLIGENCE ARTIFICIELLE ET LA CYBERSÉCURITÉ.
+
+LEXIQUE COMPLET.
+
+      L'IA désigne l'intelligence artificielle.
+
+      L'ANSSI désigne l'Agence nationale de la sécurité des systèmes d'information.
+
+      Le terme cybersécurité de l'IA désigne la protection des systèmes d'intelligence artificielle qui sont des cibles d'attaques classiques ou originales.
+
+      Le terme cybersécurité par l'IA désigne l'usage de l'intelligence artificielle comme outil d'automatisation au profit des défenseurs.
+
+      Le terme cybersécurité face à l'IA désigne l'usage symétrique de l'intelligence artificielle par les attaquants pour gagner en efficacité.
+
+      Le terme DevSecOps désigne l'approche qui réunit le développement, la sécurité et l'exploitation logicielle, à laquelle l'IA agentique est désormais appliquée.
+
+      Le terme patching désigne le mécanisme de correction des vulnérabilités logicielles.
+
+      Le terme shadow AI désigne l'usage non encadré de l'intelligence artificielle qui peut entraîner des fuites de données.
+
+      L'INESIA désigne l'Institut national pour l'évaluation et la sécurité de l'IA.
+
+      Le terme NIS2 désigne une directive européenne associée à des référentiels généraux de sécurité.
+
+COURS DÉTAILLÉ.
+
+I. L'ÉQUILIBRE HISTORIQUE ENTRE ATTAQUE ET DÉFENSE.
+
+   A. La dynamique constante de réaction technologique.
+
+      L'équilibre entre l'attaque et la défense anime le secteur de la cybersécurité depuis plus de trente ans.
+
+      Chaque avancée technologique dans un domaine provoque systématiquement une réaction de l'autre camp.
+
+      L'explosion des virus informatiques au début des années deux mille a poussé les défenseurs à innover pour se protéger.
+
+      L'adoption massive du chiffrement des communications dès les années mille neuf cent quatre-vingt-dix a incité la partie offensive à trouver de nouvelles méthodes de contournement.
+
+      L'intelligence artificielle génère aujourd'hui des transformations rapides qui impactent la sécurité de manière majeure et durable.
+
+      L'usage symétrique de l'IA permet aux attaquants d'automatiser leurs offensives pour gagner en efficacité et en rapidité.
+
+   B. L'évolution des compétences et des motivations.
+
+      L'IA propose de nouveaux outils aux défenseurs, comme la détection d'anomalies basée sur des quantités phénoménales de données techniques.
+
+      L'expertise humaine reste indispensable car l'IA peut générer des vulnérabilités que d'autres systèmes ne parviennent pas à détecter à temps.
+
+      Le rythme de découverte et de correction des vulnérabilités logicielles ne cessera de croître, rendant le processus de patching potentiellement ingérable.
+
+      Les acteurs qui ne feront pas l'effort d'intégrer ces nouveaux usages risquent d'être rapidement déclassés.
+
+      Selon la note, vanter la dangerosité d'un modèle est aussi une manière habile de mettre en avant ses performances auprès des investisseurs.
+
+      L'enjeu pour les organisations est de maintenir une mise à niveau constante en matière de conformité et de principes fondamentaux de cybersécurité.
+
+II. LA TRIPLE DIMENSION DE L'IMPACT DE L'IA SUR LA SÉCURITÉ.
+
+   A. La cybersécurité de l'IA et ses vulnérabilités propres.
+
+      Les systèmes d'IA sont avant tout des systèmes d'information et constituent donc des cibles pour les attaques.
+
+      Ces systèmes peuvent subir des attaques de manière classique mais possèdent également des vulnérabilités propres.
+
+      Ces failles particulières peuvent engendrer des attaques de nature originale comme le prompt injection ou l'empoisonnement par les données d'apprentissage.
+
+      L'IA génère des vulnérabilités que d'autres systèmes d'IA ne sont pas certains de détecter à temps.
+
+   B. La cybersécurité par l'IA comme outil de défense.
+
+      L'IA propose de nouveaux outils ainsi qu'une automatisation de certaines tâches au profit des défenseurs.
+
+      La détection d'attaques dans le champ cyber s'appuie désormais sur des quantités phénoménales de données techniques pour identifier des anomalies.
+
+      Cette tâche de recherche d'anomalies est bien plus adaptée à la machine qu'à l'humain.
+
+      L'IA constitue une aide précieuse pour développer, corriger et tester les logiciels.
+
+      L'IA agentique est aussi appliquée au développement, à la sécurité et à l'exploitation logicielle, c'est-à-dire au DevSecOps.
+
+   C. La cybersécurité face à l'IA et l'automatisation offensive.
+
+      L'usage symétrique de l'IA par les attaquants permet d'automatiser leurs attaques pour gagner en efficacité et en rapidité.
+
+      Le modèle Mythos développé par Anthropic se distingue par sa forte capacité à détecter et exploiter des failles de sécurité dans les logiciels, les navigateurs et les systèmes d'exploitation.
+
+      Les attaquants dopés à l'IA peuvent exploiter les correctifs publiés pour cibler ceux qui n'ont pas encore eu le temps de se mettre à niveau.
+
+      Le rythme de découverte et de correction des vulnérabilités logicielles ne cessera de croître, ce qui pourrait devenir ingérable avec les méthodes actuelles.
+
+III. LES DÉFIS OPÉRATIONNELS ET LA GESTION DES VULNÉRABILITÉS.
+
+   A. L'importance cruciale de l'expertise humaine et du DevSecOps.
+
+      Se passer totalement de l'expertise humaine semble être la garantie d'échecs car l'IA génère également des vulnérabilités que d'autres systèmes d'IA ne sont pas certains de détecter à temps.
+
+      L'IA agentique appliquée au développement, à la sécurité et à l'exploitation logicielle, le DevSecOps, a déjà démontré son intérêt mais présente aussi d'importants risques si elle n'est pas suffisamment encadrée.
+
+      Les entreprises pourraient envisager la création d'une fonction permanente dédiée à la découverte, la qualification et la remédiation autonomes de vulnérabilités dans le prolongement de la méthode DevOps.
+
+   B. Le risque de saturation face au rythme du patching.
+
+      Le rythme auquel les vulnérabilités logicielles sont découvertes et corrigées ne cessera de croître, au risque de devenir totalement ingérable avec les méthodes actuelles.
+
+      Beaucoup d'acteurs sont déjà aujourd'hui saturés et incapables de conserver leurs systèmes d'information à jour.
+
+      Cette situation est particulièrement critique dans le domaine de l'informatique industrielle où les mécanismes de mise à jour ne sont pas encore systématisés.
+
+   C. L'exploitation des correctifs par les attaquants dopés à l'IA.
+
+      Un correctif publié révèle de fait la vulnérabilité dont il est la conséquence.
+
+      Cela poussera les attaquants, dopés à l'IA, à exploiter ces patchs pour cibler tous ceux qui n'auront pas encore eu le temps de se mettre à niveau.
+
+IV. ENJEUX STRATÉGIQUES, MARKETING ET SOUVERAINETÉ.
+
+   A. Les stratégies de communication et de levée de fonds.
+
+      Les acteurs de l'intelligence artificielle utilisent des stratégies marketing et des effets d'annonce pour convaincre qu'ils sont en position idéale pour remporter la course technologique.
+
+      Vanter la dangerosité de leurs modèles s'ils tombent entre de mauvaises mains permet d'afficher leurs performances et de susciter l'intérêt des investisseurs.
+
+      Cette méthode a été utilisée par OpenAI en février deux mille dix-neuf pour affirmer que son modèle GPT deux point zéro était trop dangereux pour être publié.
+
+      La levée de fonds est un enjeu colossal, comme l'illustre la dernière opération d'OpenAI en mars deux mille vingt-six qui s'élevait à cent vingt-deux milliards de dollars.
+
+      Faire appel à des dignitaires religieux pour régler l'IA est une autre manière habile de suggérer que ces modèles accéderaient à une forme de spiritualité, la note citant un sommet d'Anthropic réunissant quinze chrétiens sur la moralité de l'intelligence artificielle.
+
+   B. Les risques de dépendance technologique et de lock-in.
+
+      L'usage indispensable de l'intelligence artificielle risque de créer de nouvelles dépendances technologiques importantes pour les utilisateurs.
+
+      Les entreprises peuvent subir un lock-in par l'adoption de solutions propriétaires, ce qui engendre des coûts de dépendance technologique.
+
+      L'extension de la surface du risque cyber peut entraîner des conséquences financières directes liées à des violations de données ou au sabotage industriel.
+
+      Le phénomène du shadow AI peut également contribuer à une croissance rapide des risques de fuites massives de données et de propriété intellectuelle.
+
+   C. Le dilemme de souveraineté pour les acteurs publics.
+
+      Les acteurs dont les activités sont liées à la souveraineté nationale font face à des arbitrages délicats entre la recherche de performance et le maintien de l'autonomie.
+
+      La France souffre d'une forte asymétrie d'informations par rapport aux écosystèmes américain, britannique et chinois concernant l'évaluation des modèles.
+
+      Le renforcement des capacités d'évaluation est un impératif pour ne pas laisser la qualité de l'écosystème et des talents graviter uniquement autour des laboratoires à la frontière.
+
+      La structuration d'un écosystème européen d'évaluation autour de l'INESIA est une piste pour répondre à ces enjeux de souveraineté.
+
+V. L'IMPÉRATIF DE L'ÉVALUATION ET DE LA MAÎTRISE EUROPÉENNE.
+
+   A. Le besoin de capacités d'audit indépendantes.
+
+      L'AI Security Institute britannique, créé en deux mille vingt-trois, a mené un audit indépendant des capacités de Mythos.
+
+      Ce test a permis de tempérer l'emballement collectif en montrant que Mythos exploite des systèmes ayant une posture de sécurité faible, ce qui souligne l'importance des bases de la cybersécurité.
+
+      Dans la Silicon Valley, l'évaluation est devenue un sujet majeur avec le pivot de certains laboratoires comme le Stanford Data Science Institute dirigé par Emmanuel Candès.
+
+   B. L'asymétrie d'information face aux puissances mondiales.
+
+      La France souffre d'une forte asymétrie d'informations par rapport aux écosystèmes britannique, américain et chinois.
+
+      Cette situation pose de façon aiguë la question des capacités françaises et européennes en matière d'évaluation des modèles d'intelligence artificielle.
+
+      À moyen terme, les conséquences de ce déséquilibre porteront sur la qualité de l'écosystème et des talents qui graviteront autour des entreprises à la frontière.
+
+   C. La structuration d'un écosystème d'évaluation européen.
+
+      Il est nécessaire de procéder à la structuration accélérée d'un écosystème public-privé européen d'évaluation des modèles d'intelligence artificielle.
+
+      Cet écosystème doit s'organiser autour de l'Institut national pour l'évaluation et la sécurité de l'IA, l'INESIA.
+
+      Le projet doit également s'appuyer sur des laboratoires IA de pointe situés en Europe.
+
+VI. RECOMMANDATIONS POUR UNE GOUVERNANCE PROACTIVE.
+
+   A. Intégration de la sécurité dès l'adoption des solutions.
+
+      Les acteurs doivent penser les cadres de gouvernance et de sécurité de l'IA dès l'adoption des solutions.
+
+      Les entreprises pourraient envisager la création d'une fonction permanente dédiée à la découverte, la qualification et la remédiation autonomes de vulnérabilités.
+
+      Cette démarche s'inscrit dans le prolongement de la méthode DevOps.
+
+   B. Application des référentiels de sécurité existants.
+
+      Il est urgent de se mettre à niveau en matière de conformité et d'appliquer les principes fondamentaux de la cybersécurité.
+
+      Ces principes incluent notamment les mises à jour régulières de sécurité ou la mise en place de contrôles d'accès rigoureux.
+
+      La mise en œuvre de référentiels généraux reste totalement à propos, à l'image de celui associé à la directive européenne NIS2.
+
+   C. Renforcement de la coopération public-privé.
+
+      Le Conseil de l'IA et du numérique appelle les acteurs à ne pas céder à la panique ambiante.
+
+      Il rappelle que l'IA est agnostique en matière de cybersécurité, car elle aide à la fois les attaquants et les défenseurs.
+
+      La cybersécurité est présentée comme un sujet vital pour les entités publiques comme privées, qui exige un réel sérieux.
+
+      L'évaluation des modèles d'IA en Europe doit reposer sur une coopération entre acteurs publics et privés, autour de l'INESIA et de laboratoires de pointe.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la cybersécurité de l'IA, qui traite des vulnérabilités propres aux systèmes comme l'empoisonnement des données, avec la cybersécurité par l'IA qui désigne l'usage de l'IA comme outil de défense.
+
+      L'usage de l'IA face aux attaquants constitue une menace symétrique car elle permet d'automatiser les offensives avec une rapidité accrue.
+
+      Il est crucial de ne pas croire que l'IA peut totalement remplacer l'expertise humaine, car elle génère elle-même des vulnérabilités que d'autres systèmes pourraient ne pas détecter.
+
+      L'augmentation du rythme de correction des failles peut paraître positive, mais elle risque de saturer les services informatiques incapables de suivre la cadence du patching.
+
+      La recherche de performance via l'IA peut créer un dilemme de souveraineté en augmentant la surface de risque cyber et la dépendance technologique.
+
+EXEMPLES CITÉS.
+
+      Le modèle Mythos développé par Anthropic possède une forte capacité à exploiter des failles dans les logiciels et les systèmes d'exploitation.
+
+      Anthropic, le jugeant trop efficace pour être diffusé, n'a partagé ce modèle qu'avec quarante acteurs quasi exclusivement américains, dont J.P. Morgan, Nvidia, Amazon, Apple ou Chase Bank.
+
+      OpenAI a lancé le quatorze avril GPT cinq point quatre Cyber, un modèle qui semble moins performant que Mythos.
+
+      En mars deux mille vingt-six, OpenAI a réalisé une levée de fonds s'élevant à cent vingt-deux milliards de dollars.
+
+      L'AI Security Institute britannique, créé en deux mille vingt-trois, a publié le treize avril deux mille vingt-six un audit indépendant des capacités de Mythos, qui rappelle l'importance des fondamentaux de la cybersécurité.
