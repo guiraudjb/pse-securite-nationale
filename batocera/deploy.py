@@ -24,7 +24,7 @@ import subprocess
 import sys
 from urllib.parse import quote
 
-HOSTS = ['192.168.1.47', 'batocerasalon.local']
+HOSTS = ['batocera.local', 'batocerasalon.local']  # par le nom : l'IP change (DHCP) ; partages montés au préalable par l'utilisateur
 
 BATOCERA_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_DIR = os.path.dirname(BATOCERA_DIR)
