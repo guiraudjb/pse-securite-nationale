@@ -150,6 +150,11 @@ def main():
     if args.only:
         bases = [b for b in bases if b in args.only]
 
+    # Garde GPU commune de l'espace de travail (un seul outil IA lourd à la fois), si disponible
+    if os.path.isdir('/home/adm1/RefonteRévisions/scripts/outils'):
+        sys.path.insert(0, '/home/adm1/RefonteRévisions/scripts/outils')
+        from gpu import reserver_pour_le_script
+        reserver_pour_le_script('audio QCM/flashcards (VoiceStudio)', 'voicestudio', service='VoiceStudio')
     stats = {'ok': 0, 'skip': 0, 'error': 0}
     t_start = time.time()
 
