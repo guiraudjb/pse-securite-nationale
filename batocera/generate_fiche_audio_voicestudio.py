@@ -51,6 +51,40 @@ NUM_STEP = 32
 CROSSFADE_MS = 50  # défaut API : lissage entre chunks internes sur un texte long
 EFFECT_PRESET = "raw"
 REQUEST_TIMEOUT_S = 1800  # jusqu'à ~17 min mesurées pour la fiche la plus longue
+# Au-delà, la fiche est découpée entre deux paragraphes et synthétisée par parties, puis
+# assemblée : une requête unique de 126 000 caractères (synthèse 09-580) dépassait le délai.
+PARTIE_MAX_CARACTERES = 30000
+
+
+def decouper(text):
+    """Parties de moins de PARTIE_MAX_CARACTERES, coupées uniquement entre deux paragraphes."""
+    parties, courant = [], ''
+    for bloc in text.split('\n\n'):
+        if courant and len(courant) + len(bloc) + 2 > PARTIE_MAX_CARACTERES:
+            parties.append(courant)
+            courant = bloc
+        else:
+            courant = courant + '\n\n' + bloc if courant else bloc
+    if courant.strip():
+        parties.append(courant)
+    return parties
+
+
+def synth_wav(text, wav_path):
+    """Synthèse d'un texte en WAV ; renvoie None si OK, sinon le message d'erreur."""
+    try:
+        r = requests.post(VOICESTUDIO_URL, data={
+            "text": text, "profile_id": PROFILE_ID, "language": LANGUAGE,
+            "num_step": NUM_STEP, "crossfade_ms": CROSSFADE_MS,
+            "effect_preset": EFFECT_PRESET,
+        }, timeout=REQUEST_TIMEOUT_S)
+    except Exception as e:
+        return 'réseau : {}'.format(e)
+    if r.status_code != 200:
+        return '{} : {}'.format(r.status_code, r.text[:200])
+    with open(wav_path, 'wb') as f:
+        f.write(r.content)
+    return None
 
 
 def synth_fiche(base):
@@ -67,22 +101,29 @@ def synth_fiche(base):
 
     os.makedirs(OUT_DIR, exist_ok=True)
     t0 = time.time()
-    try:
-        r = requests.post(VOICESTUDIO_URL, data={
-            "text": text, "profile_id": PROFILE_ID, "language": LANGUAGE,
-            "num_step": NUM_STEP, "crossfade_ms": CROSSFADE_MS,
-            "effect_preset": EFFECT_PRESET,
-        }, timeout=REQUEST_TIMEOUT_S)
-    except Exception as e:
-        print('[ERREUR réseau] {} : {}'.format(base, e), flush=True)
-        return 'error'
-    if r.status_code != 200:
-        print('[ERREUR {}] {} : {}'.format(r.status_code, base, r.text[:200]), flush=True)
-        return 'error'
-
     tmp_wav = out_path + '.tmp.wav'
-    with open(tmp_wav, 'wb') as f:
-        f.write(r.content)
+    parties = decouper(text) if len(text) > PARTIE_MAX_CARACTERES else [text]
+    wavs = []
+    for k, partie in enumerate(parties):
+        w = tmp_wav if len(parties) == 1 else '{}.partie{:02d}.wav'.format(out_path, k)
+        err = synth_wav(partie, w)
+        if err:
+            print('[ERREUR {}] {} (partie {}/{})'.format(err, base, k + 1, len(parties)), flush=True)
+            for x in wavs:
+                os.remove(x)
+            return 'error'
+        wavs.append(w)
+        if len(parties) > 1:
+            print('  partie {}/{} ({} caractères, {:.0f}s)'.format(k + 1, len(parties), len(partie), time.time() - t0), flush=True)
+    if len(parties) > 1:
+        liste = out_path + '.parties.txt'
+        with open(liste, 'w', encoding='utf-8') as f:
+            f.writelines("file '{}'\n".format(w.replace("'", "'\\''")) for w in wavs)
+        subprocess.run(['ffmpeg', '-y', '-f', 'concat', '-safe', '0', '-i', liste, '-c', 'copy', tmp_wav],
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+        os.remove(liste)
+        for w in wavs:
+            os.remove(w)
 
     tmp_mp3 = out_path + '.tmp.mp3'
     try:
