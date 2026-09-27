@@ -104,11 +104,13 @@ def register_gamelist(host):
         print('gamelist.xml illisible, entrée non ajoutée', flush=True)
         return
     xml = proc.stdout
+    # Vignette mise à jour à chaque déploiement (et pas seulement à la 1re inscription du jeu)
+    if os.path.exists(THUMB):
+        subprocess.run(['gio', 'mkdir', '-p', smb_url(host, 'images')], capture_output=True)
+        subprocess.run(['gio', 'copy', '-f', THUMB, smb_url(host, 'images/{}.png'.format(REPO_NAME))],
+                       capture_output=True)
     if game_path in xml:
         return
-    if os.path.exists(THUMB):
-        subprocess.run(['gio', 'copy', THUMB, smb_url(host, 'images/{}.png'.format(REPO_NAME))],
-                       capture_output=True)
     entry = ('\t<game>\n\t\t<path>{}</path>\n\t\t<name>{}</name>\n\t\t<desc>{}</desc>\n'
              '\t\t<image>./images/{}.png</image>\n\t\t<developer>guiraudjb</developer>\n'
              '\t\t<genre>Quiz</genre>\n\t\t<players>1</players>\n\t\t<lang>fr</lang>\n\t</game>\n'

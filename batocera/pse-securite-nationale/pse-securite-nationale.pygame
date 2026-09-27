@@ -323,7 +323,8 @@ class App:
 
     def enter_module_menu(self, modules):
         self.module_menu = ui.ListMenu(
-            [{'label': m['titre'], 'badge': m['numero'], 'base': m['base']} for m in modules],
+            [{'label': m['titre'], 'badge': m['numero'], 'base': m['base'], 'icon': dl.icone_path(m['base'])}
+             for m in modules],
             self.screen_w, self.screen_h)
         self.state = STATE_MODULE
 
@@ -946,9 +947,18 @@ class App:
 
     HEADER_H = 70
 
+    # Écrans où l'en-tête montre l'icône du module en cours (pas les menus généraux ni le jukebox).
+    STATES_SANS_ICONE = (STATE_SERIES, STATE_SETTINGS, STATE_MODULE, STATE_JUKEBOX_KIND, STATE_JUKEBOX)
+
     def draw_header(self, title):
         pygame.draw.rect(self.screen, ui.COLOR_PRIMARY, (0, 0, self.screen_w, self.HEADER_H))
-        title_rect = pygame.Rect(40, 0, self.screen_w - 80, self.HEADER_H)
+        left = 40
+        if self.current_module and self.state not in self.STATES_SANS_ICONE:
+            icon = ui.load_icon(self.current_module.get('icon'), self.HEADER_H - 12)
+            if icon:
+                self.screen.blit(icon, (20, 6))
+                left = 20 + self.HEADER_H
+        title_rect = pygame.Rect(left, 0, self.screen_w - left - 40, self.HEADER_H)
         ui.draw_scrolling_text(self.screen, self.fonts.title, title, title_rect, ui.COLOR_WHITE)
 
     NAV_HINT = ('▲▼', 'Naviguer')

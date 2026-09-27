@@ -115,6 +115,12 @@ def podcast_path(base):
     return path if os.path.exists(path) else None
 
 
+def icone_path(base):
+    """Chemin de l'icône pixel art (png 512x512) du module, ou None si absente."""
+    path = os.path.join(DATA_DIR, 'icone', base + '.png')
+    return path if os.path.exists(path) else None
+
+
 def infographie_path(base):
     """Chemin du fichier infographie (png) du module, ou None si absent."""
     path = os.path.join(DATA_DIR, 'infographie', base + '.png')

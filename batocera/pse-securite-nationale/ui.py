@@ -94,13 +94,16 @@ def draw_scrolling_text(surface, font, text, rect, color=COLOR_TEXT):
         font.render_to(surface, (rect.x, y), text, color)
         return
 
+    # freetype.render_to ignore le clip de la surface : on rend le texte à part,
+    # puis blit (qui, lui, respecte le clip) pour ne pas déborder du cadre.
+    text_surf, _ = font.render(text, color)
     old_clip = surface.get_clip()
-    surface.set_clip(rect)
+    surface.set_clip(rect.clip(old_clip) if old_clip else rect)
     loop_w = text_rect.width + SCROLL_GAP
     offset = int((pygame.time.get_ticks() / 1000.0 * SCROLL_SPEED) % loop_w)
     x = rect.x - offset
     while x < rect.right:
-        font.render_to(surface, (x, y), text, color)
+        surface.blit(text_surf, (x, y))
         x += loop_w
     surface.set_clip(old_clip)
 
@@ -142,6 +145,23 @@ def draw_button_hints(surface, fonts, screen_w, screen_h, hints, right_text=None
     if right_text:
         rect = fonts.hint.get_rect(right_text)
         fonts.hint.render_to(surface, (screen_w - rect.width - 24, screen_h - bar_h // 2 - rect.height // 2), right_text, right_color)
+
+
+_ICON_CACHE = {}
+
+
+def load_icon(path, size):
+    """Icône du module redimensionnée (lissée), chargée une seule fois par taille."""
+    if not path:
+        return None
+    key = (path, size)
+    if key not in _ICON_CACHE:
+        try:
+            img = pygame.image.load(path).convert_alpha()
+            _ICON_CACHE[key] = pygame.transform.smoothscale(img, (size, size))
+        except (pygame.error, FileNotFoundError):
+            _ICON_CACHE[key] = None
+    return _ICON_CACHE[key]
 
 
 class ListMenu:
@@ -197,8 +217,13 @@ class ListMenu:
                 badge_rect = fonts.small.get_rect(badge)
                 badge_reserved = badge_rect.width + 36
                 fonts.small.render_to(surface, (rect.right - badge_rect.width - 20, rect.y + (rect.height - badge_rect.height) // 2), badge, color)
-            max_label_width = rect.width - 48 - badge_reserved
-            label_rect = pygame.Rect(rect.x + 24, rect.y, max_label_width, rect.height)
+            icon_reserved = 0
+            icon = load_icon(item.get('icon'), rect.height - 12) if item.get('icon') else None
+            if icon:
+                surface.blit(icon, (rect.x + 8, rect.y + 6))
+                icon_reserved = rect.height
+            max_label_width = rect.width - 48 - badge_reserved - icon_reserved
+            label_rect = pygame.Rect(rect.x + 24 + icon_reserved, rect.y, max_label_width, rect.height)
             draw_scrolling_text(surface, fonts.medium, label, label_rect, color)
 
         # indicateurs de défilement
