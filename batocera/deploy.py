@@ -107,7 +107,7 @@ def register_gamelist(host):
     # Vignette mise à jour à chaque déploiement (et pas seulement à la 1re inscription du jeu)
     if os.path.exists(THUMB):
         subprocess.run(['gio', 'mkdir', '-p', smb_url(host, 'images')], capture_output=True)
-        subprocess.run(['gio', 'copy', '-f', THUMB, smb_url(host, 'images/{}.png'.format(REPO_NAME))],
+        subprocess.run(['gio', 'copy', THUMB, smb_url(host, 'images/{}.png'.format(REPO_NAME))],
                        capture_output=True)
     if game_path in xml:
         return
