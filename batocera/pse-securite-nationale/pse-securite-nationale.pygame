@@ -49,6 +49,7 @@ STATE_FLASH = 'flash'
 STATE_MEDIA = 'media'
 STATE_INFO = 'info'
 STATE_FICHE = 'fiche'
+STATE_TP = 'tp'
 STATE_JUKEBOX_KIND = 'jukebox_kind'
 STATE_JUKEBOX = 'jukebox'
 
@@ -259,6 +260,8 @@ class App:
             self.handle_info(action)
         elif self.state == STATE_FICHE:
             self.handle_fiche(action)
+        elif self.state == STATE_TP:
+            self.handle_tp(action)
         elif self.state == STATE_JUKEBOX_KIND:
             self.handle_jukebox_kind(action)
         elif self.state == STATE_JUKEBOX:
@@ -348,8 +351,11 @@ class App:
              {'label': 'FICHE DE RÉVISION', 'mode': 'fiche'},
              {'label': 'CHANSON', 'mode': 'chanson'},
              {'label': 'PODCAST', 'mode': 'podcast'},
-             {'label': 'INFOGRAPHIE', 'mode': 'info'}],
-            self.screen_w, self.screen_h, top=140, item_height=90)
+             {'label': 'INFOGRAPHIE', 'mode': 'info'}]
+            # Entrée TP seulement pour les modules qui ont des exercices (tp/<module>.csv)
+            + ([{'label': 'TRAVAUX PRATIQUES', 'mode': 'tp'}] if dl.tp_path(self.current_module['base']) else []),
+            self.screen_w, self.screen_h, top=140,
+            item_height=90 if not dl.tp_path(self.current_module['base']) else 80)
         self.state = STATE_MODE
 
     # ------------------------------------------------------------------
@@ -369,6 +375,8 @@ class App:
                 self.start_media(mode)
             elif mode == 'info':
                 self.start_info()
+            elif mode == 'tp':
+                self.start_tp()
         elif action == 'back':
             self.state = STATE_MODULE
 
@@ -692,6 +700,105 @@ class App:
             self.state = STATE_MODE
 
     # ------------------------------------------------------------------
+    # TRAVAUX PRATIQUES : énoncé, puis corrigé révélé à la demande (A), comme
+    # l'onglet TP de la page web ; ◄► change d'exercice, ▲▼ fait défiler.
+    TP_MARGIN = 60
+    TP_SCROLL_STEP = 4  # lignes par appui sur ▲▼
+
+    def start_tp(self):
+        self.tts.stop()
+        self.tp_items = dl.load_tp(self.current_module['base'])
+        self.tp_index = 0
+        self.tp_open_exercise()
+        self.state = STATE_TP
+
+    def tp_open_exercise(self):
+        self.tp_show_solution = False
+        self.tp_scroll = 0
+        self.tp_build_lines()
+
+    def tp_build_lines(self):
+        """Lignes à afficher (texte, couleur) : énoncé, puis corrigé s'il est révélé."""
+        self.tp_lines = []
+        if not self.tp_items:
+            return
+        ex = self.tp_items[self.tp_index]
+        width = self.screen_w - 2 * self.TP_MARGIN
+        self.tp_lines.append(('ÉNONCÉ', ui.COLOR_PRIMARY))
+        self.tp_lines += [(l, ui.COLOR_TEXT) for l in ui.wrap_paragraphs(self.fonts.medium, ex['enonce'], width)]
+        self.tp_solution_line = len(self.tp_lines) + 1
+        if self.tp_show_solution:
+            self.tp_lines.append(('', ui.COLOR_TEXT))
+            self.tp_lines.append(('CORRIGÉ', ui.COLOR_SUCCESS))
+            # Les corrigés générés séparent leurs étapes par « | » : une étape par ligne à l'écran
+            self.tp_lines += [(l, ui.COLOR_TEXT) for l in
+                              ui.wrap_paragraphs(self.fonts.medium, ex['solution'].replace(' | ', '\n'), width)]
+
+    def tp_visible_lines(self):
+        top = self.HEADER_H + 20
+        bottom = self.screen_h - 48 - 36 - 10
+        return max(1, (bottom - top) // (self.fonts.medium.get_sized_height() + 8))
+
+    def handle_tp(self, action):
+        if not self.tp_items:
+            if action == 'back':
+                self.state = STATE_MODE
+            return
+        max_scroll = max(0, len(self.tp_lines) - self.tp_visible_lines())
+        if action == 'action':
+            self.tp_show_solution = not self.tp_show_solution
+            self.tp_build_lines()
+            # À la révélation, on se place au début du corrigé s'il ne tient pas sous l'énoncé
+            max_scroll = max(0, len(self.tp_lines) - self.tp_visible_lines())
+            self.tp_scroll = min(max_scroll, self.tp_solution_line - 1) if self.tp_show_solution else 0
+        elif action in ('right', 'left'):
+            step = 1 if action == 'right' else -1
+            self.tp_index = (self.tp_index + step) % len(self.tp_items)
+            self.tp_open_exercise()
+        elif action == 'down':
+            self.tp_scroll = min(max_scroll, self.tp_scroll + self.TP_SCROLL_STEP)
+        elif action == 'up':
+            self.tp_scroll = max(0, self.tp_scroll - self.TP_SCROLL_STEP)
+        elif action == 'back':
+            self.state = STATE_MODE
+
+    def draw_tp(self):
+        if not self.tp_items:
+            self.draw_header("TRAVAUX PRATIQUES")
+            self.fonts.medium.render_to(self.screen, (60, self.HEADER_H + 40),
+                                         "Aucun exercice pour ce module.", ui.COLOR_TEXT)
+            ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, [('B/Select', 'Retour')])
+            return
+        ex = self.tp_items[self.tp_index]
+        self.draw_header("TP {}/{}  —  {}".format(self.tp_index + 1, len(self.tp_items), ex['titre']))
+        top = self.HEADER_H + 20
+        line_h = self.fonts.medium.get_sized_height() + 8
+        visible = self.tp_visible_lines()
+        y = top
+        for text, color in self.tp_lines[self.tp_scroll:self.tp_scroll + visible]:
+            if text:
+                font = self.fonts.small if text in ('ÉNONCÉ', 'CORRIGÉ') else self.fonts.medium
+                font.render_to(self.screen, (self.TP_MARGIN, y), text, color)
+            y += line_h
+        if not self.tp_show_solution:
+            invite = "A : afficher le corrigé"
+            r = self.fonts.small.get_rect(invite)
+            self.fonts.small.render_to(self.screen, (self.screen_w // 2 - r.width // 2, min(y + 10, self.screen_h - 48 - 36 - r.height)),
+                                        invite, ui.COLOR_PRIMARY)
+        # indicateurs de défilement et position
+        if self.tp_scroll > 0:
+            self.fonts.small.render_to(self.screen, (self.screen_w - 40, top), "▲", ui.COLOR_PRIMARY)
+        if self.tp_scroll + visible < len(self.tp_lines):
+            self.fonts.small.render_to(self.screen, (self.screen_w - 40, self.screen_h - 48 - 36 - 30), "▼", ui.COLOR_PRIMARY)
+        counter = "Exercice {} / {}".format(self.tp_index + 1, len(self.tp_items))
+        cr = self.fonts.small.get_rect(counter)
+        self.fonts.small.render_to(self.screen, (self.screen_w // 2 - cr.width // 2, self.screen_h - 48 - 10 - cr.height),
+                                    counter, ui.COLOR_PRIMARY)
+        hints = [('A/Start', 'Masquer le corrigé' if self.tp_show_solution else 'Voir le corrigé'),
+                 ('◄►', 'Exercice suiv./préc.'), ('▲▼', 'Défiler'), ('B/Select', 'Retour')]
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints)
+
+    # ------------------------------------------------------------------
     # CHANSON / PODCAST (lecteur audio simple via pygame.mixer.music, séparé
     # du canal utilisé par la synthèse vocale - voir tts.py qui utilise
     # pygame.mixer.Sound, donc aucun conflit entre les deux)
@@ -940,6 +1047,8 @@ class App:
             self.draw_info()
         elif self.state == STATE_FICHE:
             self.draw_fiche()
+        elif self.state == STATE_TP:
+            self.draw_tp()
         elif self.state == STATE_JUKEBOX_KIND:
             self.draw_jukebox_kind()
         elif self.state == STATE_JUKEBOX:

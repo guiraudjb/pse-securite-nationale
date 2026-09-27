@@ -133,6 +133,25 @@ def fiche_path(base):
     return path if os.path.exists(path) else None
 
 
+def tp_path(base):
+    """Chemin du fichier de TP (csv « titre;énoncé;corrigé ») du module, ou None si absent."""
+    path = os.path.join(DATA_DIR, 'tp', base + '.csv')
+    return path if os.path.exists(path) else None
+
+
+def load_tp(base):
+    """Exercices de TP du module : liste de {titre, enonce, solution}, dans l'ordre du fichier."""
+    path = tp_path(base)
+    if path is None:
+        return []
+    exercices = []
+    with open(path, encoding='utf-8') as f:
+        for row in csv.reader(f, delimiter=';'):
+            if len(row) >= 3 and row[0].strip() and row[1].strip():
+                exercices.append({'titre': row[0].strip(), 'enonce': row[1].strip(), 'solution': row[2].strip()})
+    return exercices
+
+
 def load_fiche(base):
     """Charge le texte complet de la fiche de révision du module, ou None si absente."""
     path = fiche_path(base)
