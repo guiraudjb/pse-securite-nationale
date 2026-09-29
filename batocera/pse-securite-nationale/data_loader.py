@@ -115,6 +115,12 @@ def podcast_path(base):
     return path if os.path.exists(path) else None
 
 
+def podcast_court_path(base):
+    """Chemin de la micro-chronique « l'essentiel en 3 min » (mp3), ou None si absente."""
+    path = os.path.join(DATA_DIR, 'podcast_court', base + '.mp3')
+    return path if os.path.exists(path) else None
+
+
 def icone_path(base):
     """Chemin de l'icône pixel art (png 512x512) du module, ou None si absente."""
     path = os.path.join(DATA_DIR, 'icone', base + '.png')

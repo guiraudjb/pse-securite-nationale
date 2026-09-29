@@ -53,6 +53,13 @@ STATE_TP = 'tp'
 STATE_JUKEBOX_KIND = 'jukebox_kind'
 STATE_JUKEBOX = 'jukebox'
 
+# Médias audio d'un module : fonction de chemin, libellé à l'écran, message d'absence
+MEDIAS = {
+    'chanson': (dl.chanson_path, "CHANSON", "Aucune chanson disponible pour ce module."),
+    'podcast': (dl.podcast_path, "PODCAST", "Aucun podcast disponible pour ce module."),
+    'podcast_court': (dl.podcast_court_path, "L'ESSENTIEL EN 3 MIN", "Aucune micro-chronique disponible pour ce module."),
+}
+
 # Même liste que le menu déroulant #timerSelect de la page web index.html
 # (la valeur par défaut diffère, voir le commentaire sur self.timer_option) :
 # compte à rebours de réponse au quiz, puis lecture de la correction, puis
@@ -119,6 +126,7 @@ class App:
 
         self.jukebox_kind_menu = ui.ListMenu(
             [{'label': 'PODCAST', 'kind': 'podcast'},
+             {'label': 'MICRO-CHRONIQUES (3 MIN)', 'kind': 'podcast_court'},
              {'label': 'MUSIQUE', 'kind': 'chanson'}],
             self.screen_w, self.screen_h, top=140, item_height=90)
         self.jukebox_kind = None
@@ -350,8 +358,10 @@ class App:
              {'label': 'FLASHCARDS', 'mode': 'flash'},
              {'label': 'FICHE DE RÉVISION', 'mode': 'fiche'},
              {'label': 'CHANSON', 'mode': 'chanson'},
-             {'label': 'PODCAST', 'mode': 'podcast'},
-             {'label': 'INFOGRAPHIE', 'mode': 'info'}]
+             {'label': 'PODCAST', 'mode': 'podcast'}]
+            # Micro-chronique « l'essentiel en 3 min » seulement si elle existe pour ce module
+            + ([{'label': "L'ESSENTIEL EN 3 MIN", 'mode': 'podcast_court'}] if dl.podcast_court_path(self.current_module['base']) else [])
+            + [{'label': 'INFOGRAPHIE', 'mode': 'info'}]
             # Entrée TP seulement pour les modules qui ont des exercices (tp/<module>.csv)
             + ([{'label': 'TRAVAUX PRATIQUES', 'mode': 'tp'}] if dl.tp_path(self.current_module['base']) else []),
             self.screen_w, self.screen_h, top=140,
@@ -371,7 +381,7 @@ class App:
                 self.start_flash()
             elif mode == 'fiche':
                 self.start_fiche()
-            elif mode in ('chanson', 'podcast'):
+            elif mode in MEDIAS:
                 self.start_media(mode)
             elif mode == 'info':
                 self.start_info()
@@ -805,7 +815,7 @@ class App:
     def start_media(self, kind):
         self.tts.stop()
         base = self.current_module['base']
-        path = dl.chanson_path(base) if kind == 'chanson' else dl.podcast_path(base)
+        path = MEDIAS[kind][0](base)
         self.media_kind = kind
         self.media_path = path
         self.media_playing = False
@@ -890,7 +900,7 @@ class App:
             self.state = STATE_SERIES
 
     def _jukebox_build_playlist(self, kind):
-        path_fn = dl.podcast_path if kind == 'podcast' else dl.chanson_path
+        path_fn = MEDIAS[kind][0]
         playlist = []
         for _, modules in self.series:
             for m in modules:
@@ -914,7 +924,7 @@ class App:
     def _jukebox_load_track(self, index):
         self.jukebox_index = index % len(self.jukebox_playlist)
         entry = self.jukebox_playlist[self.jukebox_index]
-        path_fn = dl.podcast_path if self.jukebox_kind == 'podcast' else dl.chanson_path
+        path_fn = MEDIAS[self.jukebox_kind][0]
         path = path_fn(entry['base'])
         self.jukebox_path = path
         self.jukebox_info_surface = self._load_infographie_surface(entry['base'])
@@ -1247,11 +1257,10 @@ class App:
                               right_text=right_text, right_color=right_color)
 
     def draw_media(self):
-        label = "CHANSON" if self.media_kind == 'chanson' else "PODCAST"
+        _, label, absent = MEDIAS[self.media_kind]
         self.draw_header("{}  —  {}".format(label, self.current_module['label']))
         if self.media_path is None:
-            self.fonts.medium.render_to(self.screen, (60, self.HEADER_H + 40),
-                                         "Aucun {} disponible pour ce module.".format(label.lower()), ui.COLOR_TEXT)
+            self.fonts.medium.render_to(self.screen, (60, self.HEADER_H + 40), absent, ui.COLOR_TEXT)
             ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, [('B/Select', 'Retour')])
             return
 
@@ -1280,7 +1289,7 @@ class App:
                               [self.NAV_HINT, ('A/Start', 'Choisir'), ('B/Select', 'Retour')])
 
     def draw_jukebox(self):
-        kind_label = "MUSIQUE" if self.jukebox_kind == 'chanson' else "PODCAST"
+        kind_label = {'chanson': "MUSIQUE", 'podcast': "PODCAST", 'podcast_court': "MICRO-CHRONIQUES"}[self.jukebox_kind]
         if not self.jukebox_playlist:
             self.draw_header("JUKEBOX  —  {}".format(kind_label))
             self.fonts.medium.render_to(self.screen, (60, self.HEADER_H + 40),
