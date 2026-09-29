@@ -1,0 +1,223 @@
+RAPPORT D'INCIDENT DE L'ANSSI SUR LES CYBERATTAQUES AYANT TOUCHÉ LA DGFIP ENTRE MAI ET AOÛT DEUX MILLE VINGT-SIX.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'Agence nationale de la sécurité des systèmes d'information, autorité nationale en matière de cybersécurité, qui a rédigé et publié ce rapport le vingt-trois septembre deux mille vingt-six.
+
+      La DGFiP désigne la Direction générale des Finances publiques, victime des actes malveillants décrits dans le rapport.
+
+      Le RIE désigne le Réseau interministériel de l'État, qui relie les ministères entre eux et que l'attaquant a utilisé depuis le ministère de l'Éducation nationale.
+
+      Le PIGP désigne le Portail internet de la gestion publique, qui permet aux ordonnateurs et aux comptables des collectivités territoriales d'accéder à des services de la DGFiP et qui donnait aussi aux agents l'accès à leur messagerie et à des services de ressources humaines.
+
+      Le portail ADER désigne le portail d'accès à certaines applications de la DGFiP au travers du Réseau interministériel de l'État.
+
+      Le portail APEX désigne le portail d'accès aux applications de la DGFiP réservé aux partenaires externes, notamment les notaires et les géomètres-experts, protégé par un identifiant, un mot de passe et un code à usage unique envoyé par courriel.
+
+      E-Contact désigne l'application de messagerie qui sert aux échanges entre la DGFiP et les usagers, dont les données ont été exfiltrées.
+
+      Le SPDC désigne le Serveur professionnel de données cadastrales, dont les données ont fait l'objet de la seconde revendication.
+
+      Un infostealer désigne un logiciel malveillant conçu pour voler discrètement les données, notamment les identifiants de connexion, des appareils qu'il infecte.
+
+      Le credential stuffing, ou bourrage d'identifiants, désigne des tentatives massives d'authentification à partir de couples identifiant et mot de passe déjà volés.
+
+      Le scraping désigne l'extraction automatique de données d'une application web par un programme informatique, page après page.
+
+      L'exfiltration désigne la sortie illégitime de données hors du système d'information de la victime.
+
+      La latéralisation, ou mouvement latéral, désigne la progression d'un attaquant d'un système déjà compromis vers d'autres systèmes connectés.
+
+      Le SOC désigne le centre opérationnel de sécurité, l'équipe chargée de surveiller, détecter et traiter les incidents de cybersécurité.
+
+      Le SIEM désigne la solution de gestion des informations et des événements de sécurité, qui centralise et corrèle les journaux.
+
+      Le CSIRT désigne l'équipe de réponse aux incidents de sécurité informatique.
+
+      Le COSSIM désigne le centre opérationnel de sécurité des systèmes d'information ministériels du ministère de l'Éducation nationale.
+
+      L'EDR désigne le logiciel de détection et de réponse installé sur les terminaux, qui surveille en continu les postes pour détecter et bloquer les menaces.
+
+      L'OTP désigne le mot de passe à usage unique utilisé comme second facteur d'authentification.
+
+      Le rate limiting désigne la limitation du nombre de requêtes qu'un utilisateur peut émettre sur une période donnée.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE ET LES FAITS.
+
+   A. Un rapport public de transparence.
+
+      Le rapport numéro trois mille trente-trois de l'ANSSI, daté du vingt-trois septembre deux mille vingt-six, compte vingt pages et présente la chronologie des activités illégitimes observées sur les systèmes d'information de la DGFiP entre mai et août deux mille vingt-six.
+
+      Il identifie aussi les mesures qui auraient permis de détecter ou de prévenir ces actes, et il a été anonymisé avant sa diffusion publique : les noms de comptes sont remplacés par des appellations du type compte-dgfip suivi d'un numéro.
+
+      Le rapport comprend une synthèse exécutive, des enseignements, des mesures de remédiation, un glossaire et une chronologie détaillée en annexe.
+
+   B. La revendication de Zerobytes sur les données des usagers.
+
+      Le douze août deux mille vingt-six à treize heures cinquante, l'acteur malveillant Zerobytes revendique sur un forum en ligne le vol de données de la plateforme impots.gouv.fr.
+
+      L'ANSSI notifie la DGFiP le même jour à seize heures trente-deux, et informe le CSIRT Finances, qui prévient le SOC de la DGFiP.
+
+      Le treize août au matin, Zerobytes publie le détail des données volées, qui concernent près de trois cent cinquante-trois mille particuliers et deux cent cinquante-deux mille professionnels, extraites d'un outil de gestion de la relation avec les usagers, l'application E-Contact.
+
+      La revendication annonce six cent soixante-dix-huit mille quatre cent trente-sept enregistrements, et elle est rattachée à la session d'exfiltration du vingt-quatre juin.
+
+      Les investigations établissent que l'exfiltration avait eu lieu sept semaines avant la revendication, après plusieurs semaines d'exploration des applications de la DGFiP.
+
+   C. La seconde revendication sur les données cadastrales.
+
+      Le treize août deux mille vingt-six, le même acteur revendique le vol de données du Serveur professionnel de données cadastrales, en évoquant deux millions de Français concernés et des noms, dates de naissance, identifiants fonciers, parcelles et biens détenus.
+
+      L'origine est la compromission du poste d'un géomètre-expert dans un cabinet privé, qui a permis de contourner la double authentification par courriel du portail APEX.
+
+      L'accès et l'exfiltration ont eu lieu entre le vingt-sept juillet et le huit août deux mille vingt-six.
+
+      Le compte a été désactivé dès le quatorze août, puis tous les comptes du cabinet le dix-huit août.
+
+   D. Une attaque qui n'a pas été détectée.
+
+      Aucune de ces exfiltrations n'a été détectée, ni par les moyens de supervision de la DGFiP ni par ceux de l'ANSSI.
+
+      Le rapport souligne que la compromission ne résulte pas d'une attaque sophistiquée, mais de l'exploitation de faiblesses dans trois domaines : l'identité, l'architecture et la détection.
+
+II. LE DÉROULEMENT DE L'ATTAQUE.
+
+   A. Le vol massif d'identifiants.
+
+      L'attaquant a volé, sur trois mois, plusieurs dizaines d'identifiants appartenant à des agents légitimes de la DGFiP.
+
+      Ces identifiants ont probablement été compromis par des infostealers installés sur des ordinateurs non administrés par la DGFiP, notamment des appareils personnels.
+
+      Aucune attaque par force brute ni aucun bourrage d'identifiants n'a été constaté : l'attaquant disposait déjà des mots de passe.
+
+   B. L'exploration de mai et juin.
+
+      Entre le deux et le huit mai deux mille vingt-six, un même compte se connecte au PIGP depuis trois localisations, avec des adresses IP malveillantes situées en France et en Inde.
+
+      Entre le vingt-deux mai et le trois juin, d'autres comptes compromis tentent de se connecter au PIGP depuis les mêmes adresses IP, sans lever d'alerte.
+
+      Le sept juin, l'attaquant passe du PIGP au portail ADER depuis une adresse du RIE ; l'alerte déclenchée par ses recherches sur la messagerie conduit à réinitialiser le compte, mais le passage vers le portail ADER n'est pas vu, faute de supervision de ce portail.
+
+   C. Le pivot par le ministère de l'Éducation nationale.
+
+      L'attaquant a utilisé le RIE grâce à la compromission d'infrastructures du ministère de l'Éducation nationale raccordées à ce réseau.
+
+      Le neuf juin, le COSSIM de l'Éducation nationale alerte tous les CSIRT ministériels et partage dix-sept marqueurs techniques, dont une adresse utilisée par l'attaquant ; d'autres marqueurs suivent le onze juin et le quatre juillet.
+
+   D. La première vague d'exfiltration.
+
+      Le vingt-trois juin, avec un nouveau compte, l'attaquant se concentre sur E-Contact et développe ses outils de scraping ; une alerte crée un ticket au SOC à vingt heures cinquante.
+
+      Le vingt-quatre juin, à partir de quatre heures vingt-six, le même compte exfiltre des données pendant plusieurs heures, jusqu'au vingt-cinq juin à deux heures trente et une.
+
+      Le SOC réinitialise le mot de passe le vingt-quatre juin à dix heures quarante, mais cette réinitialisation n'interrompt ni la session ouverte ni l'exfiltration en cours.
+
+      Onze gigaoctets de données ont été échangés entre le vingt-deux et le vingt-cinq juin sans aucune alerte.
+
+   E. La seconde vague d'exfiltration.
+
+      Le vingt et un juillet, l'attaquant vérifie la validité de cinq comptes sur le PIGP, dont deux compromis le dix-huit juillet.
+
+      Le vingt-deux juillet, il relance l'exfiltration automatique sur E-Contact de sept heures vingt-huit à onze heures trente-trois, puis de seize heures vingt à dix-sept heures seize.
+
+      Le SOC détecte des recherches suspectes le vingt-trois juillet et réinitialise le compte, puis bloque l'adresse IP, le vingt-quatre juillet ; trois gigaoctets ont été échangés sur cette période.
+
+   F. L'endiguement.
+
+      Le six août, l'ANSSI signale à la DGFiP deux adresses IP malveillantes repérées par une recherche d'antécédents sur ses sondes ; la DGFiP réinitialise cinq comptes et bloque ces adresses le onze août.
+
+      Le treize août, la DGFiP désactive l'accès au portail ADER pour les agents et assimilés, et le dix-huit août elle coupe l'accès au PIGP pour les comptes agents ; ces coupures sont définitives.
+
+      Ces mesures ont eu des effets importants sur les services de la DGFiP et de ses partenaires.
+
+III. LES ENSEIGNEMENTS.
+
+   A. La compromission des comptes.
+
+      Des identifiants volés suffisaient pour accéder à distance à des applications exposées à des tiers et à un large volume de données sensibles, ce qui est contraire aux principes de résilience et de défense en profondeur.
+
+      La veille du prestataire de la DGFiP sur la revente de comptes, assurée par Recorded Future, est utile, mais elle ne couvre pas toutes les plateformes de revente et laisse un délai entre la compromission et la réinitialisation.
+
+      Chaque compte compromis devrait donner lieu à une analyse de son activité sur toute la période d'exposition, ce qui est très coûteux en temps compte tenu du volume.
+
+      Réinitialiser un mot de passe ne sert à rien si l'appareil infecté n'est pas nettoyé, ce qui ne peut pas être garanti pour des appareils personnels ou appartenant à des organismes externes.
+
+      L'absence d'authentification multifacteur sur le PIGP et le portail ADER a permis la réutilisation immédiate des identifiants volés, et le code à usage unique envoyé par courriel sur le portail APEX s'est révélé insuffisant.
+
+   B. La détection des comportements.
+
+      Plusieurs signaux n'ont déclenché aucune alerte : le volume de données échangées, le nombre de requêtes par utilisateur, les adresses IP suspectes et les connexions nocturnes.
+
+      Pris un par un, ces signaux produisent beaucoup de fausses alertes, mais leur corrélation aurait permis de lever des alertes.
+
+      Le SOC de la DGFiP ne supervisait pas le portail ADER, ce qui empêchait de rapprocher les activités malveillantes du reste du système d'information.
+
+      Des comptes non privilégiés avaient accès à un volume important de données, point qui relèvera de l'audit organisationnel de la phase deux.
+
+   C. Le filtrage et la segmentation du réseau.
+
+      Des accès provenaient du RIE depuis des lieux qui n'avaient aucun besoin d'accéder aux infrastructures de la DGFiP.
+
+      La segmentation du réseau, qui doit réserver l'accès aux seules populations qui en ont besoin, était trop permissive, et un filtrage plus fin des flux entre ministères doit être engagé.
+
+   D. La supervision de l'ANSSI.
+
+      L'ANSSI ne disposait pas de supervision applicative sur ce périmètre, et sa supervision réseau ne pouvait pas repérer des connexions faites avec des comptes légitimes.
+
+      Le volume cumulé de requêtes générées pour l'exfiltration aurait néanmoins dû déclencher des alertes.
+
+   E. La coordination interministérielle.
+
+      Le délai d'analyse et de partage des marqueurs techniques entre organismes raccordés au RIE aurait dû être réduit au minimum pour éviter la latéralisation.
+
+      Le blocage de flux au niveau du RIE suppose au préalable une cartographie plus fine des flux légitimes.
+
+IV. LES MESURES DE REMÉDIATION.
+
+   A. Restreindre l'accès aux ressources métiers.
+
+      Les applications à usage interne ne doivent être accessibles que depuis des postes administrés par la DGFiP, et depuis Internet seulement au travers d'un réseau privé virtuel réservé aux agents.
+
+      Les applications à usage externe limité ne doivent être accessibles que depuis les réseaux internes ou par réseau privé virtuel pour les partenaires, ou à défaut depuis une liste d'adresses IP autorisées.
+
+      Les applications à usage public doivent réduire leur exposition par le filtrage géographique et les listes d'adresses IP mal réputées, et renforcer d'autant l'authentification.
+
+      Toutes les applications doivent être supervisées dans un SIEM et soumises à des quotas de données consultées, de requêtes et de volume échangé, à une protection contre les injections et à des blocages selon la géolocalisation et la réputation des adresses IP.
+
+   B. Se protéger contre le vol d'identifiants.
+
+      L'usage d'appareils personnels pour accéder à des ressources professionnelles doit être proscrit.
+
+      Les appareils professionnels doivent être durcis : mises à jour mensuelles, EDR, antivirus, réseau privé virtuel toujours actif.
+
+      L'authentification multifacteur doit être déployée sur toutes les applications, avec un second facteur qui résiste à la compromission du premier, comme un jeton physique ou une application d'authentification, de préférence sur un autre appareil.
+
+      La sensibilisation des utilisateurs doit être renforcée, notamment sur la séparation des usages professionnels et personnels, et chaque agent dont le compte est compromis doit être sensibilisé.
+
+      Les droits de chaque utilisateur doivent être limités aux informations nécessaires à sa fonction, avec des plafonds de consultation.
+
+   C. Revoir le processus de réinitialisation.
+
+      Toute réinitialisation doit s'accompagner d'une analyse de l'activité du compte depuis la date supposée de compromission.
+
+      Une compromission répétée du même compte doit conduire à rechercher la cause racine.
+
+      La réinitialisation doit révoquer les sessions actives sur toutes les applications et tous les portails.
+
+      Le blocage automatique des comptes après des recherches suspectes pourrait être étudié.
+
+   D. Le plan d'action.
+
+      Le plan d'action défini pour la DGFiP repose sur trois axes : renforcer et étendre la supervision à toutes les applications métiers, limiter l'exposition des identifiants et déployer l'authentification forte, réduire la surface d'attaque et l'exposition sur les réseaux tiers avec des seuils applicatifs.
+
+      Ces chantiers exigent l'appui de toute la chaîne métier, de la hiérarchie du ministère de l'Action et des Comptes publics et de l'interministériel, et peuvent alimenter la feuille de route de sécurité numérique de l'État.
+
+V. CE QU'IL FAUT RETENIR POUR UN CADRE.
+
+      La sécurité repose d'abord sur des gestes simples : ne jamais utiliser d'appareil personnel pour se connecter aux applications professionnelles et ne jamais réutiliser ses identifiants professionnels.
+
+      Un encadrant doit relayer la sensibilisation, veiller au respect du principe du besoin d'en connaître dans l'attribution des droits et signaler sans délai tout comportement suspect.
+
+      L'incident montre qu'une chaîne de faiblesses ordinaires, et non une attaque sophistiquée, peut exposer les données de centaines de milliers d'usagers et entraîner des coupures de service durables.
