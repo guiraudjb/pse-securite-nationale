@@ -1,0 +1,53 @@
+TITRE : Zerobytes Riddim
+
+[Intro]
+Écoute le rapport de l'ANSSI sur la DGFiP
+De mai à août deux mille vingt-six, l'alerte est donnée
+
+[Couplet 1]
+Zerobytes revendique le douze août sur le forum
+Trois cent cinquante-trois mille particuliers dans le vent
+Deux cent cinquante-deux mille professionnels aussi
+L'application E-Contact a tout laissé partir
+Le vingt-quatre juin l'exfiltration a commencé
+Onze gigaoctets de données ont été échangés
+Le SOC réinitialise mais la session reste ouverte
+L'attaquant continue sa route sans aucune perte
+
+[Refrain]
+Pas de sophistication mais des faiblesses ordinaires
+Identité, architecture et détection en poussière
+Protège tes accès, ne mélange pas le privé
+Pour que la sécurité de l'État soit préservée
+
+[Couplet 2]
+Le treize août une seconde revendication arrive
+Le Serveur professionnel de données cadastrales dérive
+Deux millions de Français sont dans le viseur
+Noms et identifiants fonciers dans la douleur
+Le poste d'un géomètre-expert était compromis
+Le portail APEX n'a pas pu le faire reculer
+Le RIE a servi de pivot par l'Éducation nationale
+La latéralisation a rendu la menace fatale
+
+[Refrain]
+Pas de sophistication mais des faiblesses ordinaires
+Identité, architecture et détection en poussière
+Protège tes accès, ne mélange pas le privé
+Pour que la sécurité de l'État soit préservée
+
+[Pont]
+Pas d'authentification forte sur le PIGP ou l'ADER
+L'usage d'appareils personnels est un vrai danger
+Le rate limiting et le SIEM auraient dû aider
+Mais les signaux isolés n'ont pas pu nous alerter
+
+[Refrain final]
+Pas de sophistication mais des faiblesses ordinaires
+Identité, architecture et détection en poussière
+Protège tes accès, ne mélange pas le privé
+Pour que la sécurité de l'État soit préservée
+
+[Outro]
+Respecte le besoin d'en connaître et la vigilance
+C'est la seule voie pour une vraie résilience
