@@ -1,6 +1,6 @@
 # Inventaire des modules et des médias — pse-securite-nationale
 
-Généré le 30/09/2026 à 00:21 par `scripts/inventaire_medias.py` (78 modules). ✅ présent, ❌ absent ; pour QCM, flashcards et TP, nombre d'éléments (0 = absent).
+Généré le 30/09/2026 à 07:21 par `scripts/inventaire_medias.py` (78 modules). ✅ présent, ❌ absent ; pour QCM, flashcards et TP, nombre d'éléments (0 = absent).
 
 ## Synthèse
 
