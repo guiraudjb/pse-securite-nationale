@@ -1,0 +1,53 @@
+TITRE : L'ère post-quantique Riddim
+
+[Intro]
+Écoute le message du G7 en septembre deux mille vingt-six
+La cybersécurité est un combat pour un avenir sans trucs bizarres
+
+[Couplet 1]
+La cryptographie à clé publique est en grand danger
+La factorisation et le logarithme discret vont se faire briser
+Un ordinateur quantique cryptographiquement pertinent arrive
+Le CRQC est une menace qui sur la sécurité dérive
+L'attaque stocker maintenant déchiffrer plus tard est réelle
+On intercepte les données pour un futur criminel
+Les données gouvernementales et les secrets d'affaires sont visés
+Il faut agir dès aujourd'hui pour ne pas être dépassés
+
+[Refrain]
+PQC pour la protection, la cryptographie post-quantique
+Contre la menace quantique, une réponse magnifique
+Préparez la transition, ne restez pas dans l'ignorance
+Pour la confidentialité, c'est une question d'urgence
+
+[Couplet 2]
+L'ENISA et la Commission européenne sont dans la danse
+Le groupe de travail du G7 mène la vigilance
+Faites l'inventaire des algorithmes et des certificats
+Cartographiez les dépendances pour éviter les dégâts
+La transition est collective entre public et privé
+Pour ne pas être exclu de la commande publique, soyez prêts
+La sensibilisation et la recherche sont les priorités
+Avec des partenariats pour renforcer la sécurité
+
+[Refrain]
+PQC pour la protection, la cryptographie post-quantique
+Contre la menace quantique, une réponse magnifique
+Préparez la transition, ne restez pas dans l'ignorance
+Pour la confidentialité, c'est une question d'urgence
+
+[Pont]
+Cinq domaines prioritaires pour mener ce grand combat
+Stratégies nationales et recherche pour ne pas faire de faux pas
+Intégrez la PQC aux exigences de cybersécurité
+Pour protéger l'intégrité et toute la chaîne de l'activité
+
+[Refrain final]
+PQC pour la protection, la cryptographie post-quantique
+Contre la menace quantique, une réponse magnifique
+Préparez la transition, ne restez pas dans l'ignorance
+Pour la confidentialité, c'est une question d'urgence
+
+[Outro]
+Un effort mondial coordonné pour un numérique résilient
+Sous licence ouverte Etalab deux point zéro, c'est le plan suivant

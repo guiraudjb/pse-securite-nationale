@@ -1,0 +1,53 @@
+TITRE : Cyber Agro Riddim
+
+[Intro]
+Écoute le rythme de la cybersécurité,
+Juin deux mille vingt-six, l'ANSSI nous guide en vérité.
+
+[Couplet 1]
+Un technicien mécontent utilise son VPN,
+Ses accès non révoqués causent de grands problèmes.
+Il s'allie aux hacktivistes pour un impact majeur,
+L'IT et l'OT tremblent face à la terreur.
+Le CRM est bloqué et les données sont volées,
+Sur le convoyeur, les capteurs sont désactivés.
+Le SCADA déraille et le dosage est faux,
+L'entreprise subit un très lourd fardeau.
+
+[Refrain]
+Exercice de crise, attention au signal,
+Mentionne EXERCICE, c'est le rituel vital.
+Prépare ton PCA et ton PRA avec soin,
+Pour que la résilience guide ton destin.
+
+[Couplet 2]
+Niveau un sur table pour les débutants,
+Niveau deux ou trois pour les plus exigeants.
+La main courante note chaque action menée,
+L'annuaire de crise aide à communiquer.
+La DGAL et la DGCCRF surveillent la chaîne,
+L'ANSSI et le préfet calment la peine.
+Les sauvegardes sont vieilles de plus d'un an,
+C'est le scénario un, un défi de géant.
+
+[Refrain]
+Exercice de crise, attention au signal,
+Mentionne EXERCICE, c'est le rituel vital.
+Prépare ton PCA et ton PRA avec soin,
+Pour que la résilience guide ton destin.
+
+[Pont]
+L'observateur note de zéro à trois,
+Le RETEX à chaud évite les effrois.
+Le planificateur et l'animateur sont là,
+Pour que la cellule de crise ne flanche pas.
+
+[Refrain final]
+Exercice de crise, attention au signal,
+Mentionne EXERCICE, c'est le rituel vital.
+Prépare ton PCA et ton PRA avec soin,
+Pour que la résilience guide ton destin.
+
+[Outro]
+Agroalimentaire, reste toujours vigilant,
+Face au cyber risque, sois un combattant.
