@@ -1,0 +1,53 @@
+TITRE : REACTIV Riddim
+
+[Intro]
+Écoute le son de l'ANSSI en septembre deux mille vingt-six
+Pour la cyberdéfense, on a trouvé le bon mix
+
+[Couplet 1]
+Le premier septembre le Premier ministre a commandé
+L'opération REACTIV pour nous protéger
+Depuis le premier août quatre-vingt-dix-neuf violations
+Soixante-sept sont confirmées dans toutes les nations
+Trente-deux sont en cours de traitement par l'Agence
+Face aux infostealers et à leur grande menace
+L'injection SQL sur Metabase est le grand danger
+La CVE deux mille vingt-six soixante-douze mille deux cent quatre-vingt-dix-huit fait trembler
+
+[Refrain]
+Réponse et Action face aux violations de données
+L'ANSSI pilote pour la sécurité de l'État
+Contre l'exfiltration et les accès non autorisés
+Le rythme de la cyberdéfense est lancé
+
+[Couplet 2]
+Quarante-huit millions de propriétaires pour Zéro Logement Vacant
+Quatre millions trois cent cinquante mille enseignants pour GAIA en attendant
+Un million d'élèves à Créteil via le système SIECLE
+Trois millions de numéros Bloctel c'est un grand obstacle
+L'IDOR et le manque de MFA sont des failles critiques
+Le second facteur par courriel reste trop prévisible
+La compromission par rebond touche TRACFIN et ses prestataires
+L'analyse forensique et la remédiation sont nos piliers
+
+[Refrain]
+Réponse et Action face aux violations de données
+L'ANSSI pilote pour la sécurité de l'État
+Contre l'exfiltration et les accès non autorisés
+Le rythme de la cyberdéfense est lancé
+
+[Pont]
+Le CSIRT de la DGDDI a suivi les marqueurs
+Le Bureau numérique a subi des gros malheurs
+La DINUM et Tchap ont dû sécuriser les comptes
+Pour que la confiance dans l'État reste constante
+
+[Refrain final]
+Réponse et Action face aux violations de données
+L'ANSSI pilote pour la sécurité de l'État
+Contre l'exfiltration et les accès non autorisés
+Le rythme de la cyberdéfense est lancé
+
+[Outro]
+CERTFR deux mille vingt-six CTI zéro zéro six
+La vigilance est de mise, c'est notre seul réflexe
