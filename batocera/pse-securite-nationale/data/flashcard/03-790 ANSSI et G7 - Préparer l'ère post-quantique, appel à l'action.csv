@@ -1,0 +1,14 @@
+Auteur et date ?,"Groupe de travail cybersécurité du G7, septembre 2026 (avec la Commission et l'ENISA)."
+Cible de la menace quantique ?,Cryptographie à clé publique (factorisation et logarithme discret).
+PQC ?,Cryptographie post-quantique : résiste aux attaques classiques et quantiques.
+CRQC ?,Ordinateur quantique cryptographiquement pertinent.
+Store now decrypt later ?,"Intercepter et stocker aujourd'hui, déchiffrer quand un CRQC existera."
+Données les plus exposées ?,"Gouvernementales, personnelles sensibles, secrets d'affaires."
+Menace sur l'authentification ?,"Usurpation d'entités de confiance, falsification de données, compromission d'équipements."
+Risque économique du retard ?,"Perte d'avantage concurrentiel, exclusion de la commande publique."
+Étapes de transition ?,"Stratégie par les risques, démarrage précoce, inventaire, dépendances, plan."
+Limiter les coûts ?,Acheter des produits PQC lors des renouvellements normaux.
+Cinq domaines prioritaires ?,"Sensibilisation, stratégies nationales, R&D, partenariats public-privé, exigences de cybersécurité."
+Message de sensibilisation ?,"Risque économique et métier, pas seulement cryptographique."
+PQC et conformité ?,"Évolution prévisible des bonnes pratiques, pas une obligation isolée."
+Licence ?,Licence ouverte Etalab 2.0.

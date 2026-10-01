@@ -1,0 +1,21 @@
+Référence et date ?,"CERTFR-2026-CTI-001, 4 février 2026."
+LLM ?,Grand modèle de langage : analyse et génération de texte et de code.
+Usage dual ?,Un outil qui construit peut aussi être détourné pour détruire.
+Constat principal de l'ANSSI ?,"Aucune cyberattaque connue contre des acteurs français menée par IA, aucune IA autonome."
+Charcoal Typhoon ?,"Chine, contenu d'hameçonnage généré par IA en 2024."
+Lazarus ?,"Corée du Nord, faux profils d'entreprises et d'employés (2024-2025)."
+TA547 ?,"Script PowerShell généré par un LLM contre une entreprise allemande (2024)."
+PromptLock ?,"Prototype de rançongiciel (université de New York) piloté par prompts."
+Promptflux ?,Code polymorphique qui fait réécrire son code par Gemini toutes les heures.
+Code polymorphique ?,Code qui se transforme pour échapper aux antivirus et EDR.
+Limites actuelles ?,"Trois IA sur une cinquantaine ont produit un exploit ; aucun jour-zéro découvert par IA exploité."
+BigSleep et XBOW ?,"IA de recherche de vulnérabilités (nov. 2024 et juin 2025), côté défense."
+Usage de Gemini selon Google ?,"Iran 10, Chine 20, Corée du Nord 9, Russie 3 modes opératoires."
+Jailbreak-as-a-service ?,"Vente de prompts de contournement : EscapeGPT, LoopGPT (2024)."
+IA débridées ?,"WormGPT, FraudGPT, EvilGPT : environ 100 dollars par mois."
+Trois niveaux d'attaque d'un LLM ?,"Entraînement, intégration, inférence."
+Empoisonnement ?,"250 documents malveillants suffiraient, quelle que soit la taille du modèle."
+MCP ?,"Model Context Protocol : connecte les LLM aux outils ; agents mal sécurisés = surface d'attaque."
+Slopsquatting ?,Paquets malveillants publiés sous des noms inventés par les hallucinations d'IA.
+Comptes ChatGPT volés ?,"Plus de 100 000 (2022-2023), infostealers comme Rhadamanthys."
+Samsung ?,"Fuite d'informations sur les semi-conducteurs via ChatGPT (2023)."

@@ -1,0 +1,217 @@
+KIT D'EXERCICE DE CRISE D'ORIGINE CYBER DÉDIÉ AU SECTEUR AGROALIMENTAIRE (ANSSI, JUIN 2026).
+
+LEXIQUE COMPLET.
+
+      Un exercice de crise simule un scénario, c'est-à-dire un enchaînement d'événements fictifs plausibles, pour mettre une organisation en situation de crise réaliste mais non réelle, sur une durée limitée.
+
+      Une crise d'origine cyber est la déstabilisation immédiate et majeure du fonctionnement courant d'une organisation en raison d'actions malveillantes sur ses services et outils numériques, qui ne peut être traitée par les processus habituels.
+
+      Un TTX, ou exercice sur table, est un exercice de réflexion fondé sur des discussions autour de situations projetées sur des diapositives.
+
+      Une simulation est un exercice réaliste dans lequel les joueurs reçoivent des stimuli par courriel ou téléphone et doivent y réagir.
+
+      Un stimulus est un message ou un événement envoyé aux joueurs par l'animation pour faire avancer le scénario.
+
+      Le chronogramme est l'outil central qui définit la séquence des stimuli à envoyer aux joueurs.
+
+      La main courante est le document qui consigne en détail les actions menées et les informations remontées pendant la crise.
+
+      L'annuaire de crise liste les coordonnées des acteurs susceptibles d'être contactés.
+
+      La grille d'observation permet aux observateurs d'évaluer l'exercice, chaque question étant notée de 0 à 3.
+
+      Le RETEX est le retour d'expérience, à chaud juste après l'exercice et à froid dans le mois qui suit.
+
+      Le PCA, plan de continuité d'activité, définit les principes stratégiques de continuité face aux risques, et le PRA, plan de reprise d'activité, les méthodes de reprise après une crise.
+
+      Une fiche réflexe présente les procédures à respecter en cas d'incident.
+
+      L'OT, ou technologie opérationnelle, désigne les systèmes industriels, par opposition à l'IT, l'informatique de gestion.
+
+      Le SCADA est un système de supervision qui contrôle en temps réel et à distance les installations d'un site industriel.
+
+      Le CRM est le logiciel de gestion de la relation client.
+
+      Le MES pilote l'exécution de la production, le WMS gère les entrepôts, le LIMS gère les données des laboratoires qualité et l'ERP est le progiciel de gestion intégré.
+
+      Le CIP désigne le nettoyage en place des installations de production.
+
+      Un PLC est un automate programmable industriel.
+
+      La DGAL, Direction générale de l'alimentation du ministère de l'Agriculture, veille à la sécurité et à la qualité des aliments sur toute la chaîne alimentaire.
+
+      La DGCCRF, Direction générale de la concurrence, de la consommation et de la répression des fraudes, relève du ministère de l'Économie.
+
+COURS DÉTAILLÉ.
+
+I. PRÉSENTATION DU KIT.
+
+   A. Les objectifs.
+
+      Le kit, publié par l'ANSSI en juin 2026, permet de simuler une crise cyber dans une entreprise du secteur agroalimentaire.
+
+      Il vise à sensibiliser aux risques d'une cyberattaque et à ses conséquences, à favoriser la synergie des équipes, à tester les processus de gestion de crise et de continuité d'activité, et à améliorer la réponse aux incidents.
+
+      Jouer un exercice aide aussi à préparer un plan d'action pour le maintien opérationnel de l'entreprise.
+
+   B. Les trois niveaux de maturité.
+
+      Le niveau 1 est un exercice sur table destiné aux débutants sans procédures ni structure dédiée, idéal pour une introduction ou une sensibilisation.
+
+      Le niveau 2 est une simulation pour une organisation intermédiaire disposant de procédures, afin de tester l'organisation de crise, d'évaluer les mesures stratégiques et de simuler la gestion du stress.
+
+      Le niveau 3 est une simulation pour une organisation mature aux procédures éprouvées, afin de tester la robustesse du dispositif, la décision sous pression et la résilience face à des scénarios multi-impacts.
+
+      Le choix du niveau tient compte de la taille, des activités, des ressources, des objectifs et du public visé, et peut s'appuyer sur l'outil d'auto-évaluation de l'ANSSI.
+
+   C. Les deux formats.
+
+      L'exercice sur table dure environ trois heures, avec des discussions successives d'une dizaine de minutes par situation, dont deux heures trente de jeu pour le scénario 1.
+
+      La simulation dure entre une demi-journée et une journée, trois heures trente pour le scénario 2 et deux fois trois heures pour le scénario 3, avec une équipe étendue.
+
+      Chaque format prévoit vingt minutes d'accueil et de briefing, une pause de dix minutes et quarante minutes de débriefing à chaud.
+
+II. ORGANISER L'EXERCICE.
+
+   A. Les six étapes.
+
+      La première étape consiste à définir l'enjeu et les objectifs.
+
+      La deuxième consiste à choisir le type d'exercice selon la maturité et les objectifs.
+
+      La troisième consiste à dresser la liste des parties prenantes.
+
+      La quatrième consiste à rassembler les documents supports, opérationnels comme le PCA et les fiches réflexes, et propres à la crise comme la main courante, l'annuaire, la grille d'observation et le questionnaire de RETEX.
+
+      La cinquième consiste à adapter le scénario à l'organisation, les chronogrammes étant volontairement génériques.
+
+      La sixième consiste à préparer l'organisation pratique, avec la date, les salles et le matériel.
+
+   B. Les rôles.
+
+      Le planificateur définit les objectifs, mobilise les joueurs, adapte le scénario avec des complices qui ne jouent pas, prépare la logistique et le RETEX à froid.
+
+      L'animateur introduit l'exercice, déroule le chronogramme, envoie les stimuli, simule les interlocuteurs et assure le débriefing et le RETEX à chaud, le planificateur et l'animateur pouvant être la même personne.
+
+      L'observateur, placé dans la cellule de crise, prend des notes, remplit la grille d'observation et n'influence pas le jeu.
+
+      Le joueur tient son rôle en cellule de crise, réagit aux stimuli et contacte l'animation en cas de question.
+
+      Il est recommandé que les émetteurs des stimuli ne soient pas aussi des joueurs.
+
+   C. Les règles de jeu.
+
+      L'exercice n'a aucun impact réel sur la production ou les systèmes d'information, et aucune action technique ne doit y être faite.
+
+      Toute communication commence par la mention EXERCICE, répétée trois fois à l'oral, et l'objet des courriels commence par EXERCICE entre crochets.
+
+      En simulation, la messagerie et les télécommunications sont réputées non touchées, les contacts passent par l'annuaire d'exercice ou par la cellule d'animation, et aucune ressource extérieure ne doit être utilisée.
+
+   D. Les familles de rôles en cellule de crise.
+
+      La décision et la gouvernance assurent le pilotage et les arbitrages stratégiques.
+
+      Les métiers opérationnels maintiennent l'activité, les ressources humaines gèrent les équipes, la communication gère la réputation.
+
+      Le juridique et la conformité, dont le DPO, gèrent les obligations légales, la finance et la gestion évaluent les impacts, et l'IT et la cybersécurité, dont la DSI et le RSSI, mènent l'investigation, la remédiation et la coordination avec les autorités.
+
+III. LE SCÉNARIO DE L'ATTAQUE.
+
+   A. L'attaquant.
+
+      L'attaquant est un technicien informatique mécontent, frustré après un conflit managérial et dans l'attente d'une sanction disciplinaire.
+
+      Il connaît les systèmes et les procédures, dispose d'accès distants et physiques, et s'associe à un collectif hacktiviste motivé par une cause géopolitique qui lui apporte un appui technique.
+
+      Leur objectif est de perturber visiblement la production pour décrédibiliser la sécurité et la résilience de l'entreprise et du pays, et d'attirer l'attention du public en exagérant l'impact de leurs actions.
+
+   B. Le mode d'attaque.
+
+      L'intrusion passe par un accès VPN légitime, grâce aux identifiants non révoqués de l'employé.
+
+      L'attaque se propage pour saboter l'IT et l'OT, comme le site web, les automates et le CRM, et pour exfiltrer des données critiques.
+
+      Les impacts touchent la disponibilité, l'intégrité, la confidentialité et la traçabilité des données, notamment réglementaires.
+
+   C. Les trois scénarios.
+
+      Le scénario 1 bloque le CRM, exfiltre des données clients et tarifaires, corrompt partiellement les sauvegardes, modifie le convoyeur principal par le SCADA et désactive les capteurs qualité.
+
+      Le scénario 2 compromet le site web et l'ERP, corrompt fortement les sauvegardes et altère les ordres de production et le CIP par le MES, avec des lots non conformes, des rappels de produits et des risques sanitaires.
+
+      Le scénario 3 est multisite, supprime intégralement les sauvegardes, compromet le WMS, le MES central et le LIMS, attaque des SCADA par déni de service et entraîne des arrêts de production et une perte de traçabilité.
+
+IV. LE DÉROULÉ DU SCÉNARIO 1 SUR TABLE.
+
+   A. La première journée.
+
+      À H0, un commercial signale des lenteurs sur le CRM, et à H1 le CRM devient inaccessible avec un trafic inhabituel sur le serveur.
+
+      À H2, un collectif hacktiviste revendique l'attaque sur X et publie des données de clients, de tarifs et de commandes.
+
+      À H3, un opérateur observe des anomalies sur le convoyeur, chutes, bourrages et dosages incohérents, sans alerte qualité.
+
+      À H6, le contrôle qualité indique que les produits ne respectent plus les standards et ne peuvent pas être livrés.
+
+      À H8, l'équipe informatique suspecte une action malveillante sur les systèmes de contrôle et recommande la mise en sûreté, et la question de prévenir le préfet, la DGAL et l'ANSSI se pose.
+
+      À H9, la direction demande une estimation des pertes pour les parties prenantes et les assureurs, et à H10 une nouvelle revendication devient virale.
+
+      À H12, un client menace de changer de fournisseur et le service juridique demande les niveaux de stocks, et à H18 la ligne est mise en sûreté et le prestataire de réponse aux incidents arrive.
+
+   B. La deuxième journée.
+
+      Après un saut dans le temps, l'usine fonctionne en mode dégradé, et le préfet, la DGAL, la DGCCRF et l'ANSSI ont été informés.
+
+      À J2 H0, le technicien découvre qu'aucune sauvegarde récente n'existe, les plus récentes datant de plus d'un an, et que la sauvegarde choisie est incomplète.
+
+      À J2 H1, l'analyse forensique révèle une connexion distante légitime avec le compte d'un employé licencié quelques semaines plus tôt, d'où la révocation de tous ses accès IT et OT, la restauration complète du SI et la vérification des comptes à privilèges.
+
+      À J2 H4, le cabinet du préfet signale une fausse information virale d'une association écologiste sur des rejets d'eau non traitée.
+
+V. ÉVALUER ET CAPITALISER.
+
+   A. La grille d'observation.
+
+      Elle couvre la méthodologie de gestion de crise, l'organisation de la cellule, la prise de décision, la réponse métier, les missions support et la communication.
+
+      Elle vérifie par exemple le respect du déroulé classique alerte, qualification, gestion et clôture, la tenue de points de situation réguliers, la vérification de la fiabilité des informations et la gestion des stimuli de bruit.
+
+   B. Les enseignements.
+
+      Une crise cyber exige de savoir communiquer en interne et avec l'extérieur, d'organiser et d'outiller la cellule de crise, de se préparer techniquement et de prendre des décisions parfois incertaines.
+
+      Après l'exercice, il faut fixer la date du RETEX à froid, décider des actions de renforcement et produire un plan de travail collectif.
+
+POINTS D'ATTENTION.
+
+      Le niveau 1 est un exercice sur table, les niveaux 2 et 3 sont des simulations.
+
+      Le vecteur d'entrée est un accès VPN légitime dont les identifiants n'ont pas été révoqués après le départ de l'employé.
+
+      La menace combine un initié malveillant et un collectif hacktiviste.
+
+      L'absence de sauvegardes récentes et exploitables est un point clé du scénario.
+
+      Toute communication de l'exercice porte la mention EXERCICE.
+
+      Les autorités à prévenir dans le secteur sont notamment le préfet, la DGAL, la DGCCRF et l'ANSSI.
+
+      Les observateurs notent de 0 à 3 et ne doivent pas aider les joueurs.
+
+EXEMPLES CITES.
+
+      Lenteurs puis indisponibilité du CRM.
+
+      Revendication hacktiviste virale sur X.
+
+      Anomalies du convoyeur et capteurs qualité désactivés.
+
+      Client menaçant de changer de fournisseur.
+
+      Sauvegardes vieilles de plus d'un an et incomplètes.
+
+      Compte d'un employé licencié encore actif.
+
+      Fausse information d'une association écologiste sur des rejets d'eau.

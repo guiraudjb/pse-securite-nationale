@@ -1,0 +1,147 @@
+PRÉPARER L'ÈRE POST-QUANTIQUE, APPEL À L'ACTION DU GROUPE DE TRAVAIL CYBERSÉCURITÉ DU G7 (PREPARING FOR THE POST-QUANTUM ERA, A CALL TO ACTION, SEPTEMBRE 2026, PUBLIÉ PAR L'ANSSI).
+
+LEXIQUE COMPLET.
+
+      Le groupe de travail cybersécurité du G7 réunit les agences de cybersécurité des pays du G7, avec la participation de la Commission européenne soutenue par l'ENISA.
+
+      La cryptographie à clé publique, ou asymétrique, repose sur des problèmes mathématiques comme la factorisation et le logarithme discret, et sert au chiffrement, aux échanges de clés et aux signatures.
+
+      La cryptographie post-quantique, ou PQC, est un nouveau champ de la cryptographie conçu pour résister à la fois aux attaques classiques et aux attaques quantiques.
+
+      Un ordinateur quantique cryptographiquement pertinent, ou CRQC, est un ordinateur quantique assez puissant pour résoudre les problèmes de factorisation et de logarithme discret aux tailles utilisées aujourd'hui.
+
+      L'attaque stocker maintenant, déchiffrer plus tard, en anglais store now decrypt later ou harvest now decrypt later, consiste à intercepter et conserver dès aujourd'hui des données chiffrées pour les déchiffrer quand un CRQC sera disponible.
+
+      L'inventaire cryptographique est le recensement des algorithmes, clés, certificats et protocoles utilisés par une organisation.
+
+      L'ENISA est l'Agence de l'Union européenne pour la cybersécurité.
+
+      La licence ouverte Etalab version 2.0 autorise la réutilisation libre du document.
+
+COURS DÉTAILLÉ.
+
+I. LA MENACE QUANTIQUE.
+
+   A. Le constat du G7.
+
+      Le groupe de travail cybersécurité du G7 reconnaît la menace croissante que l'informatique quantique fait peser sur la cryptographie à clé publique et sur la sécurité des organisations publiques et privées.
+
+      Le calendrier reste incertain, mais plusieurs avancées récentes laissent anticiper des ordinateurs quantiques capables de casser les mécanismes à clé publique largement utilisés.
+
+      La menace quantique doit être considérée non plus comme un problème lointain, mais comme une menace de court terme qui exige l'action de tous les secteurs, et pas seulement des infrastructures critiques.
+
+   B. La réponse, la cryptographie post-quantique.
+
+      La PQC protège à la fois contre la menace conventionnelle et contre la menace quantique.
+
+      Les gouvernements et les organisations doivent commencer leur transition le plus tôt possible pour assurer une protection de long terme des données confidentielles.
+
+      La transition est collective et suppose un engagement précoce, une planification coordonnée et des décisions éclairées entre secteurs public et privé.
+
+II. POURQUOI IL NE FAUT PAS ATTENDRE.
+
+   A. Un risque déjà présent.
+
+      Des attaquants peuvent dès aujourd'hui intercepter et stocker des données chiffrées par cryptographie à clé publique, selon la logique stocker maintenant, déchiffrer plus tard.
+
+      Ce risque concerne les informations dont la confidentialité doit durer plus longtemps que le délai d'apparition d'un CRQC, comme les données gouvernementales, les données personnelles sensibles ou les secrets d'affaires.
+
+   B. La menace sur l'authentification.
+
+      Un attaquant disposant d'un CRQC pourrait viser les mécanismes d'authentification qui garantissent l'intégrité des données et des équipements.
+
+      Il pourrait usurper des entités de confiance, compromettre des équipements, falsifier des données de confiance ou accéder à des données confidentielles, ce qui ruinerait la confiance dans les communications et les contrats.
+
+   C. Les effets en cascade.
+
+      Les risques de la chaîne d'approvisionnement et les mouvements latéraux permis par une authentification compromise exposent d'autres organisations et d'autres secteurs.
+
+   D. Les enjeux économiques.
+
+      Les organisations doivent planifier leur transition dès maintenant et la terminer dans les délais fixés par leurs autorités nationales de cybersécurité.
+
+      Celles qui tardent risquent de perdre un avantage concurrentiel ou d'être exclues de marchés, y compris de la commande publique.
+
+III. LA MÉTHODE DE TRANSITION.
+
+   A. Prioriser.
+
+      Il faut d'abord identifier les systèmes qui détiennent les données et les actifs les plus critiques, puis prioriser la transition en conséquence.
+
+      Il faut agir de manière proactive, sans attendre la confirmation de la disponibilité d'un CRQC.
+
+   B. Les étapes recommandées.
+
+      Selon la déclaration du G7 sur la préparation de la migration post-quantique, portée par le Centre canadien pour la cybersécurité, il faut adopter une stratégie progressive fondée sur les risques, commencer tôt, inventorier les actifs cryptographiques, cartographier les dépendances et élaborer un plan de transition.
+
+      Pour limiter les coûts, il faut acheter des produits intégrant la PQC et remplacer les systèmes par des systèmes résistants au quantique lors des renouvellements normaux.
+
+      Commencer tôt réduit le coût global de la migration, et une transition bien menée évite les mises en œuvre non sécurisées.
+
+   C. Le rôle des gouvernements.
+
+      Les gouvernements créent les conditions d'une adoption sécurisée, interopérable et à grande échelle.
+
+      Le rythme de chaque pays dépend de ses infrastructures, de son environnement réglementaire et de sa maturité technologique.
+
+IV. LES CINQ DOMAINES PRIORITAIRES DU G7.
+
+   A. Sensibiliser.
+
+      La menace quantique reste hors du radar de nombreuses organisations et manque de moyens.
+
+      Il faut faire comprendre qu'elle est un risque économique et métier, et pas seulement un risque cryptographique, par des campagnes, des guides techniques et la montée en compétences, en cohérence avec la gestion globale du risque cyber.
+
+   B. Élaborer des stratégies nationales.
+
+      Les stratégies nationales doivent assurer une offre suffisante de produits matériels et logiciels post-quantiques et encourager leur adoption.
+
+      La transition doit être intégrée aux stratégies plus larges de sécurité et de protection de la vie privée.
+
+   C. Soutenir la recherche et le développement.
+
+      Il faut financer la recherche sur la PQC et soutenir des projets pilotes et des plateformes d'essai pour les organisations en transition.
+
+   D. Développer les partenariats public-privé.
+
+      La coopération entre gouvernement, industrie et monde académique développe l'expertise nationale et les capacités industrielles, ce qui peut réduire le coût de la transition.
+
+      Le G7 encourage le partage de ressources, d'expertise, de retours d'expérience, de guides opérationnels et d'études de cas.
+
+   E. Intégrer la PQC aux exigences de cybersécurité.
+
+      L'adoption de la PQC doit être vue comme une évolution prévisible des bonnes pratiques cryptographiques, et non comme une obligation de conformité isolée.
+
+      Des exigences dans la commande publique peuvent pousser les organisations à engager la transition pour leurs produits et pour leur propre fonctionnement.
+
+V. CONCLUSION.
+
+      Faire face aux risques de l'ère quantique exige un effort mondial coordonné de transition vers la PQC.
+
+      Les organisations publiques et privées doivent agir ensemble dès maintenant pour protéger les données confidentielles, les chaînes d'approvisionnement et les systèmes critiques.
+
+      La transition post-quantique est le socle d'un avenir numérique sûr et résilient.
+
+POINTS D'ATTENTION.
+
+      La menace quantique vise la cryptographie à clé publique, fondée sur la factorisation et le logarithme discret.
+
+      Le risque stocker maintenant, déchiffrer plus tard existe dès aujourd'hui, avant même l'existence d'un CRQC.
+
+      Un CRQC menace la confidentialité mais aussi l'authentification et l'intégrité.
+
+      Les cinq domaines prioritaires sont la sensibilisation, les stratégies nationales, la recherche et développement, les partenariats public-privé et l'intégration de la PQC aux exigences de cybersécurité.
+
+      La transition concerne tous les secteurs, pas seulement les infrastructures critiques.
+
+      La PQC est une évolution des bonnes pratiques, pas une simple obligation de conformité.
+
+      Le document est publié en septembre 2026 sous licence ouverte Etalab 2.0, avec la participation de la Commission européenne et de l'ENISA.
+
+EXEMPLES CITES.
+
+      Données gouvernementales, données personnelles sensibles et secrets d'affaires exposés au risque stocker maintenant, déchiffrer plus tard.
+
+      Usurpation d'entités de confiance et falsification de données par un attaquant doté d'un CRQC.
+
+      Exclusion de la commande publique pour les organisations en retard sur la transition.

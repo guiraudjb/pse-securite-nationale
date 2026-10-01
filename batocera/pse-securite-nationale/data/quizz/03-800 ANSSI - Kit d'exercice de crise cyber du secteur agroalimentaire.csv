@@ -1,0 +1,36 @@
+Quel organisme a publié le kit d'exercice de crise cyber pour le secteur agroalimentaire en 2026 ?;La CNIL;Cybermalveillance.gouv.fr;La DGAL;L'ANSSI;5;Publié en juin 2026.
+Qu'est-ce qu'une crise d'origine cyber selon l'ANSSI ?;Toute panne informatique;Une déstabilisation majeure du fonctionnement d'une organisation due à des actions malveillantes sur ses outils numériques;Une grève du service informatique;Une baisse du chiffre d'affaires;3;Elle ne peut pas être traitée par les processus habituels.
+Combien de niveaux de maturité le kit propose-t-il ?;Deux;Cinq;Trois;Quatre;4;Un exercice sur table et deux simulations.
+Quel format correspond au niveau 1 ?;Un exercice sur table, TTX;Un test d'intrusion;Une simulation multisite;Un audit PASSI;2;Idéal pour les débutants sans procédures dédiées.
+À quel public s'adresse le niveau 3 ?;Une organisation mature aux procédures éprouvées;Des débutants;Le grand public;Des étudiants;2;Il teste la robustesse et la décision sous pression.
+Quelle est la durée approximative d'un exercice sur table ?;Quinze minutes;Deux jours;Une semaine;Environ trois heures;5;Avec des discussions d'une dizaine de minutes par situation.
+Combien de temps dure le jeu du scénario 3 ?;Trente minutes;Trois heures trente;Deux fois trois heures;Une heure;4;Le scénario 2 dure trois heures trente.
+Combien de temps dure le débriefing à chaud ?;Deux heures;Quarante minutes;Une journée;Dix minutes;3;Après vingt minutes de briefing et une pause de dix minutes.
+Quel outil définit la séquence des stimuli envoyés aux joueurs ?;Le chronogramme;L'annuaire de crise;Le PCA;La main courante;2;C'est l'outil central de l'animation.
+À quoi sert la main courante ?;Noter les observateurs;Consigner les actions menées et les informations remontées;Planifier la production;Lister les coordonnées des acteurs;3;Document de crise fourni par le kit.
+Sur quelle échelle chaque question de la grille d'observation est-elle notée ?;Sur 20;De A à E;De 1 à 10;De 0 à 3;5;Avec des commentaires.
+Quand remplit-on le questionnaire de RETEX à froid ?;Pendant la pause;Avant l'exercice;Dans le mois qui suit l'exercice;Un an après;4;Le RETEX à chaud a lieu juste après le jeu.
+Quelle mention doit précéder toute communication pendant l'exercice ?;TEST;EXERCICE;CONFIDENTIEL;URGENT;3;Répétée trois fois à l'oral, entre crochets dans l'objet des courriels.
+Quel rôle prend des notes et remplit la grille sans influencer le jeu ?;Le joueur;Le planificateur;L'animateur;L'observateur;5;Il est les yeux et les oreilles de l'animation.
+Qui adapte le scénario avec des complices qui ne joueront pas ?;L'observateur;Le préfet;Le joueur;Le planificateur;5;Il prépare aussi la logistique et le RETEX à froid.
+Pourquoi les émetteurs des stimuli ne devraient-ils pas être aussi joueurs ?;Ce n'est pas recommandé;Pour économiser du temps;Pour garantir le réalisme de l'exercice;Pour respecter le RGPD;4;Recommandation du kit.
+Qui est l'attaquant du scénario ?;Un technicien informatique mécontent aidé d'un collectif hacktiviste;Un concurrent commercial;Un État étranger seul;Un groupe de rançongiciel;2;Un initié malveillant associé à des hacktivistes.
+Quelle est la motivation du collectif hacktiviste ?;L'argent uniquement;Une cause géopolitique et la visibilité d'un message politique;L'espionnage industriel;Un défi technique;3;Ils exagèrent l'impact pour gagner en visibilité.
+Par quel vecteur l'attaquant entre-t-il dans le SI ?;Un accès VPN légitime aux identifiants non révoqués;Une vulnérabilité Metabase;Une clé USB;Un courriel piégé;2;Les accès de l'employé n'avaient pas été révoqués.
+Que touche le scénario 1 ?;Plusieurs sites et le WMS;Le site web et l'ERP uniquement;Le CRM, les données clients, les sauvegardes et le convoyeur;La messagerie Tchap;4;Les capteurs qualité sont désactivés.
+Quel scénario est multisite avec suppression intégrale des sauvegardes ?;Aucun;Le scénario 2;Le scénario 1;Le scénario 3;5;Il touche aussi le WMS, le MES central, le LIMS et des SCADA.
+Quel scénario altère les ordres de production et le CIP par le MES ?;Le scénario 1;Le scénario 3;Le scénario 2;Le scénario 0;4;Avec des lots non conformes et des rappels de produits.
+Qu'est-ce qu'un SCADA ?;Un réseau social;Un antivirus;Un logiciel de comptabilité;Un système de supervision et de contrôle à distance d'installations industrielles;5;Supervisory Control And Data Acquisition.
+Que désigne le CRM ?;Le logiciel de gestion de la relation client;Le contrôle des risques métier;Le registre des mouvements;Le centre de réponse militaire;2;Son blocage empêche commandes et facturation.
+Que gère le LIMS ?;Les données des laboratoires qualité;Les entrepôts;La paie;Le site web;2;Sa suppression entraîne des non-conformités réglementaires.
+Quel est le premier stimulus du scénario 1 ?;Une alerte du préfet;Des lenteurs d'accès au CRM signalées par un commercial;L'arrivée du prestataire;Une revendication sur X;3;À H0 de la première journée.
+Que se passe-t-il à H2 dans le scénario 1 ?;Un collectif hacktiviste revendique l'attaque sur X et publie des données;Le convoyeur s'arrête;Le client résilie;Les sauvegardes sont restaurées;2;Données de clients, tarifs et commandes.
+Quelles anomalies l'opérateur observe-t-il à H3 ?;Une panne de messagerie;Un incendie;Chutes, bourrages et dosages incohérents sur le convoyeur;Une coupure d'électricité;4;Aucune alerte qualité ne s'est déclenchée.
+Quelle direction du ministère de l'Agriculture veille à la sécurité des aliments ?;La DINUM;La DGFiP;La DGCCRF;La DGAL;5;Direction générale de l'alimentation.
+De quel ministère relève la DGCCRF ?;Du ministère de la Santé;Du ministère de l'Intérieur;Du ministère de l'Agriculture;Du ministère de l'Économie;5;Concurrence, consommation et répression des fraudes.
+Que découvre le technicien à J2 H0 ?;Les sauvegardes sont intactes;Aucune sauvegarde récente, les plus récentes ont plus d'un an et sont incomplètes;Le CRM fonctionne de nouveau;L'attaquant est arrêté;3;La restauration fiable est impossible.
+Que révèle l'analyse forensique à J2 H1 ?;Un rançongiciel russe;Une panne matérielle;Une connexion distante avec le compte d'un employé licencié;Une erreur de l'opérateur;4;Il faut révoquer tous ses accès IT et OT.
+Quelle fausse information circule à J2 H4 ?;Des rejets d'eau non traitée par l'usine;La faillite de l'entreprise;La fermeture du site par l'État;Un empoisonnement volontaire des produits;2;Publiée par une association écologiste et signalée par le cabinet du préfet.
+Quelles sont les quatre étapes du déroulé classique de gestion de crise évaluées par la grille ?;Audit, test, rapport, sanction;Veille, attaque, rançon, paiement;Alerte, qualification, gestion, clôture;Achat, vente, livraison, facturation;4;Critère de la méthodologie de gestion de crise.
+Quel enseignement fait partie des leçons d'une crise cyber selon le kit ?;Ne jamais communiquer;Couper tous les systèmes immédiatement;Savoir prendre des décisions parfois incertaines;Attendre d'avoir toutes les informations avant d'agir;4;Avec la communication, l'organisation de la cellule et la préparation technique.
+Que faut-il faire après l'exercice ?;Fixer le RETEX à froid et produire un plan de travail collectif;Recommencer immédiatement;Archiver sans suite;Sanctionner les joueurs;2;Pour renforcer le dispositif de gestion de crise.

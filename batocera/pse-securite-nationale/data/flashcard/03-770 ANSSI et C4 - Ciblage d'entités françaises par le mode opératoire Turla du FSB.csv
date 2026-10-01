@@ -1,0 +1,22 @@
+Référence du rapport Turla ?,"CERTFR-2026-CTI-004 (français), CTI-005 (anglais), 13 juillet 2026."
+C4 ?,"Centre de coordination des crises cyber : ANSSI, COMCYBER, DGA, DGSE, DGSI."
+MOA ?,"Mode opératoire d'attaque : TTP, codes et infrastructures cohérents dans le temps."
+Turla ?,"MOA d'espionnage du 16e Centre du FSB, actif depuis au moins 2004."
+16e Centre du FSB ?,"Unité militaire 71330, Centre de renseignement radio-électronique des communications (TsRRSS)."
+Centres d'interception ?,"Onze, désignés par des numéros d'unités militaires."
+Unité 61240 ?,"Ciblage de la France (ROEM et cyber offensif), près de Krasnoïe Selo."
+Entreprises d'appui ?,AO AST et NPP Gamma.
+Attributions du 13 juillet 2026 ?,"Ministre de l'Europe et des Affaires étrangères (France) et Haute Représentante (UE)."
+Attaques notables ?,"Réseaux militaires américains 2008, RUAG 2016, réseaux gouvernementaux allemands 2018."
+Alias de Turla ?,"Secret Blizzard, Venomous Bear, Pensive Ursa, Pacifier, Waterbug."
+Codes historiques ?,"Agent.BTZ et Uroburos (aussi appelés Turla et Snake)."
+Porte dérobée phare depuis 2016 ?,"Kazuar, toujours utilisée en 2026."
+Accès initial ?,"Hameçonnage ciblé, point d'eau, équipements réseau, vulnérabilités jour-zéro."
+Infrastructure ?,"Ressources louées ou compromises (WordPress), satellites, pair-à-pair."
+Victime finale ?,Entité compromise à des fins d'espionnage.
+Victime intermédiaire ?,Entité compromise pour servir de relais.
+2014 ?,Entités ministérielles compromises par Uroburos.
+Depuis 2017 ?,Messageries de cadres du ministère des Armées compromises.
+2018 ?,"Ambassade de France à Moscou ; entité des technologies utilisée comme relais."
+2019 ?,"Entité de la justice compromise via SharePoint."
+2025 ?,Entité travaillant sur des technologies avancées visée.

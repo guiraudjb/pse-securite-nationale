@@ -1,0 +1,193 @@
+L'IA GÉNÉRATIVE FACE AUX ATTAQUES INFORMATIQUES, SYNTHÈSE DE LA MENACE EN 2025 (ANSSI, CERT-FR, CERTFR-2026-CTI-001 DU 4 FÉVRIER 2026).
+
+LEXIQUE COMPLET.
+
+      L'IA générative désigne les systèmes qui génèrent des contenus, texte, images, vidéos ou code, à partir de modèles entraînés sur des corpus d'apprentissage.
+
+      Un grand modèle de langage, GML ou LLM, est un modèle d'IA spécialisé dans l'analyse et la génération de contenus textuels, notamment le langage naturel ou le code informatique.
+
+      L'usage dual signifie qu'un outil assez puissant pour construire un système complexe peut aussi être détourné pour le détruire.
+
+      Un système d'IA est un ensemble de composants matériels et logiciels dont au moins un implémente un modèle issu d'un apprentissage statistique.
+
+      L'apprentissage statistique, ou automatique, consiste à appliquer un algorithme d'apprentissage à des données d'entraînement pour produire un modèle.
+
+      Une requête, ou prompt, est l'instruction textuelle envoyée par l'utilisateur au système d'IA.
+
+      L'inférence est l'interrogation du modèle par l'utilisateur.
+
+      Un deepfake est un enregistrement vidéo ou audio réalisé ou modifié grâce à l'IA.
+
+      La caractérisation, ou profiling, consiste à récupérer les données techniques des internautes qui consultent une page pour identifier des cibles avant de les compromettre.
+
+      Un code malveillant polymorphique modifie régulièrement son code pour échapper aux antivirus et aux EDR.
+
+      Une vulnérabilité jour-zéro est une faille exploitée avant toute publication ou tout correctif.
+
+      Le jailbreak-as-a-service est un service cybercriminel qui vend des prompts permettant de contourner les garde-fous des IA génératives.
+
+      L'empoisonnement consiste à introduire des données corrompues ou fausses dans les données d'entraînement d'un modèle.
+
+      Le Model Context Protocol, ou MCP, sert à connecter les LLM à des outils externes et à des sources de données.
+
+      Le slopsquatting consiste à enregistrer des noms de paquets logiciels inventés par les hallucinations d'une IA pour y diffuser des versions malveillantes.
+
+      Un infostealer est un code malveillant qui collecte les identifiants, mots de passe et cookies de session de la victime.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE DE LA SYNTHÈSE.
+
+   A. Le périmètre.
+
+      La synthèse du CERT-FR, datée du 4 février 2026, traite exclusivement des IA génératives, dont les grands modèles de langage.
+
+      Ces modèles illustrent l'usage dual de l'IA, utilisés par les défenseurs pour améliorer la cybersécurité et détournés par les attaquants pour améliorer leurs attaques.
+
+      L'évolution rapide des usages impose une réévaluation régulière de la menace.
+
+      Le guide de l'ANSSI Recommandations de sécurité pour un système d'IA générative, du 29 avril 2024, complète cette synthèse pour la mise en œuvre de solutions fondées sur des LLM.
+
+   B. Le constat principal.
+
+      L'ANSSI n'a pas connaissance de cyberattaques menées contre des acteurs français à l'aide de l'IA, ni de système d'IA capable de réaliser seul toutes les étapes d'une attaque.
+
+      Il est cependant plausible que ces technologies améliorent le niveau, la quantité, la diversité et l'efficacité des attaques, surtout contre les environnements peu sécurisés.
+
+II. L'IA GÉNÉRATIVE AU SERVICE DES ATTAQUANTS.
+
+   A. L'ingénierie sociale et la reconnaissance.
+
+      Des modes opératoires liés à l'Iran auraient utilisé Gemini de Google pour la reconnaissance d'experts et d'organisations.
+
+      En 2024, le mode opératoire Charcoal Typhoon, lié à la Chine, aurait généré du contenu d'hameçonnage avec l'IA, et il aurait déjà ciblé la France selon Microsoft.
+
+      Entre 2024 et 2025, le mode opératoire Lazarus, lié à la Corée du Nord, aurait créé de faux profils d'entreprises et d'employés sur les réseaux sociaux.
+
+      L'ANSSI a observé des sites d'apparence légitime générés par IA qui hébergent des charges malveillantes ou font de la caractérisation.
+
+      Des cybercriminels louent pour quelques dizaines de dollars des services de deepfakes pour usurper des identités.
+
+   B. Le développement de codes malveillants.
+
+      En 2024, le mode opératoire TA547 aurait utilisé un script PowerShell généré par un LLM contre une entreprise allemande.
+
+      Des chercheurs de l'université de New York ont créé PromptLock, prototype de rançongiciel qui génère ses scripts d'exfiltration et de chiffrement par des prompts à l'exécution.
+
+      Google a identifié Promptflux, code polymorphique qui demande à l'API Gemini de réécrire entièrement son code source toutes les heures pour éviter la détection.
+
+      Ces codes supposent toutefois des développeurs aux capacités relativement sophistiquées.
+
+   C. L'analyse des données volées.
+
+      En février 2025, la cyberdéfense ukrainienne a affirmé que des opérateurs russes utilisaient l'IA générative pour analyser massivement les données exfiltrées et y repérer les informations d'intérêt.
+
+   D. Les limites actuelles.
+
+      La recherche de vulnérabilités et le développement de preuves de concept dépendent encore de compétences humaines.
+
+      Sur une cinquantaine d'IA génératives testées par des chercheurs, trois seulement ont produit un exploit fonctionnel, après de nombreuses heures.
+
+      Il n'existe aucun cas avéré d'exploitation d'une vulnérabilité jour-zéro découverte grâce à une IA générative.
+
+      Des progrès existent côté défense, avec BigSleep en novembre 2024 pour la recherche de vulnérabilités dans le code, et XBOW en juin 2025, qui a soumis des centaines de vulnérabilités à des programmes de bug bounty sans intervention humaine.
+
+III. DES USAGES DIFFÉRENTS SELON LES PROFILS D'ATTAQUANTS.
+
+   A. Un large spectre d'acteurs.
+
+      En janvier 2025, Google indiquait que Gemini avait été utilisé entre 2023 et 2024 par des cybercriminels et par au moins dix modes opératoires liés à l'Iran, vingt à la Chine, neuf à la Corée du Nord et trois à la Russie.
+
+   B. Les acteurs matures et les débutants.
+
+      Pour les acteurs les plus matures, l'IA devient un cadre pratique comparable à Cobalt Strike ou Metasploit, pour produire du contenu en masse dans plusieurs langues, du code non signant ou des recherches rapides sur les cibles.
+
+      Leur maîtrise croissante pourrait mener à court ou moyen terme à l'automatisation complète ou quasi complète d'une chaîne d'attaque.
+
+      Pour les acteurs moins expérimentés, l'IA est un outil d'apprentissage et de productivité.
+
+      Dans tous les cas, l'IA permet d'agir plus vite et donc à plus grande échelle.
+
+IV. LE DÉTOURNEMENT DES MODÈLES EXISTANTS.
+
+   A. Le contournement des garde-fous.
+
+      Les modèles comme ChatGPT d'OpenAI disposent de garde-fous contre les usages illégaux.
+
+      Les attaquants les contournent par ingénierie de prompt, avec des formulations ambiguës, des mots-clés ou des scénarios fictifs.
+
+      Dès 2023, des chercheurs ont détourné ChatGPT pour développer un code polymorphique.
+
+      En 2024, des services de jailbreak-as-a-service comme EscapeGPT ou LoopGPT sont apparus sur les forums cybercriminels.
+
+   B. Les IA débridées.
+
+      Dès 2023, des services débridés comme WormGPT, FraudGPT ou EvilGPT sont vendus sur des forums ou sur Telegram pour une centaine de dollars par mois.
+
+      Des modèles récents comme WormGPT 4 seraient entraînés directement sur du code malveillant et des modèles d'hameçonnage.
+
+V. LES SYSTÈMES D'IA COMME CIBLES.
+
+   A. Trois niveaux d'attaque.
+
+      Lors de l'entraînement, l'attaquant peut introduire des données corrompues ou fausses.
+
+      Lors de l'intégration, il peut implanter des portes dérobées dans le modèle.
+
+      Lors de l'inférence, il peut injecter de fausses informations pour altérer les réponses ou récupérer des informations confidentielles d'un compte.
+
+   B. L'empoisonnement et la désinformation.
+
+      Aucun incident d'empoisonnement n'a été porté à la connaissance de l'ANSSI, mais le risque existe et pourrait mener à l'altération de données ou au sabotage de systèmes opérationnels.
+
+      La multiplication de contenus fallacieux générés par IA sur internet peut polluer les données d'entraînement des agents conversationnels.
+
+      Selon le UK AI Security Institute et l'Alan Turing Institute, 250 documents malveillants suffiraient à empoisonner un modèle, quelle que soit la taille de ses données d'apprentissage.
+
+      L'ANSSI a observé des modèles intégrant dès leur conception des limitations ou de la censure, et Viginum a publié en 2024 un rapport sur l'IA et la lutte contre les manipulations de l'information.
+
+   C. La chaîne d'approvisionnement et les données sensibles.
+
+      Des modèles de génération de code en source ouverte peuvent être malveillants et installer une porte dérobée dès leur téléchargement.
+
+      Des agents MCP mal sécurisés étendent la surface d'attaque, qu'ils fonctionnent en local ou sur des hôtes tiers.
+
+      Le slopsquatting exploite les hallucinations de l'IA pour introduire des paquets malveillants dans la chaîne logicielle.
+
+      Sans cloisonnement rigoureux, la compromission d'un système d'IA peut atteindre la confidentialité des données traitées et l'intégrité des systèmes connectés.
+
+      Entre 2022 et 2023, plus de 100 000 comptes ChatGPT ont été volés par des infostealers comme Rhadamanthys puis revendus.
+
+      En 2023, des salariés de Samsung ont divulgué des informations sensibles sur les semi-conducteurs en les soumettant à ChatGPT.
+
+POINTS D'ATTENTION.
+
+      L'ANSSI n'a connaissance d'aucune cyberattaque contre des acteurs français menée à l'aide de l'IA, ni d'IA capable d'une attaque entièrement autonome.
+
+      Aucune vulnérabilité jour-zéro découverte par une IA générative n'a été exploitée à ce jour.
+
+      Ne pas confondre PromptLock, prototype de rançongiciel universitaire, et Promptflux, code polymorphique qui réécrit son code toutes les heures avec Gemini.
+
+      Ne pas confondre les services de jailbreak-as-a-service, EscapeGPT et LoopGPT, et les IA débridées, WormGPT, FraudGPT et EvilGPT.
+
+      Les chiffres de Google sont dix modes opératoires liés à l'Iran, vingt à la Chine, neuf à la Corée du Nord et trois à la Russie.
+
+      250 documents malveillants suffiraient à empoisonner un modèle, quelle que soit sa taille.
+
+      Les trois niveaux d'attaque d'un LLM sont l'entraînement, l'intégration et l'inférence.
+
+EXEMPLES CITES.
+
+      Charcoal Typhoon, contenu d'hameçonnage généré par IA en 2024.
+
+      Lazarus, faux profils d'entreprises et d'employés entre 2024 et 2025.
+
+      TA547, script PowerShell généré par un LLM en 2024.
+
+      PromptLock, prototype de rançongiciel piloté par prompts.
+
+      Promptflux, code qui réécrit son code toutes les heures via Gemini.
+
+      WormGPT 4, IA débridée entraînée sur du code malveillant.
+
+      Samsung, fuite d'informations sur les semi-conducteurs via ChatGPT en 2023.

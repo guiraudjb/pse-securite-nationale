@@ -1,0 +1,185 @@
+CIBLAGE ET COMPROMISSION D'ENTITÉS FRANÇAISES AU MOYEN DU MODE OPÉRATOIRE D'ATTAQUE TURLA, ACTIVITÉS D'ESPIONNAGE DU 16E CENTRE DU FSB DEPUIS LES ANNÉES 2010 (CERT-FR, CERTFR-2026-CTI-004 DU 13 JUILLET 2026).
+
+LEXIQUE COMPLET.
+
+      Le C4, Centre de coordination des crises cyber, est une instance interministérielle d'analyse de la menace informatique qui rassemble l'ANSSI, le COMCYBER, la DGA, la DGSE et la DGSI.
+
+      Un mode opératoire d'attaque, ou MOA, est un ensemble de techniques, tactiques et procédures, de codes et d'infrastructures, évolutifs mais cohérents dans le temps, utilisé pour mener des attaques informatiques.
+
+      Les TTP sont les techniques, tactiques et procédures qui caractérisent la manière d'agir d'un attaquant.
+
+      Turla est un mode opératoire d'attaque actif depuis au moins 2004, opéré par le 16e Centre du FSB et utilisé pour l'espionnage.
+
+      Le FSB est le service fédéral de sécurité de la fédération de Russie.
+
+      Le 16e Centre du FSB, aussi appelé unité militaire 71330 ou Centre de renseignement radio-électronique des communications, TsRRSS, opère plusieurs modes opératoires contre les intérêts français et européens.
+
+      Le ROEM est le renseignement d'origine électromagnétique.
+
+      Une attribution est la déclaration officielle qui désigne l'État ou l'acteur responsable d'une attaque informatique.
+
+      Une victime finale est une entité compromise à des fins d'espionnage.
+
+      Une victime intermédiaire est une entité compromise de manière opportuniste pour servir de relais dans l'infrastructure malveillante de l'attaquant.
+
+      L'hameçonnage ciblé est l'envoi de messages piégés conçus pour une cible précise.
+
+      L'attaque par point d'eau consiste à piéger un site fréquenté par les cibles pour les inciter à télécharger des fichiers malveillants usurpant des logiciels légitimes.
+
+      Une vulnérabilité jour-zéro est une faille exploitée avant toute publication ou tout correctif.
+
+      Une porte dérobée est un accès caché qui permet à l'attaquant de revenir sur un système compromis.
+
+      TLP:CLEAR est le marquage du protocole Traffic Light Protocol qui autorise la diffusion publique d'un document.
+
+COURS DÉTAILLÉ.
+
+I. LE CONTEXTE DU RAPPORT.
+
+   A. Les auteurs et la date.
+
+      Le rapport CERTFR-2026-CTI-004 est publié le 13 juillet 2026 sous le marquage TLP:CLEAR par les membres du C4, avec les logos de l'ANSSI, du COMCYBER, de la DGA, de la DGSE et de la DGSI.
+
+      Il décrit le ciblage et la compromission d'entités françaises au moyen du mode opératoire d'attaque Turla, opéré par le 16e Centre du FSB.
+
+      La version anglaise du même rapport porte la référence CERTFR-2026-CTI-005.
+
+   B. L'attribution officielle.
+
+      Le MOA Turla a déjà été attribué à la Russie par d'autres pays, notamment les États-Unis avec la CISA, l'Estonie et la République tchèque.
+
+      Le 13 juillet 2026, les activités du 16e Centre du FSB contre la France et ses partenaires européens font l'objet de deux déclarations formelles d'attribution.
+
+      La première est faite par le ministre de l'Europe et des Affaires étrangères au nom de la France.
+
+      La seconde est faite par la Haute Représentante de l'Union européenne pour les affaires étrangères et la politique de sécurité, au nom de l'Union européenne et des États membres.
+
+   C. La continuité de la menace.
+
+      Depuis au moins 2004, Turla collecte du renseignement contre des entités stratégiques et des personnes physiques dans le monde entier, dont la France.
+
+      Les campagnes contre l'Ukraine, les pays de l'OTAN et de l'Union européenne se poursuivent dans le contexte de la guerre d'agression déclenchée par la Russie contre l'Ukraine le 24 février 2022.
+
+II. LE 16E CENTRE DU FSB.
+
+   A. Organisation.
+
+      Le 16e Centre du FSB est connu sous les appellations unité militaire 71330 et Centre de renseignement radio-électronique des communications.
+
+      Il s'appuie sur onze centres d'interception répartis sur le territoire russe et désignés par des numéros d'unités militaires.
+
+      Ces unités se trouvent notamment près de Sotchi, de Temriouk dans la région de Krasnodar, d'Alouchta en Crimée, de Balachov dans la région de Saratov, de Pskov, de Tchekhov dans la région de Moscou, de Krasnoïe Selo près de Saint-Pétersbourg, dans le sud de Moscou, de Khabarovsk, de Chkotovo dans la région de Vladivostok et de Zelenogradsk dans la région de Kaliningrad.
+
+   B. Répartition géographique du ciblage.
+
+      L'emplacement des unités et l'orientation des antennes laissent envisager une répartition géographique du ciblage.
+
+      Les unités de Pskov, de Krasnoïe Selo et de Zelenogradsk sont orientées vers l'Europe et les États-Unis, tandis que celles de Chkotovo et de Khabarovsk ciblent plutôt l'Asie.
+
+   C. L'unité militaire 61240, chargée de la France.
+
+      L'unité militaire 61240, située près de Krasnoïe Selo au sud-ouest de Saint-Pétersbourg, est chargée du ciblage de la France en matière de ROEM et d'activités cyber offensives.
+
+      Elle entretient des relations étroites avec des entreprises russes comme AO AST ou NPP Gamma, connues pour leur appui aux activités cyber offensives des services russes.
+
+      Elle serait fortement liée aux dispositifs d'interception ROEM et de LIA du FSB et constitue une menace réelle pour les intérêts français et européens.
+
+III. LE MODE OPÉRATOIRE TURLA.
+
+   A. Les cibles et les attaques notables.
+
+      Turla vise des entités publiques et privées des secteurs gouvernemental, diplomatique, de la défense, de la recherche, des technologies, de l'éducation, des médias et de l'énergie, ainsi que des personnes physiques.
+
+      Parmi ses attaques notables figurent la compromission de réseaux militaires américains en 2008, de l'entreprise de défense suisse RUAG en 2016 et de réseaux gouvernementaux allemands en 2018.
+
+      Depuis le 24 février 2022, Turla participe à l'effort de guerre russe par la collecte de renseignement sur l'Ukraine et ses alliés européens.
+
+   B. Les alias.
+
+      Les éditeurs de sécurité désignent des activités proches sous les noms de Secret Blizzard, Venomous Bear, Pensive Ursa, Pacifier ou Waterbug.
+
+      Le C4 considère que ces alias renvoient au même mode opératoire.
+
+   C. Les codes malveillants.
+
+      Turla utilise des outils en source ouverte comme Mimikatz ou Metasploit et des codes malveillants propres, issus d'Agent.BTZ et d'Uroburos, aussi appelés Turla et Snake.
+
+      Ces codes comprennent notamment Epic, ComRAT, Carbon, Mosquito, Penquin, Gazer, Crutch, TinyTurla, LightNeuron, Capibar et Kazuar.
+
+      Ils ciblent Windows, les messageries Outlook et Microsoft Exchange, ainsi que Linux, macOS, les navigateurs, les applications métier et les serveurs web.
+
+      Depuis 2016, Turla s'appuie régulièrement sur la porte dérobée Kazuar, qui a évolué et reste utilisée en 2026.
+
+   D. L'accès initial.
+
+      Les opérateurs utilisent l'hameçonnage ciblé et les attaques par point d'eau pour faire télécharger des fichiers malveillants usurpant des logiciels légitimes.
+
+      Ils compromettent aussi des équipements réseau et des applications métier, et exploitent des vulnérabilités, y compris jour-zéro, parfois combinées dans une même chaîne de compromission.
+
+   E. L'infrastructure d'attaque.
+
+      Les opérateurs utilisent des ressources louées ou compromises, comme des serveurs et des sites internet, notamment des CMS tels que WordPress.
+
+      Ils ont recours à des moyens satellitaires pour anonymiser l'administration de leur infrastructure, pour le commande et contrôle et pour rapatrier les données.
+
+      Ils emploient des outils de pair-à-pair composés de machines compromises.
+
+      Turla compromet et réutilise aussi des capacités offensives d'autres menaces, étatiques ou cybercriminelles.
+
+IV. LA VICTIMOLOGIE FRANÇAISE.
+
+   A. Deux types de victimes.
+
+      Le C4 distingue les victimes finales, compromises à des fins d'espionnage, et les victimes intermédiaires, compromises de manière opportuniste pour servir de relais.
+
+      Les victimes françaises comprennent des ministères et des entités des secteurs diplomatique, de la défense, de la justice et des technologies.
+
+      Parmi les victimes intermédiaires figurent aussi des associations, des particuliers et des entreprises diverses.
+
+   B. La chronologie des compromissions.
+
+      En 2014, des entités ministérielles ont été compromises au moyen du code Uroburos, probablement à des fins d'espionnage.
+
+      Depuis au moins 2017, des comptes de messagerie internet de cadres du ministère des Armées sont compromis, et la menace reste active contre ce ministère et ses entités sous tutelle.
+
+      En 2018, le réseau de l'ambassade de France à Moscou, relevant du ministère de l'Europe et des Affaires étrangères, a été compromis, avec du balayage réseau et de l'exfiltration de données.
+
+      Ce dernier incident fait écho à une campagne rapportée par Microsoft contre des ambassades étrangères à Moscou depuis au moins 2024, signe d'un intérêt constant pour les cibles diplomatiques.
+
+      En 2018, plusieurs machines d'une entité française des technologies ont été compromises par Uroburos et utilisées comme relais.
+
+      En 2019, un serveur d'une entité de la justice hébergeant un service de formation continue a été compromis par une vulnérabilité SharePoint, avec un accès potentiel aux informations de plusieurs milliers de comptes.
+
+      Entre 2019 et 2025, plusieurs victimes intermédiaires françaises ont été compromises.
+
+      En 2025, le C4 a été informé d'activités potentiellement liées à Turla contre une entité travaillant sur des technologies avancées.
+
+POINTS D'ATTENTION.
+
+      Le C4 réunit cinq membres, l'ANSSI, le COMCYBER, la DGA, la DGSE et la DGSI.
+
+      Il ne faut pas confondre l'unité militaire 71330, qui désigne le 16e Centre du FSB, et l'unité militaire 61240, chargée du ciblage de la France.
+
+      Les deux déclarations d'attribution du 13 juillet 2026 sont celle du ministre de l'Europe et des Affaires étrangères pour la France et celle de la Haute Représentante pour l'Union européenne.
+
+      Turla est actif depuis au moins 2004 et Kazuar est utilisé depuis 2016.
+
+      Secret Blizzard, Venomous Bear, Pensive Ursa, Pacifier et Waterbug sont des alias du même mode opératoire selon le C4.
+
+      Les victimes intermédiaires ne sont pas la cible finale, elles servent de relais pour attaquer d'autres victimes.
+
+      La compromission de l'ambassade de France à Moscou date de 2018 et celle de la justice par SharePoint de 2019.
+
+EXEMPLES CITES.
+
+      Réseaux militaires américains compromis en 2008.
+
+      Entreprise de défense suisse RUAG compromise en 2016.
+
+      Réseaux gouvernementaux allemands compromis en 2018.
+
+      Comptes de messagerie de cadres du ministère des Armées compromis depuis 2017.
+
+      Ambassade de France à Moscou compromise en 2018.
+
+      Serveur d'une entité de la justice compromis par SharePoint en 2019.

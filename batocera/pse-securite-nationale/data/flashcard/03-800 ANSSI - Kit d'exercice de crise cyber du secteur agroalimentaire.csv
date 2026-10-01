@@ -1,0 +1,21 @@
+Crise d'origine cyber ?,Déstabilisation majeure due à des actions malveillantes sur les outils numériques.
+Exercice de crise ?,"Scénario fictif plausible, mise en situation réaliste mais non réelle."
+Trois niveaux du kit ?,"Niveau 1 sur table (débutant), niveaux 2 et 3 simulations (intermédiaire, mature)."
+Durées ?,"TTX environ 3 h (S1 2 h 30), S2 3 h 30, S3 2 x 3 h ; débriefing à chaud 40 min."
+Six étapes d'organisation ?,"Objectifs, type d'exercice, parties prenantes, documents, adaptation du scénario, logistique."
+Chronogramme ?,Séquence des stimuli envoyés aux joueurs.
+Main courante ?,Journal des actions et informations de la crise.
+Grille d'observation ?,"Évaluation par les observateurs, notes de 0 à 3."
+RETEX ?,"À chaud après le jeu, à froid dans le mois qui suit."
+Mention obligatoire ?,"EXERCICE (trois fois à l'oral, [EXERCICE] dans l'objet des courriels)."
+Rôles ?,"Planificateur, animateur, observateur, joueur."
+Attaquant ?,Technicien mécontent appuyé par un collectif hacktiviste géopolitique.
+Vecteur d'entrée ?,Accès VPN légitime aux identifiants non révoqués.
+Scénario 1 ?,"CRM bloqué, données clients exfiltrées, sauvegardes corrompues, convoyeur altéré."
+Scénario 2 ?,"Site web et ERP, MES et CIP altérés, lots non conformes, rappels produits."
+Scénario 3 ?,"Multisite, sauvegardes supprimées, WMS, MES central, LIMS, SCADA en DoS."
+SCADA ?,Supervision et contrôle à distance des installations industrielles.
+DGAL et DGCCRF ?,"Alimentation (Agriculture) ; concurrence, consommation, fraudes (Économie)."
+J2 H0 ?,"Aucune sauvegarde récente, la plus récente a plus d'un an et est incomplète."
+J2 H1 ?,Connexion avec le compte d'un employé licencié : révocation de tous ses accès IT et OT.
+Enseignements ?,"Communiquer, organiser et outiller la cellule, se préparer, décider dans l'incertitude."
