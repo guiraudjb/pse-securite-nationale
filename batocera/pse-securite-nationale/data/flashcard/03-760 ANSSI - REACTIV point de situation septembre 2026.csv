@@ -1,0 +1,38 @@
+REACTIV ?,REponse et ACTion Interministérielle face aux Violations de données.
+"Demande du Premier ministre ?","1er septembre 2026, à l'ANSSI."
+Référence CERT-FR du point de situation ?,CERTFR-2026-CTI-006.
+"Nature de l'opération ?","Basculement immédiat des efforts opérationnels de l'ANSSI vers l'appui aux ministères."
+"Deux pouvoirs renforcés de l'ANSSI ?","Imposer des mesures d'urgence en délais contraints ; communication technique de crise centralisée."
+Document complété par REACTIV ?,Feuille de route sécurité numérique de l'État 2026-2027.
+"Chiffres depuis le 1er août 2026 ?","99 violations signalées, 67 confirmées, 32 traitées par l'ANSSI."
+Événement de sécurité ?,Signalements + incidents.
+Incident ?,Compromission avérée ou attaque réussie.
+"CVE-2026-72898 ?","Injection SQL Metabase sans authentification, droits administrateur ; correctif du 6 août 2026."
+Instances Metabase ministérielles compromises ?,Neuf.
+Infostealer ?,Programme qui vole des informations sensibles (identifiants).
+IDOR ?,Accès à un objet sans authentification ni identification préalable (dont traversée de répertoire).
+Second facteur faible ?,Le courriel.
+Compromission par rebond ?,Attaque via un prestataire ou sous-traitant (ex. TRACFIN).
+"DGFiP, données fiscales ?","353 000 particuliers et 252 000 professionnels ; détection 12-13 août 2026."
+"Cadastre ?","Compte de géomètre-expert compromis ; 2 millions de données, 434 000 propriétaires."
+PIGP ?,"Portail internet de la gestion publique, visé avec des identifiants d'infostealers."
+Audit DGFiP ?,"Premier audit par un PASSI, piloté avec l'ANSSI."
+GAIA ?,"4,35 millions d'enseignants potentiellement concernés (fin juillet 2026)."
+SIECLE ?,"Base élèves de Créteil, 1 million d'élèves (revendication du 17 août 2026)."
+Tchap ?,"Compte d'un agent de l'Éducation nationale compromis, détecté par la DINUM le 19 août 2026."
+SNU ?,"Faille IDOR, 275 000 utilisateurs (7 septembre 2026)."
+AEFE ?,"12 août 2026, annuaire interne, plus de 300 000 personnes."
+Bloctel ?,"7 août 2026, environ 600 000 numéros identifiés ; fermé le 11 août 2026."
+TRACFIN ?,"Sous-traitant compromis ; 136 assujettis, 213 demandes ; aucune déclaration de soupçon exposée."
+DGDDI ?,"21 août 2026, 3 comptes de messagerie et un serveur d'échange ; accès mail depuis internet retiré."
+Bureau numérique BNUM ?,"25 août 2026, plus de 300 comptes ; MFA activé pour tous."
+OISO ?,"22 000 agents et organismes agréés ; portail isolé du réseau interministériel."
+Zéro Logement Vacant ?,"28 août 2026, via Metabase, 48 millions de propriétaires."
+Qualicharge ?,"Metabase, 102 000 sessions de recharge exfiltrées."
+Docurba ?,"Revendication du 25 août 2026, compromission de plusieurs mois, probablement Metabase."
+Signal Logement et BCPR ?,Incidents en cours de qualification.
+Laboratoire d'innovation de l'ANSSI ?,"118 comptes Metabase compromis ; comptes inactifs depuis 3 mois désactivés."
+DINUM ?,"Instances Metabase ProConnect et Nuage-Public ; données déjà publiques."
+France VAE ?,"8 août 2026, Metabase, toutes les données utilisateurs exfiltrées."
+Préférence Formation ?,"Ministère de l'Agriculture, 5 265 personnes."
+Rôle de l'ANSSI ?,"Coordination technique, marqueurs d'attaque, appui forensique et remédiation."

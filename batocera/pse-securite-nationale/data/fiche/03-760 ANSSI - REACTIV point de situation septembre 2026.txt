@@ -1,0 +1,349 @@
+REACTIV, RÉPONSE ET ACTION INTERMINISTÉRIELLE FACE AUX VIOLATIONS DE DONNÉES, POINT DE SITUATION DE L'ANSSI DE SEPTEMBRE 2026 (CERTFR-2026-CTI-006).
+
+LEXIQUE COMPLET.
+
+      REACTIV signifie REponse et ACTion Interministérielle face aux Violations de données, c'est l'opération de cyberdéfense confiée à l'ANSSI par le Premier ministre le 1er septembre 2026.
+
+      L'ANSSI est l'Agence nationale de la sécurité des systèmes d'information, qui pilote REACTIV et dont l'autorité est renforcée pendant l'opération.
+
+      Le CERT-FR est le centre gouvernemental de veille, d'alerte et de réponse aux attaques informatiques opéré par l'ANSSI, qui publie ce point de situation sous la référence CERTFR-2026-CTI-006.
+
+      Une violation de données est un incident de sécurité entraînant l'accès, la divulgation ou l'exfiltration non autorisés de données, notamment de données personnelles confiées à l'administration.
+
+      Un événement de sécurité regroupe les signalements et les incidents.
+
+      Un signalement est un événement indésirable ou inattendu qui menace la sécurité d'un système d'information.
+
+      Un incident est un événement qui relève d'une compromission avérée ou d'une attaque réussie.
+
+      L'exfiltration est le vol de données, copiées hors du système d'information de la victime par l'attaquant.
+
+      Un infostealer est un programme destiné à voler des informations sensibles, par exemple des identifiants de connexion enregistrés sur un poste.
+
+      L'injection SQL est l'interprétation imprévue d'un code SQL introduit par une voie détournée dans une application, qui permet de lire ou de modifier sa base de données.
+
+      Une vulnérabilité de type IDOR permet d'accéder à un objet sans authentification ou identification préalable, les vulnérabilités de traversée de répertoire en font partie.
+
+      Le MFA, ou double authentification, exige un second facteur en plus du mot de passe, un second facteur par courriel étant considéré comme faible.
+
+      Metabase est un outil de visualisation et d'interrogation de bases de données, dont la vulnérabilité CVE-2026-72898 a été massivement exploitée à partir d'août 2026.
+
+      Une CVE est l'identifiant public et unique d'une vulnérabilité informatique.
+
+      La compromission par rebond est l'attaque d'une organisation à travers un prestataire ou un sous-traitant compromis de sa chaîne d'approvisionnement.
+
+      La latéralisation est le déplacement d'un attaquant d'un système compromis vers d'autres systèmes du même réseau.
+
+      Les marqueurs de compromission, ou marqueurs techniques d'attaque, sont des indices techniques partagés par l'ANSSI qui permettent aux victimes de détecter une intrusion.
+
+      L'analyse forensique est l'investigation technique d'un incident pour en établir l'origine, le déroulement et l'étendue.
+
+      La remédiation est l'ensemble des actions qui permettent de reprendre le contrôle d'un système compromis et d'en chasser l'attaquant.
+
+      Un CSIRT est une équipe de réponse aux incidents de sécurité informatique, par exemple celui de la DGDDI.
+
+      Un PASSI est un prestataire d'audit de la sécurité des systèmes d'information qualifié par l'ANSSI.
+
+      Tchap est la messagerie instantanée sécurisée de l'État, exploitée par la DINUM.
+
+      La DINUM est la Direction interministérielle du numérique, rattachée aux services du Premier ministre.
+
+      La revendication est l'annonce publique, par un attaquant, du vol de données qu'il affirme avoir commis.
+
+COURS DÉTAILLÉ.
+
+I. PRÉSENTATION DE L'OPÉRATION REACTIV.
+
+   A. L'origine de l'opération.
+
+      Face à l'intensification des attaques cybercriminelles liées à des violations de données affectant les services de l'État, le Premier ministre a demandé le 1er septembre 2026 à l'ANSSI de mettre en place une capacité renforcée de réaction, d'intervention et d'assistance aux services de l'État.
+
+      Le dispositif opérationnel est baptisé REACTIV, pour REponse et ACTion Interministérielle face aux Violations de données.
+
+      Il permet de mobiliser immédiatement les compétences et les moyens nécessaires de l'Agence aux côtés des ministères concernés.
+
+   B. Le contenu de l'opération.
+
+      L'opération de cyberdéfense REACTIV consiste en un basculement immédiat des efforts opérationnels de l'ANSSI.
+
+      Elle renforce l'appui de l'Agence aux ministères dans le traitement des compromissions de comptes utilisateurs et dans l'analyse des violations de données.
+
+      Ce renforcement doit permettre de mieux circonscrire les attaques et de lutter plus réactivement contre les exfiltrations de données.
+
+      REACTIV complète la Feuille de route des efforts prioritaires en matière de sécurité numérique de l'État 2026-2027, dont le Premier ministre a demandé l'accélération pour rehausser significativement et durablement le niveau de sécurité des réseaux ministériels.
+
+   C. Le renforcement de l'autorité de l'ANSSI.
+
+      Pendant l'opération, l'ANSSI peut faire prendre aux ministères, dans des délais contraints, les mesures d'urgence qui s'imposent pour protéger les données des citoyens confiées aux administrations.
+
+      L'ANSSI met en place une communication technique de crise centralisée en cas d'attaque relative à cette menace touchant des services de l'État.
+
+   D. La portée du document.
+
+      Le point de situation reflète des travaux d'investigation en cours et des incidents qui évoluent rapidement.
+
+      Les éléments et données chiffrées sont susceptibles d'évoluer et ne constituent pas une vision parfaitement exhaustive de la situation à une date donnée.
+
+II. TENDANCE GLOBALE ET VULNÉRABILITÉS RÉCURRENTES.
+
+   A. Les chiffres clés.
+
+      Depuis le 1er août 2026, 99 violations de données ont été portées à la connaissance de l'ANSSI.
+
+      Sur l'ensemble de ces événements de sécurité, 67 sont confirmés, dont 32 en cours de traitement par l'ANSSI.
+
+   B. La vulnérabilité Metabase CVE-2026-72898.
+
+      Une exploitation massive de cette vulnérabilité est observée depuis début août 2026.
+
+      Il s'agit d'une injection SQL qui permet à un utilisateur non authentifié d'accéder à la base de données de l'application Metabase et d'obtenir les droits administrateur de l'instance.
+
+      Neuf instances au sein de ministères ont été compromises.
+
+      Le correctif est disponible depuis le 6 août 2026.
+
+      L'ANSSI a demandé à l'ensemble des ministères d'identifier leurs instances et de vérifier leur mise à jour, et le CERT-FR a publié un bulletin d'alerte.
+
+   C. La compromission de comptes par infostealers.
+
+      Les identifiants volés sur des postes personnels utilisés dans un cadre professionnel, ou issus de précédentes violations de données, permettent d'accéder à des services exposés sans double authentification.
+
+      Ce vecteur initial reste marquant sur la période.
+
+   D. Les vulnérabilités de type IDOR.
+
+      L'ANSSI a recensé plusieurs exploitations de vulnérabilités IDOR dans le périmètre ministériel.
+
+      Parfois combinées à d'autres faiblesses, elles ont rendu possible l'exfiltration massive de documents.
+
+   E. L'absence de double authentification ou l'authentification faible.
+
+      L'absence de MFA, ou l'usage d'un second facteur faible comme le courriel, est un facteur clé de nombreux incidents analysés par l'ANSSI.
+
+      Un mot de passe faible ou une fuite de mot de passe suffisait alors à l'attaquant pour obtenir au minimum un accès utilisateur.
+
+   F. La sous-traitance et la chaîne d'approvisionnement.
+
+      Un incident illustre le risque de compromission par rebond.
+
+      La compromission d'un prestataire a entraîné le vol, dans les infrastructures de ce prestataire, de données concernant le ministère.
+
+   G. Les défauts de développement et de configuration.
+
+      Ils sont plus marginalement utilisés comme vecteur d'intrusion, mais sont couramment présents dans les incidents portés à la connaissance de l'ANSSI.
+
+      L'absence de contrôle des autorisations, les injections SQL ou les fichiers exposés peuvent conduire à des violations de données.
+
+III. IMPACTS PRINCIPAUX ET TRAVAUX DE L'ANSSI.
+
+   A. Les données fiscales et patrimoniales.
+
+      Les incidents ont exposé près de 353 000 usagers particuliers, avec le revenu fiscal de référence, le taux de prélèvement à la source, l'identité et les coordonnées.
+
+      Ils ont exposé 252 000 usagers professionnels, avec la raison sociale, le SIREN et les coordonnées.
+
+      Ils ont exposé 434 000 propriétaires dans le cadre du serveur cadastral.
+
+   B. Les données d'identification et de contact.
+
+      Plus de 30 000 utilisateurs de l'Agence pour l'enseignement français à l'étranger sont concernés selon la synthèse des impacts.
+
+      275 000 utilisateurs du Service national universel, 3 millions de numéros de téléphone pour Bloctel et 5 265 personnes pour Préférence Formation sont également concernés.
+
+   C. Les autres catégories de données.
+
+      Les données professionnelles et administratives touchées sont les identifiants fiscaux, les numéros SIREN et SIRET, les données de certification, les qualifications, les expériences, les données relatives aux enseignants et les données de contrôleurs techniques.
+
+      Les données techniques et d'exploitation touchées sont les journaux de connexion, les métadonnées d'applications, les identifiants de comptes techniques et les mots de passe hachés.
+
+      Les données de messagerie touchées sont des échanges sur Tchap ou par messagerie électronique et des courriels de support.
+
+      Des communications aux personnes concernées ont été effectuées lorsque la nature des données le justifiait.
+
+   D. Les travaux de l'ANSSI.
+
+      L'ANSSI assure la coordination technique, le partage de marqueurs d'attaque et un appui à l'analyse forensique et à la remédiation.
+
+      Elle a piloté la diffusion d'alertes sur la vulnérabilité Metabase CVE-2026-72898 et accompagné le durcissement des authentifications sur les portails exposés.
+
+IV. INCIDENTS DU MINISTÈRE DE L'ÉDUCATION NATIONALE ET DU MINISTÈRE DE L'EUROPE ET DES AFFAIRES ÉTRANGÈRES.
+
+   A. La vue d'ensemble de l'Éducation nationale.
+
+      Depuis juillet 2026, le ministère a rapporté des incidents visant plus d'une dizaine d'académies, avec des latéralisations vers plusieurs services nationaux déconcentrés et des exfiltrations de données.
+
+      Le ministère a mis en œuvre un plan de continuité d'activité et des mesures de remédiation à un rythme soutenu pour ouvrir les services à la rentrée.
+
+   B. GAIA.
+
+      Fin juillet 2026, le ministère a détecté une intrusion sur ses systèmes d'information et en a informé l'ANSSI.
+
+      L'attaquant a potentiellement pu exfiltrer les données de 4,35 millions d'enseignants, avec l'identité, l'affectation, le grade, la formation et les indemnités.
+
+   C. SIECLE.
+
+      Une revendication publique du 17 août 2026 fait état de l'exfiltration de données d'enseignants et d'élèves, reprenant pour partie les données de l'incident GAIA.
+
+      Elle a aussi révélé l'exfiltration de la base élèves SIECLE de l'académie de Créteil, soit un million d'élèves, leurs responsables légaux et des enseignants.
+
+   D. Tchap.
+
+      Le 19 août 2026, la DINUM a détecté la compromission du compte Tchap d'un agent de l'Éducation nationale.
+
+      Le compte a servi à accéder aux salons publics et privés auxquels il avait déjà accès, dont certains de la DGFiP et du cadastre, et les conversations accessibles ont été exfiltrées.
+
+      Le compte a été sécurisé par la réinitialisation du mot de passe, la révocation des sessions et le blocage du compte externe.
+
+   E. Le Service national universel.
+
+      Le 7 septembre 2026, l'ANSSI a été informée de la revendication d'une fuite de données sur un portail du SNU par l'exploitation d'une faille IDOR.
+
+      La fuite aurait exposé 275 000 utilisateurs, avec identifiants, noms, courriels, téléphones, rôles, statuts, informations géographiques et activité, et les investigations sont en cours.
+
+   F. L'Agence pour l'enseignement français à l'étranger.
+
+      Le 12 août 2026, l'AEFE, relevant du ministère de l'Europe et des Affaires étrangères, a subi une violation de données.
+
+      Un compte compromis a permis d'accéder à l'annuaire interne et d'extraire des informations sur plus de 300 000 personnes, dont l'identité, les coordonnées, les certifications, les qualifications, les expériences, les évaluations et le financement des parcours de validation des acquis de l'expérience.
+
+V. INCIDENTS DES MINISTÈRES ÉCONOMIQUES ET FINANCIERS.
+
+   A. Bloctel.
+
+      Le 7 août 2026, le service d'opposition au démarchage téléphonique a subi une violation de données depuis le compte professionnel d'une entreprise.
+
+      L'attaquant a téléchargé la liste des numéros soumis par le professionnel et la liste après traitement par Bloctel, ce qui permet d'identifier par différence environ 600 000 numéros inscrits.
+
+      Le service a été définitivement fermé le 11 août 2026.
+
+   B. TRACFIN.
+
+      Le sous-traitant de l'opérateur du module d'assistance du portail de télédéclaration des professionnels assujettis a été compromis, avec une exfiltration entre fin juin et mi-juillet 2026.
+
+      136 assujettis sont concernés, avec nom, prénom, fonction, courriel et téléphone, ainsi que le contenu de 213 demandes d'assistance au support technique.
+
+      Aucune donnée sensible relative aux déclarations de soupçon n'a été exposée, l'administration a cessé toute relation avec ce prestataire et les investigations recherchent d'autres victimes indirectes.
+
+   C. La DGDDI.
+
+      Le 21 août 2026, grâce aux marqueurs techniques partagés par l'ANSSI, le CSIRT de la DGDDI a relié la compromission de trois comptes de messagerie d'agents, avec exfiltration, à celle d'un serveur d'échange entre agents et prestataires.
+
+      Les mesures prises sont le remplacement du dispositif d'authentification de la messagerie, le retrait de l'accès au courriel depuis internet et la coupure définitive de la solution de partage par le serveur d'échange.
+
+   D. La DGFiP.
+
+      Plusieurs incidents détectés les 12 et 13 août 2026 ont été traités conjointement.
+
+      Le premier est l'exfiltration de données fiscales d'environ 353 000 usagers particuliers, avec état civil, coordonnées, identifiant fiscal, situation familiale, revenu fiscal de référence, taux de prélèvement à la source et liste des demandes, et de 252 000 professionnels, avec SIREN, dénomination, adresse et liste des demandes.
+
+      Le deuxième vise le serveur professionnel de données cadastrales, où le compte compromis d'un géomètre-expert d'un cabinet privé a permis l'exfiltration d'environ 2 millions de données cadastrales concernant environ 434 000 usagers.
+
+      Des tentatives d'accès au Portail internet de la gestion publique, le PIGP, ont été identifiées avec des identifiants volés par infostealers sur des postes personnels ou de partenaires.
+
+      L'ANSSI conduit une revue des investigations et du plan de remédiation de la DGFiP, et pilote avec elle un premier audit réalisé par un PASSI.
+
+VI. INCIDENTS DES MINISTÈRES DE LA TRANSITION ÉCOLOGIQUE, DE L'AMÉNAGEMENT DU TERRITOIRE, DES TRANSPORTS ET DU LOGEMENT.
+
+   A. L'organisation de la réponse.
+
+      L'ANSSI concentre ses efforts sur l'application Bureau numérique, avec une partie des investigations et un appui à la remédiation, tandis qu'un prestataire accompagne le ministère pour les autres directions.
+
+      Un plan de remédiation est en cours de déploiement.
+
+   B. Le Bureau numérique.
+
+      Le 25 août 2026, après le partage de marqueurs de compromission par l'ANSSI, le ministère a détecté la compromission de plus de 300 comptes de l'application BNUM, qui donne accès à une messagerie mutualisée entre ministères et à des espaces de travail.
+
+      Le contenu des boîtes de messagerie et de l'espace de fichiers partagé a été exfiltré.
+
+      Les mots de passe ont été renouvelés, la double authentification activée pour tous les utilisateurs de la messagerie et la vulnérabilité corrigée, mais certains utilisateurs ne peuvent plus se connecter depuis l'activation du MFA.
+
+   C. OISO.
+
+      Une vulnérabilité du portail OISO, destiné aux contrôles techniques du respect des normes environnementales par des prestataires privés, a permis l'énumération des données personnelles de 22 000 agents et organismes agréés.
+
+      L'attaquant a utilisé le compte compromis d'un organisme privé, et le portail a été mis hors ligne, isolé du réseau interministériel, corrigé, et les mots de passe réinitialisés.
+
+   D. Zéro Logement Vacant.
+
+      Le 28 août 2026, l'ANSSI a été informée de la revendication du vol de données de cette plateforme, utilisée par les collectivités pour identifier et contacter les propriétaires de logements durablement vacants.
+
+      Le point d'entrée serait une instance Metabase compromise, la base a été isolée et le service coupé pendant les investigations, et la violation concernerait 48 millions de propriétaires en France.
+
+   E. Les autres applications du ministère.
+
+      Signal Logement, qui permet d'identifier les logements insalubres, et le Bureau des courriers parlementaires et réservés, qui sert aux échanges entre la DGALN et les parlementaires, font l'objet d'incidents en cours de qualification.
+
+      Sur Qualicharge, application de gestion des infrastructures de recharge des véhicules électriques, une vulnérabilité Metabase a permis l'exfiltration de 102 000 sessions de recharge et d'une centaine de comptes techniques, avant la mise à jour et la fermeture des sessions suspectes.
+
+      Sur Docurba, application gérée par la DGALN, une exfiltration des données des utilisateurs a été revendiquée le 25 août 2026, avec une compromission qui daterait de plusieurs mois et probablement une instance Metabase vulnérable.
+
+VII. INCIDENTS DES SERVICES DU PREMIER MINISTRE ET DES AUTRES MINISTÈRES.
+
+   A. Le Laboratoire d'innovation de l'ANSSI.
+
+      L'exploitation de la vulnérabilité Metabase a compromis 118 comptes utilisateurs Metabase, dont une trentaine de comptes externes, avec des statistiques d'utilisation, des identifiants, des courriels et des mots de passe hachés.
+
+      Les instances ont été mises à jour, tous les mots de passe renouvelés et les comptes inutilisés depuis plus de trois mois désactivés.
+
+   B. La DINUM.
+
+      Deux instances Metabase, ProConnect et Nuage-Public, ont été compromises.
+
+      Les données exfiltrées, déjà publiques, portent sur des informations administratives d'organismes publics, des métadonnées de contributions à des projets open source et des historiques de connexion anonymisés.
+
+      La DINUM a corrigé les vulnérabilités, réinitialisé les secrets et supprimé les comptes créés par l'attaquant.
+
+   C. France VAE, ministère du Travail et des Solidarités.
+
+      Le portail a été compromis par la vulnérabilité Metabase le 8 août 2026, et l'attaquant a obtenu un accès privilégié et exfiltré l'intégralité des données utilisateurs.
+
+      Les utilisateurs ont été informés, l'instance mise à jour et tous les mots de passe renouvelés.
+
+   D. Préférence Formation, ministère de l'Agriculture.
+
+      La plateforme de formation professionnelle a fait l'objet d'une revendication d'exfiltration début septembre 2026.
+
+      La fuite porterait sur 5 265 personnes, avec identifiant, nom, prénom, courriel, ville, pays et fuseau horaire, et les investigations sont en cours.
+
+POINTS D'ATTENTION.
+
+      Ne pas confondre la date de la demande du Premier ministre, le 1er septembre 2026, avec le début de la période de comptage des violations, le 1er août 2026.
+
+      Retenir la triade 99 violations portées à la connaissance de l'ANSSI, 67 confirmées et 32 en cours de traitement par l'ANSSI.
+
+      La vulnérabilité Metabase CVE-2026-72898 est une injection SQL sans authentification, corrigée le 6 août 2026, qui a compromis neuf instances ministérielles.
+
+      Metabase est en cause pour Zéro Logement Vacant, Qualicharge, Docurba, le Laboratoire d'innovation de l'ANSSI, la DINUM avec ProConnect et Nuage-Public, et France VAE.
+
+      Le document donne deux chiffres pour l'AEFE, plus de 30 000 utilisateurs dans la synthèse des impacts et plus de 300 000 personnes dans le détail de l'incident.
+
+      Pour Bloctel, la synthèse cite 3 millions de numéros de téléphone exposés, et le détail précise qu'environ 600 000 numéros inscrits sont identifiables par différence.
+
+      Le document développe IDOR en Indirect Object Reference, alors que l'acronyme usuel est Insecure Direct Object Reference.
+
+      Un second facteur par courriel est considéré comme un facteur faible.
+
+      Le partage de marqueurs de compromission par l'ANSSI a directement permis les détections de la DGDDI le 21 août et du Bureau numérique le 25 août 2026.
+
+      Le cas TRACFIN est l'exemple de compromission par rebond par un sous-traitant, sans exposition des déclarations de soupçon.
+
+      Le document est un point de situation évolutif et ses chiffres ne sont pas exhaustifs.
+
+EXEMPLES CITES.
+
+      GAIA, 4,35 millions d'enseignants potentiellement concernés.
+
+      SIECLE, base élèves de l'académie de Créteil, un million d'élèves.
+
+      Zéro Logement Vacant, 48 millions de propriétaires concernés.
+
+      DGFiP, 353 000 particuliers, 252 000 professionnels et 434 000 propriétaires du cadastre.
+
+      Bloctel, fermé définitivement le 11 août 2026.
+
+      Qualicharge, 102 000 sessions de recharge exfiltrées.
+
+      OISO, 22 000 agents et organismes agréés.
+
+      Laboratoire d'innovation de l'ANSSI, 118 comptes Metabase compromis.
