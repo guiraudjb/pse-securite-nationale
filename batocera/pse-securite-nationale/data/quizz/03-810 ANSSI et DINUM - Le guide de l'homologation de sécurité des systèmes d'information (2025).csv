@@ -1,0 +1,33 @@
+Qui a écrit le guide de l'homologation de sécurité des SI de 2025 ?;La Cour des comptes;L'ANSSI avec la DINUM;Le SGDSN seul;La CNIL;3;Collection Gestion des risques cyber.
+Qu'est-ce que l'homologation de sécurité ?;Un audit technique;Un contrat avec un hébergeur;Une certification produit;La décision d'une autorité d'accepter les risques liés à l'emploi d'un SI;5;Acte formel qui engage l'autorité.
+Combien de niveaux de démarche d'homologation propose l'ANSSI ?;Un seul;Cinq;Trois;Deux;4;Simplifié, intermédiaire, renforcé.
+Que deviennent les homologations provisoires dans la nouvelle doctrine ?;Elles deviennent obligatoires;Elles sont réservées au secret;Elles disparaissent, seule la durée compte;Elles durent dix ans;4;Un seul type d'homologation subsiste.
+Un SI peut-il être homologué avec des risques non traités ?;Seulement s'il est classifié;Seulement s'il est en test;Oui, s'ils sont acceptables par l'autorité;Non, jamais;4;L'homologation peut précéder la fin des travaux.
+Quelle ligne de maîtrise est généralement la DSI ?;La première;La ligne externe;La deuxième;La troisième;2;Elle met en œuvre et maintient les mesures.
+Quelle ligne de maîtrise est généralement le RSSI ?;Aucune;La troisième;La première;La deuxième;5;Support, audits et analyses de risque.
+Quelle ligne de maîtrise propose l'avis d'homologation ?;La première;La troisième, le comité d'homologation;La deuxième;Le prestataire;3;Les CSN en font partie dans les ministères.
+Quel outil le guide suggère-t-il pour clarifier les rôles et responsabilités du projet ?;Une carte mentale;Un SWOT;Une matrice RACI;Un diagramme de Gantt;4;Les tâches des trois lignes doivent être claires.
+Qu'est-ce que l'écosystème d'un SI ?;Les briques connectées hors du périmètre d'homologation;Les locaux;Le budget;Les utilisateurs du SI;2;Hébergeur, API, SI interconnecté, etc.
+Deux SI de niveaux de classification différents nécessitent-ils deux homologations ?;Seulement en cloud;Oui;Non;Seulement à l'OTAN;3;Un même niveau avec deux domaines n'en nécessite qu'une.
+Quelle durée maximale d'homologation l'ANSSI recommande-t-elle ?;Un an;Dix ans;Cinq ans;Trois ans;5;Deux ans pour le Très Secret.
+Quelle est la durée maximale pour un SI Très Secret selon l'IGI 1300 ?;Cinq ans;Six mois;Deux ans;Trois ans;4;Trois ans pour le Secret.
+Qui est autorité d'homologation pour les SI traitant d'informations classifiées de l'OTAN ?;Le ministère des Armées seul;La DINUM;L'ANSSI par délégation du SGDSN;L'OTAN;4;Aussi pour l'IGI 2102 et certaines interconnexions IGI 1300.
+Que prime en cas de contradiction entre une politique de sécurité et la réglementation ?;L'avis du prestataire;La politique de sécurité;Le budget;La réglementation;5;Entre deux réglementations, la plus restrictive s'applique.
+Quelles sont les trois vues de la cartographie du SI ?;Passé, présent, futur;Physique, logique, virtuelle;Métier, applicative, infrastructure;Utilisateur, admin, auditeur;4;Elle doit être datée et mise à jour.
+Quelle procédure d'exploitation le guide cite-t-il aux côtés de la gestion des incidents ?;La gestion des changements;La comptabilité;La gestion des congés;La gestion de la paie;2;Avec les sauvegardes et la gestion des accès.
+Quelles sont les trois phases du MCS ?;Analyse, décision, sanction;Audit, homologation, revue;Achat, stockage, recyclage;Surveillance, reconnaissance, application des correctifs;5;Maintien en condition de sécurité.
+Que désigne le RTO ?;L'objectif de délai de remise en route après incident;Le seuil des grands projets;La durée d'homologation;Le taux de réussite des sauvegardes;2;La MTPD est la durée maximale d'interruption tolérable.
+Quelles sont les quatre options de traitement d'un risque ?;Accepter, réduire, transférer, refuser;Chiffrer, sauvegarder, filtrer, tracer;Ignorer, cacher, reporter, oublier;Auditer, certifier, homologuer, archiver;2;Selon la méthode EBIOS RM.
+Quand la méthode EBIOS RM est-elle obligatoire ?;Toujours;Quand l'ANSSI est autorité d'homologation;Pour les sites vitrines;Jamais;3;Fortement recommandée dans les autres cas.
+Quelle méthode le guide propose-t-il pour rédiger les actions du plan ?;PESTEL;SMART;RACI;MAREVA;3;Spécifique, mesurable, atteignable, réaliste, temporellement défini.
+Qui préside le comité d'homologation ?;L'auditeur;Le prestataire;Le ministre;Le RSSI ou le CSN;5;Il réunit métiers, MOA, MOE, DSI, auditeurs, experts.
+Quelles sont les quatre valeurs de l'échelle d'exposition ?;Verte, orange, rouge, noire;Interne, externe, mixte, cloud;Nulle, faible, importante, totale;Basse, moyenne, haute, critique;4;Totale : SI directement ouvert sur internet.
+Quels sont les trois types de menace décrits par le guide ?;Locale, nationale, mondiale;Physique, logique, humaine;Activiste ou isolée, systémique, stratégique;Interne, externe, mixte;4;La menace stratégique est persistante et ciblée.
+Quel document est requis quel que soit le niveau de démarche ?;L'analyse de risque complète;Le document d'accompagnement;Le plan de résilience;L'audit TEMPEST;3;D'une à deux pages, mis à jour à chaque commission.
+Dans quel délai maximum faut-il lever les réserves d'un avis sous réserve ?;Douze mois;Aucun délai;Un mois;Trois ans;2;La levée permet de garder l'homologation.
+Pour quels niveaux une autodéclaration de la première ligne suffit-elle ?;Tous les niveaux;Aucun;Renforcé uniquement;Simplifié et intermédiaire;5;Avec un contrôle par échantillonnage a posteriori.
+Quelle est la durée idéale d'une commission d'homologation ?;Dix minutes;Moins d'une heure;Une journée;Une semaine;3;Avec un gardien du temps et une pré-commission.
+L'homologation est-elle renouvelée automatiquement ?;Oui, tous les trois ans;Non;Seulement en cloud;Oui, tous les ans;3;Une nouvelle démarche doit être initiée.
+À quelle fréquence la sécurité de tous les SI doit-elle être revue ?;Au moins une fois par an;Tous les cinq ans;Chaque semaine;Jamais après homologation;2;Revue présidée par l'autorité d'homologation.
+Comment le ministère de la Justice nomme-t-il ses trois niveaux de démarche ?;Bronze, argent, or;Bas, moyen, haut;Élémentaire, standard, renforcé;Simplifié, intermédiaire, renforcé;4;Déclinaison ministérielle du guide.
+Quel est le premier livrable de la démarche au ministère de la Justice ?;La note d'orientation;Le schéma directeur;Le procès-verbal de recette;L'audit TEMPEST;2;Portée par le CSN, elle identifie les acteurs et les référentiels.

@@ -1,0 +1,203 @@
+LE GUIDE DE L'HOMOLOGATION DE SÉCURITÉ DES SYSTÈMES D'INFORMATION, COLLECTION GESTION DES RISQUES CYBER (ANSSI ET DINUM, AVRIL 2025, VERSION 2.2 DE MARS 2026), AVEC LA DÉCLINAISON DU MINISTÈRE DE LA JUSTICE.
+
+LEXIQUE COMPLET.
+
+      L'homologation de sécurité est la décision formelle par laquelle une autorité accepte, en connaissance de cause, les risques liés à l'emploi d'un système d'information et autorise sa mise ou son maintien en service.
+
+      La démarche d'homologation est le processus qui suit tout le cycle de vie du SI, de la conception au décommissionnement, jalonné de décisions d'homologation.
+
+      L'autorité d'homologation, AH, prononce la décision, et l'AQSSI, autorité qualifiée de la sécurité des systèmes d'information, est l'autorité juridiquement responsable, qui peut déléguer le pouvoir d'homologation.
+
+      Le comité d'homologation réunit les personnes aptes à vérifier les mesures de sécurité et propose un avis à l'autorité.
+
+      La commission d'homologation est l'acte durant lequel l'autorité émet sa décision, en réunion ou par échange électronique.
+
+      Le RSSI, responsable de la sécurité des systèmes d'information, et le CSN, conseiller à la sécurité numérique dans les entités publiques, animent généralement le comité.
+
+      Le modèle des trois lignes de maîtrise répartit la gouvernance entre les opérationnels, le support et le contrôle.
+
+      Le périmètre d'homologation est l'ensemble des composants du SI qui traitent l'information et relèvent d'une même autorité.
+
+      L'écosystème regroupe les briques connectées au SI mais hors de son périmètre, comme un hébergeur, une API ou un SI interconnecté.
+
+      Le MCO, maintien en condition opérationnelle, limite les dysfonctionnements par la maintenance préventive, corrective et la gestion de l'obsolescence.
+
+      Le MCS, maintien en condition de sécurité, corrige les vulnérabilités avant leur exploitation, par la surveillance, la reconnaissance et l'application des correctifs.
+
+      La résilience est la capacité d'un SI à surmonter une altération puis à retrouver un fonctionnement normal, appuyée sur le PCA et le PRA.
+
+      La MTPD est la durée maximale d'interruption tolérable, et le RTO l'objectif de délai de remise en route.
+
+      EBIOS Risk Manager est la méthode d'analyse de risque de l'ANSSI et du Club EBIOS, obligatoire quand l'ANSSI est autorité d'homologation.
+
+      Un KPI est un indicateur de performance, et un KRI un indicateur clé de risque.
+
+      La déclaration d'applicabilité recense les mesures appliquées, partiellement appliquées ou non applicables, et leur justification.
+
+      Une matrice RACI identifie les rôles et responsabilités de chaque ressource affectée au projet.
+
+COURS DÉTAILLÉ.
+
+I. LA NOUVELLE DOCTRINE.
+
+   A. Les auteurs et l'esprit.
+
+      Le guide est écrit par l'ANSSI avec la DINUM, avec les avant-propos de Vincent Strubel, directeur général de l'ANSSI, et de Stéphanie Schaer, directrice interministérielle du numérique.
+
+      L'homologation n'est pas une contrainte administrative mais un processus dynamique de pilotage par le risque, qui doit être pragmatique et réduire les coûts humains et financiers.
+
+   B. Les changements.
+
+      L'homologation redevient une acceptation des risques métier par une autorité.
+
+      Trois niveaux progressifs de démarche adaptent l'effort à la criticité et à l'exposition du SI.
+
+      Un seul type d'homologation subsiste, les homologations provisoires et de test disparaissent, et seule compte la durée.
+
+      Les SI peu critiques et peu exposés bénéficient d'une démarche simplifiée fondée sur la confiance, le corpus documentaire est allégé et les commissions peuvent être dématérialisées.
+
+II. COMPRENDRE L'HOMOLOGATION.
+
+   A. Le principe.
+
+      L'homologation est un préalable à toute utilisation d'un SI, et un SI déjà exploité sans homologation doit être arrêté ou homologué dans un délai raisonnable.
+
+      Elle permet de s'assurer que les risques sont identifiés et traités, que la réglementation est appliquée, de valider le plan d'action et d'engager l'autorité.
+
+      Un SI peut être homologué même si sa sécurisation n'est pas terminée et s'il comporte des risques non traités mais acceptables.
+
+   B. Le contexte et la direction.
+
+      Il faut comprendre le contexte de l'organisation, par exemple par des analyses PESTEL ou SWOT, pour évaluer son appétence au risque.
+
+      La direction doit établir les politiques de sécurité, fournir les ressources et les budgets, sensibiliser et améliorer les pratiques.
+
+III. SÉCURISER LE SYSTÈME D'INFORMATION.
+
+   A. Les trois lignes de maîtrise.
+
+      La première ligne, opérationnelle, généralement la DSI, met en œuvre et maintient les mesures et remonte des indicateurs.
+
+      La deuxième ligne, de support, généralement le RSSI, apporte l'expertise des risques, pilote les audits et les analyses de risque et porte les travaux d'homologation.
+
+      La troisième ligne, de contrôle, le comité d'homologation, évalue le dossier, propose l'avis et organise la commission, et les CSN en font partie dans les ministères.
+
+      Une ligne de contrôle externe peut s'ajouter, et il peut être opportun de présenter un RACI des rôles et responsabilités.
+
+   B. Le périmètre et l'écosystème.
+
+      Le périmètre comprend les supports physiques, les applications, les équipements d'échange, les utilisateurs et administrateurs, les lieux et tout ce que maîtrise le responsable.
+
+      Deux SI de niveaux de protection ou de classification différents font l'objet de deux homologations, et pour un SI hébergé le périmètre suit la responsabilité, selon le modèle SaaS, PaaS, IaaS ou sur site.
+
+      Les briques de l'écosystème doivent apporter des garanties de sécurité, par homologation, certification ou contrat de service.
+
+   C. Les réglementations.
+
+      Doivent être homologués les SI soumis à la PSSIE et au RGS, au décret n° 2022-513 du 8 avril 2022, à l'II 901 pour les informations à diffusion restreinte, à l'IGI 1300 pour le secret de la défense nationale, les SIIV des opérateurs d'importance vitale, ainsi que les SI soumis à l'IGI 2102 de l'Union européenne et à l'II 2100 de l'OTAN.
+
+      L'ANSSI est autorité d'homologation, par délégation du SGDSN, pour les cas prévus par l'IGI 1300, l'IGI 2102 et l'II 2100.
+
+      La durée maximale est de trois ans pour la plupart des SI réglementés et pour le Secret, de deux ans pour le Très Secret, et l'ANSSI recommande de ne jamais dépasser trois ans.
+
+      Des audits spécifiques sont exigés, par exemple TEMPEST et avis d'aptitude physique pour les SI classifiés, ou audits par un PASSI pour les SIIV.
+
+      En cas de contradiction entre une politique de sécurité et la réglementation, la réglementation prime, et entre deux réglementations, la plus restrictive s'applique.
+
+   D. Les mesures, la cartographie et les plans.
+
+      Les mesures proviennent des bonnes pratiques, des référentiels, de l'analyse de risque, des audits, des incidents et des menaces, et doivent être proportionnées aux risques, une non-application devant être justifiée.
+
+      La cartographie présente trois vues, métier, applicative et infrastructure, doit être datée, mise à jour à chaque changement majeur et sauvegardée hors du SI.
+
+      Les procédures d'exploitation couvrent la gestion des incidents, la gestion des changements, les sauvegardes et restaurations, et la gestion des utilisateurs et des accès.
+
+      Le plan de résilience précise la MTPD, le RTO, la gestion de crise et la gestion du PCA et du PRA.
+
+   E. Les risques, les audits et le plan d'action.
+
+      Un risque combine un événement redouté et un scénario de menace, apprécié par sa gravité et sa vraisemblance, et se traite en l'acceptant, le réduisant, le transférant ou le refusant.
+
+      La profondeur de l'analyse dépend de la criticité et de l'exposition, de la simple conformité au guide d'hygiène jusqu'à l'analyse complète des menaces intentionnelles.
+
+      Les audits, de conformité, organisationnel, de configuration, d'architecture, technique ou TEMPEST, sont menés par des auditeurs indépendants, et l'on peut y ajouter revues de code, tests d'intrusion et bug bounty.
+
+      Le plan d'action unique regroupe les non-conformités, le plan de traitement des risques, les vulnérabilités et les incidents, avec des actions SMART, un propriétaire, une complexité et une date.
+
+IV. HOMOLOGUER EN QUATRE ÉTAPES.
+
+   A. Constituer le comité d'homologation.
+
+      Présidé par le RSSI ou le CSN, il réunit les responsables métiers, la MOA et la MOE, la DSI, les auditeurs, des experts et le gestionnaire des risques, tous impartiaux.
+
+   B. Identifier le niveau de la démarche.
+
+      La criticité s'évalue par les impacts d'un arrêt, d'une divulgation ou d'une altération des données, sur une échelle mineure, modérée, importante ou critique.
+
+      L'exposition s'évalue de nulle à faible, importante ou totale, selon l'accessibilité depuis internet, les équipements non maîtrisés ou le télétravail, et la menace peut être activiste, systémique ou stratégique.
+
+      La matrice croisant criticité et exposition donne le niveau simplifié, intermédiaire ou renforcé.
+
+      Le dossier comprend toujours un document d'accompagnement d'une à deux pages, auquel s'ajoutent selon le niveau dossier d'architecture, matrice de conformité, analyse de risque, procédures, plans MCO, MCS et de résilience, plan d'action, audits et historique.
+
+   C. Évaluer les pièces et émettre l'avis.
+
+      Le comité n'audite pas et ne produit pas la documentation, il évalue les pièces et propose un avis justifié.
+
+      Un avis sous réserve est possible, avec un délai maximum de douze mois pour lever les réserves.
+
+      Pour les niveaux simplifié et intermédiaire, une autodéclaration de la première ligne suffit, avec un avis du RSSI par voie électronique et un contrôle par échantillonnage a posteriori, alors que le niveau renforcé exige une commission.
+
+   D. Organiser la commission.
+
+      L'autorité peut être l'AQSSI, une AH déléguée ou un dirigeant habilité, au plus près du métier.
+
+      Une pré-commission est conseillée, la commission dure idéalement moins d'une heure, en présentiel de préférence, et les risques doivent être exposés sans les minimiser.
+
+      La décision est écrite, sans renouvellement automatique, et un SI en test sans données réelles et déconnecté de la production ne nécessite pas d'homologation.
+
+V. AMÉLIORER LA SÉCURITÉ.
+
+      La sécurité de tous les SI doit être revue au moins une fois par an lors d'une revue présidée par l'autorité.
+
+      Le renouvellement suit la même démarche, en examinant l'histoire du SI, l'avancement des actions et l'évolution du contexte, et il n'est pas recommandé de renouveler une homologation si aucune action n'a été menée.
+
+      L'homologation prend fin au décommissionnement, quand les données sont détruites, transférées ou conservées et les composants démantelés.
+
+VI. LA DÉCLINAISON DU MINISTÈRE DE LA JUSTICE.
+
+      Le guide d'homologation de la sécurité numérique du ministère de la Justice, version 2 de 2024-2025, impose l'homologation de tous ses SI selon sa politique ministérielle de sécurité numérique.
+
+      La réunion de lancement identifie les contributeurs, leurs rôles et ce qui est attendu d'eux sous forme de RACI, et produit la note d'orientation, premier livrable portée par le CSN.
+
+      Les acteurs sont organisés en chaîne décisionnelle avec l'AH, chaîne fonctionnelle avec le CSN et le chef de projet ou rapporteur, chaîne opérationnelle avec les RSSI de la MOA et de la MOE, et support avec le FSSI et la déléguée ministérielle à la protection des données.
+
+      Les niveaux de démarche y sont appelés élémentaire, standard et renforcé, et toute non-prise en compte d'un référentiel exige une dérogation du FSSI.
+
+POINTS D'ATTENTION.
+
+      L'homologation est un acte formel qui engage l'autorité qui la prononce.
+
+      Il n'existe plus qu'un seul type d'homologation, sans homologation provisoire.
+
+      Trois niveaux de démarche, simplifié, intermédiaire et renforcé, selon la criticité et l'exposition.
+
+      L'ANSSI recommande une durée maximale de trois ans, deux ans pour le Très Secret.
+
+      Ne pas confondre le comité d'homologation, qui propose l'avis, et la commission, où l'autorité décide.
+
+      La première ligne est la DSI, la deuxième le RSSI, la troisième le comité d'homologation.
+
+      Un avis sous réserve impose de lever les réserves en douze mois au maximum.
+
+      La revue de sécurité de tous les SI est au moins annuelle.
+
+EXEMPLES CITES.
+
+      Site internet vitrine, exemple de niveau simplifié.
+
+      SI traitant des données personnelles, exemple de niveau intermédiaire.
+
+      Suppression des services telnet et http sur environ 120 équipements, exemple d'action du plan.
+
+      Gestion des congés et fiches de salaire dans un même périmètre capacitaire.
