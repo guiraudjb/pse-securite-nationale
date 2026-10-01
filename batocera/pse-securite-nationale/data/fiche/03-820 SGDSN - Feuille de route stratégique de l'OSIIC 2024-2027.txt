@@ -1,0 +1,201 @@
+FEUILLE DE ROUTE STRATÉGIQUE 2024-2027 DE L'OSIIC, OPÉRATEUR DES SYSTÈMES D'INFORMATION INTERMINISTÉRIELS CLASSIFIÉS (SGDSN, VERSION NP 1.0 DU 11 AVRIL 2025).
+
+LEXIQUE COMPLET.
+
+      L'OSIIC, opérateur des systèmes d'information interministériels classifiés, est la direction du numérique du SGDSN, créée en 2020 par le décret n° 2020-455 du 21 avril 2020.
+
+      Le SGDSN, secrétariat général de la défense et de la sécurité nationale, est l'entité dont relève l'OSIIC et l'un de ses trois grands bénéficiaires.
+
+      Les très hautes autorités de l'État sont les premiers bénéficiaires historiques des services de l'OSIIC.
+
+      L'interministériel classifié désigne les réseaux et outils partagés par les ministères pour échanger des informations protégées par le secret de la défense nationale.
+
+      ISIS est le poste de travail fixe qui permet d'échanger en interministériel des informations jusqu'au niveau Secret, avec une messagerie et des applications métiers.
+
+      OSIRIS est le service de téléphonie fixe sécurisée, avec visiophonie pour certains modèles, permettant d'échanger en interministériel jusqu'au niveau Secret.
+
+      HORUS est le système de visioconférence interministériel jusqu'au niveau Secret, interopérable avec OSIRIS et les terminaux agréés existants.
+
+      Le niveau Secret est le niveau de classification jusqu'auquel ISIS, OSIRIS et HORUS permettent d'échanger.
+
+      Les acteurs gouvernementaux concernés sont notamment les cabinets ministériels, les préfectures et les ambassades.
+
+      NEO2 est un partenariat conduit avec le ministère de l'Intérieur et des Outre-mer, cité comme un succès en marge du cœur de mission.
+
+      La menace stratégique est la qualification retenue par l'OSIIC pour la menace visant ses bénéficiaires, dans un contexte de compétition stratégique.
+
+      La cyber-résilience est la capacité des réseaux classifiés à résister aux attaques et à ajuster dynamiquement leur posture face à la menace.
+
+      La cryptanalyse quantique est la capacité future de casser la cryptographie actuelle grâce aux ordinateurs quantiques, dont l'arrivée est jugée prévisible.
+
+      La dette technique originelle est l'héritage technique hétérogène qui consomme des ressources et freine l'innovation.
+
+      La supervision opérationnelle est la surveillance en temps réel des systèmes, jugée moins investie que la prévention et la conformité réglementaire.
+
+      L'incubateur de start-ups d'État numériques classifiées est le dispositif prévu avec la DINUM pour concevoir des solutions innovantes traitant des données classifiées.
+
+      La DINUM, direction interministérielle du numérique, promeut les méthodes de transformation numérique et supervise la politique RH numérique de l'État.
+
+      L'ANSSI, agence nationale de la sécurité des systèmes d'information, apporte sa connaissance de la menace dans le cadre d'un partenariat renforcé.
+
+      L'amélioration continue est la démarche de qualité et de management qui doit rendre le fonctionnement interne plus robuste.
+
+      L'éco-conception est la prise en compte systématique de l'impact environnemental dans les infrastructures, systèmes et services numériques.
+
+      Les irritants sont les points de mécontentement des utilisateurs que l'OSIIC doit identifier et traiter en priorité.
+
+      La marque employeur est la communication destinée à attirer des talents, conçue en cohérence avec la marque employeur numérique de l'État.
+
+      Les hubs interministériels sont les nœuds du réseau de l'OSIIC, au nombre de six.
+
+COURS DÉTAILLÉ.
+
+I. L'OSIIC ET SON BILAN.
+
+   A. Une identité civilo-militaire.
+
+      L'OSIIC a été créé en 2020 par le décret n° 2020-455 du 21 avril 2020, en fusionnant des services préexistants.
+
+      Il cultive une identité civilo-militaire propre, orientée vers l'innovation, l'audace, l'esprit d'équipe et le sens du service.
+
+      Son directeur est Yves Verhoeven, signataire de l'éditorial de la feuille de route.
+
+      Le document est la version NP 1.0 du 11 avril 2025, réalisée par la cellule communication de l'OSIIC.
+
+   B. Un bilan jugé extrêmement satisfaisant.
+
+      Les systèmes d'information ont connu des modernisations majeures.
+
+      Le service aux très hautes autorités a été assuré sans faille.
+
+      Les outils de l'interministériel classifié sont devenus incontournables en administration centrale, en ambassade et en préfecture.
+
+      Des services structurants ont été mis en place pour le SGDSN, notamment pour la mobilité et le télétravail.
+
+   C. Les axes d'amélioration.
+
+      Les succès sont trop souvent des exploits fragiles.
+
+      Des attentes du SGDSN envers sa direction du numérique restent en cours de traitement.
+
+      Le fonctionnement interne et les processus sont perfectibles.
+
+      La dette technique originelle consomme les ressources et obère l'innovation.
+
+      La cybersécurité a historiquement privilégié la prévention et la conformité réglementaire au détriment de la supervision opérationnelle.
+
+   D. Les atouts et les défis.
+
+      Les atouts sont l'expertise reconnue des agents, un solide capital confiance, des infrastructures sans équivalent, un positionnement interministériel et une situation de quasi-monopole des réseaux classifiés dans la sphère civile de l'État.
+
+      Les défis sont l'attraction et la fidélisation des talents, des moyens budgétaires nouveaux improbables hors logique d'économies, la transition écologique et une menace stratégique incluant la cryptanalyse quantique.
+
+II. L'OSIIC EN CHIFFRES.
+
+   A. Les moyens.
+
+      Le budget est de 30 millions d'euros en 2024.
+
+      L'OSIIC compte 300 agents.
+
+      Il dessert 700 sites, dont 75 pour cent hors d'Île-de-France, dans l'Hexagone, en outre-mer et dans 90 ambassades françaises.
+
+   B. Les utilisateurs et les équipements.
+
+      Les systèmes interministériels classifiés comptent 8 000 utilisateurs.
+
+      230 000 utilisateurs disposent de téléphones mobiles sécurisés par l'OSIIC.
+
+      L'OSIIC gère 2 400 postes ISIS, 2 600 postes OSIRIS et 110 terminaux HORUS.
+
+      Il sert 1 300 utilisateurs au sein du SGDSN.
+
+   C. La qualité de service.
+
+      Le réseau cœur résilient affiche 100 pour cent de disponibilité sur une année.
+
+      L'assistance est joignable 24 heures sur 24, 7 jours sur 7, 365 jours par an.
+
+      Le réseau s'appuie sur 6 hubs interministériels.
+
+III. UNE AMBITION DÉCLINÉE EN QUATRE AXES.
+
+   A. L'ambition.
+
+      L'ambition est une stratégie numérique pour soutenir la décision et l'action interministérielles dans un contexte de compétition stratégique.
+
+   B. Axe 1, conforter le rôle d'opérateur de très haute sécurité.
+
+      L'axe vise à conforter le rôle d'opérateur interministériel de systèmes et services numériques de très haute sécurité au profit des politiques de protection des intérêts fondamentaux de la Nation, face aux menaces de nature stratégique.
+
+      Il donne une raison d'être unifiant les missions au profit des très hautes autorités de l'État, de l'interministériel et du SGDSN.
+
+      L'OSIIC étend le périmètre de ses bénéficiaires pour fluidifier les échanges de très haut niveau de sécurité, par plus de déploiements ou la mise en réseau de systèmes existants.
+
+      Il va au-delà du rôle d'opérateur de réseaux en adoptant les méthodes de la DINUM, avec un incubateur de start-ups d'État numériques classifiées.
+
+      Il ajuste dynamiquement sa posture de cyber-résilience grâce à un partenariat renforcé avec l'ANSSI et aux meilleures pratiques des réseaux ouverts sur internet.
+
+   C. Axe 2, concevoir et exploiter à l'état de l'art, sobrement et sûrement.
+
+      L'axe vise à concevoir, déployer, maintenir et exploiter des systèmes et services numériques à l'état de l'art, le plus respectueusement possible des enjeux environnementaux, sans transiger sur la sécurité nationale.
+
+      Après quatre années de consolidation, l'OSIIC adopte une démarche d'amélioration continue pour regagner en liberté de manœuvre, malgré le turn-over structurel des fonctionnaires et militaires.
+
+      Il mène une veille permanente et expérimente les nouvelles technologies, comme l'intelligence artificielle.
+
+      Il enrichit les services, à l'image des outils de travail collaboratif récemment ajoutés sur ISIS.
+
+      L'éco-conception devient systématique, avec un effort accru là où l'analyse de risque le permet, en particulier sur les systèmes non classifiés.
+
+   D. Axe 3, accentuer l'approche orientée utilisateurs.
+
+      La satisfaction des besoins des utilisateurs et sa mesure deviennent des objectifs partagés par tous les agents et un marqueur de l'évaluation de l'OSIIC.
+
+      Le soutien est organisé en partenariat avec des acteurs de proximité, outillé et mesuré, pour capter l'expérience utilisateur et les irritants.
+
+      L'OSIIC enrichit les fiches pratiques, tutoriels en ligne et guides utilisateur et participe aux campagnes de sensibilisation.
+
+      Les applicatifs sont coconstruits avec les bénéficiaires lors d'ateliers, au cœur du futur dispositif de start-ups d'État.
+
+      La dématérialisation et les usages collaboratifs sont développés en cohérence avec les outils interministériels de la DINUM, dans une culture de produits et services numériques sécurisés.
+
+   E. Axe 4, attirer, fidéliser et accompagner les talents.
+
+      Aucune ambition n'est possible sans la mobilisation des talents, dans un contexte très concurrentiel.
+
+      La marque employeur de l'OSIIC cible les salons professionnels et les écoles de référence, avec les agents comme ambassadeurs.
+
+      Les parcours professionnels individuels reposent sur la formation, l'acquisition de compétences et l'accompagnement à la mobilité, notamment au sein du SGDSN.
+
+      L'environnement de travail doit être bienveillant, exempt de discrimination et engagé contre les violences sexistes et sexuelles.
+
+      La politique de ressources humaines s'inscrit en cohérence avec la DINUM, responsable de superviser ces politiques à l'échelle de l'État.
+
+POINTS D'ATTENTION.
+
+      Ne pas confondre OSIIC, opérateur des réseaux classifiés du SGDSN, et ANSSI, autorité nationale de cybersécurité qui lui apporte sa connaissance de la menace.
+
+      ISIS est un poste fixe avec messagerie, OSIRIS la téléphonie fixe, HORUS la visioconférence.
+
+      Les trois services permettent d'échanger jusqu'au niveau Secret.
+
+      La feuille de route couvre 2024-2027, mais sa version NP 1.0 date du 11 avril 2025.
+
+      Ne pas confondre 2 400 postes ISIS et 2 600 postes OSIRIS.
+
+      L'éco-conception ne doit jamais se faire au détriment de la sécurité nationale.
+
+      La menace est qualifiée sans ambiguïté de stratégique.
+
+EXEMPLES CITES.
+
+      Le partenariat NEO2 avec le ministère de l'Intérieur et des Outre-mer.
+
+      L'ajout d'outils de travail collaboratif sur ISIS.
+
+      L'intelligence artificielle comme technologie à expérimenter.
+
+      La cryptanalyse quantique comme menace à anticiper.
+
+      Les 90 ambassades françaises desservies.
