@@ -6,6 +6,7 @@
 # aux boutons physiques 0/1/2/3, affiches a l'ecran comme A/B/C/D).
 import os
 import random
+import re
 import sys
 import pygame
 import pygame.freetype
@@ -52,6 +53,9 @@ STATE_FICHE = 'fiche'
 STATE_TP = 'tp'
 STATE_JUKEBOX_KIND = 'jukebox_kind'
 STATE_JUKEBOX = 'jukebox'
+STATE_LEX_LETTRES = 'lex_lettres'
+STATE_LEX_TERMES = 'lex_termes'
+STATE_LEX_DEF = 'lex_def'
 
 # Médias audio d'un module : fonction de chemin, libellé à l'écran, message d'absence
 MEDIAS = {
@@ -114,11 +118,21 @@ class App:
 
         self.series = dl.load_series()
         log('init: {} séries chargées'.format(len(self.series)))
+        self.lexique = dl.load_lexique()
+        log('init: lexique {}'.format(len(self.lexique['entrees']) if self.lexique else 'absent'))
         self.series_menu = ui.ListMenu(
             [{'label': "{} ({} modules)".format(self.config['series'].get(code, 'Série ' + code), len(mods)), 'code': code, 'modules': mods}
              for code, mods in self.series]
-            + [{'label': 'JUKEBOX (tous podcasts/chansons)', 'jukebox': True}],
+            + [{'label': 'JUKEBOX (tous podcasts/chansons)', 'jukebox': True}]
+            + ([{'label': 'LEXIQUE ({} termes et sigles)'.format(len(self.lexique['entrees'])), 'lexique': True}]
+               if self.lexique else []),
             self.screen_w, self.screen_h)
+        self.lex_termes = []
+        self.lex_menu_lettres = None
+        self.lex_menu_termes = None
+        self.lex_depuis_module = False
+        self.lex_lines = []
+        self.lex_scroll = 0
 
         self.module_menu = None
         self.mode_menu = None
@@ -145,11 +159,10 @@ class App:
         # sans jamais couper leur lecture ; 60s en couvre ~99%. Pour le reste,
         # voir MARGIN_AFTER_AUDIO_S plus bas (extension automatique au cas
         # par cas des questions/réponses exceptionnellement longues).
-        self.timer_option = '60'
-        self.settings_menu = ui.ListMenu(
-            [{'label': TIMER_LABELS[opt], 'value': opt} for opt in TIMER_OPTIONS],
-            self.screen_w, self.screen_h, top=140, item_height=64)
-        self.settings_menu.selected = TIMER_OPTIONS.index(self.timer_option)
+        prefs = dl.load_prefs()
+        self.timer_option = prefs.get('timer') if prefs.get('timer') in TIMER_OPTIONS else '60'
+        dl.source_preferee = prefs.get('source') if prefs.get('source') in dl.SOURCES else 'local'
+        self.settings_menu = ui.ListMenu(self.settings_items(), self.screen_w, self.screen_h, top=140, item_height=80)
 
         self.quiz_questions = []
         self.quiz_index = 0
@@ -171,6 +184,10 @@ class App:
         self.flash_duration = None
 
         self.media_kind = None
+        self.media_source = None
+        self.paroles_lines = []
+        self.paroles_scroll = 0
+        self.info_source = None
         self.media_path = None
         self.media_playing = False
         self.media_info_surface = None
@@ -274,6 +291,12 @@ class App:
             self.handle_jukebox_kind(action)
         elif self.state == STATE_JUKEBOX:
             self.handle_jukebox(action)
+        elif self.state == STATE_LEX_LETTRES:
+            self.handle_lex_lettres(action)
+        elif self.state == STATE_LEX_TERMES:
+            self.handle_lex_termes(action)
+        elif self.state == STATE_LEX_DEF:
+            self.handle_lex_def(action)
 
     def update_timers(self):
         """Vérifiée à chaque frame (indépendamment des événements manette) :
@@ -309,6 +332,8 @@ class App:
             if item and item.get('jukebox'):
                 self.jukebox_kind_menu.selected = 0
                 self.state = STATE_JUKEBOX_KIND
+            elif item and item.get('lexique'):
+                self.enter_lexique_lettres()
             elif item:
                 self.enter_module_menu(item['modules'])
         elif action == 'shoulder_r':
@@ -319,16 +344,29 @@ class App:
 
     # ------------------------------------------------------------------
     # SETTINGS (temps de réflexion, équivalent de #timerSelect dans index.html)
+    # Réglages mémorisés dans preferences.json : temps de réflexion (#timerSelect
+    # de la page web) et source préférée de l'infographie et du podcast (sélecteur
+    # « Pipeline local / NotebookLM » de la page web).
+    def settings_items(self):
+        return [{'label': 'Temps de réflexion : {}'.format(TIMER_LABELS[self.timer_option]), 'reglage': 'timer'},
+                {'label': 'Infographie et podcast : {}'.format(dl.SOURCE_LIBELLES[dl.source_preferee]), 'reglage': 'source'}]
+
     def enter_settings(self):
-        self.settings_menu.selected = TIMER_OPTIONS.index(self.timer_option)
+        self.settings_menu.items = self.settings_items()
         self.state = STATE_SETTINGS
 
     def handle_settings(self, action):
         if action in ('up', 'down'):
             self.settings_menu.move(action)
-        elif action == 'action':
-            self.timer_option = self.settings_menu.current()['value']
-            self.state = STATE_SERIES
+        elif action in ('left', 'right', 'action'):
+            reglage = self.settings_menu.current()['reglage']
+            if reglage == 'timer':
+                i = TIMER_OPTIONS.index(self.timer_option) + (-1 if action == 'left' else 1)
+                self.timer_option = TIMER_OPTIONS[i % len(TIMER_OPTIONS)]
+            else:
+                dl.source_preferee = dl.autre_source(dl.source_preferee)
+            self.settings_menu.items = self.settings_items()
+            dl.save_prefs({'timer': self.timer_option, 'source': dl.source_preferee})
         elif action == 'back':
             self.state = STATE_SERIES
 
@@ -363,9 +401,10 @@ class App:
             + ([{'label': "L'ESSENTIEL EN 3 MIN", 'mode': 'podcast_court'}] if dl.podcast_court_path(self.current_module['base']) else [])
             + [{'label': 'INFOGRAPHIE', 'mode': 'info'}]
             # Entrée TP seulement pour les modules qui ont des exercices (tp/<module>.csv)
-            + ([{'label': 'TRAVAUX PRATIQUES', 'mode': 'tp'}] if dl.tp_path(self.current_module['base']) else []),
-            self.screen_w, self.screen_h, top=140,
-            item_height=90 if not dl.tp_path(self.current_module['base']) else 80)
+            + ([{'label': 'TRAVAUX PRATIQUES', 'mode': 'tp'}] if dl.tp_path(self.current_module['base']) else [])
+            + ([{'label': 'LEXIQUE DU MODULE ({} termes)'.format(len(self.lexique_du_module())), 'mode': 'lexique'}]
+               if self.lexique_du_module() else []),
+            self.screen_w, self.screen_h, top=140, item_height=72)
         self.state = STATE_MODE
 
     # ------------------------------------------------------------------
@@ -387,6 +426,8 @@ class App:
                 self.start_info()
             elif mode == 'tp':
                 self.start_tp()
+            elif mode == 'lexique':
+                self.enter_lexique_termes(self.lexique_du_module(), depuis_module=True)
         elif action == 'back':
             self.state = STATE_MODULE
 
@@ -740,9 +781,10 @@ class App:
         if self.tp_show_solution:
             self.tp_lines.append(('', ui.COLOR_TEXT))
             self.tp_lines.append(('CORRIGÉ', ui.COLOR_SUCCESS))
-            # Les corrigés générés séparent leurs étapes par « | » : une étape par ligne à l'écran
-            self.tp_lines += [(l, ui.COLOR_TEXT) for l in
-                              ui.wrap_paragraphs(self.fonts.medium, ex['solution'].replace(' | ', '\n'), width)]
+            # Une étape par ligne à l'écran : séparateur « | » des corrigés générés ou
+            # numérotation « 1. », « 2. »… des réponses structurées (même règle que la page web)
+            etapes = re.sub(r' (?=\d{1,2}\. [A-ZÉÈÀÂÎÔÇ])', '\n', ex['solution'].replace(' | ', '\n'))
+            self.tp_lines += [(l, ui.COLOR_TEXT) for l in ui.wrap_paragraphs(self.fonts.medium, etapes, width)]
 
     def tp_visible_lines(self):
         top = self.HEADER_H + 20
@@ -812,12 +854,22 @@ class App:
     # CHANSON / PODCAST (lecteur audio simple via pygame.mixer.music, séparé
     # du canal utilisé par la synthèse vocale - voir tts.py qui utilise
     # pygame.mixer.Sound, donc aucun conflit entre les deux)
-    def start_media(self, kind):
+    def start_media(self, kind, source=None):
         self.tts.stop()
         base = self.current_module['base']
-        path = MEDIAS[kind][0](base)
+        self.media_source = None
+        if kind == 'podcast':
+            path, self.media_source = dl.media_source('podcast', base, source)
+        else:
+            path = MEDIAS[kind][0](base)
         self.media_kind = kind
         self.media_path = path
+        self.paroles_lines = []
+        self.paroles_scroll = 0
+        if kind == 'chanson':
+            paroles = dl.paroles_chanson(base)
+            if paroles:
+                self.paroles_lines = ui.wrap_paragraphs(self.fonts.medium, paroles, self.screen_w - 2 * 60)
         self.media_playing = False
         self.media_position_s = 0.0
         self.media_position_ticks = pygame.time.get_ticks()
@@ -882,9 +934,43 @@ class App:
             self.seek_media(-MEDIA_SEEK_STEP_S)
         elif action == 'right':
             self.seek_media(MEDIA_SEEK_STEP_S)
+        elif action in ('up', 'down') and self.paroles_lines:
+            visibles = self.paroles_visibles()
+            pas = -4 if action == 'up' else 4
+            self.paroles_scroll = max(0, min(len(self.paroles_lines) - visibles, self.paroles_scroll + pas))
+        elif action in ('shoulder_l', 'shoulder_r') and self.media_kind == 'podcast' and self.media_source \
+                and len(dl.sources_disponibles('podcast', self.current_module['base'])) > 1:
+            pygame.mixer.music.stop()
+            self.start_media('podcast', dl.autre_source(self.media_source))
         elif action == 'back':
             pygame.mixer.music.stop()
             self.state = STATE_MODE
+
+    def paroles_visibles(self):
+        top = self.HEADER_H + 20
+        bottom = self.screen_h - 48 - 20
+        return max(1, (bottom - top) // (self.fonts.medium.get_sized_height() + 8))
+
+    def note_source(self, kind, source):
+        """Ligne d'état du sélecteur de source, comme sur la page web."""
+        dispo = dl.sources_disponibles(kind, self.current_module['base'])
+        if not source:
+            return None
+        if dl.source_preferee not in dispo:
+            return 'Version {} (version {} pas encore disponible)'.format(
+                dl.SOURCE_LIBELLES[source], dl.SOURCE_LIBELLES[dl.source_preferee])
+        if len(dispo) > 1:
+            return 'Version {} — L1/R1 : version {}'.format(dl.SOURCE_LIBELLES[source], dl.SOURCE_LIBELLES[dl.autre_source(source)])
+        return 'Version {}'.format(dl.SOURCE_LIBELLES[source])
+
+    def draw_bandeau(self, note):
+        """Bandeau d'information juste au-dessus des aides de boutons."""
+        if not note:
+            return
+        r = self.fonts.small.get_rect(note)
+        bandeau = pygame.Rect(0, self.screen_h - 48 - r.height - 16, self.screen_w, r.height + 16)
+        pygame.draw.rect(self.screen, ui.COLOR_PRIMARY, bandeau)
+        self.fonts.small.render_to(self.screen, (self.screen_w // 2 - r.width // 2, bandeau.y + 8), note, ui.COLOR_WHITE)
 
     # ------------------------------------------------------------------
     # JUKEBOX (lecture continue/aléatoire des podcasts ou chansons de toute
@@ -1009,7 +1095,9 @@ class App:
     # ------------------------------------------------------------------
     # INFOGRAPHIE (image statique, mise à l'échelle pour tenir sur l'écran)
     def _load_infographie_surface(self, base, max_w=None, max_h=None):
-        path = dl.infographie_path(base)
+        return self._load_surface(dl.infographie_path(base), max_w, max_h)
+
+    def _load_surface(self, path, max_w=None, max_h=None):
         if path is None:
             return None
         max_w = max_w if max_w is not None else self.screen_w - 80
@@ -1021,15 +1109,168 @@ class App:
             img = pygame.transform.smoothscale(img, (int(iw * scale), int(ih * scale)))
         return img
 
-    def start_info(self):
+    def start_info(self, source=None):
         self.tts.stop()
-        self.info_path = dl.infographie_path(self.current_module['base'])
-        self.info_surface = self._load_infographie_surface(self.current_module['base'])
+        base = self.current_module['base']
+        self.info_path, self.info_source = dl.media_source('infographie', base, source)
+        self.info_surface = self._load_surface(self.info_path, max_h=self.screen_h - self.HEADER_H - 48 - 40 - 36)
         self.state = STATE_INFO
 
     def handle_info(self, action):
-        if action == 'back':
+        if action in ('shoulder_l', 'shoulder_r') and self.info_source \
+                and len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
+            self.start_info(dl.autre_source(self.info_source))
+        elif action == 'back':
             self.state = STATE_MODE
+
+    # ------------------------------------------------------------------
+    # LEXIQUE : équivalent de l'onglet Lexique de la page web (même fichier
+    # data/lexique.json). Sans clavier, la recherche se fait par lettre initiale,
+    # puis par terme ; chaque terme affiche toutes ses définitions et leur module.
+    LEX_SCROLL_STEP = 4
+
+    @staticmethod
+    def lex_cle(terme):
+        import unicodedata
+        return ''.join(c for c in unicodedata.normalize('NFD', terme) if unicodedata.category(c) != 'Mn').upper()
+
+    def lex_lettre(self, terme):
+        c = self.lex_cle(terme)[:1]
+        return c if 'A' <= c <= 'Z' else '#'
+
+    def lexique_du_module(self):
+        if not self.lexique or not self.current_module:
+            return []
+        cache = getattr(self, '_lex_cache', {})
+        base = self.current_module['base']
+        if base not in cache:
+            try:
+                mi = self.lexique['modules'].index(base)
+                cache[base] = [e for e in self.lexique['entrees'] if any(d[1] == mi for d in e['d'])]
+            except ValueError:
+                cache[base] = []
+            self._lex_cache = cache
+        return cache[base]
+
+    def enter_lexique_lettres(self):
+        compte = {}
+        for e in self.lexique['entrees']:
+            l = self.lex_lettre(e['t'])
+            compte[l] = compte.get(l, 0) + 1
+        lettres = sorted(compte, key=lambda l: (l == '#', l))
+        self.lex_menu_lettres = ui.ListMenu(
+            [{'label': 'Chiffres et symboles' if l == '#' else l, 'badge': '{} terme{}'.format(compte[l], 's' if compte[l] > 1 else ''), 'lettre': l}
+             for l in lettres], self.screen_w, self.screen_h, top=110, item_height=64)
+        self.state = STATE_LEX_LETTRES
+
+    def handle_lex_lettres(self, action):
+        if action in ('up', 'down'):
+            self.lex_menu_lettres.move(action)
+        elif action in ('left', 'right'):
+            for _ in range(5):
+                self.lex_menu_lettres.move('up' if action == 'left' else 'down')
+        elif action == 'action':
+            l = self.lex_menu_lettres.current()['lettre']
+            self.enter_lexique_termes([e for e in self.lexique['entrees'] if self.lex_lettre(e['t']) == l])
+        elif action == 'back':
+            self.state = STATE_SERIES
+
+    def enter_lexique_termes(self, entrees, depuis_module=False):
+        self.lex_depuis_module = depuis_module
+        self.lex_termes = sorted(entrees, key=lambda e: self.lex_cle(e['t']))
+        items = []
+        for e in self.lex_termes:
+            label = e['t']
+            if e.get('s') and e.get('x') and e['x'].lower() != e['t'].lower() and len(e['x']) > 12:
+                label = '{}  —  {}'.format(e['t'], e['x'])
+            items.append({'label': label})
+        self.lex_menu_termes = ui.ListMenu(items, self.screen_w, self.screen_h, top=110, item_height=64)
+        self.state = STATE_LEX_TERMES
+
+    def handle_lex_termes(self, action):
+        if action in ('up', 'down'):
+            self.lex_menu_termes.move(action)
+        elif action in ('left', 'right'):
+            for _ in range(8):
+                self.lex_menu_termes.move('up' if action == 'left' else 'down')
+        elif action == 'action' and self.lex_termes:
+            self.open_lex_def()
+        elif action == 'back':
+            self.state = STATE_MODE if self.lex_depuis_module else STATE_LEX_LETTRES
+
+    def open_lex_def(self):
+        e = self.lex_termes[self.lex_menu_termes.selected]
+        width = self.screen_w - 2 * 60
+        self.lex_lines = []
+        if e.get('x') and e['x'].lower() != e['t'].lower():
+            self.lex_lines += [(l, ui.COLOR_PRIMARY) for l in ui.wrap_text(self.fonts.medium, e['x'], width)]
+            self.lex_lines.append(('', ui.COLOR_TEXT))
+        mi_courant = None
+        if self.lex_depuis_module and self.current_module and self.current_module['base'] in self.lexique['modules']:
+            mi_courant = self.lexique['modules'].index(self.current_module['base'])
+        defs = sorted(e['d'], key=lambda d: d[1] != mi_courant)
+        for texte, mi in defs:
+            module = self.lexique['modules'][mi] if 0 <= mi < len(self.lexique['modules']) else ''
+            if module:
+                self.lex_lines += [(l, ui.COLOR_SUCCESS) for l in ui.wrap_text(self.fonts.small, module, width)]
+            self.lex_lines += [(l, ui.COLOR_TEXT) for l in ui.wrap_text(self.fonts.medium, texte, width)]
+            self.lex_lines.append(('', ui.COLOR_TEXT))
+        self.lex_scroll = 0
+        self.state = STATE_LEX_DEF
+
+    def lex_visibles(self):
+        top = self.HEADER_H + 20
+        bottom = self.screen_h - 48 - 36 - 10
+        return max(1, (bottom - top) // (self.fonts.medium.get_sized_height() + 8))
+
+    def handle_lex_def(self, action):
+        max_scroll = max(0, len(self.lex_lines) - self.lex_visibles())
+        if action == 'down':
+            self.lex_scroll = min(max_scroll, self.lex_scroll + self.LEX_SCROLL_STEP)
+        elif action == 'up':
+            self.lex_scroll = max(0, self.lex_scroll - self.LEX_SCROLL_STEP)
+        elif action in ('left', 'right'):
+            self.lex_menu_termes.move('up' if action == 'left' else 'down')
+            self.open_lex_def()
+        elif action in ('back', 'action'):
+            self.state = STATE_LEX_TERMES
+
+    def draw_lex_lettres(self):
+        self.draw_header("LEXIQUE  —  {} termes et sigles".format(len(self.lexique['entrees'])))
+        self.lex_menu_lettres.draw(self.screen, self.fonts, badge_key='badge')
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
+                              [self.NAV_HINT, ('◄►', 'Défiler vite'), ('A/Start', 'Choisir'), ('B/Select', 'Retour')])
+
+    def draw_lex_termes(self):
+        titre = "LEXIQUE DU MODULE" if self.lex_depuis_module else "LEXIQUE  —  {}".format(
+            self.lex_menu_lettres.current()['label'] if self.lex_menu_lettres else '')
+        self.draw_header("{}  ({} termes)".format(titre, len(self.lex_termes)))
+        self.lex_menu_termes.draw(self.screen, self.fonts)
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
+                              [self.NAV_HINT, ('◄►', 'Défiler vite'), ('A/Start', 'Définition'), ('B/Select', 'Retour')])
+
+    def draw_lex_def(self):
+        e = self.lex_termes[self.lex_menu_termes.selected]
+        self.draw_header(e['t'])
+        top = self.HEADER_H + 20
+        line_h = self.fonts.medium.get_sized_height() + 8
+        visible = self.lex_visibles()
+        y = top
+        for texte, couleur in self.lex_lines[self.lex_scroll:self.lex_scroll + visible]:
+            if texte:
+                font = self.fonts.small if couleur == ui.COLOR_SUCCESS else self.fonts.medium
+                font.render_to(self.screen, (60, y), texte, couleur)
+            y += line_h
+        if self.lex_scroll > 0:
+            self.fonts.small.render_to(self.screen, (self.screen_w - 40, top), "▲", ui.COLOR_PRIMARY)
+        if self.lex_scroll + visible < len(self.lex_lines):
+            self.fonts.small.render_to(self.screen, (self.screen_w - 40, self.screen_h - 48 - 36 - 30), "▼", ui.COLOR_PRIMARY)
+        compteur = "Terme {} / {}".format(self.lex_menu_termes.selected + 1, len(self.lex_termes))
+        cr = self.fonts.small.get_rect(compteur)
+        self.fonts.small.render_to(self.screen, (self.screen_w // 2 - cr.width // 2, self.screen_h - 48 - 10 - cr.height),
+                                    compteur, ui.COLOR_PRIMARY)
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
+                              [('▲▼', 'Défiler'), ('◄►', 'Terme préc./suiv.'), ('B/Select', 'Retour')])
 
     # ------------------------------------------------------------------
     # DRAW
@@ -1063,11 +1304,17 @@ class App:
             self.draw_jukebox_kind()
         elif self.state == STATE_JUKEBOX:
             self.draw_jukebox()
+        elif self.state == STATE_LEX_LETTRES:
+            self.draw_lex_lettres()
+        elif self.state == STATE_LEX_TERMES:
+            self.draw_lex_termes()
+        elif self.state == STATE_LEX_DEF:
+            self.draw_lex_def()
 
     HEADER_H = 70
 
     # Écrans où l'en-tête montre l'icône du module en cours (pas les menus généraux ni le jukebox).
-    STATES_SANS_ICONE = (STATE_SERIES, STATE_SETTINGS, STATE_MODULE, STATE_JUKEBOX_KIND, STATE_JUKEBOX)
+    STATES_SANS_ICONE = (STATE_SERIES, STATE_SETTINGS, STATE_MODULE, STATE_JUKEBOX_KIND, STATE_JUKEBOX, STATE_LEX_LETTRES)
 
     def draw_header(self, title):
         pygame.draw.rect(self.screen, ui.COLOR_PRIMARY, (0, 0, self.screen_w, self.HEADER_H))
@@ -1089,10 +1336,10 @@ class App:
                               [self.NAV_HINT, ('A/Start', 'Choisir'), ('R1', 'Réglages'), ('B/Select', 'Quitter')])
 
     def draw_settings(self):
-        self.draw_header("RÉGLAGES — TEMPS DE RÉFLEXION")
+        self.draw_header("RÉGLAGES")
         self.settings_menu.draw(self.screen, self.fonts)
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
-                              [self.NAV_HINT, ('A/Start', 'Choisir'), ('B/Select', 'Annuler')])
+                              [self.NAV_HINT, ('◄► / A', 'Changer'), ('B/Select', 'Retour (enregistré)')])
 
     def draw_module(self):
         code = self.series_menu.current()['code']
@@ -1264,11 +1511,28 @@ class App:
             ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, [('B/Select', 'Retour')])
             return
 
-        if self.media_info_surface is not None:
+        if self.media_kind == 'chanson' and self.paroles_lines:
+            # Paroles à l'écran, comme l'onglet Musique de la page web
+            top = self.HEADER_H + 20
+            line_h = self.fonts.medium.get_sized_height() + 8
+            visibles = self.paroles_visibles()
+            y = top
+            for line in self.paroles_lines[self.paroles_scroll:self.paroles_scroll + visibles]:
+                if line:
+                    couleur = ui.COLOR_PRIMARY if line.startswith('[') or line.startswith('TITRE') else ui.COLOR_TEXT
+                    self.fonts.medium.render_to(self.screen, (60, y), line, couleur)
+                y += line_h
+            if self.paroles_scroll > 0:
+                self.fonts.small.render_to(self.screen, (self.screen_w - 40, top), "▲", ui.COLOR_PRIMARY)
+            if self.paroles_scroll + visibles < len(self.paroles_lines):
+                self.fonts.small.render_to(self.screen, (self.screen_w - 40, self.screen_h - 48 - 30), "▼", ui.COLOR_PRIMARY)
+        elif self.media_info_surface is not None:
             img_rect = self.media_info_surface.get_rect()
             img_rect.centerx = self.screen_w // 2
             img_rect.top = self.HEADER_H + 20
             self.screen.blit(self.media_info_surface, img_rect)
+        if self.media_kind == 'podcast':
+            self.draw_bandeau(self.note_source('podcast', self.media_source))
 
         elapsed = int(self.media_elapsed_s())
         timestamp = "{:02d}:{:02d}".format(elapsed // 60, elapsed % 60)
@@ -1276,10 +1540,14 @@ class App:
         # COLOR_PRIMARY (bleu très sombre) se distinguerait mal du fond sombre
         # du bandeau d'instructions : blanc pour la pause, vert pour la lecture.
         status_color = ui.COLOR_SUCCESS if self.media_playing else ui.COLOR_WHITE
-        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
-                              [('A/Start', 'Pause' if self.media_playing else 'Lecture'),
-                               ('◄►', '-/+ {}s'.format(MEDIA_SEEK_STEP_S)),
-                               ('B/Select', 'Arrêter et revenir')],
+        hints = [('A/Start', 'Pause' if self.media_playing else 'Lecture'),
+                 ('◄►', '-/+ {}s'.format(MEDIA_SEEK_STEP_S))]
+        if self.media_kind == 'chanson' and self.paroles_lines:
+            hints.append(('▲▼', 'Paroles'))
+        if self.media_kind == 'podcast' and len(dl.sources_disponibles('podcast', self.current_module['base'])) > 1:
+            hints.append(('L1/R1', 'Autre version'))
+        hints.append(('B/Select', 'Retour' if len(hints) > 2 else 'Arrêter et revenir'))
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints,
                               right_text=status, right_color=status_color)
 
     def draw_jukebox_kind(self):
@@ -1335,7 +1603,11 @@ class App:
         rect.centerx = self.screen_w // 2
         rect.top = self.HEADER_H + 20
         self.screen.blit(self.info_surface, rect)
-        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, [('B/Select', 'Retour')])
+        hints = [('B/Select', 'Retour')]
+        if len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
+            hints.insert(0, ('L1/R1', 'Autre version'))
+        self.draw_bandeau(self.note_source('infographie', self.info_source))
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints)
 
 
 def main():

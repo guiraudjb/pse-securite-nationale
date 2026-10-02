@@ -108,19 +108,44 @@ def chanson_path(base):
     return path if os.path.exists(path) else None
 
 
-def _premier_existant(dossiers, nom):
-    """Premier chemin existant parmi DATA_DIR/<dossier>/<nom>, ou None."""
-    for dossier in dossiers:
-        path = os.path.join(DATA_DIR, dossier, nom)
+# Deux sources par module pour le podcast et l'infographie, comme le sélecteur
+# « Pipeline local / NotebookLM » de la page web : la source préférée (réglages)
+# est lue en priorité, l'autre sert de repli si la première manque.
+SOURCES = ('local', 'nlm')
+SOURCE_LIBELLES = {'local': 'Pipeline local', 'nlm': 'NotebookLM'}
+DOSSIERS_SOURCE = {
+    'podcast': {'local': 'podcast', 'nlm': 'podcast_nlm'},
+    'infographie': {'local': 'infographie', 'nlm': 'infographie_nlm'},
+}
+EXTENSIONS = {'podcast': '.mp3', 'infographie': '.png'}
+source_preferee = 'local'
+
+
+def autre_source(source):
+    return 'nlm' if source == 'local' else 'local'
+
+
+def media_source(kind, base, source=None):
+    """(chemin, source effective) du podcast ou de l'infographie : la source
+    demandée (par défaut la préférée), sinon l'autre, ou (None, None)."""
+    voulue = source or source_preferee
+    for src in (voulue, autre_source(voulue)):
+        path = os.path.join(DATA_DIR, DOSSIERS_SOURCE[kind][src], base + EXTENSIONS[kind])
         if os.path.exists(path):
-            return path
-    return None
+            return path, src
+    return None, None
+
+
+def sources_disponibles(kind, base):
+    """Sources présentes pour ce module (0, 1 ou 2), dans l'ordre local, NotebookLM."""
+    return [src for src in SOURCES
+            if os.path.exists(os.path.join(DATA_DIR, DOSSIERS_SOURCE[kind][src], base + EXTENSIONS[kind]))]
 
 
 def podcast_path(base):
-    """Chemin du podcast (mp3 ; SDL_mixer sur Batocera ne décode pas l'AAC/m4a) :
-    version du pipeline local (podcast/), sinon version NotebookLM (podcast_nlm/), ou None."""
-    return _premier_existant(('podcast', 'podcast_nlm'), base + '.mp3')
+    """Chemin du podcast (mp3 ; SDL_mixer sur Batocera ne décode pas l'AAC/m4a) dans
+    la source préférée (podcast/ ou podcast_nlm/), sinon dans l'autre, ou None."""
+    return media_source('podcast', base)[0]
 
 
 def podcast_court_path(base):
@@ -136,9 +161,55 @@ def icone_path(base):
 
 
 def infographie_path(base):
-    """Chemin de l'infographie (png) : version du pipeline local (infographie/),
-    sinon version NotebookLM (infographie_nlm/), ou None si absente."""
-    return _premier_existant(('infographie', 'infographie_nlm'), base + '.png')
+    """Chemin de l'infographie (png) dans la source préférée (infographie/ ou
+    infographie_nlm/), sinon dans l'autre, ou None si absente."""
+    return media_source('infographie', base)[0]
+
+
+def paroles_chanson(base):
+    """Paroles de la chanson du module (chanson/<module>.txt), ou None."""
+    path = os.path.join(DATA_DIR, 'chanson', base + '.txt')
+    try:
+        with open(path, encoding='utf-8') as f:
+            return f.read().strip() or None
+    except OSError:
+        return None
+
+
+def load_lexique():
+    """Lexique du dépôt (data/lexique.json, produit par scripts/lexique.py, le même
+    que l'onglet Lexique de la page web) : {'modules': [base...], 'entrees': [...]},
+    chaque entrée {t: terme, s: sigle, x: forme développée, d: [[définition, index module]]}.
+    None si absent ou illisible."""
+    try:
+        with open(os.path.join(DATA_DIR, 'lexique.json'), encoding='utf-8') as f:
+            lex = json.load(f)
+    except (OSError, ValueError):
+        return None
+    lex['modules'] = [base_name(m) for m in lex.get('modules', [])]
+    lex['entrees'] = [e for e in lex.get('entrees', []) if e.get('t') and e.get('d')]
+    return lex if lex['entrees'] else None
+
+
+PREFS_PATH = os.path.join(GAME_DIR, 'preferences.json')
+
+
+def load_prefs():
+    """Réglages mémorisés entre deux parties (temps de réflexion, source des médias)."""
+    try:
+        with open(PREFS_PATH, encoding='utf-8') as f:
+            prefs = json.load(f)
+            return prefs if isinstance(prefs, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def save_prefs(prefs):
+    try:
+        with open(PREFS_PATH, 'w', encoding='utf-8') as f:
+            json.dump(prefs, f)
+    except OSError:
+        pass
 
 
 def fiche_path(base):
