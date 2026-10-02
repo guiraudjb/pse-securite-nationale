@@ -108,11 +108,19 @@ def chanson_path(base):
     return path if os.path.exists(path) else None
 
 
+def _premier_existant(dossiers, nom):
+    """Premier chemin existant parmi DATA_DIR/<dossier>/<nom>, ou None."""
+    for dossier in dossiers:
+        path = os.path.join(DATA_DIR, dossier, nom)
+        if os.path.exists(path):
+            return path
+    return None
+
+
 def podcast_path(base):
-    """Chemin du fichier podcast (mp3, converti depuis le .m4a NotebookLM
-    source - SDL_mixer sur Batocera ne décode pas l'AAC/m4a), ou None si absent."""
-    path = os.path.join(DATA_DIR, 'podcast', base + '.mp3')
-    return path if os.path.exists(path) else None
+    """Chemin du podcast (mp3 ; SDL_mixer sur Batocera ne décode pas l'AAC/m4a) :
+    version du pipeline local (podcast/), sinon version NotebookLM (podcast_nlm/), ou None."""
+    return _premier_existant(('podcast', 'podcast_nlm'), base + '.mp3')
 
 
 def podcast_court_path(base):
@@ -128,9 +136,9 @@ def icone_path(base):
 
 
 def infographie_path(base):
-    """Chemin du fichier infographie (png) du module, ou None si absent."""
-    path = os.path.join(DATA_DIR, 'infographie', base + '.png')
-    return path if os.path.exists(path) else None
+    """Chemin de l'infographie (png) : version du pipeline local (infographie/),
+    sinon version NotebookLM (infographie_nlm/), ou None si absente."""
+    return _premier_existant(('infographie', 'infographie_nlm'), base + '.png')
 
 
 def fiche_path(base):
