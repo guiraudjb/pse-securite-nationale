@@ -7,7 +7,7 @@ Le dossier batocera/<dépôt>/ contient DÉJÀ tout ce dont le jeu a besoin
 flashcards) : c'est aussi la source unique lue par la page web. Rien n'est
 assemblé ni copié localement.
 
-1. Vérifie data/podcast/ : un podcast NotebookLM déposé en .m4a est converti
+1. Vérifie data/podcast_nlm/ (et data/podcast/) : un podcast NotebookLM déposé en .m4a est converti
    en .mp3 (SDL_mixer sur Batocera ne décode pas l'AAC) puis le .m4a est
    supprimé — un seul format, lu par le jeu et par la page web.
 2. Copie le dossier du jeu vers smb://<hôte>/share/roms/pygame/<dépôt>/, en
@@ -35,8 +35,12 @@ THUMB = os.path.join(BATOCERA_DIR, 'vignette.png')
 
 
 def convert_podcasts():
-    """Convertit en mp3 les podcasts restés en .m4a dans data/podcast/."""
-    podcast_dir = os.path.join(DATA_DIR, 'podcast')
+    """Convertit en mp3 les podcasts restés en .m4a dans data/podcast_nlm/ (NotebookLM) et data/podcast/."""
+    for dossier in ('podcast_nlm', 'podcast'):
+        convert_dir(os.path.join(DATA_DIR, dossier))
+
+
+def convert_dir(podcast_dir):
     if not os.path.isdir(podcast_dir):
         return
     for name in sorted(os.listdir(podcast_dir)):
