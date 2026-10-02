@@ -1,6 +1,6 @@
 # Inventaire des modules et des médias — pse-securite-nationale
 
-Généré le 02/10/2026 à 07:08 par `scripts/inventaire_medias.py` (85 modules). ✅ présent, ❌ absent ; pour QCM, flashcards et TP, nombre d'éléments (0 = absent).
+Généré le 02/10/2026 à 14:20 par `scripts/inventaire_medias.py` (85 modules). ✅ présent, ❌ absent ; pour QCM, flashcards et TP, nombre d'éléments (0 = absent).
 
 ## Synthèse
 
@@ -12,11 +12,11 @@ Généré le 02/10/2026 à 07:08 par `scripts/inventaire_medias.py` (85 modules)
 | TP | 4 | 81 | 4 % |
 | Icône | 85 | 0 | 100 % |
 | Infographie locale | 23 | 62 | 27 % |
-| Infographie NotebookLM | 62 | 23 | 72 % |
+| Infographie NotebookLM | 80 | 5 | 94 % |
 | Paroles | 85 | 0 | 100 % |
 | Chanson | 85 | 0 | 100 % |
 | Podcast local | 20 | 65 | 23 % |
-| Podcast NotebookLM | 65 | 20 | 76 % |
+| Podcast NotebookLM | 83 | 2 | 97 % |
 | Micro-chronique | 1 | 84 | 1 % |
 | Narration fiche | 85 | 0 | 100 % |
 | Audio QCM/flash | 85 | 0 | 100 % |
@@ -25,14 +25,14 @@ Généré le 02/10/2026 à 07:08 par `scripts/inventaire_medias.py` (85 modules)
 
 | Série | Modules | Fiche | QCM | Flash | TP | Icône | Infographie locale | Infographie NotebookLM | Paroles | Chanson | Podcast local | Podcast NotebookLM | Micro-chronique | Narration fiche | Audio QCM/flash |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 00 À la une | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
-| 03 ANSSI, SGDSN et stratégies nationales | 84 | 84 | 84 | 84 | 3 | 84 | 22 | 62 | 84 | 84 | 19 | 65 | 0 | 84 | 84 |
+| 00 À la une | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 03 ANSSI, SGDSN et stratégies nationales | 84 | 84 | 84 | 84 | 3 | 84 | 22 | 80 | 84 | 84 | 19 | 82 | 0 | 84 | 84 |
 
 ## Détail par module
 
 | Module | Fiche | QCM | Flash | TP | Icône | Infographie locale | Infographie NotebookLM | Paroles | Chanson | Podcast local | Podcast NotebookLM | Micro-chronique | Narration fiche | Audio QCM/flash |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 00-10 ANSSI - Rapport d'incident sur les cyberattaques ayant touché la DGFiP (2026) | ✅ | 28 | 22 | 9 | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| 00-10 ANSSI - Rapport d'incident sur les cyberattaques ayant touché la DGFiP (2026) | ✅ | 28 | 22 | 9 | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 03-10 ANSSI - Panorama de la cybermenace 2025 | ✅ | 20 | 55 | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | 03-20 ANSSI - Stratégie Nationale de Cybersécurité 2026-2030 | ✅ | 20 | 65 | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | 03-30 ANSSI - EBIOS Risk Manager Méthodologie d’appréciation des risques | ✅ | 40 | 73 | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
@@ -96,24 +96,24 @@ Généré le 02/10/2026 à 07:08 par `scripts/inventaire_medias.py` (85 modules)
 | 03-600 DRSD - Réflexes de sûreté, salons, Diffusion Restreinte et visites | ✅ | 47 | 44 | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | 03-610 DRSD - Lettres d'information économique, cyber, exportations, secret et propriété intellectuelle | ✅ | 49 | 46 | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
 | 03-615 DRSD - Panoramas des ingérences contre la sphère défense 2024-2025 et salons d'armement | ✅ | 42 | 36 | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| 03-620 DGSI - Flash ingérence, facteur humain, débauchages et menace interne | ✅ | 30 | 29 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| 03-630 DGSI - Flash ingérence, recherche, innovation, logiciels et intelligence artificielle | ✅ | 32 | 28 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| 03-640 DGSI - Flash ingérence, sûreté physique, repérages, sabotages, salons et outils numériques | ✅ | 32 | 28 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
-| 03-650 DGSI - Flash ingérence, escroqueries, investisseurs, lois extraterritoriales, embargos et réputation | ✅ | 32 | 26 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-660 Viginum - Ingérences numériques étrangères, rapport 2024 et kits de sensibilisation | ✅ | 32 | 27 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-670 SGDSN - Rapport d'activité 2025, Revue nationale stratégique et Mémento de la sécurité nationale | ✅ | 32 | 28 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-680 SGDSN - Feuille de route sécurité numérique de l'État 2026-2027 et résilience nationale CIRN 4 | ✅ | 33 | 28 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-690 Cybermalveillance - Kit de sensibilisation aux risques numériques | ✅ | 31 | 23 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-700 Cybermalveillance - Fiches réflexes face aux cybermalveillances | ✅ | 30 | 23 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-710 Cybermalveillance et Bpifrance - Guide de cybersécurité des dirigeants de TPE, PME et ETI | ✅ | 31 | 23 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-720 Cybermalveillance et CNIL - Cybersécurité et RGPD des collectivités territoriales | ✅ | 31 | 23 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-730 Cybermalveillance - Cyber guide famille, parents et seniors | ✅ | 30 | 20 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-740 Campus Cyber et ENISA - Kit conseil cybersécurité PME, collectivités et bonnes pratiques de cyber-résilience | ✅ | 26 | 19 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-750 IHEMI - Revue Défis n°1, la cybersécurité et l'intelligence stratégique en 2013 | ✅ | 30 | 20 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-760 ANSSI - REACTIV point de situation septembre 2026 | ✅ | 65 | 38 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-770 ANSSI et C4 - Ciblage d'entités françaises par le mode opératoire Turla du FSB | ✅ | 36 | 22 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-780 ANSSI - L'IA générative face aux attaques informatiques, synthèse de la menace 2025 | ✅ | 35 | 21 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-790 ANSSI et G7 - Préparer l'ère post-quantique, appel à l'action | ✅ | 23 | 14 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
+| 03-620 DGSI - Flash ingérence, facteur humain, débauchages et menace interne | ✅ | 30 | 29 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| 03-630 DGSI - Flash ingérence, recherche, innovation, logiciels et intelligence artificielle | ✅ | 32 | 28 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| 03-640 DGSI - Flash ingérence, sûreté physique, repérages, sabotages, salons et outils numériques | ✅ | 32 | 28 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ |
+| 03-650 DGSI - Flash ingérence, escroqueries, investisseurs, lois extraterritoriales, embargos et réputation | ✅ | 32 | 26 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-660 Viginum - Ingérences numériques étrangères, rapport 2024 et kits de sensibilisation | ✅ | 32 | 27 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-670 SGDSN - Rapport d'activité 2025, Revue nationale stratégique et Mémento de la sécurité nationale | ✅ | 32 | 28 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-680 SGDSN - Feuille de route sécurité numérique de l'État 2026-2027 et résilience nationale CIRN 4 | ✅ | 33 | 28 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-690 Cybermalveillance - Kit de sensibilisation aux risques numériques | ✅ | 31 | 23 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-700 Cybermalveillance - Fiches réflexes face aux cybermalveillances | ✅ | 30 | 23 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-710 Cybermalveillance et Bpifrance - Guide de cybersécurité des dirigeants de TPE, PME et ETI | ✅ | 31 | 23 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-720 Cybermalveillance et CNIL - Cybersécurité et RGPD des collectivités territoriales | ✅ | 31 | 23 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-730 Cybermalveillance - Cyber guide famille, parents et seniors | ✅ | 30 | 20 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-740 Campus Cyber et ENISA - Kit conseil cybersécurité PME, collectivités et bonnes pratiques de cyber-résilience | ✅ | 26 | 19 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-750 IHEMI - Revue Défis n°1, la cybersécurité et l'intelligence stratégique en 2013 | ✅ | 30 | 20 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-760 ANSSI - REACTIV point de situation septembre 2026 | ✅ | 65 | 38 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-770 ANSSI et C4 - Ciblage d'entités françaises par le mode opératoire Turla du FSB | ✅ | 36 | 22 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-780 ANSSI - L'IA générative face aux attaques informatiques, synthèse de la menace 2025 | ✅ | 35 | 21 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-790 ANSSI et G7 - Préparer l'ère post-quantique, appel à l'action | ✅ | 23 | 14 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 03-800 ANSSI - Kit d'exercice de crise cyber du secteur agroalimentaire | ✅ | 36 | 21 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-810 ANSSI et DINUM - Le guide de l'homologation de sécurité des systèmes d'information (2025) | ✅ | 33 | 19 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
-| 03-820 SGDSN - Feuille de route stratégique de l'OSIIC 2024-2027 | ✅ | 45 | 20 | ❌ | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ | ✅ |
+| 03-810 ANSSI et DINUM - Le guide de l'homologation de sécurité des systèmes d'information (2025) | ✅ | 33 | 19 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-820 SGDSN - Feuille de route stratégique de l'OSIIC 2024-2027 | ✅ | 45 | 20 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
