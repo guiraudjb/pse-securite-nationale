@@ -1,0 +1,237 @@
+SYNTHÈSE DES OBJECTIFS DE CYBERSÉCURITÉ DU PLAN VIGIPIRATE.
+
+LEXIQUE COMPLET.
+
+      L'OIV désigne un opérateur d'importance vitale.
+
+      L'ANSSI désigne l'autorité nationale de la sécurité des systèmes d'information.
+
+      Le plan Vigipirate deux mille quatorze est un dispositif destiné principalement aux collectivités territoriales et aux opérateurs non-OIV.
+
+      Le RSSI désigne le responsable de la sécurité des systèmes d'information.
+
+      La PSSI désigne la politique de sécurité des systèmes d'information.
+
+      L'IGI mille trois cents désigne l'instruction générale interministérielle sur la protection du secret de la défense nationale.
+
+      La méthode EBIOS désigne une méthode reconnue et systématique pour réaliser une analyse de risques.
+
+      Le PCA désigne le plan de continuité d'activité.
+
+      Le PRA désigne le plan de reprise d'activité.
+
+      La GTB désigne la gestion technique des bâtiments.
+
+COURS DÉTAILLÉ.
+
+I. GOUVERNANCE ET PILOTAGE STRATÉGIQUE.
+
+   A. Définition de la stratégie et des moyens.
+
+      La direction de l'entité doit définir et piloter une stratégie de cybersécurité qui prend en compte l'ensemble des enjeux de l'organisation.
+
+      Les orientations en termes de cybersécurité doivent être validées au moins un fois par an par la direction de l'entité.
+
+      Les arbitrages importants sont validés au niveau de la direction, particulièrement quand les mesures de cybersécurité impactent les activités métier.
+
+      L'entité doit établir et entretenir une vision à long terme de sa cybersécurité pour garantir la protection de ses systèmes sensibles.
+
+      La direction s'engage à mettre en place les moyens financiers, techniques et humains nécessaires pour atteindre les objectifs de cybersécurité fixés.
+
+      Une cartographie fonctionnelle doit être établie et maintenue à jour pour identifier les informations, les ressources et les systèmes d'information sensibles.
+
+   B. Organisation, responsabilités et documentation.
+
+      L'entité doit mettre en place l'organisation et les processus permettant de répondre aux enjeux de cybersécurité et de piloter la stratégie.
+
+      Le responsable de la sécurité des systèmes d'information, ou RSSI, rend compte directement à la direction de l'entité de manière régulière.
+
+      Un corpus documentaire doit définir l'organisation et les politiques de sécurité, incluant notamment la PSSI et les plans de continuité et de reprise d'activité.
+
+      Ces documents doivent être validés par la direction, accessibles au personnel et mis à jour régulièrement pour rester conformes aux besoins.
+
+      L'entité doit intégrer systématiquement l'étude des enjeux et des risques dans tous ses projets de systèmes d'information.
+
+      La direction doit définir des indicateurs pour évaluer le niveau d'application de la stratégie et examiner régulièrement les tableaux de bord associés.
+
+   C. Communication, ressources humaines et gestion contractuelle.
+
+      L'entité doit sensibiliser périodiquement tout son personnel, y compris les stagiaires et les sous-traitants, aux règles d'hygiène informatique.
+
+      Une stratégie de communication doit être préparée pour maîtriser l'impact médiatique lors des crises et définir les interlocuteurs autorisés.
+
+      Le personnel doit s'engager par écrit à respecter les règles de sécurité, comme la charte ou le règlement intérieur, durant toute la durée de son contrat.
+
+      L'entité doit définir une stratégie d'acquisition et de maintien des compétences pour garantir la réalisation des objectifs de cybersécurité dans la durée.
+
+      Les exigences de cybersécurité doivent être intégrées dans les contrats et conventions signés avec des tiers, comme les prestataires d'infogérance.
+
+      L'entité doit maîtriser ses achats en imposant des clauses de sécurité cohérentes avec l'état de l'art et en vérifiant leur application effective.
+
+II. MAÎTRISE DES RISQUES ET DES SYSTÈMES D'INFORMATION.
+
+   A. Analyse et homologation des risques cyber.
+
+      L'entité réalise une analyse de risques pour tous ses systèmes d'information en utilisant une méthodologie adaptée et reconnue comme la méthode EBIOS.
+
+      Cette analyse doit être planifiée dès les phases amont des projets et mise à jour au minimum tous les ans ou lors de chaque modification technique ou fonctionnelle importante.
+
+      L'objectif est d'évaluer les risques sur tous les systèmes d'information pendant toutes les phases de leur cycle de vie afin de déployer des mesures de protection pertinentes.
+
+      Une fois les risques traités, l'entité doit s'assurer que les risques résiduels sont acceptables et les présenter dans un dossier de sécurité.
+
+      L'acceptation formelle de ces risques résiduels doit être réalisée par l'autorité responsable de l'entité via une démarche d'homologation.
+
+   B. Connaissance et documentation des systèmes.
+
+      L'entité doit établir et maintenir à jour une cartographie technique macroscopique de tous ses systèmes d'information en cohérence avec la cartographie fonctionnelle.
+
+      Une documentation complète et organisée des systèmes et composants doit être disponible pour permettre la compréhension, l'administration et la maintenance des équipements.
+
+      Cette documentation doit être accessible uniquement aux acteurs concernés afin de sécuriser les procédures d'exploitation et de manipulation des informations sensibles.
+
+      L'entité doit également maîtriser les flux entrants et sortants de ses systèmes, y compris la localisation géographique de ses réseaux et les flux vers l'étranger.
+
+      La sécurité des informations sensibles est garantie par l'identification, le marquage et la restriction des accès aux seules personnes ayant un besoin d'en connaître.
+
+   C. Maîtrise du cycle de vie et des accès.
+
+      La maîtrise des systèmes s'étend de la conception de systèmes sûrs jusqu'au retrait de service, en passant par la validation de la cybersécurité lors de la recette.
+
+      L'entité doit suivre une politique de développement et de migration pour encadrer l'évolution des systèmes et garantir que le niveau de sécurité est maintenu.
+
+      La gestion des accès repose sur la définition de principes d'identification, d'authentification et de limitation des droits selon le principe du moindre privilège.
+
+      Les droits accordés aux utilisateurs doivent correspondre strictement à leurs fonctions et être révoqués lors de leur départ ou de leur changement de mission.
+
+      L'entité doit disposer d'un inventaire exhaustif des comptes privilégiés et réaliser des contrôles réguliers pour vérifier la conformité des droits accordés.
+
+III. PROTECTION PHYSIQUE ET LOGIQUE DES SYSTÈMES.
+
+   A. Utilisation de composants et services sécurisés.
+
+      L'entité doit choisir des composants de confiance pour supporter les fonctions sensibles et les fonctions de sécurité de ses systèmes d'information.
+
+      Ces composants doivent être configurés de manière à limiter leur surface d'attaque en désactivant les fonctions inutiles et en restreignant les privilèges.
+
+      L'entité privilégie l'utilisation de composants qualifiés par l'autorité nationale de la sécurité des systèmes d'information pour les fonctions de sécurité.
+
+      Les services cryptographiques utilisés doivent être à l'état de l'art pour protéger la confidentialité, l'intégrité et l'authenticité des données.
+
+      Des procédures strictes doivent assurer tout le cycle de vie des clés, de la génération à la révocation, pour garantir leur robustesse.
+
+      L'utilisation d'une authentification forte est préférée aux mots de passe, et les politiques de mots de passe robustes doivent être appliquées.
+
+   B. Protection physique et environnementale.
+
+      L'entité doit protéger ses systèmes d'information contre les accès physiques illégitimes, les agressions physiques et les événements naturels.
+
+      La disponibilité des servitudes comme l'énergie et le refroidissement doit être garantie pour assurer la continuité de fonctionnement des systèmes sensibles.
+
+      Les accès physiques aux zones sensibles doivent être contrôlés et réservés aux seules personnes autorisées avec une détection des contournements.
+
+      La protection doit être suffisante pour retarder ou empêcher l'accès aux locaux et aux systèmes tout en maintenant la disponibilité pour les acteurs légitimes.
+
+      L'entité doit se prémunir contre les risques électromagnétiques et les fuites d'informations par canaux auxiliaires lors de ses analyses de risques.
+
+      Les écrans affichant des informations sensibles en confidentialité ne doivent pas être visibles depuis une zone ouverte au public.
+
+   C. Sécurisation logique des réseaux, données et équipements.
+
+      L'entité met en place une défense en profondeur pour protéger ses systèmes contre les utilisations malveillantes et sécuriser ses réseaux.
+
+      Les réseaux doivent être segmentés en zones de sensibilité homogènes et les flux doivent être filtrés au niveau des interconnexions.
+
+      L'usage des réseaux sans fil comme le WiFi doit être limité et les passerelles d'interconnexion avec Internet doivent être sécurisées.
+
+      Les équipements connectés aux systèmes d'information doivent être maîtrisés, configurés selon l'état de l'art et soumis à des procédures d'homologation.
+
+      La sécurité des données est garantie sur tout leur cycle de vie, incluant leur traitement, leur échange, leur stockage et leur effacement.
+
+      L'entité doit protéger les supports de données et assurer la confidentialité et l'intégrité des sauvegardes.
+
+IV. GESTION DES INCIDENTS ET CONTINUITÉ DE SERVICE.
+
+   A. Préparation et détection des événements.
+
+      L'entité doit mettre en place une chaîne opérationnelle de gestion des incidents pour limiter l'impact des attaques. Elle peut sous-traiter certaines parties de cette chaîne à des partenaires de confiance labellisés par l'ANSSI.
+
+      La collecte des événements de sécurité repose sur la disponibilité de traces et d'éléments clés comme les journaux. Ces éléments doivent couvrir les systèmes d'information avec une granularité adaptée et être centralisés par site ou par regroupement de sites.
+
+      Les traces et journaux doivent être conservés, si possible, pendant une durée de un an. L'entité doit vérifier périodiquement le bon fonctionnement de la surveillance de ces événements de sécurité.
+
+      La détection des incidents et des attaques potentielles s'effectue par une analyse humaine ou automatique des informations collectées. Cette analyse permet d'identifier les comportements malveillants et les incidents en cours.
+
+   B. Analyse, réaction et retour d'expérience.
+
+      L'analyse doit permettre de reconstituer le scénario de l'incident, d'identifier les vecteurs utilisés et de déterminer l'étendue des zones, informations et équipements touchés. L'entité doit également évaluer l'impact de l'attaque sur son activité métier.
+
+      La réaction est organisée pour supprimer les causes de l'incident et en limiter les conséquences. Elle doit permettre de bloquer l'attaquant, de reprendre la maîtrise des sites et des réseaux tout en durcissant les systèmes pour éviter une nouvelle occurrence.
+
+      L'entité doit préparer des mesures de réaction en anticipant les impacts métier et en élaborant une stratégie de communication interne et externe. Elle doit également préparer les personnes compétentes et les outils nécessaires pour mener une réaction efficace.
+
+      Un retour d'expérience est réalisé pour tirer les enseignements des attaques subies. Un bilan ponctuel est effectué immédiatement après tout incident, tandis qu'un retour d'expérience régulier permet d'identifier les succès et les pistes d'amélioration.
+
+   C. Garantie de la résilience et continuité d'activité.
+
+      La préparation à un sinistre implique l'identification des informations sensibles et des systèmes à protéger. L'entité doit élaborer des plans de continuité d'activité et de reprise d'activité incluant des procédures, des scénarios techniques et des scénarios de renforcement de la cybersécurité.
+
+      La résilience des systèmes sensibles est assurée par la sauvegarde régulière des données métier et des journaux. Ces sauvegardes doivent être protégées en confidentialité et en intégrité au même niveau que les données originales.
+
+      L'entité doit être capable de contrôler ses sauvegardes avant toute restauration pour détecter des menaces résiduelles comme des fichiers détruits ou des codes malveillants. La fréquence de la journalisation doit être adaptée au niveau de criticité du système concerné.
+
+      La réaction face à un sinistre nécessite de vérifier régulièrement la capacité de l'entité à mettre en œuvre ses plans par des tests et des entraînements. Elle doit être capable de mobiliser le personnel nécessaire et d'activer son centre de gestion de crise.
+
+      La gestion de crise doit s'appuyer sur des moyens de communication sécurisés et indépendants des systèmes d'information de l'entité. Ces moyens garantissent la disponibilité, la confidentialité, l'intégrité et la non-répudiation lors des opérations.
+
+V. ÉVALUATION DE LA SÉCURITÉ ET RELATIONS AVEC LES AUTORITÉS.
+
+   A. Audits, vérifications et exercices.
+
+      L'entité doit réaliser régulièrement des vérifications et des audits pour constater l'écart entre ses référentiels de sécurité et l'état réel de ses processus et de ses systèmes. Elle établit des référentiels correspondant au niveau de sécurité recherché et audite fréquemment la configuration de ses annuaires centraux comme l'Active Directory ou l'annuaire LDAP.
+
+      Les audits permettent d'évaluer la sécurité par rapport à l'état de l'art et d'identifier des vulnérabilités exploitables par un attaquant. L'entité peut faire appel à des prestataires d'audit labellisés par l'ANSSI pour mener ces évaluations sur la configuration ou l'architecture du système.
+
+      Lors de ces contrôles, l'entité recherche activement des traces de compromission ou des indices d'intrusion dans les journaux de l'antivirus, du pare-feu, des serveurs ou des postes de travail. Elle traque également des marqueurs spécifiques tels que des noms de fichiers ou des domaines DNS malveillants.
+
+      Tout problème de sécurité identifié doit faire l'objet d'un plan d'actions de correction pour diminuer la vulnérabilité de l'entité. Elle doit également être capable de mener des audits de ses infrastructures multinationales et de ses sites internationaux.
+
+      Enfin, l'entité organise des entraînements et des exercices pour s'assurer que son personnel et ses prestataires externes réagissent correctement selon les procédures définies. Ces exercices visent à valider la capacité de réaction des acteurs lors d'un incident ayant un impact sur les missions sensibles.
+
+   B. Coordination et information des autorités.
+
+      L'entité doit collaborer pleinement avec l'État en communiquant son annuaire de gestion de crise à l'ANSSI sur demande. Elle doit être sensibilisée aux risques identifiés par les autorités et intégrer les guides publiés par l'ANSSI dans ses analyses de risques.
+
+      La communication avec les autorités permet d'exploiter les informations et les conseils étatiques pour renforcer la cybersécurité de l'entité. Elle doit être capable d'appliquer rapidement les recommandations, avis et alertes émis par l'ANSSI sur ses systèmes d'information.
+
+      L'entité est tenue d'informer les autorités pour permettre une coordination efficace de la défense des systèmes d'information. Elle doit être capable d'adapter son niveau de protection en appliquant les mesures spécifiques préconisées par l'ANSSI.
+
+   C. Implication de l'État dans la gestion de crise.
+
+      L'entité contribue à la mise en œuvre du plan Vigipirate lorsqu'il est activé et doit maintenir à jour ses informations de crise. Elle doit connaître ce plan et s'assurer de sa capacité à appliquer les mesures contenues dans le référentiel.
+
+      Lors de la gestion des incidents, l'entité doit prendre en compte les informations relatives aux incidents diffusées par l'ANSSI. Elle met en œuvre l'organisation et les moyens nécessaires pour traiter ces incidents en lien avec la réponse nationale pilotée par l'ANSSI.
+
+      L'aide de l'État permet à l'entité de mieux gérer ses incidents en lui fournissant les informations nécessaires au traitement des événements. Cette collaboration garantit que l'entité dispose des éléments requis pour traiter les incidents en lien avec la réponse nationale.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la cartographie fonctionnelle qui identifie les activités et les processus avec la cartographie technique qui détaille les systèmes.
+
+      La stratégie de cybersécurité doit être validée au moins annuellement par la direction de l'entité pour garantir son actualité.
+
+      Le principe du moindre privilège doit s'appliquer tant aux accès des utilisateurs qu'à la gestion des droits sur les systèmes d'information.
+
+      La gestion des incidents ne se limite pas à la réaction technique mais inclut impérativement une stratégie de communication pour maîtriser l'impact médiatique.
+
+      L'analyse de risques doit être systématique dès les phases amont des projets et mise à jour au minimum une fois par an.
+
+EXEMPLES CITÉS.
+
+      Le document est une édition du vingt-sept février deux mille quatorze destinée aux collectivités territoriales et aux opérateurs non-OIV.
+
+      L'analyse des risques peut s'appuyer sur une méthodologie reconnue comme la méthode EBIOS.
+
+      Pour la protection du secret, l'entité doit se référer à l'instruction générale interministérielle sur la protection du secret de la défense nationale appelée IGI mille trois cents.
+
+      La gestion des incidents peut faire appel à des partenaires de confiance qui sont labellisés par l'ANSSI.
