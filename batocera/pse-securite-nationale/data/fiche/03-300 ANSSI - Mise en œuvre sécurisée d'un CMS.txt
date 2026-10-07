@@ -68,7 +68,7 @@ POINTS D'ATTENTION.
 
       Le durcissement du principe de moindre privilège s'applique à trois niveaux distincts et complémentaires, le runtime, la base de données et la configuration système, chacun nécessitant une attention spécifique.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Le Mozilla Observatory comme outil de test automatisé de la conformité de la configuration HTTPS.
 

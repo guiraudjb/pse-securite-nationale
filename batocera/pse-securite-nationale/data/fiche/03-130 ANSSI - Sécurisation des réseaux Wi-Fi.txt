@@ -62,6 +62,6 @@ POINTS D'ATTENTION.
 
       Le mode mixte WPA3 et WPA2, souvent choisi par prudence de compatibilité, est explicitement déconseillé car il peut dégrader la sécurité globale du réseau en partageant les secrets entre les deux modes.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Un réseau nommé Postes de travail utilisant le mode WPA3-Enterprise, distinct d'un second réseau nommé IoT en WPA2-Enterprise pour les équipements ne supportant pas WPA3.

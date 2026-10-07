@@ -60,7 +60,7 @@ POINTS D'ATTENTION.
 
       La préférence pour une évaluation par catégorie de données plutôt que donnée par donnée est justifiée par le réalisme opérationnel, les décideurs ayant un temps et une disponibilité limités.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Un dépôt contenant de nombreuses données de niveau 2 pouvant être réévalué au niveau 3 par effet d'agrégation.
 

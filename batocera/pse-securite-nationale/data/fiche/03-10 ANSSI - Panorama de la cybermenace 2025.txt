@@ -36,7 +36,7 @@ I. LES MOTIVATIONS DES ATTAQUANTS.
 
    C. La déstabilisation et le sabotage.
 
-      Les opérations de sabotage se poursuivent notamment en Ukraine avec l'utilisation de codes destructeurs ciblants les infrastructures énergétiques.
+      Les opérations de sabotage se poursuivent notamment en Ukraine avec l'utilisation de codes destructeurs ciblant les infrastructures énergétiques.
 
       Les dénis de service distribués et les actions contre de petites installations industrielles faiblement sécurisées sont fréquemment utilisés par des groupes hacktivistes pour nuire à la réputation de leurs victimes.
 
@@ -92,7 +92,7 @@ La compromission répétée des équipements de bordure mobilise fortement les �
 
 Les frontières entre les acteurs étatiques et les groupes cybercriminels s'estompent de plus en plus.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
 La souche de rançongiciel Qilin a fait plus de sept cents victimes en deux mille vingt cinq.
 

@@ -20,7 +20,7 @@ I. CONTEXTE ET AMBITION STRATÉGIQUE.
 
    A. Une révolution numérique et des menaces accrues.
 
-      La révolution numérique constitue une rupture silencieuse qui bouleversent l'ordre du monde et rend la cybersécurité vitale pour la liberté et la souveraineté.
+      La révolution numérique constitue une rupture silencieuse qui bouleverse l'ordre du monde et rend la cybersécurité vitale pour la liberté et la souveraineté.
 
       L'espace numérique est devenu un théâtre de puissance où se jouent les affrontements entre nations et où la frontière entre souveraineté et dépendance est ténue.
 
@@ -154,7 +154,7 @@ POINTS D'ATTENTION.
 
       La coopération public-privé est renforcée à tous les niveaux, de la réponse à incident au développement industriel.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       La guerre d'agression de la Russie en Ukraine démontre le besoin vital de préparation collective.
 

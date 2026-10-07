@@ -64,7 +64,7 @@ POINTS D'ATTENTION.
 
       Le risque de mutualisation entre clients d'une base de données proposée en SaaS est signalé comme une attention particulière distincte des risques d'une base de données hébergée en propre, même chiffrée.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       L'utilisation de requêtes préparées comme bonne pratique de développement pour se protéger des injections lors de l'accès à une base de données.
 

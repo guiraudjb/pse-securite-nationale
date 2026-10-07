@@ -86,7 +86,7 @@ POINTS D'ATTENTION.
 
       Une solution de micro-segmentation reposant sur un agent interne à la machine virtuelle offre un niveau de sécurité structurellement inférieur à une solution reposant sur des composants au niveau de l'hyperviseur, car l'agent est lui-même exposé à une compromission de la VM qu'il est censé protéger.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Un arrêt massif de VM comme indice de suspicion de chiffrement des fichiers vmdk par un rançongiciel, et une suspension de VM comme indice de suspicion de dump mémoire.
 

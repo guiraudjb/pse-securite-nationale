@@ -74,7 +74,7 @@ POINTS D'ATTENTION.
 
       L'exemple de mise en œuvre contre le rançongiciel n'est explicitement pas exhaustif, il illustre une seule chaîne de scénario et doit être complété par d'autres mesures pour couvrir l'ensemble des scénarios de risque possibles.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       La mise en place d'un serveur mandataire non contournable par défaut pour limiter l'établissement d'un canal de commande et contrôle vers Internet.
 

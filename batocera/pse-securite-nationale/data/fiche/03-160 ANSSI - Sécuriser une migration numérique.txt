@@ -76,6 +76,6 @@ POINTS D'ATTENTION.
 
       Le maintien des infrastructures permettant de restaurer les anciennes sauvegardes jusqu'à leur expiration est présenté comme une précaution distincte de la simple sauvegarde de la nouvelle solution, souvent négligée lors des projets de migration.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       L'instruction interministérielle n°901 et l'arrêté du 20 août 2024 relatif aux normes techniques de destruction des informations et supports classifiés ou protégés, applicables au décommissionnement post-migration.

@@ -80,7 +80,7 @@ POINTS D'ATTENTION.
 
       La colocalisation de rôles ayant des besoins de sécurité contradictoires, comme une autorité de certification et un serveur web, peut être acceptable en environnement de test mais doit être proscrite en production.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       L'utilisation de LAPS pour garantir un mot de passe fort et unique par serveur pour les comptes administrateurs locaux.
 

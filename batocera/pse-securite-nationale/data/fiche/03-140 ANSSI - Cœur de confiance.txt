@@ -68,6 +68,6 @@ POINTS D'ATTENTION.
 
       L'assimilation du cœur de confiance au Tier 0 du modèle de tiering de Microsoft permet de réutiliser les principes déjà connus de séparation des niveaux d'administration.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Les outils BloodHound, PingCastle et OSAKA pour l'analyse automatique des chemins de contrôle d'un annuaire Active Directory ou d'une infrastructure Kubernetes.

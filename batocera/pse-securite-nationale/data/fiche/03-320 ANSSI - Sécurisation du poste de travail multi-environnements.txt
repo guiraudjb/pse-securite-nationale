@@ -104,7 +104,7 @@ POINTS D'ATTENTION.
 
       Le système de diodes entre domaines utilisateurs, bien qu'optionnel, ne doit jamais pouvoir être détourné pour créer un canal de communication non surveillé, ce qui impose une journalisation systématique de chaque transfert avec ses métadonnées complètes.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       CLIP OS 4 et CLIP OS 5, les postes multiniveaux développés par l'ANSSI, non maintenus aujourd'hui, mais dont les travaux de conception ont permis d'identifier les fonctions de sécurité reprises dans ce document.
 

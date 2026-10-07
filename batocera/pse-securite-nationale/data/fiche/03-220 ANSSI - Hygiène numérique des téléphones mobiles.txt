@@ -52,6 +52,6 @@ POINTS D'ATTENTION.
 
       Les demandes illégitimes d'association de nouveaux appareils à un compte de messagerie sont identifiées comme une technique d'hameçonnage particulière à surveiller, distincte du simple vol de mot de passe.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Le mode Isolement, lockdown mode, en environnement iOS, comme exemple de mécanisme de durcissement pour les populations à risque.

@@ -176,7 +176,7 @@ POINTS D'ATTENTION.
 
       Les trois niveaux d'attaque d'un LLM sont l'entraînement, l'intégration et l'inférence.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Charcoal Typhoon, contenu d'hameçonnage généré par IA en 2024.
 

@@ -64,7 +64,7 @@ POINTS D'ATTENTION.
 
       L'exigence que la politique de contrôle d'accès repose uniquement sur des attributs maîtrisés, et non sur des attributs dont l'entité ne connaît pas précisément la qualité ou la couverture, est présentée comme une condition de fiabilité essentielle du modèle.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Le niveau de conformité du moyen d'accès utilisé par rapport à la politique de sécurité de l'entité, l'heure et le lieu, comme exemples d'attributs environnementaux dans le modèle ABAC.
 

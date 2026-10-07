@@ -138,7 +138,7 @@ POINTS D'ATTENTION.
 
       Le document est publié en septembre 2026 sous licence ouverte Etalab 2.0, avec la participation de la Commission européenne et de l'ENISA.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Données gouvernementales, données personnelles sensibles et secrets d'affaires exposés au risque stocker maintenant, déchiffrer plus tard.
 

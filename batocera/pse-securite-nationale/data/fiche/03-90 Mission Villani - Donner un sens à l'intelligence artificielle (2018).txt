@@ -1,4 +1,4 @@
-DONNER UN SENS A L'INTELLIGENCE ARTIFICIELLE.
+DONNER UN SENS À L'INTELLIGENCE ARTIFICIELLE, POUR UNE STRATÉGIE NATIONALE ET EUROPÉENNE, RAPPORT DE LA MISSION VILLANI, MARS 2018.
 
 LEXIQUE COMPLET.
 
@@ -20,9 +20,9 @@ LEXIQUE COMPLET.
 
       L'explicabilité est la capacité à fournir des explications intelligibles sur les décisions prises par un algorithme ou un système d'intelligence artificielle.
 
-COURS DETAILLE.
+COURS DÉTAILLÉ.
 
-I. UNE POLITIQUE ECONOMIQUE ARTICULEE AUTOUR DE LA DONNEE.
+I. UNE POLITIQUE ÉCONOMIQUE ARTICULÉE AUTOUR DE LA DONNÉE.
 
    A. Renforcer l'écosystème de la donnée.
 
@@ -42,7 +42,7 @@ I. UNE POLITIQUE ECONOMIQUE ARTICULEE AUTOUR DE LA DONNEE.
 
       Des bacs à sable d'innovation doivent être instaurés pour permettre aux entreprises de tester leurs solutions avec un allègement temporaire des contraintes réglementaires.
 
-   C. La transformation de l'Etat.
+   C. La transformation de l'État.
 
       L'État doit devenir un moteur de la transformation en intégrant l'intelligence artificielle dans ses propres services pour gagner en efficacité et en qualité de service public.
 
@@ -68,7 +68,7 @@ II. POUR UNE RECHERCHE AGILE ET DIFFUSANTE.
 
       Les échanges entre le monde académique et l'industrie doivent être fluidifiés en permettant aux chercheurs de consacrer une partie de leur temps à des projets privés.
 
-III. ANTICIPER ET MAITRISER LES IMPACTS SUR LE TRAVAIL.
+III. ANTICIPER ET MAÎTRISER LES IMPACTS SUR LE TRAVAIL.
 
    A. Une transformation profonde des métiers.
 
@@ -86,7 +86,7 @@ III. ANTICIPER ET MAITRISER LES IMPACTS SUR LE TRAVAIL.
 
       L'objectif quantitatif est de multiplier par trois le nombre de personnes formées aux métiers de l'intelligence artificielle en France d'ici trois ans.
 
-IV. L'INTELLIGENCE ARTIFICIELLE AU SERVICE DE L'ECOLOGIE.
+IV. L'INTELLIGENCE ARTIFICIELLE AU SERVICE DE L'ÉCOLOGIE.
 
    A. Une technologie pour la transition écologique.
 
@@ -104,7 +104,7 @@ IV. L'INTELLIGENCE ARTIFICIELLE AU SERVICE DE L'ECOLOGIE.
 
       Le verdissement de la chaîne de valeur des centres de données doit être encouragé par les pouvoirs publics.
 
-V. QUELLE ETHIQUE DE L'INTELLIGENCE ARTIFICIELLE.
+V. QUELLE ÉTHIQUE DE L'INTELLIGENCE ARTIFICIELLE.
 
    A. Transparence et responsabilité.
 
@@ -184,7 +184,7 @@ POINTS D'ATTENTION.
 
       L'impact écologique du numérique ne doit pas être négligé dans la course à la puissance de calcul.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Le règlement général sur la protection des données permet la portabilité des données personnelles.
 
@@ -194,6 +194,6 @@ EXEMPLES CITES.
 
       L'algorithme COMPAS aux États-Unis a démontré des biais raciaux dans la prédiction de la récidive criminelle.
 
-      La reconnaissance d'images en santé permet de détecter des mélanomes avec une précision supérieure aux dermatologues.
+      Les spécialités médicales fondées sur l'analyse d'images, comme la radiologie et la dermatologie, devraient être les plus transformées par l'intelligence artificielle.
 
       Le stockage de données sur ADN est une piste de recherche pour réduire la consommation énergétique.

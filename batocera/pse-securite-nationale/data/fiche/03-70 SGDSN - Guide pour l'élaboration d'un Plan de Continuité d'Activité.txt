@@ -146,7 +146,7 @@ Le transfert de missions à un prestataire n'exonère pas l'entreprise de sa res
 
 Les exercices doivent être pensés en fonction de ce que l'on veut vérifier comme la procédure d'alerte ou le basculement technique.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
 Une crue ou une pandémie grippale sont des exemples de scénarios pour un PCA simplifié.
 

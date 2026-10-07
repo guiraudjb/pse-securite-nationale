@@ -6,7 +6,7 @@ LEXIQUE COMPLET.
 
       L'ANSSI désigne l'autorité nationale de la sécurité des systèmes d'information.
 
-      Le plan Vigipirate deux mille quatorze est un dispositif destiné principalement aux collectivités territoriales et aux opérateurs non-OIV.
+      Le document Objectifs de cybersécurité du plan Vigipirate, édition du vingt-sept février deux mille quatorze, est destiné principalement aux collectivités territoriales et aux opérateurs non-OIV.
 
       Le RSSI désigne le responsable de la sécurité des systèmes d'information.
 
@@ -30,7 +30,7 @@ I. GOUVERNANCE ET PILOTAGE STRATÉGIQUE.
 
       La direction de l'entité doit définir et piloter une stratégie de cybersécurité qui prend en compte l'ensemble des enjeux de l'organisation.
 
-      Les orientations en termes de cybersécurité doivent être validées au moins un fois par an par la direction de l'entité.
+      Les orientations en termes de cybersécurité doivent être validées au moins une fois par an par la direction de l'entité.
 
       Les arbitrages importants sont validés au niveau de la direction, particulièrement quand les mesures de cybersécurité impactent les activités métier.
 

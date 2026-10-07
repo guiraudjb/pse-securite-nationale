@@ -66,7 +66,7 @@ POINTS D'ATTENTION.
 
       La réinstanciation régulière de l'infrastructure CI/CD sans données persistantes limite l'impact d'une compromission éventuelle, en évitant qu'un attaquant ne puisse s'y maintenir durablement.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       La génération à la demande des jetons, tokens, pour la CI/CD de production, plutôt que des jetons statiques de longue durée.
 

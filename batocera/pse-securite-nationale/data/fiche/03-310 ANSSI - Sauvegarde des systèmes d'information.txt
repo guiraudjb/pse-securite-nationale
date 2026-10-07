@@ -72,7 +72,7 @@ POINTS D'ATTENTION.
 
       Le guide rappelle explicitement que les sauvegardes elles-mêmes peuvent contenir des implants de l'attaquant après un incident, ce qui impose une remédiation granulaire, réinstallation depuis des sources de confiance plutôt qu'une simple restauration aveugle.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       La règle 3-2-1, trois copies des données dont au moins une hors ligne.
 

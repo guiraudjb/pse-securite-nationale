@@ -64,7 +64,7 @@ POINTS D'ATTENTION.
 
       Le renouvellement systématique de la bi-clé à chaque renouvellement de certificat, plutôt que la simple reconduction du certificat avec la même clé, est une précaution explicitement rappelée par le guide.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       RSA avec un module de 4096 bits ou ECDSA avec la courbe P-384 pour une AC racine, contre RSA 3072 bits ou ECDSA P-256 pour une AC intermédiaire ou un certificat d'entité finale.
 

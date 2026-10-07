@@ -46,7 +46,7 @@ II. LA MISE EN ŒUVRE D'UNE STRATÉGIE DE RESTRICTIONS LOGICIELLES.
 
    D. Le test et le maintien des règles.
 
-      Les règles doivent être testées en mode audit avant tout déploiement en conditions réelles, la collecte centralisée des évènements et la cmdlet GetAppLockerFileInformation permettant d'analyser les blocages potentiels, un déploiement progressif sur un échantillon représentatif étant recommandé avant une extension à l'ensemble du domaine. Toute installation de nouveau logiciel ou de mise à jour doit être précédée d'une phase de qualification sur des systèmes de référence afin d'anticiper d'éventuels blocages.
+      Les règles doivent être testées en mode audit avant tout déploiement en conditions réelles, la collecte centralisée des évènements et la cmdlet Get-AppLockerFileInformation permettant d'analyser les blocages potentiels, un déploiement progressif sur un échantillon représentatif étant recommandé avant une extension à l'ensemble du domaine. Toute installation de nouveau logiciel ou de mise à jour doit être précédée d'une phase de qualification sur des systèmes de référence afin d'anticiper d'éventuels blocages.
 
 III. LES CONSIDÉRATIONS DE SÉCURITÉ FONDAMENTALES.
 

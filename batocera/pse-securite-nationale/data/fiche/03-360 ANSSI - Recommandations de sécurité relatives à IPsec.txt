@@ -58,7 +58,7 @@ III. L'ÉTABLISSEMENT D'UN LIEN IPSEC.
 
       IKE se déroule en deux phases, la première établissant un canal sécurisé appelé ISAKMP SA ou IKE SA, la seconde négociant les IPsec SA protégeant le trafic utile. L'authentification de la première phase peut reposer sur un secret partagé, PSK, ou sur un mécanisme asymétrique tel que RSA, idéalement appuyé sur une infrastructure de gestion de clés facilitant la révocation. Le mode PSK doit être réservé aux tests, et s'il est utilisé exceptionnellement, son entropie doit être suffisante, une entropie inférieure à cent bits étant considérée comme un choix risqué.
 
-   D. La négociation des Security Policy et le NAT.
+   C. La négociation des Security Policy et le NAT.
 
       La négociation des SP par IKE n'a d'intérêt que pour les situations de mobilité où l'adresse IP du client nomade n'est pas connue à l'avance ; dans les autres cas, une configuration statique doit être privilégiée, et si la négociation est utilisée, la politique de filtrage doit garantir l'absence de tout flux en clair. L'utilisation du NAT avec IPsec rend AH inutilisable et impose l'activation du mécanisme NAT-Traversal, encapsulant IKE puis ESP en UDP sur le port 4500, dès lors que le NAT est nécessaire.
 

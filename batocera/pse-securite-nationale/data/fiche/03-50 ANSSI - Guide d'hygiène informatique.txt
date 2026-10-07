@@ -16,7 +16,7 @@ LEXIQUE COMPLET.
 
       Le SSID est l'identifiant technique d'un réseau sans fil Wi-Fi.
 
-      TLS et IPsec sont des protocoles de sécurisation des échanges réseaux assurant confidentialité et intégrité,.
+      TLS et IPsec sont des protocoles de sécurisation des échanges réseaux assurant confidentialité et intégrité.
 
       EBIOS est la méthode d'analyse de risques recommandée par l'ANSSI pour apprécier les besoins de sécurité.
 
@@ -44,7 +44,7 @@ I. SENSIBILISER ET FORMER.
 
    C. Maîtrise de l'infogérance.
 
-      L'externalisation nécessite d'évaluer les risques en amont et d'imposer des exigences précises au prestataire via un plan d'assurance sécurité,.
+      L'externalisation nécessite d'évaluer les risques en amont et d'imposer des exigences précises au prestataire via un plan d'assurance sécurité.
 
       Le contrat doit prévoir la réversibilité, la réalisation d'audits et le maintien du niveau de sécurité dans le temps.
 
@@ -140,7 +140,7 @@ V. SÉCURISER LE RÉSEAU.
 
       Les terminaux invités ou personnels doivent être isolés sur un réseau Wi-Fi séparé sans accès au système d'information interne.
 
-      La messagerie doit être protégée par des analyses antivirus et des mécanismes d'authentification des domaines émetteurs,.
+      La messagerie doit être protégée par des analyses antivirus et des mécanismes d'authentification des domaines émetteurs.
 
    D. Sécurité physique.
 
@@ -174,7 +174,7 @@ VII. GÉRER LE NOMADISME.
 
    B. Connexions distantes sécurisées.
 
-      L'accès au système d'information depuis l'extérieur doit se faire via un tunnel VPN IPsec non débrayable par l'utilisateur,.
+      L'accès au système d'information depuis l'extérieur doit se faire via un tunnel VPN IPsec non débrayable par l'utilisateur.
 
       L'authentification forte est recommandée pour éviter l'usage d'identifiants volés.
 
@@ -210,7 +210,7 @@ IX. SUPERVISER, AUDITER, RÉAGIR.
 
       Une politique de sauvegarde doit définir les données vitales, la fréquence des copies et les procédures de restauration.
 
-      Les sauvegardes doivent être stockées en lieu sûr et testées régulièrement pour garantir leur exploitabilité,.
+      Les sauvegardes doivent être stockées en lieu sûr et testées régulièrement pour garantir leur exploitabilité.
 
    C. Audits et gestion des incidents.
 
@@ -248,7 +248,7 @@ POINTS D'ATTENTION.
 
       La redirection de la messagerie professionnelle vers une boite personnelle constitue une fuite d'information irréversible.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Active Directory pour la gestion centralisée des politiques de sécurité.
 

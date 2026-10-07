@@ -70,6 +70,6 @@ POINTS D'ATTENTION.
 
       La sauvegarde des éléments de reconstruction de l'infrastructure de virtualisation, distincte de la sauvegarde des machines virtuelles elles-mêmes, est une précaution souvent négligée qui garantit de pouvoir reconstruire la plateforme même si les VM hébergées sont perdues ou compromises simultanément.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Les cartes de management HP iLO et Dell iDRAC comme exemples de matériel connexe à intégrer dans la stratégie d'administration de la virtualisation.

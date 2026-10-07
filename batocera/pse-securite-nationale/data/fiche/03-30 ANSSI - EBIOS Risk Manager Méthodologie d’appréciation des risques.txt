@@ -214,7 +214,7 @@ POINTS D'ATTENTION.
 
       Une mesure de sécurité ne réduit le niveau de risque immédiat que si elle est effectivement mise en œuvre avant la poursuite de l'analyse.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Une société de biotechnologie fabriquant des vaccins sert d'illustration tout au long du guide.
 

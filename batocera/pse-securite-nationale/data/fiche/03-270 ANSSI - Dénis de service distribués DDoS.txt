@@ -60,7 +60,7 @@ POINTS D'ATTENTION.
 
       Le recours à un CDN pour la résistance aux attaques DDoS n'est pas neutre en confidentialité, une partie des ressources du CDN pouvant être hébergée à l'étranger.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       L'attaque DNS water torture, qui requête massivement des serveurs pour des entrées DNS existantes, comme exemple d'attaque applicative.
 

@@ -54,6 +54,6 @@ POINTS D'ATTENTION.
 
       La vérification régulière que les choix d'architecture sont motivés par des besoins métier avérés vise à éviter la complexification inutile d'un système d'information au nom de la seule sécurité, sans lien avec un usage réel.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       La circulation des flux du système d'information d'administration vers le système d'information bureautique, jamais dans le sens inverse.

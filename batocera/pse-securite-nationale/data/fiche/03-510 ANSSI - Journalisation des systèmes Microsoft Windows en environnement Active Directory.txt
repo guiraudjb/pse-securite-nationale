@@ -56,7 +56,7 @@ POINTS D'ATTENTION.
 
       La supervision de la sécurité par la journalisation ne peut jamais constituer la seule mesure de protection d'un système d'information ; elle est complémentaire des analyses de risque, des travaux d'architecture, des configurations adaptées et des audits de sécurité.
 
-      Sysmon n'est fourni par Microsoft sans aucun support logiciel officiel, un déploiement rapide et généralisé sur des systèmes critiques est donc déconseillé sans phase de test préalable, de même qu'il est préférable d'attendre une mise à jour mineure corrigeant les bugs avant de déployer une toute nouvelle version majeure en production.
+      Sysmon est fourni par Microsoft sans aucun support logiciel officiel, un déploiement rapide et généralisé sur des systèmes critiques est donc déconseillé sans phase de test préalable, de même qu'il est préférable d'attendre une mise à jour mineure corrigeant les bugs avant de déployer une toute nouvelle version majeure en production.
 
       La configuration d'un client WEF vers plusieurs serveurs WEC se traduit par l'envoi redondant de chaque événement à chacun des serveurs, ce qui doit être anticipé dans le dimensionnement du stockage centralisé.
 

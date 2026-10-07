@@ -102,7 +102,7 @@ IV. LES OUTILS NUMÉRIQUES, FLASH N°91 DE FÉVRIER 2023 ET N°111 DE MARS 2025.
 
       Il faut privilégier le présentiel pour les sujets les plus stratégiques, protéger chaque session par un mot de passe et un lien différent, inclure ces logiciels dans les audits et impliquer le RSSI dans le télétravail.
 
-      L'ANSSI recommande des solutions chiffrées de bout en bout, comme l'application française Tixeo, une solution non qualifiée augmentant l'exposition aux lois extraterritoriales.
+      L'ANSSI recommande des solutions chiffrées de bout en bout, comme l'application française Tixeo, car une solution non qualifiée augmente l'exposition aux ingérences et aux lois extraterritoriales.
 
       Avec des acteurs étrangers, il faut disposer de la liste complète des participants, se méfier des ajouts de dernière minute et rester ferme face aux demandes de déroger aux règles.
 

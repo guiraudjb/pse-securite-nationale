@@ -104,7 +104,7 @@ LEXIQUE COMPLET.
 
       Le shadow IT désigne les systèmes informatiques déployés sans l'approbation de la direction informatique.
 
-      Le switch ou concentrateur distribue les communications de données au sein d'un réseau local.
+      Le switch, ou commutateur, distribue les communications de données au sein d'un réseau local.
 
       Le typosquatting exploite les fautes de frappe pour diriger vers des sites malveillants aux noms proches.
 
@@ -288,7 +288,7 @@ POINTS D'ATTENTION.
 
       Les indicateurs de compromission ou IOC sont des marqueurs techniques permettant de caractériser une attaque.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Le phishing incite à cliquer sur des liens frauduleux contenus dans des courriels piégés.
 

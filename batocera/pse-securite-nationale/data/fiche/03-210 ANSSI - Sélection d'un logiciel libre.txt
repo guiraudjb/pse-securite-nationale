@@ -64,7 +64,7 @@ POINTS D'ATTENTION.
 
       Le cas du projet XZ Utils est cité comme exemple concret d'insertion de porte dérobée par un contributeur devenu progressivement de confiance, justifiant l'audit régulier des contributions même pour un projet établi.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Le cas du projet XZ Utils, où un contributeur malveillant a inséré une porte dérobée permettant la prise de contrôle des postes utilisant cette bibliothèque.
 

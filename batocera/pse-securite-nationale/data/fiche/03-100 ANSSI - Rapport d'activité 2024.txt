@@ -146,7 +146,7 @@ POINTS D'ATTENTION.
 
       La cryptographie post-quantique et l'intelligence artificielle sont présentées comme les deux grands chantiers technologiques de moyen terme de l'Agence, avec une approche fondée sur l'analyse de risque plutôt que sur l'interdiction.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Les 548 événements de cybersécurité recensés pendant les Jeux olympiques et paralympiques, dont 465 signalements et 83 incidents à faible impact.
 

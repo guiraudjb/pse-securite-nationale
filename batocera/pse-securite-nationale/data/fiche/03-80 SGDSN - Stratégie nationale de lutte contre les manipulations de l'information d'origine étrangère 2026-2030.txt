@@ -1,4 +1,4 @@
-STRATÉGIE NATIONALE DE LUTTE CONTRE LES MANIPULATIONS DE L'INFORMATION.
+STRATÉGIE NATIONALE DE LUTTE CONTRE LES MANIPULATIONS DE L'INFORMATION D'ORIGINE ÉTRANGÈRE 2026-2030, SGDSN, FÉVRIER 2026.
 
 LEXIQUE COMPLET.
 
@@ -18,6 +18,8 @@ I. LE CONTEXTE DE LA MENACE INFORMATIONNELLE.
 
       Les manipulations de l'information exploitent les failles des sociétés ouvertes pour polariser le débat public et miner la confiance envers les institutions.
 
+      L'assassinat de Samuel Paty, fin deux mille vingt, a marqué un tournant dans la perception de la menace et conduit à la création de VIGINUM par le décret du treize juillet deux mille vingt et un.
+
       L'hyperpersonnalisation algorithmique et la banalisation des contenus synthétiques générés par intelligence artificielle fragmentent la réalité perçue.
 
    B. Les principes de l'action publique.
@@ -26,17 +28,19 @@ I. LE CONTEXTE DE LA MENACE INFORMATIONNELLE.
 
       Elle repose sur l'ouverture, l'action en réseau et l'intégration systémique de tous les acteurs publics et privés.
 
+      Publiée par le SGDSN en février deux mille vingt-six, la stratégie repose sur quatre piliers déclinés en quinze objectifs stratégiques.
+
 II. PILIER UN CONSACRÉ À LA RÉSILIENCE NATIONALE.
 
    A. La formation et l'éducation citoyenne.
 
-      La création d'une Académie de la lutte contre les manipulations de l'information au sein de VIGINUM permettra de structurer l'expertise nationale.
+      À l'horizon deux mille vingt-sept, une Académie de la lutte contre les manipulations de l'information, créée au sein de VIGINUM, structurera l'expertise nationale et animera un réseau de référents.
 
       L'intégration de l'éducation aux médias dans les programmes scolaires renforcera l'esprit critique des jeunes générations.
 
    B. La mobilisation de la société civile.
 
-      Les dispositifs d'engagement comme le service civique intégreront des modules spécifiques pour former des acteurs de la protection du débat public.
+      Les dispositifs d'engagement civique, Journée défense et citoyenneté, service civique, service militaire volontaire et réserves, serviront à former une jeunesse active dans la défense du débat public.
 
       Un réseau de référents locaux déploiera des actions de sensibilisation de proximité pour construire une culture citoyenne robuste.
 
@@ -60,13 +64,19 @@ IV. PILIER TROIS SUR LA CAPACITÉ OPÉRATIONNELLE DE RÉPONSE.
 
       L'instance de coordination COLMI animée par VIGINUM garantira une veille technologique et opérationnelle continue.
 
+      L'équipe DATALAB de VIGINUM sera transformée en centre d'excellence consacré à l'intelligence artificielle et à la lutte contre les manipulations de l'information.
+
       Le réseau diplomatique contribuera à l'alerte précoce en analysant les écosystèmes informationnels depuis l'étranger.
 
    B. La structuration de la réponse étatique.
 
       Une doctrine interministérielle graduera la réponse diplomatique, technique ou judiciaire face aux attaques, particulièrement en période électorale.
 
+      En période électorale, le Réseau de coordination et de protection des élections, ou RCPE, placé sous la coordination du SGDSN, réunit les administrations compétentes pour évaluer la menace et proposer des réponses.
+
       L'action de la justice sera soutenue par l'élargissement des référés électoraux et la spécialisation des magistrats.
+
+      La loi du vingt-deux décembre deux mille dix-huit relative à la lutte contre la manipulation de l'information a doté l'Arcom et le juge des référés de nouvelles prérogatives, et le parquet de Paris dispose d'une compétence exclusive pour centraliser certaines infractions.
 
 V. PILIER QUATRE DÉDIÉ AUX COOPÉRATIONS INTERNATIONALES.
 
@@ -90,10 +100,10 @@ POINTS D'ATTENTION.
 
       Les territoires ultramarins français présentent des vulnérabilités spécifiques nécessitant une vigilance renforcée face aux discours hostiles.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       La campagne d'ingérence russe nommée Storm-1516 a usurpé l'identité de médias pour décrédibiliser les démocraties occidentales.
 
       L'Azerbaïdjan a utilisé le Baku Initiative Group pour amplifier artificiellement des mouvements indépendantistes en Nouvelle-Calédonie.
 
-      Des acteurs liés à la Chine ont mené une opération de dénigrement contre le Rafale français afin de nuire à ses exportations.
+      Des acteurs favorables au Parti communiste chinois ont mené une campagne contre le Rafale de Dassault Aviation lors du conflit entre l'Inde et le Pakistan, au moyen de faux contenus et de comptes inauthentiques.

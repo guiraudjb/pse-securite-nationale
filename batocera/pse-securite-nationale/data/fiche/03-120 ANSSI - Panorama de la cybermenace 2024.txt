@@ -76,7 +76,7 @@ IV. LA FINALITÉ DES ATTAQUES OBSERVÉES.
 
    A. Les attaques à but lucratif.
 
-      En 2024, 144 compromissions par rançongiciel ont été portées à la connaissance de l'ANSSI, un niveau comparable à 2023. Les PME, TPE et ETI restent la catégorie la plus affectée, mais la part des établissements d'enseignement supérieur a atteint 12 pour cent des attaques de ce type, à égalité avec les entreprises stratégiques. L'ANSSI a observé 39 souches différentes de rançongiciels, les plus représentées étant LockBit 3.0 avec 15 pour cent, Ransomhub et Akira avec 7 pour cent chacune, cette dernière souche n'ayant jamais été observée en France auparavant. L'année a aussi été marquée par la désorganisation de l'écosystème cybercriminel et la montée en puissance des infostealers dans les chaînes d'infection menant aux rançongiciels.
+      En 2024, 144 compromissions par rançongiciel ont été portées à la connaissance de l'ANSSI, un niveau comparable à 2023. Les PME, TPE et ETI restent la catégorie la plus affectée, mais la part des établissements d'enseignement supérieur a atteint 12 pour cent des attaques de ce type, à égalité avec les entreprises stratégiques. L'ANSSI a observé 39 souches différentes de rançongiciels, les plus représentées étant LockBit 3.0 avec 15 pour cent, Ransomhub et Akira avec 7 pour cent chacune, Ransomhub n'ayant jamais été observée en France auparavant. L'année a aussi été marquée par la désorganisation de l'écosystème cybercriminel et la montée en puissance des infostealers dans les chaînes d'infection menant aux rançongiciels.
 
    B. La déstabilisation et l'espionnage.
 
@@ -90,7 +90,7 @@ POINTS D'ATTENTION.
 
       La porosité croissante entre acteurs étatiques et cybercriminels, par le partage d'outils, d'infrastructures et de prestataires, complique l'attribution des attaques et invite à ne plus raisonner en silos strictement séparés.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       La compromission du réseau du Grand Palais-RMN par le rançongiciel BrainCipher début août 2024.
 

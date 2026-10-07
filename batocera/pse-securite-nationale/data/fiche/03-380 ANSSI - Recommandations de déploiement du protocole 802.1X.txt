@@ -10,7 +10,7 @@ LEXIQUE COMPLET.
 
       Un supplicant est le logiciel sur l'équipement d'extrémité qui cherche à se connecter au réseau à accès contrôlé.
 
-      EAP, Extended Authentication Protocol, est le protocole abstrayant le mécanisme d'authentification, encapsulé sur les réseaux locaux par EAPoL, Extended Authentication Protocol over LAN.
+      EAP, Extensible Authentication Protocol, est le protocole abstrayant le mécanisme d'authentification, encapsulé sur les réseaux locaux par EAPoL, Extensible Authentication Protocol over LAN.
 
       Le réseau de confiance est le réseau maîtrisé transportant les échanges entre le serveur et les clients, considéré comme sûr.
 

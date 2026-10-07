@@ -78,7 +78,7 @@ POINTS D'ATTENTION.
 
       La compréhension précise de la source d'une fuite avérée est présentée comme une étape distincte de la remédiation elle-même, indispensable pour éviter qu'une nouvelle compromission n'exploite le même vecteur.
 
-EXEMPLES CITES.
+EXEMPLES CITÉS.
 
       Le site haveibeenpwned.com comme outil de veille automatique en réaction face à une fuite de données.
 
