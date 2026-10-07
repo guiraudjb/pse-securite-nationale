@@ -1,0 +1,26 @@
+Guide PG-075 ?,"Architectures des SI sensibles ou DR, ANSSI, v1.2 du 24/09/2021 ; mise en pratique de l'II 901."
+II 901 ?,"Instruction interministérielle n°901/SGDSN/ANSSI du 28 janvier 2015, mesures minimales de protection des informations sensibles."
+Information sensible ?,"Divulgation, altération ou indisponibilité de nature à porter atteinte aux objectifs de l'entité (art. 1er II 901)."
+Information DR ?,Information sensible portant la mention Diffusion Restreinte ou une équivalente européenne ou internationale.
+Information usuelle ?,"Ni sensible ni publique ; besoin de confidentialité moindre mais non nul. Le terme NP est jugé impropre."
+SI de classe 0 ?,"SI public (Internet, SI usuel) ou SI connecté à un SI public ne respectant pas la classe 1."
+SI de classe 1 ?,SI sensible relié à la classe 0 par une passerelle conforme à l'II 901.
+SI de classe 2 ?,"SI sensible physiquement isolé d'Internet ; flux montants via diode agréée."
+Passerelle de classe 1 ?,"Deux pare-feux (un qualifié standard au moins) encadrant un proxy et une sonde qualifiée."
+Trois architectures de SI sensible ?,"R5+ physiquement isolé > R5 physiquement cloisonné > R5- sans SI usuel (cloisonnement logique)."
+Homologation (R4) ?,"Avant mise en production, interconnexions comprises ; AH désignée par l'AQSSI (art. 86 IGI 1300)."
+Interconnexion de SI DR ?,"Tunnels VPN avec équipements agréés ANSSI ; filtrage côté noir et côté rouge (R9, R11)."
+Navigation Web depuis un SI sensible ?,"Impossible en classe 2 ; à interdire en classe 1 (R18), sinon postes de rebond (R18-) ou proxy (R18--)."
+Système d'échanges sécurisés ?,"Protocoles de transfert seuls, compte non sensible, analyse antivirale, journalisation et imputabilité (R24-R28)."
+Marquage DR ?,"Timbre DIFFUSION RESTREINTE au milieu en haut et en bas de chaque page ; à ne pas confondre avec la labellisation."
+Authentification initiale (R39) ?,"Multifacteur à l'état de l'art ; secrets mémorisés, jamais stockés."
+Revue des droits (R41) ?,"Annuelle, par les responsables métier ; comptes neutralisés et non supprimés en fin de vie."
+Supports amovibles ?,"Fournis par l'entité, affectés à un utilisateur, chiffrés ; lecture seule privilégiée ; sas ou station blanche."
+Postes de travail (R52) ?,"Poste dédié > multiniveau évalué (R52-) > accès distant au SI usuel (R52--). Poste usuel vers sensible : interdit."
+"Nomadisme (R54, R59) ?","Câble antivol, filtre de confidentialité, tout le trafic en VPN, pas de split-tunneling ni de détection de posture."
+Portails captifs ?,Bloqués sur les équipements nomades sensibles (R61).
+MCS (R65) ?,"Mises à jour critiques sous une semaine, autres sous quatre semaines ; systèmes obsolètes isolés (R66)."
+Journaux (R68) ?,Conservés douze mois glissants.
+Supervision (R69) ?,"PDIS qualifié recommandé ; son SI de détection est homologué au moins DR."
+DR et classification ?,"DR est une mention de protection, pas une classification ; EU et NATO Restricted sont classifiées."
+Visas de sécurité ?,"Certification (robustesse, CSPN ou CC EAL1-7), qualification (recommandation de l'État), agrément (niveau DR)."

@@ -1,0 +1,433 @@
+RECOMMANDATIONS POUR LES ARCHITECTURES DES SYSTÈMES D'INFORMATION SENSIBLES OU DIFFUSION RESTREINTE, GUIDE ANSSI-PG-075, VERSION 1.2 DU 24 SEPTEMBRE 2021.
+
+LEXIQUE COMPLET.
+
+      L'II 901 est l'instruction interministérielle n°901/SGDSN/ANSSI du 28 janvier 2015, texte de référence qui définit les objectifs et les mesures de sécurité minimales pour protéger les informations sensibles, notamment celles de niveau Diffusion Restreinte.
+
+      L'IGI 1300 est l'instruction générale interministérielle n°1300/SGDSN/PSE/PSD du 9 août 2021 sur la protection du secret de la défense nationale, dont l'annexe 3 introduit la notion d'information Diffusion Restreinte.
+
+      Une information sensible est, selon l'article 1er de l'II 901, une information dont la divulgation à des personnes non autorisées, l'altération ou l'indisponibilité sont de nature à porter atteinte à la réalisation des objectifs de l'entité qui la met en œuvre.
+
+      Une information Diffusion Restreinte, ou DR, est une information sensible portant la mention Diffusion Restreinte ou ses équivalentes européennes ou internationales.
+
+      Une information usuelle est, par convention du guide, une information ni sensible ni publique, dont le besoin de protection en confidentialité est moindre mais non nul.
+
+      Une information publique est une information dont le besoin de protection en confidentialité est nul, comme un catalogue publicitaire.
+
+      Un SI sensible est un système d'information susceptible d'héberger ou de traiter des données sensibles, réceptacle technique des données d'importance forte pour l'entité.
+
+      Un SI DR est un SI sensible homologué au niveau Diffusion Restreinte.
+
+      Un SI usuel est un système d'information présentant un niveau de protection moindre que le SI sensible, réceptacle des données d'importance moindre.
+
+      Un SI de classe 0 est un SI public, comme Internet ou un SI usuel, ou un SI connecté à un SI public qui ne respecte pas les exigences de la classe 1.
+
+      Un SI de classe 1 est un SI sensible interconnecté à des SI de classe 0 au travers d'une passerelle sécurisée conforme à l'II 901.
+
+      Un SI de classe 2 est un SI sensible physiquement isolé, non connecté même indirectement à Internet.
+
+      Une passerelle de classe 1 regroupe deux dispositifs de filtrage, dont au moins un qualifié au niveau standard, encadrant un dispositif de rupture de flux et une sonde de détection qualifiée.
+
+      Une passerelle montante est une interconnexion permettant à un SI de classe 2 de recevoir des flux d'un SI de moindre confiance, au travers d'une diode agréée par l'ANSSI.
+
+      Une passerelle descendante est une interconnexion permettant l'envoi de flux depuis un SI de classe 2 vers des SI de classe 0 ou 1, uniquement avec des dispositifs agréés spécifiquement pour cet usage.
+
+      Le périmètre d'homologation II 901 délimite l'ensemble des systèmes qui doivent être conformes aux mesures de l'II 901, y compris les matériels mobiles comme les supports amovibles.
+
+      L'autorité d'homologation, ou AH, est le responsable désigné par l'autorité qualifiée en sécurité des systèmes d'information, ou AQSSI, pour accepter formellement les risques résiduels d'un SI.
+
+      La rupture protocolaire consiste à interrompre une session établie entre deux parties, avec ou sans changement de protocole, par exemple au moyen d'un serveur mandataire.
+
+      Un tap est un équipement passif d'écoute du réseau qui alimente une sonde de détection sans pouvoir être détourné pour compromettre le SI.
+
+      Un système d'échanges sécurisés est un dispositif réservé au transfert de données entre la zone sensible et la zone usuelle, avec analyse de contenu et journalisation.
+
+      Un sas ou une station blanche est un moyen dédié à la dépollution des supports amovibles avant tout échange de données avec un SI sensible.
+
+      Un visa de sécurité est l'attestation de l'atteinte d'un niveau de sécurité, regroupant pour un produit la certification, la qualification et l'agrément, et pour un prestataire la seule qualification.
+
+      Un agrément DR est le visa de sécurité délivré par l'ANSSI qui atteste de l'aptitude d'un produit à protéger des informations Diffusion Restreinte.
+
+      Le PDIS est le prestataire de détection des incidents de sécurité qualifié par l'ANSSI.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE ET L'OBJECTIF DU GUIDE.
+
+   A. Un outil de mise en pratique de l'II 901.
+
+      Le guide ANSSI-PG-075 donne des recommandations pour concevoir l'architecture des systèmes d'information qui hébergent des informations sensibles, et apporte des conseils techniques pour mettre en pratique l'II 901 du 28 janvier 2015.
+
+      Sa préoccupation première est l'architecture technique des SI sensibles, dont les SI DR.
+
+      Certains champs de l'II 901 ne sont pas traités, comme la sécurité physique et environnementale ou la sécurité des développements, et la gouvernance n'est que partiellement traitée, si bien que l'application du guide ne suffit pas à elle seule pour obtenir un SI conforme.
+
+      L'application du guide contribue à spécifier un socle de sécurité, première étape de la méthode EBIOS Risk Manager recommandée pour apprécier et traiter les risques.
+
+      Les informations classifiées de défense et l'interconnexion des SI sensibles avec des SI classifiés sont hors du périmètre du guide.
+
+      Une mention étrangère ou internationale équivalente à Diffusion Restreinte soumet l'information, en France, aux règles de l'annexe 3 de l'IGI 1300 et de l'II 901.
+
+   B. Les versions et la convention de lecture.
+
+      La version 1.0 date du 28 août 2020, la version 1.1 du 28 décembre 2020 et la version 1.2 du 24 septembre 2021, cette dernière ajustant notamment la référence à l'IGI 1300.
+
+      Le verbe devoir signale une recommandation directement issue d'une mesure de l'II 901, tandis que la formule il est recommandé relève des bonnes pratiques.
+
+      Le guide distingue quatre niveaux de recommandation, R à l'état de l'art, R moins, alternative de premier niveau, R moins moins, alternative de second niveau, et R plus, recommandation renforcée destinée aux entités matures.
+
+      Le guide compte 70 recommandations numérotées, de R1 à R70.
+
+II. LES SI NON CLASSIFIÉS ET LE TRI DU PATRIMOINE INFORMATIONNEL.
+
+   A. Le besoin de protection en confidentialité.
+
+      Le guide fait de la confidentialité le critère de sécurité primordial pour protéger une information sensible, même si la plupart de ses recommandations servent aussi l'intégrité et la disponibilité.
+
+      L'identification du besoin en confidentialité est subjective et relative, et s'appuie sur deux outils, une échelle des besoins en confidentialité et une analyse des risques.
+
+      La valeur de confidentialité d'une information peut évoluer au cours de son cycle de vie, notamment par agrégation avec d'autres informations.
+
+      R1 impose de trier le patrimoine informationnel par niveau de sensibilité au moyen d'une analyse des risques.
+
+   B. Les informations DR et le besoin d'en connaître.
+
+      L'accès à une information DR est régi par le principe de restriction du besoin d'en connaître, seules les personnes ayant une nécessité impérieuse d'en prendre connaissance pour une mission précise étant autorisées.
+
+      La restriction de diffusion suit l'information lorsqu'elle est transférée à une autre entité juridique, qui doit la traiter sur un SI DR.
+
+      Les informations sensibles non DR ne bénéficient pas par défaut d'une protection juridique lorsqu'elles sont transférées à un tiers, ce que le secret des affaires, créé par la loi n°2018-670 du 30 juillet 2018, permet en partie de compenser.
+
+      Le guide écarte l'expression informations non protégées, ou NP, jugée impropre et ambiguë, au profit des termes publiques, usuelles, sensibles et DR.
+
+   C. Les SI sensibles, usuels et les classes de SI.
+
+      Par hypothèse pédagogique, l'entité crée deux SI distincts, un SI sensible au niveau de protection supérieur et un SI usuel au niveau inférieur.
+
+      R2 demande d'identifier les types de SI nécessaires, usuels, sensibles voire DR.
+
+      Par défaut, une information doit être traitée sur un SI de son propre niveau et non sur un SI de niveau supérieur, afin d'éviter des problèmes d'extraction ultérieure.
+
+      L'II 901 définit, dans son annexe 2, trois classes de réseau, que le guide appelle classes de SI, la classe 0, la classe 1 et la classe 2, et le guide étend ces classes à tous les SI sensibles.
+
+      Les informations DR ne peuvent être traitées que sur un SI homologué DR, alors que des informations sensibles non DR peuvent être hébergées sur un SI homologué sensible ou DR.
+
+   D. Le régime de protection et l'homologation.
+
+      R3 impose de déterminer le régime de protection, sensible ou DR, celui-ci étant soit imposé par la réglementation ou un commanditaire, soit laissé au choix de l'entité.
+
+      La mention Diffusion Restreinte vise à éviter la divulgation d'informations dont le regroupement pourrait conduire à découvrir une information classifiée, porter atteinte à la sécurité ou à l'ordre public, ou porter préjudice aux intérêts économiques de sociétés ou d'établissements publics.
+
+      L'homologation est conduite par une autorité d'homologation désignée par l'AQSSI de l'entité, conformément à l'article 86 de l'IGI 1300.
+
+      R4 impose d'homologuer tout SI sensible avant sa mise en production, ainsi que toutes ses interconnexions, et de réévaluer périodiquement les risques.
+
+      Les interconnexions de SI sensibles font l'objet d'homologations distinctes de celles des SI interconnectés.
+
+III. LES TROIS ARCHITECTURES DE SI SENSIBLES.
+
+   A. Le SI sensible physiquement isolé, de classe 2.
+
+      Aucun composant de stockage ou de traitement n'est partagé avec un SI de classe 1 ou 0, et la connexion à des ressources Internet est impossible.
+
+      Le recours à cette architecture est obligatoire lorsque les risques pesant sur le SI sensible sont élevés, et elle est d'autant plus pertinente que le SI est de petite taille.
+
+      L'isolement peut complexifier l'administration, le maintien en condition de sécurité et la supervision, et n'empêche pas les échanges par supports amovibles, qui doivent être encadrés avec la plus grande rigueur.
+
+      R5 plus recommande aux entités ayant des besoins importants de confidentialité de mettre en place un SI usuel et un SI sensible physiquement isolés.
+
+   B. Le SI sensible physiquement cloisonné, de classe 1.
+
+      Aucun composant n'est partagé avec un autre SI, mais une ou plusieurs passerelles permettent des transferts bidirectionnels avec d'autres SI et potentiellement Internet.
+
+      Cette architecture convient aux entités dont le traitement de données sensibles n'est pas la part dominante de l'activité.
+
+      R5 prévoit deux SI physiquement cloisonnés, interconnectés par une passerelle bidirectionnelle conforme à l'II 901.
+
+   C. Le SI sensible sans SI usuel, de classe 1.
+
+      Données usuelles et sensibles sont hébergées dans un même SI, avec un cloisonnement logique au niveau réseau, système et applicatif, certains composants étant mutualisés.
+
+      Cette architecture convient aux entités dont le traitement de données sensibles constitue la part dominante de l'activité.
+
+      Le périmètre d'homologation s'étend alors aux ressources usuelles, qui doivent respecter l'II 901, et le cloisonnement logique est moins robuste qu'un cloisonnement physique.
+
+      R5 moins réserve cette architecture, en ultime recours, aux entités ayant un fort degré de maturité en sécurité des systèmes d'information.
+
+      R6 impose d'appliquer la défense en profondeur en cas de mutualisation, avec au moins deux barrières logiques robustes et complémentaires, par exemple des volumes logiques distincts complétés par le chiffrement des données sensibles.
+
+      R7 recommande fortement des annuaires distincts pour les ressources sensibles et usuelles.
+
+   D. Les critères de choix d'une architecture.
+
+      Le critère principal est le niveau de protection recherché, l'isolement physique offrant plus que le cloisonnement physique, lui-même supérieur au cloisonnement logique.
+
+      La maturité en sécurité de l'entité compte également, une architecture de classe 1 étant peu adaptée aux entités disposant de peu de personnes qualifiées, qui doivent préférer la classe 2.
+
+      Les besoins d'interconnexion, la quantité d'informations sensibles et d'autres facteurs comme les méthodes de travail ou les obligations réglementaires complètent l'analyse.
+
+      Tout échange avec un SI sensible doit être justifié par un besoin métier et limité au strict nécessaire, selon un principe de minimalité.
+
+IV. LES INTERCONNEXIONS DIRECTES DE SI SENSIBLES.
+
+   A. Les principes généraux.
+
+      Toute interconnexion doit être inventoriée et homologuée, les capacités de communication non contrôlées, par exemple celles des imprimantes multifonctions, doivent être désactivées, et le SI sensible doit faire l'objet d'une supervision de sécurité permanente.
+
+   B. L'interconnexion de deux SI sensibles.
+
+      R8 impose une homologation spécifique pour chaque interconnexion, avec une stratégie d'homologation commune si les SI relèvent de deux entités juridiques.
+
+      R9 impose de sécuriser les interconnexions de SI DR par des tunnels VPN garantissant confidentialité, intégrité, anti-rejeu et authentification mutuelle, avec des équipements agréés par l'ANSSI.
+
+      R10 recommande fortement les mêmes tunnels pour les SI sensibles, avec des équipements disposant d'un visa de sécurité.
+
+      Si les deux SI sont physiquement colocalisés et que l'analyse de risques le justifie, l'interconnexion peut ne pas être chiffrée.
+
+      R11 recommande que chaque entité filtre les flux en amont du chiffreur, côté noir, et en aval, côté rouge, avec des dispositifs qualifiés.
+
+   C. L'interconnexion d'un SI de classe 1 avec un SI de classe 0.
+
+      R12 recommande fortement d'appliquer au minimum le guide de l'ANSSI sur l'interconnexion d'un SI à Internet.
+
+      R13 impose, pour un SI DR, au moins un pare-feu qualifié au niveau standard en coupure de tous les flux avec le SI de classe 0, la DMZ étant encadrée par un pare-feu externe et un pare-feu interne.
+
+      R14 impose, pour un SI DR, un ou plusieurs dispositifs de rupture de flux, si possible qualifiés, placés entre deux pare-feux, aucun flux sortant ne devant être initié depuis le SI sensible sans transiter par un relais.
+
+      R15 impose un système de détection incluant une sonde qualifiée dans chaque passerelle de classe 1 d'un SI DR, un système de détection même non qualifié étant le minimum pour un SI sensible.
+
+      R16 recommande des taps passifs, non administrables à distance et qualifiés, la recopie de flux par miroir de port étant déconseillée.
+
+      R17 recommande que pare-feux, rupture de flux et sondes soient portés par des matériels physiquement distincts.
+
+      Le pare-feu externe de technologie A doit être qualifié au niveau standard, et le pare-feu interne doit être de technologie B, de préférence qualifié.
+
+   D. La navigation Web.
+
+      La navigation Web est impossible depuis un SI de classe 2, et R18 recommande de l'interdire depuis un SI de classe 1, un SI dédié devant alors la fournir.
+
+      R18 moins prévoit des postes de rebond dédiés, cloisonnés et de préférence non persistants, accessibles à distance depuis les postes sensibles.
+
+      R18 moins moins, solution plus risquée, autorise l'accès depuis les postes sensibles au travers de serveurs mandataires de préférence qualifiés.
+
+   E. Le transfert et la mise à disposition d'informations via Internet.
+
+      R19 impose de chiffrer avec des produits agréés DR les informations DR échangées via un SI de classe 0, et R20 impose de chiffrer les informations sensibles, de préférence avec un produit disposant d'un visa de sécurité.
+
+      Le chiffrement et le déchiffrement doivent impérativement être réalisés sur un SI sensible.
+
+      R21 interdit l'accès à une application sensible ou DR depuis un SI non homologué au niveau correspondant.
+
+      Deux architectures sont possibles, la réplication des seules informations non sensibles vers une instance exposée, ou une interconnexion de SI sensibles sans réplication.
+
+      R22 impose de cloisonner l'infrastructure de mise à disposition d'informations sensibles dans une DMZ au sein d'une passerelle de classe 1.
+
+   F. Les échanges sécurisés pour les utilisateurs.
+
+      Pour un SI de classe 2, les flux montants doivent passer par des dispositifs agréés garantissant l'unidirectionnalité, le plus souvent une diode optique.
+
+      R23 recommande, pour les flux descendants d'un SI de classe 2, des supports amovibles strictement encadrés plutôt qu'une interconnexion réseau fragile.
+
+      Pour un SI de classe 1, un système d'échanges sécurisés est recommandé, les flux étant initiés par les postes clients vers le système d'échanges.
+
+      R24 n'autorise que des protocoles de transfert, par exemple SSH limité à SCP ou SFTP, R25 restreint l'accès aux seuls utilisateurs autorisés, et R26 interdit de s'y authentifier avec un compte du SI sensible.
+
+      R27 impose une analyse de contenu de toutes les données échangées, et R28 impose leur traçabilité et leur imputabilité à un utilisateur identifié.
+
+V. LA SÉCURISATION AU SEIN DES SI SENSIBLES.
+
+   A. Les produits et prestataires de confiance.
+
+      R29 recommande fortement des prestataires disposant d'un visa de sécurité, la prestation s'effectuant de préférence depuis le territoire national, et le contrat devant imposer le respect de l'II 901 pour un SI DR.
+
+      L'hébergement de données sensibles dans un cloud public n'est envisageable qu'avec un prestataire qualifié SecNumCloud respectant l'II 901.
+
+      R30 impose d'utiliser les produits qualifiés lorsqu'ils existent, un produit qualifié étant préféré à un produit certifié, dans le périmètre de sa qualification et avec une qualification en cours de validité.
+
+      R31 impose de respecter les conditions d'emploi des produits agréés DR et d'en verser les preuves au dossier d'homologation.
+
+   B. Le chiffrement.
+
+      Le chiffrement adapté au niveau de sensibilité permet de stocker ou faire transiter une information par des ressources non homologuées, et l'II 901 impose des moyens agréés dès que des informations DR sortent d'une zone physiquement conforme.
+
+      Le chiffrement a de fortes implications organisationnelles, comme la création, le séquestre et le renouvellement des clés ou le recouvrement des données.
+
+   C. Le cloisonnement interne et le durcissement.
+
+      R32 impose de cloisonner le SI sensible en zones de confiance homogènes, par segmentation réseau et filtrage fin des flux.
+
+      R33 demande d'éviter les moyens sensibles dans les zones ouvertes au public, une extension devant être cloisonnée et le traitement y rester exceptionnel.
+
+      R34 impose une stratégie de blocage des communications latérales, par exemple par Private VLAN et pare-feu local sur chaque poste.
+
+      R35 impose de vérifier l'intégrité des matériels et logiciels et de durcir leur configuration avant mise en exploitation.
+
+   D. Le marquage.
+
+      R36 recommande fortement de marquer les fichiers et applications sensibles, les informations DR devant porter la mention DIFFUSION RESTREINTE, apposée au milieu en haut et en bas de chaque page.
+
+      Le marquage, visuel et destiné à l'humain, ne doit pas être confondu avec la labellisation, qui ajoute des métadonnées exploitables automatiquement.
+
+      R37 recommande de marquer les supports physiques, et R38 recommande un code couleur pour le câblage selon le niveau de sensibilité.
+
+   E. Les authentifiants et les droits d'accès.
+
+      Toute personne accédant au SI sensible doit disposer d'un compte individuel, avec des comptes distincts pour des rôles distincts, comme utilisateur et administrateur.
+
+      R39 impose une authentification initiale forte, multifacteur et à l'état de l'art, ses secrets devant être mémorisés et jamais stockés.
+
+      R40 recommande l'authentification unique pour les authentifications secondaires, en préférant les architectures SSO serveur comme Kerberos ou SAML aux SSO client, et un coffre-fort de mots de passe disposant d'un visa de sécurité.
+
+      R41 impose une procédure d'attribution des droits imputable, une affectation par groupes, la neutralisation et non la suppression des comptes en fin de vie, et une revue annuelle des droits par les responsables métier.
+
+   F. La protection contre les codes malveillants.
+
+      R42 impose des antivirus sur les serveurs applicatifs, les postes de travail et les moyens d'interconnexion, en diversifiant si possible les technologies.
+
+      Les mises à jour antivirales doivent être déployées sous 24 heures au maximum, et l'évaluation de réputation dans le cloud doit être désactivée.
+
+      R43 rappelle que l'antivirus peut être déconseillé sur un système très critique à surface d'attaque réduite, comme un serveur d'annuaire.
+
+      R44 recommande des outils révélant les activités suspectes, comme les HIDS, en premier lieu sur les postes de travail.
+
+   G. Les périphériques et supports amovibles.
+
+      R45 recommande de limiter les supports amovibles au strict besoin et de préférer les échanges par le réseau.
+
+      R46 impose une politique interdisant tout support personnel ou fourni par un tiers, les supports devant être fournis par l'entité, affectés à un seul utilisateur, chiffrés, rangés sous clé et toute perte déclarée au RSSI.
+
+      R47 recommande des supports en lecture seule, comme un CD-ROM ou un bloqueur USB, qui permettent l'importation sans exportation.
+
+      R48 recommande fortement un sas ou une station blanche pour dépolluer les supports fournis par un tiers ou d'innocuité douteuse.
+
+VI. LA SÉCURISATION DES POSTES DE TRAVAIL SENSIBLES.
+
+   A. La maîtrise et la connexion des postes.
+
+      Les logiciels et la configuration des postes sont sous le contrôle exclusif du responsable du SI sensible, et les hyperviseurs de type 2 sont interdits sauf accord.
+
+      R49 impose que les utilisateurs ne disposent pas de droits d'administration locaux et que les moyens confiés soient réservés à l'usage professionnel, l'II 901 interdisant les moyens personnels.
+
+      R50 recommande fortement un réseau physique dédié, et R50 moins un réseau logique protégé par IPsec.
+
+      R51 recommande fortement d'authentifier les ressources vis-à-vis du réseau, par exemple par 802.1X avec certificats ou par tunnel IPsec.
+
+   B. Les trois architectures de poste.
+
+      R52 recommande un poste sensible physiquement dédié, solution la plus sûre.
+
+      R52 moins admet un poste multiniveau par virtualisation ou conteneurisation, à condition que le cloisonnement soit réalisé au niveau système et évalué de confiance, comme dans le projet CLIP OS.
+
+      R52 moins moins admet un poste sensible accédant à distance au SI usuel, les fonctions d'échange comme le copier-coller ou le partage de périphériques étant désactivées.
+
+      L'architecture inverse, un poste usuel accédant à distance à un environnement sensible, est à proscrire, tout comme une machine virtuelle usuelle sur un poste sensible ou une machine virtuelle sensible sur un poste usuel.
+
+   C. Le nomadisme.
+
+      R53 impose d'appliquer le guide de l'ANSSI sur le nomadisme numérique.
+
+      Pour un SI de classe 1, le concentrateur VPN des nomades est hébergé dans la passerelle de classe 1 et distinct de celui du SI usuel.
+
+      R54 impose un câble antivol et un filtre de confidentialité pour chaque équipement nomade.
+
+      R55 impose des produits agréés DR pour le canal nomade d'un SI DR, et R56 recommande des produits disposant d'un visa de sécurité pour un SI sensible.
+
+      R57 et R58 imposent le chiffrement des données DR et sensibles stockées sur supports amovibles, avec des produits respectivement agréés DR ou disposant d'un visa.
+
+      R59 recommande fortement que tous les flux nomades passent par un tunnel VPN, que le pare-feu local bloque tout autre flux, que le split-tunneling soit désactivé et que la détection de posture, jugée peu fiable, ne soit pas utilisée.
+
+   D. Les réseaux sans fil.
+
+      Le réseau sans fil est considéré comme un réseau de transport qui n'est pas de confiance, car les ondes franchissent les barrières physiques.
+
+      R60 impose que les flux sans fil passent par un tunnel disposant d'un visa ou d'un agrément et par une passerelle nomade.
+
+      R61 impose de bloquer l'accès aux portails captifs publics depuis les équipements nomades sensibles.
+
+VII. L'ADMINISTRATION DES SI SENSIBLES.
+
+   A. Les généralités et les administrateurs.
+
+      R62 impose d'appliquer le guide de l'ANSSI sur l'administration sécurisée des SI.
+
+      Le SI d'administration est un sous-ensemble du SI sensible et doit être homologué au même niveau.
+
+      R63 impose une liste d'administrateurs limitée et validée par l'autorité d'homologation, et recommande une habilitation au secret de la défense nationale pour les administrateurs d'un SI DR aux privilèges étendus.
+
+   B. Le SI d'administration selon l'architecture.
+
+      Dans les architectures isolée et cloisonnée, deux SI d'administration distincts sont déployés, un poste d'administration unique restant possible en classe 1 si les serveurs outils sont dédiés par niveau.
+
+      Dans l'architecture sans SI usuel, les postes d'administration peuvent être mutualisés mais les outils d'administration sont dédiés par niveau.
+
+   C. L'administration à distance et la télémaintenance.
+
+      R64 impose des postes d'administration maîtrisés, un tunnel IPsec, un concentrateur dédié agréé ou disposant d'un visa, et la désactivation du split-tunneling.
+
+      R64 moins impose une analyse de risques spécifique pour la télémaintenance, avec par exemple une ouverture ponctuelle de l'accès.
+
+   D. Le maintien en condition de sécurité.
+
+      R65 recommande de déployer les mises à jour critiques sous une semaine et les autres sous quatre semaines, la cartographie et l'inventaire devant être tenus à jour.
+
+      R66 impose d'isoler du SI sensible les systèmes obsolètes conservés en production.
+
+   E. La journalisation et la supervision.
+
+      R67 impose d'appliquer le guide de l'ANSSI sur la journalisation, et R68 impose de conserver les journaux de sécurité pendant douze mois glissants.
+
+      R69 recommande fortement un PDIS qualifié, dont le SI de détection doit lui-même être homologué au niveau DR.
+
+      R70 impose une procédure de déclaration des incidents de sécurité à l'ANSSI.
+
+VIII. LES ANNEXES DU GUIDE.
+
+   A. Les différences juridiques entre informations DR et non DR.
+
+      En France, la mention Diffusion Restreinte n'est pas un niveau de classification mais une mention de protection, qui n'apporte pas la protection pénale du secret de la défense nationale mais expose à des sanctions disciplinaires.
+
+      Le transfert d'informations DR crée des obligations sans contrat préalable, alors que le transfert d'informations sensibles non DR suppose un contrat pour obliger le destinataire.
+
+      Les entités peuvent protéger leurs informations sensibles non DR par des mentions propres, comme DIFFUSION LIMITÉE ou CONFIDENTIEL INDUSTRIE.
+
+      Des informations DR peuvent en outre porter la mention Spécial France, réservant l'accès aux seuls ressortissants français selon l'article 65 de l'IGI 1300.
+
+   B. Les niveaux de sensibilité et les visas de sécurité.
+
+      L'II 901 est obligatoire pour les informations DR, recommandée pour les autres informations sensibles, et ne s'applique ni aux informations publiques ni aux informations classifiées.
+
+      Les informations EU Restricted et NATO Restricted sont des informations classifiées.
+
+      La certification atteste de la robustesse d'un produit évalué par un CESTI, selon la CSPN ou les Critères Communs de EAL 1 à EAL 7, sans recommandation d'usage par l'État.
+
+      La qualification est la recommandation par l'État d'un produit ou d'un service pour un usage donné, assortie d'une catégorie verte, orange ou rouge.
+
+      L'agrément atteste de l'aptitude d'un produit à protéger un niveau donné d'information, par exemple DR.
+
+POINTS D'ATTENTION.
+
+      Les informations DR ne peuvent être hébergées que sur un SI homologué DR, alors qu'une information sensible non DR peut l'être sur un SI homologué sensible ou DR.
+
+      Il ne faut pas confondre la classe 1, SI sensible relié à Internet par une passerelle conforme, et la classe 2, SI sensible physiquement isolé d'Internet.
+
+      Le SI sensible sans SI usuel est la moins sûre des trois architectures et reste réservé, en ultime recours, aux entités très matures.
+
+      Diffusion Restreinte est une mention de protection et non un niveau de classification, contrairement à EU Restricted et NATO Restricted.
+
+      Un utilisateur ne doit jamais s'authentifier sur le système d'échanges sécurisés avec un compte du SI sensible.
+
+      Un poste usuel ne doit jamais accéder à distance à un environnement sensible, seul le sens inverse étant toléré.
+
+      Les journaux de sécurité d'un SI sensible sont conservés douze mois glissants.
+
+EXEMPLES CITÉS.
+
+      Une échelle de confidentialité allant de C0 pour une information publique à C108, avec un seuil arbitraire C45 séparant informations usuelles et sensibles.
+
+      Un catalogue publicitaire de valeur de confidentialité nulle face à un secret de fabrication de valeur élevée.
+
+      Le projet CLIP OS de l'ANSSI comme exemple de poste multiniveau.
+
+      Les mentions DIFFUSION LIMITÉE, LIMITÉ SOCIÉTÉ, RESTREINT SOCIÉTÉ et CONFIDENTIEL INDUSTRIE comme exemples de mentions propres à une entité.
+
+      L'outil LAPS comme moyen de diversifier les mots de passe des comptes administrateurs locaux sous Windows.
