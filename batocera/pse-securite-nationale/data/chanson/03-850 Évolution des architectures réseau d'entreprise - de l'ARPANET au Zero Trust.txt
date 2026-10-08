@@ -1,0 +1,57 @@
+TITRE : Du hub au Zero Trust Riddim
+
+[Intro]
+Cinquante ans de câbles, de paquets et de routes
+Technique, budget, sécurité, écoute bien la route
+
+[Couplet 1]
+Soixante-neuf, ARPANET, les paquets prennent la mer
+L'IMP de BBN, c'est le routeur de grand-père
+Metcalfe au PARC en soixante-treize lance Ethernet
+Un coaxial partagé, CSMA/CD dans la tête
+Token Ring chez IBM fait tourner le jeton
+OSI sept couches, mais TCP/IP gagne le match pour de bon
+
+[Refrain]
+Du hub au switch, du switch au routeur
+Du château fort au Zero Trust, change de couleur
+Switch when you can, route when you must, c'était hier
+Aujourd'hui on vérifie chaque accès, sujet, contexte et ressource entière
+
+[Couplet 2]
+Années quatre-vingt-dix, le réseau plat, un slash seize par site
+Le switch casse les collisions mais le broadcast passe vite
+Spanning Tree bloque les boucles en trente secondes ou plus
+CIDR, NAT, RFC dix-neuf cent dix-huit, trois plages pas une de plus
+Quatre-vingt-dix-huit, 802.1Q, le VLAN tagué sur douze bits
+Quatre mille quatre-vingt-quatorze, Router-on-a-stick en goulot maudit
+
+[Refrain]
+Du hub au switch, du switch au routeur
+Du château fort au Zero Trust, change de couleur
+Switch when you can, route when you must, c'était hier
+Aujourd'hui on vérifie chaque accès, sujet, contexte et ressource entière
+
+[Couplet 3]
+Les années deux mille, le niveau trois dans l'ASIC à la vitesse du lien
+Active Directory sur le DNS, WINS ne sert plus à rien
+Un slash vingt-quatre par étage, cœur distribution accès
+HSRP, VRRP, PoE, VLAN voix et la QoS pour parler
+Slammer, Blaster, Conficker courent dans le réseau plat
+L'ANSSI naît en deux mille neuf, l'hygiène on n'oublie pas
+
+[Pont]
+Spine et leaf, VXLAN, seize millions de segments
+SDN sépare le contrôle du plan de données vraiment
+WannaCry, NotPetya, le loup est déjà dans la bergerie
+Private VLAN, micro-segmentation, le compta ne pingue plus la RH d'à côté, c'est fini
+
+[Refrain final]
+Du hub au switch, du switch au routeur
+Du château fort au Zero Trust, change de couleur
+Le Zero Trust c'est un modèle, pas un produit qu'on achète
+Il complète la défense en profondeur, garde-le bien en tête
+
+[Outro]
+Le goulot se déplace, du câble jusqu'à l'identité
+Adapte la topologie, demain va encore changer

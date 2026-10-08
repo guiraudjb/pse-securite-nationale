@@ -1,0 +1,480 @@
+ÉVOLUTION DES ARCHITECTURES RÉSEAU D'ENTREPRISE, DE L'ARPANET AU ZERO TRUST.
+
+
+LEXIQUE COMPLET.
+
+      LAN (Local Area Network) : réseau local d'un bâtiment ou d'un campus.
+
+      MAN (Metropolitan Area Network) : réseau reliant des sites à l'échelle d'une agglomération.
+
+      WAN (Wide Area Network) : réseau étendu reliant des sites distants, le plus souvent au moyen des services d'un opérateur.
+
+      ARPANET : premier réseau à commutation de paquets, mis en service en 1969 par l'ARPA, agence de recherche du ministère américain de la Défense.
+
+      IMP (Interface Message Processor) : petit ordinateur construit par BBN pour acheminer les messages d'ARPANET, ancêtre du routeur.
+
+      Commutation de paquets : technique qui découpe l'information en paquets acheminés indépendamment, plus résistante qu'un circuit réservé de bout en bout.
+
+      RFC (Request For Comments) : document ouvert qui consigne les normes de l'Internet, le premier datant de 1969.
+
+      CSMA/CD : méthode d'accès du premier Ethernet sur support partagé, qui détecte et gère les collisions.
+
+      Domaine de collision : ensemble des stations dont les émissions simultanées entrent en collision, réduit à un port par le commutateur.
+
+      Domaine de diffusion : ensemble des stations qui reçoivent une même trame de diffusion générale, limité par le routeur ou le VLAN.
+
+      Broadcast : diffusion générale d'une trame à toutes les stations d'un domaine de diffusion.
+
+      Token Ring : réseau local IBM normalisé IEEE 802.5, à jeton circulant, à 4 puis 16 mégabits par seconde, à accès déterministe.
+
+      FDDI : double anneau en fibre optique à 100 mégabits par seconde, utilisé comme dorsale de campus ou de réseau métropolitain.
+
+      X.25 : norme des réseaux publics de données à commutation de paquets, mise en œuvre en France par Transpac à partir de 1978.
+
+      RNIS : réseau numérique à intégration de services, Numéris en France depuis 1987, offrant des canaux numériques de 64 kilobits par seconde.
+
+      Modèle OSI : modèle de référence en sept couches publié par l'ISO en 1984 sous la norme ISO 7498.
+
+      Modèle DoD : modèle en quatre couches de TCP/IP, qui l'a emporté sur le terrain car implémenté, gratuit et intégré à Unix BSD.
+
+      Concentrateur (hub) : équipement qui répète les signaux sur tous ses ports, laissant la bande passante partagée et un seul domaine de collision.
+
+      Commutateur (switch) : équipement qui apprend les adresses MAC et ne transmet chaque trame que vers le port du destinataire.
+
+      ASIC : circuit intégré spécialisé qui traite les trames ou les paquets au niveau matériel, à très grande vitesse.
+
+      Spanning Tree (STP) : protocole IEEE 802.1D de 1990, conçu par Radia Perlman, qui élimine les boucles de niveau 2 en bloquant des ports.
+
+      Rapid Spanning Tree (RSTP) : évolution IEEE 802.1w de 2001 qui reconverge en moins d'une seconde.
+
+      CIDR : routage sans classe introduit en 1993 par les RFC 1518 et 1519, qui rend les classes d'adresses obsolètes.
+
+      NAT : traduction d'adresses introduite en 1994 par la RFC 1631, qui permet aux adresses privées de sortir sur Internet.
+
+      PAT : variante du NAT qui partage une seule adresse publique entre de nombreux postes grâce aux numéros de port.
+
+      RFC 1918 : texte de 1996 qui réserve trois plages d'adresses privées, 10.0.0.0/8, 172.16.0.0/12 et 192.168.0.0/16.
+
+      VLAN : réseau local virtuel qui découpe un même commutateur en plusieurs réseaux logiques étanches.
+
+      IEEE 802.1Q : norme de 1998 qui insère dans la trame une étiquette de 4 octets portant un identifiant de VLAN sur 12 bits, soit 4 094 VLANs utilisables.
+
+      Trunk : lien qui transporte plusieurs VLANs étiquetés.
+
+      Router-on-a-stick : routeur relié au commutateur par un seul trunk, avec une sous-interface par VLAN, goulot d'étranglement du trafic entre VLANs.
+
+      WINS : service Microsoft de résolution des noms NetBIOS d'un sous-réseau à l'autre.
+
+      Relais DHCP : fonction qui transmet les demandes DHCP vers un serveur situé dans un autre réseau.
+
+      Commutateur de niveau 3 : commutateur qui route les paquets IP en matériel, à la vitesse du lien.
+
+      Wire-speed : traitement à la vitesse nominale du lien, sans pénalité de performance.
+
+      Modèle hiérarchique : architecture en trois niveaux, cœur, distribution et accès.
+
+      HSRP et VRRP : protocoles de passerelle redondante, l'un propriétaire Cisco, l'autre standard de 1998, qui partagent une adresse de passerelle entre deux routeurs.
+
+      Agrégation de liens : regroupement de plusieurs câbles en un lien logique selon IEEE 802.3ad de 2000.
+
+      PoE (Power over Ethernet) : alimentation électrique des équipements par le câble réseau selon IEEE 802.3af de 2003.
+
+      QoS : qualité de service qui marque et priorise les flux sensibles au délai et à la gigue, par DiffServ au niveau IP et 802.1p au niveau Ethernet.
+
+      IEEE 802.1X : contrôle d'accès réseau par port de 2001, adossé à un serveur d'authentification RADIUS.
+
+      MPLS : technique normalisée en 2001 qui commute les paquets selon des étiquettes et sert de support aux VPN d'opérateurs.
+
+      IPsec : protocole de chiffrement normalisé en 1998, utilisé pour les VPN à travers Internet.
+
+      RIE : Réseau interministériel de l'État, qui fédère les réseaux des ministères, opéré par un service à compétence nationale.
+
+      Spine-leaf : architecture de centre de données dite de Clos où chaque commutateur d'accès est relié à tous les commutateurs de cœur.
+
+      Overlay : réseau logique superposé à un réseau physique sous-jacent.
+
+      VXLAN : encapsulation de trames Ethernet dans UDP normalisée en 2014 par la RFC 7348, avec un identifiant de segment sur 24 bits, soit environ 16 millions de segments.
+
+      SDN (Software-Defined Networking) : séparation du plan de contrôle, centralisé dans un contrôleur logiciel, et du plan de données, assuré par les équipements.
+
+      SD-WAN : réseau étendu piloté par logiciel qui choisit, pour chaque application, le meilleur chemin entre plusieurs accès.
+
+      SASE : modèle de 2019 qui regroupe dans le cloud les fonctions de sécurité réseau.
+
+      ZTNA : accès réseau Zero Trust qui donne accès à une application précise, et non à tout le réseau interne comme le VPN.
+
+      mDNS : protocole de découverte locale par multidiffusion, utilisé par Bonjour et les objets connectés.
+
+      Réflecteur mDNS : passerelle qui filtre et relaie les annonces mDNS d'un VLAN à l'autre selon une politique explicite.
+
+      Private VLAN : technique apparue dans les années 2000 qui empêche les postes d'un même VLAN de communiquer entre eux.
+
+      Micro-segmentation : isolement de chaque catégorie d'équipements, voire de chaque poste, en n'autorisant que les flux justifiés par un besoin métier.
+
+      Zero Trust : modèle de sécurité de l'accès aux ressources qui vérifie chaque accès selon le sujet, le contexte et la sensibilité de la ressource.
+
+
+COURS DÉTAILLÉ.
+
+
+I. UNE ÉQUATION À TROIS VARIABLES ET QUATRE ÉCHELLES DE LECTURE.
+
+
+   A. Les forces qui expliquent chaque architecture.
+
+
+      Chaque choix architectural a toujours été la réponse la plus rationnelle à une équation à trois variables : les contraintes techniques, matérielles et logicielles, les contraintes budgétaires, et les impératifs de sécurité.
+
+      Une quatrième force pèse sur les trois autres : les usages, car le courrier électronique, le web, la téléphonie sur IP, la mobilité, la virtualisation puis le cloud ont tour à tour changé ce que l'on attend du réseau.
+
+
+   B. Les trois échelles du réseau.
+
+
+      Le LAN est le réseau local d'un bâtiment ou d'un campus, le MAN relie des sites d'une même agglomération et le WAN relie des sites distants, le plus souvent par les services d'un opérateur.
+
+      Les évolutions de ces trois échelles se répondent, et le cours les suit en cinq périodes, des années 1970 à aujourd'hui.
+
+
+II. 1969 À 1989, LES FONDATIONS.
+
+
+   A. La commutation de paquets et TCP/IP.
+
+
+      En 1969, l'ARPA met en service ARPANET : le premier lien relie UCLA au Stanford Research Institute le 29 octobre 1969 et quatre nœuds sont actifs à la fin de l'année.
+
+      L'entreprise BBN construit les IMP, petits ordinateurs spécialisés dans l'acheminement des messages, qui sont les ancêtres des routeurs.
+
+      La commutation de paquets découpe l'information en paquets acheminés indépendamment, ce qui rend le réseau plus résistant qu'un circuit téléphonique réservé.
+
+      Les règles sont consignées dans des RFC, dont la première date de 1969, Vinton Cerf et Robert Kahn conçoivent TCP en 1973 et 1974, ARPANET bascule entièrement sur TCP/IP le 1er janvier 1983 et le DNS est mis en place en 1983 et 1984.
+
+
+   B. La naissance du réseau local.
+
+
+      Robert Metcalfe décrit Ethernet au Xerox PARC en 1973, le standard DIX paraît en 1980 et la norme IEEE 802.3 en 1983.
+
+      Ce premier Ethernet circule à 10 mégabits par seconde sur un câble coaxial partagé, en 10BASE5 puis 10BASE2, avec la méthode d'accès CSMA/CD, si bien que tout le segment forme un seul domaine de collision.
+
+      Token Ring, promu par IBM et normalisé IEEE 802.5, fait circuler un jeton à 4 puis 16 mégabits par seconde, avec un accès déterministe sans collision.
+
+      FDDI, double anneau en fibre optique à 100 mégabits par seconde, sert de dorsale de campus et de réseau métropolitain, domaine que vise aussi la norme IEEE 802.6.
+
+
+   C. Une informatique centralisée et des réseaux fermés.
+
+
+      Le grand système domine, avec des terminaux passifs reliés par des architectures propriétaires comme SNA chez IBM, et le réseau sert surtout à transporter des écrans de saisie.
+
+      Les sites distants sont reliés par des liaisons spécialisées louées ou par des réseaux X.25, comme Transpac en France à partir de 1978, support du Minitel dès 1982, puis par le RNIS Numéris à partir de 1987.
+
+      La sécurité est d'abord physique, mais le ver Morris de novembre 1988 paralyse une part importante des quelque 60 000 machines reliées à Internet et révèle que l'interconnexion propage aussi les attaques.
+
+
+   D. La guerre des modèles.
+
+
+      L'ISO publie en 1984 le modèle OSI à sept couches, soutenu par les opérateurs et les États, tandis que le modèle DoD de TCP/IP ne compte que quatre couches.
+
+      TCP/IP l'emporte sur le terrain parce qu'il est implémenté, gratuit et intégré à Unix BSD, et le modèle OSI reste la grille de lecture pédagogique.
+
+      L'état de l'art des années 1980 se résume ainsi : un ordinateur central, des terminaux, un bus coaxial partagé où chaque poste entend tout, et un réseau étendu cher, lent et opéré par l'opérateur historique.
+
+
+III. LES ANNÉES 1990, LES RÉSEAUX PLATS ET LA COMMUTATION SOUVERAINE.
+
+
+   A. Du concentrateur au commutateur.
+
+
+      En 1990, la norme 10BASE-T fait passer Ethernet sur paire torsadée en étoile autour d'un concentrateur, qui répète les signaux sur tous ses ports et laisse un seul domaine de collision.
+
+      Le premier commutateur Ethernet apparaît la même année : il apprend les adresses MAC, traite les trames en matériel grâce à des ASIC et fait de chaque port un domaine de collision distinct.
+
+      Le commutateur laisse cependant passer les diffusions générales, si bien que tous les postes restent dans un même domaine de diffusion.
+
+      Les débits progressent avec Fast Ethernet à 100 mégabits par seconde en 1995 et Gigabit Ethernet en 1998.
+
+
+   B. Le routeur logiciel et la boucle de niveau 2.
+
+
+      Le routeur reste un ordinateur spécialisé dont le processeur central doit analyser chaque paquet, consulter la table de routage et recalculer la somme de contrôle, ce qui le rend lent.
+
+      Relier deux commutateurs par deux chemins crée une boucle où une diffusion tourne indéfiniment, et le Spanning Tree de 1990 élimine ces boucles en bloquant des ports, au prix de liens inutilisés et d'une reconvergence de 30 à 50 secondes.
+
+      Les protocoles de l'époque, NetBIOS et NetBEUI chez Microsoft, IPX/SPX chez Novell, AppleTalk chez Apple, reposent largement sur la diffusion générale pour annoncer les serveurs et découvrir les postes.
+
+
+   C. Le dogme budgétaire et la crise des adresses.
+
+
+      Un port de routeur coûte des milliers de dollars pour un débit très inférieur à celui d'un commutateur, d'où la maxime commuter quand on le peut, ne router que lorsqu'on y est obligé.
+
+      L'adressage obéit aux classes de 1981, la classe A en /8, la classe B en /16 avec 65 534 adresses utilisables et la classe C en /24 avec 254 adresses, et les entreprises adressent souvent leurs postes en adresses publiques.
+
+      La crainte de l'épuisement d'IPv4 produit trois réponses rapides, CIDR en 1993, le NAT en 1994 et les adresses privées, publiées en 1994 puis consolidées en 1996 par la RFC 1918, ainsi qu'une réponse de long terme, IPv6, spécifié entre 1995 et 1998.
+
+
+   D. Le réseau étendu et la sécurité des années 1990.
+
+
+      Les entreprises passent des liaisons louées au relais de trames, moins cher car mutualisé, et gardent le RNIS pour le secours.
+
+      ATM découpe tout en cellules fixes de 53 octets et promet une qualité de service garantie pour la voix, la vidéo et les données, mais il reste cantonné au cœur des réseaux d'opérateurs et à quelques dorsales de campus, Ethernet l'emportant jusqu'au poste.
+
+      La sécurité suit le modèle du château fort : un pare-feu périmétrique contre une menace supposée extérieure, et une circulation libre à l'intérieur.
+
+      Le pare-feu évolue du simple filtre de paquets de la fin des années 1980 à la passerelle applicative, puis à l'inspection avec suivi d'état à partir de 1994, et les serveurs exposés sont isolés dans une zone démilitarisée.
+
+      L'état de l'art des années 1990 consiste à déployer des réseaux plats immenses, par exemple une classe B complète en /16 pour un site entier, en acceptant les tempêtes de broadcast pour éviter le goulot d'étranglement du routeur central.
+
+
+IV. FIN DES ANNÉES 1990 ET DÉBUT DES ANNÉES 2000, LE VLAN ET L'ILLUSION DU CONTRÔLE.
+
+
+   A. Le VLAN et les adresses privées.
+
+
+      Le VLAN découpe un même commutateur et un même câble en plusieurs réseaux logiques étanches, et la norme IEEE 802.1Q de 1998 unifie les solutions propriétaires antérieures comme ISL chez Cisco.
+
+      L'étiquette 802.1Q de 4 octets porte un identifiant de VLAN sur 12 bits, soit 4 096 valeurs dont 4 094 utilisables, et les liens qui transportent plusieurs VLANs s'appellent des trunks.
+
+      Les trois plages privées de la RFC 1918 ne sont pas routées sur Internet et ne sont utilisables que grâce au NAT et au PAT, mais le réseau 10.0.0.0/8, avec près de 16,8 millions d'adresses, lève toute contrainte de pénurie dans l'entreprise.
+
+
+   B. Le Router-on-a-stick et les rustines.
+
+
+      Pour que deux VLANs communiquent, il faut un routeur, et le modèle Router-on-a-stick fait passer tout le trafic entre VLANs par un trunk unique, à la fois goulot d'étranglement et point unique de panne.
+
+      Segmenter casse les protocoles fondés sur la diffusion, car un routeur ne transmet pas le broadcast, d'où les serveurs WINS pour les noms NetBIOS et les relais DHCP pour l'attribution des adresses.
+
+      Les premiers commutateurs capables de router en matériel apparaissent à la fin des années 1990 mais restent chers, si bien que l'on limite encore le routage.
+
+
+   C. L'ouverture à Internet et l'arrivée du sans-fil.
+
+
+      L'ADSL arrive en France vers 1999 et 2000, et les VPN chiffrés par IPsec, normalisé en 1998, relient sites et nomades à travers Internet.
+
+      MPLS, normalisé en 2001, commute les paquets selon des étiquettes et permet aux opérateurs d'offrir des VPN d'entreprise qui remplacent progressivement le relais de trames et ATM.
+
+      La norme Wi-Fi 802.11 date de 1997 et le 802.11b à 11 mégabits par seconde de 1999, mais son premier chiffrement, le WEP, est cassé dès 2001.
+
+
+   D. Les prémices de la segmentation.
+
+
+      On commence à isoler l'administration de la production et les serveurs des postes, mais la sécurité cède encore le pas à la performance, et les sondes de détection d'intrusion se diffusent.
+
+      Les vers ILOVEYOU en 2000, Code Red et Nimda en 2001, puis SQL Slammer en janvier 2003, qui infecte la quasi-totalité des serveurs vulnérables en une dizaine de minutes, montrent la fragilité des réseaux internes ouverts.
+
+      L'état de l'art est un compromis : on segmente avec des masques moyens, fréquemment des /20 d'environ 4 000 adresses à des /18 d'environ 16 000 adresses par bâtiment ou par direction, ces valeurs étant des ordres de grandeur et non une règle.
+
+
+V. LES ANNÉES 2000 À 2015, LA RÉVOLUTION DE L'ASIC ET L'ÂGE D'OR DU ROUTAGE.
+
+
+   A. Le routage à la vitesse du lien et les annuaires.
+
+
+      Le commutateur de niveau 3 intègre le routage IP dans le silicium, si bien que le passage d'un VLAN à l'autre se fait à la vitesse du lien, et OSPF, dont la version 2 est normalisée en 1998, se répand à l'intérieur des entreprises.
+
+      Active Directory, lancé par Microsoft en 2000, s'appuie sur le DNS : les postes interrogent un annuaire central en unicast au lieu de crier sur le réseau, et WINS décline.
+
+      Le broadcast ne disparaît pas, car ARP et DHCP en ont toujours besoin, mais il cesse d'être le mode normal de découverte, tandis qu'IPX et AppleTalk s'éteignent au profit du seul TCP/IP.
+
+
+   B. La redondance et la banalisation du gigabit.
+
+
+      Le Rapid Spanning Tree de 2001 reconverge en moins d'une seconde, l'agrégation de liens de 2000 additionne plusieurs câbles en un lien logique, et HSRP ou VRRP font partager une même adresse de passerelle à deux routeurs.
+
+      Le routage ne coûte plus rien : un commutateur de distribution de quelques milliers d'euros route des millions de paquets par seconde, le Gigabit arrive au poste et le 10 Gigabit Ethernet de 2002 équipe les dorsales.
+
+
+   C. La convergence voix, données et images.
+
+
+      La téléphonie sur IP remplace les autocommutateurs et impose l'alimentation par le câble réseau, le PoE de 2003, un VLAN voix séparé du VLAN données et une qualité de service qui priorise les flux sensibles au délai et à la gigue.
+
+
+   D. Le sans-fil sécurisé et le centre de données virtualisé.
+
+
+      Le Wi-Fi devient sûr avec WPA en 2003 et WPA2 en 2004, et le contrôle d'accès 802.1X de 2001, adossé à RADIUS, vérifie qui se connecte en filaire comme en sans-fil, les bornes étant pilotées par des contrôleurs centralisés.
+
+      La virtualisation fait héberger des dizaines de machines virtuelles par serveur, reliées par des commutateurs virtuels, et le stockage passe sur des réseaux SAN en Fibre Channel ou en iSCSI, normalisé en 2004.
+
+      L'extension des VLANs entre hyperviseurs pour déplacer les machines virtuelles à chaud fait revenir de grands domaines de niveau 2 dans le centre de données, et le cloud public naît en 2006.
+
+
+   E. Le réseau étendu, le RIE et la fin du stock IPv4.
+
+
+      Les VPN MPLS des opérateurs deviennent le standard du réseau étendu, et l'Ethernet opérateur, la fibre noire et le multiplexage en longueur d'onde équipent les réseaux métropolitains.
+
+      Dans l'administration, le Réseau interministériel de l'État fédère les réseaux ministériels et dispose d'un centre de supervision et d'un centre opérationnel de sécurité.
+
+      L'IANA distribue ses derniers blocs IPv4 le 3 février 2011, le RIPE NCC épuise son stock en novembre 2019 et IPv6 entre progressivement en production.
+
+
+   F. L'isolation fonctionnelle.
+
+
+      Blaster en 2003, Sasser en 2004 et Conficker en 2008, qui exploite une faille du service serveur de Windows, les partages réseau et les clés USB, montrent qu'un réseau plat permet une propagation fulgurante.
+
+      Les pare-feux internes, les listes de contrôle d'accès entre VLANs et les pare-feux de nouvelle génération, qui reconnaissent les applications au-delà des ports, se généralisent.
+
+      L'ANSSI est créée par le décret du 7 juillet 2009 et son guide d'hygiène informatique de 2013 formalise 40 règles, devenues 42 mesures en 2017.
+
+      L'iPhone de 2007 et l'arrivée des équipements personnels multiplient les terminaux non maîtrisés sur les réseaux sans fil, ce qui renforce le besoin de cloisonner.
+
+      L'état de l'art des années 2010 inverse la bonne pratique : on détruit les grands domaines de diffusion, le sous-réseau en /24 de 254 hôtes devient la norme de fait, on applique le modèle cœur, distribution et accès, on crée un VLAN par étage, par service ou par type d'équipement, on route au plus près de l'utilisateur et l'on double chaque équipement de cœur.
+
+      Un /24 découpé dans 10.0.0.0/8 n'est pas une classe C, car depuis CIDR seul le masque compte.
+
+
+VI. L'ÉPOQUE CONTEMPORAINE, FABRICS, SDN ET ZERO TRUST.
+
+
+   A. La virtualisation du réseau lui-même.
+
+
+      Les liens à 10, 25, 40 et 100 gigabits par seconde sont courants, et dans les centres de données l'architecture spine-leaf, entièrement routée avec tous les liens actifs, remplace l'arbre à trois niveaux.
+
+      VXLAN, normalisé en 2014, encapsule les trames Ethernet dans UDP et code l'identifiant de segment sur 24 bits, soit environ 16 millions de segments contre 4 094 VLANs, avec un plan de contrôle BGP EVPN depuis 2015.
+
+      Le SDN, né autour d'OpenFlow en 2008, sépare le plan de contrôle centralisé dans un contrôleur logiciel du plan de données assuré par les équipements, et l'adresse IP n'est plus liée à une prise murale.
+
+      Le BYOD et les objets connectés réintroduisent des protocoles de découverte locale comme mDNS et Bonjour, fondés sur la multidiffusion limitée au lien local, que des réflecteurs relaient d'un VLAN à l'autre selon une politique explicite.
+
+      Le Wi-Fi devient le réseau d'accès principal avec le Wi-Fi 6, certifié à partir de 2019, et le chiffrement WPA3 de 2018.
+
+
+   B. Le réseau étendu se dissout dans Internet et le cloud.
+
+
+      La migration des applications vers le cloud et le télétravail généralisé de 2020 déplacent les flux hors du réseau interne.
+
+      Le SD-WAN, apparu au milieu des années 2010, pilote par logiciel plusieurs accès, MPLS, fibre Internet, 4G ou 5G, et choisit le meilleur chemin pour chaque application.
+
+      Le modèle SASE de 2019 regroupe dans le cloud les fonctions de sécurité réseau, et le ZTNA remplace progressivement le VPN qui donnait au nomade un accès à tout le réseau interne.
+
+      Le budget matériel stagne tandis que les dépenses se déplacent vers le logiciel et l'abonnement, et la compétence humaine devient le premier coût.
+
+
+   C. La fin du château fort.
+
+
+      Les rançongiciels prouvent que l'ennemi est souvent déjà à l'intérieur, entré par hameçonnage, par une clé USB, par un prestataire ou par un accès distant mal protégé.
+
+      WannaCry en mai 2017 et NotPetya en juin 2017 se propagent latéralement par le partage de fichiers Windows SMB et paralysent des organisations entières.
+
+      Les attaquants visent le cœur de confiance, à commencer par l'annuaire Active Directory, pour prendre le contrôle de tout le système d'information.
+
+
+   D. Le modèle Zero Trust.
+
+
+      Le Zero Trust est formulé par le cabinet Forrester en 2010, mis en œuvre par Google dans BeyondCorp en 2014 et décrit par le NIST dans la publication SP 800-207 en 2020.
+
+      Selon l'avis de l'ANSSI de 2021, ce n'est ni une technologie ni un produit mais un modèle de sécurité de l'accès aux ressources, qui réutilise l'authentification systématique, le moindre privilège et la micro-segmentation.
+
+      Chaque accès est décidé dynamiquement selon le sujet qui demande l'accès, le contexte de l'accès, notamment l'état de sécurité du poste, et la sensibilité de la ressource demandée.
+
+      Le Zero Trust complète la défense en profondeur et le cloisonnement sans les remplacer, et son adoption doit être progressive et maîtrisée, faute de quoi elle affaiblit le système d'information en donnant un faux sentiment de sécurité.
+
+
+   E. La micro-segmentation et les fondamentaux de l'ANSSI.
+
+
+      La micro-segmentation combine les Private VLAN, qui empêchent les postes d'un même VLAN de communiquer, les pare-feux internes et les politiques de filtrage limitées au strict besoin, le contrôle d'accès 802.1X selon l'identité, les pare-feux des postes et la segmentation au niveau de l'hyperviseur.
+
+      L'ANSSI rappelle des fondamentaux valables à toute époque : cloisonner selon une analyse de risque, dédier un système d'information d'administration aux administrateurs, maîtriser l'interconnexion avec Internet par des passerelles filtrantes et sécuriser les protocoles d'infrastructure comme TLS, IPsec et BGP.
+
+      L'état de l'art actuel est la micro-segmentation guidée par l'identité : un poste comptable ne doit plus pouvoir envoyer un ping à un poste RH voisin, faute de besoin métier, l'administration passe par un réseau dédié, l'accès distant par une vérification à chaque connexion et la supervision par une journalisation centralisée.
+
+
+VII. LES LEÇONS DE CINQUANTE ANS D'ARCHITECTURE.
+
+
+   A. La taille d'un réseau n'est jamais une vérité absolue.
+
+
+      En 1985, partager un câble coaxial entre tous les postes d'un étage était la seule solution économique.
+
+      En 1995, configurer un /16 pour 10 000 agents était une nécessité matérielle, car le routage était lent et cher.
+
+      En 2010, découper ces 10 000 agents en quarante VLANs en /24 était une optimisation de performance et un premier rempart contre les vers.
+
+      Aujourd'hui, isoler chaque agent de ses voisins et vérifier chaque accès selon l'identité et le contexte est un impératif de survie face aux rançongiciels.
+
+
+   B. Trois constantes.
+
+
+      Chaque progrès matériel déplace le goulot d'étranglement, du support partagé au routeur, du routeur au pare-feu, puis du pare-feu à l'identité.
+
+      Chaque segmentation casse un mécanisme de découverte qu'il faut réparer par un relais, WINS hier et les réflecteurs mDNS aujourd'hui.
+
+      La sécurité se déplace du périmètre vers chaque ressource, et l'ingénierie réseau reste l'art d'adapter la topologie d'aujourd'hui aux contraintes de demain.
+
+
+POINTS D'ATTENTION.
+
+      La norme 802.1Q de 1998 normalise le VLAN mais ne l'invente pas, des solutions propriétaires comme ISL existant auparavant.
+
+      Les adresses privées de la RFC 1918 ne sont pas illimitées : il existe trois plages, et elles ne sortent sur Internet que grâce au NAT.
+
+      Un /24 n'est pas une classe C : depuis CIDR en 1993, seul le masque compte.
+
+      Le commutateur sépare les domaines de collision mais pas les domaines de diffusion, que seuls le routeur et le VLAN limitent.
+
+      Le broadcast n'a pas disparu avec Active Directory, car ARP et DHCP en ont toujours besoin.
+
+      La norme 802.1Q limite le nombre de VLANs à 4 094, ce qui justifie VXLAN et ses 16 millions de segments dans les grands centres de données.
+
+      Les Private VLAN datent des années 2000 et ne sont pas une invention contemporaine.
+
+      Le Zero Trust ne se réduit pas à la micro-segmentation : il repose d'abord sur la vérification de l'identité et du contexte à chaque accès.
+
+      Le Zero Trust complète la défense en profondeur et le cloisonnement, il ne les remplace pas.
+
+      Les tailles de sous-réseau citées pour chaque époque sont des ordres de grandeur observés, pas des règles normatives.
+
+      Le Spanning Tree classique reconverge en 30 à 50 secondes, le Rapid Spanning Tree en moins d'une seconde.
+
+      ATM n'a jamais atteint le poste de travail, où Ethernet l'a emporté par sa simplicité et son coût.
+
+
+EXEMPLES CITÉS.
+
+      Le premier lien d'ARPANET entre UCLA et le Stanford Research Institute le 29 octobre 1969.
+
+      Le réseau Transpac ouvert en 1978, support du Minitel à partir de 1982.
+
+      Le ver Morris de novembre 1988.
+
+      La maxime switch when you can, route when you must.
+
+      Une classe B complète en /16, soit 65 534 adresses, attribuée à un site entier dans les années 1990.
+
+      Les plages privées 10.0.0.0/8, 172.16.0.0/12 et 192.168.0.0/16.
+
+      Le serveur WINS de Microsoft et la fonction helper-address des routeurs pour le relais DHCP.
+
+      Les vers ILOVEYOU, Code Red, Nimda, SQL Slammer, Blaster, Sasser et Conficker.
+
+      Les rançongiciels WannaCry et NotPetya de 2017.
+
+      Le Chromecast et l'Apple TV comme objets connectés à découvrir par mDNS.
+
+      Le projet BeyondCorp de Google et la publication NIST SP 800-207.
+
+      Le poste comptable qui ne doit pas pouvoir envoyer un ping au poste RH voisin.
+
+      Les 10 000 agents en /16 en 1995, en quarante VLANs en /24 en 2010, puis isolés un par un aujourd'hui.
