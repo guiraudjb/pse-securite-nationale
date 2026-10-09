@@ -27,6 +27,7 @@ COURS DÉTAILLÉ.
 I. GOUVERNANCE ET PILOTAGE STRATÉGIQUE.
 
    A. Définition de la stratégie et des moyens.
+      Ces objectifs sont tirés de l'édition du vingt-sept février deux mille quatorze du plan Vigipirate. Depuis, la directive NIS deux et sa transposition en droit français, la refonte de l'IGI treize cents en deux mille vingt et un et la méthode EBIOS Risk Manager de deux mille dix-huit ont fait évoluer ce cadre.
 
       La direction de l'entité doit définir et piloter une stratégie de cybersécurité qui prend en compte l'ensemble des enjeux de l'organisation.
 
@@ -154,7 +155,7 @@ IV. GESTION DES INCIDENTS ET CONTINUITÉ DE SERVICE.
 
    A. Préparation et détection des événements.
 
-      L'entité doit mettre en place une chaîne opérationnelle de gestion des incidents pour limiter l'impact des attaques. Elle peut sous-traiter certaines parties de cette chaîne à des partenaires de confiance labellisés par l'ANSSI.
+      L'entité doit mettre en place une chaîne opérationnelle de gestion des incidents pour limiter l'impact des attaques. Elle peut sous-traiter certaines parties de cette chaîne à des partenaires de confiance labellisés par l'ANSSI, aujourd'hui des prestataires qualifiés, comme les PRIS pour la réponse aux incidents.
 
       La collecte des événements de sécurité repose sur la disponibilité de traces et d'éléments clés comme les journaux. Ces éléments doivent couvrir les systèmes d'information avec une granularité adaptée et être centralisés par site ou par regroupement de sites.
 
@@ -190,7 +191,7 @@ V. ÉVALUATION DE LA SÉCURITÉ ET RELATIONS AVEC LES AUTORITÉS.
 
       L'entité doit réaliser régulièrement des vérifications et des audits pour constater l'écart entre ses référentiels de sécurité et l'état réel de ses processus et de ses systèmes. Elle établit des référentiels correspondant au niveau de sécurité recherché et audite fréquemment la configuration de ses annuaires centraux comme l'Active Directory ou l'annuaire LDAP.
 
-      Les audits permettent d'évaluer la sécurité par rapport à l'état de l'art et d'identifier des vulnérabilités exploitables par un attaquant. L'entité peut faire appel à des prestataires d'audit labellisés par l'ANSSI pour mener ces évaluations sur la configuration ou l'architecture du système.
+      Les audits permettent d'évaluer la sécurité par rapport à l'état de l'art et d'identifier des vulnérabilités exploitables par un attaquant. L'entité peut faire appel à des prestataires d'audit labellisés, aujourd'hui qualifiés PASSI, par l'ANSSI pour mener ces évaluations sur la configuration ou l'architecture du système.
 
       Lors de ces contrôles, l'entité recherche activement des traces de compromission ou des indices d'intrusion dans les journaux de l'antivirus, du pare-feu, des serveurs ou des postes de travail. Elle traque également des marqueurs spécifiques tels que des noms de fichiers ou des domaines DNS malveillants.
 
@@ -234,4 +235,4 @@ EXEMPLES CITÉS.
 
       Pour la protection du secret, l'entité doit se référer à l'instruction générale interministérielle sur la protection du secret de la défense nationale appelée IGI mille trois cents.
 
-      La gestion des incidents peut faire appel à des partenaires de confiance qui sont labellisés par l'ANSSI.
+      La gestion des incidents peut faire appel à des partenaires de confiance qualifiés par l'ANSSI, le document de deux mille quatorze parlant de prestataires labellisés.

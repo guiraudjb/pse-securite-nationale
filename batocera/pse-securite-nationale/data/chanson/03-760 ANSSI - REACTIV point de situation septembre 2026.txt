@@ -8,11 +8,11 @@ Pour la cyberdéfense, on a trouvé le bon mix
 Le premier septembre le Premier ministre a commandé
 L'opération REACTIV pour nous protéger
 Depuis le premier août quatre-vingt-dix-neuf violations
-Soixante-sept sont confirmées dans toutes les nations
+Soixante-sept sont confirmées dans les services de la nation
 Trente-deux sont en cours de traitement par l'Agence
 Face aux infostealers et à leur grande menace
 L'injection SQL sur Metabase est le grand danger
-La CVE deux mille vingt-six soixante-douze mille deux cent quatre-vingt-dix-huit fait trembler
+La CVE deux mille vingt-six soixante-douze mille huit cent quatre-vingt-dix-huit fait trembler
 
 [Refrain]
 Réponse et Action face aux violations de données

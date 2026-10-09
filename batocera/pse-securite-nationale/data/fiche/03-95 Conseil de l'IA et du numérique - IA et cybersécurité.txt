@@ -20,7 +20,7 @@ LEXIQUE COMPLET.
 
       L'INESIA désigne l'Institut national pour l'évaluation et la sécurité de l'IA.
 
-      Le terme NIS2 désigne une directive européenne associée à des référentiels généraux de sécurité.
+      Le terme NIS2 désigne la directive européenne deux mille vingt-deux/deux mille cinq cent cinquante-cinq, qui impose des obligations de cybersécurité aux entités essentielles et importantes.
 
 COURS DÉTAILLÉ.
 
@@ -216,7 +216,7 @@ EXEMPLES CITÉS.
 
       Le modèle Mythos développé par Anthropic possède une forte capacité à exploiter des failles dans les logiciels et les systèmes d'exploitation.
 
-      Anthropic, le jugeant trop efficace pour être diffusé, n'a partagé ce modèle qu'avec quarante acteurs quasi exclusivement américains, dont J.P. Morgan, Nvidia, Amazon, Apple ou Chase Bank.
+      Anthropic, le jugeant trop efficace pour être diffusé, n'a partagé ce modèle qu'avec quarante acteurs quasi exclusivement américains, dont JPMorgan Chase, que la note cite deux fois sous deux noms, Nvidia, Amazon ou Apple.
 
       OpenAI a lancé le quatorze avril GPT cinq point quatre Cyber, un modèle qui semble moins performant que Mythos.
 
