@@ -1,0 +1,235 @@
+FEUILLE DE ROUTE DE LA SÉCURITÉ NUMÉRIQUE DE L'ÉTAT POUR LA PÉRIODE DEUX MILLE VINGT-SIX DEUX MILLE VINGT-SEPT, DIX OBJECTIFS ET LEURS ACTIONS POUR LES MINISTÈRES.
+
+LEXIQUE COMPLET.
+
+      L'instruction générale interministérielle numéro mille trois cent trente-sept, dite IGI mille trois cent trente-sept SGDSN ANSSI, organise la sécurité des systèmes d'information de l'État et de ses établissements publics et prévoit une feuille de route annuelle.
+
+      Le COSINUS, comité stratégique de la sécurité numérique, valide la feuille de route, qui fait ensuite l'objet d'une concertation interministérielle.
+
+      La directive NIS deux, directive de l'Union européenne deux mille vingt-deux deux mille cinq cent cinquante-cinq, inclut dans son article deux les administrations publiques parmi les entités régulées et fixe ses objectifs de sécurité dans ses articles vingt et vingt et un.
+
+      Un système d'information à enjeux soutient les missions essentielles du ministère ou traite des données sensibles, et il est sélectionné selon une évaluation des besoins de sécurité et des impacts potentiels d'un incident.
+
+      Le décret deux mille dix-neuf mille quatre-vingt-huit du vingt-cinq octobre deux mille dix-neuf porte sur le système d'information et de communication de l'État et sur la direction interministérielle du numérique.
+
+      L'homologation de sécurité est l'obligation, prévue à l'article quatre-trois de ce décret, de faire valider la sécurité des infrastructures et services logiciels de l'État avant leur mise en œuvre.
+
+      L'arrêté du trente et un juillet deux mille vingt-cinq fixe les dispenses d'homologation de sécurité de certaines composantes du système d'information de l'État.
+
+      Le maintien en condition de sécurité regroupe l'installation des correctifs, le traitement des alertes et la réduction de l'obsolescence.
+
+      Le DNS, Domain Name System, est le système de résolution des noms de domaine, cible privilégiée des attaquants avec la messagerie.
+
+      Le Zéro Trust est une démarche de sécurité qui vérifie systématiquement l'identité, l'authentification et les droits avant tout accès, préconisée pour les entités les plus matures.
+
+      ProConnect est le mécanisme de fédération des identités des services numériques de l'État, qui remplace les comptes locaux et permet une révocation homogène des accès.
+
+      L'indicateur ADS mesure le niveau de sécurité des annuaires Active Directory, le niveau trois assurant la protection contre les vulnérabilités connues.
+
+      Un EDR ou un XDR est un dispositif avancé de détection et de réponse aux attaques sur les postes de travail et les serveurs.
+
+      Un CSIRT ministériel est un centre d'alerte et de réaction aux cyberattaques d'un ministère, mis en réseau avec le CERT-FR, centre de réponse à incident national et gouvernemental porté par l'ANSSI.
+
+      Le projet TEMPO, financé par le plan France Relance, a complété la couverture des ministères par un réseau de CSIRT ministériels.
+
+      La DNUM désigne la direction du numérique d'un ministère, avec laquelle la chaîne de sécurité des systèmes d'information doit s'articuler.
+
+      La cryptographie post-quantique regroupe les algorithmes qui résistent aux capacités de calcul d'un futur ordinateur quantique capable de casser les mécanismes actuels.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE DE LA FEUILLE DE ROUTE.
+
+   A. Origine et validation.
+
+      La feuille de route de la sécurité numérique de l'État est prévue par l'IGI mille trois cent trente-sept, établie chaque année, validée en COSINUS puis par une concertation interministérielle.
+
+      La feuille de route deux mille vingt-cinq deux mille vingt-six préparait la mise en conformité des administrations de l'État avec la directive NIS deux, et la plupart de ses objectifs rejoignaient les articles vingt et vingt et un de cette directive.
+
+      Une priorité était donnée aux systèmes d'information à enjeux des ministères.
+
+   B. Pourquoi une nouvelle feuille de route.
+
+      Les multiples intrusions et fuites de données qui ont touché en deux mille vingt-cinq les ministères et leurs établissements sous tutelle montrent la persistance de vulnérabilités graves.
+
+      La feuille de route deux mille vingt-six deux mille vingt-sept reprend les actions de la précédente en tenant compte des contraintes budgétaires, affermit certaines échéances et ajoute la préparation à la cryptographie post-quantique.
+
+      Dans un contexte de hausse de la menace et de situation géopolitique dégradée, les échéances doivent être tenues, avec un pilotage renforcé et une priorisation de certaines actions.
+
+II. RENFORCER LA GOUVERNANCE.
+
+   A. Un suivi au plus haut niveau.
+
+      L'IGI mille trois cent trente-sept doit être pleinement appliquée, ce qui suppose un suivi de la cybersécurité au plus haut niveau et un pilotage par chaque ministère des établissements publics sous sa tutelle.
+
+      Action un a : désigner au cabinet du ministre un conseiller numérique chargé de la sécurité du numérique, dans le mois qui suit la nomination du ministre.
+
+      Action un b : prendre en compte la cybersécurité dans les conventions passées avec les établissements publics, au fil de leur renouvellement.
+
+      Action un c : avoir recueilli d'ici le trente juin deux mille vingt-six les rapports annuels des établissements publics prévus par le décret deux mille dix-neuf mille quatre-vingt-huit.
+
+   B. Déclinaison, responsabilité et contrôle.
+
+      Action un d : produire avant le trente juin deux mille vingt-six une déclinaison ministérielle de la feuille de route, intégrée à la feuille de route numérique du ministère.
+
+      Action un e : inscrire la cybersécurité dans les lettres de mission des directeurs d'administration centrale, pour aligner les priorités et permettre des sanctions en cas de manquement.
+
+      Action un f : mobiliser les corps d'inspection pour contrôler la mise en œuvre des feuilles de route ministérielle et interministérielle.
+
+      Action un g : formaliser d'ici le trente juin deux mille vingt-six une politique d'audit et de contrôle des systèmes d'information, mise en œuvre d'ici le trente et un décembre deux mille vingt-six.
+
+      La politique de sécurité des systèmes d'information de l'État sera mise à jour au plus tard au premier trimestre deux mille vingt-sept pour intégrer par anticipation le référentiel applicable aux entités essentielles de NIS deux.
+
+III. HOMOLOGUER LES SYSTÈMES D'INFORMATION.
+
+   A. Une obligation réglementaire.
+
+      L'homologation est obligatoire avant la mise en œuvre de tout système d'information de l'État, sauf dispense, et la priorité va aux systèmes à enjeux et aux nouveaux systèmes.
+
+      Tout système migré vers le cloud est considéré comme un nouveau système et doit être homologué, et les ministères élaborent une politique d'hébergement cloud cohérente avec la doctrine cloud au centre et les recommandations de l'ANSSI.
+
+   B. Les actions et échéances.
+
+      Action deux a : mettre à jour d'ici le trente juin deux mille vingt-six l'inventaire des systèmes d'information en identifiant ceux à enjeux.
+
+      Action deux b : formaliser une première politique d'hébergement dans le cloud d'ici le trente juin deux mille vingt-six.
+
+      Action deux c : homologuer d'ici le trente et un décembre deux mille vingt-six tous les systèmes soutenant les missions essentielles, et les autres systèmes à enjeux avant le trente et un décembre deux mille vingt-huit.
+
+      Action deux d : homologuer tous les nouveaux systèmes soumis à l'obligation réglementaire.
+
+      Action deux e : présenter en commission d'homologation les risques résiduels liés aux objectifs non atteints, comme les correctifs non déployés, les revues de comptes, les tests de restauration des sauvegardes ou les plans de reprise informatique.
+
+IV. MAÎTRISER L'ÉCOSYSTÈME DES PRESTATAIRES.
+
+      L'État recourt à de nombreux prestataires et fournisseurs, et au-delà des clauses générales de sécurité, des clauses spécifiques sont nécessaires en cas de cloud ou d'interconnexion avec un système sur site.
+
+      Les prestataires doivent offrir un niveau de cybersécurité au moins équivalent à celui exigé sur site.
+
+      Action trois a : intégrer dans les contrats des exigences de cybersécurité proportionnées à la criticité, avant le trente et un décembre deux mille vingt-six pour les marchés numériques et avant le trente et un décembre deux mille vingt-sept pour les marchés à composante numérique ou impliquant l'échange d'informations sensibles.
+
+      Action trois b : mettre en place d'ici le trente juin deux mille vingt-six une politique de contrôle de la chaîne d'approvisionnement.
+
+V. ASSURER LE MAINTIEN EN CONDITION DE SÉCURITÉ.
+
+   A. Les mises à jour de sécurité.
+
+      Le maintien en condition de sécurité suppose au préalable une cartographie suffisamment détaillée des systèmes d'information.
+
+      Action quatre a : définir d'ici le trente juin deux mille vingt-six des procédures d'installation des correctifs proportionnées à la criticité, mises en œuvre avant le trente et un décembre deux mille vingt-six.
+
+      Action quatre b : définir et mettre en œuvre d'ici le trente juin deux mille vingt-six des procédures pour prendre connaissance des alertes et les traiter.
+
+   B. La réduction de l'obsolescence.
+
+      Action quatre c : remplacer au fil de l'eau les éléments obsolètes, en priorité les briques de sécurité, d'ici le trente et un décembre deux mille vingt-six.
+
+      Action quatre d : inventorier les éléments obsolètes des systèmes à enjeux et établir un calendrier de remplacement, pour avoir remplacé les équipements de sécurité obsolètes d'ici le trente et un décembre deux mille vingt-six et les autres éléments avant le premier mars deux mille vingt-huit.
+
+      Action quatre e : à défaut de mise à jour possible, appliquer dans les mêmes délais des mesures d'atténuation conformes aux recommandations de l'ANSSI pour les versions vulnérables ou obsolètes.
+
+VI. SÉCURISER LES SERVICES EXPOSÉS SUR INTERNET.
+
+      Les cyberattaques contre l'État exploitent de manière privilégiée les vulnérabilités du DNS et de la messagerie pour introduire des codes malveillants.
+
+      Action cinq a : renforcer d'ici le trente septembre deux mille vingt-six la sécurité du DNS, notamment par un recours accru au service interministériel DNS.
+
+      Action cinq b : renforcer la sécurité des systèmes de messagerie avant le trente et un décembre deux mille vingt-six.
+
+VII. RENFORCER L'AUTHENTIFICATION ET LA GESTION DES ACCÈS.
+
+   A. Identités et droits.
+
+      Avec des systèmes répartis sur de nombreux sites et différentes formes de cloud, l'identification, l'authentification et l'autorisation deviennent centrales et fondent les démarches Zéro Trust.
+
+      Action six a : gérer automatiquement le cycle de vie des identités et des accès, en s'appuyant sur les bases de ressources humaines, avec un accès selon l'identité, l'authentification et les rôles, sur un premier périmètre de systèmes à enjeux d'ici le trente et un décembre deux mille vingt-six puis sur un périmètre étendu d'ici le trente et un décembre deux mille vingt-sept.
+
+      Action six b : revoir au moins une fois par an les droits d'accès aux systèmes à enjeux, d'ici le trente juin deux mille vingt-six pour les comptes d'administration technique et avant le trente et un décembre deux mille vingt-six pour les comptes d'administration fonctionnelle.
+
+   B. Authentification forte et fédération.
+
+      Action six c : déployer l'authentification multifacteur des utilisateurs sur tous les systèmes à enjeux avant le vingt-huit février deux mille vingt-sept et sur l'ensemble des systèmes avant le vingt-huit février deux mille vingt-huit.
+
+      Action six d : généraliser ProConnect, avec un calendrier défini d'ici le trente juin deux mille vingt-six, un premier périmètre de systèmes à enjeux d'ici le trente et un décembre deux mille vingt-six et l'ensemble des systèmes d'ici le vingt-huit février deux mille vingt-huit.
+
+      Action six e : supprimer d'ici le trente juin deux mille vingt-six les comptes génériques ou, en cas d'impératif technique, renforcer leur traçabilité.
+
+VIII. SÉCURISER L'ADMINISTRATION DES SYSTÈMES.
+
+      Les administrateurs disposent de droits élevés, si bien que les systèmes d'administration doivent être sécurisés selon les recommandations de l'ANSSI.
+
+      Action sept a : mettre en place d'ici le trente et un décembre deux mille vingt-six l'authentification multifacteur de tous les administrateurs.
+
+      Action sept b : administrer depuis des postes dédiés, d'ici le trente et un décembre deux mille vingt-six pour les systèmes à enjeux et les systèmes nationaux, et d'ici le trente et un décembre deux mille vingt-sept pour les systèmes des services déconcentrés, les systèmes non soumis à NIS deux étant exclus.
+
+      Action sept c : porter d'ici le trente juin deux mille vingt-six les annuaires importants au niveau trois de l'indicateur ADS et les y maintenir.
+
+IX. AMÉLIORER LA SUPERVISION ET LA RÉPONSE À INCIDENTS.
+
+   A. Détection et CSIRT.
+
+      Les ministères se sont dotés d'outils de collecte et d'analyse des traces et de surveillance continue, et le projet TEMPO a complété le réseau des CSIRT ministériels, dont la maturité reste variable.
+
+      Action huit a : améliorer la collecte, la centralisation et l'analyse des traces d'ici le trente et un décembre deux mille vingt-six.
+
+      Action huit b : déployer d'ici le trente et un décembre deux mille vingt-six un EDR ou un XDR sur tous les postes de travail et tous les serveurs, en priorité sur les systèmes à enjeux.
+
+      Action huit c : consolider les CSIRT ministériels et leur mise en réseau avec le CERT-FR d'ici le trente et un décembre deux mille vingt-six.
+
+   B. Partage et articulation.
+
+      Action huit d : permettre aux CSIRT ministériels de partager au sein du réseau des CSIRT de l'État, et d'abord avec le CERT-FR, toute information utile sans validation préalable d'autres entités du ministère.
+
+      Action huit e : renforcer l'articulation entre la chaîne de sécurité des systèmes d'information et la DNUM pour la gestion des incidents.
+
+      En cas d'incident important, le ministère doit suivre les recommandations de l'ANSSI puis, six mois après, adresser un point de suivi à l'ANSSI, au corps d'inspection et au Premier ministre.
+
+X. INTÉGRER LA CYBERSÉCURITÉ DANS LES PLANS DE REPRISE.
+
+      Les capacités de gestion de crise ont progressé lors de la préparation des Jeux olympiques et paralympiques de Paris deux mille vingt-quatre, mais les plans de reprise d'activité restent perfectibles en matière cyber.
+
+      Action neuf a : tester les plans de reprise au moins une fois par an.
+
+      Action neuf b : tester régulièrement les sauvegardes des systèmes à enjeux, un premier test, prévu à partir du trente et un mars deux mille vingt-cinq, devant être réalisé d'ici le trente juin.
+
+XI. PRÉPARER LA TRANSITION VERS LA CRYPTOGRAPHIE POST-QUANTIQUE.
+
+   A. La menace.
+
+      Un ordinateur quantique capable de faire effondrer les mécanismes cryptographiques actuels les rendrait immédiatement caducs.
+
+      Certaines attaques consistent dès aujourd'hui à capter des informations durablement sensibles pour les déchiffrer plus tard, quand ces capacités existeront.
+
+      La transition vers les algorithmes post-quantiques est longue à l'échelle d'un ministère et doit être engagée dès à présent.
+
+   B. Les étapes.
+
+      Action dix a : inventorier d'ici fin deux mille vingt-six les données durablement sensibles pour lesquelles la cryptographie post-quantique sera prioritaire.
+
+      Action dix b : identifier avant fin deux mille vingt-sept les briques techniques concernées, comme le chiffrement et la signature.
+
+      Action dix c : déployer la cryptographie post-quantique sur tous les systèmes traitant d'informations Diffusion Restreinte avant fin deux mille trente.
+
+      Action dix d : à partir de deux mille trente, ne déployer que des produits de chiffrement intégrant la cryptographie post-quantique.
+
+POINTS D'ATTENTION.
+
+      La feuille de route compte dix objectifs, numérotés de un à dix, et chaque action est repérée par un numéro et une lettre.
+
+      Le trente juin deux mille vingt-six et le trente et un décembre deux mille vingt-six concentrent la plupart des échéances.
+
+      Les deux étapes d'inventaire post-quantique sont deux mille vingt-six et deux mille vingt-sept, et l'horizon de mise en œuvre est deux mille trente.
+
+      L'authentification multifacteur des utilisateurs vise les systèmes à enjeux avant le vingt-huit février deux mille vingt-sept et tous les systèmes avant le vingt-huit février deux mille vingt-huit, alors que celle des administrateurs est attendue dès fin deux mille vingt-six.
+
+      Une migration vers le cloud impose une nouvelle homologation.
+
+EXEMPLES CITES.
+
+      Un ministère nommé en cours d'année doit désigner son conseiller numérique chargé de la sécurité dans le mois.
+
+      Un administrateur qui gère un système à enjeux depuis son poste bureautique ordinaire contrevient à l'action sept b.
+
+      Un compte générique partagé par une équipe doit être supprimé ou au minimum tracé.
+
+      Un attaquant qui stocke aujourd'hui des échanges chiffrés pour les déchiffrer avec un futur ordinateur quantique illustre la menace qui justifie l'objectif dix.

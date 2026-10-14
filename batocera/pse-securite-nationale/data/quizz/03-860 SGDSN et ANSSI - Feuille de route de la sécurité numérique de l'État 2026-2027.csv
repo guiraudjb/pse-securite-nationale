@@ -1,0 +1,43 @@
+Quelle instruction prévoit la feuille de route de la sécurité numérique de l'État ?;La loi SRU;L'IGI 1300;L'IGI 1337;Le RGPD;4;IGI 1337/SGDSN/ANSSI sur la SSI de l'État.
+Quel comité valide la feuille de route ?;Le COSINUS;Le COMEX;La CNIL;Le CIRN;2;Comité stratégique de la sécurité numérique, puis concertation interministérielle.
+À quelle fréquence la feuille de route est-elle établie ?;Tous les mois;Chaque année;Tous les dix ans;Une seule fois;3;Elle est annuelle selon l'IGI 1337.
+Quelle directive européenne inclut les administrations publiques parmi les entités régulées ?;DORA;eIDAS;DSA;NIS 2 (UE 2022/2555);5;Article 2, objectifs aux articles 20 et 21.
+Qu'est-ce qu'un SI à enjeux ?;Tout SI connecté à Internet;Un SI de moins de 10 utilisateurs;Un SI soutenant les missions essentielles ou traitant des données sensibles;Un SI classifié Secret;4;Choisi selon les besoins de sécurité et l'impact d'un incident.
+Quelle nouveauté la feuille de route 2026-2027 ajoute-t-elle ?;La fin des CSIRT;La suppression de l'homologation;L'abandon de NIS 2;La préparation à la cryptographie post-quantique;5;Elle reprend aussi les actions précédentes et affermit des échéances.
+Quel événement de 2025 motive la nouvelle feuille de route ?;Les JO de Paris;Multiples intrusions et fuites de données dans les ministères;Une panne électrique;La fin de Windows XP;3;Vulnérabilités graves persistantes.
+Dans quel délai désigner un conseiller numérique chargé de la sécurité au cabinet ?;Dans la semaine précédant le budget;Dans le mois suivant la nomination du ministre;Dans les cinq ans;Avant chaque élection;3;Action 1.a.
+Quel décret prévoit les rapports annuels des établissements publics à recueillir ?;Décret 2018-1350;Décret 55-22;Décret 2019-1088;Décret 2023-822;4;Action 1.c, avant le 30 juin 2026.
+Avant quelle date produire la déclinaison ministérielle de la feuille de route ?;Fin 2030;31 décembre 2028;30 juin 2026;1er mars 2028;4;Action 1.d, intégrée à la feuille de route numérique.
+Où doit figurer la cybersécurité pour les directeurs d'administration centrale ?;Dans leurs lettres de mission;Dans leur fiche de paie;Nulle part;Dans le Journal officiel;2;Action 1.e, avec sanctions en cas de manquement.
+Qui contrôle la mise en œuvre des feuilles de route ?;Les fournisseurs;Les corps d'inspection;Les préfets;La CNIL;3;Action 1.f.
+Quand la PSSI de l'État intégrera-t-elle le référentiel NIS 2 ?;Jamais;Au plus tard au premier trimestre 2027;En 2035;Déjà en 2020;3;Par anticipation des règles des entités essentielles.
+Quel article du décret 2019-1088 impose l'homologation de sécurité ?;Article 4-3;Article 55;Article 1er;Article 146;2;Avant toute mise en œuvre, sauf dispense.
+Quel texte fixe les dispenses d'homologation ?;Le décret de 1955;La directive NIS 2;La loi de 1978;L'arrêté du 31 juillet 2025;5;Certaines composantes peuvent être dispensées.
+Comment traiter un SI migré vers le cloud ?;Comme un nouveau SI à homologuer;Il est confié au prestataire seul;Il est déclassifié;Il est dispensé d'homologation;2;Cohérent avec la doctrine cloud au centre.
+Quand homologuer les SI soutenant les missions essentielles ?;Avant le 28 février 2028;D'ici le 30 septembre 2026;D'ici le 31 décembre 2026;Avant fin 2030;4;Les autres SI à enjeux avant le 31 décembre 2028.
+Que doit-on présenter en commission d'homologation selon l'action 2.e ?;Les risques résiduels liés aux objectifs non atteints;La liste des agents;Le code source complet;Le budget de la DNUM;2;Correctifs, revues de comptes, sauvegardes, plans de reprise.
+Quel niveau de sécurité exiger des prestataires ?;Au moins équivalent à celui exigé sur site;Inférieur pour réduire les coûts;Celui choisi par le prestataire;Aucun;2;Clauses spécifiques en cas de cloud ou d'interconnexion.
+Quand intégrer les exigences cyber dans les marchés numériques ?;Avant le 1er mars 2028;Avant le 31 décembre 2026;Jamais;Avant fin 2030;3;Fin 2027 pour les marchés à composante numérique.
+Quand mettre en place la politique de contrôle de la chaîne d'approvisionnement ?;D'ici le 31 décembre 2028;D'ici le 30 juin 2026;Avant le 28 février 2028;D'ici 2030;3;Action 3.b.
+Quel prérequis le maintien en condition de sécurité suppose-t-il ?;Une certification ISO 9001;Un ordinateur quantique;Un audit financier;Une cartographie détaillée des SI;5;Deux sous-objectifs : mises à jour et obsolescence.
+Quand remplacer les équipements de sécurité obsolètes ?;Aucune échéance;D'ici le 30 juin 2026;D'ici le 31 décembre 2026;Avant fin 2030;4;Autres éléments obsolètes des SI à enjeux avant le 1er mars 2028.
+Que faire si une ressource ne peut pas être mise à jour ?;Appliquer des mesures d'atténuation selon l'ANSSI;La débrancher sans délai;La revendre;L'ignorer;2;Action 4.e.
+Quelles cibles les attaquants exploitent-ils en priorité selon la feuille de route ?;Le DNS et la messagerie;Les badges d'accès;Les ascenseurs;Les imprimantes;2;Pour introduire des codes malveillants.
+Avant quelle date renforcer la sécurité du DNS ?;1er mars 2028;30 juin 2030;30 septembre 2026;31 décembre 2028;4;Recours accru au service interministériel DNS.
+Sur quoi s'appuie la gestion automatique des identités ?;Les badges visiteurs;Les bases de données des ressources humaines;Les annuaires téléphoniques;Les réseaux sociaux;3;Fondement des démarches Zéro Trust.
+À quelle fréquence revoir les droits d'accès des SI à enjeux ?;Au moins une fois par an;Tous les dix ans;Une fois par mandat;Jamais;2;Comptes techniques dès le 30 juin 2026.
+Quand déployer l'authentification multifacteur des utilisateurs sur tous les SI à enjeux ?;Avant le 31 décembre 2030;Avant le 1er mars 2028;Avant le 28 février 2027;D'ici le 30 juin 2026;4;Sur l'ensemble des SI avant le 28 février 2028.
+Quel mécanisme de fédération des identités doit être généralisé ?;ProConnect;Les comptes génériques;Kerberos local;FranceConnect+ uniquement;2;Il remplace les comptes locaux et permet une révocation homogène.
+Que faire des comptes génériques d'ici le 30 juin 2026 ?;Les partager entre ministères;Les rendre anonymes;Les supprimer ou renforcer leur traçabilité;Les multiplier;4;Action 6.e.
+Quand exiger l'authentification multifacteur de tous les administrateurs ?;D'ici 2030;Avant le 28 février 2028;D'ici le 31 décembre 2026;Jamais;4;Action 7.a.
+Quel niveau de l'indicateur ADS viser pour les annuaires importants ?;Niveau 1;Niveau 0;Niveau 3;Niveau 5;4;Protection contre les vulnérabilités connues, d'ici le 30 juin 2026.
+Depuis quels postes administrer les SI ?;Des postes en libre accès;Des smartphones;Des postes dédiés;Des postes personnels;4;Fin 2026 pour SI à enjeux et nationaux, fin 2027 pour les services déconcentrés.
+Où déployer un EDR ou XDR d'ici fin 2026 ?;Sur tous les postes de travail et tous les serveurs;Sur un poste par ministère;Sur les seules imprimantes;Uniquement chez les prestataires;2;Priorité aux SI à enjeux.
+Quel projet de France Relance a complété le réseau de CSIRT ministériels ?;GMBI;Résil;REACTIV;TEMPO;5;CSIRT à maturité variable.
+Que peut faire un CSIRT ministériel selon l'action 8.d ?;Publier sur Internet;Ne rien partager;Partager l'information utile sans validation préalable;Attendre l'accord du ministre;4;En premier lieu avec le CERT-FR.
+Que doit faire un ministère six mois après un incident important ?;Changer de ministre;Supprimer les journaux;Adresser un point de suivi à l'ANSSI, au corps d'inspection et au Premier ministre;Clore le dossier;4;Après avoir suivi les recommandations de l'ANSSI.
+À quelle fréquence tester les plans de reprise ?;Tous les cinq ans;À chaque élection;Au moins une fois par an;Jamais;4;Action 9.a.
+Quel événement a amélioré les capacités de gestion de crise de l'État ?;La préparation des JO de Paris 2024;Le passage à l'an 2000;La Coupe du monde 1998;Le Brexit;2;Les plans de reprise restent perfectibles.
+Quelle attaque justifie d'agir dès maintenant sur le post-quantique ?;Le vol de badge;Le phishing classique;Le déni de service;Capter aujourd'hui des données pour les déchiffrer plus tard;5;Données durablement sensibles.
+Quand inventorier les données durablement sensibles pour le post-quantique ?;D'ici fin 2030;Déjà fait en 2020;D'ici fin 2026;D'ici 2040;4;Puis les briques techniques avant fin 2027.
+Avant quand déployer le post-quantique sur les SI Diffusion Restreinte ?;2040;Fin 2027;Fin 2030;Fin 2026;4;À partir de 2030, seuls des produits post-quantiques.
