@@ -1,0 +1,49 @@
+TITRE : Feuille de route cyber Riddim
+
+[Intro]
+IGI treize cent trente-sept, COSINUS a validé
+Feuille de route cyber, deux mille vingt-six, vingt-sept
+
+[Couplet 1]
+Un, la gouvernance, conseiller au cabinet
+Dans le mois de la nomination, c'est réglé
+Deux, homologuer les SI à enjeux
+Le cloud c'est un nouveau SI, sois sérieux
+
+Trois, les prestataires au même niveau que sur site
+Clauses cyber dans les marchés, et vite
+Quatre, les correctifs et l'obsolescence
+Remplacer les briques de sécurité d'avance
+
+[Refrain]
+Dix objectifs pour l'État numérique
+Trente juin, trente et un décembre, c'est la musique
+NIS deux arrive, faut se préparer
+Fuites et intrusions, faut tout verrouiller
+
+[Couplet 2]
+Cinq, le DNS et la messagerie
+Trente septembre pour le DNS, c'est écrit
+Six, les identités et ProConnect partout
+Multifacteur pour tous, plus de compte générique du tout
+
+Sept, administrer depuis un poste dédié
+Annuaire niveau trois ADS à protéger
+Huit, EDR, XDR sur tous les serveurs
+CSIRT et CERT-FR, partage sans peur
+
+[Pont]
+Neuf, le plan de reprise testé chaque année
+Les sauvegardes aussi, faut les restaurer
+Dix, le post-quantique, inventaire fin vingt-six
+Diffusion Restreinte protégée en deux mille trente, c'est fixe
+
+[Refrain final]
+Dix objectifs pour l'État numérique
+Récolter maintenant, déchiffrer plus tard, c'est la menace quantique
+Six mois après l'incident, rends compte au Premier ministre
+Feuille de route tenue, c'est ça le registre
+
+[Outro]
+SGDSN, ANSSI, la route est tracée
+Sécurité numérique, bonne révision assurée
