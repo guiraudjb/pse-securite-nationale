@@ -1,0 +1,21 @@
+Combien de catégories d'acteurs le rapport santé distingue-t-il ?;Deux;Dix;Une;Quatre;5;Gestion du système, soins, industriels, fournisseurs.
+Quelle part des incidents de santé de 2022-2023 concernait les établissements de santé ?;2 pour cent;10 pour cent;86 pour cent;50 pour cent;4;Devant les industriels pharmaceutiques.
+Comment a évolué la part de la santé dans les incidents traités par l'ANSSI ?;Elle a baissé;De 2,87 pour cent en 2020 à 11,4 pour cent en 2023;Elle est restée nulle;Elle a atteint 90 pour cent;3;Le secteur est de plus en plus touché.
+Quel hôpital a été chiffré en août 2022 ?;Le Centre hospitalier Sud Francilien;L'hôpital de la Pitié-Salpêtrière;L'Hôtel-Dieu de Lyon;Le CHU de Bordeaux;2;Il couvre environ 700 000 habitants.
+À combien est estimé le coût de l'attaque contre le CHSF ?;700 millions d'euros;7 millions d'euros;7000 euros;Aucun coût;3;11 gigaoctets de données ont aussi été divulgués.
+Combien de personnes la fuite Viamedis et Almerys de février 2024 concerne-t-elle ?;330 000;3300;1 milliard;Plus de 33 millions;5;Près de la moitié de la population française.
+Qu'est-ce que le plan blanc ?;Un plan de vaccination;Un plan comptable;Le plan de gestion de crise des établissements de santé, avec un volet cyber depuis 2023;Un plan d'urbanisme;4;Il est obligatoire depuis 2004.
+Quel programme accompagne les établissements de santé de 2023 à 2027 ?;ReCyF;CaRE;REMPAR;PAMS;3;Cybersécurité accélération et résilience des établissements.
+Quelles recherches ont été ciblées par l'espionnage pendant la pandémie ?;Celles sur les vaccins et traitements contre la Covid-19;Aucune;Celles sur l'astronomie;Celles sur la musique;2;Par des MOA réputés étatiques.
+Quel groupe a revendiqué des DDoS contre des hôpitaux français en juin 2023 ?;Anonymous Sudan;Volt Typhoon;LockBit;Akira;2;L'AP-HP a été touchée.
+Avec qui le RSSI hospitalier doit-il collaborer selon l'ANSSI ?;Uniquement avec la presse;Avec le personnel informatique et les ingénieurs biomédicaux;Uniquement avec les patients;Avec personne;3;Pour mieux connaître et sécuriser les SI.
+Combien d'entités de l'eau ont subi un événement traité par l'ANSSI entre 2021 et août 2024 ?;460;4;46;4600;4;Dont 12 opérateurs régulés.
+Quelle est la menace la plus importante pour le secteur de l'eau ?;La menace cybercriminelle lucrative;Le sabotage étatique;L'espionnage industriel;La pollution;2;Sur 28 compromissions, 8 ont mené à un rançongiciel.
+Qui est légalement responsable du service de l'eau en France ?;L'ANSSI;Les particuliers;L'Union européenne;Les collectivités locales;5;L'exploitation peut être déléguée.
+Quand le transfert des compétences eau et assainissement vers les EPCI est-il fixé ?;En 2050;En 1990;Jamais;Au 1er janvier 2026;5;Les interconnexions peuvent accroître les impacts.
+Quels protocoles industriels manquent souvent de chiffrement et d'authentification ?;OPC-UA signé;Modbus et S7Comm;HTTPS et SSH;TLS et IPsec;3;OPC-UA sécurisé est recommandé à la place.
+Quel groupe pro-russe a pris le contrôle d'IHM d'installations d'eau en 2024 ?;Anonymous Sudan;Cyber Army of Russia Reborn;Cyber Av3ngers;Daixin;3;Un réservoir a débordé à Muleshoe au Texas.
+Quel événement a accru l'exposition du secteur de l'eau en 2024 ?;La Coupe du monde de football;La qualité de l'eau de la Seine pour les Jeux de Paris;Le Tour de France;Une éclipse;3;Des hacktivistes ont menacé les infrastructures.
+Quel mode opératoire associé à la Chine s'est prépositionné dans l'eau potable américaine ?;Volt Typhoon;Lazarus;APT28;Sandworm;2;En vue d'un éventuel conflit autour de Taïwan.
+Que recommande l'ANSSI pour les interfaces SCADA ?;Les publier sur un site public;Les connecter au Wi-Fi public;Ne jamais les exposer sur Internet;Supprimer leur mot de passe;4;Les IHM exposées sont faciles à compromettre.
+Que recommande l'ANSSI pour les contrats de délégation de service public ?;Les supprimer;Les rendre publics;Y intégrer des clauses de sécurité opposables;Ne rien y écrire sur la sécurité;4;Avec pénalités ou obligations de correction.

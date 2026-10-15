@@ -1,0 +1,117 @@
+CERT-FR, SECTEUR DE LA SANTÉ, ÉTAT DE LA MENACE INFORMATIQUE, CERTFR-2024-CTI-010 DU 7 NOVEMBRE 2024, ET ÉTAT DE LA MENACE SUR LE SECTEUR DE L'EAU, CERTFR-2024-CTI-011.
+
+LEXIQUE COMPLET.
+
+      Le dossier patient informatisé, DPI, regroupe sous forme numérique les informations médicales d'un patient.
+
+      Le plan blanc est le plan de gestion de crise des établissements de santé, obligatoire depuis 2004, qui intègre depuis 2023 un volet cyber.
+
+      Le CERT-Santé, créé en 2017, assure le suivi sectoriel des incidents de santé et accompagne les établissements en crise.
+
+      Le programme CaRE, Cybersécurité accélération et résilience des établissements, couvre la période 2023-2027.
+
+      Le petit cycle de l'eau va du prélèvement de l'eau brute à la potabilisation, au stockage, à la distribution, à la collecte et à l'assainissement des eaux usées, jusqu'au rejet en milieu naturel.
+
+      La délégation de service public, DSP, confie l'exploitation d'un service d'eau à un tiers.
+
+      La technologie opérationnelle, OT, désigne les systèmes qui pilotent des processus physiques, par opposition à l'informatique de gestion, IT.
+
+      Une interface homme-machine, IHM, permet de superviser et de commander un équipement industriel.
+
+      La télégestion pilote à distance des infrastructures réparties sur le territoire.
+
+COURS DÉTAILLÉ.
+
+I. LE SECTEUR DE LA SANTÉ.
+
+   A. Un secteur hautement critique.
+
+      Les incidents peuvent affecter la disponibilité, l'intégrité, la confidentialité et la traçabilité, jusqu'à mettre en danger la vie humaine.
+
+      Le secteur comprend quatre catégories d'acteurs : la gestion du système de santé, les prestataires de soins, les industriels de produits de santé et les fournisseurs et prestataires.
+
+      De 2022 à 2023, 86 pour cent des incidents et signalements de santé transmis à l'ANSSI concernaient des établissements de santé ; la part du secteur dans l'activité de l'ANSSI est passée de 2,87 pour cent en 2020 à 11,4 pour cent en 2023.
+
+      Un tiers des incidents hospitaliers sont des compromissions de messagerie, un autre tiers des attaques à fort impact comme rançongiciels, exfiltrations et dénis de service.
+
+   B. La menace lucrative.
+
+      En 2022 et 2023, l'ANSSI a été informée de 30 compromissions par rançongiciel d'établissements de santé, soit 10 pour cent des rançongiciels signalés.
+
+      Le Centre hospitalier Sud Francilien, couvrant environ 700 000 habitants, a été chiffré en août 2022, avec 11 gigaoctets de données divulgués, pour un coût estimé à 7 millions d'euros.
+
+      Réanimation, pharmacie, laboratoire et imagerie sont particulièrement affectés, et l'accès au DPI est souvent perdu.
+
+      En février 2024, les gestionnaires de tiers payant Viamedis et Almerys ont subi une fuite concernant plus de 33 millions de personnes.
+
+      Les prestataires sont aussi visés, comme Synnovis au Royaume-Uni en juin 2024, ainsi que les industriels pharmaceutiques.
+
+   C. Espionnage et déstabilisation.
+
+      Pendant la pandémie de Covid-19, des modes opératoires réputés étatiques, liés notamment à la Russie, la Chine, l'Iran ou la Corée du Nord, ont ciblé les recherches sur les vaccins et traitements.
+
+      En juin 2023, Anonymous Sudan a revendiqué des DDoS contre des hôpitaux français, dont l'AP-HP ; en août 2024, des groupes pro-russes ont visé notamment l'Agence nationale de sécurité du médicament.
+
+   D. Recommandations.
+
+      Avoir une approche globale : actifs à protéger, état du système, menaces, risques et mesures.
+
+      Intégrer le RSSI dans tous les projets et faire collaborer cybersécurité, informatique et ingénieurs biomédicaux.
+
+      Commencer par l'état des lieux, la sensibilisation et la résilience, avant protection et défense.
+
+II. LE SECTEUR DE L'EAU.
+
+   A. Un secteur exposé.
+
+      Entre janvier 2021 et août 2024, 46 entités du secteur ont subi un événement traité par l'ANSSI, dont 12 opérateurs régulés.
+
+      La menace cybercriminelle est la plus importante : sur 28 compromissions, 8 ont mené à un rançongiciel.
+
+      La gestion de l'eau relève des collectivités locales ; 74 pour cent des entités ayant signalé un événement sont publiques, et le transfert des compétences vers les EPCI est fixé au 1er janvier 2026.
+
+   B. Des infrastructures vulnérables.
+
+      Installations anciennes, sites dispersés, faibles budgets, télégestion et industrie 4.0 élargissent la surface d'attaque.
+
+      Les protocoles industriels comme Modbus ou S7Comm manquent souvent de chiffrement et d'authentification.
+
+      De nombreuses IHM sont exposées sur Internet, parfois sans authentification.
+
+   C. Déstabilisation, espionnage et sabotage.
+
+      La qualité de l'eau de la Seine pour les Jeux olympiques et paralympiques de Paris 2024 a accru l'exposition du secteur.
+
+      Le groupe pro-russe Cyber Army of Russia Reborn a pris le contrôle d'IHM aux États-Unis, en Pologne et en France, provoquant le débordement d'un réservoir à Muleshoe au Texas ; sa revendication de mars 2024 visait en réalité un petit moulin privé.
+
+      Cyber Av3ngers a compromis des automates Unitronics, notamment à Aliquippa en Pennsylvanie.
+
+      Volt Typhoon, associé à la Chine, s'est prépositionné dans des infrastructures américaines dont l'eau potable.
+
+   D. Recommandations.
+
+      Intégrer la sécurité informatique dans les contrats de délégation de service public avec des clauses opposables.
+
+      Analyser trois risques : accès physique à un site non surveillé, compromission depuis Internet par la porosité IT et OT, pratiques d'administration inadaptées.
+
+      Utiliser des protocoles sécurisés comme OPC-UA, ou des tunnels IPsec ou TLS, et ne jamais exposer les interfaces SCADA sur Internet.
+
+POINTS D'ATTENTION.
+
+      La santé représente une part croissante des incidents traités par l'ANSSI.
+
+      La fuite Viamedis et Almerys concerne près de la moitié de la population française.
+
+      Dans l'eau, la menace lucrative domine, mais l'hacktivisme pro-russe vise les IHM exposées.
+
+      Une IHM non sécurisée suffit à des attaquants peu compétents pour provoquer des dégâts.
+
+EXEMPLES CITES.
+
+      Le Centre hospitalier Sud Francilien en 2022.
+
+      Viamedis et Almerys en février 2024.
+
+      Cyber Army of Russia Reborn et le réservoir de Muleshoe.
+
+      Volt Typhoon et le prépositionnement stratégique.
