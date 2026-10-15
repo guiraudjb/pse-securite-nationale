@@ -1,0 +1,99 @@
+VIGINUM, DÉFIS ET OPPORTUNITÉS DE L'INTELLIGENCE ARTIFICIELLE DANS LA LUTTE CONTRE LES MANIPULATIONS DE L'INFORMATION, FÉVRIER 2025, ANALYSE DU MODE OPÉRATOIRE INFORMATIONNEL RUSSE STORM-1516, MAI 2025, ET FICHE TECHNIQUE STORM-1516 DU 6 FÉVRIER 2026.
+
+LEXIQUE COMPLET.
+
+      Un mode opératoire informationnel, MOI, est un ensemble de comportements, outils, tactiques, techniques, procédures et ressources mis en œuvre par un acteur malveillant dans des opérations informationnelles numériques.
+
+      Storm-1516, aussi appelé Neva Flood par Microsoft, est un mode opératoire informationnel russe actif depuis au moins août 2023.
+
+      Un deepfake est un contenu vidéo ou audio synthétique imitant une personne réelle ; un cheapfake est une manipulation simple, comme un montage ou une image décontextualisée.
+
+      Le blanchiment d'un narratif consiste à le faire reprendre par des médias tiers, souvent rémunérés, pour le crédibiliser.
+
+      CopyCop est un mode opératoire attribué à John Mark Dougan, ancien policier américain exilé en Russie, qui gère une partie des infrastructures de Storm-1516.
+
+      L'IA générative, IAg, produit des textes, images, sons ou vidéos à partir d'instructions.
+
+      Le dividende du menteur désigne le fait que, plus une société devient sceptique, plus il est facile de contester des faits pourtant avérés.
+
+COURS DÉTAILLÉ.
+
+I. LE MODE OPÉRATOIRE STORM-1516.
+
+   A. Les cibles et les narratifs.
+
+      Viginum a analysé 77 opérations de Storm-1516 entre août 2023 et le 5 mars 2025.
+
+      Son objectif principal est de décrédibiliser le gouvernement ukrainien pour faire suspendre l'aide occidentale : 35 opérations visaient l'Ukraine, notamment en accusant Volodymyr Zelensky de détourner l'aide pour acheter des biens de luxe.
+
+      Il cible aussi des dirigeants européens et leurs proches, en particulier pendant les élections en France, aux États-Unis et en Allemagne.
+
+   B. Les contenus et la diffusion.
+
+      Il diffuse des deepfakes vidéos et vocaux, des montages et des vidéos jouées par des acteurs amateurs.
+
+      La primo-diffusion passe par des comptes jetables, de faux lanceurs d'alerte ou des comptes rémunérés, puis par le blanchiment via des médias étrangers et l'amplification par des réseaux prorusses et d'autres modes opératoires.
+
+   C. Les acteurs.
+
+      Viginum confirme l'implication de John Mark Dougan via CopyCop, de membres des écosystèmes Prigojine et Douguine, dont le Centre d'expertise géopolitique, et d'un possible officier de l'unité 29155 du GRU.
+
+      Storm-1516 réunit les critères d'une ingérence numérique étrangère et constitue une menace importante pour le débat public en France et en Europe.
+
+   D. L'opération de février 2026.
+
+      Le 4 février 2026, une vidéo et un article publiés sur un faux site imitant France-Soir prétendaient qu'un document de l'affaire Epstein mettait en cause Emmanuel Macron.
+
+      Viginum a imputé cette opération avec une confiance très élevée à Storm-1516, avec le soutien technique de CopyCop, le site ayant été créé trois jours plus tôt en usurpant aussi un journaliste du Parisien.
+
+      Les publications ont cumulé environ 1,1 million de vues sur X.
+
+II. L'INTELLIGENCE ARTIFICIELLE ET LA MENACE INFORMATIONNELLE.
+
+   A. Une technologie attractive.
+
+      L'IA générative change l'échelle de production de contenus trompeurs, facilite la publication coordonnée de contenus inauthentiques et aide à créer et gérer de faux comptes.
+
+      Des cas d'usage ont été observés pour le texte, l'image, la vidéo et l'audio, comme les images générées par le mode opératoire chinois Spamouflage ou un deepfake de la présidente moldave Maia Sandu.
+
+   B. Une évolution plutôt qu'une révolution.
+
+      L'IA accroît la réactivité des acteurs malveillants et la furtivité de leurs manœuvres, grâce à des traductions de qualité proche de la langue maternelle.
+
+      Son impact reste modéré : la qualité d'un contenu ne garantit pas sa viralité, et des cheapfakes peuvent être aussi nuisibles, comme les pochoirs d'étoiles de David à Paris en octobre 2023.
+
+      Elle industrialise les modes opératoires existants sans en créer d'inédits à ce stade.
+
+   C. Les risques à venir.
+
+      L'altération du rapport à la réalité et le dividende du menteur menacent les processus démocratiques.
+
+      La prolifération de contenus synthétiques favorise les réseaux de faux médias locaux et l'enfermement algorithmique.
+
+      La pollution des données d'entraînement peut dégrader les modèles d'IA eux-mêmes.
+
+   D. L'IA comme outil de défense.
+
+      Le Datalab de Viginum utilise l'IA pour l'analyse sémantique, l'exploration de vidéos, la détection de duplications massives, de bots et de contenus générés par IA.
+
+      Les fact-checkers de la société civile, comme Full Fact ou Lupa, utilisent aussi ces outils.
+
+POINTS D'ATTENTION.
+
+      Storm-1516 est lié à l'unité 29155 du GRU et s'appuie sur CopyCop.
+
+      Ses deepfakes ciblent l'Ukraine et les dirigeants européens, y compris le président de la République.
+
+      L'IA est à ce stade une évolution qui industrialise la manipulation de l'information.
+
+      L'IA sert aussi à détecter les ingérences.
+
+EXEMPLES CITES.
+
+      Le faux site imitant France-Soir en février 2026.
+
+      Les narratifs sur les prétendus achats de luxe de Volodymyr Zelensky.
+
+      Spamouflage et le deepfake de Maia Sandu.
+
+      Les pochoirs d'étoiles de David à Paris en octobre 2023.
