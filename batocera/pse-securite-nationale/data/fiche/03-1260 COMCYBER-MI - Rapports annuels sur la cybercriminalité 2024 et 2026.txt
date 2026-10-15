@@ -1,0 +1,85 @@
+COMMANDEMENT DU MINISTÈRE DE L'INTÉRIEUR DANS LE CYBERESPACE, COMCYBER-MI, RAPPORT ANNUEL SUR LA CYBERCRIMINALITÉ 2024, DONNÉES 2023, ET RAPPORT ANNUEL SUR LA CYBERCRIMINALITÉ 2026, DONNÉES 2025, PUBLIÉ LE 29 AVRIL 2026.
+
+LEXIQUE COMPLET.
+
+      Le COMCYBER-MI est le commandement du ministère de l'Intérieur dans le cyberespace, qui coordonne la lutte contre la cybercriminalité de la police et de la gendarmerie.
+
+      Le CECyber, centre d'analyse des cybermenaces du COMCYBER-MI, observe les modes d'action des cybercriminels à partir des forums, messageries et sites de revendication.
+
+      Une atteinte numérique est une infraction commise au moyen ou au préjudice des systèmes numériques, contre les biens, les personnes ou les institutions.
+
+      Les ASTAD sont les atteintes aux systèmes de traitement automatisé de données, comme l'intrusion ou le rançongiciel.
+
+      PHAROS reçoit les signalements de contenus illicites, THÉSÉE les plaintes pour escroqueries en ligne, et PERCEVAL les signalements de fraude à la carte bancaire.
+
+      Un système SCADA supervise et commande à distance des installations industrielles.
+
+COURS DÉTAILLÉ.
+
+I. LE PREMIER RAPPORT, DONNÉES 2023.
+
+   A. Les chiffres clés.
+
+      En 2023, 278 770 atteintes numériques ont été enregistrées, soit une hausse de 40 pour cent en cinq ans, environ 8 pour cent par an.
+
+      Elles se répartissent en 59 pour cent d'atteintes aux biens, 34,5 pour cent aux personnes, 6 pour cent aux institutions et à l'ordre public, et 0,5 pour cent aux législations spécifiques au numérique.
+
+      Les escroqueries, environ 130 000, représentent 79 pour cent des atteintes numériques aux biens.
+
+   B. Les plateformes et les victimes.
+
+      La plateforme THÉSÉE a reçu 104 439 plaintes ou signalements d'escroqueries en ligne, PHAROS 211 543 signalements de contenus illicites et PERCEVAL 259 094 signalements de fraude à la carte bancaire.
+
+      Les saisines pour rançongiciel ont augmenté de 28 pour cent, et 47 000 personnes ont été mises en cause pour des atteintes numériques.
+
+      La moitié des victimes d'atteintes numériques aux personnes sont des femmes de 18 à 44 ans.
+
+II. LE RAPPORT 2026, DONNÉES 2025.
+
+   A. Une pression structurelle.
+
+      Le COMCYBER-MI a recensé 1 347 revendications ou annonces de cyberattaques visant la France en 2025, contre 1 062 en 2024, soit une hausse de 27 pour cent malgré l'absence d'événement majeur comparable aux Jeux de 2024.
+
+      Les trois tendances majeures sont les dénis de service distribués, les vols et reventes de données, et les rançongiciels.
+
+      Près des deux tiers des attaques sont revendiquées par des acteurs se réclamant de causes politiques ou religieuses.
+
+   B. L'hacktivisme.
+
+      Les DDoS représentent 89,2 pour cent des revendications hacktivistes en 2025, contre 64 pour cent en 2024.
+
+      Les revendications font référence à 78 pour cent au conflit en Ukraine et à 11 pour cent au Moyen-Orient.
+
+      Le groupe NoName057(16) reste central malgré une opération internationale contre son infrastructure, et les intrusions dans des systèmes SCADA progressent, avec une forte portée symbolique.
+
+   C. Les rançongiciels.
+
+      Les revendications de rançongiciels contre la France augmentent de 36 pour cent, avec 177 revendications recensées.
+
+      Qilin et Brain Cypher concentrent 55,6 pour cent des revendications, succédant à LockBit et RansomHub, tandis qu'Akira et DragonForce montent en puissance.
+
+      Les cybercriminels délaissent le chiffrement systématique au profit de la simple exfiltration de données.
+
+   D. Les infrastructures critiques et l'IA.
+
+      Les transports, l'énergie et les services sont ciblés, surtout par des DDoS, mais les rançongiciels restent la menace la plus impactante, avec des effets en cascade via les prestataires.
+
+      L'IA est exploitée par les cybercriminels sous forme d'offres d'IA en tant que service, et le règlement européen sur l'IA s'applique depuis le 2 août 2025 aux modèles à usage général.
+
+POINTS D'ATTENTION.
+
+      Les atteintes numériques ont progressé de 40 pour cent en cinq ans jusqu'en 2023.
+
+      Les revendications de cyberattaques contre la France ont augmenté de 27 pour cent en 2025.
+
+      L'hacktivisme lié à l'Ukraine domine en volume, le rançongiciel en impact.
+
+      Le rançongiciel évolue vers l'exfiltration sans chiffrement.
+
+EXEMPLES CITES.
+
+      Les plateformes PHAROS, THÉSÉE et PERCEVAL.
+
+      Les groupes Qilin, Brain Cypher, LockBit et RansomHub.
+
+      NoName057(16) et les intrusions SCADA.
