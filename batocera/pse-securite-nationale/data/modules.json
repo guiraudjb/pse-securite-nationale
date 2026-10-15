@@ -122,5 +122,6 @@
     "03-1170 CERT-FR - Le mode opératoire d'attaque APT28 et ses campagnes depuis 2021.csv",
     "03-1180 CERT-FR - Les modes opératoires APT31, Nobelium et Houken.csv",
     "03-1190 CERT-FR - Groupes cybercriminels Lockean et FIN12 et écosystème des rançongiciels.csv",
-    "03-1200 CERT-FR - Téléphones mobiles, état de la menace et recommandations.csv"
+    "03-1200 CERT-FR - Téléphones mobiles, état de la menace et recommandations.csv",
+    "03-1210 CERT-FR - Retours d'expérience, vols de cookies, logiciels non maîtrisés et exfiltration de données.csv"
 ]

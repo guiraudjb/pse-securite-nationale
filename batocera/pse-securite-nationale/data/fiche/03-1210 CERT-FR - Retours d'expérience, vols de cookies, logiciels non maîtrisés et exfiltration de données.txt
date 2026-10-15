@@ -1,0 +1,111 @@
+CERT-FR, MENACES LIÉES AUX VOLS DE COOKIES ET CONTRE-MESURES, CERTFR-2022-CTI-005 DU 25 MAI 2022, ILLUSTRATION DES PROBLÉMATIQUES LIÉES À L'INTÉGRATION DE LOGICIELS NON MAÎTRISÉS, LE CAS DE GOLDENSPY, CERTFR-2022-CTI-006 DU 23 NOVEMBRE 2022, ET EXFILTRATION DE DONNÉES DU SECTEUR SOCIAL, RETOUR D'EXPÉRIENCE DU CERT-FR, CERTFR-2024-CTI-009 DU 18 SEPTEMBRE 2024.
+
+LEXIQUE COMPLET.
+
+      Un cookie est un petit couple clé et valeur conservé par le navigateur, utilisé notamment pour maintenir ouverte une session authentifiée.
+
+      Un cookie de session volé permet d'usurper l'identité d'un utilisateur sans connaître son mot de passe.
+
+      L'authentification unique, SSO, donne accès à plusieurs services après une seule authentification.
+
+      Une session sans état, comme avec les jetons JWT, repose sur un cookie qui se suffit à lui-même, ce qui rend sa révocation complexe.
+
+      Un logiciel non maîtrisé, ou de moindre confiance, est un logiciel imposé ou externe dont on ne contrôle ni le code ni les mises à jour.
+
+      Un usager applicatif est une personne ayant un accès à une application, interne ou externe à l'organisation.
+
+      La protection des données dès la conception et par défaut, Privacy by Design and by Default, est prévue par l'article 25 du RGPD.
+
+COURS DÉTAILLÉ.
+
+I. LES VOLS DE COOKIES.
+
+   A. Une menace croissante.
+
+      Les cookies d'authentification sont des cibles privilégiées, car ils permettent d'accéder aux comptes et de se latéraliser, notamment vers le cloud.
+
+      Ils sont volés par des stealers ou par hameçonnage, puis réutilisés ou revendus sur des places de marché comme Genesis ou Russian Market.
+
+      Ils contournent la plupart des authentifications multifacteurs, puisque la session dérobée est déjà authentifiée.
+
+   B. Des exemples.
+
+      Le groupe Lapsus$ a compromis Okta en mars 2022 et Electronic Arts en juin 2021, où un cookie volé aurait permis d'usurper un salarié sur Slack.
+
+      Le mode opératoire Nobelium a aussi utilisé des vols de cookies.
+
+   C. Les contre-mesures.
+
+      Limiter la durée de validité des sessions, à quelques minutes pour les accès sensibles, et exiger une réauthentification pour les opérations sensibles.
+
+      Détecter les usurpations de session, par exemple une adresse IP ou des horaires incohérents, et journaliser les actions de chaque session.
+
+      Durcir le système d'information d'administration, et tenir compte de la granularité des réglages de session dans le choix des services cloud.
+
+II. LES LOGICIELS NON MAÎTRISÉS.
+
+   A. Le cas GoldenSpy.
+
+      Certains pays imposent aux entreprises implantées sur leur territoire des logiciels spécifiques.
+
+      En Chine, le logiciel de déclaration de TVA Golden Tax, distribué par Aisino ou Baiwang, a installé dans certaines versions une porte dérobée nommée GoldenSpy, révélée par Trustwave en juin 2020.
+
+      GoldenSpy s'exécutait deux heures après l'installation avec des privilèges élevés, persistait après désinstallation, puis a été effacé discrètement après sa révélation.
+
+      Le logiciel Beijing One Pass a présenté des fonctions similaires, et des entreprises françaises en Chine ont encore signalé des alertes en 2022.
+
+   B. Le risque de la chaîne d'approvisionnement.
+
+      Un éditeur peut lui-même être compromis : NotPetya a été distribué par une mise à jour du logiciel comptable ukrainien M.E.Doc.
+
+   C. Les recommandations.
+
+      Installer le logiciel dans une zone isolée, sur des équipements dédiés, ou dans un compte cloud dédié.
+
+      Filtrer les flux vers et depuis cette zone au juste besoin, avec un pare-feu distinct de la machine, et prohiber les flux vers le système interne.
+
+      Appliquer le moindre privilège, maintenir en condition de sécurité, détecter, et mettre à jour la cartographie.
+
+III. L'EXFILTRATION DE DONNÉES DU SECTEUR SOCIAL.
+
+   A. Le constat.
+
+      En 2023 et début 2024, le CERT-FR a traité 183 incidents ayant conduit à une exfiltration de données, dont 60 liés à un rançongiciel.
+
+      Il a appuyé 9 entités du secteur social victimes d'exfiltrations hors rançongiciel, touchant des données de millions de Français.
+
+      La donnée personnelle est souvent perçue comme moins sensible que les données techniques, et donc peu protégée.
+
+   B. Les failles observées.
+
+      Des identifiants partagés, réutilisés et sans authentification forte ont été volés par hameçonnage ou achetés.
+
+      Des comptes de prestataires sans authentification forte ont servi à exfiltrer une base entière, et un attaquant a simulé des millions de recherches pour extraire le contenu.
+
+      Un prestataire a volontairement utilisé ses accès administrateur pour exfiltrer une base à plusieurs reprises.
+
+   C. Les recommandations.
+
+      Considérer comme privilégié tout usager pouvant accéder aux données d'un tiers, avec authentification multifacteur.
+
+      Journaliser toutes ses actions, désactiver les comptes inutilisés, interdire les comptes génériques et limiter les plages d'accès.
+
+      Restreindre les exports massifs, chiffrer les données exportées et segmenter les serveurs en limitant les flux sortants.
+
+POINTS D'ATTENTION.
+
+      Un cookie de session volé contourne l'authentification multifacteur.
+
+      Un logiciel imposé doit être confiné dans une zone isolée.
+
+      Les accès légitimes sont le premier vecteur d'exfiltration massive de données personnelles.
+
+      La journalisation et la détection des comportements anormaux sont indispensables.
+
+EXEMPLES CITES.
+
+      Lapsus$ contre Okta et Electronic Arts.
+
+      GoldenSpy dans le logiciel Golden Tax.
+
+      NotPetya et M.E.Doc.

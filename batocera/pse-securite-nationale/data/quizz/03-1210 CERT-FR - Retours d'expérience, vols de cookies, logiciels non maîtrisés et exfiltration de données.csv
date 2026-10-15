@@ -1,0 +1,20 @@
+Pourquoi les cookies de session sont-ils convoités ?;Ils contiennent des virus;Ils permettent d'usurper un utilisateur sans connaître son mot de passe;Ils sont comestibles;Ils accélèrent Internet;3;Ils servent aussi à se latéraliser vers le cloud.
+Pourquoi un cookie volé contourne-t-il l'authentification multifacteur ?;Parce que la session dérobée est déjà authentifiée;Il ne la contourne pas;Parce que le cookie contient le mot de passe;Parce que le MFA est désactivé;2;D'où l'importance de limiter la durée des sessions.
+Comment les cookies sont-ils généralement volés ?;Par erreur du serveur uniquement;Par téléphone fixe;Par la poste;Par des stealers ou par hameçonnage;5;Ils sont ensuite revendus.
+Quelle place de marché revendant des cookies est citée ?;Amazon;eBay;Leboncoin;Genesis;5;Ainsi que Russian Market.
+Quel groupe a compromis Okta en mars 2022 ?;Lockean;APT28;FIN12;Lapsus$;5;Il avait aussi visé Electronic Arts.
+Quelle durée de session est recommandée pour les accès sensibles ?;Quelques minutes tout au plus;Un an;Illimitée;Plusieurs mois;2;Pour réduire l'usage d'une session volée.
+Pourquoi les sessions sans état compliquent-elles la sécurité ?;Elles n'existent pas;La révocation d'un cookie y est complexe;Elles sont trop lentes;Elles chiffrent trop;3;C'est le cas des jetons JWT.
+Quel logiciel chinois de TVA a installé la porte dérobée GoldenSpy ?;WeChat;TikTok;Baidu Maps;Golden Tax;5;Distribué par Aisino ou Baiwang.
+Qui a révélé GoldenSpy en juin 2020 ?;Interpol;Trustwave;L'ANSSI;Microsoft;3;Une entreprise de cybersécurité singapourienne.
+Que faisait GoldenSpy après sa révélation ?;Il était discrètement désinstallé et effacé;Il se multipliait;Il affichait des excuses;Rien;2;Un nouveau code a été téléchargé pour l'effacer.
+Quel code de sabotage a été distribué par la mise à jour d'un logiciel comptable ukrainien ?;WannaCry;Stuxnet;Mirai;NotPetya;5;Via le logiciel M.E.Doc.
+Où installer un logiciel imposé non maîtrisé ?;Sur tous les postes;Sur le serveur de messagerie;Dans une zone isolée, sur des équipements dédiés;Sur le contrôleur de domaine;4;C'est la recommandation R1.
+Pourquoi utiliser un pare-feu distinct de la machine hébergeant le logiciel ?;Pour aller plus vite;Pour éviter que le logiciel désactive le pare-feu s'il élève ses privilèges;Pour décorer;Ce n'est pas utile;3;C'est la recommandation R3.
+Combien d'incidents avec exfiltration de données le CERT-FR a-t-il traités en 2023 et début 2024 ?;18;3;183;1830;4;Dont 60 liés à un rançongiciel.
+Combien d'entités du secteur social le CERT-FR a-t-il appuyées pour une exfiltration hors rançongiciel ?;1;900;9;90;4;Touchant des données de millions de Français.
+Pourquoi la donnée personnelle est-elle souvent peu protégée ?;Elle est publique;Elle est perçue comme moins sensible que les données techniques;Elle n'a pas de valeur;Elle est toujours chiffrée;3;C'est un constat du CERT-FR.
+Comment un attaquant a-t-il extrait une base sans outil particulier ?;En coupant le courant;En simulant des millions de recherches sur la plateforme de consultation;En envoyant un fax;En volant le serveur;3;Les limitations avaient été contournées.
+Comment considérer un usager pouvant accéder aux données d'un tiers ?;Comme un administrateur sans journalisation;Comme un anonyme;Comme un invité sans contrôle;Comme un utilisateur à privilèges, avec authentification multifacteur;5;Ses actions doivent être journalisées.
+Que faire des comptes génériques selon le CERT-FR ?;Les interdire par défaut, sauf dérogation encadrée;Les généraliser;Les partager librement;Les publier;2;Avec des mesures additionnelles en cas de dérogation.
+Quel principe du RGPD impose la protection des données dès la conception ?;Privacy by Design and by Default;Le consentement;Le droit à l'oubli;La portabilité;2;Il figure à l'article 25 du RGPD.
