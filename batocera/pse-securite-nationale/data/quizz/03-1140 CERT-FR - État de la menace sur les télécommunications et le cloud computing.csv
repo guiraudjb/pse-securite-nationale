@@ -1,0 +1,20 @@
+Pourquoi le secteur des télécommunications est-il qualifié de supercritique ?;Une attaque aurait des conséquences immédiates et systémiques sur les secteurs vitaux;Il est entièrement public;Il est très coûteux;Il emploie beaucoup de monde;2;Il est central pour beaucoup d'autres secteurs.
+Quelle est la menace la plus préoccupante pour les télécommunications ?;La panne de courant;L'espionnage;La fraude fiscale;Le vandalisme de cabines;3;Avec une hausse des compromissions de routeurs de cœur de réseau.
+Combien d'événements de sécurité télécoms l'ANSSI a-t-elle connus en trois ans ?;Plus de 150;5;10 000;Aucun;2;Dont près de 50 incidents traités.
+Quel article encadre l'autorisation des équipements 5G des OIV ?;L'article L34-11, dit loi 5G;L'article 1 du code civil;L'article 40 du code de procédure pénale;L'article 49-3 de la Constitution;2;Il complète le régime R226.
+Pourquoi la sécurité par l'obscurité est-elle insuffisante ?;Elle est illégale;Le secteur est massivement ciblé et le secret ne remplace pas la protection;Elle est trop lente;Elle coûte trop cher;3;La dette technique complique la sécurisation.
+Quel réseau satellitaire a été saboté la nuit de l'invasion de l'Ukraine ?;Galileo;Starlink;KA-SAT;Iridium;4;Des dizaines de milliers de modems ont été mis hors service.
+À qui l'Union européenne a-t-elle attribué l'attaque KA-SAT ?;À l'Iran;À la Chine;À la Corée du Nord;À la Russie;5;Attribution du 10 mai 2022.
+Que permet l'exploitation du protocole SS7 ?;Recharger une batterie;Localiser un abonné mobile dans le monde entier;Accélérer Internet;Chiffrer les appels;3;Les réseaux de signalisation sont souvent en clair.
+Qu'est-ce que le SIM swapping ?;Réparer un téléphone;Migrer le numéro d'un abonné vers une autre carte SIM;Recycler une carte SIM;Changer de forfait;3;Il permet d'intercepter des codes SMS.
+Quelle mesure est recommandée contre le SIM swapping abusif ?;Envoyer le code par courrier public;Temporiser de 24 heures l'activation et prévenir l'abonné;Supprimer les cartes SIM;Rien;3;Pour limiter le détournement de la double authentification par SMS.
+Pourquoi les fournisseurs cloud sont-ils des cibles d'intérêt ?;Pour leurs locaux;Pour leurs données mais surtout pour les accès vers leurs clients;Ils ne le sont pas;Pour leur mobilier;3;Ils ouvrent la voie à de nombreuses victimes.
+En IaaS, de quoi le client est-il responsable ?;Des systèmes d'exploitation, des applications et des données;De rien;De la sécurité physique du centre de données;Des câbles du fournisseur;2;Le fournisseur gère serveurs, réseaux et stockage.
+En SaaS, de quoi le client reste-t-il responsable ?;De ses données et de ses utilisateurs;Du système d'exploitation;Des hyperviseurs;Du matériel;2;Le fournisseur gère tout le reste.
+Pourquoi le chiffrement ne suffit-il pas face aux lois extraterritoriales ?;Parce qu'il ralentit;Parce qu'il est interdit;Parce que les clés sont souvent elles aussi dans le cloud;Parce qu'il est public;4;C'est le cas des données traitées dans le cloud.
+Quelle version de SecNumCloud protège des lois extraterritoriales ?;La version 1.0;Aucune;La version 3.2;La version 0.5;4;Elle intègre des exigences dédiées.
+Quel mode opératoire lié à la Chine a compromis Exchange Online en 2023 ?;ESXiArgs;Storm-0558;Scattered Spider;BlackCat;3;Grâce à une clé de signature Microsoft de 2016.
+Combien d'hyperviseurs ESXi de MGM ont été chiffrés en 2023 ?;100;Aucun;1;10 000;2;Par Scattered Spider avec BlackCat.
+Quel est un point d'entrée privilégié vers les environnements cloud ?;Les écrans;Les claviers;Les imprimantes;Les équipements de bordure comme les VPN;5;Les acteurs étatiques usent aussi de jour-zéro.
+Comment les attaquants utilisent-ils le cloud comme infrastructure ?;Pour héberger, stocker et exfiltrer en se fondant dans le trafic légitime;Pour faire de la publicité;Pour payer leurs impôts;Ils ne l'utilisent pas;2;Cela complique la détection.
+Quels services l'ANSSI recommande-t-elle de privilégier dans le cloud ?;Aucun service cloud;Les services anonymes;Les services conformes à SecNumCloud;Les services gratuits non qualifiés;4;Le référentiel propose des règles de sécurité.

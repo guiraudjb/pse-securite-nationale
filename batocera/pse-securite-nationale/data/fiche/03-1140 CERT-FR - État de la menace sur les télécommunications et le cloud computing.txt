@@ -1,0 +1,109 @@
+CERT-FR, ÉTAT DE LA MENACE CIBLANT LE SECTEUR DES TÉLÉCOMMUNICATIONS, CERTFR-2023-CTI-010 DU 18 DÉCEMBRE 2023, ET CLOUD COMPUTING, ÉTAT DE LA MENACE INFORMATIQUE, CERTFR-2025-CTI-001 DU 19 FÉVRIER 2025.
+
+LEXIQUE COMPLET.
+
+      Un opérateur de communications électroniques, OCE, fournit des réseaux ou services de communications au public, comme Orange, SFR, Bouygues Telecom ou Free.
+
+      Un secteur supercritique est un secteur dont l'attaque aurait des conséquences immédiates et systémiques sur l'ensemble des secteurs d'importance vitale.
+
+      La sécurité par l'obscurité repose sur la non-divulgation du fonctionnement d'un système pour en assurer la sécurité ; elle est jugée insuffisante.
+
+      Le SIM swapping consiste à migrer le numéro d'un abonné sur une autre carte SIM, détournable pour intercepter des codes reçus par SMS.
+
+      Le protocole SS7 et les réseaux de signalisation IPX et GRX interconnectent les réseaux mobiles, souvent sans chiffrement.
+
+      Le cloud computing héberge des ressources informatiques dans un centre de données accessible à distance, plutôt qu'en local, dit on-premise.
+
+      Les modèles IaaS, PaaS et SaaS fournissent respectivement l'infrastructure, une plateforme de développement ou une application clé en main.
+
+      La responsabilité partagée répartit les tâches de sécurité entre le fournisseur de services cloud, CSP, et son client.
+
+      Un hyperviseur fait fonctionner des machines virtuelles sur un serveur physique.
+
+COURS DÉTAILLÉ.
+
+I. LE SECTEUR DES TÉLÉCOMMUNICATIONS.
+
+   A. Un secteur supercritique et très régulé.
+
+      Le secteur réunit fournisseurs d'accès à Internet, de téléphonie, de câbles, entreprises d'infrastructures comme antennes et satellites, et services connexes.
+
+      Ses enjeux principaux sont la confidentialité, avec le secret des correspondances, et la disponibilité, notamment des communications d'urgence.
+
+      Il est encadré par le code des postes et des communications électroniques, l'article L2321 du code de la défense, l'article 226-3 du code pénal dit R226, l'article L34-11 dit loi 5G, et la directive NIS 2.
+
+      En trois ans, l'ANSSI a été informée de plus de 150 événements de sécurité, dont près de 50 incidents traités.
+
+   B. L'espionnage, menace la plus préoccupante.
+
+      Des attaquants liés aux intérêts chinois et iraniens sont très actifs dans l'exfiltration des données traitées en masse par les opérateurs.
+
+      L'ANSSI observe une hausse préoccupante des compromissions de routeurs en cœur de réseau, sophistiquées, longues et difficiles à détecter.
+
+      Les routeurs domestiques de petites entités servent à bâtir des réseaux d'anonymisation, et des équipements satellitaires sont détournés par des groupes liés à la Russie.
+
+      Les réseaux de signalisation mobile ouverts, SS7, permettent de localiser un abonné dans le monde entier, ce qu'exploitent des sociétés de lutte informatique offensive privées.
+
+   C. Déstabilisation et lucre.
+
+      Le sabotage du réseau satellitaire KA-SAT, la nuit de l'invasion russe de l'Ukraine en février 2022, a mis hors service des dizaines de milliers de modems, dont beaucoup en France ; l'Union européenne l'a attribué à la Russie le 10 mai 2022.
+
+      Des coupures de câbles ont touché plusieurs fournisseurs d'accès fin avril 2022, et un câble sous-marin près de Marseille en octobre 2022.
+
+      La fraude aux communications, le vol de données clients, le chantage au DDoS, les rançongiciels et les menaces internes visent aussi les opérateurs.
+
+   D. Recommandations.
+
+      Sensibiliser, protéger les systèmes bureautiques et métier, sécuriser les cœurs de réseau fixe et mobile, l'administration, les services DNS, la journalisation et la détection.
+
+      Contrôler le SIM swapping, par exemple en temporisant de 24 heures l'activation de la nouvelle carte et en prévenant l'abonné.
+
+II. LE CLOUD COMPUTING.
+
+   A. Une technologie structurante.
+
+      Les fournisseurs de services cloud sont des cibles pour leurs données mais surtout pour les accès qu'ils offrent vers leurs clients.
+
+      Selon la responsabilité partagée, en IaaS le client gère systèmes, applications et données ; en PaaS, applications et données ; en SaaS, données et utilisateurs.
+
+      Les lois extraterritoriales comme le Cloud Act, le FISA ou la loi chinoise sur le renseignement permettent l'accès aux données ; le chiffrement ne suffit pas si les clés sont dans le cloud, d'où les exigences de SecNumCloud 3.2.
+
+   B. Les menaces.
+
+      Des modes opératoires comme Scattered Spider, Nobelium, Storm-0558 ou Storm-0501 se sont spécialisés dans les environnements cloud.
+
+      Les attaquants se latéralisent de l'on-premise vers le cloud et inversement, et exploitent mauvaises configurations, permissions excessives et stockages exposés.
+
+      Les équipements de bordure comme les VPN sont un point d'entrée privilégié, et les acteurs étatiques utilisent aussi des vulnérabilités jour-zéro.
+
+      En 2023, Storm-0558, lié à la Chine, a accédé aux messageries Exchange Online de 500 personnes de 22 entités grâce à une clé de signature Microsoft de 2016.
+
+      Les hyperviseurs sont ciblés : Scattered Spider a chiffré 100 hyperviseurs ESXi de MGM avec BlackCat, et ESXiArgs a chiffré des milliers de serveurs.
+
+      Le cloud sert aussi d'infrastructure d'attaque, pour héberger, stocker ou exfiltrer en se fondant dans le trafic légitime.
+
+   C. Recommandations.
+
+      Pour les clients : maîtriser la surface d'exposition, assurer la continuité, protéger identités, accès et données, superviser et privilégier les services SecNumCloud.
+
+      Pour les fournisseurs : mêmes axes, appliqués à leurs propres infrastructures.
+
+POINTS D'ATTENTION.
+
+      Les télécommunications sont un secteur supercritique où l'espionnage est la menace principale.
+
+      KA-SAT illustre l'impact massif d'un sabotage.
+
+      Dans le cloud, la sécurité est une responsabilité partagée et le client reste responsable de ses données et identités.
+
+      SecNumCloud 3.2 protège face aux lois extraterritoriales.
+
+EXEMPLES CITES.
+
+      Le sabotage de KA-SAT en février 2022.
+
+      Storm-0558 et la clé de signature Microsoft.
+
+      Scattered Spider contre MGM, avec des pertes de 8,4 millions de dollars par jour.
+
+      Pegasus injecté par le réseau contre des journalistes marocains.
