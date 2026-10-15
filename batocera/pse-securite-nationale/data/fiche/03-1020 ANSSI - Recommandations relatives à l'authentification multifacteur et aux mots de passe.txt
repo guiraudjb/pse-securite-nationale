@@ -1,0 +1,147 @@
+ANSSI, RECOMMANDATIONS RELATIVES À L'AUTHENTIFICATION MULTIFACTEUR ET AUX MOTS DE PASSE, OCTOBRE 2021.
+
+LEXIQUE COMPLET.
+
+      Le facteur d'authentification est un élément lié à une personne appartenant à l'une des trois catégories : connaissance, possession ou inhérent.
+
+      Le facteur de connaissance, ce que je sais, est une information mémorisée comme un mot de passe, une phrase de passe ou un code.
+
+      Le facteur de possession, ce que je possède, est un secret non mémorisable contenu dans un objet physique qui le protège de l'extraction, comme une carte à puce, un jeton ou un téléphone.
+
+      Le facteur inhérent, ce que je suis, est une caractéristique biologique, morphologique ou comportementale indissociable de la personne, comme l'empreinte digitale, l'iris, la voix ou la frappe au clavier.
+
+      L'authentification multifacteur combine au moins deux facteurs de catégories différentes.
+
+      La double authentification combine deux facteurs de la même catégorie, par exemple deux mots de passe, ce qui améliore la sécurité sans être une authentification multifacteur.
+
+      L'authentification forte repose sur un mécanisme cryptographique robuste, comme les certificats sur carte à puce, FIDO2, FIDO U2F, les mots de passe à usage unique HOTP ou TOTP, Kerberos ou les protocoles PAKE.
+
+      Le vérifieur est l'entité qui contrôle l'authentification, et le prouveur celle qui s'authentifie.
+
+      L'entropie, exprimée en bits, mesure la robustesse d'un mot de passe selon le nombre de combinaisons possibles.
+
+      La phrase de passe est une suite de mots choisis aléatoirement dans un corpus, plus longue mais souvent plus facile à mémoriser.
+
+      Le password spraying teste automatiquement un petit nombre de mots de passe courants sur de nombreux comptes.
+
+      Le sel est une valeur aléatoire ajoutée au mot de passe avant le calcul de son empreinte, pour empêcher les attaques par tables précalculées.
+
+      Le coffre-fort de mots de passe est un logiciel qui stocke de manière chiffrée les mots de passe de l'utilisateur.
+
+COURS DÉTAILLÉ.
+
+I. LES PRINCIPES DE L'AUTHENTIFICATION.
+
+   A. Les trois catégories de facteurs.
+
+      Le guide distingue la connaissance, la possession et l'inhérence, et mentionne un facteur parfois rencontré, où je suis, fondé sur la localisation.
+
+      Le vérifieur ne doit connaître qu'une version non réversible d'un facteur de connaissance, comme son empreinte.
+
+      Un facteur de possession est attribué à un seul utilisateur et doit être protégé contre la reproduction et la falsification.
+
+      Un facteur inhérent doit distinguer chaque personne, y compris des jumeaux.
+
+   B. Les menaces.
+
+      Sur les mots de passe : recherche exhaustive, attaques par dictionnaire, password spraying, hameçonnage et écoute sur un canal non protégé.
+
+      Sur les facteurs de possession : vol des secrets, par exemple par canaux auxiliaires.
+
+      Sur les facteurs inhérents : leurre de la reconnaissance biométrique par photographie ou vidéo.
+
+   C. Multifacteur et authentification forte.
+
+      R1 recommande de privilégier l'authentification multifacteur, et R2 des moyens d'authentification forts.
+
+      Une authentification multifacteur forte fait intervenir au moins un facteur considéré comme fort.
+
+      Les besoins de sécurité dépendent du contexte, d'où la recommandation R3 de conduire une analyse de risque.
+
+II. LE CYCLE DE VIE DES FACTEURS.
+
+      Créer les facteurs dans un environnement maîtrisé, avec un générateur d'aléa robuste, et les remettre par des canaux sécurisés.
+
+      Prévoir le renouvellement, l'expiration, la révocation et des délais adaptés de prise en compte des révocations.
+
+      R8 : ne pas utiliser le SMS comme moyen de réception d'un facteur d'authentification.
+
+      Conserver l'historique d'utilisation des facteurs, limiter dans le temps le nombre de tentatives et authentifier à travers un canal sécurisé.
+
+      Limiter la durée des sessions authentifiées, protéger les données d'authentification du vérifieur et ne donner aucune information sur la cause d'un échec.
+
+      Définir une politique d'utilisation des facteurs et sensibiliser les utilisateurs.
+
+III. LES MOTS DE PASSE.
+
+   A. Politique et longueur.
+
+      Mettre en place une politique de sécurité des mots de passe adaptée au contexte.
+
+      Allonger un mot de passe est souvent plus efficace que le complexifier pour augmenter son entropie.
+
+      Avec un jeu de 90 caractères, le guide propose au moins 9 à 11 caractères pour une sensibilité faible à moyenne, soit environ 65 bits, 12 à 14 caractères pour une sensibilité moyenne à forte, soit environ 85 bits, et au moins 15 caractères pour une sensibilité forte à très forte, soit au moins 100 bits.
+
+      Pour une sensibilité forte à très forte, l'authentification multifacteur est recommandée, et les mots de passe non mémorisés devraient dépasser 20 caractères.
+
+      Les codes PIN, courts, sont compensés par des mesures fortes comme le blocage après trois échecs.
+
+   B. Pas de longueur maximale faible.
+
+      Fixer une longueur maximale faible, comme 8 ou 10 caractères, est une mauvaise pratique qui empêche les phrases de passe.
+
+      Une limite de plusieurs centaines de caractères reste raisonnable pour éviter un déni de service.
+
+   C. Complexité, expiration et contrôle.
+
+      Des règles de complexité sont mises en œuvre, et peuvent être allégées pour un mot de passe très long.
+
+      Il ne faut pas imposer par défaut d'expiration aux mots de passe des comptes non sensibles, mais l'imposer aux comptes à privilèges, par exemple entre 1 et 3 ans.
+
+      Un mot de passe doit être révoqué immédiatement en cas de compromission suspectée ou avérée.
+
+      La robustesse est contrôlée à la création et au renouvellement.
+
+   D. Stockage.
+
+      Utiliser un sel aléatoire long et une fonction de dérivation memory-hard comme scrypt ou Argon2, ou à défaut une fonction itérative comme PBKDF2 avec le plus grand nombre d'itérations possible.
+
+      Proposer une méthode de recouvrement d'accès et mettre à disposition un coffre-fort de mots de passe.
+
+   E. Les recommandations aux utilisateurs.
+
+      Utiliser des mots de passe robustes, différents pour chaque service, un coffre-fort, protéger ses mots de passe, soigner celui de la messagerie, éviter les informations personnelles et modifier les mots de passe par défaut.
+
+IV. POSSESSION ET INHÉRENCE.
+
+   A. Le facteur de possession.
+
+      Privilégier un facteur de possession intégrant un composant de sécurité qualifié ou certifié, à défaut un composant de sécurité, et à défaut un facteur de possession sans composant de sécurité.
+
+   B. Le facteur inhérent.
+
+      Ne pas utiliser un facteur inhérent comme unique facteur d'authentification, mais l'associer à un facteur fort.
+
+      Favoriser une rencontre en présence lors de l'enregistrement d'un facteur biométrique.
+
+POINTS D'ATTENTION.
+
+      Deux mots de passe ne font pas une authentification multifacteur, mais une double authentification.
+
+      Le SMS ne doit pas servir à recevoir un facteur d'authentification.
+
+      La longueur prime sur la complexité, et une longueur maximale faible est une mauvaise pratique.
+
+      L'expiration périodique ne s'impose pas aux comptes non sensibles, mais aux comptes à privilèges.
+
+      La biométrie ne doit jamais être le seul facteur.
+
+EXEMPLES CITES.
+
+      Les protocoles FIDO2 et FIDO U2F, HOTP, TOTP et OCRA, Kerberos, SPAKE2 et OPAQUE.
+
+      Les fonctions de dérivation scrypt, Argon2 et PBKDF2.
+
+      Le code PIN bloqué après trois échecs.
+
+      Le logiciel John The Ripper, cité en bibliographie comme outil de cassage de mots de passe.
