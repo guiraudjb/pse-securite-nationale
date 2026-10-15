@@ -1,0 +1,105 @@
+CYBERMALVEILLANCE.GOUV.FR, GIP ACYMA, RAPPORTS D'ACTIVITÉ 2021, 2022, 2023, 2024 ET 2025.
+
+LEXIQUE COMPLET.
+
+      Cybermalveillance.gouv.fr est le dispositif national d'assistance aux victimes d'actes de cybermalveillance, de sensibilisation des publics et d'observation de la menace.
+
+      Le GIP ACYMA, groupement d'intérêt public Action contre la cybermalveillance, porte le dispositif ; ses membres sont répartis en quatre collèges, dont les utilisateurs et les prestataires.
+
+      Le 17Cyber, lancé en décembre 2024, est le service en ligne d'assistance aux victimes disponible 24 heures sur 24, qui peut mettre en relation avec policiers et gendarmes.
+
+      Le label ExpertCyber distingue les prestataires de sécurité qualifiés pour assister et sécuriser les professionnels.
+
+      SensCyber est un programme de sensibilisation en ligne, et le Cybermois est le mois européen de la cybersécurité, en octobre.
+
+      Le quishing est un hameçonnage par QR code.
+
+      L'opération Cactus est une simulation d'hameçonnage menée dans les espaces numériques de travail des établissements scolaires.
+
+COURS DÉTAILLÉ.
+
+I. LE DISPOSITIF.
+
+   A. Les missions.
+
+      Assister les victimes, particuliers, entreprises, associations, collectivités et administrations, en les orientant vers des prestataires référencés ou labellisés.
+
+      Sensibiliser tous les publics par des campagnes, des fiches, des mémos et des interventions.
+
+      Observer la menace à partir des demandes d'assistance pour l'anticiper.
+
+   B. L'évolution du dispositif.
+
+      En 2021, la plateforme a doublé son audience avec près de 2,5 millions de visiteurs, et les premiers prestataires labellisés ExpertCyber ont été référencés.
+
+      Le GIP compte 56 membres en 2022, 62 en 2023, 65 en 2024 et 64 en 2025.
+
+      Fin 2024, le 17Cyber a simplifié les parcours d'assistance ; en 2025, son taux de satisfaction atteint 84,2 pour cent.
+
+II. LES CHIFFRES DE L'ASSISTANCE.
+
+   A. Une croissance continue.
+
+      En 2022, près de 3,8 millions de visiteurs uniques et 280 000 demandes d'assistance, presque autant que les quatre années précédentes réunies.
+
+      En 2023, 3,7 millions de visiteurs et 282 256 demandes, un niveau stable.
+
+      En 2024, plus de 5,4 millions de visiteurs uniques et plus de 420 000 demandes d'assistance.
+
+      En 2025, plus de 504 000 demandes d'assistance, en hausse de 20 pour cent, portant sur 51 types de menaces.
+
+   B. La répartition des publics en 2025.
+
+      Les demandes proviennent à 93 pour cent de particuliers, 6 pour cent d'entreprises et associations, et 1 pour cent de collectivités et administrations.
+
+      Pour 1 000 collectivités, 141 ont eu recours à l'assistance, contre 7 pour 1 000 particuliers et 3 pour 1 000 entreprises.
+
+III. LES PRINCIPALES MENACES.
+
+   A. L'hameçonnage, première menace.
+
+      L'hameçonnage reste la première menace pour tous les publics, par courriel, SMS ou QR code.
+
+      La menace devient plus diverse et diffuse : les dix principales menaces représentaient 92 pour cent des assistances en 2023, 87 pour cent en 2024 et 81 pour cent en 2025.
+
+   B. Les particuliers en 2025.
+
+      Hameçonnage, piratage de compte, violations de données et faux support informatique dominent.
+
+      Le cyberharcèlement progresse de 134 pour cent, la fraude au faux conseiller bancaire de 159 pour cent, la fraude au virement de 196 pour cent et l'usurpation de numéro de téléphone de 517 pour cent.
+
+   C. Les professionnels en 2025.
+
+      Pour les entreprises et associations, piratage de compte, hameçonnage, fraude au virement et rançongiciel arrivent en tête ; le rançongiciel reste la menace la plus redoutable.
+
+      Pour les collectivités, piratage de compte, hameçonnage et rançongiciel dominent, et la fraude au virement bondit de 262 pour cent.
+
+      Les piratages informatiques progressent, car les comptes fuités ou hameçonnés servent d'accès initial.
+
+   D. Les tendances.
+
+      Les fuites de données, record en 2024 avec notamment Viamedis et Almerys, alimentent l'hameçonnage ciblé.
+
+      Les cybercriminels se professionnalisent : vente de données, kits prêts à l'emploi, centres d'appels de faux conseillers.
+
+      Ils utilisent l'IA pour traduire et générer textes, visuels et faux sites, mais des campagnes de masse entièrement pilotées par IA ne sont pas attestées.
+
+POINTS D'ATTENTION.
+
+      Le 17Cyber est le réflexe en cas de cybermalveillance.
+
+      L'hameçonnage reste la première menace pour tous les publics.
+
+      Les demandes d'assistance sont passées de 280 000 en 2022 à plus de 504 000 en 2025.
+
+      Les collectivités recourent proportionnellement le plus à l'assistance.
+
+EXEMPLES CITES.
+
+      L'opération Cactus de simulation d'hameçonnage.
+
+      Les faux conseillers bancaires et les fraudes au virement.
+
+      Les fuites de données Viamedis et Almerys.
+
+      Le quishing et le smishing.
