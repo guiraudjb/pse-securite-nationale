@@ -1,0 +1,91 @@
+VIGINUM, RRN, UNE CAMPAGNE NUMÉRIQUE DE MANIPULATION DE L'INFORMATION COMPLEXE ET PERSISTANTE, 19 JUIN 2023, PORTAL KOMBAT, UN RÉSEAU STRUCTURÉ ET COORDONNÉ DE PROPAGANDE PRORUSSE, FÉVRIER ET AVRIL 2024, ET MATRIOCHKA, UNE CAMPAGNE PRORUSSE CIBLANT LES MÉDIAS ET LA COMMUNAUTÉ DES FACT-CHECKERS, JUIN 2024.
+
+LEXIQUE COMPLET.
+
+      Viginum, service de vigilance et de protection contre les ingérences numériques étrangères, est rattaché au SGDSN.
+
+      Une ingérence numérique étrangère réunit quatre critères : une atteinte aux intérêts fondamentaux de la Nation, des contenus manifestement inexacts ou trompeurs, l'implication directe ou indirecte d'un acteur étranger, et une diffusion artificielle ou automatisée, massive et délibérée.
+
+      Le typosquatting consiste à enregistrer des noms de domaine volontairement proches de ceux de médias ou d'institutions pour les usurper.
+
+      Doppelgänger est le nom donné en sources ouvertes à la campagne d'usurpation de médias européens liée à RRN.
+
+      Un fact-checker est un journaliste ou une cellule qui vérifie les informations.
+
+      Dans Matriochka, les seeders publient un faux contenu et les quoters le relaient en interpellant les cibles.
+
+COURS DÉTAILLÉ.
+
+I. LA CAMPAGNE RRN.
+
+   A. Un faux média.
+
+      Le site RRN, d'abord Reliable Russian News puis Reliable Recent News, a été créé le 10 mars 2022, quelques jours après l'invasion de l'Ukraine, et traduit en plusieurs langues.
+
+      Sa ligne éditoriale porte sur l'inefficacité supposée des sanctions, la prétendue russophobie occidentale, la barbarie attribuée aux forces ukrainiennes et les effets négatifs de l'accueil des réfugiés.
+
+      Ses liens sont dès le départ visibles avec le réseau diplomatique russe et la fausse plateforme de fact-checking War on Fakes.
+
+   B. Les acteurs.
+
+      Meta a attribué la campagne en décembre 2022 à deux sociétés russes, Struktura et Social Design Agency, dirigées par le technologue politique Ilya Gambachidze.
+
+   C. Le mode opératoire.
+
+      La campagne usurpe des médias par typosquatting, dont Le Parisien, Le Monde, Le Figaro et 20 Minutes, ainsi que des sites institutionnels.
+
+      Les faux articles sont diffusés via des comptes inauthentiques et des redirections, et l'opération a été dénoncée publiquement par la France en juin 2023.
+
+II. LE RÉSEAU PORTAL KOMBAT.
+
+   A. Un réseau de portails d'information.
+
+      De septembre à décembre 2023, Viginum a analysé au moins 193 sites qui relaient des contenus prorusses, sans produire de contenu original.
+
+      D'abord consacrés à des localités russes et ukrainiennes, ils ont ciblé dès l'invasion les territoires occupés, puis des pays occidentaux soutenant l'Ukraine, dont la France avec pravda-fr.
+
+      Les sites relaient des comptes de réseaux sociaux prorusses, des agences de presse russes et des sites institutionnels locaux, avec une automatisation massive et une optimisation du référencement.
+
+   B. Les investigations suivantes.
+
+      Le deuxième rapport, du 14 février 2024, a mis en évidence le rôle de TigerWeb, entreprise domiciliée en Crimée, et l'amplification par des comptes liés à RRN.
+
+      Après la dénonciation publique par la France, l'Allemagne et la Pologne, le réseau s'est étendu en mars 2024 à presque toute l'Union européenne, à l'Afrique et à l'Asie, atteignant 224 portails, à quelques semaines des élections européennes.
+
+III. LA CAMPAGNE MATRIOCHKA.
+
+   A. Le principe.
+
+      Active depuis au moins septembre 2023, Matriochka publie de faux contenus, reportages, graffitis ou mèmes, puis les diffuse en réponse aux comptes de médias, personnalités et fact-checkers de plus de soixante pays.
+
+      Les opérateurs interpellent directement les cibles, sur X et par courriel, pour leur demander de vérifier ces faux contenus et ainsi saturer leurs capacités.
+
+   B. Le mode opératoire.
+
+      Deux à trois comptes seeders publient le faux contenu, puis deux à trois quoters le partagent en réponse aux cibles, avec au moins 90 manœuvres depuis septembre 2023.
+
+      Les contenus usurpent souvent des médias occidentaux, dont français, et ciblent le soutien français à l'Ukraine, des personnalités politiques et les Jeux de Paris 2024.
+
+      La majorité des contenus provient de chaînes Telegram russes.
+
+   C. La qualification.
+
+      Viginum estime que l'objectif est de décrédibiliser médias et fact-checkers tout en promouvant les intérêts russes, et qualifie la campagne d'ingérence numérique étrangère.
+
+POINTS D'ATTENTION.
+
+      Les quatre critères de l'ingérence numérique étrangère structurent les analyses de Viginum.
+
+      RRN usurpe l'identité de grands médias par typosquatting.
+
+      Portal Kombat est passé de 193 à 224 portails en 2024.
+
+      Matriochka cherche à épuiser et décrédibiliser les fact-checkers.
+
+EXEMPLES CITES.
+
+      Les faux sites du Monde, du Figaro, du Parisien et de 20 Minutes.
+
+      Le portail pravda-fr ciblant la France.
+
+      Une opération de Matriochka mettant en cause la qualité de l'eau de la Seine.
