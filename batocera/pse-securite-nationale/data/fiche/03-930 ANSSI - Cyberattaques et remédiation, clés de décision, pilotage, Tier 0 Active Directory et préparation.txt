@@ -1,0 +1,221 @@
+ANSSI, COLLECTION CYBERATTAQUES ET REMÉDIATION, LES CLÉS DE DÉCISION, PILOTER LA REMÉDIATION, LA REMÉDIATION DU TIER 0 ACTIVE DIRECTORY ET PRÉPARER LA REMÉDIATION.
+
+LEXIQUE COMPLET.
+
+      La remédiation est le projet de reprise de contrôle d'un système d'information compromis et de rétablissement d'un état de fonctionnement suffisant.
+
+      La réponse à incident cyber comprend trois dimensions majeures : la remédiation, l'investigation et la gestion de crise.
+
+      La séquence E3R désigne les étapes endiguement, éviction, éradication, accompagnées en parallèle de la reconstruction.
+
+      L'endiguement stoppe la progression de l'attaquant et donne du temps au défenseur.
+
+      L'éviction élimine durablement l'adversaire du cœur de confiance, c'est-à-dire de l'administration du système, et dote le défenseur d'une position d'où mener l'éradication.
+
+      L'éradication nettoie les emprises résiduelles de l'attaquant dans les systèmes métier, comme les portes dérobées.
+
+      La reconstruction recrée l'infrastructure compromise ou détruite et rebâtit les fondations de la sécurité en durcissant le système par conception.
+
+      Le cœur de confiance est la partie du système dont la compromission ferait suspecter la compromission de tout le système : gestion des identités, virtualisation, administration et supervision de sécurité.
+
+      Le modèle d'administration en niveaux, ou en tiers, proposé initialement par Microsoft, distingue le Tier 0, le Tier 1 et le Tier 2 pour empêcher l'escalade de privilèges dans l'Active Directory.
+
+      Le Tier 0, ou niveau rouge, contient les ressources ayant le contrôle des identités de l'entreprise, comme les contrôleurs de domaine.
+
+      Le Tier 1, ou niveau jaune, contient les ressources contrôlant les valeurs métier, comme les serveurs, les applications et les comptes de service.
+
+      Le Tier 2, ou niveau vert, contient les postes de travail, les imprimantes et les comptes non privilégiés.
+
+      Le chemin de contrôle est l'enchaînement de droits permettant à un compte ou une machine de prendre le contrôle d'un objet sensible de l'annuaire.
+
+      Le compte krbtgt stocke les clés des centres de distribution Kerberos, et sa compromission permet de forger des golden tickets.
+
+      Un compte bris de glace est un compte aux droits étendus, conservé hors ligne dans un coffre ou sous scellé, destiné aux incidents graves.
+
+COURS DÉTAILLÉ.
+
+I. LA COLLECTION ET SES QUATRE DOCUMENTS.
+
+   A. Un corpus à trois niveaux.
+
+      L'ANSSI a publié en décembre 2023 la collection Cyberattaques et remédiation, issue de son expérience d'accompagnement des victimes.
+
+      Le volet stratégique, Les clés de décision, s'adresse aux décideurs et les aide à choisir les objectifs et le plan de remédiation.
+
+      Le volet opérationnel, Piloter la remédiation, s'adresse aux RSSI, aux DSI et aux équipes de pilotage pour décliner les objectifs stratégiques en objectifs techniques.
+
+      Le volet technique, La remédiation du Tier 0 Active Directory, s'adresse aux équipes d'exploitation qui reconstruisent le cœur de confiance de l'annuaire.
+
+      Le guide Préparer la remédiation, publié en janvier 2026, liste ce qu'il faut préparer à froid pour faciliter une remédiation, avec pour ambition affichée de devenir obsolète une fois intégré aux plans de continuité.
+
+   B. Un projet long qui modifie le cycle de vie du système.
+
+      À la suite d'un incident majeur, la remédiation modifie pendant plusieurs semaines voire plusieurs mois le cycle de vie du système d'information et touche de nombreux métiers.
+
+      Bien pilotée, elle transforme l'incident en opportunité d'améliorer significativement la résilience de l'organisation.
+
+      Elle se joue contre une intelligence hostile qui observe les actions des défenseurs et peut s'adapter.
+
+II. LA SÉQUENCE E3R ET LE CŒUR DE CONFIANCE.
+
+   A. Les étapes.
+
+      L'endiguement empêche l'aggravation de l'incident.
+
+      L'éviction chasse l'intrus du cœur du système pour recréer une base de confiance d'où mener la reconstruction.
+
+      L'éradication élimine les capacités de retour de l'attaquant, en particulier les portes dérobées laissées lors de l'intrusion.
+
+      La reconstruction se déroule en parallèle et donne les moyens d'atteindre les objectifs de la séquence éviction et éradication.
+
+   B. L'importance du cœur de confiance.
+
+      Le cœur de confiance est la brique centrale d'où l'attaquant est exclu de façon certaine et qui est indispensable pour mener la remédiation.
+
+      Sa reconstruction est une étape majeure, et son échec mène généralement à un cycle de compromission et de remédiation qui peut durer des mois voire des années.
+
+      Les architectures sécurisées visent à réduire la taille et la complexité du cœur de confiance pour en simplifier la sécurisation.
+
+      Une simple stratégie de nettoyage du cœur de confiance donne des résultats médiocres, et tout élément importé dans le nouveau cœur de confiance doit être contrôlé depuis celui-ci.
+
+III. LES CLÉS DE DÉCISION POUR LES DIRIGEANTS.
+
+   A. Trois scénarios types.
+
+      Le scénario 1, Restaurer au plus vite des services vitaux, redémarre un nombre restreint de services face à un péril immédiat, mais ne traite pas les causes racines ni le risque de résurgence.
+
+      Le scénario 2, Reprendre le contrôle du SI, ramène le plus vite possible tout le système à son état antérieur sans le restructurer, l'organisation restant à risque tant que l'administration et la détection ne sont pas renforcées.
+
+      Le scénario 3, Saisir l'opportunité pour préparer une maîtrise durable du SI, engage des changements majeurs dès la remédiation pour adopter un modèle de sécurité proactif plutôt que réactif.
+
+   B. Les coûts.
+
+      Le scénario 1 est peu coûteux au départ, mais le risque de résurgence élevé entraîne de nouvelles remédiations et un coût total très élevé.
+
+      Le scénario 2 ramène l'état fonctionnel dès la première remédiation, mais le plan de sécurisation s'étale ensuite et affecte à nouveau les métiers.
+
+      Le scénario 3 a un coût initial élevé, mais pose les bases d'une sécurité à l'état de l'art et se révèle très rentable à terme.
+
+      Les dégâts d'une attaque peuvent se chiffrer en millions, voire en dizaines de millions d'euros.
+
+   C. Sept recommandations aux décideurs.
+
+      Piloter dans la tempête, en sortant de l'immédiateté, car les incidents se gèrent en semaines et en mois.
+
+      Assumer des choix structurants, car tout vouloir traiter disperse les moyens et mène à l'échec.
+
+      Fixer des objectifs stratégiques centrés sur les métiers, mesurés à la capacité des métiers à travailler.
+
+      Rester réactif face à un adversaire qui peut changer de comportement.
+
+      Être flexible, en adaptant moyens, priorités et calendrier tout en gardant le cap.
+
+      Garder l'œil sur l'humain, en gérant le leadership, le moral et la fatigue dans la durée.
+
+      Contempler un horizon viable à long terme, une remédiation réussie ne remplaçant pas un plan de sécurisation durable.
+
+IV. PILOTER LA REMÉDIATION.
+
+   A. Les étapes du pilotage.
+
+      Identifier et prioriser les objectifs stratégiques avec la direction, puis les décliner en objectifs opérationnels.
+
+      Mobiliser les moyens : équipes internes, matériels et logiciels, supports externes.
+
+      Identifier les porteurs, prioriser et lancer les sous-projets, puis suivre et coordonner leur réalisation.
+
+      Communiquer régulièrement l'état d'avancement aux décideurs et aux exécutants, et s'appuyer au besoin sur des prestataires.
+
+   B. Le rôle des métiers.
+
+      Les métiers doivent orienter la remédiation : identification des impacts et des priorités, participation aux sous-projets, validation du fonctionnement avant la reprise.
+
+      La gravité d'un incident se caractérise par son impact sur le métier, et une menace vitale pour le métier fait de l'incident une crise.
+
+   C. Gérer la durée.
+
+      La remédiation est un marathon : la capacité à soutenir le plan d'action dans la durée compte davantage que son rythme d'exécution.
+
+      Des plans types sous forme de check-lists accompagnent chacun des trois scénarios.
+
+V. LA REMÉDIATION DU TIER 0 ACTIVE DIRECTORY.
+
+   A. Le modèle en trois tiers.
+
+      Les comptes administrateurs des postes, des serveurs et du domaine sont séparés et utilisent des postes d'administration dédiés.
+
+      Le compte RID 500, administrateur par défaut, est réservé aux urgences.
+
+      Les groupes natifs privilégiés, comme administrateurs ou contrôleurs de domaine, disposent des droits maximaux sur la forêt.
+
+   B. Les actions d'éviction.
+
+      Réinstaller les contrôleurs de domaine et l'ensemble des machines du Tier 0 lorsque leur compromission ne peut être exclue.
+
+      Supprimer les chemins de contrôle dangereux vers les contrôleurs de domaine, les serveurs DNS et les objets privilégiés, ainsi que les délégations d'authentification et les permissions dangereuses sur l'objet adminSDHolder.
+
+      Renouveler les secrets : compte Administrateur par défaut, krbtgt, compte DSRM du mode de restauration, clés KDS, secrets des relations d'approbation et comptes suspects.
+
+      Le mot de passe du compte krbtgt n'est pas changé automatiquement et doit être changé deux fois pour être efficace, faute de quoi une base extraite permet de s'authentifier des années plus tard.
+
+      Monter le niveau fonctionnel de la forêt, durcir l'annuaire, utiliser DFSR pour la réplication du SYSVOL et assainir les GPO s'appliquant aux objets privilégiés.
+
+   C. Les pratiques d'administration sécurisées.
+
+      Créer une structure d'unités organisationnelles protégeant le Tier 0, des comptes dédiés à l'administration et des postes d'administration sécurisés.
+
+      Appliquer une politique de mots de passe robuste et réduire le nombre de comptes privilégiés.
+
+      Éviter que les secrets des comptes privilégiés ne se trouvent dans la mémoire de machines hors du Tier 0.
+
+      Superviser ensuite le Tier 0 pour détecter toute nouvelle tentative.
+
+VI. PRÉPARER LA REMÉDIATION.
+
+   A. Le constat.
+
+      Les plans de continuité et de reprise d'activité sont encore rarement adaptés aux évènements de cybersécurité d'ampleur.
+
+      La remédiation est un projet pragmatique, exécuté à un moment subi avec les moyens disponibles et des priorités dictées par la survie de l'organisation.
+
+   B. Les points à préparer.
+
+      Les plans : continuité, reprise, restauration des données et kits de continuité.
+
+      La communication, en adoptant une posture de discrétion, car l'attaquant observe et interprète les actions des défenseurs.
+
+      La connaissance du système : cartographies métiers et techniques, localisation, interconnexions et accès des partenaires.
+
+      Les moyens de coordination : communication, chiffrement, accès Internet de secours et carnet d'adresses des intervenants.
+
+      Les parties prenantes externes : assurance, prestataires et contacts externes.
+
+      Les moyens d'accès physiques et logiques, dont les comptes bris de glace comme le compte RID 500, le compte root des hyperviseurs et des infrastructures Unix.
+
+      Les indispensables techniques : médias d'installation, licences et matériel informatique.
+
+      La dimension humaine : identification des acteurs, préparation des ressources humaines et logistique des personnes.
+
+POINTS D'ATTENTION.
+
+      Ne pas confondre l'éviction, qui vise le cœur de confiance, et l'éradication, qui vise les emprises résiduelles dans les systèmes métier.
+
+      Le scénario 1 est le moins cher à court terme mais le plus coûteux à long terme.
+
+      Les objectifs de la remédiation se mesurent à la capacité des métiers à travailler.
+
+      Le mot de passe du compte krbtgt doit être changé deux fois.
+
+      L'échec de la reconstruction du cœur de confiance entraîne des cycles de compromission répétés.
+
+      La discrétion est de mise, l'attaquant pouvant observer les échanges des défenseurs.
+
+EXEMPLES CITES.
+
+      Les golden tickets Kerberos forgés après la compromission du compte krbtgt.
+
+      Les comptes bris de glace : RID 500 de l'Active Directory, root des hyperviseurs et des infrastructures Unix.
+
+      Le passage de la réplication du SYSVOL au protocole DFSR.
+
+      L'objet adminSDHolder et ses permissions dangereuses.
