@@ -1,0 +1,93 @@
+CNIL, RECOMMANDATION RELATIVE À L'AUTHENTIFICATION MULTIFACTEUR, VERSION ADOPTÉE LE 20 MARS 2025, PUBLIÉE EN AVRIL 2025.
+
+LEXIQUE COMPLET.
+
+      L'authentification multifacteur, MFA, s'appuie sur plusieurs facteurs appartenant à au moins deux catégories distinctes ; avec exactement deux facteurs, on parle d'authentification à deux facteurs, 2FA.
+
+      Le facteur de connaissance est ce que la personne sait : mot de passe, phrase de passe ou code PIN.
+
+      Le facteur de possession est ce que la personne a : jeton matériel comme une carte à puce ou une clé USB d'authentification, ou jeton logiciel lié à un appareil enrôlé.
+
+      Le facteur d'inhérence est ce que la personne est ou fait : caractéristique morphologique, comportementale ou biologique.
+
+      La vérification en deux étapes, 2SV, enchaîne deux facteurs de même catégorie ; ce n'est pas une authentification multifacteur.
+
+      Un OTP est un code à usage unique.
+
+      Le délégué à la protection des données, DPO, veille à la conformité au RGPD dans un organisme.
+
+COURS DÉTAILLÉ.
+
+I. LES NOTIONS.
+
+   A. L'objet de la recommandation.
+
+      La recommandation aide les responsables de traitement à mettre l'authentification multifacteur en conformité avec le RGPD et promeut la protection de la vie privée dès la conception.
+
+      Elle s'adresse aux professionnels de tous secteurs, en particulier aux DPO et aux RSSI, ainsi qu'aux fournisseurs de solutions.
+
+      Elle couvre l'étape d'authentification au sens strict, et non la gestion du cycle de vie des identités.
+
+   B. Ce qui est ou n'est pas une MFA.
+
+      Le paiement par carte avec code PIN est une authentification multifacteur : possession de la carte et connaissance du code.
+
+      Un mot de passe suivi d'un code reçu par courriel est une vérification en deux étapes, car le courriel ne prouve pas la possession d'un objet physique unique.
+
+      La localisation ou l'adresse IP ne sont en principe pas des facteurs d'authentification.
+
+      L'OTP par SMS est un facteur de possession dont la confiance doit être évaluée au cas par cas ; il est déconseillé par les autorités, mais reste supérieur à une authentification simple.
+
+   C. MFA et authentification robuste.
+
+      Une authentification cryptographiquement robuste n'est pas forcément multifacteur, comme une clé d'accès logicielle, et une MFA n'est pas forcément robuste, comme un mot de passe associé à un OTP par SMS.
+
+II. LES RECOMMANDATIONS.
+
+   A. Évaluer l'opportunité.
+
+      La MFA doit être adaptée aux risques, évalués par une analyse de risque intégrant l'impact sur les personnes.
+
+      La CNIL la recommande pour les données sensibles de l'article 9 du RGPD, comme la santé, et pour les opérations à risque : administration des systèmes et réseaux, accès au système de l'employeur depuis l'extérieur et messagerie professionnelle.
+
+      Pour les traitements à faible risque, il convient de permettre la MFA sans l'imposer, car sa banalisation peut provoquer une perte de vigilance.
+
+   B. La base légale et la biométrie.
+
+      La MFA suit la base légale du traitement principal ou repose sur une base propre au titre de l'article 6, souvent l'intérêt légitime dans le cadre professionnel.
+
+      Le facteur d'inhérence implique des données biométriques sensibles : leur usage n'est possible qu'avec le consentement libre des personnes, sauf texte le rendant obligatoire, et ne peut être imposé sans alternative.
+
+   C. Choisir et minimiser.
+
+      La CNIL recommande de privilégier les facteurs de connaissance et de possession, surtout dans le cadre professionnel, et de proposer une alternative au facteur biométrique.
+
+      Les gabarits biométriques devraient être stockés localement, sur l'appareil de la personne.
+
+      Il faut qualifier les acteurs, responsable de traitement ou sous-traitant, et minimiser les données collectées.
+
+   D. Conserver et sécuriser.
+
+      Les données d'authentification ne sont pas conservées au-delà de la durée de vie du compte, et l'OTP n'est pas conservé après usage.
+
+      Les journaux sont conservés en général de 6 à 12 mois ; ils ne doivent contenir ni donnée biométrique ni secret, seulement le résultat succès ou échec.
+
+      Il faut encadrer les transferts de données, permettre l'exercice des droits et sécuriser la solution.
+
+POINTS D'ATTENTION.
+
+      Une MFA combine au moins deux catégories de facteurs différentes.
+
+      Un code reçu par courriel ne constitue pas un facteur de possession.
+
+      La MFA est recommandée pour l'administration, l'accès distant et la messagerie professionnelle.
+
+      La biométrie exige le consentement et une alternative.
+
+EXEMPLES CITES.
+
+      La carte bancaire et son code PIN.
+
+      Le mot de passe suivi d'un code par courriel, simple vérification en deux étapes.
+
+      La plateforme de réservation d'un terrain de tennis, pour laquelle la MFA n'a pas à être imposée.
