@@ -1,0 +1,101 @@
+CERT-FR, ÉTAT DE LA MENACE CIBLANT LES CABINETS D'AVOCATS, CERTFR-2023-CTI-004 DU 27 JUIN 2023, ET ÉTAT DE LA MENACE CIBLANT LES ORGANISMES DE RECHERCHE ET LES THINK TANKS, CERTFR-2024-CTI-008.
+
+LEXIQUE COMPLET.
+
+      Un think tank, ou groupe de réflexion, est le plus souvent une structure de droit privé qui produit des recherches directement utilisables par le politique.
+
+      Le potentiel scientifique et technique de la Nation, PPST, est protégé par un dispositif qui définit notamment les zones à régime restrictif, ZRR.
+
+      La double extorsion associe le chiffrement par rançongiciel à la menace de publier des données exfiltrées.
+
+      Un délit d'initié consiste à utiliser une information privilégiée pour réaliser une opération boursière.
+
+      Un infostealer est un programme malveillant qui dérobe identifiants et données.
+
+      Une vulnérabilité zéro-clic permet de compromettre un appareil sans aucune action de sa victime.
+
+      Le RPVA est le réseau privé virtuel des avocats.
+
+COURS DÉTAILLÉ.
+
+I. LES CABINETS D'AVOCATS.
+
+   A. Des cibles de choix.
+
+      Les avocats ont accès à des données sensibles sur leurs clients et les procédures, sont en relation avec des cibles d'intérêt, et disposent de recettes financières.
+
+      Leur sécurité est hétérogène : les grands cabinets ont une politique de sécurité, mais la majorité des avocats exercent en petite structure sans RSSI.
+
+      La surface d'attaque s'étend avec la numérisation des procédures, les interconnexions avec les prestataires, le mélange des usages personnels et professionnels, le télétravail et le cloud.
+
+      Une fuite peut porter atteinte au secret professionnel et engager la responsabilité des avocats au titre du RGPD.
+
+   B. La menace lucrative.
+
+      Elle est la principale menace en nombre d'attaques, avec des rançongiciels en double extorsion.
+
+      Payer ne garantit rien : un cabinet américain, paralysé trois mois en 2016, a estimé ses pertes à 700 000 dollars.
+
+      Le groupe Everest aurait chiffré au moins sept cabinets français via leur prestataire d'infogérance.
+
+      Des groupes comme FIN7 ou FIN4 volent des informations pour les revendre ou commettre des délits d'initié.
+
+   C. Espionnage et déstabilisation.
+
+      Des États surveillent avocats et clients, souvent via des entreprises privées comme NSO Group, Candiru ou FinFisher ; en 2021, au moins seize avocats, dont un avocat français, ont été ciblés par Pegasus.
+
+      Les Panama Papers et Paradise Papers ont pu s'appuyer sur la compromission des cabinets Mossack Fonseca et Appleby.
+
+      NotPetya a aussi touché des cabinets d'avocats en 2017.
+
+II. LA RECHERCHE ET LES THINK TANKS.
+
+   A. Un secteur large et hétéroclite.
+
+      Il comprend laboratoires académiques et industriels, grandes infrastructures de recherche, centres de calcul, structures de valorisation, fondations, associations et organisations internationales.
+
+      Les chercheurs des think tanks sont à l'interface de la recherche et de la décision stratégique de l'État.
+
+      Les entités doivent respecter les règles de protection numérique du PPST.
+
+   B. L'espionnage stratégique.
+
+      Les think tanks travaillant sur les questions stratégiques et de défense sont ciblés par des attaquants liés à la Russie, la Chine, la Corée du Nord et l'Iran, pour anticiper les décisions des États.
+
+      Callisto, ou Star Blizzard, attribué au FSB russe, a ciblé en 2022 et 2023 think tanks, ONG et défense pour voler des identifiants.
+
+      Kimsuky, lié à la Corée du Nord, et Charming Kitten, lié à l'Iran, ciblent chercheurs et experts par hameçonnage.
+
+   C. L'espionnage industriel et scientifique.
+
+      Les organismes de recherche civils et militaires subissent des campagnes, parfois massives, pour exfiltrer des données scientifiques et techniques, notamment par des modes opératoires chinois comme APT31 ou nord-coréens.
+
+   D. Déstabilisation et lucre.
+
+      La guerre en Ukraine expose le secteur à des campagnes opportunistes et réactives.
+
+      Les cybercriminels déploient des rançongiciels, des infostealers et exploitent des vulnérabilités logicielles.
+
+   E. Recommandations.
+
+      Sensibiliser les personnels, maîtriser les risques et les données, sécuriser postes de travail, terminaux mobiles et messagerie, sauvegarder et assurer une veille sur les menaces.
+
+POINTS D'ATTENTION.
+
+      Pour les avocats, la menace lucrative domine, mais l'espionnage via des prestataires privés progresse.
+
+      Le secret professionnel est directement menacé par les fuites de données.
+
+      Les think tanks de défense sont des cibles constantes d'acteurs étatiques.
+
+      La recherche doit appliquer la protection du potentiel scientifique et technique de la Nation.
+
+EXEMPLES CITES.
+
+      Les Panama Papers et Mossack Fonseca.
+
+      Pegasus contre des avocats en 2021.
+
+      Callisto ou Star Blizzard contre les think tanks.
+
+      Kimsuky contre l'institut de recherche atomique sud-coréen KAERI.
