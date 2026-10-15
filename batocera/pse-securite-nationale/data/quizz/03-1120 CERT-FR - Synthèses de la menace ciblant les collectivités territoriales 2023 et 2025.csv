@@ -1,0 +1,20 @@
+Combien d'incidents affectant les collectivités l'ANSSI a-t-elle traités de janvier 2022 à juin 2023 ?;1870;187;7;18;3;Soit environ 10 par mois.
+Combien d'incidents affectant les collectivités l'ANSSI a-t-elle traités en 2024 ?;25;2180;12;218;5;Soit 18 par mois et 14 pour cent du total.
+Quelle est la principale menace pour les collectivités ?;Les attaques à but lucratif;Le sabotage nucléaire;Les pannes électriques;L'espionnage étatique;2;Elles sont opportunistes, quelle que soit la taille de la collectivité.
+Pourquoi les collectivités sont-elles des cibles de choix ?;Parce qu'elles n'ont pas d'ordinateurs;Parce qu'elles n'ont pas de données;Souvent peu sécurisées, avec des SI nombreux et disparates et beaucoup de données personnelles;Parce qu'elles sont toutes privées;4;Elles maîtrisent mal leur cartographie.
+Quelle souche de rançongiciel représente près de la moitié des cas sur 2022-2023 ?;Petya;LockBit;Emotet;WannaCry;3;Hive, Conti et Play ont aussi été observés.
+Quel type d'incident est le plus fréquent en 2024 dans les collectivités ?;Le sabotage;Le vol de matériel;La compromission de comptes de messagerie;L'espionnage;4;66 cas, soit 30 pour cent, devant les DDoS.
+Combien de temps faut-il souvent pour revenir au fonctionnement nominal après un incident grave ?;Plusieurs mois;Jamais plus d'une semaine;Une journée;Une heure;2;Reconstruction et durcissement prennent du temps.
+Quelles mesures accélèrent la remédiation ?;Un plan de reprise priorisé et des sauvegardes saines et déconnectées;Supprimer les journaux;Payer la rançon;Couper l'électricité;2;Elles réduisent significativement le temps nécessaire.
+Pourquoi une attaque peut-elle toucher plusieurs collectivités ?;C'est impossible;À cause des interconnexions et de la mutualisation des systèmes;Parce qu'elles partagent un maire;Par contagion physique;3;Exemple d'un prestataire allemand de 72 collectivités.
+Combien d'habitants ont été affectés par l'attaque Akira contre un prestataire de collectivités allemandes ?;17 millions;17;1,7 million;170;4;Le prestataire gérait 20 000 postes de travail.
+Qu'est-ce qu'une attaque par point d'eau ?;Une attaque contre une station d'eau;L'ajout de liens illégitimes sur un site web pour compromettre ses visiteurs;Une inondation de serveurs;Un déni de service;3;C'est un vecteur de compromission élargi.
+Qu'est-ce qu'un infostealer ?;Un pare-feu;Un logiciel de sauvegarde;Un programme qui exfiltre identifiants et données personnelles;Un antivirus;4;Les données sont revendues à d'autres acteurs.
+Quel groupe a revendiqué la vague de DDoS du 31 décembre 2024 ?;LockBit;NoName057(16);Akira;Cyber Av3ngers;3;Groupe hacktiviste pro-russe, sans conséquences majeures.
+Pourquoi les collectivités françaises sont-elles visées par des DDoS pro-russes ?;Par erreur;Pour tester leurs serveurs;En représailles au soutien de la France à l'Ukraine;Pour des raisons financières;4;Elles représentent l'administration française.
+Les collectivités françaises ont-elles subi récemment des sabotages selon l'ANSSI ?;Oui, toutes;Non, mais des infrastructures locales d'eau ont subi des reconnaissances en 2024;Oui, chaque semaine;Oui, uniquement les régions;3;La menace doit rester prise au sérieux.
+Quelle municipalité a été sabotée en juin 2022 ?;Téhéran;Paris;Lyon;Berlin;2;Caméras arrêtées et 600 000 SMS envoyés.
+Quel groupe aurait compromis une station d'eau municipale en Pennsylvanie en 2023 ?;Cyber Av3ngers;8Base;NoName057(16);Daixin;2;Groupe réputé lié à l'Iran.
+Comment les collectivités peuvent-elles servir l'espionnage à leur insu ?;Leurs équipements périphériques peuvent être enrôlés dans des réseaux d'anonymisation;En publiant leurs budgets;En organisant des élections;Elles ne le peuvent pas;2;D'où l'importance de sécuriser les routeurs.
+Quels équipements ont été exploités pour des intrusions en 2024 ?;Les écrans;Les équipements de bordure;Les imprimantes de bureau;Les téléphones fixes;3;Plusieurs CVE de 2023 et 2024 sont citées.
+Quelle part des incidents de 2022-2023 représentaient les compromissions de messagerie ?;50 pour cent;2 pour cent;80 pour cent;28 pour cent;5;Avec 51 compromissions signalées.

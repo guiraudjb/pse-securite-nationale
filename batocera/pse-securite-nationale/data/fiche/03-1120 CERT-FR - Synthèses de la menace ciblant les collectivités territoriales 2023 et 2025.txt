@@ -1,0 +1,107 @@
+CERT-FR, SYNTHÈSE DE LA MENACE CIBLANT LES COLLECTIVITÉS TERRITORIALES, CERTFR-2023-CTI-008 DU 23 OCTOBRE 2023, ET COLLECTIVITÉS TERRITORIALES, SYNTHÈSE DE LA MENACE, CERTFR-2025-CTI-002 DU 24 FÉVRIER 2025.
+
+LEXIQUE COMPLET.
+
+      Une collectivité territoriale est une personne morale de droit public exerçant sur un territoire des compétences déléguées par l'État : commune, EPCI, département, région ou collectivité à statut particulier.
+
+      Un EPCI, établissement public de coopération intercommunale, regroupe des communes ; il est à fiscalité propre, comme une communauté de communes ou une métropole, ou sans fiscalité propre, comme un syndicat intercommunal.
+
+      Le mode dégradé est un fonctionnement réduit, parfois manuel, imposé par l'indisponibilité du système d'information.
+
+      Une attaque par point d'eau ajoute des liens illégitimes sur un site web pour compromettre ses visiteurs.
+
+      Un infostealer est un programme malveillant qui exfiltre identifiants, informations bancaires ou données personnelles, revendues ensuite à d'autres acteurs.
+
+      Un équipement de bordure, comme un routeur ou un pare-feu, est situé en périphérie du réseau.
+
+COURS DÉTAILLÉ.
+
+I. DES CIBLES DE CHOIX.
+
+   A. Des missions et des données sensibles.
+
+      Les collectivités gèrent l'état civil, les écoles, collèges et lycées, les prestations sociales, les EHPAD, l'urbanisme, l'eau et l'énergie.
+
+      Elles détiennent un très grand nombre de données personnelles de leurs administrés.
+
+      Souvent peu ou mal sécurisées, elles gèrent des systèmes nombreux et disparates dont elles maîtrisent mal la cartographie.
+
+   B. Les incidents traités par l'ANSSI.
+
+      De janvier 2022 à juin 2023, l'ANSSI a traité 187 incidents affectant les collectivités, soit 10 par mois et 17 pour cent de ses incidents.
+
+      En 2024, elle en a traité 218, soit 18 par mois et 14 pour cent de ses incidents.
+
+      La majorité concerne les communes et EPCI à fiscalité propre, à rapporter à près de 35 000 communes et 1250 EPCI à fiscalité propre.
+
+      Les départements, 44 incidents en 2024, et les régions, 29 incidents, sont proportionnellement très touchés.
+
+II. LES ATTAQUES À BUT LUCRATIF.
+
+   A. La principale menace.
+
+      Les attaques à but lucratif sont la principale menace, opportuniste, quelle que soit la taille de la collectivité.
+
+      Sur 2022-2023, 40 incidents par rançongiciel, soit 22 pour cent, dont LockBit dans près de la moitié des cas ; en 2024, 25 incidents par rançongiciel, soit 11 pour cent, dont 21 à effets importants.
+
+      Les compromissions de messagerie représentent 28 pour cent des incidents sur 2022-2023 et 30 pour cent en 2024, avec 66 cas, devant les DDoS, 58 cas.
+
+      En 2024, de nombreuses intrusions ont exploité des vulnérabilités d'équipements de bordure.
+
+   B. Des conséquences lourdes.
+
+      Une attaque arrête les services publics, aides sociales, état civil, urbanisme, cimetières, eau, déchets, et les services internes, téléphonie, messagerie, finances, ressources humaines.
+
+      Le retour au fonctionnement nominal demande souvent plusieurs mois, comme quatre mois pour une collectivité reconstruite en 2022.
+
+      Les interconnexions et mutualisations propagent les effets à d'autres collectivités, comme un prestataire allemand gérant 72 collectivités touché par Akira, affectant 1,7 million d'habitants.
+
+      Un plan de reprise d'activité priorisant les applications et des sauvegardes saines et déconnectées accélèrent fortement la remédiation.
+
+   C. Exfiltration et vente de données.
+
+      Les données exfiltrées, comme 1,3 téraoctet d'une commune en 2023, sont publiées ou vendues sur des forums cybercriminels, avec des enjeux juridiques et réputationnels.
+
+      Les collectivités subissent aussi arnaques au président, hameçonnage et vente d'accès issus d'infostealers.
+
+III. DÉSTABILISATION ET ESPIONNAGE.
+
+   A. L'hacktivisme.
+
+      Les défigurations de sites de communes sont anciennes, comme après les attentats de janvier 2015, et se poursuivent avec des messages pro-russes, par exemple en mai 2023.
+
+      Les DDoS pro-russes répondent au soutien de la France à l'Ukraine, comme la vague du 31 décembre 2024 revendiquée par NoName057(16), sans conséquences majeures.
+
+      Le conflit au Proche-Orient et les Jeux olympiques et paralympiques de Paris 2024 ont aussi motivé des attaques.
+
+   B. Le sabotage.
+
+      Les collectivités françaises n'ont pas subi de sabotage récent, mais des infrastructures locales d'eau ont fait l'objet de reconnaissances en 2024.
+
+      À l'étranger, la municipalité de Téhéran a été sabotée en juin 2022, et Cyber Av3ngers aurait compromis une station d'eau municipale en Pennsylvanie en novembre 2023.
+
+   C. L'espionnage.
+
+      Les collectivités ne sont pas les premières cibles, mais leurs données sensibles peuvent intéresser des attaquants étatiques.
+
+      Leurs équipements périphériques mal sécurisés peuvent être enrôlés à leur insu dans des réseaux d'anonymisation d'attaquants.
+
+POINTS D'ATTENTION.
+
+      Incidents : 187 de janvier 2022 à juin 2023, 218 en 2024.
+
+      La menace principale est lucrative : rançongiciels, messagerie compromise, vente de données.
+
+      Sauvegardes déconnectées et plan de reprise réduisent le temps de remédiation.
+
+      Les routeurs et équipements de bordure sont à sécuriser en priorité.
+
+EXEMPLES CITES.
+
+      LockBit, Babuk, Play et RansomHub parmi les rançongiciels observés.
+
+      La vague de DDoS de NoName057(16) du 31 décembre 2024.
+
+      Le sabotage de la municipalité de Téhéran en 2022.
+
+      L'attaque Akira contre un prestataire de collectivités allemandes en 2023.
