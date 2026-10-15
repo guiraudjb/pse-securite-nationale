@@ -1,0 +1,20 @@
+Quand l'ANSSI a-t-elle été informée de la vaste campagne APT31 contre la France ?;En 2030;En janvier 2021;En 2010;Jamais;3;Les indicateurs ont été publiés en juillet 2021.
+Quelle caractéristique distingue l'infrastructure d'APT31 ?;Des ordinateurs neufs;Un réseau d'anonymisation de routeurs compromis organisés en maillage;Des clés USB;Des satellites;3;Environ un millier d'adresses IP.
+Quelle marque représente 64 pour cent des routeurs compromis par APT31 ?;Samsung;Apple;Netgear;Pakedge;5;Avec Sophos Cyberoam et Cisco.
+Comment l'ANSSI a-t-elle nommé la porte dérobée des routeurs d'APT31 ?;Pegasus;HeadLace;Pakdoor;Emotet;4;Elle gère et relie les routeurs infectés.
+Quelle vulnérabilité Exchange APT31 a-t-il exploitée dès le 2 mars 2021 ?;ProxyLogon;Follina;Heartbleed;Log4Shell;2;Le jour même de l'annonce de Microsoft.
+Le ciblage d'APT31 lors de cette campagne était-il sectoriel ?;Oui, uniquement l'eau;Oui, uniquement la santé;Oui, uniquement le sport;Non, il semblait opportuniste;5;Aucun critère de ciblage n'a été identifié.
+À quel service russe Nobelium est-il publiquement lié ?;Le SBU;Le GRU;Le FSB;Le SVR, renseignement extérieur;5;Il est aussi appelé Midnight Blizzard.
+Quels trois modes opératoires liés au SVR l'ANSSI distingue-t-elle ?;Lazarus, Kimsuky et APT38;APT29, Dark Halo et Nobelium;Sandworm, Turla et Gamaredon;APT28, APT31 et Houken;3;Selon l'évolution de leurs codes et TTP.
+À quelle attaque Dark Halo est-il lié ?;WannaCry;L'attaque SolarWinds de 2020;KA-SAT;NotPetya;3;Une attaque par la chaîne d'approvisionnement.
+Quelles cibles Nobelium privilégie-t-il ?;Les entités diplomatiques, ambassades et ministères des Affaires étrangères;Les boulangeries;Les écoles maternelles;Les clubs de sport;2;Campagne dite Diplomatic Orbiter.
+Quels comptes compromis Nobelium a-t-il utilisés en 2021 ?;Des comptes de la Banque de France;Des comptes de la SNCF;Aucun;Des comptes du ministère de la Culture et de l'ANCT;5;Avec une pièce jointe Strategic Review.
+Quel ministère Nobelium a-t-il tenté de compromettre en 2021 sans succès ?;Le ministère de l'Agriculture;Le ministère des Sports;Aucun;Le ministère des Affaires étrangères;5;Il a tenté d'y installer Cobalt Strike.
+Pourquoi la tentative de mai 2023 contre l'ambassade de France en Roumanie a-t-elle échoué ?;Elle a réussi;Par hasard;Grâce à une panne;Grâce au comportement adapté des agents;5;La vigilance humaine reste essentielle.
+Quelles mesures l'ANSSI recommande-t-elle contre Nobelium ?;Rien;Désactiver les antivirus;Publier les mots de passe;Ne pas exécuter de pièces jointes suspectes et durcir l'Active Directory;5;L'Active Directory est une cible privilégiée.
+Quels équipements Houken a-t-il exploités en septembre 2024 ?;Les routeurs domestiques;Les imprimantes HP;Les Ivanti Cloud Service Appliance;Les téléphones fixes;4;Via trois vulnérabilités jour-zéro.
+Quels secteurs français ont été touchés par Houken ?;Uniquement l'agriculture;Aucun;Gouvernement, télécommunications, médias, finance et transports;Uniquement le sport;4;Avec trois cas de latéralisation.
+Qu'est-ce que le self-patching observé chez Houken ?;L'attaquant corrige lui-même la faille exploitée pour écarter d'autres attaquants;Une sauvegarde;Une mise à jour automatique de Windows;Un antivirus;2;Ce comportement est aussi décrit pour UNC5174.
+Quel fuseau horaire correspondait à l'activité des opérateurs de Houken ?;UTC+12;UTC-5;UTC+8;UTC+1;4;Il correspond à l'heure de la Chine.
+Quel rôle l'ANSSI attribue-t-elle probablement à Houken ?;Chercheur en sécurité;Courtier en accès initiaux revendant à un acteur étatique;Hacktiviste;Rançongiciel grand public;3;Un cas d'exfiltration et du cryptominage ont aussi été vus.
+À quel mode opératoire Houken est-il rattaché ?;UNC5174;FIN7;APT28;Nobelium;2;Décrit comme possible courtier du ministère chinois de la Sécurité d'État.

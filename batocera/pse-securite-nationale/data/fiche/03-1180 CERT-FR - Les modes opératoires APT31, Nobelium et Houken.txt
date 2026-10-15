@@ -1,0 +1,99 @@
+CERT-FR, APT31 INTRUSION SET CAMPAIGN, CERTFR-2021-CTI-013 DU 15 DÉCEMBRE 2021, PHISHING CAMPAIGNS BY THE NOBELIUM INTRUSION SET, CERTFR-2021-CTI-011, MALICIOUS ACTIVITIES LINKED TO THE NOBELIUM INTRUSION SET, CERTFR-2024-CTI-006, ET HOUKEN, SEEKING A PATH BY LIVING ON THE EDGE WITH ZERO-DAYS, CERTFR-2025-CTI-009 DU 1ER JUILLET 2025.
+
+LEXIQUE COMPLET.
+
+      Un mode opératoire d'attaque, ou intrusion set, est l'ensemble des outils, tactiques, techniques et procédures mis en œuvre par un ou plusieurs acteurs.
+
+      Un réseau d'anonymisation est un ensemble de machines compromises, souvent des routeurs, par lesquelles transitent les communications d'un attaquant pour masquer son origine.
+
+      Les routeurs SOHO, Small Office Home Office, sont des routeurs de petites entreprises et de particuliers.
+
+      Un courtier en accès initiaux, ou access broker, obtient des accès à des réseaux pour les revendre à d'autres acteurs.
+
+      Un webshell est un script déposé sur un serveur web qui permet de le commander à distance.
+
+      Un rootkit est un code malveillant qui se dissimule au cœur du système, ici sous forme de module du noyau.
+
+      Le self-patching consiste pour un attaquant à corriger lui-même la faille exploitée pour en écarter les concurrents.
+
+COURS DÉTAILLÉ.
+
+I. APT31, UN RÉSEAU DE ROUTEURS COMPROMIS.
+
+   A. La campagne.
+
+      En janvier 2021, l'ANSSI a été informée d'une vaste campagne contre des entités françaises liée au mode opératoire APT31, réputé chinois.
+
+      Aucun critère sectoriel de ciblage n'a été identifié : l'approche semble opportuniste.
+
+   B. Les vecteurs d'intrusion.
+
+      APT31 utilise la force brute sur les services exposés et le protocole Autodiscover d'Exchange, des comptes locaux valides sur VPN, RDP et Office 365, et l'exploitation de vulnérabilités.
+
+      Il a exploité ProxyLogon dès le 2 mars 2021, jour de l'annonce de Microsoft, ainsi qu'une faille des VPN Fortinet et des injections SQL.
+
+   C. L'infrastructure d'anonymisation.
+
+      Environ un millier d'adresses IP correspondent à des routeurs SOHO compromis organisés en réseau maillé, dont 64 pour cent de marque Pakedge, ainsi que Sophos Cyberoam et Cisco.
+
+      Une porte dérobée sophistiquée, nommée Pakdoor par l'ANSSI, gère ces routeurs, qui servent aussi d'infrastructure de commande et de contrôle pour Cobalt Strike.
+
+II. NOBELIUM, L'ESPIONNAGE DIPLOMATIQUE.
+
+   A. Un mode opératoire lié au SVR.
+
+      Nobelium, aussi appelé Midnight Blizzard, est actif depuis au moins octobre 2020 et publiquement lié au service de renseignement extérieur russe, le SVR.
+
+      L'ANSSI distingue trois modes opératoires liés au SVR : APT29, ou The Dukes, actif depuis 2008 et associé à l'attaque du Comité national démocrate américain en 2015 ; Dark Halo, lié à l'attaque SolarWinds de 2020 ; et Nobelium.
+
+   B. Les campagnes contre la France.
+
+      De février à mai 2021, des comptes de messagerie compromis du ministère de la Culture et de l'Agence nationale de la cohésion des territoires ont servi à envoyer une pièce jointe intitulée Strategic Review ; la tentative contre le ministère des Affaires étrangères a échoué.
+
+      En 2022, des dizaines d'adresses du ministère des Affaires étrangères ont été visées par des leurres sur la fermeture d'une ambassade ukrainienne.
+
+      En mai 2023, les ambassades de France à Kyiv et en Roumanie ont été ciblées, sans succès grâce au comportement adapté des agents.
+
+      Nobelium vise aussi des entreprises informatiques, comme Microsoft en novembre 2023 et Hewlett Packard Enterprise.
+
+   C. Les recommandations.
+
+      Ne pas exécuter de pièces jointes suspectes et durcir la sécurité de l'Active Directory, cible privilégiée de l'attaquant.
+
+III. HOUKEN, LES JOUR-ZÉRO EN BORDURE DE RÉSEAU.
+
+   A. La campagne Ivanti de septembre 2024.
+
+      Un attaquant a exploité comme jour-zéro trois vulnérabilités des boîtiers Ivanti Cloud Service Appliance pour obtenir un accès initial.
+
+      Des entités françaises des secteurs gouvernemental, des télécommunications, des médias, de la finance et des transports ont été touchées, avec trois cas de latéralisation vers le réseau interne.
+
+      L'attaquant a déployé des webshells PHP, parfois un rootkit, a corrigé lui-même les failles exploitées, et travaillait au fuseau horaire UTC+8, celui de la Chine.
+
+   B. Un profil ambivalent.
+
+      Houken combine des ressources avancées, jour-zéro et rootkit, et des outils libres développés par des sinophones, avec une infrastructure faite de VPN commerciaux et de serveurs dédiés.
+
+      Il est probablement opéré par un courtier en accès initiaux revendant ses accès à un acteur étatique, et partage son opérateur avec UNC5174, décrit comme courtier possible du ministère chinois de la Sécurité d'État.
+
+      Ses cibles prioritaires sont l'Asie du Sud-Est, les ONG, et les secteurs gouvernement, défense, éducation, médias et télécommunications des pays occidentaux.
+
+POINTS D'ATTENTION.
+
+      APT31 a bâti un réseau d'anonymisation à partir d'un millier de routeurs compromis.
+
+      Nobelium, lié au SVR, cible en priorité les entités diplomatiques via des comptes compromis.
+
+      Houken exploite des jour-zéro sur des équipements de bordure et revend probablement ses accès.
+
+      Les équipements de bordure et l'Active Directory sont des points critiques à protéger.
+
+EXEMPLES CITES.
+
+      La porte dérobée Pakdoor et les routeurs Pakedge.
+
+      La pièce jointe Strategic Review et l'attaque SolarWinds.
+
+      Les vulnérabilités Ivanti CSA de septembre 2024.
+
+      Le lien entre Houken et UNC5174.
