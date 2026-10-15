@@ -1,0 +1,53 @@
+TITRE : Architecture Sécurisée Riddim
+
+[Intro]
+Écoute le guide de l'ANSSI pour ta protection
+Vingt-quatre septembre deux mille vingt-et-un, la direction
+
+[Couplet 1]
+L'II neuf cent un définit l'information sensible
+La divulgation ou l'altération rendent l'entité vulnérable
+La Diffusion Restreinte est une mention de protection
+Pas un secret de la défense, mais une forte obligation
+Le SI sensible héberge les données d'importance forte
+Le SI usuel traite les données de moindre importance, c'est le sort
+Classe zéro c'est le public, classe un est interconnecté
+Classe deux est physiquement isolé, sans Internet pour exister
+
+[Refrain]
+Protège tes données, respecte le niveau de confiance
+De la classe zéro à la classe deux, garde la vigilance
+L'homologation par l'autorité est la règle d'or
+Pour le SI DR, l'ANSSI est le seul vrai décor
+
+[Couplet 2]
+La passerelle de classe un doit avoir deux dispositifs de filtrage
+Une rupture de flux et une sonde pour un bon pilotage
+Pour la classe deux, utilise une diode pour les flux montants
+Une passerelle descendante pour les échanges importants
+Le système d'échanges sécurisés analyse le contenu
+L'authentification forte est un besoin absolu
+Douze mois glissants pour conserver tes journaux de sécurité
+Et un PDIS qualifié pour détecter l'anomalie
+
+[Refrain]
+Protège tes données, respecte le niveau de confiance
+De la classe zéro à la classe deux, garde la vigilance
+L'homologation par l'autorité est la règle d'or
+Pour le SI DR, l'ANSSI est le seul vrai décor
+
+[Pont]
+Un poste usuel ne doit jamais accéder au sensible
+Le sens inverse est toléré, c'est la règle essentielle
+Le marquage Diffusion Restreinte doit être bien visible
+Sur chaque page, pour que l'humain reste responsable
+
+[Refrain final]
+Protège tes données, respecte le niveau de confiance
+De la classe zéro à la classe deux, garde la vigilance
+L'homologation par l'autorité est la règle d'or
+Pour le SI DR, l'ANSSI est le seul vrai décor
+
+[Outro]
+Respecte l'II neuf cent un et l'IGI treize cents
+Pour que ton architecture soit conforme en tout temps

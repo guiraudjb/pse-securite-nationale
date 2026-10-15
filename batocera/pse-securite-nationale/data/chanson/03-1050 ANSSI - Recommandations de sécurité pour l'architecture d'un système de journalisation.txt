@@ -1,0 +1,53 @@
+TITRE : Log Security Riddim
+
+[Intro]
+Écoute le rythme de l'ANSSI qui résonne,
+La version deux point zéro pour que tout fonctionne.
+
+[Couplet 1]
+Le vingt-huit janvier deux mille vingt-deux est arrivé,
+Trente et une recommandations pour nous guider.
+La journalisation enregistre chaque évènement,
+Pour détecter l'incident et l'investigation.
+L'horodatage avec l'ISO huit mille soixante un,
+L'UTC évite les erreurs de temps, c'est bien.
+La granularité définit le niveau de détail,
+Pour ne pas saturer le disque ou le matériel.
+
+[Refrain]
+Collecte, transfère et protège tes journaux,
+Centralise les logs pour garder le contrôle haut.
+Synchronise les horloges pour la corrélation,
+C'est la base de la sécurité de ton information.
+
+[Couplet 2]
+Le serveur de collecte reçoit et centralise,
+En format natif avant que le transfert s'improvise.
+Utilise TLS ou bien le protocole SSH,
+Ou l'IPsec pour que la confidentialité soit vraie.
+Le SI d'administration doit être cloisonné,
+Pour que les serveurs de collecte soient bien protégés.
+Applique le moindre privilège sur les droits d'accès,
+Pour éviter les fuites et les détournements de procès.
+
+[Refrain]
+Collecte, transfère et protège tes journaux,
+Centralise les logs pour garder le contrôle haut.
+Synchronise les horloges pour la corrélation,
+C'est la base de la sécurité de ton information.
+
+[Pont]
+La rotation gère l'espace et la rétention,
+Respecte la loi pour la conservation.
+Si tu externalises pour la corrélation,
+Prends un PDIS qualifié par l'ANSSI, c'est la solution.
+
+[Refrain final]
+Collecte, transfère et protège tes journaux,
+Centralise les logs pour garder le contrôle haut.
+Synchronise les horloges pour la corrélation,
+C'est la base de la sécurité de ton information.
+
+[Outro]
+Respecte la norme et la réglementation,
+La sécurité des logs est notre mission.

@@ -1,0 +1,53 @@
+TITRE : Collectivités Riddim
+
+[Intro]
+Écoute le son de la cybersécurité
+Pour protéger nos communes et nos collectivités
+
+[Couplet 1]
+De janvier deux mille vingt-deux à juin deux mille vingt-trois
+Cent quatre-vingt-sept incidents, l'ANSSI voit tout cela
+En deux mille vingt-quatre deux cent dix-huit cas ont été traités
+Dix-huit par mois, c'est la réalité du réseau menacé
+Les communes et les EPCI sont les cibles privilégiées
+L'état civil et l'eau, des données très sensibles à garder
+Mais la cartographie est souvent mal maîtrisée
+Et les systèmes disparates sont parfois mal sécurisés
+
+[Refrain]
+Attention aux rançongiciels et au profit illicite
+Protège tes données, évite le grand précipice
+Sauvegardes déconnectées et plan de reprise d'activité
+C'est la clé pour retrouver ta pleine sérénité
+
+[Couplet 2]
+LockBit est présent dans près de la moitié des cas
+Les compromissions de messagerie sont un vrai combat
+Les équipements de bordure comme les routeurs sont vulnérables
+Les attaques par point d'eau rendent les sites instables
+L'infostealer vole les accès pour les revendre ensuite
+Akira a touché un prestataire allemand, quel effet !
+Un million sept cent mille habitants ont été impactés
+Les services publics sont alors tous paralysés
+
+[Refrain]
+Attention aux rançongiciels et au profit illicite
+Protège tes données, évite le grand précipice
+Sauvegardes déconnectées et plan de reprise d'activité
+C'est la clé pour retrouver ta pleine sérénité
+
+[Pont]
+L'hacktivisme et les DDoS de NoName zéro cinq sept seize
+Cherchent la déstabilisation sans aucune retenue
+L'espionnage et le sabotage sont des risques qui s'exercent
+Même si pour la France le sabotage n'est pas encore revenu
+
+[Refrain final]
+Attention aux rançongiciels et au profit illicite
+Protège tes données, évite le grand précipice
+Sauvegardes déconnectées et plan de reprise d'activité
+C'est la clé pour retrouver ta pleine sérénité
+
+[Outro]
+Sécurise tes bordures, reste toujours vigilant
+Pour la sécurité de tous les administrants

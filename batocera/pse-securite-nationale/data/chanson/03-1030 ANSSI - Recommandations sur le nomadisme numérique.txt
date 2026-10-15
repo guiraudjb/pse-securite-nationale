@@ -1,0 +1,53 @@
+TITRE : Nomadisme Riddim
+
+[Intro]
+Écoute le guide de l'ANSSI en novembre deux mille vingt-trois
+Pour sécuriser tes accès et ne jamais perdre la foi
+
+[Couplet 1]
+Le nomadisme numérique utilise les technologies
+Accéder au système d'information depuis des lieux de vie
+Le télétravail est une forme selon le code du travail
+Mais le domicile ou la cafétéria sont des lieux sans contrôle total
+Le poste nomade est l'ordinateur que l'entité fournit
+Il faut chiffrer le disque avec un TPM pour protéger la vie
+Réduire la surface d'attaque et désactiver l'IPv6
+Verrouiller la session pour éviter les risques et les réflexes
+
+[Refrain]
+Nomade numérique, reste sous le tunnel VPN
+IPsec ou TLS pour protéger tes liens
+Pas de split-tunneling, garde tout dans le tunnel
+La sécurité de l'ANSSI est essentielle
+
+[Couplet 2]
+Le concentrateur VPN termine les tunnels côté entité
+L'agrafage OCSP vérifie la validité de la certitude et de la vérité
+L'authentification multifacteur forte est la règle d'or
+Pour l'utilisateur nomade, c'est le plus précieux trésor
+Bloque les portails captifs et les flux DNS vers Internet
+Configure l'adresse IP du concentrateur pour un accès direct
+Le split-tunneling est interdit sauf avec un proxy de confiance
+Pour que la navigation reste sous une stricte surveillance
+
+[Refrain]
+Nomade numérique, reste sous le tunnel VPN
+IPsec ou TLS pour protéger tes liens
+Pas de split-tunneling, garde tout dans le tunnel
+La sécurité de l'ANSSI est essentielle
+
+[Pont]
+Cinquante-deux recommandations pour ton infrastructure
+Renforcé avec un plus ou Dégradé avec un moins pour la mesure
+Ne pas exposer les applications métier directement sur le web
+Et sécuriser le cloud pour éviter la fin du rêve
+
+[Refrain final]
+Nomade numérique, reste sous le tunnel VPN
+IPsec ou TLS pour protéger tes liens
+Pas de split-tunneling, garde tout dans le tunnel
+La sécurité de l'ANSSI est essentielle
+
+[Outro]
+Respecte le guide ANSSI-PA-zero-cinquante-quatre
+Pour que ton système d'information reste toujours à l'abri des combats

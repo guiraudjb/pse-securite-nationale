@@ -1,0 +1,53 @@
+TITRE : Cyber Resilience Riddim
+
+[Intro]
+Écoute le rythme de l'ANSSI qui résonne,
+Pour que face à la crise ton organisation ne s'effondre.
+
+[Couplet 1]
+Une crise cyber c'est un choc immédiat,
+Pas un simple incident, c'est un arrêt de combat.
+La cellule stratégique décide et elle arbitre,
+L'opérationnelle pilote pour que le système soit libre.
+L'activation par le haut suit des critères précis,
+Par le bas c'est l'effet de seuil qui définit le prix.
+La main courante note tout dans le temps qui s'écoule,
+Le rythme de bataille évite que le chaos ne s'enroule.
+
+[Refrain]
+C'est une épreuve d'endurance, pas un sprint de passage,
+Prépare ton PCA pour traverser l'orage.
+Reconstruis ton cœur de confiance avec sagesse,
+La résilience cyber est ta seule promesse.
+
+[Couplet 2]
+Le PCA maintient l'activité très critique,
+Le PRA reconstruit l'infrastructure numérique.
+Prépare tes sauvegardes hors ligne et tes contacts,
+Car le périmètre de compromission est un fait complexe et intact.
+Ne paie jamais la rançon pour éviter le système,
+L'investigation cherche le vecteur, pas le coupable en problème.
+Le RETEX se fait à chaud puis à froid dans trente jours,
+Pour capitaliser et apprendre de tes parcours.
+
+[Refrain]
+C'est une épreuve d'endurance, pas un sprint de passage,
+Prépare ton PCA pour traverser l'orage.
+Reconstruis ton cœur de confiance avec sagesse,
+La résilience cyber est ta seule promesse.
+
+[Pont]
+L'exercice sur table dure deux à trois heures,
+Six semaines de préparation pour chasser la peur.
+La simulation dure de une demi-journée à deux jours,
+Avec deux à six mois pour préparer les joueurs.
+
+[Refrain final]
+C'est une épreuve d'endurance, pas un sprint de passage,
+Prépare ton PCA pour traverser l'orage.
+Reconstruis ton cœur de confiance avec sagesse,
+La résilience cyber est ta seule promesse.
+
+[Outro]
+Ransom deux zéro, le scénario est lancé,
+Garde le rythme, reste serein et bien préparé.

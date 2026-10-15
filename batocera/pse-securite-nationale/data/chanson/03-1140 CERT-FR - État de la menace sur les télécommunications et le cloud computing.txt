@@ -1,0 +1,53 @@
+TITRE : Réseaux et Cloud Riddim
+
+[Intro]
+Écoute la vibration de la cybersécurité
+Pour protéger les données et la liberté
+
+[Couplet 1]
+Le secteur des télécoms est supercritique
+Un enjeu de confidentialité et de disponibilité critique
+L'espionnage est la menace la plus préoccupante
+Par des acteurs chinois ou iraniens qui agissent en permanence
+Le sabotage de KA-SAT en février deux mille vingt-deux
+A laissé des milliers de modems dans un état malheureux
+Le SS7 permet de localiser sans aucun chiffrement
+Et le SIM swapping détourne l'abonné en un instant
+
+[Refrain]
+Télécoms et Cloud, attention au danger
+La responsabilité est partagée pour protéger
+Sécurise tes accès et tes identités
+Pour garder la maîtrise de la réalité
+
+[Couplet 2]
+Dans le cloud computing la menace est bien réelle
+Scattered Spider ou Nobelium cherchent la faille digitale
+En IaaS le client gère les systèmes et les données
+En PaaS les applications et en SaaS les utilisateurs sont concernés
+Attention au Cloud Act et aux lois extraterritoriales
+SecNumCloud trois point deux est la réponse idéale
+Storm-zero-five-cinquante-huit a touché cinq cents personnes
+Avec une clé de signature Microsoft qui les emprisonne
+
+[Refrain]
+Télécoms et Cloud, attention au danger
+La responsabilité est partagée pour protéger
+Sécurise tes accès et tes identités
+Pour garder la maîtrise de la réalité
+
+[Pont]
+L'hyperviseur est ciblé par les rançongiciels
+Comme ESXiArgs ou BlackCat pour un impact cruel
+MGM a perdu huit millions quatre cent mille dollars par jour
+Face à Scattered Spider et ses attaques sans retour
+
+[Refrain final]
+Télécoms et Cloud, attention au danger
+La responsabilité est partagée pour protéger
+Sécurise tes accès et tes identités
+Pour garder la maîtrise de la réalité
+
+[Outro]
+Reste vigilant face aux menaces de demain
+La sécurité est entre tes mains

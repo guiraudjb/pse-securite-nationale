@@ -1,0 +1,53 @@
+TITRE : Sécurité Connectée Riddim
+
+[Intro]
+Écoute l'ANSSI et ses recommandations,
+Version un point zéro d'août deux mille vingt et un.
+
+[Couplet 1]
+Du pacemaker à la domotique grand public,
+L'objet connecté a des effets physiques et systémiques, c'est tragique.
+Un dispositif dispose d'une liaison numérique pour ses données,
+Le système connecté fait dialoguer les objets avec l'infrastructure distante.
+Le capteur mesure une grandeur et l'actionneur agit sur le monde,
+Le secret maître est la clé dont la compromission est profonde.
+La chaîne de démarrage sécurisée vérifie l'authenticité du logiciel,
+Et le mécanisme anti-rollback interdit de revenir vers le passé.
+
+[Refrain]
+Sécurité des objets, faut protéger les données,
+Authentification unique pour ne pas être menacé.
+Maintien en condition de sécurité tout au long de la vie,
+Contre les menaces classiques, on prépare notre survie.
+
+[Couplet 2]
+Le fuzzing injecte des entrées pour trouver les failles,
+La compartimentation isole les processus et les batailles.
+L'attaque par réflexion utilise l'UDP pour amplifier le trafic,
+Le canal auxiliaire fuit par l'électricité, c'est un risque spécifique.
+Les soixante-trois recommandations guident l'analyse de sécurité,
+Pour protéger les secrets et garantir la confidentialité.
+Le fabricant doit publier un point de contact pour les vulnérabilités,
+Et s'engager sur une durée de support avec responsabilité.
+
+[Refrain]
+Sécurité des objets, faut protéger les données,
+Authentification unique pour ne pas être menacé.
+Maintien en condition de sécurité tout au long de la vie,
+Contre les menaces classiques, on prépare notre survie.
+
+[Pont]
+Minimiser la surface d'attaque et les services exposés,
+Protéger les communications et les données locales et volatiles.
+Générer un aléa de qualité cryptographique pour ne pas être traçé,
+Et surveiller les impacts systémiques de ces déploiements massifs.
+
+[Refrain final]
+Sécurité des objets, faut protéger les données,
+Authentification unique pour ne pas être menacé.
+Maintien en condition de sécurité tout au long de la vie,
+Contre les menaces classiques, on prépare notre survie.
+
+[Outro]
+L'analyse de sécurité est le point de départ essentiel,
+Pour un monde connecté, un monde plus réel.

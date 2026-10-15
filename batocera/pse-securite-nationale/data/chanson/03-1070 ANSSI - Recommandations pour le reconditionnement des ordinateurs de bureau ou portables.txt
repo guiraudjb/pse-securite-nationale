@@ -1,0 +1,53 @@
+TITRE : Reconditionnement Riddim
+
+[Intro]
+Écoute la loi AGEC qui résonne dans le vent,
+L'ANSSI nous guide pour un parc bien sûr et prudent.
+
+[Couplet 1]
+Le dix février deux mille vingt est la date de la loi,
+Le réemploi au cœur de la commande est la voie.
+Vingt pour cent de la dépense hors taxes en réemploi,
+C'est l'obligation pour l'État et pour les collectivités de haut.
+L'ordinateur reconditionné est un bien d'occasion,
+Remis en état pour une nouvelle utilisation.
+Mais attention à la cession et la fuite d'information,
+Il faut gérer les risques avec une grande attention.
+
+[Refrain]
+Reconditionne avec prudence et avec rigueur,
+Pour la sécurité et pour une économie de valeur.
+Respecte les règles et protège tes données,
+Dans le rythme reggae, tout est bien organisé.
+
+[Couplet 2]
+L'OEM fournit les mises à jour du firmware essentiel,
+Le TPM stocke les clés pour un niveau de sécurité réel.
+Pour les disques NVMe utilise la commande sanitize,
+C'est mieux que le format pour que le secret soit garanti.
+L'effacement cryptographique rend les données illisibles,
+Si la clé est perdue, l'accès devient impossible.
+Mais n'utilise jamais ce poste pour l'administration,
+C'est une contrainte technique pour la protection.
+
+[Refrain]
+Reconditionne avec prudence et avec rigueur,
+Pour la sécurité et pour une économie de valeur.
+Respecte les règles et protège tes données,
+Dans le rythme reggae, tout est bien organisé.
+
+[Pont]
+L'entité installe elle-même son propre système,
+Jamais par un tiers, pour éviter les problèmes.
+Chiffre dès l'installation pour éviter les erreurs,
+Et révoque les droits avant de céder la valeur.
+
+[Refrain final]
+Reconditionne avec prudence et avec rigueur,
+Pour la sécurité et pour une économie de valeur.
+Respecte les règles et protège tes données,
+Dans le rythme reggae, tout est bien organisé.
+
+[Outro]
+L'ANSSI donne les trente recommandations,
+Pour une gestion saine de toute la nation.

@@ -1,0 +1,53 @@
+TITRE : DNS Sécurisé Riddim
+
+[Intro]
+Écoute la vibration de l'ANSSI en août deux mille vingt-quatre
+Pour protéger tes domaines et ne jamais les laisser choir
+
+[Couplet 1]
+Trois services distincts pour ton architecture
+DNS-PRIV pour l'interne, DNS-PUB pour l'Internet en pleine aventure
+Et DNS-HEB pour l'hébergement de tes noms de domaine
+Trente-cinq recommandations pour que la sécurité s'installe et se déchaîne
+Le serveur primaire caché ne répond jamais aux clients
+Il transmet ses zones aux secondaires en toute confiance
+Par le transfert de zone protégé par TSIG ou par XoT
+Pour que l'intégrité des données soit toujours un vrai succès
+
+[Refrain]
+Cloisonne tes services, sépare le privé du public
+Le primaire est caché, c'est la règle, c'est logique
+DNSSEC contre l'empoisonnement de cache
+Pour que la chaîne de signatures ne jamais se détache
+
+[Couplet 2]
+Le serveur récursif parcourt toute la hiérarchie
+Le serveur cache stocke les réponses pour éviter la léthargie
+Pour le DNS-PUB, utilise un serveur relais en coupure
+Et limite les requêtes pour éviter toute intrusion pure
+Le serveur tampon protège les secondaires à l'extérieur
+Pendant que le primaire caché reste loin de la terreur
+Diversifie les logiciels pour un niveau renforcé
+Et active le pare-feu pour que tout soit bien cadenassé
+
+[Refrain]
+Cloisonne tes services, sépare le privé du public
+Le primaire est caché, c'est la règle, c'est logique
+DNSSEC contre l'empoisonnement de cache
+Pour que la chaîne de signatures ne jamais se détache
+
+[Pont]
+DNSSEC est le complément de SPF et DKIM
+DMARC et DANE ont besoin de ce rythme
+Mais fais une analyse de risque et une supervision
+Pour que ton déploiement soit une vraie mission
+
+[Refrain final]
+Cloisonne tes services, sépare le privé du public
+Le primaire est caché, c'est la règle, c'est logique
+DNSSEC contre l'empoisonnement de cache
+Pour que la chaîne de signatures ne jamais se détache
+
+[Outro]
+Respecte le guide de l'ANSSI pour ta protection
+DNS sécurisé, c'est la seule direction

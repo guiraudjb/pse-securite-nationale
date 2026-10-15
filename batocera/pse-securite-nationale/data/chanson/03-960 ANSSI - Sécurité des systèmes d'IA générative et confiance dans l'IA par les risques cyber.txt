@@ -1,0 +1,53 @@
+TITRE : Cyber IA Riddim
+
+[Intro]
+Écoute le guide de l'ANSSI pour ta sécurité
+Avril deux mille vingt-quatre, c'est la vérité
+
+[Couplet 1]
+L'IA générative crée texte ou vidéo
+Le LLM produit un langage très beau
+Mais attention au modèle et ses paramètres
+Le système d'IA a des composants entiers
+La requête ou le prompt est l'instruction envoyée
+L'attaque adverse peut tout dévoyer
+L'empoisonnement fausse les données d'entraînement
+L'extraction récupère les données confidentielles en un instant
+
+[Refrain]
+Sécurise le cycle, de l'entraînement à la production
+Évite l'évasion et la mauvaise instruction
+Pas de données sensibles sur l'IA grand public
+Pour la confiance cyber, reste très vigilant et lucide
+
+[Couplet 2]
+L'évasion modifie l'entrée du système
+L'injection indirecte est un grave problème
+Le shadow IA échappe à la supervision
+SecNumCloud est la qualification de l'hébergement
+Trente-cinq recommandations pour les développeurs
+Reste maître des accès et de la valeur
+Reste vigilant face à la chaîne d'approvisionnement
+Bibliothèques open source demandent un contrôle constant
+
+[Refrain]
+Sécurise le cycle, de l'entraînement à la production
+Évite l'évasion et la mauvaise instruction
+Pas de données sensibles sur l'IA grand public
+Pour la confiance cyber, reste très vigilant et lucide
+
+[Pont]
+Février deux mille vingt-cinq, l'analyse de risque arrive
+Avec la CNIL et l'INRIA, la vision est vive
+Le BSI et le NCSC sont aussi présents
+Pour bâtir un futur cyber vraiment résistant
+
+[Refrain final]
+Sécurise le cycle, de l'entraînement à la production
+Évite l'évasion et la mauvaise instruction
+Pas de données sensibles sur l'IA grand public
+Pour la confiance cyber, reste très vigilant et lucide
+
+[Outro]
+Respecte les guides de l'ANSSI avec raison
+Pour protéger tes données et ta nation

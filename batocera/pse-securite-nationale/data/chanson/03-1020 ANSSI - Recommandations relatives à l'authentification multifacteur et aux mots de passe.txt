@@ -1,0 +1,53 @@
+TITRE : Sécurité Multifacteur Riddim
+
+[Intro]
+Écoute bien les conseils de l'ANSSI en octobre deux mille vingt-et-un
+Pour protéger tes comptes et ne plus craindre aucun venin
+
+[Couplet 1]
+Le facteur de connaissance c'est ce que tu sais par cœur
+La possession c'est l'objet qui protège ton bonheur
+L'inhérence c'est ce que tu es comme ton empreinte ou ta voix
+Mais ne laisse jamais la biométrie décider pour toi
+Pour être multifacteur il faut deux catégories différentes
+Deux mots de passe c'est juste une double authentification lente
+L'authentification forte utilise un mécanisme cryptographique
+Comme FIDO deux ou Kerberos pour une sécurité magnifique
+
+[Refrain]
+Mélange les facteurs pour une protection réelle
+La longueur est plus forte que la complexité idéale
+Pas de SMS pour recevoir ton secret précieux
+Garde tes accès sous contrôle pour être heureux
+
+[Couplet 2]
+Pour l'entropie augmente la longueur de tes mots de passe
+Quinze caractères pour une sensibilité très forte qui passe
+Ne fixe pas de limite maximale trop courte ou trop basse
+Car les phrases de passe demandent de l'espace
+Le sel aléatoire empêche les tables précalculées
+Avec Argon deux ou scrypt tes données sont bien protégées
+L'expiration est pour les comptes à privilèges seulement
+Un an à trois ans pour éviter les problèmes de tout temps
+
+[Refrain]
+Mélange les facteurs pour une protection réelle
+La longueur est plus forte que la complexité idéale
+Pas de SMS pour recevoir ton secret précieux
+Garde tes accès sous contrôle pour être heureux
+
+[Pont]
+Le vérifieur contrôle et le prouveur s'authentifie
+Le password spraying est une menace qui s'intensifie
+Le coffre-fort de mots de passe est ton meilleur allié
+Pour que tes secrets restent toujours bien protégés
+
+[Refrain final]
+Mélange les facteurs pour une protection réelle
+La longueur est plus forte que la complexité idéale
+Pas de SMS pour recevoir ton secret précieux
+Garde tes accès sous contrôle pour être heureux
+
+[Outro]
+Respecte les recommandations pour ta propre sécurité
+L'ANSSI te guide vers la vraie liberté

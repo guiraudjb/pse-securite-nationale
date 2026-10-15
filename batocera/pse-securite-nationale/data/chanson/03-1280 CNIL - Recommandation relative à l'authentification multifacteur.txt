@@ -1,0 +1,53 @@
+TITRE : La MFA Riddim
+
+[Intro]
+Écoute la CNIL et son message de protection,
+Pour la vie privée, c'est la seule direction.
+
+[Couplet 1]
+Le vingt mars deux mille vingt-cinq la recommandation est née,
+En avril deux mille vingt-cinq elle est enfin publiée.
+Le DPO veille au RGPD dans chaque organisme,
+Le RSSI et le fournisseur suivent cette dynamique.
+On parle de connaissance, de possession ou d'inhérence,
+Deux facteurs de même catégorie n'ont aucune importance.
+La vérification en deux étapes n'est pas une MFA,
+C'est l'enchaînement de deux facteurs de même catégorie là.
+
+[Refrain]
+MFA, deux catégories pour ta sécurité,
+MFA, protège tes données avec dignité.
+Connaissance, possession ou bien l'inhérence,
+C'est la clé pour une authentification en toute confiance.
+
+[Couplet 2]
+Le facteur de connaissance c'est ce que la personne sait,
+Le mot de passe ou le code PIN pour ne pas se tromper.
+La possession c'est ce que la personne a avec elle,
+Une carte à puce ou un jeton logiciel pour être fidèle.
+L'inhérence c'est ce que la personne est ou bien fait,
+La biométrie est sensible, attention à ses effets.
+Il faut le consentement libre ou un texte obligatoire,
+Et proposer une alternative pour ne pas être arbitraire.
+
+[Refrain]
+MFA, deux catégories pour ta sécurité,
+MFA, protège tes données avec dignité.
+Connaissance, possession ou bien l'inhérence,
+C'est la clé pour une authentification en toute confiance.
+
+[Pont]
+Pour l'administration et la messagerie professionnelle,
+La MFA est recommandée, c'est une règle essentielle.
+Pour les données de l'article neuf comme la santé,
+L'analyse de risque doit être bien évaluée.
+
+[Refrain final]
+MFA, deux catégories pour ta sécurité,
+MFA, protège tes données avec dignité.
+Connaissance, possession ou bien l'inhérence,
+C'est la clé pour une authentification en toute confiance.
+
+[Outro]
+Pas de secret dans les journaux, seulement le résultat,
+La protection des données, c'est notre seul combat.

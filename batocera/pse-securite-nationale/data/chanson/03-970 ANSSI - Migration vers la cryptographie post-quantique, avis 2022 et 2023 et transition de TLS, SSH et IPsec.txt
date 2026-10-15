@@ -1,0 +1,53 @@
+TITRE : La Transition Quantique Riddim
+
+[Intro]
+Écoute le rythme de la sécurité,
+Prépare ton système pour la nouvelle réalité.
+
+[Couplet 1]
+L'ordinateur quantique arrive avec ses lois,
+Le CRQC menace la cryptographie à clé publique, crois-moi.
+L'algorithme de Shor va briser RSA,
+Pendant que Grover accélère la recherche de clés, là.
+L'attaque store now decrypt later nous fait peur,
+Enregistre aujourd'hui pour déchiffrer avec malheur.
+Le plan quantique français de deux mille vingt et un,
+Mille millions d'euros pour ne pas subir le destin.
+
+[Refrain]
+PQC et hybridation, c'est la solution,
+Pour protéger nos données avec précision.
+Pas de remplacement direct, reste prudent,
+L'hybridation est le rempart indispensable et présent.
+
+[Couplet 2]
+L'ANSSI dit non à la QKD pour le grand public,
+La cryptographie post-quantique est bien plus spécifique.
+Le NIST normalise avec ML-KEM et ML-DSA,
+Kyber et Dilithium guident désormais nos pas.
+Pour le symétrique augmente la taille des clés,
+AES deux cent cinquante-six pour ne pas succomber.
+SHA deux cent cinquante-six ou SHA trois trois cent quatre-vingt-quatre,
+C'est la recommandation pour ne pas être à la traîne, mon frère.
+
+[Refrain]
+PQC et hybridation, c'est la solution,
+Pour protéger nos données avec précision.
+Pas de remplacement direct, reste prudent,
+L'hybridation est le rempart indispensable et présent.
+
+[Pont]
+La cryptoagilité doit être dans ton analyse,
+Pour changer d'algorithme sans que tout s'immobilise.
+Phase deux après deux mille vingt-cinq pour l'hybride,
+Phase trois après deux mille trente, le futur nous guide.
+
+[Refrain final]
+PQC et hybridation, c'est la solution,
+Pour protéger nos données avec précision.
+Pas de remplacement direct, reste prudent,
+L'hybridation est le rempart indispensable et présent.
+
+[Outro]
+TLS, SSH et IPsec en deux mille vingt-six,
+La transition est en marche, c'est le nouveau mix.

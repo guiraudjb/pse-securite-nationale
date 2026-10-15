@@ -1,0 +1,53 @@
+TITRE : Sécurité Industrielle Riddim
+
+[Intro]
+Écoute le rythme de l'ANSSI en vibration
+Pour protéger l'OT et toute la nation
+
+[Couplet 1]
+L'IT gère la gestion mais l'OT est physique
+Pour les biens et les gens c'est une approche critique
+En avril deux mille vingt-cinq la méthode est là
+Pour classer les systèmes sans faire de faux pas
+Quatre classes de sécurité de un jusqu'à quatre
+Selon l'impact des attaques pour éviter le désastre
+La classe un est faible et la deux est modérée
+Mais la trois et la quatre sont très renforcées
+
+[Refrain]
+On classe par l'impact pour rester stable
+Pas de vraisemblance pour un socle imbattable
+De la classe un à quatre on protège le terrain
+Pour que l'industrie garde son destin
+
+[Couplet 2]
+Si une zone est liée à une autre plus haute
+Le surclassement s'applique sans aucune faute
+La dépendance fonctionnelle crée un lien direct
+Et l'IEC six deux quatre quatre est le respect
+La diode laisse passer les données en un sens
+Pour la classe quatre la télémaintenance est sans défense
+Elle est proscrite car le risque est trop grand
+Pour les sites critiques et les acteurs importants
+
+[Refrain]
+On classe par l'impact pour rester stable
+Pas de vraisemblance pour un socle imbattable
+De la classe un à quatre on protège le terrain
+Pour que l'industrie garde son destin
+
+[Pont]
+Assaineaux est l'exemple pour notre étude de cas
+L'AMDEC analyse les défaillances sans débat
+En deux mille vingt-six la chimie est analysée
+Par France Chimie et l'ANSSI pour être sécurisée
+
+[Refrain final]
+On classe par l'impact pour rester stable
+Pas de vraisemblance pour un socle imbattable
+De la classe un à quatre on protège le terrain
+Pour que l'industrie garde son destin
+
+[Outro]
+Respecte les mesures et les classes de sécurité
+Pour une industrie forte et une vie protégée

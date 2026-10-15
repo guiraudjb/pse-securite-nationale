@@ -1,0 +1,53 @@
+TITRE : La Migration Riddim
+
+[Intro]
+Écoute l'ANSSI et ses recommandations,
+Pour protéger tes données et ta nation.
+
+[Couplet 1]
+Le mécanisme est un outil de précision,
+Pour la confidentialité et l'authentification.
+La règle est obligatoire pour la conformité,
+La recommandation renforce la sécurité.
+Pour le symétrique il faut cent vingt-huit bits,
+Mais cent quatre-vingt-douze pour le post-quantique écrit.
+Le bloc doit faire cent vingt-huit bits au minimum,
+Pour éviter le paradoxe des anniversaires, mon ami.
+
+[Refrain]
+Migration post-quantique, n'attends pas demain,
+Dix ans de travail pour tracer le chemin.
+Le premier janvier deux mille trente est la limite,
+Pour que la menace quantique ne nous évite.
+
+[Couplet 2]
+Le hachage doit faire deux cent cinquante-six bits,
+Trois cent quatre-vingt-quatre pour le futur défi.
+RSA deux mille quarante-huit jusqu'en deux mille trente,
+Puis trois mille soixante-douze pour que tout soit conforme.
+Une seule clé pour un seul usage est la loi,
+Ne mélange pas CBC et CBC-MAC, fais le bon choix.
+L'inventaire cryptographique est la première étape,
+Pour que ton organisation ne tombe pas dans la trappe.
+
+[Refrain]
+Migration post-quantique, n'attends pas demain,
+Dix ans de travail pour tracer le chemin.
+Le premier janvier deux mille trente est la limite,
+Pour que la menace quantique ne nous évite.
+
+[Pont]
+Le risque rétroactif est une menace réelle,
+L'espionnage étatique devient essentiel.
+De P1 à P3 on priorise les actifs,
+Pour que le secret reste bien protégé et vif.
+
+[Refrain final]
+Migration post-quantique, n'attends pas demain,
+Dix ans de travail pour tracer le chemin.
+Le premier janvier deux mille trente est la limite,
+Pour que la menace quantique ne nous évite.
+
+[Outro]
+AES et ChaCha20 sont nos alliés,
+La cryptographie est enfin maîtrisée.

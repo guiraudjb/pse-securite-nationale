@@ -1,0 +1,53 @@
+TITRE : Cyber Résilience Riddim
+
+[Intro]
+Écoute le son de la vigilance et de la sécurité,
+Pour la santé et l'eau, protégeons nos sociétés.
+
+[Couplet 1]
+Dans la santé, la menace devient très critique,
+De deux mille vingt-deux à deux mille vingt-trois, c'est tragique.
+Quatre catégories d'acteurs subissent les attaques,
+Le DPI est en danger, la vie est dans l'attaque.
+Le Centre hospitalier Sud Francilien a payé,
+Sept millions d'euros pour onze gigaoctets volés.
+Viamedis et Almerys, trente-trois millions de personnes,
+En février deux mille vingt-quatre, la fuite résonne.
+
+[Refrain]
+Protège l'IT et l'OT avec attention,
+Contre les rançongiciels et la déstabilisation.
+Santé et eau, des secteurs sous haute tension,
+La cybersécurité est notre seule direction.
+
+[Couplet 2]
+Pour l'eau, quarante-six entités ont été touchées,
+Entre deux mille vingt et un et deux mille vingt-quatre, c'est constaté.
+Douze opérateurs régulés ont subi l'événement,
+La menace lucrative est le plus grand tourment.
+Les protocoles Modbus manquent de chiffrement,
+L'IHM sur Internet est un grand dangerlement.
+Cyber Army of Russia Reborn a pris le contrôle,
+Au Texas, le réservoir a perdu son rôle.
+
+[Refrain]
+Protège l'IT et l'OT avec attention,
+Contre les rançongiciels et la déstabilisation.
+Santé et eau, des secteurs sous haute tension,
+La cybersécurité est notre seule direction.
+
+[Pont]
+Le Plan Blanc intègre le volet cyber depuis deux mille vingt-trois,
+Le programme CaRE de deux mille vingt-trois à deux mille vingt-sept est la loi.
+Le CERT-Santé accompagne les établissements en crise,
+Pour que la résilience soit toujours une devise.
+
+[Refrain final]
+Protège l'IT et l'OT avec attention,
+Contre les rançongiciels et la déstabilisation.
+Santé et eau, des secteurs sous haute tension,
+La cybersécurité est notre seule direction.
+
+[Outro]
+Reste vigilant face aux menaces étatiques,
+Pour un futur numérique plus sécuritaire et pratique.

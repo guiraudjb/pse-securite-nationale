@@ -1,0 +1,53 @@
+TITRE : APT28 Riddim
+
+[Intro]
+Écoute le son de la cyber défense
+Pour comprendre l'attaque et sa menace
+
+[Couplet 1]
+APT28 aussi appelé Fancy Bear
+Depuis deux mille quatre il sème la peur
+Attribué par l'Union européenne à la Russie
+Pour l'espionnage il agit sans répit
+Cible les gouvernements et la défense
+L'énergie et les médias en pleine danse
+Depuis deux mille vingt-deux en Ukraine
+Il collecte le renseignement et la haine
+
+[Refrain]
+Attention au mode opératoire
+APT28 veut changer l'histoire
+Sécurise tes accès et ta messagerie
+Contre l'espionnage et sa stratégie
+
+[Couplet 2]
+Il cherche la discrétion sur la périphérie
+Routeurs et VPN sont sa compagnie
+Hameçonnage et force brute sur les comptes
+Pour le credentials harvesting il monte
+Il utilise la faille CVE-deux mille vingt-trois vingt-trois trois quatre neuf sept
+D'Outlook pour que les données soient prises en compte
+Avec HeadLace ou le voleur OceanMap
+Il exfiltre les mots de passe sans aucun cap
+
+[Refrain]
+Attention au mode opératoire
+APT28 veut changer l'histoire
+Sécurise tes accès et ta messagerie
+Contre l'espionnage et sa stratégie
+
+[Pont]
+Le C4 réunit l'ANSSI et la DGSE
+Pour protéger les actifs et la pensée
+Apprécie les risques et tes compétences
+L'authentification multifacteur est la défense
+
+[Refrain final]
+Attention au mode opératoire
+APT28 veut changer l'histoire
+Sécurise tes accès et ta messagerie
+Contre l'espionnage et sa stratégie
+
+[Outro]
+Reste vigilant face aux TTP
+La cybersécurité est ta priorité

@@ -1,0 +1,53 @@
+TITRE : Cyber Riddim Riddim
+
+[Intro]
+Écoute la vibration de la cybersécurité
+Pour protéger tes réseaux et ta liberté
+
+[Couplet 1]
+En janvier deux mille vingt-et-un APT trente-et-un est arrivé
+Un mode opératoire chinois pour tout compromettre et tout envahir
+Un millier d'adresses IP sur des routeurs SOHO sont cachées
+Pakedge, Sophos Cyberoam et Cisco servent à s'anonymiser
+Avec la porte dérobée Pakdoor pour commander le réseau
+Ils utilisent la force brute et ProxyLogon pour un accès nouveau
+C'est une infrastructure de commande pour Cobalt Strike en mouvement
+Un réseau maillé pour masquer l'origine de leur mouvement
+
+[Refrain]
+Protège la bordure et l'Active Directory
+Contre les intrusions et la cyber-animosité
+Surveille tes accès et tes équipements critiques
+Pour que la sécurité soit toujours authentique
+
+[Couplet 2]
+Nobelium ou Midnight Blizzard lié au SVR russe
+Depuis octobre deux mille vingt cherche la cible qui s'amuse
+Le ministère de la Culture a reçu Strategic Review en pièce jointe
+Les ambassades de France à Kyiv et en Roumanie sont en crainte
+Ils visent les entreprises comme Microsoft ou Hewlett Packard Enterprise
+Durcis ton Active Directory pour éviter la crise
+Ils utilisent des comptes compromis pour l'espionnage diplomatique
+C'est une menace réelle et un danger systématique
+
+[Refrain]
+Protège la bordure et l'Active Directory
+Contre les intrusions et la cyber-animosité
+Surveille tes accès et tes équipements critiques
+Pour que la sécurité soit toujours authentique
+
+[Pont]
+Houken utilise des jour-zéro sur Ivanti en septembre deux mille vingt-quatre
+Un courtier en accès initiaux qui vend ses accès dans le noir
+Il déploie des webshells PHP et un rootkit dans le noyau
+Le self-patching empêche les concurrents de jouer le nouveau rôle
+
+[Refrain final]
+Protège la bordure et l'Active Directory
+Contre les intrusions et la cyber-animosité
+Surveille tes accès et tes équipements critiques
+Pour que la sécurité soit toujours authentique
+
+[Outro]
+Reste vigilant face aux acteurs de l'ombre
+Que la protection soit ta seule et unique réponse

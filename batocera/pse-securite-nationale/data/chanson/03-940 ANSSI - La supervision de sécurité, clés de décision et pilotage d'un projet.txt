@@ -1,0 +1,53 @@
+TITRE : Supervision Riddim
+
+[Intro]
+Écoute le rythme de la sécurité,
+L'ANSSI nous guide vers la clarté.
+
+[Couplet 1]
+Le vingt-cinq juillet deux mille vingt-cinq est la date,
+Pour les clés de décision, la stratégie est là.
+La supervision détecte et qualifie l'incident,
+Bien plus que la détection, c'est un engagement.
+Elle distingue l'informatique de la cybersécurité,
+Pour contrer la cyberattaque et sa malveillance.
+L'étape unitaire laisse des traces dans le système,
+Pour stopper l'attaquant et éviter le problème.
+
+[Refrain]
+Superviser pour détecter et pour réagir,
+Le SOC est au centre pour nous protéger et servir.
+De l'événement à l'incident, l'analyste est là,
+Pour que la menace ne guide plus nos pas.
+
+[Couplet 2]
+Le MVP est la première version pour démarrer,
+Avec un périmètre restreint pour bien commencer.
+On évite les faux positifs qui surchargent les bras,
+Et les faux négatifs qui ne voient pas l'attaque.
+L'EDR sur les terminaux surveille les postes,
+Face aux rançongiciels et aux menaces hostes.
+NIS, RGPD et la loi de programmation militaire,
+Rendent la supervision obligatoire et nécessaire.
+
+[Refrain]
+Superviser pour détecter et pour réagir,
+Le SOC est au centre pour nous protéger et servir.
+De l'événement à l'incident, l'analyste est là,
+Pour que la menace ne guide plus nos pas.
+
+[Pont]
+Dix recommandations pour un pilotage serein,
+Maîtriser l'hygiène et tracer le chemin.
+C'est une course de fond, un investissement pluriannuel,
+Pour une défense robuste et un système essentiel.
+
+[Refrain final]
+Superviser pour détecter et pour réagir,
+Le SOC est au centre pour nous protéger et servir.
+De l'événement à l'incident, l'analyste est là,
+Pour que la menace ne guide plus nos pas.
+
+[Outro]
+Respecte l'hygiène, ne perds pas ton argent,
+La supervision est ton meilleur bouclier maintenant.

@@ -1,0 +1,53 @@
+TITRE : La Remédiation Riddim
+
+[Intro]
+Écoute le rythme de l'ANSSI qui résonne,
+Pour que ton système d'information ne s'effondre.
+
+[Couplet 1]
+En décembre deux mille vingt-trois la collection est née,
+Trois niveaux de documents pour nous guider.
+Le volet stratégique pour les décideurs,
+Le volet opérationnel pour les pilotes de valeur.
+Le volet technique pour le Tier zéro,
+Et préparer la remédiation pour ne pas faire d'erreur.
+Janvier deux mille vingt-six pour le dernier guide,
+Pour que ton plan de continuité soit solide.
+
+[Refrain]
+Endiguement, éviction, éradication,
+La reconstruction est la clé de la nation.
+Reprendre le contrôle du cœur de confiance,
+Pour la résilience et la délivrance.
+
+[Couplet 2]
+L'endiguement stoppe la progression de l'adversaire,
+L'éviction chasse l'intrus du cœur de confiance de la terre.
+L'éradication nettoie les portes dérobées,
+La reconstruction rebâtit les fondations durcies et protégées.
+Le Tier zéro est le niveau rouge de l'annuaire,
+Le Tier un est le jaune pour le métier et ses serveurs.
+Le Tier deux est le vert pour les postes de travail,
+Éviter l'escalade de privilèges pour ne pas faire de faille.
+
+[Refrain]
+Endiguement, éviction, éradication,
+La reconstruction est la clé de la nation.
+Reprendre le contrôle du cœur de confiance,
+Pour la résilience et la délivrance.
+
+[Pont]
+Change le mot de passe du compte krbtgt deux fois,
+Sinon le golden ticket te fera perdre la voix.
+Utilise le compte bris de glace pour les cas graves,
+Et garde la discrétion pour que l'attaquant ne s'échappe.
+
+[Refrain final]
+Endiguement, éviction, éradication,
+La reconstruction est la clé de la nation.
+Reprendre le contrôle du cœur de confiance,
+Pour la résilience et la délivrance.
+
+[Outro]
+C'est un marathon pour la sécurité,
+Piloter la remédiation avec sérénité.

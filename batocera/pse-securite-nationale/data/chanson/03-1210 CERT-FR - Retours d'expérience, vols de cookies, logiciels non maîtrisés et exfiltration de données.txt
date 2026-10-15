@@ -1,0 +1,53 @@
+TITRE : Sécurité Reggae Riddim
+
+[Intro]
+Écoute le son du CERT-FR qui te parle,
+Pour que tes données ne soient pas une cible.
+
+[Couplet 1]
+Un cookie est un couple clé et valeur pour ton navigateur,
+Mais un vol de session devient un vrai malheur.
+Ça contourne le multifacteur sans même un mot de passe,
+Lapsus$ contre Okta ou Electronic Arts qui passe.
+Ils sont revendus sur Genesis ou Russian Market,
+Pour s'infiltrer dans le cloud, c'est un plan parfait.
+Limite la durée de validité pour rester serein,
+Et surveille les IP pour protéger ton chemin.
+
+[Refrain]
+Protège tes accès, ne laisse rien filer,
+Contre les vols de cookies, il faut tout surveiller.
+Isole les logiciels, sécurise tes données,
+Pour que la cyber menace soit enfin écartée.
+
+[Couplet 2]
+GoldenSpy est une porte dérobée dans le logiciel,
+En Chine avec Golden Tax, le risque est réel.
+Aisino ou Baiwang, des logiciels non maîtrisés,
+Dans une zone isolée, il faut les confiner.
+Comme NotPetya via M.E.Doc dans la chaîne d'approvisionnement,
+L'attaquant utilise l'éditeur pour un mauvais mouvement.
+Applique le moindre privilège et le filtrage des flux,
+Pour que ton système d'information reste bien robuste.
+
+[Refrain]
+Protège tes accès, ne laisse rien filer,
+Contre les vols de cookies, il faut tout surveiller.
+Isole les logiciels, sécurise tes données,
+Pour que la cyber menace soit enfin écartée.
+
+[Pont]
+Cent quatre-vingt-trois incidents en deux mille vingt-trois,
+Le secteur social subit des attaques de choix.
+Sixante liés au rançongiciel, des millions de Français,
+Les identifiants volés sont des accès trop fragiles et ouverts.
+
+[Refrain final]
+Protège tes accès, ne laisse rien filer,
+Contre les vols de cookies, il faut tout surveiller.
+Isole les logiciels, sécurise tes données,
+Pour que la cyber menace soit enfin écartée.
+
+[Outro]
+Journalise tes actions, reste toujours vigilant,
+C'est la seule méthode pour un futur bienveillant.

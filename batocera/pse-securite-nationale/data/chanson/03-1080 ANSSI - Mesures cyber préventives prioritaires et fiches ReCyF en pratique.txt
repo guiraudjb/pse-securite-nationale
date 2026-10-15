@@ -1,0 +1,53 @@
+TITRE : Cyber Sécurité Riddim
+
+[Intro]
+Écoute la vibration de l'ANSSI pour ta protection,
+Cinq mesures prioritaires pour ta cyber défense en action.
+
+[Couplet 1]
+Pour les administrateurs et la direction exposée,
+L'authentification forte doit être mise en place.
+Deux facteurs différents pour ne pas se faire prendre,
+Un mot de passe et un support matériel pour bien comprendre.
+Pour les services critiques, fais l'inventaire complet,
+Avec les métiers, pour que rien ne soit oublié.
+Prépare la gestion de crise avec un plan de réponse,
+Car le papier et le crayon sont la seule vraie défense.
+
+[Refrain]
+Cinq mesures prioritaires pour la sécurité,
+Authentification, supervision et sauvegarde déconnectée.
+Liste les services et prépare la gestion de crise,
+Contre les cyberattaques, sois toujours très avisé.
+
+[Couplet 2]
+La supervision des événements doit être accélérée,
+Avec des outils comme Sysmon, EDR ou XDR installés.
+Si tu n'as pas de supervision, centralise les journaux,
+VPN, bureaux virtuels, contrôleurs de domaine et hyperviseurs en haut.
+Pour les sauvegardes, utilise le stockage à froid,
+Sur disques externes ou bandes magnétiques, c'est la loi.
+Déconnecte les données pour stopper le rançongiciel,
+Et protège tes serveurs de fichiers de façon essentielle.
+
+[Refrain]
+Cinq mesures prioritaires pour la sécurité,
+Authentification, supervision et sauvegarde déconnectée.
+Liste les services et prépare la gestion de crise,
+Contre les cyberattaques, sois toujours très avisé.
+
+[Pont]
+Le ReCyF devient le socle de la réglementation,
+Pour transposer NIS deux dans toute la nation.
+Entités essentielles ou importantes, écoutez bien,
+Le cloisonnement limite la latéralisation du malien.
+
+[Refrain final]
+Cinq mesures prioritaires pour la sécurité,
+Authentification, supervision et sauvegarde déconnectée.
+Liste les services et prépare la gestion de crise,
+Contre les cyberattaques, sois toujours très avisé.
+
+[Outro]
+Respecte le ReCyF et les fiches en pratique,
+Pour une architecture sécurisée et une défense authentique.

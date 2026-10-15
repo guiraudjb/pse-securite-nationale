@@ -1,0 +1,53 @@
+TITRE : Investigation Riddim
+
+[Intro]
+Écoute le rythme de l'ANSSI en septembre deux mille vingt-six
+Pour comprendre l'incident et éviter les pièges complexes
+
+[Couplet 1]
+La qualification estime la gravité avérée
+L'investigation apporte la connaissance technique assurée
+La supervision renforcée surveille le périmètre compromis
+La compréhension regroupe tout pour ne pas être surpris
+L'accélérateur c'est la cartographie et les vulnérabilités
+Les menaces du CERT-FR et les contacts de l'agilité
+Le patient zéro est le premier élément touché
+Mais la recherche de la trace peut parfois s'arrêter
+
+[Refrain]
+Comprendre pour mieux remédier et agir
+L'investigation est un investissement pour l'avenir
+Ne reste pas seul appelle un PRIS qualifié
+Avec la gestion de crise le risque est maîtrisé
+
+[Couplet 2]
+La ligne rouge est un seuil de risque inacceptable
+La chasse cherche sans piste un intrus invisible
+La levée de doute vérifie un signalement imprécis
+L'EDR et la sonde sont tes outils de précision ici
+L'isolement coupe les réseaux face au rançongiciel
+L'environnement dégradé aide la reprise au niveau essentiel
+Observer et laisser faire pour comprendre l'attaquant
+Ou observer et contraindre pour couper ses accès en un instant
+
+[Refrain]
+Comprendre pour mieux remédier et agir
+L'investigation est un investissement pour l'avenir
+Ne reste pas seul appelle un PRIS qualifié
+Avec la gestion de crise le risque est maîtrisé
+
+[Pont]
+Préserve les traces avec des empreintes et de l'inventaire
+Trace ton analyse pour que la preuve soit exemplaire
+Pense aux angles morts et aux atouts de l'organisation
+L'incertitude doit faire l'objet d'une analyse de décision
+
+[Refrain final]
+Comprendre pour mieux remédier et agir
+L'investigation est un investissement pour l'avenir
+Ne reste pas seul appelle un PRIS qualifié
+Avec la gestion de crise le risque est maîtrisé
+
+[Outro]
+De la qualification à la remédiation efficace
+Garde la maîtrise dans cette lutte de cybersécurité intense

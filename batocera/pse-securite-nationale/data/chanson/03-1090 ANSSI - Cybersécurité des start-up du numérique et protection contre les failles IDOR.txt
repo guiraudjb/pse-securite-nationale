@@ -1,0 +1,53 @@
+TITRE : Cyber Start-up Riddim
+
+[Intro]
+ANSSI et Mission French Tech dans la vibration,
+Pour les jeunes entreprises, une vraie protection.
+
+[Couplet 1]
+En deux mille vingt-six, le guide est arrivé,
+Pour les start-up qui veulent vite s'envoler.
+Les petites structures sont les plus touchées,
+Par les rançongiciels et les cyberattaques lancées.
+Plus de dix-sept mille cent dix cas en deux mille vingt-quatre,
+L'ANSSI traite les incidents pour ne pas qu'on s'égare.
+Treize enjeux de sécurité sur le cycle de vie,
+De l'idéation jusqu'à ce que le produit soit accompli.
+
+[Refrain]
+Sécurise ton code et protège tes données,
+L'autorisation serveur est la clé pour avancer.
+Contre l'IDOR, reste toujours vigilant,
+Pour une croissance forte et un futur brillant.
+
+[Couplet 2]
+Ne réimplémente jamais la cryptographie toi-même,
+Génère une SBOM pour éviter les problèmes.
+Utilise le SCA pour les composants tiers,
+Et le SAST ou le DAST pour ne rien oublier.
+L'IDOR est premier au Top dix OWASP deux mille vingt-cinq,
+Vérifie les droits côté serveur, c'est le principe intrinsèque.
+L'authentification seule ne suffit jamais vraiment,
+Contrôle l'accès à l'objet ou au bon segment.
+
+[Refrain]
+Sécurise ton code et protège tes données,
+L'autorisation serveur est la clé pour avancer.
+Contre l'IDOR, reste toujours vigilant,
+Pour une croissance forte et un futur brillant.
+
+[Pont]
+Identifie tes données de valeur dès le départ,
+Chiffre et sauvegarde pour ne pas subir le retard.
+Utilise KeePass et évite les privilèges d'admin,
+Pour que ta start-up garde un destin serein.
+
+[Refrain final]
+Sécurise ton code et protège tes données,
+L'autorisation serveur est la clé pour avancer.
+Contre l'IDOR, reste toujours vigilant,
+Pour une croissance forte et un futur brillant.
+
+[Outro]
+SecNumCloud et conformité pour la confiance,
+La cybersécurité est ta meilleure chance.

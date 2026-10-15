@@ -1,0 +1,53 @@
+TITRE : Sécurité IIoT Riddim
+
+[Intro]
+Écoute le rythme de l'industrie connectée
+L'ANSSI nous guide pour la sécurité
+
+[Couplet 1]
+L'IIoT transforme le monde physique et virtuel
+Selon la norme ISO vingt quatre cinq quatre un de deux mille vingt quatre
+Des données de terrain pour des usages nouveaux
+La maintenance prédictive ou le marché de l'électricité
+Mais attention à la consigne intelligente
+Calculée hors de l'usine par l'intelligence artificielle
+Elle peut modifier le procédé avec une grande subtilité
+Comme le ver Stuxnet en deux mille dix sur les centrifugeuses
+
+[Refrain]
+Garde le contrôle, reste en mode island
+Le système industriel doit rester le maître
+La donnée doit être sûre et la consigne saine
+Pour protéger l'usine et toute la chaîne
+
+[Couplet 2]
+Le modèle de Purdue organise les zones et les flux
+Du capteur jusqu'à l'ERP pour ne pas être déçu
+En GTB on pilote le CVC et les bâtiments
+Mais Modbus et BACnet manquent de protections
+Le guide ANSSI-PA-cent dix de deux mille vingt six
+Propose vingt six recommandations pour les techniciens
+Niveau un à court terme et niveau deux à long terme
+Pour sécuriser le bâtiment et son atmosphère
+
+[Refrain]
+Garde le contrôle, reste en mode island
+Le système industriel doit rester le maître
+La donnée doit être sûre et la consigne saine
+Pour protéger l'usine et toute la chaîne
+
+[Pont]
+Utilise un poste d'ingénierie et un VPN IPsec
+Passe les médias par une station blanche ou un sas
+Cloisonne les réseaux et les ports Ethernet muraux
+Pour que la défense en profondeur soit le plus haut niveau
+
+[Refrain final]
+Garde le contrôle, reste en mode island
+Le système industriel doit rester le maître
+La donnée doit être sûre et la consigne saine
+Pour protéger l'usine et toute la chaîne
+
+[Outro]
+Sécurité OT et IT pour l'avenir
+L'ANSSI nous donne les clés pour ne pas faillir
