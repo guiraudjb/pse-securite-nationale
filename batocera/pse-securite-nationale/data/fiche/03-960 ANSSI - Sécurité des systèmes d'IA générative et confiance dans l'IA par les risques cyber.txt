@@ -1,0 +1,167 @@
+ANSSI, RECOMMANDATIONS DE SÉCURITÉ POUR UN SYSTÈME D'IA GÉNÉRATIVE, GUIDE ANSSI-PA-102 D'AVRIL 2024, ET DÉVELOPPER LA CONFIANCE DANS L'IA À TRAVERS UNE APPROCHE PAR LES RISQUES CYBER, FÉVRIER 2025.
+
+LEXIQUE COMPLET.
+
+      L'IA générative est un sous-ensemble de l'intelligence artificielle axé sur des modèles entraînés à générer du contenu, texte, images ou vidéos, à partir d'un corpus de données d'entraînement.
+
+      Le LLM, Large Language Model, est une catégorie de modèles d'IA générative capables de produire du texte proche du langage naturel, entraînés sur un très large ensemble de données.
+
+      Le modèle d'IA désigne un réseau de neurones et ses paramètres, poids et biais.
+
+      Le système d'IA englobe tous les composants techniques d'une application reposant sur un modèle d'IA : implémentation du modèle, services frontaux, bases de données, journalisation.
+
+      La requête, ou prompt, est l'instruction textuelle envoyée par l'utilisateur au système d'IA.
+
+      L'attaque adverse, ou antagoniste, consiste à envoyer au système des requêtes malveillantes pour le tromper ou altérer son fonctionnement.
+
+      L'empoisonnement est l'altération des données d'entraînement ou du modèle pour fausser les réponses du système.
+
+      L'extraction est la reconstruction ou la récupération, après l'apprentissage, de données confidentielles du système ou du modèle, comme ses paramètres ou ses données d'entraînement.
+
+      L'évasion est l'altération des données d'entrée pour modifier le fonctionnement attendu du système.
+
+      L'injection indirecte de prompt introduit des instructions malveillantes dans un LLM par des sources externes contrôlées par l'attaquant.
+
+      Le shadow IA est l'utilisation de solutions d'IA générative grand public sans l'approbation ni la supervision des services informatiques de l'organisation.
+
+      SecNumCloud est la qualification de l'ANSSI pour les offres d'informatique en nuage de confiance.
+
+COURS DÉTAILLÉ.
+
+I. LES DEUX DOCUMENTS.
+
+   A. Le guide technique de 2024.
+
+      Le guide Recommandations de sécurité pour un système d'IA générative, version 1.0 du 29 avril 2024, référence ANSSI-PA-102, s'adresse aux développeurs, administrateurs, RSSI, DSI et utilisateurs.
+
+      Il traite surtout de cas d'usage comme la synthèse d'un corpus documentaire, l'extraction d'informations, la génération de texte et l'assistance au développement.
+
+      Il formule 35 recommandations, de R1 à R35.
+
+   B. L'analyse de risque de 2025.
+
+      Le document Développer la confiance dans l'IA à travers une approche par les risques cyber a été publié en février 2025 à l'occasion du Sommet pour l'action sur l'intelligence artificielle.
+
+      Il est issu de travaux avec la CNIL, l'INRIA, le LNE, le PEReN et l'AMIAD, et a été cosigné dans sa version anglaise par de nombreux partenaires étrangers, dont le BSI allemand, le NCSC britannique, le CCCS canadien et l'agence de Singapour.
+
+      Il s'appuie sur les lignes directrices pour le développement sécurisé des systèmes d'IA publiées en novembre 2023 par la CISA et le NCSC avec plus de 20 organisations.
+
+II. LES RISQUES PROPRES À L'IA.
+
+   A. Un système d'information comme les autres, avec des risques spécifiques.
+
+      Un système d'IA présente les vulnérabilités de tout logiciel et les mêmes menaces que tout système, notamment par son infrastructure d'hébergement et ses interconnexions.
+
+      Le rôle central des données pose des défis singuliers de confidentialité et d'intégrité.
+
+      L'opacité de certains modèles, véritables boîtes noires, complique l'explicabilité, l'identification et l'investigation des incidents.
+
+   B. Trois familles d'attaques.
+
+      L'empoisonnement altère les données d'entraînement ou le modèle.
+
+      L'extraction récupère des données confidentielles après l'apprentissage.
+
+      L'évasion altère les entrées pour détourner le comportement du système.
+
+   C. Les principaux scénarios de risque.
+
+      La compromission de l'infrastructure d'hébergement et d'administration, vecteur particulièrement plausible et critique.
+
+      La compromission de la chaîne d'approvisionnement, qui repose sur trois piliers : la capacité de calcul, les modèles et leurs dépendances logicielles, et les données, avec par exemple des bibliothèques open source piégées.
+
+      La latéralisation par les interconnexions avec d'autres systèmes, par exemple par injection indirecte de prompt, risque aggravé en cas de lien avec des systèmes industriels agissant sur le monde physique.
+
+      Les lacunes humaines et organisationnelles : dépendance excessive à l'automatisation, shadow IA, et à long terme dépendance technologique rendant impossible le retour à une action humaine.
+
+      Les dysfonctionnements des réponses, par exemple après empoisonnement d'une base d'entraînement servant à classer des images médicales ou de sécurité.
+
+   D. L'usage malveillant de l'IA.
+
+      L'IA réduit l'expertise nécessaire pour certaines attaques et en augmente l'étendue ou l'efficacité, comme on l'observe déjà pour l'hameçonnage, l'ingénierie sociale, la recherche de vulnérabilités et le développement de codes malveillants.
+
+      L'IA générative avancée pourrait permettre des attaques de grande échelle sur toute la chaîne d'attaque, à moindre coût.
+
+III. LE CYCLE DE VIE ET LES PRINCIPES GÉNÉRAUX.
+
+   A. Trois phases à sécuriser.
+
+      La mise en œuvre d'un système d'IA générative comprend trois phases cycliques : l'entraînement, le déploiement et la production, chacune avec des mesures spécifiques selon la sous-traitance, la sensibilité des données et la criticité du système.
+
+      R1 impose d'intégrer la sécurité dans toutes les phases, et R2 de mener une analyse de risque avant la phase d'entraînement.
+
+   B. La confiance dans les composants.
+
+      Il faut évaluer le niveau de confiance des bibliothèques, modules et sources de données externes, appliquer les principes DevSecOps et utiliser des formats de modèles sécurisés.
+
+   C. Confidentialité et besoin d'en connaître.
+
+      Le modèle génère ses réponses à partir de toutes les données vues à l'entraînement, d'où le principe d'entraîner un modèle uniquement avec des données légitimement accessibles à ses utilisateurs.
+
+      L'envoi de données sensibles à des outils d'IA grand public sur Internet est à proscrire.
+
+IV. LES RECOMMANDATIONS CLÉS DU GUIDE.
+
+   A. Maîtrise des actions et des accès.
+
+      R9 proscrit l'usage automatisé de systèmes d'IA pour des actions critiques sur le système d'information.
+
+      R10 impose de sécuriser les accès à privilèges des développeurs et administrateurs selon les bonnes pratiques d'administration sécurisée.
+
+      R27 limite les actions automatiques déclenchées depuis un système d'IA traitant des entrées non maîtrisées.
+
+   B. Hébergement et cloisonnement.
+
+      R11 demande un hébergement de confiance cohérent avec les besoins de sécurité, R12 un cloisonnement de chaque phase dans un environnement dédié et R28 un cloisonnement du système dans des zones dédiées.
+
+      R13 prévoit une passerelle Internet sécurisée pour un système exposé, et R14 privilégie une offre SecNumCloud en cas d'hébergement en nuage public.
+
+      R15 prévoit un mode dégradé des services métier sans IA, R16 dédie les GPU au système d'IA et R17 prend en compte les attaques par canaux auxiliaires.
+
+   C. Intégrité et tests.
+
+      R19 et R20 protègent en intégrité les données d'entraînement et les fichiers du système, R21 proscrit le ré-entraînement du modèle en production et R22 sécurise la chaîne de déploiement.
+
+      R23 et R24 prévoient des audits de sécurité et des tests fonctionnels métier avant la mise en production.
+
+      R25 filtre les entrées et les sorties des utilisateurs, R26 encadre les interactions avec les applications métier et R29 journalise tous les traitements.
+
+   D. Cas particuliers.
+
+      Pour le code généré par IA, R30 impose un contrôle systématique, R31 limite son usage pour les modules critiques et R32 sensibilise les développeurs.
+
+      R33 durcit les mesures pour les services d'IA grand public exposés sur Internet.
+
+      R34 proscrit les outils d'IA générative sur Internet pour un usage professionnel impliquant des données sensibles, et R35 impose une revue régulière des droits des outils d'IA générative sur les applications métier.
+
+V. LES RECOMMANDATIONS DE L'ANALYSE DE RISQUE DE 2025.
+
+      Évaluer la sensibilité du cas d'usage et adapter la complexité, la maturité cyber, l'auditabilité et l'explicabilité du système à ses exigences.
+
+      Ajuster le niveau d'autonomie du système à l'analyse de risque et intégrer une validation humaine dès que nécessaire.
+
+      Cartographier la chaîne d'approvisionnement, recenser et limiter les interconnexions au strict besoin.
+
+      Superviser et maintenir les systèmes en continu, assurer une veille technologique et réglementaire, et former et sensibiliser, y compris les directions.
+
+POINTS D'ATTENTION.
+
+      Les trois familles d'attaques spécifiques sont l'empoisonnement, l'extraction et l'évasion.
+
+      Un modèle ne doit être entraîné qu'avec des données que ses utilisateurs ont le droit de connaître.
+
+      Aucune action critique sur le système ne doit être déclenchée automatiquement par une IA.
+
+      Les données sensibles ne doivent jamais être soumises à des outils d'IA grand public.
+
+      Le shadow IA aggrave les fuites de données et la perte de maîtrise.
+
+EXEMPLES CITES.
+
+      L'injection indirecte de prompt via des sources externes contrôlées par un attaquant.
+
+      Les bibliothèques open source compromises dans la chaîne d'approvisionnement.
+
+      Le classement d'images médicales ou de sécurité faussé par l'empoisonnement des données.
+
+      Le Sommet pour l'action sur l'intelligence artificielle de février 2025.
