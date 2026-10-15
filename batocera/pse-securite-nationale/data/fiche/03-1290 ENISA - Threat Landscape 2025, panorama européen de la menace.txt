@@ -1,0 +1,99 @@
+ENISA, AGENCE DE L'UNION EUROPÉENNE POUR LA CYBERSÉCURITÉ, ENISA THREAT LANDSCAPE 2025, OCTOBRE 2025, VERSION 1.3 DE SEPTEMBRE 2026, ET LIVRET DE SYNTHÈSE.
+
+LEXIQUE COMPLET.
+
+      L'ENISA, agence de l'Union européenne pour la cybersécurité, créée en 2004 et renforcée par le règlement européen sur la cybersécurité, vise un niveau élevé commun de cybersécurité en Europe.
+
+      L'ENISA Threat Landscape, ETL, est son panorama annuel de la menace cyber dans l'Union européenne.
+
+      Les entités essentielles sont, au sens de la directive NIS 2, les organisations des secteurs les plus critiques.
+
+      La FIMI, Foreign Information Manipulation and Interference, désigne les manipulations de l'information et ingérences étrangères.
+
+      Un courtier en accès initiaux revend des accès à des réseaux compromis, notamment VPN et RDP.
+
+      Le phishing-as-a-service met à disposition des plateformes clés en main pour mener des campagnes d'hameçonnage.
+
+COURS DÉTAILLÉ.
+
+I. LE PÉRIMÈTRE.
+
+   A. La méthode.
+
+      L'ETL 2025 couvre la période du 1er juillet 2024 au 30 juin 2025 et s'appuie sur 4 875 incidents sélectionnés.
+
+      Il adopte un format plus concis, centré sur la menace, intégrant comportements adverses, vulnérabilités et facteurs géopolitiques.
+
+   B. Le constat général.
+
+      La menace mûrit : exploitation rapide des vulnérabilités et suivi des adversaires de plus en plus complexe.
+
+      Elle évolue vers des pressions mixtes et convergentes, avec moins d'incidents isolés à fort impact et davantage de campagnes continues qui érodent la résilience.
+
+II. LES ACTEURS DE LA MENACE.
+
+   A. L'hacktivisme, en volume.
+
+      L'hacktivisme représente près de 80 pour cent des incidents recensés, surtout des dénis de service distribués de faible impact ; seuls 2 pour cent ont perturbé un service.
+
+      Le groupe NoName057(16), avec sa plateforme DDoSia, est à l'origine de plus de 60 pour cent des revendications, avec des pics liés au soutien européen à l'Ukraine et aux élections.
+
+   B. La cybercriminalité, en impact.
+
+      Le rançongiciel reste la menace la plus impactante, malgré une baisse rapportée de 11 pour cent ; Akira et SafePay figurent parmi les souches les plus déployées.
+
+      Face aux forces de l'ordre, les cybercriminels décentralisent, durcissent l'extorsion et exploitent la peur des sanctions réglementaires.
+
+      Les modèles RaaS, les fuites de générateurs de rançongiciels et les courtiers en accès abaissent la barrière d'entrée.
+
+   C. Les acteurs étatiques.
+
+      Ils intensifient l'espionnage de long terme contre les télécommunications, la logistique et l'industrie, avec compromission de la chaîne d'approvisionnement et pilotes signés détournés.
+
+      APT28, APT29 et Sandworm sont les plus actifs dans l'Union, visant administrations, défense et télécommunications.
+
+      En matière de FIMI, le dispositif Matriochka est le plus actif.
+
+III. LES SECTEURS ET LES VECTEURS.
+
+   A. Les secteurs ciblés.
+
+      L'administration publique est le secteur le plus visé, avec environ 38 pour cent des incidents, surtout des DDoS, les rançongiciels touchant particulièrement les municipalités.
+
+      Viennent ensuite les transports, avec 7,5 pour cent, notamment l'aérien, la logistique et le maritime, puis les infrastructures et services numériques, la finance et l'industrie.
+
+      Les entités essentielles représentent 53,7 pour cent des incidents recensés.
+
+   B. Les vecteurs d'intrusion.
+
+      L'hameçonnage est le vecteur dominant, avec environ 60 pour cent des cas, industrialisé par le phishing-as-a-service.
+
+      L'exploitation de vulnérabilités représente 21,3 pour cent des accès initiaux, souvent dans les jours suivant leur publication, et 68 pour cent de ces cas aboutissent au déploiement d'un code malveillant.
+
+      Les dépendances numériques sont de plus en plus exploitées : dépôts libres, extensions de navigateur malveillantes et prestataires compromis.
+
+      Les terminaux mobiles et les services exposés, notamment les systèmes industriels, restent des cibles de choix.
+
+   C. L'intelligence artificielle.
+
+      Début 2025, les campagnes d'hameçonnage appuyées par l'IA auraient représenté plus de 80 pour cent de l'ingénierie sociale observée dans le monde.
+
+      Les adversaires utilisent des modèles débridés, des médias synthétiques et l'empoisonnement de modèles pour gagner en efficacité.
+
+POINTS D'ATTENTION.
+
+      L'hacktivisme domine en volume, le rançongiciel en impact.
+
+      L'administration publique est le secteur le plus ciblé de l'Union.
+
+      L'hameçonnage représente environ 60 pour cent des intrusions et l'exploitation de vulnérabilités 21,3 pour cent.
+
+      L'IA est devenue un élément déterminant de la menace.
+
+EXEMPLES CITES.
+
+      NoName057(16) et la plateforme DDoSia.
+
+      Les rançongiciels Akira et SafePay.
+
+      APT28, APT29, Sandworm et Matriochka.
