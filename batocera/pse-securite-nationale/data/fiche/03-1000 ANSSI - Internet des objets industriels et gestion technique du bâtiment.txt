@@ -1,0 +1,143 @@
+ANSSI, APPROCHE SSI POUR L'INTERNET DES OBJETS INDUSTRIELS, MAI 2025, ET RECOMMANDATIONS DE SÉCURITÉ RELATIVES À LA GESTION TECHNIQUE ET CENTRALISÉE DU BÂTIMENT, GTB ET GTC, GUIDE ANSSI-PA-110.
+
+LEXIQUE COMPLET.
+
+      L'IIoT, Industrial Internet of Things ou Internet industriel des objets, est une infrastructure industrielle d'entités, de personnes, de systèmes et de sources d'informations interconnectés qui traitent les informations du monde physique et virtuel et y réagissent, selon la norme ISO 24591-1 de 2024.
+
+      La donnée IIoT est une donnée générée par un système IIoT, et la consigne intelligente une consigne calculée hors de l'usine par des algorithmes statistiques ou d'intelligence artificielle puis renvoyée au procédé.
+
+      Le modèle de Purdue, ou ISA95, est une grille de lecture qui représente l'usine comme un empilement de zones, des capteurs et actionneurs jusqu'à l'ERP et la messagerie.
+
+      La boucle d'asservissement est le cycle mesure, calcul, commande qui pilote un procédé industriel.
+
+      Le mode island, prévu par l'IEC 62443, est la capacité d'un système industriel à couper toute communication à sa frontière et à fonctionner en mode local.
+
+      Le concentrateur de données collecte les données industrielles pour les rendre exploitables hors de l'usine.
+
+      La GTB, gestion technique du bâtiment, permet de contrôler à distance plusieurs éléments d'un bâtiment, et la GTC, gestion technique centralisée, en est un sous-élément.
+
+      Le CVC, chauffage, ventilation et climatisation, ou HVAC en anglais, fait partie des installations pilotées par la GTB.
+
+      Modbus et BACnet sont des protocoles de communication couramment utilisés en GTB, souvent dépourvus de sécurité native.
+
+      La station blanche, ou sas, est un poste de décontamination par lequel passent les médias amovibles avant leur introduction dans un système.
+
+      Le poste d'ingénierie est le poste utilisé pour programmer et configurer les automates.
+
+COURS DÉTAILLÉ.
+
+I. L'INTERNET INDUSTRIEL DES OBJETS.
+
+   A. De nouveaux usages.
+
+      L'IIoT traduit une captation accrue des données de terrain et leur valorisation par des traitements automatisés de masse.
+
+      Les nouveaux usages dépassent le périmètre historique de l'usine : maintenance prédictive importée d'autres industries, apprentissage profond sur des données de capteurs variés, simulation et recherche, accès de populations externes, par exemple pour spéculer sur le marché de l'électricité, ou revente des données.
+
+      Les consignes intelligentes permettent de reconfigurer des lignes selon une estimation des commandes, d'optimiser la production d'énergie selon le marché ou de déporter les calculs en ne laissant dans l'usine que des entrées et sorties.
+
+      Les procédés peuvent devenir dépendants de l'IIoT, y compris des systèmes utilitaires de faible criticité comme le traitement des eaux usées d'une usine textile.
+
+   B. Les menaces.
+
+      Les systèmes industriels peuvent être la cible d'attaques lucratives de masse par des cybercriminels, et d'attaques d'espionnage ou de déstabilisation par des groupes soutenus par des États.
+
+      L'IIoT ajoute une surface d'attaque, d'où une approche de sécurité dans les choix d'usage et de déploiement.
+
+      Ce document, présenté à la conférence C&ESAR en 2023, porte sur l'usine de production mais se transpose aux systèmes étendus ou à la logistique.
+
+II. LES RISQUES LIÉS À L'IIOT.
+
+   A. Les familles de scénarios.
+
+      Les scénarios touchent la disponibilité et l'intégrité du système industriel, la confidentialité des données de la chaîne de collecte, la disponibilité et l'intégrité de ces données, et les fonctions de la chaîne de traitement.
+
+      Un procédé dont la maintenance prédictive repose entièrement sur l'IIoT pourrait subir un arrêt inacceptable.
+
+   B. Le cas de la consigne intelligente.
+
+      Il faut traiter le stockage hors système industriel des données, les algorithmes qui calculent la consigne et le transport de la consigne vers le système industriel.
+
+      Exemple : un attaquant prend le contrôle du système IIoT, neutralise les alertes et augmente de manière infime la vitesse de rotation d'une centrifugeuse, qui s'use prématurément, casse avant la maintenance et arrête la production.
+
+      Le ver Stuxnet a été conçu en 2010 pour s'attaquer aux centrifugeuses iraniennes d'enrichissement d'uranium, jusqu'à leur destruction physique.
+
+III. ASSURER LA CONFIANCE DANS LES DONNÉES ET LES CONSIGNES.
+
+   A. Les mesures fonctionnelles.
+
+      Le système industriel vérifie un niveau de confiance contextualisé de la donnée, par exemple un score : très élevé, intégration en temps réel, élevé, intégration et vérification a posteriori, médiocre, validation humaine préalable.
+
+      Le système industriel doit pouvoir rejeter une consigne et passer en mode local, dans la ligne du mode island de l'IEC 62443.
+
+      La consigne doit être récupérée à l'initiative du système industriel, maître de la relation avec le concentrateur de données.
+
+   B. L'architecture sécurisée.
+
+      Elle repose sur une passerelle d'interconnexion de l'usine vers l'entreprise, une passerelle de l'entreprise vers l'usine et une infrastructure de transport de la donnée sécurisée.
+
+   C. Un périmètre élargi.
+
+      L'usine, autrefois vue comme un objet fermé, voit son périmètre de sécurité s'étendre à la zone entreprise, même externalisée.
+
+      Les risques se quantifient par une analyse de risque distinguant la sûreté des traitements, liée à la sûreté de fonctionnement et à la qualité, et la sécurité de l'infrastructure, fondée sur les bonnes pratiques IT et OT.
+
+      La gouvernance de la sécurité doit être dotée de moyens et de légitimité, par la sensibilisation de la direction et des équipes pluridisciplinaires.
+
+IV. LA GESTION TECHNIQUE DU BÂTIMENT.
+
+   A. Définition et périmètre.
+
+      La GTB pilote des bâtiments tertiaires ou hospitaliers à l'aide de capteurs, d'actionneurs, d'automates et de postes de supervision, notamment pour l'efficacité énergétique.
+
+      Elle contrôle le chauffage, la ventilation et la climatisation, la plomberie, les ascenseurs et la distribution d'électricité.
+
+      Le guide ANSSI-PA-110, publié en 2026, classe ses 26 recommandations en niveau N1, à mettre en œuvre à court ou moyen terme, et N2, à moyen ou long terme, et annonce une prochaine version couvrant BACnet/SC.
+
+   B. Administration et cloisonnement.
+
+      Utiliser un poste d'ingénierie dédié et sécurisé, cloisonner le réseau d'administration et utiliser des protocoles sécurisés, au besoin dans un tunnel VPN IPsec.
+
+      Cloisonner le système de GTB et filtrer les flux entre VLAN.
+
+      Utiliser un tunnel VPN IPsec pour l'accès distant à la GTB, un VPN TLS étant toléré à défaut.
+
+      Désactiver la fonctionnalité Foreign Device de BACnet et renforcer la disponibilité du réseau.
+
+   C. Défense en profondeur.
+
+      Cloisonner les ports Ethernet muraux des lieux accueillant du public et désactiver les ports inutilisés, durcir les commutateurs, mettre en place des private VLAN et durcir les passerelles protocolaires, comme les convertisseurs RS485 vers TCP/IP.
+
+      Garantir la synchronisation horaire, vérifier l'intégrité du micrologiciel et de la configuration des automates, protéger leurs éléments sensibles par mot de passe, désactiver les services inutiles, activer le contrôle d'accès IP et la journalisation.
+
+      Bloquer les ports USB inutilisés, sécuriser l'accès au BIOS ou à l'UEFI, et faire passer les médias amovibles par un sas ou une station blanche.
+
+   D. Communications.
+
+      Privilégier les protocoles sécurisés entre équipements sans fil, entre automate et poste de supervision et entre automate et entrées et sorties déportées.
+
+      Configurer un chiffrement robuste du Wi-Fi et réserver les communications sans fil non sécurisées aux composants non sensibles.
+
+      Sécuriser les protocoles Modbus et BACnet.
+
+POINTS D'ATTENTION.
+
+      La consigne intelligente calculée hors de l'usine est le cas d'usage IIoT le plus sensible.
+
+      Le système industriel doit rester maître : il récupère la consigne, peut la rejeter et passer en mode local.
+
+      Une modification infime d'une consigne peut détruire un équipement sans alerter les opérateurs.
+
+      En GTB, les niveaux N1 et N2 indiquent l'échéance de mise en œuvre.
+
+      L'accès distant à la GTB passe de préférence par un VPN IPsec.
+
+EXEMPLES CITES.
+
+      La centrifugeuse dont la vitesse est discrètement augmentée jusqu'à la casse.
+
+      Le ver Stuxnet contre les centrifugeuses iraniennes en 2010.
+
+      Le traitement des eaux usées d'une usine textile comme système utilitaire devenu dépendant de l'IIoT.
+
+      Les protocoles Modbus et BACnet et la fonctionnalité Foreign Device.

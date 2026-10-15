@@ -101,5 +101,6 @@
     "03-960 ANSSI - Sécurité des systèmes d'IA générative et confiance dans l'IA par les risques cyber.csv",
     "03-970 ANSSI - Migration vers la cryptographie post-quantique, avis 2022 et 2023 et transition de TLS, SSH et IPsec.csv",
     "03-980 ANSSI - Mécanismes cryptographiques, règles de dimensionnement, sélection des algorithmes et analyse de risque.csv",
-    "03-990 ANSSI - Cybersécurité des systèmes industriels, méthode de classification et mesures détaillées.csv"
+    "03-990 ANSSI - Cybersécurité des systèmes industriels, méthode de classification et mesures détaillées.csv",
+    "03-1000 ANSSI - Internet des objets industriels et gestion technique du bâtiment.csv"
 ]
