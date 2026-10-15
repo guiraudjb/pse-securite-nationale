@@ -1,0 +1,101 @@
+CERT-FR, GRANDS ÉVÈNEMENTS SPORTIFS EN FRANCE, ÉVALUATION DE LA MENACE 2023, DU 30 AOÛT 2023, ÉVALUATION DE LA MENACE POUR LES GRANDS ÉVÈNEMENTS SPORTIFS, CERTFR-2024-CTI-003 DU 17 AVRIL 2024, ET TRANSPORTS URBAINS, ÉTAT DE LA MENACE INFORMATIQUE, CERTFR-2025-CTI-005 DU 17 AVRIL 2025.
+
+LEXIQUE COMPLET.
+
+      Un transport guidé urbain désigne les métros, tramways et systèmes ferroviaires similaires, sous l'autorité de sécurité du STRMTG en France.
+
+      Une autorité organisatrice de la mobilité, AOM, organise les transports sur son territoire, comme Île-de-France Mobilités.
+
+      Le GNSS, système global de navigation par satellite, fournit position et heure ; il est vulnérable au brouillage et au leurrage.
+
+      Une ville intelligente, ou smart city, interconnecte les infrastructures urbaines : eau, bâtiments, vidéosurveillance, signalisation et transports.
+
+      Le hack-and-leak est la divulgation orchestrée de données volées.
+
+      Olympic Destroyer est un code de sabotage, ou wiper, utilisé contre les Jeux d'hiver de Pyeongchang en 2018.
+
+COURS DÉTAILLÉ.
+
+I. LES GRANDS ÉVÈNEMENTS SPORTIFS.
+
+   A. Une cible de choix.
+
+      Depuis plus d'une décennie, les grandes compétitions sportives sont régulièrement attaquées, en raison de leur audience et des flux financiers qu'elles génèrent.
+
+      L'ANSSI a publié une évaluation de la menace en août 2023, avant la Coupe du monde de rugby, puis en avril 2024 avant les Jeux olympiques et paralympiques de Paris.
+
+      Les Jeux de Paris 2024 prévoyaient quatre milliards de téléspectateurs, 13 millions de spectateurs, 30 000 bénévoles et 15 000 athlètes sur 38 sites.
+
+   B. Une surface d'exposition étendue.
+
+      De nombreux systèmes sont impliqués : billetterie, contrôle d'accès, transports, énergie, éclairage, chronométrage, retransmission, souvent interconnectés et de maturité hétérogène.
+
+      La durée restreinte de l'événement rend la disponibilité particulièrement critique ; une attaque peut aller jusqu'au report d'une épreuve.
+
+      Le contexte géopolitique, guerre en Ukraine et conflit entre Israël et le Hamas, accroît le risque.
+
+   C. Les menaces.
+
+      La principale menace est lucrative : escroqueries aux faux billets, extorsions, rançongiciels contre organisateurs et prestataires, revente de données.
+
+      L'AS Saint-Étienne a subi un rançongiciel en janvier 2019, bloquant messagerie et billetterie.
+
+      La déstabilisation peut prendre la forme de sabotage, DDoS, défigurations ou hack-and-leak : Olympic Destroyer, attribué au renseignement militaire russe, a perturbé la cérémonie d'ouverture de Pyeongchang en 2018.
+
+      Le GRU aurait aussi mené des reconnaissances contre les organisateurs et sponsors des Jeux de Tokyo.
+
+      L'espionnage des délégations officielles ne peut être exclu.
+
+II. LES TRANSPORTS URBAINS.
+
+   A. Un secteur à forte criticité.
+
+      Le secteur couvre transports guidés, réseaux au gabarit ferroviaire comme le RER, flottes de taxis, VTC, vélos et trottinettes, et transport fluvial.
+
+      Certains réseaux transportent plusieurs millions d'usagers par jour, et Paris est le premier port fluvial européen de passagers avec 9,5 millions de passagers en 2023.
+
+      Les acteurs sont les AOM, les collectivités, les exploitants comme Transdev, Keolis et la RATP, les équipementiers et les gestionnaires de flottes.
+
+      De janvier 2020 à décembre 2024, l'ANSSI a traité 123 événements, dont 91 signalements et 32 incidents, surtout des DDoS revendiqués, des fuites de données et des usurpations d'identité.
+
+   B. Des vulnérabilités spécifiques.
+
+      Convergence de l'informatique et des systèmes opérationnels, automatisation, objets connectés, billettique, information voyageurs, dépendance au GNSS et recours croissant aux prestataires.
+
+      Les villes intelligentes concentrent les risques : à Olsztyn en Pologne, en juin 2023, une attaque a paralysé la billetterie, l'affichage des horaires et les feux de signalisation.
+
+   C. Les menaces.
+
+      La menace lucrative domine, plutôt opportuniste : rançongiciels, vols de bases de données, escroqueries contre les usagers.
+
+      La déstabilisation vient d'hacktivistes, avec des DDoS amplifiés par les Jeux de Paris, et d'acteurs étatiques visant le sabotage.
+
+      En septembre 2022, des hacktivistes pro-ukrainiens ont détourné l'application Yandex Taxi pour envoyer des dizaines de taxis au même endroit à Moscou, créant un embouteillage de trois heures.
+
+      L'espionnage peut viser le secteur pour l'espionnage industriel ou la surveillance d'individus.
+
+   D. Recommandations.
+
+      Les recommandations portent sur les ressources humaines, les risques, l'acquisition et la maintenance, l'architecture, les accès physiques et les systèmes exposés au public, les identités, les vulnérabilités, la journalisation et la résilience.
+
+      Les usages du GNSS doivent être protégés contre le brouillage et le leurrage.
+
+POINTS D'ATTENTION.
+
+      Pour les grands évènements, la disponibilité est critique car la durée est courte.
+
+      La menace principale reste lucrative, mais l'image du pays hôte est en jeu.
+
+      Les transports urbains interconnectent de nombreux acteurs aux niveaux de sécurité hétérogènes.
+
+      Olympic Destroyer reste l'exemple type de sabotage d'un grand évènement.
+
+EXEMPLES CITES.
+
+      Olympic Destroyer à Pyeongchang en 2018.
+
+      Le rançongiciel contre l'AS Saint-Étienne en 2019.
+
+      L'attaque contre la ville intelligente d'Olsztyn en 2023.
+
+      Le détournement de Yandex Taxi à Moscou en 2022.
