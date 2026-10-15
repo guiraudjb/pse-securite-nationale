@@ -1,0 +1,109 @@
+ANSSI, RECOMMANDATIONS RELATIVES AU RECONDITIONNEMENT DES ORDINATEURS DE BUREAU OU PORTABLES, VERSION 1.0 D'OCTOBRE 2023.
+
+LEXIQUE COMPLET.
+
+      L'ordinateur reconditionné est un ordinateur d'occasion remis en état pour être réemployé par un nouvel utilisateur.
+
+      La loi AGEC, loi anti-gaspillage pour une économie circulaire du 10 février 2020, place le réemploi au cœur de la commande publique.
+
+      La cession est le transfert d'un ordinateur de l'entité à une autre entité, qui expose au risque de fuite d'informations.
+
+      L'OEM, fabricant d'origine de l'équipement, fournit notamment les mises à jour des micrologiciels.
+
+      Le firmware, ou micrologiciel, est le logiciel embarqué dans les composants matériels.
+
+      L'effacement cryptographique, ou effacement par perte de clé, consiste à effacer de manière sécurisée la clé de chiffrement d'un disque, quelques dizaines d'octets, ce qui rend les données chiffrées définitivement illisibles.
+
+      Le TPM est un composant de sécurité matériel capable de stocker des clés et de les effacer de manière sécurisée.
+
+      La commande nvme-sanitize est une commande d'effacement sécurisé prévue par la norme NVMe à partir de la version 1.3, à préférer à nvme-format lorsque le disque supporte les deux.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE.
+
+   A. L'obligation de réemploi.
+
+      La loi AGEC impose aux acheteurs de l'État, des collectivités locales et de leurs groupements d'acquérir des biens issus du réemploi, de la réutilisation ou comportant des matières recyclées.
+
+      Son article 58 fixe à 20 pour cent la proportion d'ordinateurs portables et fixes réemployés, appréciée sur le volume annuel total de la dépense hors taxes et non par unité.
+
+      L'obligation ne s'applique pas en cas de contrainte opérationnelle liée à la défense nationale ou de contrainte technique significative.
+
+   B. L'objet du guide.
+
+      Le guide s'adresse aux entités de l'État concernées par la loi AGEC et à toute entité qui acquiert ou cède des ordinateurs.
+
+      Il vise à réduire les risques de compromission ou de propagation de codes malveillants liés à des ordinateurs reconditionnés, et les risques de fuite d'information lors de la cession.
+
+      Il compte 30 recommandations.
+
+II. STRATÉGIE ET USAGES.
+
+      Gérer les risques résiduels et élaborer une stratégie d'utilisation des ordinateurs reconditionnés.
+
+      Réduire le nombre de modèles différents dans le parc et ne pas affaiblir le niveau de sécurité global du système.
+
+      Restreindre les cas d'usage : les ordinateurs reconditionnés sont déconseillés pour traiter des informations sensibles à impact opérationnel, juridique ou budgétaire inacceptable, et pour servir de poste d'administration.
+
+III. ACQUISITION.
+
+      Élaborer et auditer la procédure de reconditionnement, et signaler tout manquement ou irrégularité.
+
+      S'assurer que l'ordinateur est sous garantie, établir la liste des systèmes d'exploitation compatibles et vérifier les garanties de l'OEM sur les mises à jour de micrologiciels.
+
+      Choisir des ordinateurs offrant des fonctionnalités de sécurité équivalentes au matériel neuf.
+
+      Inventorier et suivre les ordinateurs reconditionnés, assurer une veille de sécurité et établir une procédure de gestion des incidents.
+
+IV. PRÉPARATION AVANT USAGE.
+
+      Retirer tout matériel additionnel indésirable, réinitialiser les composants disposant de mémoire et mettre à jour les micrologiciels.
+
+      Au niveau renforcé, vérifier l'intégrité des ports USB, des micrologiciels et des microcontrôleurs associés.
+
+      Effacer les supports de stockage, lister les spécifications techniques des lots et contrôler l'origine et l'innocuité des pièces de rechange.
+
+      Assurer la traçabilité des ordinateurs et des composants.
+
+      L'entité doit installer elle-même son système d'exploitation à partir de sa propre image, cette action ne devant pas être réalisée par un tiers, après formatage des disques.
+
+      Chiffrer les disques dès l'installation du système d'exploitation, la clé primaire ne devant jamais être stockée en clair sur le disque.
+
+V. CESSION.
+
+   A. L'effacement cryptographique.
+
+      Avant d'être cédé, un ordinateur doit faire l'objet d'un effacement cryptographique, les clés ayant été stockées dans un composant de sécurité comme un TPM, une carte à puce ou un jeton.
+
+      Cet effacement suppose que les disques aient été chiffrés dès l'installation initiale.
+
+      Il n'est pas pertinent si le disque a contenu des données sensibles avant le chiffrement, ou si on ne peut pas le garantir : le processus d'effacement doit alors être adapté à la sensibilité des données.
+
+      Pour les disques NVMe, les commandes nvme-format et nvme-sanitize permettent un effacement sécurisé, nvme-sanitize étant à privilégier.
+
+   B. Les autres mesures.
+
+      Effacer tous les composants mémoire, retirer les supports amovibles, révoquer les droits de l'ordinateur cédé sur le système de l'entité et anonymiser l'ordinateur.
+
+POINTS D'ATTENTION.
+
+      La part de 20 pour cent de réemploi s'apprécie en dépense annuelle, pas en nombre d'ordinateurs.
+
+      Un ordinateur reconditionné ne doit pas servir de poste d'administration.
+
+      L'entité installe elle-même son système d'exploitation, jamais un tiers.
+
+      L'effacement cryptographique n'est possible que si le disque a été chiffré dès l'origine.
+
+      Avant cession, les droits de l'ordinateur sur le système de l'entité sont révoqués.
+
+EXEMPLES CITES.
+
+      L'article 58 de la loi AGEC du 10 février 2020.
+
+      L'outil nvme-cli sous Linux et la commande nvme format avec l'option d'effacement cryptographique.
+
+      Le TPM, la carte à puce et le jeton comme composants de stockage des clés.
+
+      Le projet FaceDancer, cité en bibliographie pour la vérification des ports USB.
