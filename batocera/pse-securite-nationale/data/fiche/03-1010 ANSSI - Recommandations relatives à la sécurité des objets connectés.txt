@@ -1,0 +1,165 @@
+ANSSI, RECOMMANDATIONS RELATIVES À LA SÉCURITÉ DES SYSTÈMES D'OBJETS CONNECTÉS, VERSION 1.0 D'AOÛT 2021.
+
+LEXIQUE COMPLET.
+
+      Le dispositif connecté, ou objet connecté, est un équipement disposant d'une liaison numérique avec son environnement, généralement par un protocole non seulement point à point qui supporte plusieurs rôles : transfert de données, commande, mise à jour.
+
+      Le système connecté est un ensemble de dispositifs connectés qui dialoguent entre eux, souvent avec une infrastructure distante.
+
+      Le capteur mesure une grandeur physique et l'actionneur agit sur le monde physique, ce qui donne aux objets connectés des effets en dehors des systèmes d'information.
+
+      Le secret maître est un secret à partir duquel d'autres clés sont dérivées, et dont la compromission menace tous les dispositifs qui en dépendent.
+
+      La chaîne de démarrage sécurisée vérifie, à chaque étape du démarrage, l'authenticité du logiciel chargé.
+
+      Le mécanisme anti-rollback interdit par défaut l'installation d'une version logicielle plus ancienne que celle déjà déployée.
+
+      Le fuzzing est une technique de test qui injecte des entrées aléatoires ou malformées pour faire apparaître des failles.
+
+      La compartimentation isole les applications, services, utilisateurs ou processus les uns des autres pour limiter les effets d'une compromission.
+
+      L'attaque par réflexion utilise un service, souvent UDP, pour renvoyer et amplifier du trafic vers une victime.
+
+      Le canal auxiliaire est une fuite d'information par des grandeurs physiques comme la consommation électrique ou le temps de calcul.
+
+      Le maintien en condition de sécurité, ou MCS, est l'ensemble des actions qui conservent le niveau de sécurité d'un produit pendant sa durée de vie.
+
+COURS DÉTAILLÉ.
+
+I. LES SPÉCIFICITÉS DES OBJETS CONNECTÉS.
+
+   A. Une grande diversité.
+
+      Le terme d'objet connecté recouvre des matériels très divers, du pacemaker au système industriel en passant par la domotique grand public ou professionnelle.
+
+      Ils présentent des risques perçus comme nouveaux, par leur capacité à produire des effets physiques et par les effets systémiques de déploiements massifs.
+
+      Ils restent exposés aux menaces classiques, aggravées par leurs faibles ressources pour assurer leur sécurité et par la difficulté de maintenir des systèmes non administrés.
+
+      Ils disposent le plus souvent d'une grande autonomie, avec une capacité d'intervention réduite ou inexistante pour le dépannage ou la reconfiguration.
+
+   B. La démarche du guide.
+
+      Le point de départ est une analyse de sécurité qui identifie les scénarios d'attaque probables, les biens à protéger et les fonctions de sécurité.
+
+      Le guide vise à faciliter cette analyse en listant des menaces pertinentes et à formuler des recommandations techniques génériques, au nombre de 63.
+
+II. LES OBJECTIFS DE SÉCURITÉ.
+
+   A. Se protéger contre un environnement hostile.
+
+      Le système se protège contre les menaces extérieures, mais aussi contre celles qui proviennent de ses propres constituants.
+
+      Les communications entre constituants sont authentifiées et limitées au besoin.
+
+   B. Concevoir la sécurité sur toute la vie du dispositif.
+
+      La confiance entre dispositifs repose sur des secrets protégés et gérés sur tout leur cycle de vie.
+
+      Le maintien en condition de sécurité doit être prévu dès la conception.
+
+   C. Maîtriser les fonctions de sécurité.
+
+      Les composants des fonctions de sécurité sont éprouvés et leurs vulnérabilités suivies, et la méthode de développement intègre la sécurité, afin de réduire le coût du maintien en condition de sécurité.
+
+   D. Protéger les données sensibles en continu.
+
+      La confidentialité et l'intégrité des données sont assurées pendant leur stockage et leur transport.
+
+      Une politique de gestion des données exportées vers un système distant est définie et appliquée.
+
+III. ARCHITECTURE ET DÉVELOPPEMENT.
+
+   A. Données et infrastructure distante.
+
+      Limiter la collecte des données, les protéger, encadrer leur présence dans l'infrastructure distante et minimiser les droits de cette infrastructure sur les dispositifs.
+
+      Protéger en intégrité les commandes et réaliser les tâches sensibles dans un environnement adapté.
+
+   B. Composants et tests.
+
+      Employer des composants éprouvés, maintenir en condition de sécurité les composants tiers, tester et pratiquer le fuzzing.
+
+IV. CRYPTOLOGIE ET AUTHENTIFICATION.
+
+   A. Gestion des clés.
+
+      Protéger les secrets, affecter les clés de manière maîtrisée, protéger particulièrement les secrets maîtres et employer des secrets symétriques dérivés.
+
+      Attribuer un rôle unique à chaque clé publique, limiter la durée de vie des clés et prévoir la révocation des dispositifs.
+
+   B. Authentification.
+
+      Exiger une authentification pour les actions sensibles, utiliser des secrets d'authentification uniques par dispositif et des protocoles à l'état de l'art.
+
+      Stocker des empreintes de mots de passe plutôt que les mots de passe, et limiter le nombre d'essais d'authentification.
+
+V. PROTECTION DU DISPOSITIF.
+
+   A. Données et surface d'attaque.
+
+      Protéger les communications et les données locales, volatiles comme non volatiles, et minimiser la surface d'attaque.
+
+   B. Démarrage et mises à jour.
+
+      Mettre en place une chaîne de démarrage sécurisée et permettre les mises à jour du micrologiciel.
+
+      Authentifier et versionner les mises à jour, vérifier localement leur authenticité et afficher les numéros de version logicielle et matérielle.
+
+      Interdire par défaut le retour à une version plus ancienne, pour empêcher l'exploitation d'un micrologiciel aux vulnérabilités déjà corrigées.
+
+   C. Compartimentation et code.
+
+      Compartimenter les applications et services, les utilisateurs dans un système multi-utilisateurs et les processus qui interagissent avec l'environnement.
+
+      Utiliser des outils de développement à jour, durcir le code, traiter les avertissements des outils, recourir à l'analyse statique et minimiser les droits des utilisateurs.
+
+   D. Journalisation.
+
+      Définir la durée de rétention et les droits d'accès aux journaux, les mettre en lecture seule et les déporter.
+
+   E. Sécurité matérielle.
+
+      Protéger l'accès aux composants et les communications entre composants, prendre en compte les perturbations matérielles et les canaux auxiliaires, utiliser un environnement dédié aux fonctions de sécurité.
+
+      Générer un aléa de qualité cryptographique et des valeurs uniques.
+
+VI. RÉSEAU, RADIO ET CYCLE DE VIE.
+
+   A. Réseau.
+
+      Traiter avec méfiance les requêtes d'origine inconnue, minimiser les services exposés, se prémunir contre les attaques par réflexion utilisant UDP et protéger les données en transport.
+
+   B. Radio.
+
+      Prendre en compte le brouillage des canaux radio et le risque de traçage par des identifiants radio persistants.
+
+      Encadrer le déblocage d'actions sensibles.
+
+   C. Surveillance et support.
+
+      Surveiller le système et caractériser ses impacts systémiques.
+
+      Publier un point de contact, répondre aux signalements, s'engager sur une durée de support, prévoir la maintenance au-delà et définir une politique de gestion des vulnérabilités.
+
+POINTS D'ATTENTION.
+
+      Les objets connectés cumulent menaces classiques, effets physiques et effets systémiques de masse.
+
+      Chaque dispositif doit avoir des secrets d'authentification uniques, jamais partagés entre tous les dispositifs.
+
+      Le retour à une version antérieure du micrologiciel doit être interdit par défaut.
+
+      Le fabricant doit s'engager sur une durée de support et publier un point de contact pour les vulnérabilités.
+
+      L'analyse de sécurité reste le point de départ, aucune lecture unique n'étant possible.
+
+EXEMPLES CITES.
+
+      Le pacemaker, la domotique et les systèmes industriels comme exemples d'objets connectés.
+
+      Les attaques par réflexion exploitant des services UDP.
+
+      Le guide ANSSI de configuration d'un système GNU/Linux cité en bibliographie.
+
+      Le traçage d'un objet par ses identifiants radio.
