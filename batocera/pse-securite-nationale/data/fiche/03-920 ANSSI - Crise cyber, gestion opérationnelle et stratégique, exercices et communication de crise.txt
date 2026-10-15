@@ -1,0 +1,199 @@
+ANSSI, CRISE D'ORIGINE CYBER, LES CLÉS D'UNE GESTION OPÉRATIONNELLE ET STRATÉGIQUE, ORGANISER UN EXERCICE DE GESTION DE CRISE CYBER, ANTICIPER ET GÉRER SA COMMUNICATION DE CRISE CYBER.
+
+LEXIQUE COMPLET.
+
+      La crise d'origine cyber, ou crise cyber, est la déstabilisation immédiate et majeure du fonctionnement courant d'une organisation, comme l'arrêt des activités ou des pertes financières lourdes, en raison d'une ou plusieurs actions malveillantes sur ses services et outils numériques, qui ne peut être traitée par les processus habituels.
+
+      La cellule de crise stratégique, ou décisionnelle, réunit les fonctions décisionnelles de l'organisation : elle décide, arbitre, coordonne et se tient en première ligne face à l'extérieur.
+
+      La cellule de crise opérationnelle cyber et IT pilote l'investigation, l'endiguement, le durcissement, la remédiation et la reconstruction des systèmes d'information.
+
+      L'activation par le haut est le déclenchement du dispositif de crise par le volet stratégique selon des critères préétablis, et l'activation par le bas la mobilisation du dispositif opérationnel par effet de seuil, sans attendre le volet stratégique.
+
+      La main courante est le registre chronologique des événements, décisions et actions tenu pendant toute la crise.
+
+      Le rythme de bataille est la cadence des points de situation et des réunions qui structure la conduite de la crise.
+
+      Le PCA, plan de continuité d'activité, maintient les activités critiques, et le PRA, plan de reprise d'activité, organise la reconstruction de l'infrastructure numérique et la remise en route des applications stratégiques.
+
+      Le cœur de confiance est l'ensemble des systèmes reconstruits et sécurisés, comme l'annuaire et l'administration, sur lequel on peut à nouveau s'appuyer après une compromission.
+
+      Le PRIS est un prestataire de réponse aux incidents de sécurité qualifié par l'ANSSI.
+
+      Le RETEX, ou retour d'expérience, est l'action de capitalisation menée après la crise ou l'exercice, à chaud puis à froid.
+
+      L'exercice sur table réunit les joueurs autour d'une table pendant deux à trois heures, avec environ six semaines de préparation, et la simulation fait intervenir une cellule d'animation pendant une demi-journée à deux journées, avec deux à six mois de préparation.
+
+      Le chronogramme est le document qui planifie, minute par minute, les stimuli injectés aux joueurs pendant l'exercice.
+
+      Le stimulus est un message simulé, comme un appel, un courriel ou un article de presse, envoyé par l'animation aux joueurs pour faire évoluer la situation.
+
+COURS DÉTAILLÉ.
+
+I. LA CRISE CYBER ET SES SPÉCIFICITÉS.
+
+   A. Les guides de référence.
+
+      Le guide Crise d'origine cyber, les clés d'une gestion opérationnelle et stratégique a été publié en décembre 2021 par l'ANSSI avec le Club des directeurs de sécurité et de sûreté des entreprises, le CDSE.
+
+      Il s'appuie sur des retours d'expérience de victimes, dont Bouygues Construction, l'hôpital Nord-Ouest de Villefranche-sur-Saône et CMA CGM.
+
+      Le guide Organiser un exercice de gestion de crise cyber a été réalisé avec le Club de la continuité d'activité, le CCA, qui compte plus de 80 membres.
+
+      Le guide Anticiper et gérer sa communication de crise cyber, mis à jour en 2026, s'adresse aux communicants et propose dix fiches pratiques et une checklist.
+
+   B. Définition et exclusions.
+
+      Une crise cyber est un évènement à fort impact, par exemple un rançongiciel ou un déni de service, qui ne peut être traité dans le fonctionnement normal de l'organisation.
+
+      Les événements accidentels et les actions malveillantes sans interruption immédiate et majeure des services essentiels sont exclus de la définition, même si les recommandations peuvent s'y appliquer.
+
+      Le guide suppose que l'organisation dispose déjà d'un socle de sécurité, comme le cloisonnement des réseaux, des sauvegardes déconnectées et des outils de détection, ainsi que d'un dispositif général de gestion de crise.
+
+   C. Les cinq spécificités de la crise cyber.
+
+      La crise cyber a une double temporalité : des impacts immédiats et une remédiation longue de plusieurs semaines voire plusieurs mois.
+
+      Elle n'a pas d'unité de lieu, et peut se propager à d'autres organisations par l'interconnexion des systèmes.
+
+      La menace s'adapte aux mesures d'endiguement et de remédiation.
+
+      Le périmètre de la compromission est incertain.
+
+      Les objectifs de l'attaquant sont difficiles à comprendre et l'origine de l'attaque difficile à attribuer.
+
+II. SE PRÉPARER À AFFRONTER UNE CRISE CYBER.
+
+   A. Connaître ses systèmes, fiche 1.
+
+      Il faut disposer, sauvegardées hors ligne, de la liste des applications et services critiques, des cartographies des systèmes, des périphériques et des interdépendances avec les partenaires, d'une politique de rétention des journaux et d'une matrice des flux.
+
+      Les contacts d'urgence des prestataires doivent eux aussi être disponibles hors ligne.
+
+   B. Bâtir un socle de résilience, fiche 2.
+
+      Le PCA doit intégrer l'indisponibilité simultanée de plusieurs ressources, voire une activité sans outils numériques, alors qu'il traite surtout d'habitude un scénario unique.
+
+      Le PRA doit prévoir la reconstruction de l'Active Directory, des serveurs, des postes, du DNS et des infrastructures de gestion de clés, ainsi que des procédures de basculement et de restauration testées.
+
+      Les outils de conduite de crise doivent être résilients : procédures et annuaire de crise hors ligne, outils numériques dédiés et moyens de communication alternatifs testés.
+
+   C. Communication, organisation et réponse à incident, fiches 3 à 5.
+
+      Une stratégie de communication de crise cyber, des messages types par scénario et une liste des parties prenantes à alerter sont préparés à l'avance, avec un fichier presse hors ligne.
+
+      Le dispositif comprend un volet stratégique et un volet opérationnel, avec des cellules complémentaires selon les besoins : métiers, communication, ressources humaines, logistique, juridique.
+
+      Les critères d'activation et de désactivation, une chaîne d'alerte et deux modes, alerte et crise, sont définis à l'avance.
+
+      Idéalement, chaque organisation dispose d'un CERT ou CSIRT, sinon d'outils de détection et de prestataires, de préférence qualifiés, identifiés et sous accord de non-divulgation.
+
+   D. Assurance et entraînement, fiches 6 et 7.
+
+      L'assurance cyber complète la protection du patrimoine, mais ne couvre pas tous les frais et ne dispense pas de maintenir un haut niveau de sécurité, d'où l'intérêt de vérifier en amont les dommages couverts.
+
+      Une stratégie d'entraînement pluriannuelle complexifie progressivement les scénarios, le nombre de cellules et le périmètre testé.
+
+III. RÉAGIR EN QUATRE PHASES.
+
+   A. Phase 1, alerter, mobiliser et endiguer.
+
+      L'état de crise est déclenché selon des critères préétablis, les membres se rassemblent, une main courante est ouverte et un premier rythme de bataille est mis en place.
+
+      Les mesures d'endiguement ayant un effet sur la continuité, comme l'isolement ou le blocage d'Internet, sont validées par la cellule stratégique.
+
+      Le paiement de la rançon doit être évité, car il entretient le système frauduleux et ne garantit pas la récupération des données.
+
+      Les équipes sont soutenues dans la durée : rotations, suivi des heures, restauration, hébergement, accès aux bâtiments 24 heures sur 24.
+
+      Les réseaux de soutien sont activés : assurance, experts, dépôt de plainte, déclarations à l'ANSSI, à la CNIL en cas de violation de données personnelles et aux autorités judiciaires, conservation des preuves.
+
+   B. Phase 2, maintenir la confiance et comprendre l'attaque.
+
+      La communication s'organise en deux plans, interne et externe, avec des porte-paroles formés, un point de contact unique pour la presse et une veille médiatique.
+
+      L'investigation numérique se concentre sur le périmètre de compromission, les vecteurs d'infection et le chemin d'attaque, plutôt que sur la recherche d'un coupable.
+
+      Il faut annoncer dès le début que le patient zéro ne sera peut-être jamais identifié, la priorité étant de relancer les services dans des conditions de sécurité acceptables.
+
+      Un mode dégradé est mis en place pour les métiers, avec des solutions de contournement, des sauvegardes saines et des outils de déchiffrement gratuits comme ceux de No More Ransom.
+
+   C. Phase 3, relancer les activités et durcir les systèmes.
+
+      Un plan de durcissement et de remédiation itératif neutralise les vecteurs d'infection et de propagation.
+
+      Un cœur de confiance est reconstruit dans une bulle sécurisée, sous surveillance renforcée.
+
+      La reconstruction est priorisée de P0 à P3 selon la criticité, et toute dérogation aux règles de sécurité doit être formellement acceptée par la cellule stratégique.
+
+   D. Phase 4, tirer les leçons et capitaliser.
+
+      La sortie de crise s'envisage quand les activités essentielles reprennent de manière habituelle, selon des critères définis par la cellule stratégique, même si la reconstruction se poursuit pendant des mois.
+
+      Le RETEX n'est pas un audit mais une capitalisation, mené à chaud puis à froid, dans un délai maximum de 30 jours après la fin de la crise.
+
+IV. ORGANISER UN EXERCICE DE GESTION DE CRISE CYBER.
+
+   A. Deux formats.
+
+      L'exercice sur table dure deux à trois heures avec environ six semaines de préparation, il est idéal pour un premier exercice ou pour sensibiliser une direction, mais ne teste pas le dispositif de crise.
+
+      La simulation dure une demi-journée à deux journées, demande deux à six mois de préparation et une cellule d'animation qui simule les interlocuteurs extérieurs.
+
+      Pour un premier exercice, un exercice sur table planifié est recommandé, les exercices impromptus étant réservés aux organisations expérimentées.
+
+   B. Quatre étapes.
+
+      Concevoir l'exercice : groupe projet, objectifs, format, thème, durée, nom, logistique, calendrier et cahier des charges.
+
+      Préparer l'exercice : scénario, chronogramme, simulation de la pression médiatique, dossier de mise en situation, fiches d'observation et briefings.
+
+      Dérouler l'exercice : appliquer le chronogramme tout en s'adaptant aux réactions des joueurs et en évitant les biais de simulation.
+
+      Tirer les enseignements : RETEX à chaud, RETEX à froid idéalement deux semaines à un mois après, puis rapport écrit et restitution.
+
+   C. Le scénario fil rouge RANSOM20.
+
+      Le guide illustre chaque étape par le scénario RANSOM20, une attaque par un rançongiciel fictif nommé EvilRansomware, avec demande de rançon sous 24 heures, menace de publication des données, propagation, pression médiatique et remédiation.
+
+V. COMMUNIQUER EN CRISE CYBER.
+
+   A. Avant la crise.
+
+      Le communicant initie un dialogue avec les équipes cyber, anticipe des scénarios réalistes comme le DDoS, le rançongiciel ou la défiguration, constitue une boîte à outils et s'entraîne.
+
+   B. Pendant la crise.
+
+      Il organise la communication, définit une stratégie, rédige les messages clés et pilote la communication interne et externe.
+
+      Une attaque par rançongiciel est très visible et paralyse souvent les outils du communicant, à la différence d'une opération d'espionnage, plus discrète.
+
+      Ne pas prendre la parole immédiatement peut être un choix, un incident pouvant rester longtemps hors des radars médiatiques avant d'être médiatisé des mois plus tard.
+
+   C. Après la crise.
+
+      Il faut remercier les collaborateurs, réaliser le RETEX, partager l'expérience et sensibiliser.
+
+POINTS D'ATTENTION.
+
+      Une crise cyber est une épreuve d'endurance et non un sprint, la remédiation pouvant durer des mois.
+
+      Le PCA classique ne suffit pas : il doit prévoir une activité sans aucun outil numérique.
+
+      Les annuaires, procédures et outils de crise doivent être disponibles hors ligne.
+
+      La recherche d'un coupable n'est pas une priorité, la priorité est le maintien de l'activité.
+
+      Le paiement d'une rançon est déconseillé.
+
+      Pour un premier exercice, on choisit un exercice sur table planifié de deux à trois heures.
+
+EXEMPLES CITES.
+
+      Les témoignages de Bouygues Construction, de l'hôpital Nord-Ouest de Villefranche-sur-Saône et de CMA CGM.
+
+      Le scénario d'exercice RANSOM20 et son rançongiciel fictif EvilRansomware.
+
+      Les outils de déchiffrement gratuits du collectif No More Ransom.
+
+      Les trois critères de sortie de crise cités par une victime : applications prioritaires fonctionnelles, sauvegardes en état de marche, reconnexion des sites internationaux.
