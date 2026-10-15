@@ -9,6 +9,14 @@ apparaissent aussi dans l'application commune https://guiraudjb.github.io/PSE25-
 `index.html`, `sw.js` et les icônes sont une copie de la page commune
 (`PSE25-27/`) : les modifier là-bas puis lancer `scripts/sync-web.py`, jamais ici.
 
+## Utilisation hors ligne (Windows)
+
+Double-cliquer `lancer-site-local.bat` : il lance `serveur-local.ps1` (PowerShell, inclus dans
+Windows, sans installation ni droits d'administrateur), qui sert la page et ses données sur
+`http://localhost:8080/` (port suivant si occupé) et ouvre le navigateur. Laisser la fenêtre
+ouverte pendant la révision ; Q, Échap ou Ctrl+C l'arrête. Le dossier parent est servi : les
+autres dépôts clonés à côté restent accessibles (page commune PSE25-27, dépôts associés).
+
 ## Séries
 
 - **03** : ANSSI, SGDSN et stratégies nationales
