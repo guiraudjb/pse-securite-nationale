@@ -32,7 +32,7 @@ I. LE RAPPORT D'ACTIVITÉ 2021.
 
    B. Connaître, accompagner, former.
 
-      L'ANSSI a délivré 255 visas de sécurité, dont 167 qualifications et 88 certifications, et 48 documents publiés, dont le guide sur l'authentification multifacteur et les mots de passe.
+      L'ANSSI a délivré 255 visas de sécurité, dont 167 qualifications et 88 certifications, et publié 48 documents, dont le guide sur l'authentification multifacteur et les mots de passe.
 
       Plus de 600 organisations ont bénéficié de parcours de cybersécurité du plan de relance, et 135 groupements hospitaliers de territoire ont été désignés opérateurs de services essentiels.
 
