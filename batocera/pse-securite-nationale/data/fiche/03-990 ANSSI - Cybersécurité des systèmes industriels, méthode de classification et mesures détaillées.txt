@@ -1,0 +1,171 @@
+ANSSI, LA CYBERSÉCURITÉ DES SYSTÈMES INDUSTRIELS, MÉTHODE DE CLASSIFICATION, AVRIL 2025, MESURES DÉTAILLÉES, DÉCEMBRE 2025, ET ANALYSE DES RISQUES CYBER POUR LE SECTEUR DE LA CHIMIE, FÉVRIER 2026.
+
+LEXIQUE COMPLET.
+
+      Le système industriel s'appuie sur la technologie opérationnelle, ou OT, pour conduire et surveiller des procédés ayant une action physique directe, avec des risques pour les personnes, les biens et l'environnement.
+
+      L'IT, technologie de l'information, désigne l'informatique de gestion, distincte de l'OT.
+
+      La classe de cybersécurité est l'un des quatre niveaux, de 1 à 4, attribués à un système industriel selon l'impact d'une attaque, chaque classe appelant un socle de mesures proportionné.
+
+      La zone est une partie du périmètre industriel regroupant des équipements de même criticité.
+
+      Le surclassement consiste à attribuer à une zone une classe supérieure à celle issue de son seul impact, par exemple pour des sites répartis ou des zones impossibles à cloisonner.
+
+      La dépendance fonctionnelle apparaît lorsqu'une zone a besoin, pour réaliser une fonction, d'une donnée provenant d'une autre zone.
+
+      La passerelle unidirectionnelle, ou diode, est un équipement qui ne laisse passer les données que dans un seul sens.
+
+      La sûreté de fonctionnement, ou SdF, vise la fiabilité et la sécurité des installations face aux défaillances, et l'AMDEC est une méthode d'analyse des modes de défaillance et de leurs effets.
+
+      L'IEC 62443 est la série de normes internationales de cybersécurité des systèmes d'automatisation industrielle, qui définit des niveaux de sécurité, ou SL, selon le niveau de menace.
+
+      Le SIS est un système instrumenté de sécurité, comme un automate de sécurité fonctionnelle.
+
+      La télémaintenance est l'intervention à distance sur un système, à côté du télédiagnostic et de la télégestion.
+
+COURS DÉTAILLÉ.
+
+I. LES ENJEUX.
+
+   A. Des systèmes à part.
+
+      Certains systèmes industriels utilisent les technologies de l'IT sans avoir été conçus pour faire face à leurs menaces, et les solutions de l'informatique de gestion ne sont pas toujours adaptées à leur fonctionnement.
+
+      En théorie, l'OT doit être sécurisée dès la conception, mais en pratique les vulnérabilités de ses composants, comme les piles protocolaires des automates, sont nombreuses.
+
+   B. Les idées reçues.
+
+      Les réseaux industriels ne sont pas réellement isolés : ils sont souvent connectés aux réseaux de gestion, parfois à Internet, et les clés USB et consoles de maintenance propagent des virus même sur des systèmes isolés.
+
+      Les protocoles propriétaires ne sont pas un gage de protection et intéressent autant les attaquants que les standards ouverts.
+
+      Les performances ne sont plus un frein aux fonctions de sécurité, même si le temps réel et l'expiration des certificats restent des difficultés.
+
+      La sécurité des systèmes d'information et la sûreté de fonctionnement ne s'opposent pas, elles se rejoignent sur de nombreux points.
+
+   C. Une approche globale IT et OT.
+
+      La démarche suppose une volonté à tous les niveaux et la prise en compte de la sécurité dans les projets dès leur conception.
+
+II. LES QUATRE CLASSES DE CYBERSÉCURITÉ.
+
+   A. Définition.
+
+      La classe 1 correspond à un impact d'attaque faible.
+
+      La classe 2 correspond à un impact modéré, sans contrôle étatique, mais l'entité doit pouvoir prouver la mise en place des mesures en cas de contrôle ou d'incident.
+
+      La classe 3 correspond à un impact fort, avec des mesures renforcées et une vérification de conformité recommandée par un organisme qualifié.
+
+      La classe 4 correspond à un impact catastrophique, avec les mesures les plus fortes et une vérification de conformité recommandée par un organisme qualifié.
+
+      Chaque classe renforce les mesures des classes inférieures, et toute modification fonctionnelle ou technique impose de réviser la classe.
+
+   B. Une méthode fondée sur l'impact seul.
+
+      La version 1.0 du guide proposait trois classes fondées sur l'impact et la vraisemblance, mais aboutissait trop souvent à la classe 3 et créait un effet de bouclage, la vraisemblance baissant à mesure que la sécurité s'améliorait.
+
+      La version 2 retient quatre classes fondées uniquement sur la criticité des impacts, afin que la classe d'un système dont les fonctions n'évoluent pas reste stable.
+
+      Il n'y a pas d'équivalence directe avec les niveaux SL de l'IEC 62443, qui reposent sur le niveau de menace, opportuniste, criminelle ou étatique.
+
+      Les classes 1 et 2 mettent l'accent sur la résilience, c'est-à-dire surmonter une panne ou une attaque et redémarrer, tandis que les classes 3 et 4 visent à survivre à une attaque.
+
+   C. Les échelles de gravité.
+
+      Les impacts humains vont du niveau 1 mineur, accident avec arrêt ou traitement médical, au niveau 2 modéré, invalidité permanente, au niveau 3 majeur, un décès, et au niveau 4 catastrophique, plusieurs décès.
+
+      Des échelles existent aussi pour les impacts environnementaux et l'indisponibilité pour la collectivité, et une échelle économique peut s'y ajouter, laissée à l'exploitant.
+
+      Pour les secteurs d'importance vitale, l'article L1332-3 du code de la défense apporte des critères, et l'article L511-1 du code de l'environnement précise des impacts.
+
+      L'adaptation des échelles au secteur ne doit pas les dégrader, sous peine de sous-estimer la classe.
+
+III. LA MÉTHODE DE CLASSIFICATION.
+
+   A. Trois activités alignées sur EBIOS Risk Manager.
+
+      Activité 1 : définir le cadre de l'étude, ses objectifs, ses hypothèses et ses périmètres métier et technique.
+
+      Activité 2 : établir des zones au sein du périmètre.
+
+      Activité 3 : identifier les événements redoutés et en déduire la classe de chaque zone.
+
+      Le périmètre doit contenir l'ensemble des installations critiques d'un site ou d'une infrastructure, et un découpage en plusieurs systèmes impose une analyse de risque globale.
+
+   B. Surclassement et dépendances.
+
+      Des sites répartis à faible impact individuel peuvent être surclassés si un événement simultané sur tous les sites a un impact significatif.
+
+      Deux zones de classes différentes impossibles à cloisonner, comme un automate de sécurité et un automate standard, sont surclassées vers la classe la plus élevée.
+
+      Une communication entre zones de même classe présente un risque acceptable, sinon l'interconnexion doit être sécurisée.
+
+      Selon l'IEC 62443, un conduit entre zones hérite du niveau de sécurité le plus élevé des zones connectées.
+
+   C. Le lien avec EBIOS RM.
+
+      Une fois les classes déterminées, les mesures applicables du guide de mesures détaillées alimentent le socle de sécurité d'une analyse EBIOS Risk Manager.
+
+      L'étude de cas porte sur Assaineaux, entité fictive gérant un réseau d'assainissement.
+
+IV. LES MESURES DÉTAILLÉES.
+
+   A. Organisation du guide.
+
+      Le guide des mesures détaillées, version 2 de décembre 2025, classe chaque recommandation de C1 à C4 selon la classe minimale à laquelle elle s'applique, le verbe devoir y étant plus prescriptif que la formule il est recommandé.
+
+      Il commence par les contraintes et faiblesses propres aux installations industrielles.
+
+   B. Mesures organisationnelles.
+
+      Connaître le système industriel, maîtriser les intervenants, intégrer la cybersécurité dans le cycle de vie, assurer la sécurité physique et le contrôle d'accès aux locaux, anticiper et réagir en cas d'incident.
+
+   C. Mesures techniques.
+
+      Authentification et contrôle d'accès logique, sécurisation de l'architecture, sécurisation des équipements et supervision de sécurité.
+
+   D. Interconnexions et télémaintenance.
+
+      En classe 1, un pare-feu est déployé au niveau des passerelles d'interconnexion et les opérations de télédiagnostic et de télémaintenance sont sécurisées.
+
+      À partir de la classe 2, des flux unidirectionnels sont recommandés entre systèmes de classes différentes et depuis le système industriel vers le système de gestion.
+
+      À partir de la classe 3, des sondes de détection sont déployées au niveau des passerelles d'interconnexion.
+
+      En classe 4, la télémaintenance est proscrite, et si elle est impérative, les équipements distants et la liaison sont intégrés au périmètre de classe 4.
+
+V. LE SECTEUR DE LA CHIMIE.
+
+      L'ANSSI et France Chimie ont mené en 2026 une analyse des risques cyber du secteur selon la méthode EBIOS Risk Manager.
+
+      Les sources de risque sont étatiques, cybercriminelles et internes, avec des objectifs lucratifs, de déstabilisation et d'espionnage économique et industriel.
+
+      Les données de recherche et développement sont une cible majeure, et le rançongiciel emprunte des chemins inédits du fait de la porosité entre informatique de gestion et industrielle.
+
+      En 2024, 37 pour cent des victimes de rançongiciels rapportées à l'ANSSI étaient des TPE, PME ou ETI.
+
+      L'écosystème, dont les chaînes d'approvisionnement et de distribution, est un risque majeur, la plupart des attaques logicielles par la chaîne d'approvisionnement passant par la compromission d'un éditeur.
+
+POINTS D'ATTENTION.
+
+      La classification de 2025 compte quatre classes fondées sur l'impact seul, contre trois classes fondées sur l'impact et la vraisemblance dans la version 1.0.
+
+      Les classes ne correspondent pas directement aux niveaux de sécurité de l'IEC 62443.
+
+      En classe 4, la télémaintenance est proscrite et les flux vers la gestion passent par une diode.
+
+      Toute modification d'un système industriel impose de réexaminer sa classe.
+
+      Un réseau industriel prétendument isolé reste exposé par les clés USB et les consoles de maintenance.
+
+EXEMPLES CITES.
+
+      L'étude de cas Assaineaux, réseau d'assainissement fictif.
+
+      Les automates de sécurité fonctionnelle, ou SIS, qui ne peuvent être cloisonnés des automates standards.
+
+      Le comité cyber de France Chimie.
+
+      L'article L1332-3 du code de la défense et l'article L511-1 du code de l'environnement.
