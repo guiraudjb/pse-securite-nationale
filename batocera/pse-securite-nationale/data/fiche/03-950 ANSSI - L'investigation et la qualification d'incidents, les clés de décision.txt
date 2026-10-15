@@ -1,0 +1,169 @@
+ANSSI, COLLECTION INVESTIGATION, L'INVESTIGATION ET LA QUALIFICATION D'INCIDENTS, LES CLÉS DE DÉCISION, VERSION 1.0 DE SEPTEMBRE 2026.
+
+LEXIQUE COMPLET.
+
+      La qualification d'un incident est l'estimation de sa gravité avérée et potentielle, pour déterminer un engagement adapté aux impacts métier et aux risques, et distinguer les incidents traitables par le processus habituel de ceux qui demandent un dispositif particulier.
+
+      L'investigation d'un incident est l'acquisition d'une connaissance technique sur cet incident, pour en comprendre les impacts, identifier le périmètre compromis et faire les choix les plus appropriés, notamment de remédiation.
+
+      La supervision renforcée est une supervision dédiée à l'incident, avec des signatures ou configurations spécifiques, des outils supplémentaires ou une vigilance accrue sur le périmètre compromis.
+
+      La phase de compréhension d'un incident regroupe la qualification, l'investigation et la supervision renforcée.
+
+      Les accélérateurs de l'investigation sont des connaissances acquises à l'avance qui accélèrent et réduisent le coût de l'investigation.
+
+      Le patient zéro est le premier élément compromis par l'attaquant, souvent recherché mais pas toujours identifiable.
+
+      La ligne rouge est un seuil de risque inacceptable, défini par le métier, qui impose de changer de stratégie, par exemple de passer à l'isolement.
+
+      La chasse est la recherche large et sans piste initiale d'une éventuelle présence d'attaquant, et la levée de doute la vérification d'un signalement imprécis.
+
+      Le PRIS est un prestataire de réponse aux incidents de sécurité qualifié par l'ANSSI, et le CSIRT un centre de réponse aux incidents cyber, ministériel, sectoriel, territorial ou national comme le CERT-FR.
+
+      L'EDR est un outil de détection et de réponse sur les équipements terminaux, et la sonde un capteur réseau.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE DU GUIDE.
+
+   A. Objet et public.
+
+      L'ANSSI publie une collection sur l'investigation, dont ce volet stratégique est destiné aux décideurs pour comprendre les incidents de cybersécurité qui touchent leur organisation.
+
+      Le guide traite uniquement des incidents de cybersécurité d'origine malveillante.
+
+      Il complète les guides de gestion de crise, dont il reprend certains accélérateurs, et les guides sur la remédiation.
+
+   B. La place de la compréhension.
+
+      La qualification et l'investigation sont, avec la remédiation et la gestion de crise, des dimensions majeures de la réponse à incident, qu'il s'agisse d'atteinte aux activités ou d'espionnage.
+
+      La phase de compréhension est indispensable à une remédiation efficace, utile pour maîtriser le coût global de l'incident et parfois nécessaire au respect d'obligations légales liées à la CNIL, au RGPD ou à l'assurance.
+
+      Elle se conduit en parallèle et en interaction avec la gestion de crise et la remédiation.
+
+      Certaines mesures de supervision renforcée peuvent être conservées après l'incident pour détecter une reprise d'activité malveillante similaire.
+
+II. UN PROCESSUS MULTI-ITÉRATIF.
+
+   A. L'itération qualification et investigation.
+
+      L'investigation éclaire la compromission, et dès que les enjeux évoluent significativement, il faut relancer une qualification pour confirmer ou redéfinir l'engagement.
+
+   B. L'itération collecte et analyse.
+
+      L'analyse des premières collectes révèle le périmètre compromis et les actions de l'attaquant, et un élargissement du périmètre, une méthode d'attaque particulière ou une activité continue de l'attaquant justifient une nouvelle collecte.
+
+   C. L'itération investigation et supervision.
+
+      L'investigation fournit des éléments techniques pour focaliser la supervision dédiée, qui observe à son tour l'activité en cours de l'attaquant au profit de l'investigation.
+
+III. LES ACCÉLÉRATEURS ET LES LIMITES.
+
+   A. Quatre accélérateurs à préparer à froid.
+
+      La cartographie du système d'information.
+
+      Les vulnérabilités du système, identifiées par des audits et des analyses de risque.
+
+      La nature des menaces et leurs objectifs, par exemple grâce aux bulletins CTI du CERT-FR.
+
+      Les périmètres d'administration de chaque équipe technique, interne ou prestataire, avec des contacts actionnables, sachant qu'un contrat d'infogérance sans accord de niveau de service adapté aux urgences peut retarder l'investigation.
+
+      La capacité à investiguer dépend aussi de la capacité du système à conserver et protéger les traces des activités passées.
+
+   B. Les limites de l'investigation.
+
+      Les attaquants peuvent être dynamiques et réactifs : poursuivre l'attaque, prévoir une entrée alternative, se mettre en veille, supprimer ou brouiller leurs traces.
+
+      Les incertitudes ne peuvent pas toujours être levées au regard des coûts, elles doivent alors faire l'objet d'une analyse de risque validée au bon niveau hiérarchique et être prises en compte dans la remédiation.
+
+      Par exemple, ne pas investiguer l'infrastructure d'hypervision peut laisser une porte dérobée et faire échouer toute la réponse, mais l'investiguer en profondeur peut être coûteux et décevant.
+
+      Un système compte des centaines ou des milliers d'équipements et la collecte d'un seul équipement peut prendre plusieurs heures, d'où des délais importants.
+
+IV. CHOISIR SON PLAN D'INVESTIGATION.
+
+   A. Un jeu d'équilibriste.
+
+      L'investigation n'est pas seulement un coût et un retard, mais un investissement pour comprendre l'attaquant et mieux le combattre.
+
+      La volonté de reconstruire trop vite peut venir d'une pression financière, d'une mauvaise compréhension du risque ou de facteurs externes comme la pression médiatique ou la honte, qui sont de mauvais conseillers.
+
+      Tout investiguer coûte cher, ne pas assez investiguer aussi, car la remédiation devient inefficace et l'attaquant revient.
+
+      Un endiguement drastique interrompt les métiers, mais laisser un attaquant actif prolonge ou aggrave les conséquences.
+
+      Le plan n'est pas figé et plusieurs stratégies peuvent se succéder selon l'évolution de l'incident.
+
+   B. Stratégie 1, investigation sous isolement.
+
+      Elle coupe tous les accès réseau entre le système compromis et l'extérieur, y compris Internet et les interconnexions, pour investiguer sans que l'attaquant puisse agir.
+
+      Elle est favorable lorsque des destructions sont imminentes, ce qui est souvent le cas des rançongiciels, mais elle alerte l'attaquant et dégrade le fonctionnement des métiers.
+
+      C'est un arbitrage décisionnel et pas seulement technique, rarement tenable longtemps sur de grands périmètres, et parfois impossible.
+
+   C. Stratégie 2, investigation en environnement dégradé.
+
+      Elle privilégie la remédiation lorsque l'attaquant a déjà causé des destructions importantes, l'investigation servant alors à éclairer la reprise d'activité.
+
+      Elle pose des questions urgentes : l'attaquant était-il déjà présent dans les systèmes restaurés, quelle date choisir pour la restauration, comment l'empêcher de revenir, comment répondre aux obligations légales sur les données exposées.
+
+   D. Stratégie 3, observer et contraindre.
+
+      Elle observe en temps réel l'attaquant, grâce à des EDR et des sondes, et coupe systématiquement ses accès dès qu'ils sont identifiés.
+
+      Elle a un impact métier très faible et un coût réduit lorsque la détection est précoce et la visibilité très bonne, mais une mauvaise qualification du périmètre la rend totalement inefficace et épuise les équipes.
+
+   E. Stratégie 4, observer et laisser faire.
+
+      Elle observe discrètement l'attaquant pour comprendre le plus complètement possible ses capacités, en limitant ce qu'il peut apprendre de la réponse à incident.
+
+      Elle est favorable lorsque l'attaquant est présent depuis longtemps, que son retour est probable ou que la supervision préalable était insuffisante.
+
+      Comme l'attaque continue, il faut définir des lignes rouges guidées par le métier qui imposent de basculer vers une autre stratégie.
+
+   F. Stratégie 5, investigation exploratoire.
+
+      Elle recherche toute activité malveillante sur un large périmètre, après un signalement imprécis ou pour une chasse avant une remédiation.
+
+      Agnostique à la menace, elle évite l'effet œillères et perturbe peu le système, mais elle exige des pratiques métier connues et homogènes et un cadrage strict des ressources.
+
+V. SEPT RECOMMANDATIONS POUR RÉUSSIR SON INVESTIGATION.
+
+      Répondre aux objectifs stratégiques, que la qualification éclaire et que l'investigation aide à atteindre et à réévaluer.
+
+      Éviter les idées fixes, car pour une attaque ancienne ou destructrice, l'identification du patient zéro n'est plus forcément atteignable ni prioritaire.
+
+      Préserver les traces : collectes reproductibles, centralisées, protégées de toute altération, inventoriées et assorties d'empreintes, indispensables en cas de judiciarisation.
+
+      Tracer son analyse, pour qu'elle soit répétable, objective et opposable en justice.
+
+      Penser aux angles morts, une absence de traces pouvant traduire un manque de visibilité plutôt qu'une absence d'activité malveillante.
+
+      Penser attaquant, en partant des atouts et activités d'intérêt de l'organisation pour définir le périmètre initial, les chemins d'accès et les lignes rouges.
+
+      Ne pas rester seul, en mobilisant des PRIS qualifiés, des prestataires autodéclarés sur Cybermalveillance et les CSIRT.
+
+POINTS D'ATTENTION.
+
+      Les stratégies 1 et 3 alertent l'attaquant, la stratégie 4 privilégie au contraire la discrétion.
+
+      L'isolement est souvent le bon choix face à un rançongiciel aux destructions imminentes.
+
+      Toute incertitude non levée doit être assumée par une analyse de risque validée hiérarchiquement.
+
+      La recherche du patient zéro ne doit pas devenir une idée fixe.
+
+      Les collectes doivent être reproductibles, centralisées, inventoriées et assorties d’empreintes pour rester probantes.
+
+EXEMPLES CITES.
+
+      L'infrastructure d'hypervision, dont l'absence d'investigation peut laisser une porte dérobée.
+
+      Les bulletins CTI du CERT-FR comme source de connaissance de la menace.
+
+      Les EDR et les sondes réseau comme moyens d'observation en temps réel.
+
+      Les PRIS qualifiés par l'ANSSI et les prestataires référencés sur Cybermalveillance.gouv.fr.
