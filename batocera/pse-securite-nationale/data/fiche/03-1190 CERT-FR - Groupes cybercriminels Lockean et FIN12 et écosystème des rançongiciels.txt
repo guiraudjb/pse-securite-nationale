@@ -1,0 +1,101 @@
+CERT-FR, IDENTIFICATION OF A NEW CYBER CRIMINAL GROUP, LOCKEAN, CERTFR-2021-CTI-009 DU 26 OCTOBRE 2021, ET UN GROUPE CYBERCRIMINEL AUX MULTIPLES RANÇONGICIELS, CERTFR-2023-CTI-007 DU 18 SEPTEMBRE 2023.
+
+LEXIQUE COMPLET.
+
+      Un groupe cybercriminel poursuit un objectif lucratif, le plus souvent par rançongiciel.
+
+      Un service de distribution, comme Emotet ou TA551, diffuse massivement par hameçonnage un premier code malveillant pour le compte d'autres attaquants.
+
+      Un chargeur, ou loader, comme QakBot, prépare l'arrivée d'autres outils sur la machine infectée.
+
+      Cobalt Strike est un outil commercial de test d'intrusion largement détourné pour piloter des machines compromises.
+
+      Rclone est un outil libre de gestion de contenus dans le cloud, détourné pour exfiltrer des données.
+
+      Le rançongiciel en tant que service, RaaS, met un rançongiciel à disposition d'affiliés contre une part des rançons.
+
+      Le Big Game Hunting cible de grandes organisations capables de payer des rançons élevées, après une préparation parfois de plusieurs mois.
+
+      Le délai de rançon, ou Time-To-Ransom, est le temps entre l'intrusion et le chiffrement.
+
+      Un information stealer est un code malveillant qui collecte les identifiants sur une machine compromise.
+
+COURS DÉTAILLÉ.
+
+I. LOCKEAN, UN GROUPE IDENTIFIÉ PAR L'ANSSI.
+
+   A. Des incidents reliés.
+
+      En 2020 et 2021, plusieurs entreprises françaises ont été compromises par QakBot : une entreprise industrielle, le transporteur Gefco, le journal Ouest-France, le groupe pharmaceutique Fareva, une entreprise de services et le laboratoire Pierre Fabre.
+
+      Des similitudes ont permis de relier ces incidents : conventions de nommage de QakBot, serveurs Cobalt Strike imitant des domaines Akamai et Azure, et usage de Rclone déguisé en service Windows svchost.
+
+      L'ANSSI a attribué ces incidents à un même groupe, qu'elle a nommé Lockean.
+
+   B. La chaîne d'infection.
+
+      Lockean recourt aux services de distribution Emotet puis TA551 pour diffuser QakBot par hameçonnage.
+
+      Il se latéralise avec Cobalt Strike, exfiltre avec Rclone, puis chiffre avec différents rançongiciels : Maze, Egregor, ProLock, DoppelPaymer et Sodinokibi.
+
+      Il pratique la double extorsion : chiffrement et menace de publication des données exfiltrées.
+
+   C. Un ciblage opportuniste.
+
+      Son ciblage dépend des services de distribution, mais il vise volontiers les entités françaises dans une logique de Big Game Hunting.
+
+      Il a attaqué Gefco, détenu à 75 pour cent par les chemins de fer russes, en violation apparente des règles des rançongiciels qui interdisent de viser les pays de la CEI.
+
+II. FIN12, UN GROUPE AUX MULTIPLES RANÇONGICIELS.
+
+   A. L'incident du CHU de Brest.
+
+      Le 9 mars 2023, l'ANSSI a signalé la compromission d'un serveur du centre hospitalier universitaire de Brest, grâce à des investigations menées depuis plusieurs années.
+
+      L'isolement rapide du système d'Internet a empêché l'exfiltration et le chiffrement.
+
+      L'accès initial s'est fait par un bureau à distance exposé avec les identifiants valides d'un professionnel de santé, probablement volés par un information stealer : deux acteurs pourraient être impliqués, un fournisseur d'accès et l'attaquant.
+
+      Les attaquants ont déployé SystemBC et Cobalt Strike et tenté d'élever leurs privilèges par des vulnérabilités.
+
+   B. Le profil de FIN12.
+
+      FIN12, suivi par Microsoft sous le nom Pistachio Tempest, aurait utilisé de 2020 à 2023 Ryuk puis Conti, avant de rejoindre les programmes RaaS de Hive, BlackCat et Nokoyawa, ainsi que Play et Royal.
+
+      Il pratique le Big Game Hunting et cible fortement la santé, avec au moins 20 pour cent de ses victimes dans ce secteur.
+
+      Il recourt rarement à la double extorsion et privilégie un chiffrement rapide, avec un délai de rançon d'environ quatre jours.
+
+      Son accès initial privilégié est désormais l'usage d'identifiants valides.
+
+III. LES ENSEIGNEMENTS.
+
+   A. Un écosystème spécialisé.
+
+      Les cybercriminels se répartissent les rôles : distribution, accès initial, latéralisation, chiffrement, extorsion.
+
+      Les affiliés changent de rançongiciel au gré de la fragmentation des groupes, comme après la fin de Conti.
+
+   B. Les parades.
+
+      Ne pas exposer de bureau à distance sur Internet, protéger les identifiants par l'authentification multifacteur et surveiller les outils détournés comme Cobalt Strike et Rclone.
+
+      Réagir vite : l'isolement du réseau peut empêcher le chiffrement, comme au CHU de Brest.
+
+POINTS D'ATTENTION.
+
+      Lockean a été identifié par l'ANSSI à partir de six incidents français.
+
+      FIN12 cible particulièrement la santé et chiffre en environ quatre jours.
+
+      Les identifiants volés par des information stealers sont un vecteur d'accès majeur.
+
+      La réactivité de la victime peut stopper une attaque avant le chiffrement.
+
+EXEMPLES CITES.
+
+      Gefco, Ouest-France, Fareva et Pierre Fabre, victimes liées à Lockean.
+
+      Le CHU de Brest en mars 2023.
+
+      Les rançongiciels Egregor, ProLock, Ryuk, Conti et Hive.

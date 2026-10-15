@@ -1,0 +1,20 @@
+Comment l'ANSSI a-t-elle nommé le groupe cybercriminel identifié en 2021 ?;Lockean;Houken;Lazarus;Nobelium;2;À partir de six incidents français.
+Quel chargeur était présent dans tous les incidents liés à Lockean ?;Mirai;Pegasus;Stuxnet;QakBot;5;Il était diffusé par hameçonnage.
+Quel journal français a été victime de Lockean en novembre 2020 ?;Libération;Le Monde;Le Figaro;Ouest-France;5;Avec le rançongiciel Egregor.
+Quels services de distribution Lockean a-t-il utilisés ?;Aucun;Netflix et Spotify;La Poste;Emotet puis TA551;5;Pour diffuser QakBot.
+Quel outil Lockean détournait-il pour exfiltrer des données ?;Excel;Rclone;Word;Paint;3;Déguisé en service Windows svchost.
+Quels domaines imitaient les serveurs Cobalt Strike de Lockean ?;Wikipédia;Akamai et Azure;Gouv.fr;Google et Yahoo;3;D'où le nom de cluster Akamai/Azure.
+Qu'est-ce que la double extorsion ?;Chiffrer et menacer de publier les données exfiltrées;Attaquer deux fois;Demander deux rançons au même moment;Sauvegarder deux fois;2;Lockean la pratique.
+Quelle entreprise attaquée par Lockean était détenue à 75 pour cent par les chemins de fer russes ?;Ouest-France;Pierre Fabre;Gefco;Fareva;4;Une violation apparente des règles des rançongiciels.
+Qu'est-ce que le Big Game Hunting ?;Une technique de sauvegarde;La chasse au gros gibier;Le ciblage de grandes organisations capables de payer des rançons élevées;Un jeu vidéo;4;Avec une préparation parfois longue.
+Quel établissement a été compromis le 9 mars 2023 par FIN12 ?;L'AP-HP;Le CHU de Lille;Le CHSF;Le CHU de Brest;5;L'isolement rapide a empêché le chiffrement.
+Quel était l'accès initial au CHU de Brest ?;Une intrusion physique;Un bureau à distance exposé avec les identifiants valides d'un soignant;Une clé USB;Un appel téléphonique;3;Les identifiants venaient probablement d'un information stealer.
+Pourquoi deux acteurs pourraient-ils être impliqués au CHU de Brest ?;Un fournisseur d'accès initial et l'attaquant chargé du rançongiciel;Deux pays;Ce n'est pas possible;Deux hôpitaux;2;C'est la spécialisation de l'écosystème.
+Sous quel nom Microsoft suit-il FIN12 ?;Star Blizzard;Volt Typhoon;Pistachio Tempest;Midnight Blizzard;4;Aussi DEV-0237.
+Quels rançongiciels FIN12 a-t-il successivement utilisés ?;Petya et Mirai;Ryuk, Conti, puis Hive, BlackCat et Nokoyawa;Aucun;WannaCry uniquement;3;Ainsi que Play et Royal.
+Quelle part au moins des victimes de FIN12 relève de la santé ?;90 pour cent;20 pour cent;1 pour cent;Aucune;3;Il cible fortement ce secteur.
+Quel est le délai de rançon approximatif de FIN12 ?;Environ quatre jours;Un an;Dix minutes;Six mois;2;Il privilégie un chiffrement rapide.
+FIN12 pratique-t-il souvent la double extorsion ?;Uniquement le week-end;Il ne chiffre jamais;Rarement, il privilégie le chiffrement rapide;Toujours;4;C'est une particularité de ce mode opératoire.
+Quel est désormais l'accès initial privilégié de FIN12 ?;Les SMS;L'usage d'identifiants valides;Le courrier postal;Les disquettes;3;Il a réduit l'usage de Bazarloader.
+Pourquoi les affiliés changent-ils de rançongiciel ?;Ils n'en changent jamais;Par obligation légale;Au gré de la fragmentation des groupes, comme après la fin de Conti;Par mode;4;Ils rejoignent de nouveaux programmes RaaS.
+Quelle mesure aurait empêché l'accès initial au CHU de Brest ?;Ne pas exposer de bureau à distance et imposer l'authentification multifacteur;Changer de couleur d'écran;Ouvrir tous les ports;Supprimer l'antivirus;2;Les identifiants volés sont un vecteur majeur.
