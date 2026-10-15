@@ -88,5 +88,8 @@
     "03-830 ANSSI - Recommandations pour les architectures des SI sensibles ou Diffusion Restreinte.csv",
     "03-840 SGDSN - IGI 1300 sur la protection du secret de la défense nationale (2021).csv",
     "03-850 Évolution des architectures réseau d'entreprise - de l'ARPANET au Zero Trust.csv",
-    "03-860 SGDSN et ANSSI - Feuille de route de la sécurité numérique de l'État 2026-2027.csv"
+    "03-860 SGDSN et ANSSI - Feuille de route de la sécurité numérique de l'État 2026-2027.csv",
+    "03-870 COMCYBER - Politique ministérielle de lutte informatique défensive (LID).csv",
+    "03-880 COMCYBER - Doctrine militaire de lutte informatique offensive (LIO).csv",
+    "03-890 COMCYBER - Doctrine militaire de lutte informatique d'influence (L2I).csv"
 ]

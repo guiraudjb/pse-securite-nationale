@@ -1,0 +1,195 @@
+COMCYBER, ÉLÉMENTS PUBLICS DE DOCTRINE MILITAIRE DE LUTTE INFORMATIQUE OFFENSIVE, MINISTÈRE DES ARMÉES, 2019.
+
+LEXIQUE COMPLET.
+
+      La lutte informatique offensive à des fins militaires, ou LIO, recouvre l'ensemble des actions entreprises dans le cyberespace, conduites de façon autonome ou en combinaison des moyens militaires conventionnels, pour produire des effets à l'encontre d'un système adverse.
+
+      Le COMCYBER, ou commandement de la cyberdéfense, créé en mai 2017, a la responsabilité de la cyberdéfense militaire, qui recouvre l'ensemble des actions défensives et offensives conduites dans le cyberespace.
+
+      La cyberdéfense militaire garantit le bon fonctionnement du ministère des Armées et l'efficacité des forces armées dans la préparation, la planification et la conduite des opérations militaires.
+
+      La couche physique du cyberespace est constituée des équipements des systèmes informatiques et de leurs réseaux, comme les ordinateurs, câbles, fibres, liens satellitaires et routeurs.
+
+      La couche logique est constituée des données numériques, des processus et outils de gestion de ces données et de leurs flux d'échanges, comme les fichiers, adresses, protocoles et logiciels.
+
+      La couche sémantique et sociale est constituée des informations qui circulent dans le cyberespace et des personnes qui peuvent disposer de multiples identités numériques ou avatars.
+
+      La déception désigne l'action visant à tromper l'adversaire, par exemple en altérant ses perceptions ou en imposant une diversion de ses efforts vers des cibles inutiles.
+
+      Le jus in bello est le droit applicable dans la conduite des hostilités, dont les principes comprennent la proportionnalité, la distinction et la discrimination.
+
+      Le Cyber Defense Pledge est l'engagement signé en 2016 dans le cadre de l'OTAN, invitant les pays membres à se doter de moyens cyber pour leur sécurité individuelle et collective.
+
+      L'article L. 2321-2 du code de la défense, issu de la loi de programmation militaire du 18 décembre 2013, permet de répondre à une attaque informatique visant les capacités de l'État, y compris par la neutralisation.
+
+      La DGA, ou direction générale de l'armement, est chargée du développement des capacités de LIO comme de toute autre capacité militaire.
+
+COURS DÉTAILLÉ.
+
+I. LE CONTEXTE ET LE MODÈLE FRANÇAIS DE CYBERDÉFENSE.
+
+   A. Un environnement de crises et de menaces cyber.
+
+      Puissance militaire nucléaire, conventionnelle et cyber, membre permanent du Conseil de sécurité des Nations unies, de l'OTAN et de l'Union européenne, la France assume ses engagements internationaux sous l'autorité du Président de la République.
+
+      Le ministère des Armées contribue à garantir, en temps de paix comme de guerre, la souveraineté nationale et l'autonomie de décision de la France, sur le territoire national comme sur les théâtres extérieurs.
+
+      Les cyberattaques contre l'Estonie en 2007, contre les réseaux électriques de l'Ukraine, contre TV5 Monde en 2015, le rançongiciel Wannacry au printemps 2017 et NotPetya en juin 2017 illustrent les champs d'action des attaquants.
+
+      Les quatre objectifs majeurs des attaquants sont l'espionnage, les trafics illicites, la déstabilisation et le sabotage.
+
+   B. L'arme cyber, une rupture.
+
+      Les armées doivent désormais regarder le combat cybernétique comme un mode d'action à part entière, dont les effets se combinent aux autres dans une manœuvre globale.
+
+      L'arme cyber bouleverse les modalités de la guerre sans en renouveler profondément les principes.
+
+      Le cyberespace est une zone grise, un brouillard, marqué par la multiplicité d'acteurs masqués ou non, l'effacement des frontières, la propagation rapide et le non-respect du droit international, mais dont les effets sont bien réels.
+
+      Le combat cyber est asymétrique, hybride, parfois invisible et en apparence indolore, mais peut porter gravement atteinte aux capacités et aux intérêts souverains des États.
+
+   C. Le modèle d'organisation français.
+
+      La revue stratégique de cyberdéfense de février 2018 a confirmé le modèle français qui sépare les missions et capacités offensives des missions et capacités défensives.
+
+      Elle structure la cyberdéfense autour d'un centre de coordination interministériel des crises cyber animé par le SGDSN sous l'autorité du Premier ministre, et de quatre chaînes opérationnelles distinctes.
+
+      Ces quatre chaînes sont la protection, le renseignement, l'investigation judiciaire et l'action militaire, cette dernière ayant notamment recours à la LIO.
+
+      La création du COMCYBER en mai 2017, par le décret du 4 mai 2017 relatif aux attributions du chef d'état-major des armées, a été une étape fondatrice de ce modèle.
+
+II. LA LIO, UNE ARME DE SUPÉRIORITÉ OPÉRATIONNELLE.
+
+   A. Une capacité agile et novatrice.
+
+      Les forces armées se dotent de l'ensemble du spectre de la lutte informatique : défensif, offensif et contre les manipulations de l'information nuisibles aux opérations militaires.
+
+      Sous l'autorité du chef d'état-major des armées, le COMCYBER est l'autorité d'emploi de la capacité militaire cyber offensive.
+
+      L'arme cyber vise, dans le strict respect des règles internationales, à produire des effets contre un système adverse pour en altérer la disponibilité ou la confidentialité des données.
+
+      Le cyberespace repose sur trois couches interdépendantes, physique, logique, sémantique et sociale, et cette interdépendance multiplie les opportunités d'action et de déstabilisation de l'adversaire.
+
+      Combinée aux modes d'action conventionnels, la LIO est un multiplicateur d'effets qui permet d'amplifier, d'améliorer ou de compléter, en tirant parti de la mise en réseau des systèmes militaires et de leurs interconnexions avec Internet.
+
+      Ses effets peuvent être fulgurants, mais son intégration dans la manœuvre suppose une planification longue et très spécifique.
+
+      Ces effets peuvent être matériels, comme la neutralisation d'un système d'arme, ou immatériels, comme la collecte de renseignement, et temporaires, réversibles ou définitifs.
+
+   B. La finalité de la LIO.
+
+      La LIO propose des modes d'action discrets et efficaces contre les systèmes numérisés, capables de se substituer à d'autres modes d'action, de les préparer ou de les compléter.
+
+      Elle exploite les vulnérabilités des systèmes adverses durant toutes les phases d'une crise : renseignement, prévention, gestion ou stabilisation.
+
+      Elle poursuit trois types d'objectifs opérationnels : l'évaluation des capacités militaires adverses par recueil ou extraction d'informations, la réduction voire la neutralisation de ces capacités, et la modification des perceptions ou de la capacité d'analyse de l'adversaire.
+
+      Les cibles peuvent être exposées sur Internet, isolées ou intégrées à un système d'armes plus global, et les actions ne sont pas nécessairement menées au contact physique de l'adversaire.
+
+      La LIO peut appuyer la lutte informatique défensive lorsqu'une attaque vise les capacités opérationnelles des armées ou les chaînes de commandement, en caractérisant l'attaque, en la faisant cesser conformément à l'article L. 2321-2 du code de la défense ou en imposant une diversion vers des cibles inutiles.
+
+      Complémentaire des armes conventionnelles, la LIO produit les mêmes effets de renseignement, de neutralisation ou de déception dans un nouveau domaine.
+
+   C. Renseigner, défendre, agir.
+
+      Pour renseigner, la LIO permet de caractériser et d'attribuer des systèmes adverses et de surveiller l'adversaire.
+
+      Pour défendre, elle permet l'identification de l'attaquant, la riposte en intervenant dans l'espace numérique en cas d'intrusion et la neutralisation conformément à l'article L. 2321-2 du code de la défense.
+
+      Pour agir, elle permet de contrer la désinformation et d'accompagner la manœuvre militaire par la perturbation ou la neutralisation des capacités militaires de l'adversaire.
+
+III. UNE CHAÎNE DE COMMANDEMENT UNIFIÉE ET DES UNITÉS SPÉCIALISÉES.
+
+   A. Le contrôle stratégique.
+
+      La LIO repose sur des savoir-faire sensibles et constitue un attribut d'une défense souveraine, ce qui impose un contrôle stratégique des opérations de leur planification à leur mise en œuvre.
+
+      Sous l'autorité du Président de la République et aux ordres du chef d'état-major des armées, le COMCYBER planifie et coordonne les opérations de LIO au profit de la manœuvre interarmées.
+
+      Il assure la cohérence de ces opérations avec les états-majors opérationnels interarmées, terrestre, naval, aérien et des forces spéciales, et avec les services de renseignement, du niveau stratégique au niveau tactique.
+
+      Il développe et anime le volet LIO de la coopération militaire avec les alliés.
+
+   B. Emplois tactiques et stratégiques.
+
+      Au niveau tactique, la LIO fournit du renseignement d'intérêt immédiat lié à l'action des forces, neutralise un système d'arme ou un poste de commandement, ou altère les données d'un système adverse.
+
+      Au niveau stratégique, elle fournit du renseignement en préparation des opérations, à des fins de ciblage ou de développement capacitaire, neutralise une capacité opérationnelle adverse comme un vecteur de propagande ou un système de commandement stratégique, et désorganise des centres de propagande.
+
+      Les opérations sont conduites par des unités spécialisées, dont l'expertise garantit l'analyse des risques et la maîtrise des effets collatéraux voire fratricides, sur le terrain ou à distance.
+
+IV. MAÎTRISER LES RISQUES, ENCADRER JURIDIQUEMENT ET COOPÉRER.
+
+   A. La maîtrise des risques.
+
+      Aux ordres de l'officier général COMCYBER, l'emploi de la LIO exige une maîtrise des risques politique, juridique et militaire dans toutes les phases de l'opération.
+
+      L'acceptation du risque par l'échelon décisionnel est déterminée par les principes du jus in bello, le rapport coût efficacité, la situation opérationnelle et le contexte politique.
+
+      Les risques proviennent d'abord des caractéristiques du cyberespace : immédiateté de l'action, dualité des cibles et hyperconnectivité.
+
+      Une action peut propager ses effets au-delà de la cible en raison des interdépendances entre systèmes, et un outil de LIO peut être volé, copié ou imité par des adversaires, car il ne présente pas les contraintes des armes de seuil réservées aux États technologiquement matures.
+
+      Un adversaire offrant une surface de vulnérabilité numérique moins étendue pourrait s'engager à moindre risque dans une escalade contre nos intérêts.
+
+      Les opérations de LIO demeurent de nature secrète, mais les autorités peuvent selon les circonstances les assumer publiquement voire les revendiquer, ce qui relève d'une décision politique mise en balance avec la vulnérabilité de nos intérêts fortement numérisés.
+
+   B. Un encadrement juridique.
+
+      La LIO est soumise, comme toute arme, aux principes et règles du droit international, notamment le droit international humanitaire, ainsi qu'aux lois et règlements nationaux, et n'est utilisée que selon des règles d'engagement très restrictives.
+
+      En appui de la lutte informatique défensive, les actions de LIO sont conduites sous la responsabilité du chef d'état-major des armées, dans le cadre du code de la défense et dans les conditions fixées par le Premier ministre.
+
+      La France recherche l'adoption de règles de comportement responsable et de codes internationaux de bonne conduite pour prévenir les conflits dans le cyberespace et garantir la stabilité stratégique.
+
+   C. Une culture partagée en coalition.
+
+      En 2016, dans le cadre de l'OTAN, la France et ses alliés ont signé le Cyber Defense Pledge.
+
+      La France s'est engagée à partager les effets produits par ses moyens de LIO pour la défense ou des opérations militaires collectives, tout en gardant la maîtrise et le contrôle national, qui relèvent de sa stricte souveraineté.
+
+      Au niveau européen, la France joue un rôle moteur dans la promotion d'une culture militaire cyber partagée et l'interopérabilité opérationnelle, et signe des MoU et des agréments techniques couvrant la LID et la LIO.
+
+V. LA LIO, UNE CAPACITÉ À DÉVELOPPER.
+
+   A. Le rôle de la DGA.
+
+      Le développement des capacités de LIO est confié à la DGA, en étroite coopération avec les équipes du COMCYBER pour élaborer et mettre en œuvre une feuille de route capacitaire.
+
+   B. Les cinq défis.
+
+      Le premier défi est d'accélérer la production de moyens de lutte informatique offensive au profit des armées.
+
+      Le deuxième défi est de définir une politique de ressources humaines répondant aux enjeux d'expertise de cette capacité.
+
+      Le troisième défi est de former à l'emploi de la LIO les états-majors de planification et de conduite des opérations interarmées.
+
+      Le quatrième défi est d'adapter les processus d'acquisition et de développement capacitaires à la célérité de l'innovation cyber.
+
+      Le cinquième défi est de converger avec des partenaires, notamment européens, pour pouvoir agir en coalition y compris avec de la LIO sur un théâtre de crise.
+
+POINTS D'ATTENTION.
+
+      Le modèle français sépare les capacités offensives et défensives, coordonnées par un centre interministériel animé par le SGDSN.
+
+      Les quatre chaînes opérationnelles sont protection, renseignement, investigation judiciaire et action militaire, la LIO relevant de l'action militaire.
+
+      La LIO altère la disponibilité ou la confidentialité des données d'un système adverse.
+
+      Les trois objectifs opérationnels sont évaluer, réduire ou neutraliser, et modifier les perceptions de l'adversaire.
+
+      Les opérations de LIO sont secrètes par nature, leur revendication publique est une décision politique.
+
+      Le partage des effets en coalition ne signifie pas la perte de la maîtrise nationale des moyens.
+
+EXEMPLES CITES.
+
+      Les cyberattaques contre l'Estonie en 2007, contre TV5 Monde en 2015, Wannacry et NotPetya en 2017.
+
+      Le décret du 4 mai 2017 relatif aux attributions du chef d'état-major des armées, qui accompagne la création du COMCYBER.
+
+      L'article L. 2321-2 du code de la défense, issu de l'article 21 de la loi de programmation militaire du 18 décembre 2013.
+
+      Le Cyber Defense Pledge signé dans le cadre de l'OTAN en 2016.
+
+      La neutralisation d'un vecteur de propagande adverse comme exemple d'emploi stratégique.

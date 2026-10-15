@@ -1,0 +1,181 @@
+COMCYBER, POLITIQUE MINISTÉRIELLE DE LUTTE INFORMATIQUE DÉFENSIVE DU MINISTÈRE DES ARMÉES, SYNTHÈSE PUBLIQUE DE L'INSTRUCTION DU 1ER DÉCEMBRE 2018.
+
+LEXIQUE COMPLET.
+
+      La lutte informatique défensive, ou LID, regroupe l'ensemble des actions, techniques et non techniques, conduites pour faire face à un risque, une menace ou une cyberattaque réelle, en vue de préserver notre liberté d'action.
+
+      Le COMCYBER, ou commandement de la cyberdéfense, est le commandement du ministère des Armées, subordonné au chef d'état-major des armées, chargé de l'organisation et des opérations de LID pour l'ensemble du ministère.
+
+      Le CEMA, ou chef d'état-major des armées, est responsable de la conduite de la cyberdéfense des systèmes d'information du ministère des Armées.
+
+      L'ANSSI, ou Agence nationale de la sécurité des systèmes d'information, est l'autorité dont le directeur général est responsable de la cyberdéfense de l'État.
+
+      Le HFCDS, ou haut fonctionnaire correspondant de défense et de sécurité, est chargé au ministère des Armées de la mission prévenir.
+
+      Le SOC, ou security operating centre, est la structure opérationnelle chargée de la supervision des systèmes d'un périmètre, premier niveau de détection des attaques cyber.
+
+      Le CALID, ou centre d'analyse en lutte informatique défensive, assure sous les ordres du COMCYBER une hypervision technique d'ensemble qui synthétise et partage les situations cyber produites par les SOC ou par ses moyens propres.
+
+      Le CO Cyber, ou centre des opérations cyber, est l'outil du COMCYBER au sommet de la chaîne de LID pour orienter le travail du CALID et des SOC.
+
+      La défendabilité est la capacité d'un système militaire à prendre en compte le risque d'attaque cyber et à adapter sa capacité d'action et de réaction selon le contexte opérationnel ou la réalité de la menace.
+
+      La PPC, ou posture permanente de cyberdéfense, est l'ensemble des dispositions adoptées pour assurer en permanence, 24 heures sur 24 et 7 jours sur 7, la défense des systèmes informatiques du ministère dans le continuum paix, crise, guerre.
+
+      La subsidiarité est le principe selon lequel chaque état-major, direction et service met en place les moyens de LID sur son propre périmètre de responsabilité.
+
+      La DGA, ou direction générale de l'armement, propose avec le COMCYBER une convention aux industriels de défense en matière de prévention et de gestion des attaques cyber.
+
+COURS DÉTAILLÉ.
+
+I. LA LUTTE INFORMATIQUE DÉFENSIVE, UN DÉFI COLLECTIF.
+
+   A. Le document et son origine.
+
+      La politique ministérielle de lutte informatique défensive est présentée sous la forme d'une instruction ministérielle, l'instruction numéro 101000 du ministère des Armées du 1er décembre 2018.
+
+      La synthèse publique de cette politique a été publiée en 2019 par la DICoD, délégation à l'information et à la communication de la défense.
+
+      L'instruction précise l'organisation et les missions qui s'appliquent à tous les organismes placés sous l'autorité de la ministre des Armées, ainsi que les attentes et contraintes de ceux qui contribuent à son engagement par des services ou des capacités, comme les industriels.
+
+   B. La protection, premier rempart insuffisant à lui seul.
+
+      La protection des réseaux informatiques et des systèmes d'information constitue le premier rempart pour empêcher une attaque informatique.
+
+      La numérisation des systèmes qui soutiennent les activités du ministère, y compris ses systèmes de commandement et ses systèmes d'armes, offre de nouvelles opportunités aux attaquants.
+
+      Ce constat impose de développer de nouveaux modes de défense adaptés aux nouvelles menaces, d'où la redéfinition de la politique de LID.
+
+   C. Le cyberespace, espace de vulnérabilité et d'opportunité.
+
+      Les objectifs des adversaires n'ont pas fondamentalement changé : espionnage, sabotage ou manipulation.
+
+      En revanche, leurs modes opératoires et leurs techniques sont sans cesse renouvelés par les nouvelles pratiques numériques et par l'hyper connectivité des équipements et des réseaux.
+
+      Le cyberespace a une dynamique propre faite d'instantanéité des échanges, de diffusion en réseau, de masse de données accessibles à tous et d'effacement des frontières.
+
+      Les données et les informations sont devenues une ressource critique, au cœur du fonctionnement politique, économique et social des sociétés modernes.
+
+      L'anticipation et la maîtrise du risque sont les deux paramètres clefs d'une LID devenue indispensable pour préserver le fonctionnement quotidien du ministère et sa supériorité opérationnelle dans les conflits.
+
+II. LES SIX MISSIONS DE LA CYBERDÉFENSE.
+
+   A. Le cadre de la revue stratégique de cyberdéfense.
+
+      La cyberdéfense du ministère des Armées est déclinée en cohérence avec les six missions définies par la revue stratégique de cyberdéfense publiée en février 2018.
+
+      Ces six missions sont prévenir, anticiper, protéger, détecter, réagir et attribuer.
+
+   B. Prévenir, anticiper et protéger.
+
+      Prévenir consiste à faire prendre conscience aux utilisateurs du risque représenté par la numérisation des organisations ou des équipements qu'ils servent, mission qui incombe au HFCDS du ministère.
+
+      Anticiper consiste à évaluer en permanence les probabilités de cyberattaques et à prendre des mesures préventives lorsque la menace paraît suffisamment forte, mission qui incombe à l'ANSSI en coordination avec les services de renseignement et le COMCYBER sur le périmètre du ministère.
+
+      Protéger consiste à diminuer la vulnérabilité des systèmes informatiques en compliquant la tâche des attaquants et en facilitant la détection des cyberattaques, tout au long du cycle de vie des systèmes.
+
+   C. Détecter, réagir et attribuer.
+
+      Détecter consiste à rechercher les indices d'une éventuelle cyberattaque en cours, sous la responsabilité du COMCYBER et des unités subordonnées à la ministre, qui sollicite au besoin ses partenaires nationaux et internationaux.
+
+      Réagir consiste à résister à une cyberattaque pour qu'elle n'empêche pas la poursuite de l'activité, le COMCYBER déclenchant alors le plus souvent une opération de LID en liaison avec l'ANSSI.
+
+      La réaction peut entraîner l'emploi de moyens extérieurs à la cyberdéfense, voire au ministère des Armées, comme la saisie de la justice, l'action diplomatique ou la rétorsion économique.
+
+      Attribuer consiste à préciser l'auteur d'une cyberattaque par des preuves ou un faisceau d'indices, les services de renseignement étant au cœur du recueil d'indices, et la décision d'attribution appartenant aux plus hauts responsables politiques.
+
+   D. Les zones d'application.
+
+      La prévention et la protection concernent les systèmes informatiques du ministère des Armées, appelés zone amie.
+
+      L'anticipation, la détection et la réaction s'intéressent aussi aux systèmes appartenant aux autres catégories d'acteurs, appelés zones neutre et ennemie.
+
+   E. La place de la LID parmi les six missions.
+
+      La LID couvre principalement trois missions, anticiper, détecter et réagir, et complète les trois autres, prévenir, protéger et attribuer.
+
+      Elle contribue à la résilience des armées et à l'élaboration des stratégies de réponse aux niveaux ministériel et interministériel.
+
+      Au sein du ministère, les opérations de LID sont planifiées et conduites par le COMCYBER, en coordination avec l'ANSSI, les services de renseignement et éventuellement d'autres partenaires nationaux ou internationaux.
+
+III. UNE ORGANISATION ADAPTÉE ET OPTIMISÉE.
+
+   A. La cyberdéfense militaire dans la cyberdéfense de l'État.
+
+      La cyberdéfense de l'État relève de la responsabilité du directeur général de l'ANSSI.
+
+      Pour le ministère des Armées, la conduite de la cyberdéfense de ses systèmes d'information relève du chef d'état-major des armées.
+
+      Le COMCYBER, subordonné au CEMA, est chargé de l'organisation et des opérations de LID pour l'ensemble du ministère, il assiste et conseille la ministre des Armées et se coordonne très étroitement avec l'ANSSI au quotidien.
+
+      La chaîne de commandement de la cyberdéfense du ministère est dite unifiée, centralisée et spécialisée : pilotée et coordonnée par le COMCYBER, composée d'experts, elle favorise les synergies et donne une vision globale de la situation cyber.
+
+      Une cyberdéfense efficace suppose le partage des procédures et des outils de gestion de crise, une intégration avec les partenaires nationaux et une forte coordination avec les partenaires internationaux et les industriels, donc une meilleure interopérabilité.
+
+   B. La subsidiarité et les trois étages de la chaîne.
+
+      En application du principe de subsidiarité, chaque état-major, direction et service met en place les moyens de LID sur son périmètre de responsabilité.
+
+      Chaque responsable de cyberdéfense doit pouvoir s'appuyer sur un SOC chargé de la supervision de ses systèmes, les SOC constituant le premier niveau de détection.
+
+      À l'échelle du ministère, le CALID assure une hypervision technique d'ensemble qui synthétise et partage l'information des situations cyber.
+
+      Au sommet de la chaîne, le COMCYBER s'appuie sur le CO Cyber pour orienter le travail du CALID et des SOC, partager l'état de la menace et des nouvelles vulnérabilités, et soutenir le CALID dans la gestion d'un incident.
+
+   C. Une LID partagée avec les partenaires et les industriels.
+
+      La transformation numérique du ministère se caractérise par sa rapidité et par une connectivité croissante entre systèmes, y compris avec les industriels de la défense.
+
+      L'attaquant recherchant toujours un point faible ou indirect pour pénétrer les systèmes militaires, les partenaires extérieurs doivent être parties prenantes de la LID du ministère.
+
+      La DGA et le COMCYBER, en liaison avec l'ANSSI, proposent aux industriels de défense une convention précisant les rôles et responsabilités en matière de prévention et de gestion des attaques touchant les systèmes et équipements qu'ils développent.
+
+IV. LA POSTURE PERMANENTE CYBER.
+
+   A. Règles d'engagement et coupure de service.
+
+      La LID du ministère obéit à des règles d'engagement et de confidentialité édictées par le COMCYBER.
+
+      Une opération de LID peut nécessiter de dégrader ou d'interrompre un service, décision qui relève généralement du chef de l'unité utilisatrice du système.
+
+      Si la gravité ou l'urgence l'exige, la coupure peut être imposée par un échelon supérieur ou par le COMCYBER.
+
+   B. La posture permanente de cyberdéfense.
+
+      Le cyberespace est un milieu de confrontation où le risque d'attaque est considéré comme permanent, y compris en temps de paix.
+
+      La PPC assure la défense des systèmes informatiques du ministère 24 heures sur 24 et 7 jours sur 7 dans le continuum paix, crise, guerre, sous le commandement du COMCYBER.
+
+   C. Niveaux de menace et stades d'alerte.
+
+      La revue stratégique de cyberdéfense de 2018 classe les attaques selon leur impact, de négligeable à extrême, et selon la possibilité de les qualifier juridiquement d'agression armée.
+
+      En cohérence, la PPC identifie quatre niveaux de menace : jaune et orange pour des risques potentiels plus ou moins importants, rouge pour des risques hostiles jugés plausibles, écarlate pour des risques majeurs et simultanés.
+
+      Cette échelle est complétée par trois stades d'alerte, vigilance, renforcé et crise, qui précisent si l'attaque est à venir ou en cours.
+
+      Les mesures prises peuvent ainsi varier ponctuellement d'une zone ou d'un domaine particulier à l'autre.
+
+POINTS D'ATTENTION.
+
+      Ne pas confondre la cyberdéfense de l'État, sous la responsabilité du directeur général de l'ANSSI, et la cyberdéfense du ministère des Armées, sous la responsabilité du CEMA et conduite par le COMCYBER.
+
+      La LID couvre principalement anticiper, détecter et réagir, et ne fait que compléter prévenir, protéger et attribuer.
+
+      La décision d'attribution d'une cyberattaque est politique, même si les services de renseignement recueillent les indices.
+
+      La chaîne de détection compte trois étages : les SOC au premier niveau, le CALID pour l'hypervision, le CO Cyber au sommet.
+
+      Les quatre niveaux de menace de la PPC sont jaune, orange, rouge et écarlate, et les trois stades d'alerte vigilance, renforcé et crise.
+
+      La coupure d'un service relève en principe du chef de l'unité utilisatrice, mais peut être imposée par l'échelon supérieur ou le COMCYBER.
+
+EXEMPLES CITES.
+
+      L'instruction ministérielle numéro 101000 du 1er décembre 2018 fonde la politique de LID.
+
+      La revue stratégique de cyberdéfense de février 2018 définit les six missions et le classement des attaques.
+
+      La convention proposée par la DGA et le COMCYBER aux industriels de défense illustre l'extension de la LID aux partenaires.
+
+      La saisie de la justice, l'action diplomatique et la rétorsion économique sont des exemples de réponses extérieures à la cyberdéfense.

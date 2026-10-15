@@ -1,0 +1,211 @@
+COMCYBER, ÉLÉMENTS PUBLICS DE DOCTRINE MILITAIRE DE LUTTE INFORMATIQUE D'INFLUENCE, MINISTÈRE DES ARMÉES, OCTOBRE 2021.
+
+LEXIQUE COMPLET.
+
+      La lutte informatique d'influence, ou L2I, désigne les opérations militaires conduites dans la couche informationnelle du cyberespace pour détecter, caractériser et contrer les attaques, appuyer la StratCom, renseigner ou faire de la déception, de façon autonome ou en combinaison avec d'autres opérations.
+
+      La couche informationnelle, aussi appelée couche cognitive ou sémantique, est constituée des informations et des interactions sociales présentes dans le cyberespace et des personnes qui peuvent y déclarer plusieurs identités numériques.
+
+      La StratCom, ou communication stratégique des armées, est le processus qui cadre la conception et la conduite de toute activité militaire comme un message cohérent, crédible et efficace, selon la doctrine interarmées DIA-3.10 de 2014 amendée en 2018.
+
+      La guerre de l'information est l'affrontement de deux volontés par des messages directs ou indirects visant à promouvoir ses objectifs, gagner des soutiens et réduire ceux de l'adversaire.
+
+      La stratégie hybride est la stratégie d'un acteur, étatique ou non, qui combine des modes d'action militaires et non militaires, licites ou illicites, souvent ambigus et difficilement attribuables, sous le seuil du conflit ouvert.
+
+      La déception consiste à induire l'adversaire en erreur, par exemple pour lui faire dévoiler ses intentions ou son dispositif.
+
+      Le deepfake, ou hypertrucage, est une technique d'images de synthèse fondée sur l'intelligence artificielle qui modifie des images ou des vidéos de façon apparemment authentique.
+
+      Le CIAE, ou centre interarmées des actions sur l'environnement, regroupe des acteurs français de l'influence militaire et concentre les moyens de la L2I sous le contrôle opérationnel du COMCYBER.
+
+      Les ROE, ou règles opérationnelles d'engagement, définissent pour chaque opération les circonstances et conditions dans lesquelles la L2I peut être mise en œuvre.
+
+      Le DIH, ou droit international humanitaire, impose en conflit armé les principes de distinction, de nécessité militaire, de précaution et de proportionnalité.
+
+      Les WebOps sont, aux États-Unis, des unités de veille et d'action numérique dont dispose chaque commandement de combat, ou COCOM, en soutien des opérations militaires.
+
+COURS DÉTAILLÉ.
+
+I. LE CONTEXTE ET L'OBJET DE LA DOCTRINE.
+
+   A. Un nouveau triptyque de la conflictualité.
+
+      Au continuum paix, crise, guerre succède le triptyque compétition, contestation, affrontement, plus pertinent pour décrire la conflictualité actuelle.
+
+      La compétition entre grandes puissances s'est durcie et certaines puissances se sont enhardies et désinhibées, la guerre de l'information procédant directement de cette nouvelle donne.
+
+      Les attaques dans le cyberespace visent le profit financier, la paralysie de systèmes, la captation de données ou la déstabilisation des institutions par la manipulation des opinions.
+
+      La doctrine poursuit les objectifs de la Revue stratégique de défense et de sécurité nationale de 2017, réaffirmés par l'Actualisation stratégique de 2021.
+
+   B. Gagner la guerre avant la guerre.
+
+      Sans capacité à convaincre et à contrer l'influence adverse, tout engagement militaire est voué à l'échec.
+
+      Les réseaux sociaux accélèrent la circulation d'informations vraies ou fausses et en augmentent le volume, la portée et la résonance.
+
+      La vision stratégique du chef d'état-major des armées d'octobre 2021 vise des forces plus agiles, capables de gagner la guerre avant la guerre tout en étant en mesure de la conduire.
+
+      La doctrine L2I organise et structure ce combat, offre un cadre et des outils pour l'action et des clefs d'interopérabilité avec les partenaires.
+
+   C. Le périmètre et la place dans le corpus doctrinal.
+
+      Les opérations de L2I se déroulent dans un cadre strictement limité aux opérations militaires à l'extérieur du territoire national.
+
+      La doctrine complète le corpus de cyberdéfense après l'instruction ministérielle de 2018 sur la lutte informatique défensive, la LID, et la doctrine de 2019 sur la lutte informatique offensive, la LIO.
+
+II. LE CYBERESPACE, NOUVEAU LIEU DE LA GUERRE DE L'INFORMATION.
+
+   A. Les médias sociaux transforment l'environnement des opérations.
+
+      L'environnement informationnel numérisé est omniprésent dans les opérations, marginalise les autres sources d'information et affaiblit la mise en perspective des informations.
+
+      Les grandes entreprises du numérique, propriétaires d'algorithmes de personnalisation, trient et hiérarchisent l'information et, pour des raisons souvent commerciales, favorisent la création de communautés.
+
+      Dans cet espace déterritorialisé, tout individu, groupe ou État peut acquérir une légitimité au sein d'un réseau puis l'influencer, en jouant sur la stimulation émotionnelle des utilisateurs.
+
+      Le cyberespace est devenu le terrain des opérations de déception et, pour certains acteurs, des opérations de désinformation.
+
+   B. Les caractéristiques de la couche informationnelle.
+
+      L'immédiateté de l'information, diffusée à très grande échelle, favorise l'interactivité et efface les frontières géographiques et les délais.
+
+      La maîtrise des technologies permet de dissimuler ou de falsifier l'origine des informations, et cette anonymisation favorise l'usage du cyberespace à des fins d'influence.
+
+      Une information est difficile à effacer car aisément dupliquée, et peut être réutilisée hors de tout contexte vérifiable, c'est la rémanence de l'information.
+
+      N'importe qui peut produire et diffuser de l'information sans contrôle éditorial.
+
+      L'innovation est continue, avec les deepfakes, l'intelligence artificielle, la réalité virtuelle ou augmentée, et l'automatisation possible d'articles ou d'avatars interagissant avec de vrais comptes.
+
+      Les grands opérateurs numériques imposent de facto leur propre réglementation, et le caractère dématérialisé du cyberespace complique l'application du droit.
+
+   C. La guerre de l'information, réalité quotidienne des armées.
+
+      Des groupes terroristes et des États désinhibés mènent des opérations dans la couche informationnelle depuis une dizaine d'années, et la France constate depuis les attentats de 2015 des appels à la violence, au recrutement terroriste et des manipulations de l'information.
+
+      Une attaque sur Facebook contre l'opération Barkhane a fait circuler de fausses informations prétendant que des militaires français pillaient des ressources au Mali.
+
+      Ces manipulations, inscrites dans des stratégies hybrides, visent la démoralisation des troupes ou la perturbation de la conduite des opérations, du temps de paix au conflit de haute intensité.
+
+      Deux types d'acteurs menacent les forces : des structures étatiques cherchant à déstabiliser, fragiliser la cohésion ou discréditer les pouvoirs publics, parfois via des intermédiaires, et des groupes armés, groupes terroristes et quasi-États utilisant l'information pour la propagande, le financement, le recrutement ou la coordination.
+
+   D. La supériorité informationnelle.
+
+      Il faut déjouer les attaques sur les réseaux sociaux, tarir les recrutements des groupes terroristes sur les théâtres et promouvoir la crédibilité et la légitimité des forces engagées pour conserver le soutien des opinions.
+
+      La conquête puis la maîtrise de la supériorité dans le champ informationnel sont devenues des conditions de la supériorité opérationnelle.
+
+      En 2018, le CAPS du ministère de l'Europe et des Affaires étrangères et l'IRSEM ont publié un rapport sur les manipulations de l'information.
+
+III. LA LUTTE INFORMATIQUE D'INFLUENCE.
+
+   A. Définition et contenu.
+
+      Le lieu d'action de la L2I est la couche informationnelle du cyberespace, dont la maîtrise requiert des compétences communes avec la LID et la LIO.
+
+      Les opérations de L2I contribuent à la StratCom ministérielle et sont commandées par le chef d'état-major des armées, qui en délègue le contrôle au COMCYBER.
+
+      Elles consistent pour l'essentiel à détecter les attaques informationnelles nuisant à la réputation des armées ou entravant leur action, à les caractériser, à les contrer et à promouvoir l'action des forces.
+
+      Sur les théâtres, la L2I offre aussi des opportunités de recueil de renseignement et d'opérations de déception.
+
+      Le développement des capacités, outils de veille et d'action numérique et ressources humaines spécialisées, est prévu par la loi de programmation militaire.
+
+   B. Objectifs et opérations dans la fonction renseigner.
+
+      Les objectifs sont de connaître l'environnement informationnel d'une opération, de détecter et caractériser les attaques informationnelles adverses et de connaître les intentions et dispositifs militaires adverses.
+
+      Les opérations correspondantes sont la veille numérique et l'induction en erreur de l'adversaire pour lui faire dévoiler ses intentions ou son dispositif.
+
+   C. Objectifs et opérations dans la fonction défendre.
+
+      L'objectif est de contrer les attaques informationnelles adverses qui s'opposent à l'action des forces, pour les faire cesser ou en atténuer les effets.
+
+      Les opérations consistent à dénoncer, contenir, affaiblir ou discréditer une attaque informationnelle, y compris par la ruse.
+
+   D. Objectifs et opérations dans la fonction agir.
+
+      Les objectifs sont de valoriser l'action des forces dans leur zone d'action, d'affaiblir la légitimité des adversaires et d'appuyer les opérations du champ physique par des manœuvres de déception.
+
+      Les opérations consistent à promouvoir l'action des forces sur les médias sociaux, convaincre les acteurs d'une crise d'agir dans le sens souhaité, dénoncer les incohérences ou mensonges de l'adversaire et l'induire en erreur.
+
+IV. UNE CHAÎNE DE COMMANDEMENT DÉDIÉE.
+
+   A. Le rôle du COMCYBER.
+
+      Sous l'autorité du Président de la République, le chef d'état-major des armées commande les opérations militaires et s'appuie pour la L2I sur le COMCYBER et des unités spécialisées.
+
+      Créé en 2017, le COMCYBER protège les systèmes d'information placés sous la responsabilité du CEMA, conduit la défense des systèmes du ministère et est responsable, sous l'autorité du sous-chef d'état-major opérations, de la conception, de la planification et de la conduite des opérations de cyberdéfense.
+
+      Les opérations de L2I peuvent se combiner avec la LID et la LIO, par exemple face à une attaque mêlant manipulation de l'information et rançongiciel, et exigent une coordination centralisée au niveau stratégique.
+
+      Parties intégrantes de la manœuvre interarmées et cohérentes avec la StratCom ministérielle, elles peuvent être coordonnées avec d'autres ministères et avec des structures internationales en opération interalliée.
+
+   B. Des unités militaires spécialisées.
+
+      La L2I se place à la confluence de la cyberdéfense et de l'influence.
+
+      Les ressources humaines et les moyens techniques de la L2I sont concentrés au CIAE, sous le contrôle opérationnel du COMCYBER.
+
+      Aux États-Unis, chaque commandement de combat dispose de WebOps chargés du soutien à la StratCom, de la perturbation de la propagande adverse, de la dénonciation des infox et de la mobilisation des opposants de l'adversaire.
+
+V. LE RESPECT DU DROIT.
+
+   A. Un cadre international et national.
+
+      La L2I est soumise aux principes et règles du droit international et aux normes du droit interne, malgré l'enchevêtrement des frontières propre au cyberespace.
+
+      En 2019, la ministre des Armées a fait établir par un panel d'experts un rapport sur l'application du droit international aux opérations dans le cyberespace, publié en octobre 2019, la France étant alors le seul pays à s'être formellement exprimé sur la question.
+
+   B. Paix et conflit armé.
+
+      En temps de paix, les opérations de L2I respectent la Charte des Nations unies et le principe de non-ingérence, si bien qu'il n'est pas envisageable d'influencer des processus électoraux étrangers.
+
+      En conflit armé, elles respectent le DIH et ses principes de distinction, de nécessité militaire, de précaution et de proportionnalité.
+
+      Pour chaque opération, des règles opérationnelles d'engagement définissent les circonstances et conditions de mise en œuvre selon les contraintes et finalités politiques, opérationnelles et juridiques.
+
+VI. LES DÉFIS POUR L'AVENIR.
+
+   A. Ressources humaines et outils.
+
+      La loi de programmation militaire 2019-2025, renforcée par l'actualisation stratégique de 2021, a porté l'objectif de recrutement de 1100 à 1870 cyber combattants supplémentaires, soit 770 de plus.
+
+      Le ministère consacre près de 1,7 milliard d'euros à ce domaine, dont une partie à la L2I.
+
+      La L2I requiert des spécialistes de l'environnement informationnel et cognitif, des linguistes, des infographistes, des psychologues et des sociologues, en plus des combattants.
+
+      Elle s'appuie sur des outils de veille et d'analyse en constante évolution, utilisant le traitement de données en masse, ou big data, et l'intelligence artificielle.
+
+   B. Les partenariats.
+
+      Contrer une attaque informationnelle suppose de la détecter, de la caractériser et de coordonner les actions militaire, diplomatique et intérieure, avec l'apport des entreprises du numérique.
+
+      La France promeut et soutient les initiatives de l'Union européenne et de l'OTAN contre les manipulations de l'information, auxquelles les armées contribuent.
+
+POINTS D'ATTENTION.
+
+      La L2I est strictement limitée aux opérations militaires hors du territoire national.
+
+      Le corpus doctrinal cyber des armées compte trois volets : LID en 2018, LIO en 2019, L2I en 2021.
+
+      La L2I agit dans la couche informationnelle, aussi dite cognitive ou sémantique, du cyberespace.
+
+      Le CEMA commande les opérations de L2I et en délègue le contrôle au COMCYBER, les moyens étant concentrés au CIAE.
+
+      Influencer des processus électoraux étrangers est exclu par le principe de non-ingérence.
+
+      La déception, c'est-à-dire induire l'adversaire en erreur, fait explicitement partie des opérations de L2I.
+
+EXEMPLES CITES.
+
+      La fausse information diffusée sur Facebook accusant des militaires de l'opération Barkhane de piller des ressources au Mali.
+
+      Le rapport CAPS et IRSEM de 2018 sur les manipulations de l'information.
+
+      Le manuel sur l'application du droit international aux opérations dans le cyberespace publié par le ministère des Armées en octobre 2019.
+
+      Les WebOps américains comme comparaison internationale.
+
+      Une attaque combinant manipulation de l'information et rançongiciel, qui appelle une réponse mêlant L2I et LID.
