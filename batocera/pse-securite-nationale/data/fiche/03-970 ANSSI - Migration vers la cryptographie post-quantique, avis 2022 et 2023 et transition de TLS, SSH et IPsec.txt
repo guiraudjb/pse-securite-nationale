@@ -1,0 +1,169 @@
+ANSSI, AVIS SCIENTIFIQUE ET TECHNIQUE SUR LA MIGRATION VERS LA CRYPTOGRAPHIE POST-QUANTIQUE DE 2022, SUIVI DU 21 DÉCEMBRE 2023, ET GUIDES DE TRANSITION POST-QUANTIQUE DE TLS 1.3, SSHV2 ET IPSEC DE FÉVRIER 2026.
+
+LEXIQUE COMPLET.
+
+      L'ordinateur quantique est un calculateur reposant sur des principes physiques différents des ordinateurs classiques, qui pourrait accomplir certaines tâches beaucoup plus vite.
+
+      Le NISQ, Noisy Intermediate Scale Quantum, désigne les prototypes d'ordinateurs quantiques actuels, bruités et de taille intermédiaire.
+
+      Le CRQC, Cryptographically Relevant Quantum Computer, terme introduit par le NCSC britannique, désigne un ordinateur quantique capable d'exécuter l'algorithme de Shor sur des instances pertinentes et donc de menacer la cryptographie à clé publique.
+
+      La PKC, cryptographie à clé publique, permet d'établir des canaux sécurisés et d'authentifier des informations par signature sans secret partagé préalable, et repose sur la factorisation et le logarithme discret.
+
+      L'algorithme de Shor, introduit en 1994, résout efficacement la factorisation et le logarithme discret sur un ordinateur quantique de grande taille.
+
+      L'algorithme de Grover, introduit en 1998, accélère de manière quadratique la recherche exhaustive de clés symétriques.
+
+      L'attaque store now, decrypt later, ou attaque rétroactive, consiste à enregistrer aujourd'hui des communications chiffrées pour les déchiffrer plus tard avec un CRQC.
+
+      La cryptographie post-quantique, ou PQC, est un ensemble d'algorithmes classiques d'établissement de clés et de signature dont la résistance à la menace quantique est conjecturée et qui s'exécutent sur les ordinateurs actuels.
+
+      La QKD, distribution quantique de clés, est un échange de clés fondé sur la physique quantique, qui exige une infrastructure dédiée et que l'ANSSI ne considère pas comme une contre-mesure appropriée hors usages de niche.
+
+      L'hybridation combine un algorithme à clé publique pré-quantique éprouvé et un algorithme post-quantique, pour l'établissement de clé ou la signature.
+
+      La cryptoagilité est la capacité d'un produit à mettre à jour ses algorithmes cryptographiques sans être rappelé ni remplacé.
+
+      Le KEM, mécanisme d'encapsulation de clé, est la forme post-quantique de l'établissement de clé.
+
+COURS DÉTAILLÉ.
+
+I. LA MENACE QUANTIQUE.
+
+   A. L'état de l'art.
+
+      Les prototypes actuels, dits NISQ, sont encore loin de la capacité et de la stabilité d'un CRQC, et la construction d'un ordinateur quantique reprogrammable manipulant de grands nombres reste un problème de recherche ouvert.
+
+      En 2021, la France a annoncé un plan quantique de plus d'un milliard d'euros, et le suivi de 2023 indique 350 millions d'euros investis en deux ans dans des projets quantiques et post-quantiques, dont cinq projets de cryptographie post-quantique.
+
+   B. Les impacts sur la cryptographie.
+
+      Un CRQC ferait s'effondrer la sécurité de la cryptographie à clé publique déployée, comme RSA, grâce à l'algorithme de Shor.
+
+      La menace d'attaque rétroactive impose d'agir dès aujourd'hui pour les informations qui doivent rester longtemps confidentielles.
+
+      Les signatures vérifiées à la volée ne sont pas menacées avant l'arrivée d'un CRQC, mais les signatures de documents à validité longue doivent migrer avant.
+
+      La cryptographie symétrique est beaucoup moins touchée : l'algorithme de Grover se contre en augmentant la taille des clés et des hachés, par exemple AES-256 au lieu d'AES-128 et des hachés d'au moins 384 bits pour SHA-2 et SHA-3.
+
+   C. Pourquoi agir maintenant.
+
+      L'attaque rétroactive oblige à prendre en compte la menace avant même de savoir si un CRQC sera réalisable.
+
+      La cryptographie à clé publique actuelle est proche d'une monoculture algorithmique, et l'introduction d'algorithmes alternatifs est bénéfique au-delà de la seule menace quantique.
+
+II. LES RÉPONSES POSSIBLES.
+
+   A. La QKD écartée.
+
+      La distribution quantique de clés ne fournit pas un équivalent fonctionnel complet de la cryptographie à clé publique, exige une infrastructure dédiée sans capacité réelle de routage, et n'est donc pas considérée par l'ANSSI comme une contre-mesure appropriée, sauf en complément dans des usages de niche.
+
+   B. La PQC privilégiée.
+
+      Pour l'ANSSI, la cryptographie post-quantique est la voie la plus prometteuse, car elle s'exécute sur les équipements existants et peut être déployée par anticipation.
+
+      L'effort international s'est accéléré en 2015 après une publication de la NSA, et le NIST a lancé en 2017 une campagne de normalisation devant aboutir à plusieurs algorithmes pour différents usages.
+
+      Les familles d'algorithmes post-quantiques reposent sur les réseaux euclidiens, les codes correcteurs d'erreurs, les isogénies de courbes elliptiques, les systèmes polynomiaux multivariés et les fonctions de hachage.
+
+      En France, le regroupement RISQ, Regroupement de l'industrie française pour la sécurité post-quantique, réunit universitaires, industriels et chercheurs de l'ANSSI.
+
+   C. Le rôle de l'ANSSI.
+
+      L'ANSSI n'est pas une agence de normalisation : elle a un rôle consultatif, avec son guide de sélection des algorithmes, et un rôle réglementaire, en délivrant des visas de sécurité comme les certificats Critères communs.
+
+      Il n'existe pas de liste fermée d'algorithmes éligibles à un visa, les algorithmes normalisés par l'ISO, l'UIT ou l'ETSI étant fortement recommandés.
+
+III. L'HYBRIDATION ET LA TRANSITION EN BISEAU.
+
+   A. Le principe de l'hybridation.
+
+      Les algorithmes post-quantiques ne sont pas encore assez matures pour garantir seuls la sécurité, plusieurs ayant subi des attaques classiques, d'où l'exigence d'hybridation partout où une protection post-quantique est nécessaire.
+
+      Pour l'établissement de clé, on combine un échange pré-quantique et un échange post-quantique, par exemple avec une fonction de dérivation de clé, et pour la signature on concatène deux signatures qui doivent être toutes deux valides.
+
+      Le surcoût d'un schéma hybride est faible par rapport au coût du schéma post-quantique, prix raisonnable pour éviter toute régression de sécurité.
+
+      Cette position est alignée sur celle du BSI allemand.
+
+   B. Les trois phases de 2022.
+
+      Phase 1, actuelle : sécurité pré-quantique obligatoire, PQC optionnelle comme défense en profondeur, sans reconnaissance d'une assurance post-quantique.
+
+      Phase 2, probablement après 2025 : hybridation pour fournir une assurance post-quantique tout en évitant toute régression pré-quantique.
+
+      Phase 3, probablement après 2030 : hybridation optionnelle.
+
+      La défense en profondeur post-quantique est recommandée dès que possible pour les produits protégeant des informations au-delà de 2030 ou utilisés après 2030.
+
+   C. L'accélération de 2023.
+
+      Le suivi du 21 décembre 2023 accélère le calendrier : les premiers visas de sécurité pour des produits à cryptographie post-quantique hybride devaient être délivrés vers 2024 et 2025.
+
+      L'ANSSI encourage toutes les industries à intégrer la menace quantique à leur analyse de risque et à définir une stratégie de transition progressive.
+
+      Pour le symétrique, elle recommande au moins le niveau de sécurité d'AES-256 pour le chiffrement par bloc et de SHA2-384 pour le hachage, position un peu plus conservatrice que celles du NIST et du BSI.
+
+   D. La cryptoagilité.
+
+      L'ANSSI encourage l'introduction de capacités de cryptoagilité dans les futurs produits, au moins à prendre en compte dans leur analyse de risque, malgré les difficultés de rétrocompatibilité et de protection des mises à jour.
+
+IV. LES ALGORITHMES RECOMMANDÉS EN 2023.
+
+   A. Encapsulation de clé.
+
+      CRYSTALS-Kyber, devenu ML-KEM, fondé sur le problème Module Learning With Errors, doit être le principal KEM post-quantique, avec des paramètres non modifiés, le niveau de sécurité NIST le plus élevé possible, de préférence 5 équivalent à AES-256 ou 3 équivalent à AES-192, des clés éphémères et la version IND-CCA.
+
+      FrodoKEM, fondé sur Learning With Errors non structuré, est une option plus conservatrice mais plus lourde, valable pour les applications de haute sécurité.
+
+   B. Signatures.
+
+      CRYSTALS-Dilithium, devenu ML-DSA, proche des signatures de Schnorr, est relativement facile à mettre en œuvre mais produit des signatures moins compactes.
+
+      Falcon, devenu FN-DSA, est plus compact mais difficile à implémenter, avec des nombres flottants, et très exposé aux attaques par canaux auxiliaires.
+
+      XMSS et LMS sont des signatures à état fondées sur les fonctions de hachage, adaptées par exemple aux mises à jour logicielles, l'hybridation y étant facultative et l'état interne devant être protégé.
+
+      SPHINCS+, devenu SLH-DSA, est une variante sans état, conservatrice mais moins performante.
+
+V. LA TRANSITION DES PROTOCOLES, 2026.
+
+   A. TLS 1.3.
+
+      L'hybridation de l'échange de clés du handshake TLS 1.3, défini par la RFC 8446, combine un échange Diffie-Hellman et un KEM post-quantique comme ML-KEM, ce qui modifie les messages ClientHello et ServerHello.
+
+      OpenSSL 3.5.0 implémente un échange hybride Diffie-Hellman et ML-KEM, et des navigateurs comme Chrome l'intègrent également.
+
+   B. SSHv2.
+
+      L'échange de clés de la couche transport est hybridé de la même manière, OpenSSH 9.9 implémentant deux échanges hybrides, dont un fondé sur ML-KEM utilisé par défaut.
+
+      L'authentification hybride par signature et les certificats hybrides ne sont pas encore normalisés.
+
+   C. IPsec.
+
+      La menace touche le protocole IKEv2, qui établit les associations de sécurité et dérive les clés des protocoles AH et ESP, et dont l'échange de clés doit être hybridé.
+
+      Dans les trois protocoles, l'hybridation est la solution privilégiée par l'ANSSI pendant la transition, les clés pré-partagées étant une alternative possible.
+
+POINTS D'ATTENTION.
+
+      Shor menace la cryptographie à clé publique, Grover seulement la recherche exhaustive en symétrique.
+
+      L'attaque store now, decrypt later justifie d'agir dès aujourd'hui.
+
+      L'ANSSI n'approuve aucun remplacement direct par un algorithme post-quantique seul à court ou moyen terme : l'hybridation est requise.
+
+      La QKD n'est pas une contre-mesure recommandée par l'ANSSI.
+
+      Le seuil de 2030 guide la protection des informations à longue durée de confidentialité.
+
+EXEMPLES CITES.
+
+      RSA, qui repose sur la factorisation de grands nombres.
+
+      Les quatre futures normes du NIST citées en 2023 : CRYSTALS-Kyber, CRYSTALS-Dilithium, Falcon et SPHINCS+.
+
+      OpenSSL 3.5.0, OpenSSH 9.9 et le navigateur Chrome avec un échange de clés hybride.
+
+      Le plan quantique français de 2021 de plus d'un milliard d'euros.
