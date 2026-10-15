@@ -1,0 +1,99 @@
+CERT-FR, CAMPAGNES D'ATTAQUES DU MODE OPÉRATOIRE APT28 DEPUIS 2021, CERTFR-2023-CTI-009 DU 26 OCTOBRE 2023, ET CIBLAGE ET COMPROMISSION D'ENTITÉS FRANÇAISES AU MOYEN DU MODE OPÉRATOIRE D'ATTAQUE APT28, CERTFR-2025-CTI-006 DU 29 AVRIL 2025.
+
+LEXIQUE COMPLET.
+
+      Un mode opératoire d'attaque, MOA, est un ensemble de tactiques, techniques et procédures, d'outils et d'infrastructures caractérisant un groupe d'attaquants.
+
+      APT28, aussi appelé Fancy Bear, Sofacy, Sednit, Pawn Storm, FrozenLake ou UAC-0028, est un mode opératoire actif depuis au moins 2004 et attribué par l'Union européenne à la Russie.
+
+      Les tactiques, techniques et procédures, TTP, décrivent le comportement d'un attaquant à chaque étape d'une attaque.
+
+      L'attaque par force brute essaie massivement des combinaisons d'identifiants et de mots de passe.
+
+      Le credentials harvesting est la collecte massive d'identifiants de connexion.
+
+      Mimikatz extrait les mots de passe ou leurs empreintes stockés en mémoire sous Windows, et reGeorg crée des tunnels via un serveur web compromis.
+
+      Le C4 est le Centre de coordination des crises cyber, qui réunit l'ANSSI, le COMCYBER, la DGA, la DGSE et la DGSI.
+
+COURS DÉTAILLÉ.
+
+I. UN MODE OPÉRATOIRE D'ESPIONNAGE.
+
+   A. Les cibles.
+
+      APT28 cible des organisations gouvernementales et militaires, la défense, l'énergie et les médias, en Europe et en Amérique du Nord.
+
+      Depuis l'invasion de l'Ukraine le 24 février 2022, il sert à collecter du renseignement contre l'Ukraine, l'OTAN et l'Union européenne.
+
+      En France, depuis 2021, il a ciblé ou compromis des ministères, des collectivités et des administrations, la base industrielle et technologique de défense, l'aérospatial, la recherche et les think tanks, l'économie et la finance.
+
+      En 2024, sa victimologie concerne surtout les secteurs gouvernemental, diplomatique et de la recherche.
+
+   B. La recherche de discrétion.
+
+      Les attaquants réduisent le risque de détection en compromettant des équipements peu surveillés en périphérie du réseau : routeurs, passerelles et serveurs de messagerie, pare-feux, VPN.
+
+      Dans certains cas, aucune porte dérobée n'est déposée : l'objectif est d'accéder directement aux conversations, carnets d'adresses et identifiants.
+
+II. LES TACTIQUES, TECHNIQUES ET PROCÉDURES.
+
+   A. Reconnaissance et capacités.
+
+      APT28 utilise des comptes de messagerie compromis pour l'hameçonnage et mène des attaques par force brute sur des messageries personnelles pour constituer des dictionnaires d'attaque.
+
+      Il a exploité la vulnérabilité jour-zéro CVE-2023-23397 d'Outlook de mars 2022 à juin 2023, ainsi que Follina et des failles de Roundcube.
+
+      Pour cette campagne, l'ANSSI a confirmé l'usage d'au moins douze comptes de messagerie d'entreprises et onze routeurs Ubiquiti compromis.
+
+      Il s'appuie sur des outils en source ouverte et des services gratuits comme Mocky, Mockbin ou InfinityFree, et sur des VPN commerciaux payés en cryptomonnaies.
+
+   B. Accès initial.
+
+      Trois méthodes principales : hameçonnage vers une fausse page d'authentification, courriels exploitant des failles du client de messagerie, et ciblage des interfaces d'authentification par identifiants valides ou force brute.
+
+      De fausses pages de connexion imitent Office 365, Outlook Web Access, Zimbra, Yahoo ou Ukr.net.
+
+   C. Campagnes notables.
+
+      Ciblage répété de serveurs Roundcube pour exfiltrer le contenu des messageries.
+
+      En 2023, une chaîne utilisant InfinityFree et Mocky a délivré la porte dérobée HeadLace.
+
+      Le voleur d'identifiants OceanMap exfiltre via IMAP les mots de passe des navigateurs.
+
+III. LES RECOMMANDATIONS.
+
+   A. Une approche globale.
+
+      Apprécier les risques : actifs à protéger, état du système, compétences, menaces et mesures à entretenir dans le temps.
+
+   B. Sécuriser la messagerie.
+
+      Protéger la confidentialité des échanges, utiliser une plateforme d'échanges sécurisés, réduire la surface d'attaque des webmails et le risque de latéralisation depuis Exchange, et développer les capacités d'investigation.
+
+   C. Sécuriser l'authentification et les postes.
+
+      Réduire les risques liés aux bases de fuites de données et à la force brute, notamment par l'authentification multifacteur.
+
+      Sécuriser les postes utilisateurs et l'accès aux contenus hébergés sur Internet, y compris les services gratuits détournés.
+
+POINTS D'ATTENTION.
+
+      APT28 est attribué à la Russie par l'Union européenne et vise l'espionnage.
+
+      Il compromet des équipements de bordure peu supervisés pour rester discret.
+
+      Il exploite massivement la messagerie : hameçonnage, force brute et vulnérabilités comme CVE-2023-23397.
+
+      Ses TTP évoluent sans être entièrement renouvelées depuis 2021.
+
+EXEMPLES CITES.
+
+      La vulnérabilité CVE-2023-23397 d'Outlook.
+
+      Les routeurs Ubiquiti compromis.
+
+      La porte dérobée HeadLace et le service Mocky.
+
+      Les serveurs de messagerie Roundcube.

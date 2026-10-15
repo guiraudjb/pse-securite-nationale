@@ -1,0 +1,20 @@
+À quel pays l'Union européenne attribue-t-elle APT28 ?;À la Corée du Nord;À la Russie;À l'Iran;À la Chine;3;Le MOA est actif depuis au moins 2004.
+Quel autre nom désigne APT28 ?;Fancy Bear;Lazarus;Charming Kitten;Volt Typhoon;2;Aussi Sofacy, Sednit ou Pawn Storm.
+Quelle est la finalité principale d'APT28 ?;Le minage de cryptomonnaies;Le gain financier;L'espionnage;La publicité;4;Il collecte du renseignement stratégique.
+Depuis quand APT28 cible-t-il des entités françaises selon le rapport de 2025 ?;Depuis 2030;Depuis 2021;Jamais;Depuis 1990;3;Ministères, BITD, aérospatial, recherche, finance.
+Quels équipements APT28 compromet-il pour rester discret ?;Des équipements de bordure peu surveillés comme routeurs et pare-feux;Des claviers;Des écrans;Des imprimantes de bureau;2;Cela réduit le risque de détection.
+Que constate parfois l'ANSSI sur les réseaux compromis par APT28 ?;Une défiguration;Une destruction de données;Un rançongiciel systématique;L'absence de porte dérobée déposée;5;L'objectif est d'accéder directement aux informations.
+Quelle vulnérabilité jour-zéro d'Outlook APT28 a-t-il exploitée de 2022 à 2023 ?;Heartbleed;EternalBlue;Log4Shell;CVE-2023-23397;5;De mars 2022 à juin 2023.
+Combien de routeurs Ubiquiti compromis l'ANSSI a-t-elle identifiés dans cette campagne ?;Aucun;Mille;Onze;Un;4;Avec au moins douze comptes de messagerie d'entreprises.
+À quoi servent les attaques par force brute sur des messageries personnelles ?;À collecter des identifiants pour alimenter des dictionnaires d'attaque;À sauvegarder des données;À rien;À envoyer des cartes de vœux;2;Les identifiants sont réutilisés contre des employés.
+Quels services gratuits APT28 détourne-t-il ?;Mocky, Mockbin et InfinityFree;Les impôts en ligne;Wikipédia;Aucun;2;Ils se fondent dans le trafic légitime.
+Comment APT28 paie-t-il souvent ses services VPN ?;Il ne les paie pas;Par chèque;En espèces au guichet;En cryptomonnaies;5;Ces VPN mettent en avant la non-traçabilité.
+Quelles sont les trois méthodes d'accès initial d'APT28 ?;Clés USB, CD et disquettes;Intrusion physique;Appels téléphoniques uniquement;Hameçonnage, exploitation du client de messagerie et ciblage des interfaces d'authentification;5;Observées depuis 2021.
+Quels serveurs de messagerie APT28 a-t-il ciblés à de nombreuses reprises ?;Apache;Minecraft;Nginx;Roundcube;5;Pour exfiltrer le contenu des comptes.
+Quelle porte dérobée a été délivrée via InfinityFree en 2023 ?;Pegasus;HeadLace;WannaCry;Emotet;3;Elle recevait ses commandes via Mocky.
+Que fait le voleur OceanMap ?;Il exfiltre via IMAP les identifiants stockés dans les navigateurs;Il chiffre les disques;Il mine des cryptomonnaies;Il nettoie les virus;2;Une mise à jour a été observée en 2023-2024.
+Que fait l'outil Mimikatz ?;Il bloque les virus;Il extrait les mots de passe ou empreintes stockés en mémoire sous Windows;Il sauvegarde des fichiers;Il gère les imprimantes;3;APT28 l'a utilisé lors d'intrusions.
+Quelles entités composent le C4 ?;Police municipale;ANSSI, COMCYBER, DGA, DGSE et DGSI;Europol et Interpol;CNIL et Arcom;3;Il traite l'analyse de la menace informatique.
+Quel domaine les recommandations de l'ANSSI contre APT28 privilégient-elles ?;Le sport;La comptabilité;La décoration des bureaux;La sécurité de la messagerie et de l'authentification;5;Avec la sécurité des postes et des accès Internet.
+Quelle fausse page de connexion APT28 imite-t-il notamment ?;Une page de recettes;Un jeu vidéo;Une météo;Office 365;5;Ainsi qu'Outlook Web Access ou Zimbra.
+Les TTP d'APT28 ont-elles été entièrement renouvelées depuis 2021 ?;Non, elles ont été adaptées sans être entièrement renouvelées;Oui, chaque mois;Il n'a pas de TTP;Oui, totalement en 2022;2;Les recommandations de 2023 restent d'actualité.

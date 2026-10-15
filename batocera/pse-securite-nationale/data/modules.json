@@ -118,5 +118,6 @@
     "03-1130 CERT-FR - État de la menace sur les secteurs de la santé et de l'eau.csv",
     "03-1140 CERT-FR - État de la menace sur les télécommunications et le cloud computing.csv",
     "03-1150 CERT-FR - Menace sur les transports urbains et les grands évènements sportifs.csv",
-    "03-1160 CERT-FR - Menace sur la recherche, les think tanks et les cabinets d'avocats.csv"
+    "03-1160 CERT-FR - Menace sur la recherche, les think tanks et les cabinets d'avocats.csv",
+    "03-1170 CERT-FR - Le mode opératoire d'attaque APT28 et ses campagnes depuis 2021.csv"
 ]
