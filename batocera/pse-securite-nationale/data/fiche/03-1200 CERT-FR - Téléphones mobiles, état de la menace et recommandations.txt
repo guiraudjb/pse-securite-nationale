@@ -1,0 +1,111 @@
+CERT-FR, ÉTAT DE LA MENACE CIBLANT LES TÉLÉPHONES MOBILES, CERTFR-2025-CTI-012, 2025.
+
+LEXIQUE COMPLET.
+
+      Un logiciel espion est un code malveillant qui collecte à l'insu de la victime ses communications, sa localisation et ses données.
+
+      Une attaque zéro-clic exploite une chaîne de vulnérabilités jour-zéro sans aucune interaction de la cible.
+
+      Un implant non persistant ne survit pas à l'arrêt complet du téléphone et laisse peu de traces.
+
+      La lutte informatique offensive privée, LIOP, désigne les entreprises qui vendent des capacités d'intrusion, notamment à des États.
+
+      L'Adversary-in-the-middle, AITM, place l'attaquant entre deux équipements pour intercepter ou modifier leurs échanges.
+
+      Un IMSI catcher imite une antenne-relais pour capter l'identité, les communications et la localisation des téléphones 2G, 3G et 4G.
+
+      L'imputation lie une activité à un mode opératoire ; l'attribution l'associe à un commanditaire dans un objectif politique.
+
+      Le processus de Pall Mall, lancé par la France et le Royaume-Uni, vise à lutter contre la prolifération et l'usage irresponsable des outils offensifs commerciaux.
+
+COURS DÉTAILLÉ.
+
+I. UNE CIBLE DE CHOIX.
+
+   A. Des équipements omniprésents.
+
+      L'omniprésence des smartphones, leurs fonctionnalités et les données qu'ils traitent en font des cibles d'intérêt pour le renseignement.
+
+      Leur surface d'attaque couvre les interfaces sans fil, les applications, le système d'exploitation et les composants matériels.
+
+      La furtivité des chaînes d'infection et l'absence de solutions de détection compliquent les investigations.
+
+   B. Les personnes visées.
+
+      Les logiciels espions sophistiqués visent les hautes autorités, élus, dirigeants d'entreprises stratégiques, avocats, journalistes, militants, dissidents et leurs proches.
+
+      En trois ans, l'ANSSI a traité de multiples compromissions de téléphones de hauts responsables publics et de dirigeants d'entreprises stratégiques, le plus souvent sur leurs téléphones personnels.
+
+      Toute la population peut être victime de cybercriminels qui volent identifiants et données par des codes simples et l'ingénierie sociale.
+
+II. LES VECTEURS D'ATTAQUE.
+
+   A. Les interfaces sans fil.
+
+      Les attaques visent l'interception passive, l'interception active et l'altération des données pour installer un logiciel espion.
+
+      La 2G chiffre faiblement la voix, transmet les SMS en clair et n'authentifie pas les antennes-relais, ce qu'exploitent les IMSI catchers ; elle doit être décommissionnée en France en 2026.
+
+      En 2022 à Paris, une voiture transportant un IMSI catcher a été arrêtée alors qu'elle envoyait de faux SMS de l'Assurance maladie.
+
+      Les réseaux Wi-Fi publics, le Bluetooth et le NFC présentent aussi des faiblesses exploitables.
+
+   B. Le système et les applications.
+
+      Des chaînes zéro-clic ciblent notamment les messageries préinstallées.
+
+      Les logiciels espions Pegasus, Predator, Graphite ou l'opération Triangulation illustrent ces capacités.
+
+III. LES ACTEURS.
+
+   A. États et entreprises privées.
+
+      Des États développent ces capacités en interne ou via leur industrie de défense.
+
+      Des entreprises de LIOP, comme NSO Group, Intellexa ou Paragon, les vendent à des États qui n'en disposent pas ou veulent compliquer l'attribution, ce qui dissémine ces outils.
+
+      Le processus de Pall Mall, lancé en novembre 2023 et formalisé à Londres en février 2024, a produit un code de bonnes pratiques pour les États.
+
+   B. En cas d'alerte.
+
+      Si un éditeur signale une compromission possible, ne pas manipuler le téléphone et contacter le CERT-FR par courriel ou au 3218.
+
+IV. LES RECOMMANDATIONS.
+
+   A. Réduire la surface d'attaque.
+
+      Désactiver Wi-Fi, Bluetooth et NFC quand ils ne servent pas, en passant par les réglages sur iOS, et éviter les Wi-Fi publics ou utiliser un VPN maîtrisé.
+
+      Activer le mode Isolement sur iOS ou le mode de protection avancée sur Android pour les personnes à risque.
+
+      Désactiver les messageries préinstallées inutilisées et la réception automatique des MMS, et préférer les messageries chiffrées de bout en bout.
+
+   B. Protéger l'authentification et le terminal.
+
+      Protéger la carte SIM par un code PIN personnalisé et préférer les applications d'authentification aux codes SMS.
+
+      Appliquer les mises à jour sans reporter le redémarrage.
+
+      Éteindre puis rallumer régulièrement le téléphone pour supprimer les implants non persistants, certains logiciels espions simulant un redémarrage.
+
+      Ne pas cliquer sur des liens non sollicités, se méfier des QR codes et ne pas brancher le téléphone à des équipements inconnus.
+
+POINTS D'ATTENTION.
+
+      Les attaques zéro-clic ne demandent aucune action de la victime.
+
+      Les téléphones personnels des responsables sont souvent la porte d'entrée.
+
+      Un arrêt complet du téléphone supprime les implants non persistants, sans empêcher une réinfection.
+
+      Les entreprises de LIOP disséminent des capacités d'espionnage avancées.
+
+EXEMPLES CITES.
+
+      Pegasus de NSO Group, Predator d'Intellexa et Graphite de Paragon.
+
+      L'opération Triangulation contre iOS.
+
+      L'IMSI catcher saisi à Paris en 2022.
+
+      Le processus de Pall Mall.

@@ -1,0 +1,20 @@
+Qu'est-ce qu'une attaque zéro-clic ?;Une attaque qui ne nécessite aucune interaction de la cible;Un jeu mobile;Une panne de téléphone;Une attaque par souris;2;Elle exploite des chaînes de vulnérabilités jour-zéro.
+Pourquoi les implants non persistants compliquent-ils les investigations ?;Ils sont visibles à l'écran;Ils disparaissent à l'arrêt et laissent peu de traces;Ils envoient un SMS d'alerte;Ils vident la batterie;3;Leur furtivité est grande.
+Quels téléphones l'ANSSI a-t-elle le plus souvent vus ciblés chez les hauts responsables ?;Aucun;Leurs téléphones personnels;Leurs téléphones fixes;Les téléphones de leurs enfants uniquement;3;Ces cibles étaient de hautes autorités et des dirigeants.
+Qui peut être ciblé par des logiciels espions sophistiqués ?;Uniquement les touristes;Hautes autorités, élus, dirigeants, avocats, journalistes, militants et proches;Personne;Uniquement les enfants;3;Toute la population reste exposée aux cybercriminels.
+Pourquoi la 2G est-elle vulnérable ?;Elle est récente;Elle utilise la fibre;Elle est trop rapide;Chiffrement faible, SMS en clair et absence d'authentification des antennes;5;Les IMSI catchers l'exploitent.
+Qu'est-ce qu'un IMSI catcher ?;Un appareil imitant une antenne-relais pour capter les téléphones;Une carte SIM;Un antivirus;Une application de messagerie;2;Il ne fonctionne pas en 5G.
+Quand la 2G doit-elle être décommissionnée en France ?;En 2050;En 1995;Jamais;En 2026;5;Elle l'est déjà aux États-Unis et au Japon.
+Qu'a-t-on découvert en 2022 à Paris dans une voiture ?;Un brouilleur radio militaire;Un serveur de jeux;Une antenne satellite;Un IMSI catcher envoyant de faux SMS de l'Assurance maladie;5;Selon Libération.
+Que désigne la LIOP ?;Un réseau mobile;La loi informatique;La lutte informatique offensive privée;Un logiciel de bureautique;4;Des entreprises vendent des capacités d'intrusion.
+Quelle entreprise vend le logiciel espion Predator ?;NSO Group;Apple;Intellexa;Paragon;4;Pegasus est vendu par NSO Group.
+Quelle entreprise vend le logiciel espion Graphite ?;Paragon;Intellexa;Samsung;Google;2;Citizen Lab a révélé son usage en 2025.
+Qu'est-ce que le processus de Pall Mall ?;Un tournoi sportif;Un protocole radio;Une loi américaine;Une initiative franco-britannique contre la prolifération des outils offensifs commerciaux;5;Lancée en novembre 2023.
+Que faire si un éditeur signale une possible compromission ?;Publier l'alerte sur un réseau social;Réinitialiser immédiatement;Ignorer le message;Ne pas manipuler le téléphone et contacter le CERT-FR;5;Par courriel ou au 3218.
+Comment désactiver réellement le Wi-Fi sur iOS ?;Par l'application Réglages;En secouant le téléphone;C'est impossible;Par le Centre de contrôle;2;Le Centre de contrôle ne fait que déconnecter.
+Quel mode durcit iOS pour les personnes à risque ?;Le mode Isolement;Le mode Nuit;Le mode Économie;Le mode Avion;2;Disponible depuis iOS 16.
+Quel mode durcit Android pour les personnes à risque ?;Le mode sombre;Le mode développeur;Le mode Avion;Le mode de protection avancée;5;Depuis Android 16.
+Pourquoi éteindre puis rallumer plutôt qu'utiliser la fonction redémarrer ?;Pour économiser la batterie;Ce n'est pas utile;Pour changer de forfait;Certains logiciels espions simulent un redémarrage;5;L'arrêt complet supprime les implants non persistants.
+Que préférer aux codes reçus par SMS pour la double authentification ?;Une application d'authentification;Un courriel non chiffré;Un post-it;Aucun facteur;2;Cela protège du vol de SIM et du SIM swapping.
+Que faire de la réception automatique des MMS ?;La désactiver;L'activer pour tous;Rien;La rendre publique;2;Pour éviter un traitement sans action de l'utilisateur.
+Pourquoi se méfier des QR codes ?;Ils ne permettent pas de voir la destination du lien;Ils sont toujours sûrs;Ils sont payants;Ils abîment l'écran;2;Ils peuvent rediriger vers des ressources malveillantes.
