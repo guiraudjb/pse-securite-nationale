@@ -1,0 +1,117 @@
+ANSSI, RAPPORTS D'ACTIVITÉ 2021, 2022 ET 2023, ET RAPPORT 2023 SUR LES DISPOSITIFS RÉGLEMENTAIRES MIS EN ŒUVRE PAR L'ANSSI.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI, créée en 2009, est l'autorité nationale en matière de cybersécurité et de cyberdéfense, service du Premier ministre rattaché au SGDSN.
+
+      Un événement de sécurité est porté à la connaissance de l'ANSSI et traité par ses équipes ; un incident est un événement pour lequel l'ANSSI confirme qu'un acteur malveillant a agi avec succès sur le système de la victime.
+
+      Le CERT-FR est le centre gouvernemental de veille, d'alerte et de réponse aux attaques informatiques, porté par l'ANSSI.
+
+      Un CSIRT est un centre de réponse aux incidents de sécurité, qui peut être régional, sectoriel ou ministériel.
+
+      Le Visa de sécurité est la marque unique regroupant les qualifications et certifications délivrées par l'ANSSI.
+
+      ADS est le service d'audit automatisé des annuaires Active Directory, et SILENE évalue la surface d'exposition sur Internet.
+
+      Le TLP, Traffic Light Protocol, encadre le partage d'une information, et le PAP, Permissible Action Protocol, encadre son utilisation.
+
+      Le C4 est le Centre de coordination des crises cyber, qui organise la réponse de l'État aux agressions cyber.
+
+COURS DÉTAILLÉ.
+
+I. LE RAPPORT D'ACTIVITÉ 2021.
+
+   A. Défendre et réagir.
+
+      L'ANSSI a reçu 2089 signalements et traité 1057 incidents, 17 incidents majeurs et 8 opérations de cyberdéfense ; les attaques par rançongiciel se sont stabilisées à un niveau significatif de 203.
+
+      L'ANSSI est membre fondateur de l'InterCERT France, créé le 12 octobre 2021, et accompagne la création des CSIRT régionaux et sectoriels dans le cadre de France Relance.
+
+      Elle a publié trois guides sur la crise cyber : organiser un exercice, les clés d'une gestion opérationnelle et stratégique, et la communication de crise.
+
+   B. Connaître, accompagner, former.
+
+      L'ANSSI a délivré 255 visas de sécurité, dont 167 qualifications et 88 certifications, et 48 documents publiés, dont le guide sur l'authentification multifacteur et les mots de passe.
+
+      Plus de 600 organisations ont bénéficié de parcours de cybersécurité du plan de relance, et 135 groupements hospitaliers de territoire ont été désignés opérateurs de services essentiels.
+
+      L'ANSSI rejoint le Campus Cyber à La Défense, prépare une antenne à Rennes et la présidence française du Conseil de l'Union européenne, avec la révision de la directive NIS.
+
+      Le MOOC SecNumacadémie a donné lieu à 45 000 attestations depuis 2018, et l'agence est devenue membre du groupement Pix.
+
+II. LE RAPPORT D'ACTIVITÉ 2022.
+
+   A. Une année marquée par la guerre en Ukraine et NIS 2.
+
+      L'ANSSI a reçu 2173 signalements et traité 831 incidents.
+
+      La présidence française du Conseil de l'Union européenne a abouti à l'adoption de la directive NIS 2, qui devrait multiplier par plus de dix le nombre d'entités régulées.
+
+      Vincent Strubel a succédé à Guillaume Poupard à la direction générale en janvier 2023.
+
+   B. Défendre et assister.
+
+      Le plan France Relance a accompagné 950 bénéficiaires, dont 715 collectivités territoriales, avec 12 CSIRT régionaux incubés et 5 CSIRT sectoriels accompagnés.
+
+      L'ANSSI a aidé à construire 10 CSIRT ministériels et préside, via le CERT-FR, le CSIRT Network européen de janvier 2022 à juin 2023.
+
+   C. Connaître, partager, renforcer.
+
+      Publication du référentiel des prestataires d'administration et de maintenance sécurisées, PAMS, et de la version 3.2 de SecNumCloud, avec des critères de protection vis-à-vis des lois extra-européennes.
+
+      L'ANSSI est désignée centre national de coordination, NCC-FR, et adopte le PAP en complément du TLP.
+
+      Lancement de MonServiceSécurisé, start-up d'État, et des services automatisés ADS et SILENE.
+
+      Le premier exercice de crise cyber massivement distribué, REMPAR22, a réuni près d'une centaine d'organisations, dont près de 70 pour cent de participants hors milieu cyber.
+
+      Le kit CyberEnJeux permet aux enseignants de faire concevoir des jeux sérieux sur la cybersécurité.
+
+III. LE RAPPORT D'ACTIVITÉ 2023.
+
+   A. Un changement d'échelle.
+
+      L'ANSSI compte 634 agents, d'une moyenne d'âge de 37 ans, avec un budget de 29,8 millions d'euros hors masse salariale.
+
+      Elle a traité 3703 événements de sécurité et 1112 incidents, produit 25 738 rapports d'audits automatisés et délivré 269 visas de sécurité.
+
+      La loi de programmation militaire 2024-2030, articles 64 à 67, renforce la détection, la remédiation et l'alerte des victimes ; les éditeurs doivent notifier à l'ANSSI incidents et vulnérabilités.
+
+      L'agence inaugure ArteFact, son site de Rennes.
+
+   B. Défendre et accompagner.
+
+      Le système de cyberdéfense automatisée du réseau interministériel a bloqué 60 attaques depuis le 27 février 2023, avec 92 000 marqueurs bloqués et environ un milliard de requêtes traitées par mois.
+
+      Les membres du C4 ont partagé 113 événements, associés à 7 compromissions avérées d'entités françaises.
+
+      L'ANSSI soutient onze CSIRT régionaux, trois centres de ressources en Outre-mer, cinq CSIRT sectoriels, les comités départementaux de sécurité numérique et le plan CaRE pour les établissements de santé.
+
+      Elle a préparé les Jeux olympiques et paralympiques et participé au dispositif de crise de la Coupe du monde de rugby, et lancé MonEspaceNIS2 et MonAideCyber.
+
+   C. Les dispositifs réglementaires en 2023.
+
+      Toute personne de bonne foi peut déclarer une vulnérabilité à l'ANSSI au titre de l'article L.2321-4 du code de la défense, avec protection de son identité : 243 signalements en 2023, dont 49 pour cent sur des sites web.
+
+      L'ANSSI peut alerter des victimes par l'intermédiaire des opérateurs de communications électroniques : 8 campagnes ont concerné 16 448 adresses IP en 2023.
+
+      Les dispositifs couvrent six finalités : protection des lanceurs d'alerte, alerte aux victimes, détection des menaces, blocage d'une menace, protection de la vie privée et sécurité des réseaux 5G.
+
+POINTS D'ATTENTION.
+
+      Incidents traités : 1057 en 2021, 831 en 2022, 1112 en 2023.
+
+      Visas de sécurité : 255 en 2021, 269 en 2023.
+
+      NIS 2 a été adoptée sous présidence française de l'Union européenne en 2022.
+
+      La LPM 2024-2030 donne de nouveaux moyens de détection et d'alerte à l'ANSSI.
+
+EXEMPLES CITES.
+
+      L'exercice REMPAR22 et le kit CyberEnJeux.
+
+      Les services ADS, SILENE, MonServiceSécurisé, MonEspaceNIS2 et MonAideCyber.
+
+      Le site ArteFact à Rennes et le Campus Cyber à La Défense.
