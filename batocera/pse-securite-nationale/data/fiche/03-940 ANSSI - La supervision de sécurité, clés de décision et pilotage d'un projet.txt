@@ -1,0 +1,173 @@
+ANSSI, COLLECTION SUPERVISION DE SÉCURITÉ, LES CLÉS DE DÉCISION ET PILOTER UN PROJET DE SUPERVISION DE SÉCURITÉ, VERSION 1.0 DU 25 JUILLET 2025.
+
+LEXIQUE COMPLET.
+
+      La supervision de sécurité est l'ensemble des moyens et des activités, humains, organisationnels, techniques et financiers, concourant dans les meilleurs délais à la détection et à la qualification d'un incident de sécurité sur un périmètre supervisé, ainsi qu'au choix de la réaction appropriée lorsque l'incident est avéré.
+
+      La cyberattaque est un ensemble coordonné d'actions menées dans le cyberespace qui visent des informations ou les systèmes qui les traitent, en portant atteinte à leur disponibilité, à leur intégrité ou à leur confidentialité.
+
+      L'étape unitaire est l'une des actions élémentaires qui composent une cyberattaque et qui laissent des traces spécifiques dans le système.
+
+      L'événement de sécurité est un événement significatif identifié automatiquement à partir de l'activité du système, et l'incident de sécurité un événement vérifié et qualifié par un analyste.
+
+      Le SOC, Security Operations Center, est le centre opérationnel de sécurité qui assure la supervision.
+
+      L'EDR, endpoint detection and response, est une solution de détection et de réponse installée sur les équipements terminaux comme les postes de travail.
+
+      Le MVP, produit minimum viable, est la première version qui permet de commencer à détecter au plus vite, même avec des outils perfectibles et un périmètre restreint.
+
+      La matrice de confusion classe les résultats d'un système de détection en vrais positifs, vrais négatifs, faux positifs et faux négatifs.
+
+      Le faux positif est une alerte levée alors qu'il n'y a pas d'activité malveillante, qui surcharge les analystes, et le faux négatif une activité malveillante qui n'a pas été détectée.
+
+      La règle de détection est la déclinaison technique de la stratégie de supervision, qui combine connaissance de la menace, contexte technologique et agencement propre au système.
+
+      La stratégie de supervision associe aux scénarios de menace retenus des familles de données, des points de collecte et des règles de détection.
+
+COURS DÉTAILLÉ.
+
+I. LA COLLECTION ET SA DÉFINITION.
+
+   A. Une collection en trois volets.
+
+      L'ANSSI, opérateur du service de supervision de sécurité de l'État, publie une collection sur la supervision avec un volet stratégique, Les clés de décision, un volet opérationnel, Piloter un projet de supervision, et un volet technique.
+
+      Les deux premiers volets datent du 25 juillet 2025, le volet stratégique portant la référence ANSSI-GP-112.
+
+   B. La place de la supervision.
+
+      La supervision participe au traitement des incidents avec le renseignement sur la menace et la réponse à incidents.
+
+      Parler seulement de détection est réducteur, car la qualification et le choix de la réaction sont indissociables de la supervision.
+
+      La supervision de sécurité se distingue de la supervision informatique, qui suit des anomalies d'exploitation comme le remplissage des disques ou des défauts logiciels.
+
+II. POURQUOI ET COMMENT SUPERVISER.
+
+   A. Le principe.
+
+      Une cyberattaque se décompose en étapes unitaires, comme le font les attaquants qui se répartissent les tâches, et comme le modélisent EBIOS Risk Manager, l'ISO 27005, la Cyber Kill Chain ou MITRE ATT&CK.
+
+      La plupart de ces étapes laissent des traces spécifiques, ce qui permet de détecter l'attaque avant que l'attaquant n'atteigne ses objectifs.
+
+      Le guide compare la supervision aux contrôles d'identité et de bagages avant l'embarquement d'un vol commercial : un maillon essentiel de la maîtrise du risque.
+
+   B. Les bénéfices et le cadre réglementaire.
+
+      La supervision fait passer d'un mode purement réactif à un mode proactif, et permet de réagir avant que l'attaque ait des effets perceptibles.
+
+      En crise majeure, elle fournit un meilleur niveau d'information et des moyens d'investigation pertinents.
+
+      Elle fait l'objet d'obligations croissantes : loi pour la confiance dans l'économie numérique, loi de programmation militaire, directive NIS et RGPD.
+
+   C. L'analyse en deux temps.
+
+      Une étape automatisée, réalisée par des capteurs et des outils d'analyse centralisés, identifie les événements significatifs dans un gros volume de données.
+
+      Une étape manuelle, réalisée par les analystes par recoupement, pivot, corrélation et investigation, qualifie ces événements en incidents.
+
+      Le volume d'événements produits automatiquement ne doit pas dépasser la capacité de traitement des analystes.
+
+III. LES PRÉREQUIS ET LES ACTEURS.
+
+   A. Quatre prérequis.
+
+      Maîtriser techniquement son système, par exemple en appliquant le guide d'hygiène informatique.
+
+      Connaître les risques auxquels le système est exposé.
+
+      Mettre en place des moyens techniques dédiés adaptés au système supervisé.
+
+      Mobiliser des moyens humains et une organisation adaptée, même en cas d'externalisation.
+
+   B. L'équipe et ses deux cercles.
+
+      Au centre, l'équipe d'analystes traite les alertes pour qualifier les incidents, et son maintien en interne apporte une forte plus-value car elle concentre la connaissance de l'organisation.
+
+      Le premier cercle réunit le renseignement sur la menace, qui fournit la matière première de la détection, et la réponse à incidents, qui traite les incidents avérés.
+
+      Le second cercle réunit la gouvernance, qui apporte soutien décisionnel et financier et fixe les objectifs, et la gestion opérationnelle des systèmes, qui connaît le périmètre et aide à lever le doute.
+
+      Tous ces intervenants peuvent être externalisés, ce qui est le plus réaliste pour les petites entités, à condition de prévoir des canaux d'échange.
+
+IV. CONSTRUIRE LA SUPERVISION.
+
+   A. Quand démarrer.
+
+      Le meilleur moment pour investir est avant la prochaine attaque, au plus vite.
+
+      Superviser un système non conforme au niveau du guide d'hygiène informatique met en péril les objectifs, d'où un effort préalable d'assainissement.
+
+   B. La construction itérative.
+
+      Le projet s'appuie sur un MVP qui couvre un périmètre restreint avec une qualité éventuellement réduite, puis s'améliore.
+
+      Chaque itération suit six étapes : cadrer l'itération, vérifier les données d'entrée, concevoir la stratégie de supervision, déployer les moyens techniques, réaliser la mise sous supervision et valider la chaîne de supervision.
+
+      Trois trajectoires types sont décrites, selon que l'organisation a déjà des moyens et une contrainte réglementaire forte, des compétences sans contrainte, ou ni moyens ni ressources humaines.
+
+   C. Le budget.
+
+      La supervision est une capacité, avec un coût de construction et un coût d'entretien, à envisager comme un investissement pluriannuel.
+
+      L'achat ponctuel d'un produit ne suffit jamais à construire une supervision efficace.
+
+V. LES COMPOSANTES ET LES ENJEUX D'UN PROJET.
+
+   A. Les composantes.
+
+      Une supervision comprend des analystes, des données de supervision, une stratégie de supervision, des processus métier et support, des règles de gestion et de détection, et un SI de supervision.
+
+      Les processus métier incluent la veille sur les vulnérabilités et les menaces, la gestion du cycle de vie des règles, les analyses au fil de l'eau et a posteriori, la qualification et le signalement des incidents et le suivi de la réponse.
+
+   B. Les enjeux.
+
+      Le projet comporte des enjeux stratégiques, projet, humains, métier, techniques, juridiques et cyber.
+
+      Le SI de supervision doit lui-même être sécurisé, car il est à la fois une brique de sécurité et une cible de choix.
+
+      La supervision peut être mutualisée entre plusieurs systèmes, en interne ou chez un prestataire, ce qui crée des risques spécifiques à analyser.
+
+VI. LES DIX RECOMMANDATIONS DU PILOTAGE.
+
+      R1, acquérir de la connaissance sur le système à superviser : risques, technologies, architecture et vie du système.
+
+      R2, préparer le système avant de le superviser, en l'élevant à un seuil nominal de défense en profondeur et d'hygiène.
+
+      R3, commencer à superviser avec les moyens en place, comme l'antivirus ou la journalisation déjà active, sans multiplier les nouveaux outils.
+
+      R4, adopter une démarche ascendante et diversifier progressivement les sources de données.
+
+      R5, porter un intérêt particulier aux postes de travail, point faible des attaques de masse comme les rançongiciels, puis aux équipements de bordure, interconnexions, services exposés et annuaire.
+
+      R6, adopter une démarche frugale face au volume de données : cibler les scénarios, filtrer, agréger, adapter la rétention, et traiter ailleurs l'archivage réglementaire des journaux.
+
+      R7, avancer progressivement vers la maturité par petits pas, sur les processus, les outils et les périmètres.
+
+      R8, mettre en cohérence les ressources avec les ambitions, la supervision étant une course de fond.
+
+      R9, gérer l'incertitude, en vérifiant l'efficacité de la détection par des exercices réguliers comme des tests automatisés ou des tests d'intrusion de type red team.
+
+      R10, cultiver la confiance des parties prenantes par la transparence, la neutralité et le partage des indicateurs.
+
+POINTS D'ATTENTION.
+
+      La supervision ne se résume pas à la détection : elle inclut la qualification et le choix de la réaction.
+
+      Superviser un système qui ne respecte pas l'hygiène informatique est une perte de temps et d'argent.
+
+      L'absence d'alerte ne prouve pas l'absence d'attaque, d'où la nécessité de gérer l'incertitude.
+
+      Les faux positifs surchargent les analystes, les faux négatifs laissent passer les attaques.
+
+      Le poste de travail est le premier périmètre à surveiller face aux attaques de masse.
+
+EXEMPLES CITES.
+
+      Les modèles d'analyse des attaques Cyber Kill Chain et MITRE ATT&CK.
+
+      L'analogie du contrôle des passagers et des bagages avant un vol commercial.
+
+      Juan, DSI d'une grosse association, qui obtient un budget pour expérimenter la supervision d'une brique critique.
+
+      Les tests d'intrusion red team menés d'abord en coopération puis en aveugle.
