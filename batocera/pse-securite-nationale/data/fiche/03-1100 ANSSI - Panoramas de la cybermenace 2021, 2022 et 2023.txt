@@ -1,0 +1,137 @@
+ANSSI, PANORAMA DE LA MENACE INFORMATIQUE 2021, DU 9 MARS 2022, PANORAMA DE LA CYBERMENACE 2022, CERTFR-2023-CTI-001, ET PANORAMA DE LA CYBERMENACE 2023, CERTFR-2024-CTI-001.
+
+LEXIQUE COMPLET.
+
+      Une intrusion avérée est une compromission confirmée d'un système d'information portée à la connaissance de l'ANSSI.
+
+      Le rançongiciel vendu en tant que service, RaaS, met un rançongiciel à disposition d'affiliés qui conduisent les attaques.
+
+      Un revendeur d'accès, ou access broker, vend à d'autres attaquants des accès à des réseaux compromis.
+
+      Un hébergeur pare-balles, ou Bullet Proof Hoster, loue des ressources techniques sans contrôle de ses clients, contre paiement en cryptomonnaies, hors d'atteinte de la coopération judiciaire.
+
+      Le Big Game Hunting désigne les attaques par rançongiciel visant de grandes sociétés particulièrement rentables.
+
+      Le living-off-the-land consiste à utiliser des outils légitimes présents sur le réseau de la victime pour échapper à la détection.
+
+      Une vulnérabilité jour-zéro n'a fait l'objet d'aucune publication ni correctif au moment de son exploitation ; une vulnérabilité jour-un dispose d'un correctif non encore déployé.
+
+      Un wiper est un programme malveillant qui détruit les données d'un système.
+
+      Un équipement périphérique, comme un pare-feu ou un routeur, est situé en bordure du réseau et souvent peu supervisé.
+
+      Le C4, Centre de coordination des crises cyber, et sa déclinaison C4 TechOps, pilotée par l'ANSSI, réunissent notamment la DGSI, la DGSE, le COMCYBER et la DGA.
+
+COURS DÉTAILLÉ.
+
+I. LE PANORAMA DE LA MENACE INFORMATIQUE 2021.
+
+   A. Une menace en hausse.
+
+      L'ANSSI a eu connaissance de 1082 intrusions avérées en 2021 contre 786 en 2020, soit une hausse de 37 pour cent.
+
+      Les principales intentions des attaquants restent le gain financier, l'espionnage et la déstabilisation.
+
+   B. Des acteurs aux capacités croissantes.
+
+      La cybercriminalité se professionnalise et se spécialise comme un réseau économique, avec des gains estimés à plus d'un milliard d'euros par an.
+
+      Les revendeurs d'accès scannent les vulnérabilités en moyenne dans les 48 heures suivant leur divulgation, et l'hameçonnage reste le vecteur de primo-infection le plus courant.
+
+      L'ANSSI a suivi en moyenne une quarantaine de rançongiciels différents en 2021, avec des méthodes d'extorsion multiples : divulgation, chantage au déni de service, harcèlement, contact des clients.
+
+      L'attaque de Colonial Pipeline par DarkSide en mai 2021 a marqué un tournant international, suivi de démantèlements et d'arrestations.
+
+      Les acteurs étatiques utilisent des outils cybercriminels comme Cobalt Strike, par exemple dans la campagne APT31 contre la France en 2021, et partagent des outils comme ShadowPad.
+
+      Des entreprises privées comme NSO Group rendent accessibles des capacités offensives avancées.
+
+   C. Espionnage, sabotage et déstabilisation.
+
+      L'espionnage reste la première finalité : sur 17 opérations de cyberdéfense en 2021, 14 étaient liées à l'espionnage, dont 9 impliquant des modes opératoires réputés chinois.
+
+      Des lois étrangères à portée extraterritoriale comme ITAR, FISA ou le Cloud Act, et des logiciels imposés comme GoldenTax, peuvent être détournés à des fins d'espionnage.
+
+      Le ciblage d'infrastructures critiques se poursuit, comme l'eau en Israël ou une usine de traitement d'eau en Floride.
+
+      La campagne Ghostwriter, attribuée à la Russie, illustre l'usage d'intrusions au service d'opérations d'influence.
+
+   D. Des faiblesses exploitées.
+
+      Les vulnérabilités Exchange, Log4j et PulseSecure ont marqué l'année, et le nombre de vulnérabilités jour-zéro exploitées a explosé.
+
+      L'attaque contre Kaseya du 2 juillet 2021 illustre le risque de la chaîne d'approvisionnement.
+
+      Deux mesures principales entravent la propagation : protéger les administrateurs, notamment Active Directory, et segmenter strictement le réseau.
+
+II. LE PANORAMA DE LA CYBERMENACE 2022.
+
+   A. Une menace qui se maintient.
+
+      L'ANSSI a recensé 831 intrusions avérées en 2022 contre 1082 en 2021, ce qui ne traduit pas une baisse de la menace, déportée vers des entités moins protégées.
+
+      Les attaques par rançongiciel connues de l'ANSSI ont baissé de 46 pour cent sur la même période, avant une multiplication depuis l'été 2022, notamment contre les collectivités et les établissements de santé.
+
+      Les collectivités locales sont la deuxième catégorie de victimes de rançongiciels derrière les TPE, PME et ETI, avec 23 pour cent des incidents en 2022.
+
+   B. Des capacités qui progressent.
+
+      Les attaquants étatiques emploient des rançongiciels et wipers à des fins de déstabilisation, comme contre l'Albanie en juillet 2022.
+
+      Des alternatives à Cobalt Strike apparaissent, comme Brute Ratel, Mythic ou Sliver.
+
+      Les équipements périphériques, pare-feux et routeurs, sont ciblés pour un accès furtif et persistant.
+
+      Les acteurs privés restent actifs, comme RCS Lab et son espiogiciel Hermit, et le Parlement européen a créé la commission d'enquête PEGA.
+
+   C. Le contexte du conflit russo-ukrainien.
+
+      L'invasion russe de l'Ukraine a favorisé l'espionnage stratégique et les actions de déstabilisation : déni de service distribué, défigurations, divulgations de données.
+
+      L'espionnage reste la menace qui a le plus mobilisé l'ANSSI, majoritairement par des modes opératoires associés à la Chine.
+
+III. LE PANORAMA DE LA CYBERMENACE 2023.
+
+   A. Trois principales menaces.
+
+      L'ANSSI estime que les attaquants liés à la Chine, à la Russie et à l'écosystème cybercriminel sont les trois principales menaces.
+
+      L'espionnage stratégique et industriel est encore la menace la plus mobilisatrice, avec un ciblage croissant des groupes de réflexion, instituts de recherche, de la base industrielle et technologique de défense, des opérateurs de télécommunications et des ESN.
+
+      Les attaques contre les téléphones portables de personnalités, dirigeants et équipes de cybersécurité augmentent.
+
+   B. Rançongiciels et déstabilisation.
+
+      Les attaques par rançongiciel connues de l'ANSSI ont augmenté de 30 pour cent par rapport à 2022 ; les collectivités en représentent 24 pour cent et les associations 9 pour cent, et LockBit reste très actif.
+
+      L'ANSSI a soutenu le démantèlement international de l'infrastructure de QakBot.
+
+      La déstabilisation prend surtout la forme de DDoS d'hacktivistes pro-russes, à l'impact limité.
+
+   C. Origine des événements et perspectives.
+
+      Les événements traités proviennent des moyens propres de l'ANSSI pour 23 pour cent, des sources ouvertes pour 21 pour cent, des partenaires nationaux pour 18 pour cent et des victimes pour 10 pour cent.
+
+      Les Jeux olympiques et paralympiques de Paris 2024 offrent des opportunités aux attaquants, ainsi que la Coupe du monde de rugby 2023 évoquée dès 2022.
+
+      L'ANSSI recommande la sécurité dès la conception, des postes d'administration dédiés, le durcissement, les audits automatisés de l'ANSSI, les sauvegardes et les PCA et PRA, dans le cadre de la transposition de NIS 2.
+
+POINTS D'ATTENTION.
+
+      Intrusions avérées : 786 en 2020, 1082 en 2021, 831 en 2022.
+
+      Rançongiciels : baisse de 46 pour cent en 2022, puis hausse de 30 pour cent en 2023.
+
+      L'espionnage est chaque année la menace qui mobilise le plus l'ANSSI.
+
+      Les collectivités territoriales sont l'une des principales victimes des rançongiciels.
+
+EXEMPLES CITES.
+
+      Colonial Pipeline et DarkSide en 2021.
+
+      Kaseya et la chaîne d'approvisionnement.
+
+      Ghostwriter, campagne d'influence attribuée à la Russie.
+
+      Le démantèlement de QakBot en 2023.
