@@ -1,0 +1,135 @@
+ANSSI, RECOMMANDATIONS POUR LES ARCHITECTURES DES INTERCONNEXIONS MULTINIVEAUX, VERSION 1.0 D'OCTOBRE 2024.
+
+LEXIQUE COMPLET.
+
+      L'interconnexion multiniveau relie deux systèmes d'information de niveaux de classification ou de sensibilité différents, par exemple un système classifié et un système non classifié.
+
+      Le SI haut est le système dont les données sont à protéger, en principe celui dont le niveau de classification est le plus élevé, et le SI bas l'autre système.
+
+      L'interconnexion montante transfère des données du SI bas vers le SI haut, et l'interconnexion descendante du SI haut vers le SI bas.
+
+      L'interconnexion indirecte, réalisée par supports amovibles, assure une rupture des signaux électriques ou lumineux entre les systèmes, et l'interconnexion directe permet des échanges en temps réel, comme la vidéo ou la téléphonie.
+
+      La diode, ou fonction d'unidirectionnalité, garantit que les données ne circulent que dans un seul sens.
+
+      Le canal caché est un moyen détourné de faire fuir de l'information, par exemple par la modulation de délais ou de champs anodins.
+
+      Les signaux parasites compromettants sont des émissions électromagnétiques involontaires qui peuvent révéler des informations traitées par un équipement.
+
+      Le dispositif agréé est un produit de sécurité agréé pour protéger des informations classifiées.
+
+      La visualisation exhaustive consiste pour un opérateur à afficher l'intégralité des données avant d'en autoriser le transfert vers le bas.
+
+      L'analyse exhaustive de contenu est un contrôle automatisé de toutes les données d'un message selon des règles strictes de format.
+
+      L'aiguillage est un dispositif qui bascule une source entre le SI haut et le SI bas, sans lui permettre de retenir des informations classifiées.
+
+      Le déclassement est la modification du niveau de classification d'une information qui reste classifiée, par exemple de Très Secret à Secret.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE.
+
+   A. Les informations classifiées.
+
+      Le code de la défense impose de protéger par le secret de la défense nationale les informations dont la divulgation porterait atteinte à la défense et à la sécurité nationale, avec deux niveaux : Secret et Très Secret.
+
+      Les systèmes d'information classifiés sont protégés selon l'IGI 1300 du 9 août 2021.
+
+   B. Le principe d'isolation physique.
+
+      La doctrine générale de sécurisation des systèmes classifiés est l'isolation physique, qui interdit tout échange de données avec d'autres systèmes.
+
+      L'IGI 1300 interdit par principe toute interconnexion entre un système classifié et un système non classifié ou d'un autre niveau, mais prévoit des dérogations en cas de besoin opérationnel strictement nécessaire.
+
+      Toute interconnexion rompt l'isolation et expose à l'injection de codes malveillants et à l'exfiltration, elle doit donc rester exceptionnelle et strictement contrôlée.
+
+      Elle répond notamment aux besoins de maintien en condition opérationnelle et de sécurité, aujourd'hui surtout par supports amovibles.
+
+   C. L'approche du guide.
+
+      Le guide détaille des recommandations pour protéger le SI haut, et appliquer la même démarche au SI bas si celui-ci doit aussi être protégé.
+
+      Il compte plus de 60 recommandations, dont de nombreuses spécifiques aux interconnexions montantes, descendantes, directes ou indirectes.
+
+II. LES PRINCIPES DIRECTEURS.
+
+      Concevoir le SI haut pour intégrer la problématique multiniveau si un besoin est identifié, et revoir sa conception avant toute interconnexion.
+
+      Éviter de créer des besoins d'interconnexion multiniveau.
+
+      Identifier exhaustivement les besoins de transfert et privilégier les interconnexions montantes.
+
+      Réviser les analyses de risque du SI haut et du SI bas et réaliser une analyse de risque spécifique à l'interconnexion.
+
+III. LES FONCTIONS DE SÉCURITÉ ESSENTIELLES.
+
+      Utiliser des dispositifs de sécurité agréés pour les services essentiels et respecter leurs conditions d'emploi.
+
+      En interconnexion montante, garantir l'unidirectionnalité des transferts.
+
+      En interconnexion descendante, garantir le contrôle de l'autorisation de transmission, caractériser les canaux cachés et, en indirect, marquer la sensibilité des données dans le SI haut.
+
+      Prendre en compte les fuites par signaux compromettants dans les systèmes classifiés et mettre en œuvre une démarche de sécurisation contre ces signaux.
+
+IV. L'INTERCONNEXION MONTANTE.
+
+   A. Transfert de fichiers.
+
+      Positionner la fonction diode en amont de l'interconnexion.
+
+      Contrôler l'autorisation du transfert par vérification de signature, à défaut faire signer les fichiers par un dispositif du SI bas, et à défaut s'appuyer sur une convention de nommage.
+
+      Réaliser un contrôle d'innocuité, mettre en quarantaine les fichiers bloqués et enregistrer les fichiers transférés, ou à défaut leurs métadonnées et condensats.
+
+   B. Transfert de flux.
+
+      Contrôler la source des flux en amont, enregistrer leurs métadonnées et effectuer une transformation de format.
+
+V. L'INTERCONNEXION DESCENDANTE.
+
+   A. Avec visualisation exhaustive.
+
+      Définir les règles de contrôle, visualiser exhaustivement les données, supprimer les données non visualisables et créer un nouveau fichier à partir des données visualisées.
+
+      Garantir l'intégrité après visualisation, une authentification forte et multifacteur de l'opérateur, une double confirmation du transfert et l'enregistrement des transferts autorisés et refusés.
+
+      Garantir que seules les données visualisées et autorisées peuvent être signées et informer l'opérateur de la signature.
+
+   B. Avec analyse exhaustive de contenu.
+
+      Définir les règles de contrôle automatisé, analyser exhaustivement le contenu, limiter les agencements de champs et la grammaire des données, détecter les envois intempestifs, authentifier la source et enregistrer les métadonnées.
+
+   C. Avec aiguillage.
+
+      Mettre en œuvre un aiguillage, garantir que la source ne peut retenir d'informations classifiées, enregistrer et rendre vérifiable la position de l'aiguillage, avec authentification forte de l'opérateur.
+
+      Mettre en œuvre une solution agréée de signature des flux et séparer physiquement les traitements montants et descendants.
+
+VI. LES INTERCONNEXIONS INDIRECTES.
+
+      Dédier des supports amovibles à une interconnexion donnée.
+
+      En montant, utiliser un support non réinscriptible ou en lecture seule, monter son système de fichiers en lecture seule sur le poste dédié et analyser les fichiers avant leur transfert.
+
+POINTS D'ATTENTION.
+
+      Le principe reste l'isolation physique : l'interconnexion est une dérogation exceptionnelle prévue par l'IGI 1300.
+
+      L'interconnexion montante, du bas vers le haut, est préférée car le risque principal est la fuite d'informations classifiées vers le bas.
+
+      L'unidirectionnalité, par diode, est la fonction essentielle de l'interconnexion montante.
+
+      L'interconnexion descendante exige un contrôle d'autorisation, par visualisation exhaustive, analyse exhaustive de contenu ou aiguillage.
+
+      Les signaux compromettants et les canaux cachés sont des voies de fuite à traiter.
+
+EXEMPLES CITES.
+
+      Les supports amovibles pour le maintien en condition des systèmes classifiés.
+
+      Une entité disposant d'un SI Diffusion Restreinte de classe 2 au sens de l'II 901 qui reçoit des informations d'un système Secret.
+
+      Le déclassement d'une information de Très Secret à Secret.
+
+      Les articles R2311-2 et R2311-3 du code de la défense.
