@@ -1,0 +1,145 @@
+ANSSI, RECOMMANDATIONS SUR LE NOMADISME NUMÉRIQUE, GUIDE ANSSI-PA-054, VERSION 2 DE NOVEMBRE 2023.
+
+LEXIQUE COMPLET.
+
+      Le nomadisme numérique désigne toute utilisation des technologies de l'information permettant à un utilisateur d'accéder au système d'information de son entité depuis des lieux distants non maîtrisés par celle-ci.
+
+      Le télétravail est une forme de nomadisme numérique : un travail qui aurait pu être exécuté dans les locaux de l'employeur est effectué volontairement hors de ces locaux grâce aux technologies de l'information, selon l'article L. 1222-9 du code du travail.
+
+      Le poste nomade est l'ordinateur portable fourni à l'utilisateur nomade pour accéder au système de l'entité.
+
+      Le canal d'interconnexion nomade est le tunnel chiffré, VPN IPsec ou TLS, qui relie le poste nomade au système de l'entité.
+
+      Le concentrateur VPN est l'équipement qui termine les tunnels VPN côté entité.
+
+      Le split-tunneling est une configuration qui laisse une partie des flux du poste nomade sortir directement sur Internet hors du tunnel VPN.
+
+      Le portail captif est la page d'authentification imposée par certains réseaux Wi-Fi publics avant l'accès à Internet.
+
+      Le TPM, Trusted Platform Module, est un composant de sécurité matériel qui protège notamment les clés de chiffrement du disque.
+
+      L'agrafage OCSP permet de vérifier la validité d'un certificat en joignant au protocole une réponse signée de l'autorité.
+
+      La passerelle d'interconnexion du nomadisme regroupe les équipements qui reçoivent et filtrent les connexions des postes nomades.
+
+      Les niveaux de recommandation Renforcé, signalé par un plus, et Dégradé, signalé par un moins, proposent une solution plus sûre ou une solution acceptable à défaut.
+
+COURS DÉTAILLÉ.
+
+I. LE CONTEXTE.
+
+   A. Un usage en pleine expansion.
+
+      Le nomadisme et le télétravail ne cessent de se développer, avec la multiplication des espaces de cotravail, et sont au centre des priorités des directions informatiques.
+
+      Le guide se concentre sur les particularités du nomadisme pour adapter le niveau de sécurité, sans prétendre couvrir toute la sécurité d'une infrastructure, et compte 52 recommandations.
+
+   B. Les risques liés au lieu.
+
+      Le niveau de sécurité du lieu de connexion varie selon sa protection physique et le partage des locaux.
+
+      Un des cas les plus sensibles est le travail depuis un espace ouvert au public, comme une cafétéria ou une bibliothèque.
+
+      Le domicile est lui aussi un lieu non maîtrisé.
+
+II. L'UTILISATEUR ET LE POSTE NOMADES.
+
+   A. Organisation.
+
+      Intégrer le nomadisme dans la PSSI, inventorier les activités compatibles avec le nomadisme, maîtriser la gestion des utilisateurs nomades, les sensibiliser et les former.
+
+   B. Le poste nomade.
+
+      Dédier le poste à un utilisateur identifié, sinon renforcer la sécurité des postes partagés, et maîtriser le poste fourni.
+
+      Fournir des moyens de protection physique, maîtriser l'intégrité de la séquence de démarrage et maîtriser la connexion des périphériques amovibles.
+
+      Chiffrer le disque avec un TPM, au niveau renforcé avec un TPM et une carte à puce, et à défaut sans composant de sécurité physique.
+
+      Interdire à l'utilisateur de modifier la configuration des protections et de la connexion, et au niveau renforcé établir automatiquement le VPN au démarrage.
+
+      Réduire la surface d'attaque du système, désactiver IPv6 s'il n'est pas nécessaire, activer les fonctions de sécurité du système, mettre en quarantaine les postes non à jour et réduire le délai avant verrouillage automatique de session.
+
+III. LE CANAL D'INTERCONNEXION.
+
+   A. Le tunnel et le pare-feu.
+
+      Mettre en œuvre un tunnel VPN IPsec ou TLS à l'état de l'art, IPsec étant le niveau renforcé.
+
+      Activer le pare-feu local du poste nomade.
+
+   B. Le split-tunneling.
+
+      Interdire le split-tunneling et n'autoriser que les flux nécessaires au montage du tunnel.
+
+      À défaut, appliquer une configuration stricte et ne permettre la navigation Internet hors tunnel que via un proxy de confiance.
+
+   C. DNS, DHCP et portails captifs.
+
+      Bloquer les flux DNS vers Internet et configurer directement les adresses IP publiques des concentrateurs VPN dans le client, ou à défaut sécuriser la résolution du nom du concentrateur.
+
+      Restreindre au strict nécessaire les paramètres DHCP appliqués au poste.
+
+      Bloquer l'accès aux portails captifs sur les postes nomades.
+
+   D. Les concentrateurs VPN.
+
+      Généraliser l'emploi de concentrateurs VPN pour les usages nomades mais aussi internes, ou à défaut détecter l'environnement de l'utilisateur.
+
+      Dédier physiquement des concentrateurs aux connexions nomades et internes, voire un concentrateur au Wi-Fi interne, ou à défaut les cloisonner par virtualisation.
+
+IV. AUTHENTIFICATION ET CERTIFICATS.
+
+      Authentifier l'utilisateur sur le poste, le poste sur le système et l'utilisateur sur le système.
+
+      Mettre en place une authentification multifacteur forte pour l'utilisateur nomade.
+
+      Mettre en place une infrastructure de gestion de clés maîtrisée par l'entité et dédiée au nomadisme, et protéger les secrets des certificats dans des composants sécurisés.
+
+      Configurer strictement l'autorité de certification légitime sur les postes et vérifier la validité des certificats du client et du concentrateur par l'agrafage OCSP.
+
+V. LA PASSERELLE D'INTERCONNEXION.
+
+      Ajouter des fonctions de sécurité complémentaires, dédier physiquement des équipements au nomadisme ou à défaut les cloisonner logiquement, et cloisonner chaque élément.
+
+      Dédier des socles physiques au pare-feu externe exposé à Internet et limiter ce pare-feu au filtrage des couches réseau.
+
+      Interdire tout flux direct entre postes nomades.
+
+VI. LES ACCÈS AUX APPLICATIONS.
+
+      Ne pas exposer d'applications métier directement sur Internet, ou à défaut authentifier les postes nomades par une fonction dédiée.
+
+      Interdire l'accès direct des utilisateurs nomades aux ressources dans le cloud, ou à défaut le sécuriser.
+
+      Filtrer les applications autorisées en nomadisme, privilégier des protocoles chiffrés et authentifiés dans le tunnel et restreindre la synchronisation hors ligne de documents au strict besoin.
+
+VII. ADMINISTRATION ET SUPERVISION.
+
+      Privilégier des matériels et logiciels disposant d'un visa de sécurité de l'ANSSI.
+
+      Respecter le guide d'administration sécurisée, assurer le maintien en condition opérationnelle et de sécurité.
+
+      Superviser l'état de sécurité des postes, journaliser les éléments du nomadisme, privilégier le mode push pour centraliser les journaux, corréler les événements et déployer une sonde de détection couvrant les flux de nomadisme.
+
+POINTS D'ATTENTION.
+
+      Le domicile est un lieu non maîtrisé, au même titre qu'un espace public.
+
+      Le split-tunneling est à proscrire, sauf configuration stricte et proxy de confiance.
+
+      Le VPN doit pouvoir se monter automatiquement sans que l'utilisateur puisse modifier la configuration.
+
+      Les adresses IP des concentrateurs VPN sont configurées directement pour éviter la dépendance au DNS.
+
+      Les portails captifs sont bloqués sur les postes nomades.
+
+EXEMPLES CITES.
+
+      La cafétéria et la bibliothèque comme espaces ouverts au public particulièrement sensibles.
+
+      L'article L. 1222-9 du code du travail définissant le télétravail.
+
+      Le chiffrement de disque avec TPM et carte à puce.
+
+      L'avis de l'ANSSI sur le modèle Zero Trust d'avril 2021, cité en bibliographie.
