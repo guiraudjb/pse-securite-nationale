@@ -1,0 +1,129 @@
+ANSSI, RECOMMANDATIONS RELATIVES AUX ARCHITECTURES DES SERVICES DNS, VERSION 1.0 D'AOÛT 2024.
+
+LEXIQUE COMPLET.
+
+      Le DNS, Domain Name System, est le système qui traduit les noms de domaine en adresses et en autres informations techniques.
+
+      Le serveur faisant autorité répond aux requêtes pour les zones placées sous son autorité, comme cyber.gouv.fr, sans faire appel à d'autres serveurs, et détient leurs enregistrements.
+
+      Le serveur primaire détient la version de référence d'une zone, et les serveurs secondaires en reçoivent des copies par transfert de zone.
+
+      Le serveur primaire caché, ou hidden master, n'interagit qu'avec les serveurs secondaires, ne répond pas aux clients et n'apparaît pas dans les enregistrements de la zone.
+
+      Le serveur récursif parcourt la hiérarchie DNS lorsqu'il ne connaît ni la réponse ni le serveur faisant autorité.
+
+      Le serveur cache stocke les réponses aux requêtes pour répondre plus vite aux suivantes.
+
+      Le transfert de zone copie le contenu d'une zone du serveur primaire vers les serveurs secondaires.
+
+      TSIG est un mécanisme d'authentification des transactions DNS par clé partagée, et XoT désigne le transfert de zone protégé par TLS.
+
+      DNSSEC est l'extension de sécurité du DNS qui garantit l'intégrité et l'authenticité des réponses par une chaîne de signatures.
+
+      L'empoisonnement de cache consiste à injecter de fausses réponses dans le cache d'un serveur pour détourner les utilisateurs.
+
+      Le serveur relais transmet les requêtes de résolution vers Internet en isolant le serveur cache.
+
+      Le serveur tampon s'intercale entre le primaire caché et des serveurs secondaires hébergés à l'extérieur de l'entité.
+
+COURS DÉTAILLÉ.
+
+I. LE PÉRIMÈTRE DU GUIDE.
+
+   A. Trois services DNS.
+
+      Le guide traite trois services qu'une entité peut déployer : la résolution des noms de domaine internes, désignée DNS-PRIV, la résolution des noms de domaine Internet, désignée DNS-PUB, et l'hébergement des noms de domaine Internet, désigné DNS-HEB.
+
+      Il compte 35 recommandations, communes ou propres à chaque service.
+
+   B. Les fonctions DNS.
+
+      Les fonctions de base sont le primaire, souvent caché, le secondaire, le cache, le récursif, le relais et le tampon.
+
+II. LES RECOMMANDATIONS COMMUNES.
+
+   A. Cloisonnement.
+
+      Cloisonner physiquement les infrastructures des services DNS internes et externes, et interdire les flux entre eux.
+
+      Suivre le guide sur les passerelles Internet sécurisées pour les services DNS externes.
+
+      Cloisonner les fonctions DNS sur des serveurs distincts et filtrer les flux réseau.
+
+   B. Le serveur primaire caché et les transferts de zone.
+
+      Il est nécessaire de mettre en œuvre le serveur primaire comme serveur caché afin de maîtriser son exposition et ses données.
+
+      Les transferts de zone sont protégés en intégrité par TSIG, et au niveau renforcé par XoT.
+
+   C. Durcissement.
+
+      Au niveau renforcé, diversifier les logiciels DNS pour qu'une même vulnérabilité n'affecte pas tous les serveurs.
+
+      Durcir les composants des services et activer le pare-feu local des serveurs.
+
+   D. DNSSEC.
+
+      DNSSEC est efficace contre l'empoisonnement de cache, car un serveur qui valide les signatures rejette les réponses non signées par les serveurs faisant autorité.
+
+      Il est un complément indispensable de protocoles qui s'appuient sur le DNS, comme SPF, DKIM, DMARC et DANE.
+
+      Son déploiement soulève toutefois des questions, d'où une analyse de risque spécifique, un processus de gestion et une supervision propres à DNSSEC.
+
+      Il faut activer la validation DNSSEC sur le service de résolution des noms de domaine Internet.
+
+   E. Administration et exploitation.
+
+      Appliquer les bonnes pratiques d'administration sécurisée, formaliser un processus de maintien en condition de sécurité et centraliser la journalisation des services DNS.
+
+III. LA RÉSOLUTION DES NOMS INTERNES, DNS-PRIV.
+
+      Interdire la résolution de noms de domaine Internet par ce service et interdire tout accès depuis Internet.
+
+      Limiter l'accès des clients au seul serveur cache, qui interroge le serveur faisant autorité lorsqu'il ne peut répondre seul.
+
+      Cloisonner les fonctions DNS et filtrer les flux et échanges internes.
+
+IV. LA RÉSOLUTION DES NOMS INTERNET, DNS-PUB.
+
+      Interdire les accès au service depuis Internet et limiter les accès internes.
+
+      Mettre en œuvre un serveur relais, cloisonner physiquement la fonction de cache et positionner les serveurs cache en coupure avec Internet.
+
+      Mettre en place des listes d'interdiction de domaines, et au niveau renforcé des listes d'autorisation.
+
+      Limiter le nombre de requêtes par système client.
+
+V. L'HÉBERGEMENT DES NOMS INTERNET, DNS-HEB.
+
+      Ce service exposé sur Internet comprend un primaire caché, des secondaires et une fonction tampon.
+
+      Mettre en place des protections contre les dénis de service distribués et cloisonner physiquement ses serveurs.
+
+      Suivre le guide sur l'acquisition et l'exploitation de noms de domaine.
+
+      Utiliser un serveur tampon pour les secondaires externes à l'entité, cloisonner le primaire caché d'Internet et positionner les secondaires en coupure d'Internet.
+
+      Les mises à jour des enregistrements se font sur le primaire caché et se propagent aux secondaires par transfert de zone.
+
+POINTS D'ATTENTION.
+
+      Les services DNS internes et externes doivent être physiquement séparés, sans flux entre eux.
+
+      Le serveur primaire est toujours caché et ne répond pas aux clients.
+
+      Les transferts de zone sont protégés par TSIG ou, mieux, par XoT.
+
+      DNSSEC protège contre l'empoisonnement de cache mais exige une analyse de risque, un processus de gestion et une supervision dédiés.
+
+      Les clients internes n'interrogent que le serveur cache.
+
+EXEMPLES CITES.
+
+      La zone cyber.gouv.fr comme exemple de zone servie par un serveur faisant autorité.
+
+      Les protocoles SPF, DKIM, DMARC et DANE qui s'appuient sur le DNS.
+
+      Le guide ANSSI-BP-038 sur les bonnes pratiques d'acquisition et d'exploitation de noms de domaine.
+
+      Le guide de sécurisation d'un commutateur de desserte et le guide de configuration GNU/Linux, cités en bibliographie.
