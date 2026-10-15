@@ -1,0 +1,119 @@
+ANSSI, LES MESURES CYBER PRÉVENTIVES PRIORITAIRES, MAI 2023, ET FICHES RECYF EN PRATIQUE, ADMINISTRATION ET ARCHITECTURES SÉCURISÉES, SEPTEMBRE ET OCTOBRE 2026.
+
+LEXIQUE COMPLET.
+
+      Les mesures cyber préventives prioritaires sont cinq mesures que l'ANSSI préconise de mettre en œuvre à court terme pour limiter la probabilité et les effets d'une cyberattaque.
+
+      L'authentification forte nécessite deux facteurs d'authentification différents.
+
+      La sauvegarde hors ligne est une sauvegarde déconnectée du système d'information, par exemple sur disque externe ou bande magnétique, pour la protéger d'un chiffrement par rançongiciel.
+
+      Le stockage à froid conserve des données sur des supports non connectés en permanence.
+
+      Le ReCyF, Référentiel cyber France ou Référentiel français de cybersécurité, a vocation à devenir le socle de la réglementation cyber française, notamment pour la transposition de NIS 2.
+
+      Les entités importantes, EI, et les entités essentielles, EE, sont les deux catégories d'entités régulées par la directive NIS 2.
+
+      Le cloisonnement met en œuvre des mesures de sécurité entre différentes zones du système pour limiter leur exposition et la propagation d'un attaquant.
+
+      La latéralisation est le déplacement d'un attaquant d'une zone compromise vers d'autres zones du même système.
+
+      Le filtrage limite les communications entre zones aux seuls flux nécessaires et autorisés.
+
+      Le modèle de cloisonnement par niveau, ou tiering model, sépare les comptes et ressources d'administration selon leur niveau de privilège.
+
+COURS DÉTAILLÉ.
+
+I. LES CINQ MESURES CYBER PRÉVENTIVES PRIORITAIRES.
+
+   A. Le principe.
+
+      L'ANSSI préconise cinq mesures préventives prioritaires, essentielles et à mettre en œuvre à court terme.
+
+      Pour être pleinement efficaces, elles doivent s'inscrire dans une démarche de cybersécurité globale et de long terme.
+
+   B. Renforcer l'authentification.
+
+      Renforcer l'authentification des comptes particulièrement exposés : administrateurs, qui accèdent à toutes les ressources critiques, et personnes exposées comme le personnel de direction.
+
+      Mettre en œuvre une authentification forte à deux facteurs différents : un mot de passe, un tracé de déverrouillage ou une signature, et un support matériel comme une carte à puce, un jeton USB, une carte magnétique ou RFID, ou a minima un code reçu par un autre canal comme le SMS.
+
+      Pour les administrateurs, l'authentification renforcée s'applique à tous leurs comptes : Active Directory, administration d'applications et cloud.
+
+   C. Accroître la supervision de sécurité.
+
+      Mettre en place une supervision des événements journalisés pour détecter au plus tôt une compromission et gagner du temps en cas d'incident.
+
+      À défaut de supervision, centraliser les journaux des points les plus sensibles : points d'entrée VPN, bureaux virtuels, contrôleurs de domaine et hyperviseurs.
+
+      Renforcer la vigilance, inspecter les connexions anormales sur les contrôleurs de domaine et étudier systématiquement les alertes antivirus et EDR sur les serveurs sensibles.
+
+      Accélérer si possible le déploiement d'outils de visibilité comme Sysmon, les EDR et les XDR.
+
+   D. Sauvegarder hors ligne.
+
+      Réaliser des sauvegardes régulières de toutes les données, serveurs de fichiers, infrastructures et applications métier critiques.
+
+      Déconnecter au moins les sauvegardes les plus critiques du système, par stockage à froid sur disques externes ou bandes magnétiques, et les actualiser fréquemment.
+
+   E. Lister les services numériques critiques.
+
+      Inventorier, avec les métiers, les services numériques et les classer par sensibilité pour la continuité d'activité, en identifiant les dépendances envers les prestataires.
+
+   F. Préparer la gestion de crise.
+
+      Une cyberattaque peut rendre inutilisables la téléphonie, la messagerie et les applications métier, et imposer un fonctionnement dégradé, parfois au papier et au crayon.
+
+      Définir des points de contact d'urgence, y compris chez les prestataires, avec leurs numéros sur papier.
+
+      Définir un plan de réponse aux cyberattaques, un plan de continuité informatique pour continuer à fonctionner et un plan de reprise informatique pour restaurer systèmes et données.
+
+II. LES FICHES RECYF EN PRATIQUE.
+
+   A. La collection.
+
+      Les fiches ReCyF en pratique éclairent les principales mesures de gestion des risques du ReCyF, sans s'y substituer, sans être prescriptives ni exhaustives.
+
+      Elles s'adressent à un public technique et sont organisées en cinq rubriques : Défense, Protection, Gouvernance, Résilience et Obligations NIS 2, les quatre premières étant les piliers des mesures de gestion des risques.
+
+      Un repère en marge distingue les passages destinés aux seules entités essentielles de ceux destinés à toutes les entités.
+
+   B. La fiche Administration.
+
+      L'effet recherché est que toute action d'administration soit légitime, réalisée depuis un compte et des ressources d'administration dédiés, et attribuable de façon univoque à un administrateur ou un processus automatique.
+
+      Elle repose sur deux principes : la maîtrise des comptes et des privilèges d'administration, et la maîtrise des ressources d'administration par la séparation des usages et le cloisonnement.
+
+      Ces principes font écho au modèle de cloisonnement par niveau des environnements Microsoft, certaines ressources comme les annuaires permettant de contrôler la majorité du système.
+
+   C. La fiche Architectures sécurisées.
+
+      L'architecture sécurisée vise à prévenir les intrusions, mais aussi à les détecter et à y remédier si les protections échouent.
+
+      Le cloisonnement réduit l'exposition et la latéralisation, le filtrage limite les flux au strict nécessaire et rend visibles les comportements anormaux, et la sécurité des accès distants traite les usages hors des locaux.
+
+      Le cloisonnement relève de l'objectif de sécurité 7 du ReCyF, sécurisation de l'architecture des systèmes d'information, avec des mesures applicables aux entités importantes et essentielles ou aux seules entités essentielles.
+
+      Après le cloisonnement périmétrique, il est souvent pertinent de cloisonner l'intérieur du système.
+
+POINTS D'ATTENTION.
+
+      Les cinq mesures prioritaires sont : authentification renforcée, supervision, sauvegardes hors ligne, liste des services critiques et gestion de crise.
+
+      Les sauvegardes critiques doivent être déconnectées pour échapper au rançongiciel.
+
+      L'authentification renforcée des administrateurs couvre tous leurs comptes, y compris dans le cloud.
+
+      Le ReCyF a vocation à devenir le socle de la réglementation cyber française, en lien avec NIS 2.
+
+      Les fiches ReCyF ne remplacent pas le référentiel et ne sont pas prescriptives.
+
+EXEMPLES CITES.
+
+      Les points d'entrée VPN, bureaux virtuels, contrôleurs de domaine et hyperviseurs comme journaux prioritaires.
+
+      Les outils Sysmon, EDR et XDR.
+
+      Les disques durs externes et bandes magnétiques pour le stockage à froid.
+
+      Le retour au papier et au crayon en fonctionnement dégradé.
