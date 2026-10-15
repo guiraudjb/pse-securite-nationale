@@ -1,0 +1,185 @@
+ANSSI, RÈGLES ET RECOMMANDATIONS CONCERNANT LE CHOIX ET LE DIMENSIONNEMENT DES MÉCANISMES CRYPTOGRAPHIQUES, VERSION 3.00 DU 20 MARS 2026, GUIDE DE SÉLECTION D'ALGORITHMES CRYPTOGRAPHIQUES DE 2021 ET ANALYSE DE RISQUE SUR LES USAGES DE LA CRYPTOGRAPHIE DE 2026.
+
+LEXIQUE COMPLET.
+
+      Le mécanisme cryptographique, aussi appelé algorithme ou primitive, est un outil qui assure ou contribue à assurer la confidentialité, l'intégrité, l'authenticité ou la non-répudiation.
+
+      La primitive est un composant élémentaire, comme un algorithme de chiffrement par bloc, et la construction un mécanisme complet bâti sur des primitives, comme un mode de chiffrement authentifié.
+
+      La règle est un principe qui doit être suivi par tout mécanisme pour être conforme au référentiel, et la recommandation une bonne pratique qui renforce la sécurité au-delà de la conformité.
+
+      Le MAC, code d'authentification de message, garantit l'intégrité et l'origine d'un message à l'aide d'une clé secrète.
+
+      La fonction de hachage produit une empreinte de taille fixe d'un message, et la XOF une fonction à sortie extensible.
+
+      La confidentialité persistante, ou PFS, Perfect Forward Secrecy, garantit que la compromission ultérieure d'un secret de long terme n'affecte pas la confidentialité des sessions passées.
+
+      Le décryptement consiste à retrouver le clair sans disposer de la clé légitime, à la différence du déchiffrement, réalisé avec la clé.
+
+      Le générateur d'aléa cryptographique combine en général une source physique d'aléa et un retraitement algorithmique doté d'un état interne.
+
+      Le mécanisme post-quantique est un mécanisme asymétrique dont la sécurité repose sur un problème présumé résistant au calcul quantique ou sur un mécanisme symétrique conforme.
+
+      L'inventaire cryptographique recense les données, systèmes, équipements et mécanismes cryptographiques concernés par la migration post-quantique.
+
+COURS DÉTAILLÉ.
+
+I. LES TROIS DOCUMENTS.
+
+   A. Le référentiel de dimensionnement.
+
+      Le guide ANSSI-PG-083, dont la première version applicable date de 2004, a été mis à jour en version 3.00 le 20 mars 2026 pour prendre en compte la menace quantique.
+
+      Il définit des règles, dont le respect conditionne la conformité au référentiel, et des recommandations, sachant que suivre toutes les règles ne suffit pas à garantir la robustesse, qui exige une analyse spécifique.
+
+      Il exclut la gestion des clés, la liste exhaustive des mécanismes recommandés, la sécurité d'implémentation face aux canaux auxiliaires et les méthodes d'évaluation.
+
+   B. Le guide de sélection.
+
+      Le guide de sélection d'algorithmes cryptographiques, version 1.0 du 8 mars 2021, donne la liste des mécanismes recommandés et des mises en garde pratiques.
+
+   C. L'analyse de risque de 2026.
+
+      L'analyse de risque de haut niveau sur le chiffrement et autres usages de la cryptographie s'adresse aux organisations utilisatrices non spécialistes et les incite à lancer leur transition post-quantique dès maintenant.
+
+II. LES DEUX RECOMMANDATIONS GÉNÉRALES.
+
+      RecoSécuLongTerme : en cas d'utilisation prévue au-delà du 1er janvier 2030 ou de risque d'attaque rétroactive, il est recommandé de viser une sécurité post-quantique.
+
+      RecoMécanismesÉprouvés : il est recommandé d'employer des mécanismes éprouvés et reconnus par la communauté académique.
+
+      Un adversaire ayant enregistré un échange de clé Diffie-Hellman et les communications chiffrées pourra, avec un ordinateur quantique, en compromettre la confidentialité.
+
+III. LA CRYPTOGRAPHIE SYMÉTRIQUE.
+
+   A. Taille de clé et de bloc.
+
+      La taille minimale des clés symétriques est de 128 bits, et il est recommandé d'employer au moins 192 bits lorsqu'une sécurité post-quantique est visée.
+
+      Les clés de 64 bits sont clairement insuffisantes, car une recherche exhaustive est aujourd'hui possible, et l'emploi de clés ne dépassant pas significativement 100 bits est risqué.
+
+      Une primitive de chiffrement par bloc doit opérer sur des blocs d'au moins 128 bits, en raison des attaques fondées sur le paradoxe des anniversaires.
+
+   B. Modes de chiffrement et intégrité.
+
+      Aucune attaque ne doit être plus efficace que la recherche exhaustive en exploitant un nombre de blocs chiffrés sous une même clé nettement inférieur à 2 puissance n sur 2, n étant la taille du bloc.
+
+      Il est recommandé d'employer un mode de chiffrement non déterministe.
+
+      Un mécanisme d'intégrité ne doit pas être attaquable en moins de 2 puissance 128 opérations, et son motif d'intégrité doit faire au moins 96 bits lorsque sa sécurité est indépendante de la taille des messages.
+
+   C. Hachage.
+
+      Les empreintes d'une fonction de hachage cryptographique doivent faire au moins 256 bits, et 384 bits sont recommandés lorsqu'une sécurité post-quantique est visée.
+
+      La meilleure attaque en collision doit demander de l'ordre de 2 puissance h sur 2 calculs et la meilleure attaque en préimage de l'ordre de 2 puissance h, h étant la taille d'empreinte.
+
+      Il est déconseillé d'employer une fonction de hachage pour laquelle une attaque partielle est connue.
+
+IV. LA CRYPTOGRAPHIE ASYMÉTRIQUE.
+
+   A. Les hypothèses de sécurité.
+
+      Face à un adversaire classique, la sécurité doit reposer sur un problème mathématique largement éprouvé ou sur un mécanisme symétrique conforme.
+
+      Lorsqu'une sécurité post-quantique est visée, elle doit reposer sur un problème présumé résistant au calcul quantique ou sur un mécanisme symétrique conforme.
+
+   B. RSA et logarithme discret.
+
+      Le module RSA doit faire au moins 2048 bits pour une utilisation jusqu'à la fin de 2030, et au moins 3072 bits à partir de 2031, l'ANSSI recommandant 3072 bits même avant.
+
+      Il est recommandé d'employer des exposants publics strictement supérieurs à 65536 et de taille maximale 256 bits, et des facteurs premiers de même taille.
+
+      Pour le logarithme discret modulo p, les modules doivent faire 2048 bits jusqu'en 2030 et 3072 bits à partir de 2031, avec des sous-groupes d'ordre multiple d'un premier d'au moins 250 bits.
+
+      Pour les courbes elliptiques, on emploie des sous-groupes d'ordre multiple d'un nombre premier d'au moins 250 bits.
+
+   C. Réseaux euclidiens.
+
+      Les paramètres des problèmes LWE et SIS, structurés ou non, doivent rendre la meilleure attaque quantique connue au moins aussi coûteuse que la résolution du problème SVP dans un réseau générique de dimension 400.
+
+   D. Authentification et établissement de clé.
+
+      Si un mécanisme d'authentification utilise un secret de faible entropie, comme un mot de passe, aucune recherche exhaustive hors ligne ne doit être possible pour un attaquant actif ou passif.
+
+      La confidentialité persistante est recommandée, et tout secret temporaire d'un canal sécurisé doit être effacé au plus tard à la fin de chaque session.
+
+V. LA GÉNÉRATION D'ALÉA.
+
+      Un retraitement algorithmique doté d'un état interne d'au moins 192 bits doit être employé.
+
+      En l'absence de générateur physique d'aléa, le retraitement doit disposer d'une mémoire non volatile.
+
+VI. LE GUIDE DE SÉLECTION, 2021.
+
+   A. Les mécanismes recommandés.
+
+      AES est recommandé pour ses trois tailles de clé, 128, 192 et 256 bits.
+
+      Les modes de chiffrement authentifié Encrypt-then-MAC, GCM, CCM et EAX sont recommandés sous conditions, ainsi que ChaCha20-Poly1305, GCM ne l'étant que si certaines conditions sont remplies.
+
+      HMAC fondé sur une fonction de hachage recommandée est recommandé, HMAC-SHA1 étant seulement toléré comme mécanisme obsolescent.
+
+      Pour le chiffrement de clés, SIV et AES-KeyWrap sont recommandés, et pour le hachage de mots de passe, PBKDF2.
+
+   B. Les mises en garde.
+
+      Utiliser des mécanismes complets, et non les primitives sous-jacentes isolées.
+
+      Une clé, un usage : réutiliser la même clé dans plusieurs mécanismes, par exemple AES-CBC et AES-CBC-MAC, peut être désastreux.
+
+      Gérer le cycle de vie des clés et utiliser des bibliothèques éprouvées bénéficiant d'un suivi de sécurité.
+
+      La créativité n'est pas recommandée : la sécurité ne doit jamais reposer sur le secret des spécifications.
+
+VII. L'ANALYSE DE RISQUE POST-QUANTIQUE DE 2026.
+
+   A. Le constat.
+
+      Toutes les organisations sont vulnérables à la menace quantique, mais beaucoup ne perçoivent ni l'urgence ni la nécessité de migrer.
+
+      La migration post-quantique d'une organisation est estimée à environ dix ans, d'où la nécessité de commencer immédiatement pour migrer les actifs critiques avant l'apparition d'un ordinateur quantique.
+
+      Sont menacés RSA, les échanges de clés ECDH et les signatures ECDSA.
+
+   B. Cinq risques métier.
+
+      Risque 1, le décryptement rétroactif de données, qui vise la confidentialité et sert surtout l'espionnage étatique.
+
+      Risque 2, le décryptement en temps réel de données.
+
+      Risque 3, la falsification de documents signés, qui vise l'intégrité.
+
+      Risque 4, la prise de contrôle d'équipements aux longs cycles de vie, qui vise l'authentification.
+
+      Risque 5, l'attaque par la chaîne d'approvisionnement.
+
+   C. Une démarche en quatre étapes.
+
+      Évaluer la criticité de l'entité, notamment par un inventaire des actifs, construire la stratégie de transition, la mettre en œuvre, et assurer une gouvernance continue de la cryptographie.
+
+      Les actifs sont priorisés de P1, à migrer immédiatement, à P3, selon la durée de confidentialité, la durée de vie, l'exposition et la complexité de la migration.
+
+      Il est recommandé de privilégier l'achat de produits intégrant la cryptographie post-quantique à partir de 2030.
+
+POINTS D'ATTENTION.
+
+      Minima classiques : clé symétrique de 128 bits, bloc de 128 bits, empreinte de 256 bits, RSA de 2048 bits jusqu'en 2030 puis 3072 bits.
+
+      Minima post-quantiques recommandés : clé symétrique de 192 bits et empreinte de 384 bits.
+
+      Le seuil du 1er janvier 2030 déclenche la recommandation de sécurité post-quantique.
+
+      Une clé ne doit servir qu'à un seul usage.
+
+      La migration post-quantique prend environ dix ans.
+
+EXEMPLES CITES.
+
+      La réutilisation d'une même clé AES pour AES-CBC et AES-CBC-MAC.
+
+      L'échange de clé Diffie-Hellman enregistré puis cassé par un futur ordinateur quantique.
+
+      Les mécanismes recommandés AES, ChaCha20-Poly1305, HMAC, SIV, AES-KeyWrap et PBKDF2.
+
+      Le seuil de dimension 400 pour la résolution de SVP dans un réseau générique.
