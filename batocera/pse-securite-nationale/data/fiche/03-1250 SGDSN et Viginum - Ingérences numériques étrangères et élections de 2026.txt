@@ -1,0 +1,113 @@
+SGDSN ET VIGINUM, BULLETINS DU RÉSEAU DE COORDINATION ET DE PROTECTION DES ÉLECTIONS, NUMÉROS 1 À 10, DU 30 JANVIER AU 26 MARS 2026, ET SYNTHÈSE PUBLIQUE SUR LES ÉLECTIONS PROVINCIALES EN NOUVELLE-CALÉDONIE DE JUIN 2026, DU 17 SEPTEMBRE 2026.
+
+LEXIQUE COMPLET.
+
+      Une ingérence numérique étrangère, INE, est définie par le décret du 13 juillet 2021 et réunit quatre critères : un contenu manifestement inexact ou trompeur, une diffusion artificielle ou inauthentique, une atteinte aux intérêts fondamentaux de la Nation et l'implication d'un acteur étranger.
+
+      Le réseau de coordination et de protection des élections, RCPE, coordonné par le SGDSN, évalue la menace d'ingérence pendant les élections, propose des réponses et informe le public.
+
+      L'Arcom est l'autorité de régulation de la communication audiovisuelle et numérique, coordinateur national pour les services numériques.
+
+      La CNCCFP est la commission nationale des comptes de campagne et des financements politiques.
+
+      PHAROS est la plateforme du ministère de l'Intérieur de signalement des contenus illicites en ligne.
+
+      Le règlement européen sur les services numériques, RSN ou DSA, impose aux grandes plateformes d'atténuer les risques systémiques, notamment électoraux.
+
+COURS DÉTAILLÉ.
+
+I. LE DISPOSITIF DE PROTECTION DES ÉLECTIONS.
+
+   A. Le RCPE.
+
+      Créé pour les élections municipales des 15 et 22 mars 2026, le RCPE s'est réuni pour la première fois le 21 janvier 2026 et a publié dix bulletins hebdomadaires à partir du 30 janvier.
+
+      Il réunit l'Arcom, la CNCCFP, le secrétariat général du Gouvernement, le ministère de l'Intérieur, Viginum et le comité éthique et scientifique qui suit l'activité de Viginum.
+
+      Il a été reconduit pour les élections provinciales de Nouvelle-Calédonie du 28 juin 2026.
+
+   B. Les leviers de réponse.
+
+      Informer les partis, candidats, médias ciblés et le réseau préfectoral.
+
+      Partager des informations techniques avec les plateformes ou signaler des contenus illicites via PHAROS.
+
+      Dénoncer publiquement une tentative d'ingérence, et signaler à l'autorité judiciaire au titre de l'article 40 du code de procédure pénale ou la saisir en référé.
+
+   C. Le rôle de Viginum.
+
+      Viginum détecte, caractérise et documente, à partir des données publiques des plateformes, les manœuvres de nature à altérer l'information des citoyens en période électorale.
+
+      Il fournit des informations à l'Arcom pour la supervision du règlement européen sur les services numériques et aux autorités saisies des élections.
+
+II. LES QUATRE STRATÉGIES D'INGÉRENCE EN PÉRIODE ÉLECTORALE.
+
+   A. Décrédibiliser la procédure électorale.
+
+      Il s'agit de présenter le scrutin comme faussé, insincère, inutile ou manipulé pour pouvoir en contester le résultat.
+
+   B. Alimenter la défiance envers les médias.
+
+      Il s'agit de délégitimer les médias pour semer la confusion et réorienter les citoyens vers des sources manipulées administrées par des acteurs étrangers.
+
+   C. Affecter la réputation d'un candidat ou d'un parti.
+
+      Il s'agit de modifier la perception d'un candidat en le dénigrant ou en le promouvant.
+
+   D. Instrumentaliser des thèmes clivants.
+
+      Il s'agit d'amplifier artificiellement des sujets sensibles pour polariser le débat public et diviser la société.
+
+III. LES ÉLECTIONS MUNICIPALES DE MARS 2026.
+
+   A. Le bilan.
+
+      Quatre opérations d'ingérence numérique étrangère ciblant spécifiquement le scrutin municipal ont été caractérisées, mobilisant les quatre stratégies.
+
+      Leur impact a été jugé limité, en raison notamment de la faible visibilité de la plupart des contenus.
+
+   B. Les opérations observées.
+
+      Depuis février 2025, des acteurs liés à Storm-1516 ont enregistré plus d'une centaine de noms de domaine imitant des sites de presse locaux français, alimentés par des articles reformulés par IA, pour se prépositionner.
+
+      En mars 2026, Storm-1516 a visé un candidat à Paris via un site imitant le site officiel du candidat et des comptes rémunérés sur X.
+
+      Storm-1679 et Matriochka ont usurpé des médias français pour prétendre que les élections ne pourraient pas se tenir en sécurité.
+
+      Un mode opératoire présentant des marqueurs étrangers et des photos générées par IA a ciblé des candidats d'un parti à Marseille et à Toulouse.
+
+      Un écosystème de dizaines de pages Facebook et de sites administrés depuis l'étranger a diffusé des contenus générés par IA à visée de piège à clic, avec une recherche de rémunération.
+
+IV. LES ÉLECTIONS PROVINCIALES EN NOUVELLE-CALÉDONIE.
+
+   A. Le contexte.
+
+      Tous les scrutins sont désormais susceptibles d'être visés : Viginum a détecté vingt-cinq tentatives d'ingérence lors des élections européennes et législatives de 2024.
+
+      La Nouvelle-Calédonie a déjà été ciblée à plusieurs reprises par des acteurs de la menace informationnelle.
+
+   B. Le dispositif et le bilan.
+
+      Les plateformes ont été réunies le 18 juin 2026 par l'Arcom, Viginum, le Haut-Commissariat et la direction générale des outre-mer pour présenter leurs mesures d'atténuation.
+
+      Entre le 18 juin et le 2 juillet 2026, aucune ingérence numérique étrangère n'a été caractérisée ; seules deux publicités d'un média d'influence étranger ont été relevées.
+
+POINTS D'ATTENTION.
+
+      Les quatre critères de l'ingérence et les quatre stratégies électorales sont à distinguer.
+
+      Le RCPE informe le public chaque semaine par souci de transparence.
+
+      Quatre ingérences ont été caractérisées lors des municipales de 2026, avec un impact limité.
+
+      Storm-1516 prépare ses opérations en imitant des médias locaux grâce à l'IA.
+
+EXEMPLES CITES.
+
+      Les faux sites de presse locale de Storm-1516.
+
+      Le faux site imitant celui d'un candidat parisien.
+
+      Les vidéos de Storm-1679 et Matriochka sur la sécurité du scrutin.
+
+      Les vingt-cinq tentatives d'ingérence de 2024.
