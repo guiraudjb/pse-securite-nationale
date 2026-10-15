@@ -1,0 +1,21 @@
+Quels organismes ont élaboré le guide de cybersécurité des start-up du numérique ?;L'ENISA et Europol;La CNIL et la DGSI;Bpifrance seul;L'ANSSI et la Mission French Tech;5;Version 1.0 de février 2026.
+Quelle catégorie d'entités est la plus affectée par les compromissions et rançongiciels selon le panorama 2024 ?;Les ministères;Les grandes banques;Les petites ou jeunes entreprises;Les opérateurs d'importance vitale;4;D'où l'intérêt d'un guide dédié.
+Combien d'enjeux de sécurité la frise du cycle de vie met-elle en évidence ?;Cinquante;Treize;Cent;Trois;3;Chacun fait l'objet d'une fiche pratique.
+Combien d'incidents l'ANSSI a-t-elle traités en 2024 ?;1361;42;17;100 000;2;Sur 4386 événements de sécurité.
+À quelle fréquence minimale le guide recommande-t-il une sauvegarde hors ligne ?;Jamais;Une fois tous les dix ans;Une fois par heure obligatoirement;Au moins une fois par mois;5;Avec des sauvegardes régulières.
+Quelle durée maximale de verrouillage automatique de session est recommandée ?;Cinq minutes;Une journée;Aucun verrouillage;Deux heures;2;Il faut aussi verrouiller en cas d'absence.
+Où ne faut-il pas enregistrer ses mots de passe ?;Dans les navigateurs Internet;Dans un gestionnaire hors ligne;Dans KeePass;Dans un coffre-fort de secrets;2;Un gestionnaire de mots de passe est préférable.
+Que ne faut-il jamais réimplémenter soi-même ?;La documentation;Les bibliothèques cryptographiques;La page d'accueil;Les tests unitaires;3;Leur robustesse fait consensus dans la communauté scientifique.
+Que générer à chaque construction pour gérer les composants tiers ?;Un pitch deck;Une SBOM;Une facture;Un security.txt;3;Elle s'analyse avec un outil SCA.
+Pourquoi se méfier des noms de paquets ?;Ils changent chaque jour;Ils sont trop longs;Un nom très proche du légitime peut cacher un paquet malveillant;Ils sont en anglais;4;C'est un risque de la chaîne d'approvisionnement logicielle.
+Que faut-il faire des données de production dans l'environnement de développement ?;Ne jamais les y stocker;Les y publier;Les y dupliquer chaque nuit;Les y chiffrer puis les partager;2;Il faut des bases de développement dédiées.
+Quels langages le guide recommande-t-il de favoriser ?;Peu importe;Les langages interprétés uniquement;Ceux qui sont sûrs pour la mémoire (memory-safe);Les plus anciens;4;Ils offrent nativement des propriétés de sécurité.
+Quels comptes privilégier pour les identités non humaines de déploiement ?;Des comptes partagés;Des comptes administrateurs permanents;Des comptes éphémères;Des comptes personnels;4;Le nombre et les privilèges des comptes humains sont limités.
+Quelle RFC définit le fichier security.txt ?;La RFC 791;La RFC 1918;La RFC 9116;La RFC 2616;4;Il publie les contacts relatifs à la sécurité.
+Qui prévenir en cas de vulnérabilité ou d'incident sur le produit ?;Personne;Uniquement les investisseurs;La presse en premier;Les clients et l'ANSSI via le CERT-FR;5;Le guide demande la transparence.
+Quelle qualification privilégier pour héberger les données critiques ?;SecNumCloud;ISO 9001;Label Rouge;Aucune;2;Elle est attendue par la doctrine Cloud au centre de l'État.
+Que doit contenir le pitch deck d'une levée de fonds ?;Les mots de passe;Uniquement des informations non sensibles;Le code source;La base clients;3;Il est diffusé largement en début de processus.
+Qu'est-ce qu'une faille IDOR ?;Un manque de vérification côté serveur de l'autorisation d'accès à une ressource;Un virus de messagerie;Une panne électrique;Un défaut de chiffrement du disque;2;Elle se décline en BFLA, BOLA et BOPLA.
+Quel rang occupent les IDOR dans le Top 10 OWASP 2025 ?;Elles n'y figurent pas;Le dixième;Le cinquième;Le premier;5;Elles sont faciles à exploiter.
+Où le contrôle des droits d'accès doit-il être effectué ?;Uniquement côté client;Dans le navigateur;Nulle part;Systématiquement côté serveur;5;Un contrôle côté client est insuffisant.
+Quel signe peut révéler l'exploitation d'une IDOR en production ?;Une connexion le matin;Une mise à jour du système;Un pic de requêtes d'une même source ressemblant à une énumération séquentielle d'identifiants;Une baisse de la température;4;On bloque alors l'adresse IP ou le compte.

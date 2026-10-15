@@ -1,0 +1,129 @@
+ANSSI ET MISSION FRENCH TECH, GUIDE DE CYBERSÉCURITÉ À L'USAGE DES START-UP DU NUMÉRIQUE, VERSION 1.0 DE FÉVRIER 2026, ET ESSENTIEL SE PROTÉGER DES FAILLES DE TYPE IDOR, VERSION 1.0 D'OCTOBRE 2026.
+
+LEXIQUE COMPLET.
+
+      Une start-up est une jeune entreprise innovante qui développe une solution technologique pour créer de nouveaux usages, services ou produits, avec une ambition de forte croissance.
+
+      L'IDOR, Insecure Direct Object Reference, est une vulnérabilité due à un manque de vérification côté serveur de l'autorisation d'accès d'un utilisateur à une ressource.
+
+      Les sous-types de l'IDOR portent sur le droit d'accès à une fonction, BFLA, à un objet, BOLA, ou à une propriété, BOPLA.
+
+      La SBOM, Software Bill of Materials, est la nomenclature des composants logiciels d'un produit.
+
+      L'analyse de composition logicielle, SCA, identifie les vulnérabilités et licences des composants tiers.
+
+      L'analyse statique de code, SAST, examine le code source au plus tôt, et l'analyse dynamique, DAST, teste l'application déployée.
+
+      L'infrastructure as code, IaC, décrit et déploie l'infrastructure par du code et des fichiers de configuration.
+
+      Les identités non humaines, NHI, sont les comptes techniques utilisés par les automatismes de déploiement.
+
+      La divulgation coordonnée de vulnérabilités, CVD, organise le signalement des failles par des tiers.
+
+      Le fichier security.txt, défini par la RFC 9116, publie sur un site les contacts relatifs à la sécurité.
+
+COURS DÉTAILLÉ.
+
+I. LE GUIDE DES START-UP DU NUMÉRIQUE.
+
+   A. Le contexte.
+
+      Le guide, élaboré par l'ANSSI et la Mission French Tech, vise les start-up qui développent un produit logiciel, avec des équipes restreintes et des moyens limités.
+
+      Les petites ou jeunes entreprises sont la catégorie d'entités la plus affectée par les compromissions et les rançongiciels, selon le panorama de la cybermenace 2024 de l'ANSSI.
+
+      Les atteintes numériques ont progressé de 74 pour cent en cinq ans, avec plus de 17 100 cas en 2024, et l'ANSSI a traité 4386 événements de sécurité dont 1361 incidents en 2024.
+
+      Une frise du cycle de vie, de l'idéation au passage à l'échelle, met en évidence treize enjeux de sécurité, chacun traité par une fiche pratique.
+
+   B. Protéger le savoir-faire et les postes de travail.
+
+      Identifier dès l'idéation les données de valeur : commerciales, financières et RH, techniques comme le code source, et données des clients.
+
+      Chiffrer les données sensibles avant tout envoi à des tiers, sauvegarder au moins une fois par mois hors ligne, et revoir les comptes et droits idéalement tous les six mois.
+
+      Séparer usages personnels et professionnels, activer les mises à jour automatiques et les fonctions de sécurité natives, travailler sans privilèges d'administrateur local.
+
+      Utiliser un gestionnaire de mots de passe, de préférence hors ligne, ne pas enregistrer les mots de passe dans les navigateurs, et verrouiller la session en cinq minutes maximum.
+
+   C. Réglementation et composants tiers.
+
+      Se poser au plus tôt la question des réglementations applicables, comme NIS 2, le RGPD, HDS, l'IA Act, le Cyber Resilience Act ou DORA, avec l'aide éventuelle de la plateforme MonEspaceNIS2.
+
+      Ne jamais réimplémenter soi-même des bibliothèques cryptographiques, anticiper les changements de licence open-source et prévoir la réversibilité.
+
+      Générer une SBOM à chaque construction, l'analyser avec un outil SCA, activer les audits natifs comme npm ou pip-audit et se méfier des noms de paquets proches des noms légitimes.
+
+   D. Développement et déploiement.
+
+      Appliquer le moindre privilège, ne jamais stocker de données de production ni de secrets en clair dans l'environnement de développement, signer les commits et pratiquer la relecture de code par un pair.
+
+      Favoriser les langages sûrs pour la mémoire et mettre en place dès le départ gestion des versions, SAST, SCA et gestion des secrets, puis DAST.
+
+      Encadrer l'usage de l'IA en assistance au développement, vérifier le code généré et ne pas transmettre d'informations sensibles aux modèles.
+
+      Pour les déploiements, limiter les comptes d'administration humains, préférer des comptes éphémères pour les NHI, séparer intégration et déploiement continus, signer les artefacts et prévoir des mécanismes de retour arrière.
+
+   E. Valoriser la sécurité et passer à l'échelle.
+
+      La cybersécurité devient un levier de création de valeur : accès aux marchés, confiance des utilisateurs, différenciation.
+
+      Publier un fichier security.txt et un security.md, envisager une politique CVD et associer le RSSI des clients aux démonstrations.
+
+      Lors de l'industrialisation, limiter les versions coexistantes, documenter le produit, être transparent avec les clients en cas de vulnérabilité et prévenir l'ANSSI via le CERT-FR.
+
+      Lors du passage à l'échelle, créer des postes dédiés de RSSI, préparer PCA, PRA et plan de réponse aux incidents, et étudier les certifications et qualifications comme CSPN, SecNumCloud ou HDS.
+
+   F. Hébergement, travail collaboratif et levée de fonds.
+
+      Le fournisseur cloud n'assure qu'une partie de la sécurité, peut accéder aux données confiées, et des lois à portée extraterritoriale peuvent s'appliquer ; privilégier les offres qualifiées SecNumCloud pour les données critiques, en cohérence avec la doctrine Cloud au centre de l'État.
+
+      Définir des rôles, un compte par rôle, des outils à gestion de droits de type RBAC et un processus d'arrivée et de départ des collaborateurs.
+
+      Pour une levée de fonds, ne mettre que des informations non sensibles dans le pitch deck, faire signer des accords de confidentialité, et héberger la data room chez un fournisseur de confiance.
+
+      Des structures accompagnent les start-up : MonAideCyber, 17cyber, Cybermalveillance, la CNIL, les Campus Cyber régionaux, Bpifrance et les délégués à l'information stratégique et à la sécurité économiques.
+
+II. SE PROTÉGER DES FAILLES IDOR.
+
+   A. Une faille critique.
+
+      L'IDOR touche les applications web et toutes celles reposant sur des API, web, mobile, natives ou d'IA.
+
+      Ces failles facilement exploitables occupent la première place du Top 10 OWASP 2025 et peuvent permettre de récupérer massivement des informations ou d'agir à la place d'un autre utilisateur.
+
+   B. Dès la conception.
+
+      Vérifier systématiquement l'autorisation de l'utilisateur courant : être authentifié n'est jamais suffisant.
+
+      Contrôler le droit d'accès côté serveur, un contrôle côté client étant insuffisant, et utiliser un cadre d'autorisation connu.
+
+      Inclure dans la revue de code par les pairs le contrôle des droits, et tester les cas non passants, en vérifiant qu'un utilisateur B est refusé sur les ressources d'un utilisateur A, sur tous les points de terminaison HTTP.
+
+   C. Au cours du cycle de vie et en production.
+
+      Automatiser les tests dans la chaîne CI/CD avec SAST puis DAST, et réaliser des tests d'intrusion et des programmes de primes aux bogues.
+
+      En production, détecter un pic d'utilisation d'un point de terminaison, venant d'une même adresse IP ou d'un même compte, ressemblant à une énumération séquentielle d'identifiants.
+
+      En cas d'attaque, bloquer l'adresse IP ou le compte, puis corriger rapidement la faille.
+
+POINTS D'ATTENTION.
+
+      Les jeunes et petites entreprises sont les plus touchées par les compromissions et rançongiciels.
+
+      Le guide identifie treize enjeux de sécurité le long du cycle de vie d'une start-up.
+
+      Ne jamais réimplémenter soi-même la cryptographie.
+
+      L'IDOR est première du Top 10 OWASP 2025 ; l'authentification ne remplace pas le contrôle d'autorisation côté serveur.
+
+EXEMPLES CITES.
+
+      Les outils renovate et dependabot pour les mises à jour automatiques de dépendances.
+
+      Le gestionnaire de mots de passe KeePass.
+
+      Les déploiements blue/green, rolling update et canary testing.
+
+      Les vulnérabilités CVE-2025-53640 et CVE-2023-3287 exploitant des IDOR.

@@ -110,5 +110,6 @@
     "03-1050 ANSSI - Recommandations de sécurité pour l'architecture d'un système de journalisation.csv",
     "03-1060 ANSSI - Recommandations pour les architectures des interconnexions multiniveaux.csv",
     "03-1070 ANSSI - Recommandations pour le reconditionnement des ordinateurs de bureau ou portables.csv",
-    "03-1080 ANSSI - Mesures cyber préventives prioritaires et fiches ReCyF en pratique.csv"
+    "03-1080 ANSSI - Mesures cyber préventives prioritaires et fiches ReCyF en pratique.csv",
+    "03-1090 ANSSI - Cybersécurité des start-up du numérique et protection contre les failles IDOR.csv"
 ]
