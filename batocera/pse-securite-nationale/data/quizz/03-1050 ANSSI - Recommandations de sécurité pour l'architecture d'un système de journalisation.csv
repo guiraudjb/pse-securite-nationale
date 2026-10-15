@@ -1,0 +1,23 @@
+Quand a été publiée la version 2.0 du guide sur la journalisation ?;Décembre 2013;Octobre 2026;Janvier 2022;Mars 2015;4;La première version datait de décembre 2013.
+Combien de recommandations compte le guide sur la journalisation ?;31;63;10;7;2;Certaines ont des variantes renforcées ou dégradées.
+Que recommande R1 ?;Utiliser des solutions disposant d'une journalisation native;Écrire les journaux à la main;Désactiver la journalisation;Supprimer les journaux;2;R2 recommande d'activer la journalisation sur un nombre important d'équipements.
+Pourquoi synchroniser les horloges des équipements ?;Pour accélérer le réseau;Pour respecter les horaires de bureau;Pour économiser de l'énergie;Pour pouvoir corréler les évènements entre équipements;5;Les sources de temps doivent être cohérentes entre elles.
+Quelle norme peut uniformiser le format des horodatages ?;ISO 8601;ISO 22301;ISO 9001;ISO 27001;2;Elle définit la représentation des dates et heures.
+Pourquoi configurer l'heure UTC peut-il être pertinent ?;Pour chiffrer les journaux;Pour éviter les problèmes de passage à l'heure d'été et d'hiver;Parce que c'est plus joli;Pour réduire les coûts;3;Certains systèmes gèrent mal ces passages.
+Pourquoi ne pas tout journaliser ?;Cela supprime les données;C'est interdit;Cela peut entraîner une consommation excessive de ressources;Cela empêche la centralisation;4;Il faut identifier la granularité adaptée.
+Que faut-il journaliser pour les fichiers potentiellement malveillants ?;Leur couleur;Rien;Leurs empreintes;Leur contenu complet en clair;4;C'est la recommandation R7.
+Que recommande R9 ?;Supprimer les journaux chaque jour;Conserver les journaux uniquement sur chaque équipement;Centraliser les journaux;Imprimer les journaux;4;À défaut, les exporter vers un autre équipement.
+Dans quel format conserver les journaux avant leur transfert ?;Leur format natif;Un format compressé propriétaire;Un tableur;Un PDF;2;Cela préserve leur valeur probante.
+Quel mode de transfert des journaux privilégier ?;Le transfert manuel;Le temps réel;Une fois par an;Aucun transfert;3;À défaut, un transfert automatisé au plus tard quelques heures après.
+Que faut-il réaliser pour choisir le mode de transfert des journaux ?;Rien;Une analyse de risque;Un tirage au sort;Un sondage;3;C'est la recommandation R15.
+Quelles propriétés doivent garantir les protocoles de transfert des journaux ?;Gratuité;Fiabilité, confidentialité et intégrité;Rapidité uniquement;Compatibilité avec les imprimantes;3;Une version utilisant TLS ou un transport SSH ou IPsec est possible.
+Où cloisonner les serveurs de collecte ?;Chez un particulier;Sur Internet;Sur les postes utilisateurs;Dans un SI d'administration, ou à défaut une zone dédiée;5;Ils doivent aussi être durcis et à jour.
+Que recommande R21 pour le stockage ?;Ne pas stocker;Stocker les journaux sur la partition système;Stocker sur une clé USB;Dédier une partition disque aux journaux;5;L'espace disque doit aussi être supervisé.
+Quel stockage privilégier au niveau renforcé ?;Un courriel;Une base de données indexée;Un fichier texte unique;Une feuille papier;3;Les journaux sont aussi classés par thématique.
+Comment fixer la durée de rétention des journaux ?;Conformément à la réglementation, avec suppression automatisée si possible;Pour toujours;Au hasard;Une heure;2;C'est la recommandation R25.
+Quel principe s'applique aux droits d'accès aux journaux ?;L'accès public;L'accès libre;L'accès réservé au fournisseur;Le moindre privilège, pour l'écriture, la suppression et la lecture;5;Les journaux peuvent contenir des données personnelles.
+Pourquoi restreindre l'accès aux journaux au personnel autorisé et sensibilisé ?;Pour économiser des licences;Pour limiter le détournement de finalité des données collectées;Pour ralentir les analyses;Pour cacher les incidents;3;Ils contiennent souvent des informations personnelles.
+À qui recourir en cas d'externalisation du stockage ou de la corrélation des journaux ?;Aucun prestataire;Un particulier;Un PDIS qualifié par l'ANSSI;Un hébergeur gratuit;4;PDIS : prestataire de détection des incidents de sécurité.
+Que faut-il récupérer en cas d'externalisation ?;Rien;Les factures uniquement;Les journaux relatifs aux interconnexions;Les mots de passe;4;C'est la recommandation R29.
+Les journaux des postes nomades doivent-ils être collectés ?;Seulement s'ils sont au bureau;Seulement le week-end;Oui;Non, jamais;4;C'est la recommandation R31.
+Quel texte de la CNIL est cité en bibliographie ?;Le règlement européen sur l'IA;La loi de 1978 uniquement;Aucun;La recommandation relative à la journalisation de novembre 2021;5;Délibération numéro 2021-122.

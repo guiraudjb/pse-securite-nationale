@@ -1,0 +1,119 @@
+ANSSI, RECOMMANDATIONS DE SÉCURITÉ POUR L'ARCHITECTURE D'UN SYSTÈME DE JOURNALISATION, VERSION 2.0 DU 28 JANVIER 2022.
+
+LEXIQUE COMPLET.
+
+      La journalisation est l'enregistrement des évènements survenant sur les équipements et applications d'un système d'information, sous forme de journaux ou logs.
+
+      L'évènement de sécurité est une trace d'activité utile à la détection ou à l'investigation d'un incident.
+
+      L'horodatage est l'association d'une date et d'une heure précises à chaque évènement.
+
+      La norme ISO 8601 uniformise le format de représentation des dates et heures.
+
+      UTC, temps universel coordonné, est une référence horaire qui évite les difficultés des passages à l'heure d'été et d'hiver.
+
+      La granularité de journalisation est le niveau de détail des évènements enregistrés par un équipement.
+
+      Le serveur de collecte reçoit, centralise et stocke les journaux émis par les équipements.
+
+      La rotation des journaux est le remplacement périodique des fichiers de journaux pour maîtriser l'espace disque.
+
+      La durée de rétention est la durée de conservation des journaux, encadrée par la réglementation.
+
+      Le PDIS est un prestataire de détection des incidents de sécurité qualifié par l'ANSSI.
+
+      Le SI d'administration est le système dédié aux tâches d'administration, isolé du reste du système.
+
+COURS DÉTAILLÉ.
+
+I. LE GUIDE.
+
+      La première version, de décembre 2013, a été remplacée par la version 2.0 du 28 janvier 2022, qui compte 31 recommandations.
+
+      Le guide décrit l'architecture d'un système de journalisation : production des évènements, collecte, transfert, stockage, protection et cas de l'externalisation.
+
+II. PRODUIRE DES JOURNAUX EXPLOITABLES.
+
+   A. Activer la journalisation.
+
+      Utiliser des solutions disposant d'une fonction de journalisation native et activer la journalisation sur un nombre important d'équipements.
+
+   B. Horodater et synchroniser.
+
+      Horodater les évènements, homogénéiser les paramètres d'horodatage et synchroniser les horloges sur des sources de temps cohérentes entre elles.
+
+      Il peut être pertinent de configurer l'heure UTC et d'utiliser le format ISO 8601 pour uniformiser les horodatages.
+
+   C. Choisir ce que l'on journalise.
+
+      Identifier la granularité de journalisation des équipements, car tout journaliser peut entraîner une consommation excessive de ressources.
+
+      Journaliser les empreintes des fichiers potentiellement malveillants et estimer l'espace de stockage nécessaire sur les équipements.
+
+III. COLLECTER ET TRANSFÉRER.
+
+   A. Centraliser.
+
+      Centraliser les journaux, ou à défaut les exporter vers un autre équipement.
+
+      Construire un service de collecte résilient, hiérarchiser les serveurs de collecte et contrôler régulièrement la couverture de la chaîne de collecte.
+
+      Conserver les journaux dans leur format natif avant leur transfert.
+
+   B. Transférer.
+
+      Privilégier un transfert en temps réel vers les serveurs de collecte, ou à défaut automatiser le transfert au plus tard quelques heures après la génération.
+
+      Mener une analyse de risque pour déterminer le mode de transfert.
+
+      Utiliser des protocoles fiables et sécurisés, assurant confidentialité et intégrité, par exemple une version du protocole utilisant TLS, ou à défaut un transport par SSH ou IPsec.
+
+      Maîtriser le flux réseau consommé par les transferts.
+
+IV. STOCKER ET PROTÉGER.
+
+   A. Les serveurs de collecte.
+
+      Durcir et maintenir à jour les serveurs de collecte et les cloisonner dans un SI d'administration, ou à défaut dans une zone dédiée.
+
+   B. Le stockage.
+
+      Dédier une partition disque aux journaux, superviser l'espace disque, classer les journaux par thématique et, au niveau renforcé, les stocker dans une base de données indexée.
+
+      Définir une politique de rotation et configurer des durées de rétention conformes à la réglementation, en automatisant si possible la suppression.
+
+   C. Les droits d'accès.
+
+      Par application du moindre privilège, restreindre au strict besoin opérationnel les droits d'écriture, de suppression et de lecture des journaux.
+
+      Restreindre l'accès au personnel autorisé et sensibilisé limite le détournement de finalité, les journaux pouvant contenir des données personnelles.
+
+V. EXTERNALISATION ET NOMADISME.
+
+      En cas d'externalisation, étudier l'alternative d'un ou plusieurs systèmes de journalisation et récupérer les journaux relatifs aux interconnexions.
+
+      Recourir à un PDIS qualifié en cas d'externalisation du stockage ou de la corrélation des journaux.
+
+      Collecter les journaux des postes en situation de nomadisme.
+
+POINTS D'ATTENTION.
+
+      Sans horloges synchronisées, les journaux ne peuvent être corrélés.
+
+      Le transfert en temps réel est privilégié, le temps différé ne devant pas dépasser quelques heures.
+
+      Les journaux sont conservés dans leur format natif avant transfert.
+
+      Les serveurs de collecte relèvent du SI d'administration.
+
+      La rétention suit la réglementation et la suppression est automatisée.
+
+EXEMPLES CITES.
+
+      La norme ISO 8601 et l'heure UTC pour les horodatages.
+
+      La recommandation de la CNIL relative à la journalisation, délibération de novembre 2021.
+
+      L'instruction générale interministérielle numéro 1300 du SGDSN.
+
+      Les protocoles TLS, SSH et IPsec pour sécuriser le transfert des journaux.

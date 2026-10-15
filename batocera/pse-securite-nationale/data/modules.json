@@ -106,5 +106,6 @@
     "03-1010 ANSSI - Recommandations relatives à la sécurité des objets connectés.csv",
     "03-1020 ANSSI - Recommandations relatives à l'authentification multifacteur et aux mots de passe.csv",
     "03-1030 ANSSI - Recommandations sur le nomadisme numérique.csv",
-    "03-1040 ANSSI - Recommandations relatives aux architectures des services DNS.csv"
+    "03-1040 ANSSI - Recommandations relatives aux architectures des services DNS.csv",
+    "03-1050 ANSSI - Recommandations de sécurité pour l'architecture d'un système de journalisation.csv"
 ]
