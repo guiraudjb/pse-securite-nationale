@@ -1,0 +1,195 @@
+COMMISSARIAT AU NUMÉRIQUE DE DÉFENSE, CND, ORGANISATION, MISSIONS ET VISION STRATÉGIQUE, SITE DEFENSE.GOUV.FR ET PLAQUETTE DE JANVIER 2026.
+
+LEXIQUE COMPLET.
+
+      Le Commissariat au numérique de défense, CND, est l'organisme créé le 1er septembre 2025, placé sous l'autorité directe du ministre des Armées, qui regroupe les structures et compétences numériques mutualisées du ministère.
+
+      La DIRISI, direction interarmées des réseaux d'infrastructure et des systèmes d'information, a été créée en 2004 pour mutualiser les infrastructures et a été intégrée au CND.
+
+      La DGNUM, direction générale du numérique, a été créée en 2018 pour piloter la transformation numérique et a été intégrée au CND.
+
+      L'AND, Agence du numérique de défense, a été créée en 2021 pour professionnaliser la conduite des projets numériques et a été intégrée au CND.
+
+      L'AMIAD, Agence ministérielle pour l'intelligence artificielle de défense, a été créée en mai 2024 et rejoindra le CND à l'issue de sa montée en puissance.
+
+      Le COMCYBER, commandement de la cyberdéfense, créé en 2014, protège, surveille et défend les systèmes d'information du ministère et coopère étroitement avec le CND sans lui être rattaché.
+
+      ORGANUM est la réforme de l'organisation du numérique du ministère qui a abouti à la création du CND.
+
+      Le B@RN, Bureau d'activité de recrutement numérique, créé en 2024, porte le recrutement des talents du numérique de défense.
+
+      Une DSI, direction des systèmes d'information, exerce trois mandats : stratège, partenaire des métiers et fournisseur de services.
+
+      SecNumCloud est le label de l'ANSSI qui qualifie les offres d'informatique en nuage de confiance.
+
+      L'AMD, administrateur ministériel des données, pilote la gouvernance des données du ministère.
+
+COURS DÉTAILLÉ.
+
+I. LA CRÉATION DU CND.
+
+   A. Une accumulation d'acteurs à simplifier.
+
+      Depuis plus de vingt ans, le ministère des Armées adapte son organisation à la montée en puissance du numérique et à l'évolution des menaces.
+
+      Plusieurs entités ont été créées successivement : la DIRISI en 2004, le COMCYBER en 2014, la DGNUM en 2018, l'AND en 2021 et l'AMIAD en 2024.
+
+      Cette accumulation d'acteurs a complexifié la gouvernance et rendu l'organisation du numérique moins adaptée aux enjeux de souveraineté et à la complexité croissante du numérique.
+
+   B. La réforme ORGANUM et la création du 1er septembre 2025.
+
+      La réforme ORGANUM modernise l'architecture numérique ministérielle par une gouvernance rénovée, une répartition claire des responsabilités et un rapprochement entre fonctions numériques et capacitaires.
+
+      Elle se concrétise par la création du CND le 1er septembre 2025, qui réunit les missions et ressources de la DGNUM, de la DIRISI et de l'AND.
+
+      L'AMIAD rejoindra le CND ultérieurement, afin de constituer un service numérique unifié, agile et technologiquement à la pointe.
+
+      La création répond à deux impératifs : simplifier l'organisation et structurer une action cohérente dans un environnement numérique en mutation.
+
+   C. La direction.
+
+      Le général de corps d'armée Erwan Rolland est le commissaire au numérique de défense, nommé par décret.
+
+      Il est secondé par l'ingénieur général de l'armement de première classe Lionel Morin, commissaire adjoint.
+
+II. L'ORGANISATION DU CND.
+
+   A. Cinq grands services.
+
+      Gouvernance et stratégie élabore la politique numérique du ministère, pilote la stratégie du CND et accompagne les directions métiers dans leurs projets.
+
+      Le commandement numérique interarmées, bras opérationnel du CND, garantit le fonctionnement continu des systèmes numériques et de communication des opérations, y compris pour la dissuasion.
+
+      La Fabrique numérique conçoit, développe, exploite et maintient les systèmes d'information, en réunissant dans une même entité les équipes de conception et d'exploitation autrefois éclatées.
+
+      Logistique et acquisitions anticipe les besoins, assure la disponibilité continue du matériel numérique et coordonne les achats.
+
+      Ressources humaines, métiers et compétences renforce l'attractivité de la filière et pilote formation et recrutement, notamment par le B@RN.
+
+   B. Trois sous-directions et un officier général des fréquences.
+
+      La sous-direction Données administre et valorise les données à grande échelle et accélère l'usage de l'intelligence artificielle.
+
+      La sous-direction Sécurité numérique supervise la politique de sécurité des systèmes d'information, la gestion des risques, le chiffrement, l'homologation et les équipements de protection, en lien étroit avec le COMCYBER.
+
+      La sous-direction Affaires générales veille à la cohérence juridique, budgétaire et contractuelle de la structure.
+
+      Un officier général des fréquences, appuyé par un bureau dédié, conseille le ministère sur la stratégie des fréquences et des communications électroniques et représente ses intérêts aux niveaux national, européen et international.
+
+   C. Une DSI Groupe et une DSI du socle.
+
+      Le CND est à la fois la DSI Groupe du ministère, qui définit les grandes orientations, et la DSI du socle numérique, qui développe et maintient les produits numériques.
+
+      Depuis novembre 2020, le ministère est organisé selon le modèle des DSI des grands groupes, avec trois mandats : stratège, partenaire des métiers et fournisseur de services.
+
+      Le CND interagit avec les DSI de domaine par un secrétariat commun du numérique de système de défense, qui réunit le CND, l'état-major des armées et la direction générale de l'armement.
+
+      Il coordonne aussi les investissements numériques du ministère, même hors de son propre budget, et adopte une approche centrée sur l'usage avec les méthodes agiles.
+
+III. LES TROIS MISSIONS.
+
+   A. Soutenir les opérations par un numérique performant.
+
+      Le CND offre une capacité numérique de bout en bout, de la conception à l'exploitation des systèmes d'information et de communication, en passant par leur sécurisation et leur maintenance.
+
+      Il garantit un fonctionnement continu sur tout le spectre opérationnel, déploie des architectures interopérables adaptées à chaque théâtre et assure la résilience des réseaux de commandement en environnement dégradé.
+
+      Les équipes du commandement numérique interarmées interviennent en métropole, en outre-mer et à l'étranger, pour assurer le continuum numérique des forces.
+
+      Le CND dispose d'infrastructures critiques maîtrisées en propre : réseaux classifiés, centres de données hautement sécurisés et supercalculateurs dédiés à l'intelligence artificielle.
+
+   B. Contribuer au système de combat souverain de demain.
+
+      Le numérique est un domaine de souveraineté à part entière, au même titre que le nucléaire, l'espace ou le renseignement, et le système de combat de demain sera numérique ou ne sera pas.
+
+      Le premier levier est de détenir des compétences régaliennes internes, civiles et militaires, pour piloter les choix technologiques, concevoir les briques logicielles sensibles et sécuriser les architectures.
+
+      Le deuxième levier est d'investir dans des infrastructures souveraines : centres de données de la défense, réseaux classifiés à tous les niveaux et environnements d'informatique en nuage souverains.
+
+      Le troisième levier est d'intégrer les innovations par le partenariat avec les industriels, les laboratoires et les jeunes pousses, en renforçant la base industrielle et technologique de défense.
+
+      Le CND agit comme architecte d'entreprise du ministère et accélère l'intégration de l'intelligence artificielle dans la décision militaire et l'interopérabilité multi-milieux et multi-champs.
+
+   C. Garantir un soutien numérique de proximité.
+
+      Le CND assure la continuité des services pour plus de deux cent mille utilisateurs, avec plus de cinq cent trente mille interventions techniques par an et des systèmes disponibles en permanence.
+
+      Il gère les parcs informatiques, maintient en condition opérationnelle les réseaux à tous les niveaux de classification et appuie les DSI de domaine.
+
+      Ce soutien repose sur des directions et centres zonaux en métropole, en outre-mer et à l'étranger, comme à Djibouti ou à Abou Dhabi.
+
+      Il devient le guichet unique du numérique ministériel pour les systèmes d'information, la donnée et les infrastructures.
+
+IV. LES GRANDS ENJEUX.
+
+   A. L'informatique en nuage.
+
+      La stratégie du ministère repose sur un nuage privé garantissant la maîtrise des données et la résilience, complété par un nuage de confiance qualifié SecNumCloud pour les données moins sensibles.
+
+      L'offre comprend l'usine de développement d'applications web sécurisées PICSEL, la plateforme privée Diffusion Restreinte C1DR et la plateforme privée Internet C1NP.
+
+      L'offre C3, souscrite auprès d'opérateurs publics de nuage souverain, complète l'ensemble jusqu'au niveau SecNumCloud.
+
+   B. Les données et l'intelligence artificielle.
+
+      La gouvernance des données est pilotée par l'administrateur ministériel des données, avec un directeur des données par grand subordonné.
+
+      Trois instances l'animent : la commission ministérielle des données, le forum ministériel des données et le comité des administrateurs des données de la défense.
+
+      La feuille de route et la politique ministérielle des données ont été publiées en 2022 pour faire de la donnée un actif stratégique.
+
+      L'AMIAD, dotée de trois cents millions d'euros, est installée à Palaiseau pour la recherche et à Bruz pour la technique, et a acquis avec HP et Orange le supercalculateur classifié le plus puissant d'Europe dédié à l'intelligence artificielle de défense.
+
+   C. Les compétences et la sobriété numérique.
+
+      Le CND répond à la pénurie de profils qualifiés en cybersécurité et en intelligence artificielle et à la sous-représentation des femmes dans les filières scientifiques.
+
+      L'Académie du numérique de la défense, cogouvernée avec la DRH du ministère, forme les acteurs des projets numériques et acculture les deux cent soixante-dix mille ressortissants du ministère.
+
+      Le CND est l'un des chefs de file de la sobriété numérique, avec sept leviers allant de la gouvernance à la fin d'usage des matériels.
+
+      Ses quatre centres de données sont à Bordeaux, Rennes, Toulon et Suresnes, et la chaleur du centre de Toulon chauffe des locaux.
+
+      Le CND applique le décret du 12 avril 2023 sur le réemploi des matériels informatiques réformés, hors matériels contenant des informations classifiées.
+
+V. LA VISION STRATÉGIQUE À TROIS ANS.
+
+   A. Mission et valeurs.
+
+      Sa mission est d'être le moteur d'un numérique souverain, résilient et innovant, le référent technique et humain au service des opérations, du système de combat et du fonctionnement quotidien.
+
+      Ses quatre valeurs sont la simplicité, les compétences, le sens du service et l'humain au centre.
+
+      Ses trois principes directeurs sont de délivrer à temps, de piloter par la valeur et la performance, et de gagner en agilité.
+
+   B. Les six axes.
+
+      Le premier axe est de contribuer à la supériorité opérationnelle, et le deuxième de fixer le cap d'une politique numérique ministérielle ambitieuse.
+
+      Le troisième axe est de fournir des services numériques au meilleur niveau technologique, et le quatrième d'optimiser l'accompagnement, la conduite, le déploiement et l'exploitation des objets numériques.
+
+      Le cinquième axe est de gagner la bataille des ressources humaines de la filière numérique de défense, et le sixième de faire du CND l'acteur central de l'écosystème informatique du ministère.
+
+POINTS D'ATTENTION.
+
+      Le CND est créé le 1er septembre 2025 et rattaché directement au ministre des Armées.
+
+      Il fusionne la DIRISI, la DGNUM et l'AND, tandis que l'AMIAD le rejoindra plus tard.
+
+      Le COMCYBER reste distinct du CND, avec lequel il coopère sur la sécurisation des réseaux, le chiffrement et les risques cyber.
+
+      Le CND est à la fois DSI Groupe et DSI du socle numérique du ministère.
+
+      La sous-direction Sécurité numérique est chargée de l'homologation et du chiffrement.
+
+EXEMPLES CITES.
+
+      Le commandement numérique interarmées, bras opérationnel du CND.
+
+      La Fabrique numérique, qui regroupe conception et exploitation.
+
+      Les plateformes PICSEL, C1DR, C1NP et l'offre C3.
+
+      Le centre de données Sous-Lieutenant Marie-Louise Cloarec à Bordeaux, inauguré en mai 2021.
+
+      Le partenariat avec ECODAIRE, qui a collecté plus de sept mille cinq cents ordinateurs en 2022.
