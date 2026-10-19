@@ -65,8 +65,18 @@ Une session dure de 5 à 10 minutes : une partie perdue avant 5 min peut être r
 et le jeu s'arrête de lui-même à 10 min. La pause (Start ou Select) arrête le chronomètre.
 Les records sont gardés dans `preferences.json`.
 
-- **Tetromino** : ◄► déplacer, ▼ descendre, A ou ▲ tourner, B tourner dans l'autre sens, C (ou D/R1) faire tomber.
-- **Wormy** : la croix dirige le ver.
+Dix jeux, choisis à la croix dans une grille de deux colonnes :
 
-Les deux jeux sont adaptés d'Al Sweigart (« Making Games with Python & Pygame »,
+- **Tetromino** / **Pentomino** (pièces de 5 cases) : ◄► déplacer, ▼ descendre, A ou ▲ tourner, B tourner dans l'autre sens, C (ou D/R1) faire tomber.
+- **Wormy** : la croix dirige le ver.
+- **Gemgem** : la croix déplace le curseur, A sélectionne une gemme, puis une direction l'échange avec sa voisine (alignez-en 3).
+- **Simulate** : répéter la séquence de couleurs avec A, B, C, D (4 s maximum entre deux appuis).
+- **Memory Puzzle** : la croix choisit une case, A la retourne ; trouver les 35 paires.
+- **Slide Puzzle** : taquin 4×4, la croix fait glisser une tuile vers le trou.
+- **Ink Spill** : ◄► choisir une couleur, A la verser depuis le coin ; remplir la grille en 30 coups.
+- **Four in a Row** : puissance 4 contre l'ordinateur, ◄► colonne, A ou ▼ jouer.
+- **Flippy** : Othello contre l'ordinateur, la croix choisit la case, A pose (les coups possibles sont marqués d'un point).
+
+Entre deux manches (taquin résolu, partie de puissance 4 finie…), A passe à la suivante.
+Ces jeux sont adaptés d'Al Sweigart (« Making Games with Python & Pygame »,
 licence BSD simplifiée, texte dans `minijeux.py`). Les images et sons d'origine ne sont pas repris.

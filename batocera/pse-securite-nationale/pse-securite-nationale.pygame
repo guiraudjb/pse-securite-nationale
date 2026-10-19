@@ -58,6 +58,7 @@ STATE_LEX_LETTRES = 'lex_lettres'
 STATE_LEX_TERMES = 'lex_termes'
 STATE_LEX_DEF = 'lex_def'
 STATE_MINIJEU = 'minijeu'
+MINIJEU_LIGNES = 5      # menu des mini-jeux : 5 lignes par colonne
 MINIJEU_SEUIL_PCT = 80  # mini-jeu bonus proposé au-delà de ce score de QCM
 
 # Médias audio d'un module : fonction de chemin, libellé à l'écran, message d'absence
@@ -604,7 +605,17 @@ class App:
     def handle_quiz_end(self, action):
         if self.minijeu_propose():
             if action in ('up', 'down', 'left', 'right'):
-                self.minijeu_choix = (self.minijeu_choix + 1) % len(minijeux.ORDRE)
+                # grille de MINIJEU_LIGNES lignes, remplie colonne par colonne
+                n, i, L = len(minijeux.ORDRE), self.minijeu_choix, MINIJEU_LIGNES
+                if action == 'up' and i % L > 0:
+                    i -= 1
+                elif action == 'down' and i % L < L - 1 and i + 1 < n:
+                    i += 1
+                elif action == 'left' and i - L >= 0:
+                    i -= L
+                elif action == 'right':
+                    i = min(i + L, n - 1) if i - i % L + L < n else i
+                self.minijeu_choix = i
             elif action == 'action':
                 self.start_minijeu(minijeux.ORDRE[self.minijeu_choix])
             elif action == 'back':
@@ -1569,24 +1580,24 @@ class App:
                                     "Bravo ! Plus de {} % : un mini-jeu bonus vous attend (5 à 10 min).".format(MINIJEU_SEUIL_PCT),
                                     ui.COLOR_SUCCESS)
         records = self.records_minijeux()
-        y = 340
+        larg = (self.screen_w - 120 - 20) // 2
         for i, jeu_id in enumerate(minijeux.ORDRE):
-            rect = pygame.Rect(60, y, self.screen_w - 120, 56)
+            col, lig = divmod(i, MINIJEU_LIGNES)
+            rect = pygame.Rect(60 + col * (larg + 20), 330 + lig * 62, larg, 52)
             choisi = i == self.minijeu_choix
             pygame.draw.rect(self.screen, ui.COLOR_SELECTED_BG if choisi else ui.COLOR_PANEL, rect, border_radius=10)
             pygame.draw.rect(self.screen, ui.COLOR_PRIMARY, rect, width=2, border_radius=10)
             coul = ui.COLOR_SELECTED_TEXT if choisi else ui.COLOR_TEXT
-            self.fonts.medium.render_to(self.screen, (rect.x + 24, rect.y + 16), minijeux.JEUX[jeu_id].titre, coul)
+            self.fonts.medium.render_to(self.screen, (rect.x + 18, rect.y + 14), minijeux.JEUX[jeu_id].titre, coul)
             rec = "Record : {}".format(records.get(jeu_id, 0))
             r = self.fonts.small.get_rect(rec)
-            self.fonts.small.render_to(self.screen, (rect.right - 24 - r.width, rect.y + 18), rec, coul)
-            y += 70
+            self.fonts.small.render_to(self.screen, (rect.right - 18 - r.width, rect.y + 16), rec, coul)
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
-                              [('▲▼', 'Choisir'), ('A/Start', 'Jouer'), ('B/Select', 'Retour au menu')])
+                              [('◄►▲▼', 'Choisir'), ('A/Start', 'Jouer'), ('B/Select', 'Retour au menu')])
 
     def draw_minijeu(self):
         self.screen.fill((8, 10, 28))
-        self.draw_header("MINI-JEU BONUS  —  {}".format(self.minijeu.titre))
+        self.draw_header("BONUS  —  {}".format(self.minijeu.titre))
         zone = pygame.Rect(20, self.HEADER_H + 10, self.screen_w - 40, self.screen_h - self.HEADER_H - 48 - 20)
         self.minijeu.draw(self.screen, zone, self.fonts)
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, self.minijeu.aide())
