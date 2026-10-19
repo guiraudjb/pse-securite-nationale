@@ -65,8 +65,11 @@ Une session dure de 5 à 10 minutes : une partie perdue avant 5 min peut être r
 et le jeu s'arrête de lui-même à 10 min. La pause (Start ou Select) arrête le chronomètre.
 Les records sont gardés dans `preferences.json`.
 
-Dix jeux, choisis à la croix dans une grille de deux colonnes :
+Treize jeux, choisis à la croix dans une grille de trois colonnes :
 
+- **Plateforme** : 3 niveaux (Prairie, Neige, Désert) puis on recommence plus vite. ◄► marcher, B tenu pour courir, A ou C pour sauter (saut plus court si on relâche tôt) ; on écrase les ennemis en leur sautant dessus, sauf ceux à pointes.
+- **Course** (run and jump) : le personnage court tout seul de plus en plus vite ; A ou C pour sauter, une seconde fois en l'air pour un double saut.
+- **Bagarre** (beat them all) : vagues de zombies, passants et robots. Croix pour se déplacer (diagonales comprises), A coup de poing (trois de suite = enchaînement), B coup de pied, C saut (A ou B en l'air = coup de pied sauté). Chaque vague gagnée rend un peu de vie.
 - **Tetromino** / **Pentomino** (pièces de 5 cases) : ◄► déplacer, ▼ descendre, A ou ▲ tourner, B tourner dans l'autre sens, C (ou D/R1) faire tomber.
 - **Wormy** : la croix dirige le ver.
 - **Gemgem** : la croix déplace le curseur, A sélectionne une gemme, puis une direction l'échange avec sa voisine (alignez-en 3).
@@ -78,5 +81,5 @@ Dix jeux, choisis à la croix dans une grille de deux colonnes :
 - **Flippy** : Othello contre l'ordinateur, la croix choisit la case, A pose (les coups possibles sont marqués d'un point).
 
 Entre deux manches (taquin résolu, partie de puissance 4 finie…), A passe à la suivante.
-Ces jeux sont adaptés d'Al Sweigart (« Making Games with Python & Pygame »,
+Les trois premiers sont des créations originales illustrées avec les packs Kenney « Pixel Platformer » et « Toon Characters » (licence CC0, `assets/minijeux/*/LICENCE.txt`). Les dix autres sont adaptés d'Al Sweigart (« Making Games with Python & Pygame »,
 licence BSD simplifiée, texte dans `minijeux.py`). Les images et sons d'origine ne sont pas repris.

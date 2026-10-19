@@ -87,6 +87,7 @@ class Jeu:
     over = False
     score = 0
     annonce = None
+    tenu = (0, 0, frozenset())   # (dx, dy, boutons) maintenus, fourni par la session
 
     @property
     def aide(self):
@@ -1292,7 +1293,9 @@ class Flippy(Jeu):
 JEUX = {'tetromino': Tetromino, 'pentomino': Pentomino, 'wormy': Wormy, 'simulate': Simulate,
         'memory': MemoryPuzzle, 'slide': SlidePuzzle, 'inkspill': InkSpill, 'gemgem': Gemgem,
         'fourinarow': FourInARow, 'flippy': Flippy}
-ORDRE = ['tetromino', 'pentomino', 'wormy', 'gemgem', 'simulate',
+from minijeux_action import Plateforme, Course, Bagarre  # noqa: E402 (utilise Jeu ci-dessus)
+JEUX.update({'plateforme': Plateforme, 'course': Course, 'bagarre': Bagarre})
+ORDRE = ['plateforme', 'course', 'bagarre', 'tetromino', 'pentomino', 'wormy', 'gemgem', 'simulate',
          'memory', 'slide', 'inkspill', 'fourinarow', 'flippy']
 
 
@@ -1313,6 +1316,7 @@ class Session:
         self.meilleur = 0
         self.parties = 1
         self.quitter = False   # passe à True quand le joueur referme le résumé
+        self.tenu = (0, 0, frozenset())
 
     @property
     def titre(self):
@@ -1329,6 +1333,7 @@ class Session:
         if self.etat != 'jeu':
             return
         self.ecoule += dt
+        self.jeu.tenu = self.tenu
         self.jeu.update(dt)
         if self.jeu.over:
             self._fin_partie()
@@ -1375,18 +1380,31 @@ class Session:
 
     def draw(self, surface, zone, fonts):
         panneau = self.jeu.draw(surface, zone, fonts)
-        x, y = panneau.x, panneau.y + 10
         restant = int(self.restant())
         lignes = list(self.jeu.infos()) + [
             ('Record', max(self.record_avant, self.meilleur, self.jeu.score)),
             ('Temps', '{}:{:02d}'.format(restant // 60, restant % 60)),
         ]
-        for nom, val in lignes:
-            fonts.small.render_to(surface, (x, y), nom, GRIS)
-            fonts.medium.render_to(surface, (x, y + 24), str(val), BLANC)
-            y += 64
-        if self.parties > 1:
-            fonts.small.render_to(surface, (x, y), 'Partie {}'.format(self.parties), GRIS)
+        if panneau is None:
+            # jeu en plein écran (défilement) : bandeau de scores en haut
+            bande = pygame.Rect(zone.x, zone.y, zone.width, 34)
+            voile = pygame.Surface(bande.size, pygame.SRCALPHA)
+            voile.fill((0, 0, 0, 150))
+            surface.blit(voile, bande.topleft)
+            x = bande.x + 12
+            for nom, val in lignes:
+                fonts.small.render_to(surface, (x, bande.y + 8), nom, GRIS)
+                x += fonts.small.get_rect(nom).width + 8
+                fonts.small.render_to(surface, (x, bande.y + 8), str(val), BLANC)
+                x += fonts.small.get_rect(str(val)).width + 26
+        else:
+            x, y = panneau.x, panneau.y + 10
+            for nom, val in lignes:
+                fonts.small.render_to(surface, (x, y), nom, GRIS)
+                fonts.medium.render_to(surface, (x, y + 24), str(val), BLANC)
+                y += 64
+            if self.parties > 1:
+                fonts.small.render_to(surface, (x, y), 'Partie {}'.format(self.parties), GRIS)
 
         if self.etat == 'jeu' and self.jeu.annonce:
             titre, sous = self.jeu.annonce

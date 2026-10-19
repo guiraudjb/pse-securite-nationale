@@ -323,6 +323,7 @@ class App:
         if self.state == STATE_MINIJEU:
             dt = min(0.1, (now - self.minijeu_ticks) / 1000.0)
             self.minijeu_ticks = now
+            self.minijeu.tenu = inp.etat_tenu(self.pads)
             self.minijeu.update(dt)
             if self.minijeu.quitter:
                 self.fin_minijeu()
@@ -1583,18 +1584,18 @@ class App:
                                     "Bravo ! Plus de {} % : un mini-jeu bonus vous attend (5 à 10 min).".format(MINIJEU_SEUIL_PCT),
                                     ui.COLOR_SUCCESS)
         records = self.records_minijeux()
-        larg = (self.screen_w - 120 - 20) // 2
+        ncol = (len(minijeux.ORDRE) + MINIJEU_LIGNES - 1) // MINIJEU_LIGNES
+        larg = (self.screen_w - 120 - 20 * (ncol - 1)) // ncol
         for i, jeu_id in enumerate(minijeux.ORDRE):
             col, lig = divmod(i, MINIJEU_LIGNES)
-            rect = pygame.Rect(60 + col * (larg + 20), 330 + lig * 62, larg, 52)
+            rect = pygame.Rect(60 + col * (larg + 20), 320 + lig * 64, larg, 58)
             choisi = i == self.minijeu_choix
             pygame.draw.rect(self.screen, ui.COLOR_SELECTED_BG if choisi else ui.COLOR_PANEL, rect, border_radius=10)
             pygame.draw.rect(self.screen, ui.COLOR_PRIMARY, rect, width=2, border_radius=10)
             coul = ui.COLOR_SELECTED_TEXT if choisi else ui.COLOR_TEXT
-            self.fonts.medium.render_to(self.screen, (rect.x + 18, rect.y + 14), minijeux.JEUX[jeu_id].titre, coul)
-            rec = "Record : {}".format(records.get(jeu_id, 0))
-            r = self.fonts.small.get_rect(rec)
-            self.fonts.small.render_to(self.screen, (rect.right - 18 - r.width, rect.y + 16), rec, coul)
+            self.fonts.medium.render_to(self.screen, (rect.x + 14, rect.y + 6), minijeux.JEUX[jeu_id].titre, coul)
+            self.fonts.hint.render_to(self.screen, (rect.x + 14, rect.y + 36),
+                                      "Record : {}".format(records.get(jeu_id, 0)), coul)
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
                               [('◄►▲▼', 'Choisir'), ('A/Start', 'Jouer'), ('B/Select', 'Retour au menu')])
 

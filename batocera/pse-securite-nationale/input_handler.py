@@ -330,6 +330,40 @@ def current_direction(pads):
     return None
 
 
+def etat_tenu(pads):
+    """Pour les mini-jeux d'action : (dx, dy, boutons) maintenus à l'instant,
+    diagonales comprises. dx/dy valent -1, 0 ou 1 ; boutons est un ensemble de
+    'face_a'/'face_b'/'face_x'/'face_y'. Clavier : flèches et touches 1 à 4."""
+    dx = dy = 0
+    boutons = set()
+    for pad in pads:
+        try:
+            hx, hy = pad.joystick.get_hat(0) if pad.joystick.get_numhats() else (0, 0)
+        except Exception:
+            hx, hy = 0, 0
+        try:
+            ax, ay = pad.joystick.get_axis(0), pad.joystick.get_axis(1)
+        except Exception:
+            ax, ay = 0.0, 0.0
+        sx = -1 if ax <= -AXIS_DEADZONE else (1 if ax >= AXIS_DEADZONE else 0)
+        sy = -1 if ay <= -AXIS_DEADZONE else (1 if ay >= AXIS_DEADZONE else 0)
+        dx = dx or hx or sx
+        dy = dy or -hy or sy
+        for nom in ('a', 'b', 'x', 'y'):
+            if pad.button(nom):
+                boutons.add('face_' + nom)
+    try:
+        k = pygame.key.get_pressed()
+        dx = dx or (k[pygame.K_RIGHT] - k[pygame.K_LEFT])
+        dy = dy or (k[pygame.K_DOWN] - k[pygame.K_UP])
+        for touche, nom in ((pygame.K_1, 'face_a'), (pygame.K_2, 'face_b'), (pygame.K_3, 'face_x'), (pygame.K_4, 'face_y')):
+            if k[touche]:
+                boutons.add(nom)
+    except pygame.error:
+        pass
+    return dx, dy, boutons
+
+
 def translate_event(event, pads):
     """Renvoie une action logique pour un évènement ponctuel (pas les
     directions, gérées par sondage continu via current_direction/RepeatState)."""
