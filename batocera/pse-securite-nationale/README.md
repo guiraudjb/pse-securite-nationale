@@ -24,6 +24,9 @@ Bercy/finances publiques, PSE 25-27, PSE Expert Réseau...), chacun avec :
 - Podcast en lecture : **L1** (ou R1) passe à l'autre version du podcast (pipeline local / NotebookLM) ;
   **R2** passe à l'autre version de l'infographie affichée en fond, sans couper la lecture
 - Infographie : **L1/R1/R2** passent à l'autre version (pipeline local / NotebookLM)
+- Jukebox podcast : **L1** autre version du podcast (la piste repart du début), **R2** autre version de
+  l'infographie de fond ; le choix est gardé pour les pistes suivantes (repli sur l'autre version si absente) ;
+  **R1** active/désactive l'aléatoire. Jukebox musique et micro-chroniques : **L1/R1** aléatoire, **R2** infographie
 - L2/R2 sont lus en bouton (manette DragonRise) ou en gâchette analogique (manettes Xbox, axes 2 et 5
   d'après es_input.cfg)
 

@@ -137,20 +137,27 @@ def draw_button_hints(surface, fonts, screen_w, screen_h, hints, right_text=None
     bar_h = 48
     pygame.draw.rect(surface, COLOR_HINT_BG, (0, screen_h - bar_h, screen_w, bar_h))
     textes = ["[{}] {}".format(button, label) for button, label in hints]
-    largeurs = [fonts.hint.get_rect(t).width for t in textes]
-    droite = fonts.hint.get_rect(right_text).width + 24 if right_text else 0
     # Espacement de 40 px, resserré (jusqu'à 14 px) si les aides et le texte de
-    # droite ne tiennent pas sur la largeur de l'écran (ex. 1024 px).
-    libre = screen_w - 24 - 24 - droite - sum(largeurs)
+    # droite ne tiennent pas sur la largeur de l'écran (ex. 1024 px) ; en dernier
+    # recours, police réduite (85 %, puis 75 %).
+    police = fonts.hint
+    for facteur in (1.0, 0.85, 0.75):
+        taille = police.size * facteur
+        largeurs = [police.get_rect(t, size=taille).width for t in textes]
+        droite = police.get_rect(right_text, size=taille).width + 24 if right_text else 0
+        libre = screen_w - 24 - 24 - droite - sum(largeurs)
+        if not textes or libre >= 14 * len(textes):
+            break
     gap = 40 if not textes else max(14, min(40, libre // len(textes)))
     x = 24
     for text, w in zip(textes, largeurs):
-        rect = fonts.hint.get_rect(text)
-        fonts.hint.render_to(surface, (x, screen_h - bar_h // 2 - rect.height // 2), text, COLOR_WHITE)
+        rect = police.get_rect(text, size=taille)
+        police.render_to(surface, (x, screen_h - bar_h // 2 - rect.height // 2), text, COLOR_WHITE, size=taille)
         x += w + gap
     if right_text:
-        rect = fonts.hint.get_rect(right_text)
-        fonts.hint.render_to(surface, (screen_w - rect.width - 24, screen_h - bar_h // 2 - rect.height // 2), right_text, right_color)
+        rect = police.get_rect(right_text, size=taille)
+        police.render_to(surface, (screen_w - rect.width - 24, screen_h - bar_h // 2 - rect.height // 2), right_text,
+                         right_color, size=taille)
 
 
 _ICON_CACHE = {}

@@ -152,6 +152,11 @@ class App:
         self.jukebox_position_s = 0.0
         self.jukebox_position_ticks = 0
         self.jukebox_info_surface = None
+        # Versions choisies dans le jukebox (None = source préférée), gardées d'une piste à l'autre
+        self.jukebox_podcast_choix = None
+        self.jukebox_info_choix = None
+        self.jukebox_source = None
+        self.jukebox_info_source = None
 
         # 60s (et non 20s comme #timerSelect dans index.html, qui n'a pas de
         # narration vocale) : mesuré sur les questions déjà générées, il faut
@@ -981,17 +986,22 @@ class App:
 
     def note_media(self):
         """Bandeau du lecteur : version du podcast (L1) et de l'infographie de fond (R2)."""
+        return self.note_versions(self.current_module['base'],
+                                  self.media_source if self.media_kind == 'podcast' else None,
+                                  self.media_info_source if self.media_info_visible() else None)
+
+    @staticmethod
+    def note_versions(base, podcast_source, info_source):
         parts = []
-        base = self.current_module['base']
-        if self.media_kind == 'podcast' and self.media_source:
-            podcast = 'Podcast : ' + dl.SOURCE_LIBELLES[self.media_source]
+        if podcast_source:
+            podcast = 'Podcast : ' + dl.SOURCE_LIBELLES[podcast_source]
             if len(dl.sources_disponibles('podcast', base)) > 1:
-                podcast += ' (L1 : ' + dl.SOURCE_LIBELLES[dl.autre_source(self.media_source)] + ')'
+                podcast += ' (L1 : ' + dl.SOURCE_LIBELLES[dl.autre_source(podcast_source)] + ')'
             parts.append(podcast)
-        if self.media_info_visible() and self.media_info_source:
-            info = 'Infographie : ' + dl.SOURCE_LIBELLES[self.media_info_source]
+        if info_source:
+            info = 'Infographie : ' + dl.SOURCE_LIBELLES[info_source]
             if len(dl.sources_disponibles('infographie', base)) > 1:
-                info += ' (R2 : ' + dl.SOURCE_LIBELLES[dl.autre_source(self.media_info_source)] + ')'
+                info += ' (R2 : ' + dl.SOURCE_LIBELLES[dl.autre_source(info_source)] + ')'
             parts.append(info)
         return '   ·   '.join(parts) or None
 
@@ -999,10 +1009,17 @@ class App:
         """Bandeau d'information juste au-dessus des aides de boutons."""
         if not note:
             return
-        r = self.fonts.small.get_rect(note)
-        bandeau = pygame.Rect(0, self.screen_h - 48 - r.height - 16, self.screen_w, r.height + 16)
+        police = self.fonts.small
+        taille = police.size
+        r = police.get_rect(note, size=taille)
+        if r.width > self.screen_w - 32:   # texte trop long (ex. jukebox en 1024 px) : police réduite
+            taille = police.size * (self.screen_w - 32) / r.width
+            r = police.get_rect(note, size=taille)
+        h = police.get_rect(note).height
+        bandeau = pygame.Rect(0, self.screen_h - 48 - h - 16, self.screen_w, h + 16)
         pygame.draw.rect(self.screen, ui.COLOR_PRIMARY, bandeau)
-        self.fonts.small.render_to(self.screen, (self.screen_w // 2 - r.width // 2, bandeau.y + 8), note, ui.COLOR_WHITE)
+        police.render_to(self.screen, (self.screen_w // 2 - r.width // 2, bandeau.centery - r.height // 2), note,
+                         ui.COLOR_WHITE, size=taille)
 
     # ------------------------------------------------------------------
     # JUKEBOX (lecture continue/aléatoire des podcasts ou chansons de toute
@@ -1031,6 +1048,8 @@ class App:
         self.jukebox_kind = kind
         self.jukebox_playlist = self._jukebox_build_playlist(kind)
         self.jukebox_shuffle = False
+        self.jukebox_podcast_choix = None
+        self.jukebox_info_choix = None
         self.state = STATE_JUKEBOX
         if self.jukebox_playlist:
             self._jukebox_load_track(0)
@@ -1042,10 +1061,13 @@ class App:
     def _jukebox_load_track(self, index):
         self.jukebox_index = index % len(self.jukebox_playlist)
         entry = self.jukebox_playlist[self.jukebox_index]
-        path_fn = MEDIAS[self.jukebox_kind][0]
-        path = path_fn(entry['base'])
+        self.jukebox_source = None
+        if self.jukebox_kind == 'podcast':
+            path, self.jukebox_source = dl.media_source('podcast', entry['base'], self.jukebox_podcast_choix)
+        else:
+            path = MEDIAS[self.jukebox_kind][0](entry['base'])
         self.jukebox_path = path
-        self.jukebox_info_surface = self._load_infographie_surface(entry['base'])
+        self.load_jukebox_info()
         self.jukebox_position_s = 0.0
         self.jukebox_position_ticks = pygame.time.get_ticks()
         self.jukebox_playing = False
@@ -1053,6 +1075,14 @@ class App:
             pygame.mixer.music.load(path)
             pygame.mixer.music.play()
             self.jukebox_playing = True
+
+    def load_jukebox_info(self):
+        base = self.jukebox_playlist[self.jukebox_index]['base']
+        path, self.jukebox_info_source = dl.media_source('infographie', base, self.jukebox_info_choix)
+        self.jukebox_info_surface = self._load_surface(path)
+
+    def jukebox_base(self):
+        return self.jukebox_playlist[self.jukebox_index]['base'] if self.jukebox_playlist else None
 
     def jukebox_current_label(self):
         if not self.jukebox_playlist:
@@ -1118,8 +1148,20 @@ class App:
             self.jukebox_advance(-1)
         elif action == 'down':
             self.jukebox_advance(1)
-        elif action == 'shoulder_l':
+        elif action == 'shoulder_l' and self.jukebox_kind == 'podcast':
+            # L1 : autre version du podcast (la piste repart du début), gardée pour les pistes suivantes
+            if self.jukebox_source and len(dl.sources_disponibles('podcast', self.jukebox_base())) > 1:
+                self.jukebox_podcast_choix = dl.autre_source(self.jukebox_source)
+                pygame.mixer.music.stop()
+                self._jukebox_load_track(self.jukebox_index)
+        elif action in ('shoulder_l', 'shoulder_r'):
+            # Aléatoire : R1 partout, L1 aussi hors jukebox podcast (où L1 change la version)
             self.jukebox_shuffle = not self.jukebox_shuffle
+        elif action == 'trigger_r':
+            # R2 : autre version de l'infographie de fond, la lecture continue
+            if self.jukebox_info_source and len(dl.sources_disponibles('infographie', self.jukebox_base())) > 1:
+                self.jukebox_info_choix = dl.autre_source(self.jukebox_info_source)
+                self.load_jukebox_info()
         elif action == 'back':
             pygame.mixer.music.stop()
             self.state = STATE_JUKEBOX_KIND
@@ -1616,13 +1658,29 @@ class App:
         timestamp = "{:02d}:{:02d}".format(elapsed // 60, elapsed % 60)
         status = "▶  LECTURE  {}".format(timestamp) if self.jukebox_playing else "❚❚  PAUSE  {}".format(timestamp)
         status_color = ui.COLOR_SUCCESS if self.jukebox_playing else ui.COLOR_WHITE
-        shuffle_hint = ('L1', 'Aléatoire : ON' if self.jukebox_shuffle else 'Aléatoire : OFF')
-        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
-                              [('A/Start', 'Pause' if self.jukebox_playing else 'Lecture'),
-                               ('◄►', '-/+ {}s'.format(MEDIA_SEEK_STEP_S)),
-                               ('▲▼', 'Piste préc./suiv.'),
-                               shuffle_hint,
-                               ('B/Select', 'Retour')],
+        base = self.jukebox_base()
+        aleatoire = 'Aléatoire : ON' if self.jukebox_shuffle else 'Aléatoire : OFF'
+        note = self.note_versions(base, self.jukebox_source,
+                                  self.jukebox_info_source if self.jukebox_info_surface is not None else None)
+        if self.jukebox_kind == 'podcast':
+            note = '   ·   '.join(x for x in (note, aleatoire) if x)
+        self.draw_bandeau(note)
+        hints = [('A/Start', 'Pause' if self.jukebox_playing else 'Lecture'),
+                 ('◄►', '-/+ {}s'.format(MEDIA_SEEK_STEP_S))]
+        if self.jukebox_kind == 'podcast':
+            hints.append(('▲▼', 'Piste'))
+            if len(dl.sources_disponibles('podcast', base)) > 1:
+                hints.append(('L1', 'Podcast'))
+            if self.jukebox_info_surface is not None and len(dl.sources_disponibles('infographie', base)) > 1:
+                hints.append(('R2', 'Infographie'))
+            hints.append(('R1', 'Aléatoire'))
+        else:
+            hints.append(('▲▼', 'Piste préc./suiv.'))
+            hints.append(('L1', aleatoire))
+            if self.jukebox_info_surface is not None and len(dl.sources_disponibles('infographie', base)) > 1:
+                hints.append(('R2', 'Infographie'))
+        hints.append(('B/Select', 'Retour'))
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints,
                               right_text=status, right_color=status_color)
 
     def draw_info(self):
