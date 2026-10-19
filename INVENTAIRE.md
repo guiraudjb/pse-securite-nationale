@@ -1,32 +1,32 @@
 # Inventaire des modules et des médias — pse-securite-nationale
 
-Généré le 07/10/2026 à 22:19 par `scripts/inventaire_medias.py` (88 modules). ✅ présent, ❌ absent ; pour QCM, flashcards et TP, nombre d'éléments (0 = absent).
+Généré le 19/10/2026 à 08:02 par `scripts/inventaire_medias.py` (136 modules). ✅ présent, ❌ absent ; pour QCM, flashcards et TP, nombre d'éléments (0 = absent).
 
 ## Synthèse
 
 | Contenu | Présents | Absents | Couverture |
 |---|---:|---:|---:|
-| Fiche | 88 | 0 | 100 % |
-| QCM | 88 | 0 | 100 % |
-| Flash | 88 | 0 | 100 % |
-| TP | 4 | 84 | 4 % |
-| Icône | 86 | 2 | 97 % |
-| Infographie locale | 86 | 2 | 97 % |
-| Infographie NotebookLM | 88 | 0 | 100 % |
-| Paroles | 86 | 2 | 97 % |
-| Chanson | 86 | 2 | 97 % |
-| Podcast local | 86 | 2 | 97 % |
-| Podcast NotebookLM | 88 | 0 | 100 % |
-| Micro-chronique | 1 | 87 | 1 % |
-| Narration fiche | 86 | 2 | 97 % |
-| Audio QCM/flash | 86 | 2 | 97 % |
+| Fiche | 136 | 0 | 100 % |
+| QCM | 136 | 0 | 100 % |
+| Flash | 136 | 0 | 100 % |
+| TP | 4 | 132 | 2 % |
+| Icône | 136 | 0 | 100 % |
+| Infographie locale | 136 | 0 | 100 % |
+| Infographie NotebookLM | 136 | 0 | 100 % |
+| Paroles | 136 | 0 | 100 % |
+| Chanson | 136 | 0 | 100 % |
+| Podcast local | 136 | 0 | 100 % |
+| Podcast NotebookLM | 136 | 0 | 100 % |
+| Micro-chronique | 1 | 135 | 0 % |
+| Narration fiche | 136 | 0 | 100 % |
+| Audio QCM/flash | 136 | 0 | 100 % |
 
 ## Par série
 
 | Série | Modules | Fiche | QCM | Flash | TP | Icône | Infographie locale | Infographie NotebookLM | Paroles | Chanson | Podcast local | Podcast NotebookLM | Micro-chronique | Narration fiche | Audio QCM/flash |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 00 À la une | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| 03 ANSSI, SGDSN et stratégies nationales | 87 | 87 | 87 | 87 | 3 | 85 | 85 | 87 | 85 | 85 | 85 | 87 | 0 | 85 | 85 |
+| 03 ANSSI, SGDSN et stratégies nationales | 135 | 135 | 135 | 135 | 3 | 135 | 135 | 135 | 135 | 135 | 135 | 135 | 0 | 135 | 135 |
 
 ## Détail par module
 
@@ -118,5 +118,53 @@ Généré le 07/10/2026 à 22:19 par `scripts/inventaire_medias.py` (88 modules)
 | 03-800 ANSSI - Kit d'exercice de crise cyber du secteur agroalimentaire | ✅ | 36 | 21 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 03-810 ANSSI et DINUM - Le guide de l'homologation de sécurité des systèmes d'information (2025) | ✅ | 33 | 19 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 03-820 SGDSN - Feuille de route stratégique de l'OSIIC 2024-2027 | ✅ | 45 | 20 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| 03-830 ANSSI - Recommandations pour les architectures des SI sensibles ou Diffusion Restreinte | ✅ | 55 | 26 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
-| 03-840 SGDSN - IGI 1300 sur la protection du secret de la défense nationale (2021) | ✅ | 64 | 27 | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| 03-830 ANSSI - Recommandations pour les architectures des SI sensibles ou Diffusion Restreinte | ✅ | 55 | 26 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-840 SGDSN - IGI 1300 sur la protection du secret de la défense nationale (2021) | ✅ | 64 | 27 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-850 Évolution des architectures réseau d'entreprise - de l'ARPANET au Zero Trust | ✅ | 57 | 64 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-860 SGDSN et ANSSI - Feuille de route de la sécurité numérique de l'État 2026-2027 | ✅ | 43 | 19 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-870 COMCYBER - Politique ministérielle de lutte informatique défensive (LID) | ✅ | 32 | 22 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-880 COMCYBER - Doctrine militaire de lutte informatique offensive (LIO) | ✅ | 35 | 19 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-890 COMCYBER - Doctrine militaire de lutte informatique d'influence (L2I) | ✅ | 34 | 20 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-900 DGSE - Missions, organisation et héritage du service de renseignement extérieur | ✅ | 44 | 22 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-910 CNRLT - Stratégie nationale du renseignement 2025 | ✅ | 42 | 26 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-920 ANSSI - Crise cyber, gestion opérationnelle et stratégique, exercices et communication de crise | ✅ | 36 | 20 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-930 ANSSI - Cyberattaques et remédiation, clés de décision, pilotage, Tier 0 Active Directory et préparation | ✅ | 35 | 20 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-940 ANSSI - La supervision de sécurité, clés de décision et pilotage d'un projet | ✅ | 31 | 18 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-950 ANSSI - L'investigation et la qualification d'incidents, les clés de décision | ✅ | 31 | 16 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-960 ANSSI - Sécurité des systèmes d'IA générative et confiance dans l'IA par les risques cyber | ✅ | 30 | 18 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-970 ANSSI - Migration vers la cryptographie post-quantique, avis 2022 et 2023 et transition de TLS, SSH et IPsec | ✅ | 34 | 18 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-980 ANSSI - Mécanismes cryptographiques, règles de dimensionnement, sélection des algorithmes et analyse de risque | ✅ | 31 | 18 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-990 ANSSI - Cybersécurité des systèmes industriels, méthode de classification et mesures détaillées | ✅ | 30 | 16 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1000 ANSSI - Internet des objets industriels et gestion technique du bâtiment | ✅ | 28 | 16 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1010 ANSSI - Recommandations relatives à la sécurité des objets connectés | ✅ | 25 | 14 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1020 ANSSI - Recommandations relatives à l'authentification multifacteur et aux mots de passe | ✅ | 28 | 16 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1030 ANSSI - Recommandations sur le nomadisme numérique | ✅ | 28 | 15 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1040 ANSSI - Recommandations relatives aux architectures des services DNS | ✅ | 25 | 12 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1050 ANSSI - Recommandations de sécurité pour l'architecture d'un système de journalisation | ✅ | 23 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1060 ANSSI - Recommandations pour les architectures des interconnexions multiniveaux | ✅ | 27 | 13 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1070 ANSSI - Recommandations pour le reconditionnement des ordinateurs de bureau ou portables | ✅ | 20 | 9 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1080 ANSSI - Mesures cyber préventives prioritaires et fiches ReCyF en pratique | ✅ | 21 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1090 ANSSI - Cybersécurité des start-up du numérique et protection contre les failles IDOR | ✅ | 21 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1100 ANSSI - Panoramas de la cybermenace 2021, 2022 et 2023 | ✅ | 21 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1110 ANSSI - Rapports d'activité 2021, 2022 et 2023 | ✅ | 21 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1120 CERT-FR - Synthèses de la menace ciblant les collectivités territoriales 2023 et 2025 | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1130 CERT-FR - État de la menace sur les secteurs de la santé et de l'eau | ✅ | 21 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1140 CERT-FR - État de la menace sur les télécommunications et le cloud computing | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1150 CERT-FR - Menace sur les transports urbains et les grands évènements sportifs | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1160 CERT-FR - Menace sur la recherche, les think tanks et les cabinets d'avocats | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1170 CERT-FR - Le mode opératoire d'attaque APT28 et ses campagnes depuis 2021 | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1180 CERT-FR - Les modes opératoires APT31, Nobelium et Houken | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1190 CERT-FR - Groupes cybercriminels Lockean et FIN12 et écosystème des rançongiciels | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1200 CERT-FR - Téléphones mobiles, état de la menace et recommandations | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1210 CERT-FR - Retours d'expérience, vols de cookies, logiciels non maîtrisés et exfiltration de données | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1220 SGDSN - Revue nationale stratégique 2025 | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1230 Viginum - Les campagnes RRN, Portal Kombat et Matriochka | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1240 Viginum - Storm-1516 et menace informationnelle liée à l'intelligence artificielle | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1250 SGDSN et Viginum - Ingérences numériques étrangères et élections de 2026 | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1260 COMCYBER-MI - Rapports annuels sur la cybercriminalité 2024 et 2026 | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1270 Cybermalveillance.gouv.fr - Rapports d'activité 2021 à 2025 et état de la menace | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1280 CNIL - Recommandation relative à l'authentification multifacteur | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1290 ENISA - Threat Landscape 2025, panorama européen de la menace | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1300 Campus Cyber - Studio des communs, groupes de travail et prospective Horizon Cyber 2030 | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1310 Viginum - Menace informationnelle des JOP 2024 et trois ans d'opérations russes en Ukraine | ✅ | 20 | 10 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 03-1320 CND - Commissariat au numérique de défense, organisation, missions et vision stratégique | ✅ | 53 | 16 | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
