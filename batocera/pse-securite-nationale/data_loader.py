@@ -160,6 +160,27 @@ def icone_path(base):
     return path if os.path.exists(path) else None
 
 
+def icones_distinctes(series):
+    """Icônes des modules sans doublon (même image pour deux modules = une
+    seule entrée) : [{'path', 'numero', 'titre'}, ...], pour le Memory Puzzle."""
+    import hashlib
+    vues, res = set(), []
+    for _code, modules in series:
+        for m in modules:
+            path = icone_path(m['base'])
+            if not path:
+                continue
+            try:
+                with open(path, 'rb') as f:
+                    empreinte = hashlib.md5(f.read()).hexdigest()
+            except OSError:
+                continue
+            if empreinte not in vues:
+                vues.add(empreinte)
+                res.append({'path': path, 'numero': m['numero'], 'titre': m['titre']})
+    return res
+
+
 def infographie_path(base):
     """Chemin de l'infographie (png) dans la source préférée (infographie/ ou
     infographie_nlm/), sinon dans l'autre, ou None si absente."""

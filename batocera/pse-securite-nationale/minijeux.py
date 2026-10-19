@@ -513,10 +513,26 @@ class Simulate(Jeu):
 
 
 # ----------------------------------------------------------------------
-# MEMORY PUZZLE (paires de formes cachées)
+# MEMORY PUZZLE (paires cachées : icônes des modules, sinon formes de couleur)
+ICONES = []   # [{'path', 'numero', 'titre'}], rempli par le moteur (dl.icones_distinctes)
+_IMAGES = {}
+# grilles possibles selon le nombre de paires disponibles (paires: colonnes, lignes)
+GRILLES_MEMORY = [(35, 10, 7), (30, 10, 6), (28, 8, 7), (24, 8, 6), (20, 8, 5),
+                  (18, 6, 6), (15, 6, 5), (12, 6, 4), (10, 5, 4), (8, 4, 4)]
+
+
+def _image(path, taille):
+    cle = (path, taille)
+    if cle not in _IMAGES:
+        try:
+            _IMAGES[cle] = pygame.transform.smoothscale(pygame.image.load(path).convert_alpha(), (taille, taille))
+        except (pygame.error, OSError):
+            _IMAGES[cle] = None
+    return _IMAGES[cle]
+
+
 class MemoryPuzzle(Jeu):
     titre = 'Memory Puzzle'
-    LARG, HAUT = 10, 7
     FORMES = ('donut', 'carre', 'losange', 'lignes', 'ovale')
     COULEURS = ((230, 50, 50), (40, 190, 80), (60, 110, 240), (240, 210, 50),
                 (245, 140, 30), (170, 70, 210), (40, 210, 220))
@@ -530,7 +546,15 @@ class MemoryPuzzle(Jeu):
         self._nouvelle()
 
     def _nouvelle(self):
-        icones = [(f, c) for f in self.FORMES for c in self.COULEURS] * 2
+        grille = next((g for g in GRILLES_MEMORY if g[0] <= len(ICONES)), None)
+        if grille:
+            paires, self.LARG, self.HAUT = grille
+            icones = random.sample(range(len(ICONES)), paires) * 2
+        else:
+            self.LARG, self.HAUT = 10, 7
+            icones = [(f, c) for f in self.FORMES for c in self.COULEURS] * 2
+        self.avec_icones = bool(grille)
+        self.trouvee = None   # dernière paire trouvée (index dans ICONES)
         random.shuffle(icones)
         self.plateau = [[icones[x * self.HAUT + y] for y in range(self.HAUT)] for x in range(self.LARG)]
         self.visible = [[False] * self.HAUT for _ in range(self.LARG)]
@@ -560,6 +584,8 @@ class MemoryPuzzle(Jeu):
         self.premier = None
         if self.plateau[px][py] == self.plateau[x][y]:
             self.score += 1
+            if self.avec_icones:
+                self.trouvee = self.plateau[x][y]
             if all(all(c) for c in self.visible):
                 self.grilles += 1
                 self.annonce = ('Grille terminée en {} coups !'.format(self.coups), 'A : nouvelle grille')
@@ -598,16 +624,32 @@ class MemoryPuzzle(Jeu):
             pygame.draw.ellipse(surface, coul, (r.x + 2, r.y + q, r.width - 4, h))
 
     def draw(self, surface, zone, fonts):
-        case, ox, oy = _grille(zone, self.LARG, self.HAUT, panneau=4)
+        bas = 44 if self.avec_icones else 0   # ligne du module de la dernière paire
+        case, ox, oy = _grille(pygame.Rect(zone.x, zone.y, zone.width, zone.height - bas),
+                               self.LARG, self.HAUT, panneau=4)
         cadre = pygame.Rect(ox, oy, case * self.LARG, case * self.HAUT)
         for x in range(self.LARG):
             for y in range(self.HAUT):
                 r = pygame.Rect(ox + x * case + 3, oy + y * case + 3, case - 6, case - 6)
-                if self.visible[x][y]:
+                if self.visible[x][y] and self.avec_icones:
+                    pygame.draw.rect(surface, (235, 235, 245), r, border_radius=4)
+                    img = _image(ICONES[self.plateau[x][y]]['path'], r.width - 4)
+                    if img:
+                        surface.blit(img, (r.x + 2, r.y + 2))
+                elif self.visible[x][y]:
                     pygame.draw.rect(surface, FOND_JEU, r)
                     self._icone(surface, *self.plateau[x][y], r.inflate(-6, -6))
                 else:
-                    pygame.draw.rect(surface, (235, 235, 245), r, border_radius=4)
+                    pygame.draw.rect(surface, (60, 70, 130), r, border_radius=4)
+                    pygame.draw.rect(surface, (90, 100, 170), r.inflate(-8, -8), 2, border_radius=3)
+        if self.trouvee is not None:
+            m = ICONES[self.trouvee]
+            texte = '✓ {}  {}'.format(m['numero'], m['titre'])
+            if fonts.small.get_rect(texte).width > zone.width - 20:
+                while len(texte) > 10 and fonts.small.get_rect(texte + '…').width > zone.width - 20:
+                    texte = texte[:-1]
+                texte = texte.rstrip() + '…'
+            fonts.small.render_to(surface, (cadre.x, cadre.bottom + 16), texte, JAUNE)
         x, y = self.cur
         _curseur(surface, pygame.Rect(ox + x * case + 1, oy + y * case + 1, case - 2, case - 2))
         return _panneau(cadre, case // 2, zone)

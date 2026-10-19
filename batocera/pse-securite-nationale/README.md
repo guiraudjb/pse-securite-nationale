@@ -71,7 +71,7 @@ Dix jeux, choisis à la croix dans une grille de deux colonnes :
 - **Wormy** : la croix dirige le ver.
 - **Gemgem** : la croix déplace le curseur, A sélectionne une gemme, puis une direction l'échange avec sa voisine (alignez-en 3).
 - **Simulate** : répéter la séquence de couleurs avec A, B, C, D (4 s maximum entre deux appuis).
-- **Memory Puzzle** : la croix choisit une case, A la retourne ; trouver les 35 paires.
+- **Memory Puzzle** : la croix choisit une case, A la retourne. Les paires sont les icônes des modules du dépôt (jusqu'à 35 paires, grille réduite s'il y en a moins) ; le module de chaque paire trouvée s'affiche sous la grille.
 - **Slide Puzzle** : taquin 4×4, la croix fait glisser une tuile vers le trou.
 - **Ink Spill** : ◄► choisir une couleur, A la verser depuis le coin ; remplir la grille en 30 coups.
 - **Four in a Row** : puissance 4 contre l'ordinateur, ◄► colonne, A ou ▼ jouer.

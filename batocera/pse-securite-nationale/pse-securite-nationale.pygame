@@ -633,6 +633,9 @@ class App:
         self.tts.stop()
         self.minijeu_utilise = True
         record = self.records_minijeux().get(jeu_id, 0)
+        if jeu_id == 'memory' and not minijeux.ICONES:
+            minijeux.ICONES = dl.icones_distinctes(self.series)
+            log('memory : {} icônes de modules distinctes'.format(len(minijeux.ICONES)))
         self.minijeu = minijeux.Session(jeu_id, record if isinstance(record, int) else 0)
         self.minijeu_ticks = pygame.time.get_ticks()
         log('mini-jeu {} lancé (record {})'.format(jeu_id, record))
