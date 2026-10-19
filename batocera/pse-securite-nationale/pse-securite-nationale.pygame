@@ -16,6 +16,7 @@ import data_loader as dl
 import input_handler as inp
 import ui
 import tts
+import minijeux
 
 WINDOW_SURFACE = pygame.HWSURFACE | pygame.DOUBLEBUF
 MAX_PADS = 4
@@ -56,6 +57,8 @@ STATE_JUKEBOX = 'jukebox'
 STATE_LEX_LETTRES = 'lex_lettres'
 STATE_LEX_TERMES = 'lex_termes'
 STATE_LEX_DEF = 'lex_def'
+STATE_MINIJEU = 'minijeu'
+MINIJEU_SEUIL_PCT = 80  # mini-jeu bonus proposé au-delà de ce score de QCM
 
 # Médias audio d'un module : fonction de chemin, libellé à l'écran, message d'absence
 MEDIAS = {
@@ -212,6 +215,11 @@ class App:
         self.fiche_audio_position_s = 0.0
         self.fiche_audio_position_ticks = 0
 
+        self.minijeu = None
+        self.minijeu_choix = 0
+        self.minijeu_utilise = False
+        self.minijeu_ticks = 0
+
         self.state = STATE_SERIES
         self.running = True
         # Ignore les entrées des toutes premières frames : certaines manettes
@@ -266,7 +274,7 @@ class App:
     def dispatch(self, action):
         # Sur l'écran de quiz, A/B/C/D répondent directement (voir handle_quiz_ask) ;
         # partout ailleurs ils équivalent simplement à action/back.
-        if self.state != STATE_QUIZ_ASK:
+        if self.state not in (STATE_QUIZ_ASK, STATE_MINIJEU):
             action = FACE_TO_GENERIC.get(action, action)
 
         if self.state == STATE_SERIES:
@@ -303,12 +311,21 @@ class App:
             self.handle_lex_termes(action)
         elif self.state == STATE_LEX_DEF:
             self.handle_lex_def(action)
+        elif self.state == STATE_MINIJEU:
+            self.handle_minijeu(action)
 
     def update_timers(self):
         """Vérifiée à chaque frame (indépendamment des événements manette) :
         fait avancer les comptes à rebours quiz/flashcard, avec le même
         comportement que les minuteurs JS (setTimeout) de la page web."""
         now = pygame.time.get_ticks()
+        if self.state == STATE_MINIJEU:
+            dt = min(0.1, (now - self.minijeu_ticks) / 1000.0)
+            self.minijeu_ticks = now
+            self.minijeu.update(dt)
+            if self.minijeu.quitter:
+                self.fin_minijeu()
+            return
         if self.state == STATE_QUIZ_ASK and self.quiz_deadline is not None and now >= self.quiz_deadline:
             # Fin du temps de réflexion = mauvaise réponse par défaut (comme checkAnswer(-1))
             self.confirm_quiz_choice(-1)
@@ -372,7 +389,9 @@ class App:
             else:
                 dl.source_preferee = dl.autre_source(dl.source_preferee)
             self.settings_menu.items = self.settings_items()
-            dl.save_prefs({'timer': self.timer_option, 'source': dl.source_preferee})
+            prefs = dl.load_prefs()
+            prefs.update({'timer': self.timer_option, 'source': dl.source_preferee})
+            dl.save_prefs(prefs)
         elif action == 'back':
             self.state = STATE_SERIES
 
@@ -443,6 +462,7 @@ class App:
         self.quiz_questions = dl.load_quiz(self.current_module['base'], QUIZ_QUESTION_COUNT)
         self.quiz_index = 0
         self.quiz_score = 0
+        self.minijeu_utilise = False
         if not self.quiz_questions:
             self.state = STATE_MODE
             return
@@ -574,9 +594,54 @@ class App:
             self.load_quiz_question()
             self.state = STATE_QUIZ_ASK
 
+    def quiz_pct(self):
+        total = len(self.quiz_questions)
+        return int(100 * self.quiz_score / total) if total else 0
+
+    def minijeu_propose(self):
+        return self.quiz_pct() > MINIJEU_SEUIL_PCT and not self.minijeu_utilise
+
     def handle_quiz_end(self, action):
-        if action in ('action', 'back'):
+        if self.minijeu_propose():
+            if action in ('up', 'down', 'left', 'right'):
+                self.minijeu_choix = (self.minijeu_choix + 1) % len(minijeux.ORDRE)
+            elif action == 'action':
+                self.start_minijeu(minijeux.ORDRE[self.minijeu_choix])
+            elif action == 'back':
+                self.state = STATE_MODE
+        elif action in ('action', 'back'):
             self.state = STATE_MODE
+
+    # ------------------------------------------------------------------
+    # MINI-JEU BONUS (QCM réussi à plus de 80 %, session de 5 à 10 min)
+    def records_minijeux(self):
+        records = dl.load_prefs().get('records_minijeux')
+        return records if isinstance(records, dict) else {}
+
+    def start_minijeu(self, jeu_id):
+        self.tts.stop()
+        self.minijeu_utilise = True
+        record = self.records_minijeux().get(jeu_id, 0)
+        self.minijeu = minijeux.Session(jeu_id, record if isinstance(record, int) else 0)
+        self.minijeu_ticks = pygame.time.get_ticks()
+        log('mini-jeu {} lancé (record {})'.format(jeu_id, record))
+        self.state = STATE_MINIJEU
+
+    def fin_minijeu(self):
+        session = self.minijeu
+        if session.meilleur > session.record_avant:
+            prefs = dl.load_prefs()
+            records = prefs.get('records_minijeux')
+            records = records if isinstance(records, dict) else {}
+            records[session.jeu_id] = session.meilleur
+            prefs['records_minijeux'] = records
+            dl.save_prefs(prefs)
+        log('mini-jeu {} terminé, meilleur score {}'.format(session.jeu_id, session.meilleur))
+        self.minijeu = None
+        self.state = STATE_MODE
+
+    def handle_minijeu(self, action):
+        self.minijeu.action(action)
 
     # ------------------------------------------------------------------
     # FLASHCARDS
@@ -1384,6 +1449,8 @@ class App:
             self.draw_lex_termes()
         elif self.state == STATE_LEX_DEF:
             self.draw_lex_def()
+        elif self.state == STATE_MINIJEU:
+            self.draw_minijeu()
 
     HEADER_H = 70
 
@@ -1494,8 +1561,35 @@ class App:
         pct = int(100 * self.quiz_score / total) if total else 0
         text = "Score final : {} / {}  ({} %)".format(self.quiz_score, total, pct)
         self.fonts.large.render_to(self.screen, (60, 200), text, ui.COLOR_PRIMARY)
+        if not self.minijeu_propose():
+            ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
+                                  [('A/Start', 'Retour au menu')])
+            return
+        self.fonts.medium.render_to(self.screen, (60, 280),
+                                    "Bravo ! Plus de {} % : un mini-jeu bonus vous attend (5 à 10 min).".format(MINIJEU_SEUIL_PCT),
+                                    ui.COLOR_SUCCESS)
+        records = self.records_minijeux()
+        y = 340
+        for i, jeu_id in enumerate(minijeux.ORDRE):
+            rect = pygame.Rect(60, y, self.screen_w - 120, 56)
+            choisi = i == self.minijeu_choix
+            pygame.draw.rect(self.screen, ui.COLOR_SELECTED_BG if choisi else ui.COLOR_PANEL, rect, border_radius=10)
+            pygame.draw.rect(self.screen, ui.COLOR_PRIMARY, rect, width=2, border_radius=10)
+            coul = ui.COLOR_SELECTED_TEXT if choisi else ui.COLOR_TEXT
+            self.fonts.medium.render_to(self.screen, (rect.x + 24, rect.y + 16), minijeux.JEUX[jeu_id].titre, coul)
+            rec = "Record : {}".format(records.get(jeu_id, 0))
+            r = self.fonts.small.get_rect(rec)
+            self.fonts.small.render_to(self.screen, (rect.right - 24 - r.width, rect.y + 18), rec, coul)
+            y += 70
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
-                              [('A/Start', 'Retour au menu')])
+                              [('▲▼', 'Choisir'), ('A/Start', 'Jouer'), ('B/Select', 'Retour au menu')])
+
+    def draw_minijeu(self):
+        self.screen.fill((8, 10, 28))
+        self.draw_header("MINI-JEU BONUS  —  {}".format(self.minijeu.titre))
+        zone = pygame.Rect(20, self.HEADER_H + 10, self.screen_w - 40, self.screen_h - self.HEADER_H - 48 - 20)
+        self.minijeu.draw(self.screen, zone, self.fonts)
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, self.minijeu.aide())
 
     def draw_flash(self):
         self.draw_header("FLASHCARDS  —  {}".format(self.current_module['label']))

@@ -57,3 +57,16 @@ les modules disponibles par série.
 
 Code du jeu : usage personnel. Police intégrée : DejaVu Sans (licence Bitstream Vera /
 DejaVu, libre de redistribution).
+
+## Mini-jeu bonus
+
+Proposé à la fin d'un QCM réussi à **plus de 80 %**, une seule fois par QCM.
+Une session dure de 5 à 10 minutes : une partie perdue avant 5 min peut être rejouée,
+et le jeu s'arrête de lui-même à 10 min. La pause (Start ou Select) arrête le chronomètre.
+Les records sont gardés dans `preferences.json`.
+
+- **Tetromino** : ◄► déplacer, ▼ descendre, A ou ▲ tourner, B tourner dans l'autre sens, C (ou D/R1) faire tomber.
+- **Wormy** : la croix dirige le ver.
+
+Les deux jeux sont adaptés d'Al Sweigart (« Making Games with Python & Pygame »,
+licence BSD simplifiée, texte dans `minijeux.py`). Les images et sons d'origine ne sont pas repris.
