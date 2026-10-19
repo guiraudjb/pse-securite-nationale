@@ -26,6 +26,7 @@ except Exception:
 REPEAT_DELAY_MS = 350   # délai avant répétition d'une direction maintenue
 REPEAT_RATE_MS = 120    # intervalle de répétition
 AXIS_DEADZONE = 0.5
+TRIGGER_SEUIL = 0.5     # gâchette analogique (L2/R2) considérée enfoncée au-delà de ce seuil
 
 ES_INPUT_CFG_PATHS = (
     '/userdata/system/configs/emulationstation/es_input.cfg',
@@ -36,6 +37,7 @@ OUR_TO_ES_NAME = {
     'a': 'a', 'b': 'b', 'x': 'x', 'y': 'y',
     'start': 'start', 'back': 'select',
     'leftshoulder': 'pageup', 'rightshoulder': 'pagedown',
+    'lefttrigger': 'l2', 'righttrigger': 'r2',
 }
 ES_TO_OUR_NAME = {es: ours for ours, es in OUR_TO_ES_NAME.items()}
 
@@ -104,6 +106,38 @@ def _load_es_button_mappings():
 ES_BUTTON_MAPPINGS = _load_es_button_mappings()
 
 
+def _load_es_trigger_axes():
+    """Lit es_input.cfg : {guid: {nom_es: (axe, sens)}} pour les gâchettes L2/R2
+    déclarées comme axes (manettes Xbox : l2 = axe 2, r2 = axe 5). Sur d'autres
+    manettes (DragonRise), L2/R2 sont de simples boutons, lus par ES_BUTTON_MAPPINGS."""
+    axes = {}
+    for path in ES_INPUT_CFG_PATHS:
+        if not os.path.exists(path):
+            continue
+        try:
+            tree = ET.parse(path)
+        except Exception:
+            continue
+        for cfg in tree.getroot().findall('inputConfig'):
+            guid = cfg.get('deviceGUID')
+            if not guid:
+                continue
+            for inp in cfg.findall('input'):
+                if inp.get('type') == 'axis' and inp.get('name') in ('l2', 'r2'):
+                    try:
+                        sens = 1 if int(inp.get('value')) >= 0 else -1
+                        axes.setdefault(guid, {}).setdefault(inp.get('name'), (int(inp.get('id')), sens))
+                    except (TypeError, ValueError):
+                        pass
+    return axes
+
+
+ES_TRIGGER_AXES = _load_es_trigger_axes()
+
+# Repli pour les gâchettes analogiques hors es_input.cfg (manette XInput classique).
+LEGACY_TRIGGER_AXES = {'l2': (2, 1), 'r2': (5, 1)}
+
+
 class Pad:
     """Une manette physique. Priorité de la source de mapping des boutons :
     1) es_input.cfg (config EmulationStation, déjà validée par l'utilisateur)
@@ -127,6 +161,9 @@ class Pad:
             es_buttons = dict(es_buttons) if es_buttons else {}
             es_buttons.update(verified_face)
         self.es_buttons = es_buttons or None
+
+        self.es_trigger_axes = ES_TRIGGER_AXES.get(self.guid, {})
+        self.triggers_enfonces = set()   # détection du front montant des gâchettes analogiques
 
         self.controller = None
         if self.es_buttons is None and HAVE_SDL2_CONTROLLER and sdl2ctrl.is_controller(index):
@@ -188,6 +225,47 @@ class Pad:
         for name, idxs in LEGACY_BUTTON_INDEXES.items():
             if button_index in idxs:
                 return name
+        return None
+
+    def instance_id(self):
+        try:
+            return self.joystick.get_instance_id()
+        except Exception:
+            return self.index
+
+    def trigger_name_for_axis(self, axis, value):
+        """Gâchette analogique : renvoie 'lefttrigger'/'righttrigger' au moment où
+        elle passe le seuil (front montant), sinon None. value est normalisée (-1..1)."""
+        if self.es_trigger_axes:
+            table = self.es_trigger_axes
+        elif self.es_buttons is not None:
+            return None   # L2/R2 en boutons (ou non déclarés) : pas d'axe à surveiller
+        else:
+            table = LEGACY_TRIGGER_AXES
+        for es_name, (axe, sens) in table.items():
+            if axe != axis:
+                continue
+            enfonce = value * sens > TRIGGER_SEUIL
+            if enfonce and es_name not in self.triggers_enfonces:
+                self.triggers_enfonces.add(es_name)
+                return ES_TO_OUR_NAME[es_name]
+            if not enfonce:
+                self.triggers_enfonces.discard(es_name)
+        return None
+
+    def controller_trigger(self, axis, value):
+        """Même chose pour une manette reconnue par SDL_GameController (valeur 0..32767)."""
+        noms = {pygame.CONTROLLER_AXIS_TRIGGERLEFT: 'lefttrigger',
+                pygame.CONTROLLER_AXIS_TRIGGERRIGHT: 'righttrigger'}
+        nom = noms.get(axis)
+        if nom is None:
+            return None
+        enfonce = value / 32767.0 > TRIGGER_SEUIL
+        if enfonce and nom not in self.triggers_enfonces:
+            self.triggers_enfonces.add(nom)
+            return nom
+        if not enfonce:
+            self.triggers_enfonces.discard(nom)
         return None
 
     def stick_direction(self):
@@ -284,6 +362,19 @@ def translate_event(event, pads):
                 return _semantic_name_to_action(name)
         return None
 
+    # Gâchettes L2/R2 analogiques (manettes Xbox) : évènements d'axe, par manette.
+    if event.type == pygame.JOYAXISMOTION:
+        jid = getattr(event, 'instance_id', getattr(event, 'joy', None))
+        for pad in pads:
+            if pad.controller is None and pad.instance_id() == jid:
+                return _semantic_name_to_action(pad.trigger_name_for_axis(event.axis, event.value))
+        return None
+    if HAVE_SDL2_CONTROLLER and event.type == pygame.CONTROLLERAXISMOTION:
+        for pad in pads:
+            if pad.controller is not None and pad.instance_id() == getattr(event, 'instance_id', None):
+                return _semantic_name_to_action(pad.controller_trigger(event.axis, event.value))
+        return None
+
     return None
 
 
@@ -294,6 +385,10 @@ def _semantic_name_to_action(name):
         return 'shoulder_l'
     if name == 'rightshoulder':
         return 'shoulder_r'
+    if name == 'lefttrigger':     # L2
+        return 'trigger_l'
+    if name == 'righttrigger':    # R2
+        return 'trigger_r'
     if name == 'start':   # Start = validation, comme le bouton A
         return 'action'
     if name == 'back':    # Select = retour arrière, comme le bouton B

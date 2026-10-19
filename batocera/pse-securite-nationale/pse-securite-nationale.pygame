@@ -191,6 +191,7 @@ class App:
         self.media_path = None
         self.media_playing = False
         self.media_info_surface = None
+        self.media_info_source = None
         self.media_position_s = 0.0
         self.media_position_ticks = 0
 
@@ -854,7 +855,7 @@ class App:
     # CHANSON / PODCAST (lecteur audio simple via pygame.mixer.music, séparé
     # du canal utilisé par la synthèse vocale - voir tts.py qui utilise
     # pygame.mixer.Sound, donc aucun conflit entre les deux)
-    def start_media(self, kind, source=None):
+    def start_media(self, kind, source=None, info_source=None):
         self.tts.stop()
         base = self.current_module['base']
         self.media_source = None
@@ -874,13 +875,22 @@ class App:
         self.media_position_s = 0.0
         self.media_position_ticks = pygame.time.get_ticks()
         # Fond d'écran pendant la lecture : l'infographie du module, pour la
-        # chanson comme pour le podcast.
-        self.media_info_surface = self._load_infographie_surface(base)
+        # chanson comme pour le podcast ; sa version (locale / NotebookLM) se
+        # change avec R2 sans interrompre la lecture.
+        self.load_media_info(info_source)
         if path is not None:
             pygame.mixer.music.load(path)
             pygame.mixer.music.play()
             self.media_playing = True
         self.state = STATE_MEDIA
+
+    def load_media_info(self, source=None):
+        path, self.media_info_source = dl.media_source('infographie', self.current_module['base'], source)
+        self.media_info_surface = self._load_surface(path)
+
+    def media_info_visible(self):
+        """L'infographie de fond est affichée (pas masquée par les paroles d'une chanson)."""
+        return self.media_info_surface is not None and not (self.media_kind == 'chanson' and self.paroles_lines)
 
     def media_elapsed_s(self):
         """Position de lecture actuelle, en secondes, calculée nous-mêmes
@@ -940,8 +950,13 @@ class App:
             self.paroles_scroll = max(0, min(len(self.paroles_lines) - visibles, self.paroles_scroll + pas))
         elif action in ('shoulder_l', 'shoulder_r') and self.media_kind == 'podcast' and self.media_source \
                 and len(dl.sources_disponibles('podcast', self.current_module['base'])) > 1:
+            # L1 (et R1, comme avant) : autre version du podcast, l'infographie garde la sienne
             pygame.mixer.music.stop()
-            self.start_media('podcast', dl.autre_source(self.media_source))
+            self.start_media('podcast', dl.autre_source(self.media_source), self.media_info_source)
+        elif action == 'trigger_r' and self.media_info_visible() and self.media_info_source \
+                and len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
+            # R2 : autre version de l'infographie de fond, la lecture continue
+            self.load_media_info(dl.autre_source(self.media_info_source))
         elif action == 'back':
             pygame.mixer.music.stop()
             self.state = STATE_MODE
@@ -951,7 +966,7 @@ class App:
         bottom = self.screen_h - 48 - 20
         return max(1, (bottom - top) // (self.fonts.medium.get_sized_height() + 8))
 
-    def note_source(self, kind, source):
+    def note_source(self, kind, source, touche='L1/R1'):
         """Ligne d'état du sélecteur de source, comme sur la page web."""
         dispo = dl.sources_disponibles(kind, self.current_module['base'])
         if not source:
@@ -960,8 +975,25 @@ class App:
             return 'Version {} (version {} pas encore disponible)'.format(
                 dl.SOURCE_LIBELLES[source], dl.SOURCE_LIBELLES[dl.source_preferee])
         if len(dispo) > 1:
-            return 'Version {} — L1/R1 : version {}'.format(dl.SOURCE_LIBELLES[source], dl.SOURCE_LIBELLES[dl.autre_source(source)])
+            return 'Version {} — {} : version {}'.format(dl.SOURCE_LIBELLES[source], touche,
+                                                       dl.SOURCE_LIBELLES[dl.autre_source(source)])
         return 'Version {}'.format(dl.SOURCE_LIBELLES[source])
+
+    def note_media(self):
+        """Bandeau du lecteur : version du podcast (L1) et de l'infographie de fond (R2)."""
+        parts = []
+        base = self.current_module['base']
+        if self.media_kind == 'podcast' and self.media_source:
+            podcast = 'Podcast : ' + dl.SOURCE_LIBELLES[self.media_source]
+            if len(dl.sources_disponibles('podcast', base)) > 1:
+                podcast += ' (L1 : ' + dl.SOURCE_LIBELLES[dl.autre_source(self.media_source)] + ')'
+            parts.append(podcast)
+        if self.media_info_visible() and self.media_info_source:
+            info = 'Infographie : ' + dl.SOURCE_LIBELLES[self.media_info_source]
+            if len(dl.sources_disponibles('infographie', base)) > 1:
+                info += ' (R2 : ' + dl.SOURCE_LIBELLES[dl.autre_source(self.media_info_source)] + ')'
+            parts.append(info)
+        return '   ·   '.join(parts) or None
 
     def draw_bandeau(self, note):
         """Bandeau d'information juste au-dessus des aides de boutons."""
@@ -1117,7 +1149,7 @@ class App:
         self.state = STATE_INFO
 
     def handle_info(self, action):
-        if action in ('shoulder_l', 'shoulder_r') and self.info_source \
+        if action in ('shoulder_l', 'shoulder_r', 'trigger_l', 'trigger_r') and self.info_source \
                 and len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
             self.start_info(dl.autre_source(self.info_source))
         elif action == 'back':
@@ -1531,8 +1563,7 @@ class App:
             img_rect.centerx = self.screen_w // 2
             img_rect.top = self.HEADER_H + 20
             self.screen.blit(self.media_info_surface, img_rect)
-        if self.media_kind == 'podcast':
-            self.draw_bandeau(self.note_source('podcast', self.media_source))
+        self.draw_bandeau(self.note_media())
 
         elapsed = int(self.media_elapsed_s())
         timestamp = "{:02d}:{:02d}".format(elapsed // 60, elapsed % 60)
@@ -1545,7 +1576,9 @@ class App:
         if self.media_kind == 'chanson' and self.paroles_lines:
             hints.append(('▲▼', 'Paroles'))
         if self.media_kind == 'podcast' and len(dl.sources_disponibles('podcast', self.current_module['base'])) > 1:
-            hints.append(('L1/R1', 'Autre version'))
+            hints.append(('L1', 'Podcast'))
+        if self.media_info_visible() and len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
+            hints.append(('R2', 'Infographie'))
         hints.append(('B/Select', 'Retour' if len(hints) > 2 else 'Arrêter et revenir'))
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints,
                               right_text=status, right_color=status_color)
@@ -1605,8 +1638,8 @@ class App:
         self.screen.blit(self.info_surface, rect)
         hints = [('B/Select', 'Retour')]
         if len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
-            hints.insert(0, ('L1/R1', 'Autre version'))
-        self.draw_bandeau(self.note_source('infographie', self.info_source))
+            hints.insert(0, ('L1/R1/R2', 'Autre version'))
+        self.draw_bandeau(self.note_source('infographie', self.info_source, 'L1/R1/R2'))
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints)
 
 

@@ -21,6 +21,11 @@ Bercy/finances publiques, PSE 25-27, PSE Expert Réseau...), chacun avec :
 - Gauche/Droite : carte précédente/suivante (en mode Flashcards)
 - En quiz : **A/B/C/D** (esprit manette NeoGeo) répondent directement au choix correspondant ; **L1** abandonne la question
 - **R1** : lire à voix haute (flashcard affichée, ou question + choix en quiz/explication en feedback)
+- Podcast en lecture : **L1** (ou R1) passe à l'autre version du podcast (pipeline local / NotebookLM) ;
+  **R2** passe à l'autre version de l'infographie affichée en fond, sans couper la lecture
+- Infographie : **L1/R1/R2** passent à l'autre version (pipeline local / NotebookLM)
+- L2/R2 sont lus en bouton (manette DragonRise) ou en gâchette analogique (manettes Xbox, axes 2 et 5
+  d'après es_input.cfg)
 
 ## Synthèse vocale (R1)
 
