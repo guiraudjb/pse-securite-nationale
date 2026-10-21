@@ -1,0 +1,53 @@
+TITRE : Sécurité Applicative Riddim
+
+[Intro]
+Écoute le message du CERT-FR pour ta protection,
+Contre les violations, garde la vigilance en action.
+
+[Couplet 1]
+De fin deux mille vingt-cinq à début deux mille vingt-six,
+Les incidents augmentent, c'est un nouveau mécanisme.
+Cent quatre-vingt-seize exfiltrations en deux mille vingt-cinq,
+Contre cent trente en deux mille vingt-quatre, le risque est très grand.
+Pas toujours de faille technique, mais des identifiants volés,
+Par des infostealers ou de l'ingénierie sociale bien orchestrée.
+Un prestataire ou un collaborateur interne peut tout trahir,
+Les données de santé ou bancaires peuvent ainsi s'enfuir.
+
+[Refrain]
+Ne reste pas avec le seul login et le mot de passe,
+En deux mille vingt-six, c'est un risque qui s'écrase.
+Applique le moindre privilège et limite les accès,
+Pour protéger les données, sois toujours très attentif et pressé.
+
+[Couplet 2]
+Utilise le RBAC et un fournisseur d'identité,
+Les passkeys et le DBSC pour la haute sécurité.
+Le rate-limiting bloque les requêtes trop nombreuses,
+Le WAF filtre le trafic pour des mesures opportunes.
+Chiffre tes disques avec LUKS ou bien avec BitLocker,
+Et avec une SBOM, les composants sont sous ton contrôle.
+L'EASM surveille ton exposition sur tout l'Internet,
+Pour éviter que tes données ne tombent dans les mains des malfaiteurs.
+
+[Refrain]
+Ne reste pas avec le seul login et le mot de passe,
+En deux mille vingt-six, c'est un risque qui s'écrase.
+Applique le moindre privilège et limite les accès,
+Pour protéger les données, sois toujours très attentif et pressé.
+
+[Pont]
+Trace chaque action, succès comme échecs dans les journaux,
+Centralise dans un puits avec le format Syslog IETF, c'est le niveau.
+Déclenche des réactions automatiques avec un SOAR,
+Pour stopper l'attaquant avant qu'il ne fasse un nouveau malheur.
+
+[Refrain final]
+Ne reste pas avec le seul login et le mot de passe,
+En deux mille vingt-six, c'est un risque qui s'écrase.
+Applique le moindre privilège et limite les accès,
+Pour protéger les données, sois toujours très attentif et pressé.
+
+[Outro]
+Homologue tes applications et fais ton AIPD,
+La sécurité des données, c'est le seul vrai chemin de vie.
