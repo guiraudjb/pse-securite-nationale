@@ -1,4 +1,4 @@
-CNIL, RECOMMANDATION RELATIVE À L'AUTHENTIFICATION MULTIFACTEUR, VERSION ADOPTÉE LE 20 MARS 2025, PUBLIÉE EN AVRIL 2025.
+CNIL, RECOMMANDATION RELATIVE À L'AUTHENTIFICATION MULTIFACTEUR, VERSION ADOPTÉE LE 20 MARS 2025, PUBLIÉE EN AVRIL 2025, ET CYBERMOIS 2026, VIOLATIONS DE DONNÉES PERSONNELLES, SUPPORT CNIL ET CYBERMALVEILLANCE.GOUV.FR ET BAROMÈTRE IPSOS DE LA PERCEPTION CYBER DES FRANÇAIS.
 
 LEXIQUE COMPLET.
 
@@ -15,6 +15,14 @@ LEXIQUE COMPLET.
       Un OTP est un code à usage unique.
 
       Le délégué à la protection des données, DPO, veille à la conformité au RGPD dans un organisme.
+
+      Une violation ou fuite de données personnelles est l'accès ou la divulgation non autorisés d'informations personnelles détenues par un tiers, comme un site, une entreprise ou une administration.
+
+      Une donnée personnelle est toute information permettant d'identifier directement ou indirectement une personne, comme un nom, une adresse, un numéro de téléphone ou de sécurité sociale.
+
+      Le Cybermois est la déclinaison française du mois européen de la cybersécurité, chaque mois d'octobre, animée par Cybermalveillance.gouv.fr.
+
+      Une liste blanche de créanciers limite les prélèvements bancaires aux seuls créanciers autorisés par le titulaire du compte.
 
 COURS DÉTAILLÉ.
 
@@ -74,6 +82,54 @@ II. LES RECOMMANDATIONS.
 
       Il faut encadrer les transferts de données, permettre l'exercice des droits et sécuriser la solution.
 
+III. LES VIOLATIONS DE DONNÉES PERSONNELLES, CYBERMOIS 2026.
+
+   A. Le baromètre 2026.
+
+      Pour la 14e édition du Cybermois, Cybermalveillance.gouv.fr a publié son 3e baromètre sur la perception cyber des Français, réalisé par Ipsos auprès de 2000 personnes de 18 à 75 ans du 13 au 18 mai 2026.
+
+      45 pour cent des Français ont été informés d'une fuite de leurs données personnelles dans les douze derniers mois, contre 30 pour cent en 2025.
+
+      L'hameçonnage par courriel ou SMS reste la première malveillance rencontrée, par 53 pour cent des Français, devant le faux conseiller bancaire, 15 pour cent, et la commande jamais livrée sur un site frauduleux, 10 pour cent.
+
+      Les fuites de données nourrissent un marché souterrain de la donnée volée et préparent des hameçonnages personnalisés et des arnaques financières.
+
+      Après une fuite, 59 pour cent ont été plus vigilants face aux messages et appels inconnus, 53 pour cent ont changé leurs mots de passe, 44 pour cent ont surveillé davantage leur compte bancaire et seulement 13 pour cent ont contacté l'organisme.
+
+      Seuls 55 pour cent des Français s'estiment suffisamment informés, contre 63 pour cent en 2024, et les 18 à 34 ans réagissent moins tout en étant davantage touchés que les 55 à 75 ans.
+
+      La connaissance du terme violation de données progresse, de 48 pour cent en 2024 à 62 pour cent en 2026.
+
+   B. Le support CNIL et Cybermalveillance.gouv.fr.
+
+      Disponible depuis le 1er octobre 2026, le dépliant Violation de données personnelles, que faire en 3 étapes clés, conçu avec la CNIL, prend la forme d'une liste à faire guidant la victime du premier jour à J plus 30.
+
+   C. Les bons réflexes après une fuite.
+
+      Lire le communiqué de l'organisme pour savoir quelles données ont fuité, et le contacter au besoin pour confirmer.
+
+      Se méfier de tout appel ou message qui s'appuie sur les données dérobées, et authentifier son interlocuteur en recontactant soi-même l'organisme à ses coordonnées officielles.
+
+      Changer le mot de passe du service touché et de tous les comptes qui utilisaient le même, et activer la double authentification quand elle existe.
+
+      Si l'IBAN a fuité, prévenir sa banque pour une vigilance renforcée, mettre en place une liste blanche de créanciers et demander le remboursement de tout prélèvement non autorisé.
+
+      Demander aux plateformes et moteurs de recherche la suppression des contenus exposant ses données, puis saisir la CNIL si rien n'est fait après un mois ou si l'organisme a mal protégé les données.
+
+      En cas d'usage frauduleux, conserver les preuves et porter plainte au commissariat, à la gendarmerie ou auprès du procureur de la République.
+
+   D. La prévention.
+
+      Ne communiquer que le minimum d'informations, ne pas diffuser à la légère ses documents d'identité, fiches de paie, avis d'imposition ou RIB, et ne pas enregistrer sa carte bancaire sur les sites.
+
+      Utiliser des mots de passe différents et complexes, activer l'authentification multifacteur et supprimer les comptes inutilisés.
+
+   E. La campagne 2026.
+
+      La campagne Se cyber protéger, ce n'est pas si bête met en scène 7 animaux et détourne des expressions populaires, avec des affiches diffusées chez 15 000 marchands de presse et dans 2500 maisons France services.
+
+      Le CyberTour est parti de Biarritz le 1er octobre puis passe par Rennes, Rouen, Lille, Montpellier et Paris, et le collectif Cybermois compte plus de 2400 partenaires.
+
 POINTS D'ATTENTION.
 
       Une MFA combine au moins deux catégories de facteurs différentes.
@@ -84,6 +140,12 @@ POINTS D'ATTENTION.
 
       La biométrie exige le consentement et une alternative.
 
+      En 2026, près d'un Français sur deux a été informé d'une fuite de ses données personnelles.
+
+      Après une fuite, le principal risque est un hameçonnage personnalisé qui s'appuie sur les données volées.
+
+      On authentifie toujours son interlocuteur en recontactant soi-même l'organisme.
+
 EXEMPLES CITES.
 
       La carte bancaire et son code PIN.
@@ -91,3 +153,7 @@ EXEMPLES CITES.
       Le mot de passe suivi d'un code par courriel, simple vérification en deux étapes.
 
       La plateforme de réservation d'un terrain de tennis, pour laquelle la MFA n'a pas à être imposée.
+
+      Le dépliant Violation de données personnelles, que faire en 3 étapes clés.
+
+      La campagne Se cyber protéger, ce n'est pas si bête.

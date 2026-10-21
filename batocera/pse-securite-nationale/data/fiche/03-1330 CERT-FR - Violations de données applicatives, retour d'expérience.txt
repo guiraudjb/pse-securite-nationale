@@ -1,0 +1,205 @@
+CERT-FR, RETOUR D'EXPÉRIENCE SUR LES VIOLATIONS DE DONNÉES APPLICATIVES, CERTFR-2026-CTI-008, VERSION 1.01 DU 20 OCTOBRE 2026.
+
+LEXIQUE COMPLET.
+
+      Une violation de données personnelles est, selon la CNIL et le RGPD, un incident de sécurité causant la destruction, la perte, l'altération, la divulgation ou l'accès non autorisé à des données à caractère personnel, de manière accidentelle ou illicite.
+
+      Un infostealer est un code malveillant qui collecte sur le poste de la victime les identifiants enregistrés dans les navigateurs et les cookies de session, ensuite revendus sous forme d'instantanés ou d'abonnements.
+
+      Un insider est un collaborateur interne malveillant, en conflit, vénal ou contraint, qui divulgue des données auxquelles il a légitimement accès.
+
+      Le RBAC, Role Based Access Control, attribue les droits à des groupes métiers auxquels les utilisateurs sont rattachés.
+
+      Le rate-limiting limite le nombre de requêtes ou le volume de données autorisés par session sur une période donnée.
+
+      Un WAF, pare-feu applicatif, filtre les requêtes Web selon leur contenu.
+
+      Un fournisseur d'identité, IDP, sort l'authentification et les autorisations du code de l'application et délivre des tickets d'accès.
+
+      Une passkey est un identifiant WebAuthn, standard du W3C, stocké par le navigateur et protégé par un composant de sécurité de la plateforme.
+
+      Le DBSC, Device Bound Session Credentials, est un standard en cours au W3C qui lie cryptographiquement le cookie de session au composant matériel du poste.
+
+      Un SOAR est un orchestrateur de réaction automatique de sécurité.
+
+      Une SBOM, Software Bill Of Materials, est la liste des composants d'un logiciel dans un format technique comme SPDX ou CycloneDX.
+
+      L'EASM désigne les outils qui surveillent l'exposition d'une organisation sur Internet.
+
+      L'homologation de sécurité est la décision par laquelle une autorité accepte les risques résiduels d'un système d'information après analyse.
+
+      L'AIPD est l'analyse d'impact relative à la protection des données exigée pour les traitements à risque élevé.
+
+COURS DÉTAILLÉ.
+
+I. LE CONSTAT DU CERT-FR.
+
+   A. Un phénomène en forte hausse.
+
+      De fin 2025 à début 2026, de multiples incidents ont touché des applications Web opérant de grandes bases de données personnelles, parfois sensibles, et ont conduit à d'importantes divulgations.
+
+      Le CERT-FR a été informé de 196 incidents d'exfiltration de données en 2025, contre 130 en 2024, sans ciblage particulier : tout secteur et toute entité peuvent être touchés.
+
+      Dans la plupart des cas, l'exfiltration ne repose sur aucune vulnérabilité technique mais sur la réutilisation d'identifiants légitimes, l'ingénierie sociale ou l'exposition de données sans contrôle d'accès.
+
+   B. Des modes opératoires simples.
+
+      En mai 2025, une entité d'e-santé a perdu des données personnelles et médicales après la prise de contrôle d'un seul compte utilisateur donnant accès à une API.
+
+      Dans un autre cas, une API insuffisamment limitée a permis à un attaquant, depuis un compte compromis, d'extraire des données auxquelles l'utilisateur n'avait pas droit.
+
+      En février 2025, des entreprises de l'agroalimentaire ont été touchées par des infostealers installés via un faux convertisseur gratuit de Word en PDF, qui exfiltrait les documents et propageait le maliciel.
+
+      Fin 2025, plusieurs services publics ont subi des exfiltrations à partir d'identifiants volés sur les postes personnels infectés de leurs usagers.
+
+      La compromission d'un prestataire suffit aussi : un laboratoire a vu fuir des résultats d'analyses médicales par le compte d'un prestataire gérant l'application de consultation.
+
+   C. Les impacts.
+
+      Les attaques sont souvent revendiquées sur des forums cybercriminels ou Telegram, parfois à tort ou par republication d'anciennes fuites, ce qui impose toujours une levée de doute par l'opérateur du traitement.
+
+      Beaucoup d'applications anciennes ont des mesures de sécurité disproportionnées au regard de la menace actuelle, et les organisations sous-estiment l'usage malveillant d'identifiants légitimes.
+
+      Les données fusionnées et croisées forment des fichiers très intrusifs, revendus, exploités pour des fraudes ou diffusés gratuitement à des fins de déstabilisation.
+
+II. LES RISQUES ET SCÉNARIOS CONSIDÉRÉS.
+
+   A. Deux types d'impacts.
+
+      Les divulgations unitaires à fort enjeu, comme les coordonnées de possesseurs d'objets de valeur, les données bancaires ou de santé, ou la famille de professions à risque, causent à elles seules un préjudice important.
+
+      Les violations de masse causent des dommages moindres mais à un grand nombre de personnes et nourrissent des fraudes personnalisées.
+
+   B. Quatre scénarios.
+
+      L'usurpation d'identifiants, obtenus par réutilisation de fuites, ingénierie sociale ou infostealer.
+
+      L'accès direct aux données sans passer par l'application, par un port exposé, un stockage S3 sans contrôle d'accès ou une sauvegarde mal protégée, particulièrement critique dans le cloud.
+
+      L'accès par un collaborateur interne malveillant, y compris d'anciens salariés dont les comptes n'ont pas été révoqués.
+
+      L'exploitation d'une vulnérabilité applicative, qui peut aller jusqu'à la compromission du serveur.
+
+   C. Hors du périmètre.
+
+      Les extractions de bases, les traitements sous-traités et les supports mobiles non effacés sont aussi des sources fréquentes de fuites ; tout le cycle de vie des données doit être étudié avec le délégué à la protection des données.
+
+III. LES DIX PRINCIPES DE SÉCURISATION.
+
+   A. Appliquer une politique de gestion des données.
+
+      Recenser les données réglementées ou à fort enjeu et leurs supports, formaliser les flux, définir un plan de sécurisation, le contrôler périodiquement et le piloter avec la direction, responsable de la protection des données.
+
+      Aucun stockage ne doit être accessible sans passer par l'application, et tout accès aux données doit être authentifié et autorisé.
+
+      Hors production, utiliser des données simulées, ou à défaut dégradées par bruitage, pseudonymisation ou anonymisation approuvées.
+
+      Chiffrer les flux, les disques, par exemple avec LUKS et Clevis sous Linux ou BitLocker sous Windows, ainsi que les exports et sauvegardes, et supprimer les données devenues inutiles.
+
+   B. Limiter les accès utilisateurs.
+
+      Appliquer le moindre privilège avec des groupes métiers, limiter le nombre de sessions simultanées, leur durée et le rythme des requêtes, car parcourir beaucoup de fiches en peu de temps est anormal.
+
+      Restreindre l'accès aux fonctions d'administration, limiter l'usage en heures non ouvrées, par exemple entre 23 heures et 5 heures, proscrire les comptes partagés et désactiver les comptes inactifs.
+
+      La minimisation des accès protège aussi le titulaire du compte, sur qui la suspicion pèse durablement en cas d'usurpation.
+
+   C. Limiter l'exposition.
+
+      Une application interne ne doit être accessible que depuis le réseau interne ou un VPN, de préférence authentifié par l'identité de la machine protégée par un composant de confiance.
+
+      Une application externe limitée, partagée entre organisations, passe par VPN ou à défaut par une liste d'adresses IP autorisées, compensée par des règles métier strictes.
+
+      Une application publique peut être réduite par géofiltrage, listes de réputation, blocage de Tor ou des VPN commerciaux, et par l'exposition des seules fonctions nécessaires au public.
+
+      Seul le trafic provenant d'un réseau appliquant la PSSI de l'organisation est considéré comme interne.
+
+      Il faut filtrer aux niveaux 3 et 4 puis au niveau 7, séparer les services par nom d'hôte plutôt que par chemin, respecter l'adressage privé de la RFC 1918 et conserver l'adresse source avec l'en-tête X-Forwarded-For.
+
+      Il faut séparer strictement production, préproduction et développement, et interdire par défaut les flux sortants des serveurs, sauf vers les dépôts de mise à jour via un mandataire filtrant.
+
+      Le virtual patching sur un WAF ne couvre une vulnérabilité que temporairement.
+
+   D. Dépasser le login et le mot de passe.
+
+      En 2026, l'authentification par seul login et mot de passe est obsolète et doit être considérée comme exposée à un risque fort de piratage.
+
+      La politique doit contrer trois familles d'attaques : attaques massives sur les comptes publics, hameçonnage et adversaire au milieu sur les comptes internes, identifiants volés par infostealers.
+
+      Pour le grand public, un code à usage unique à chaque session, complété par une notification de connexion, ou mieux des passkeys, avec un parcours alternatif pour les équipements anciens.
+
+      Pour les comptes internes, une authentification forte selon le guide de l'ANSSI, idéalement portée par un fournisseur d'identité ; un OTP saisi à la main n'est qu'une mesure transitoire, vulnérable à l'hameçonnage.
+
+      La réinitialisation de mot de passe est un point d'attaque majeur : un simple courriel ne suffit plus, et les réinitialisations doivent être tracées comme des événements de sécurité.
+
+      Le vol du cookie de session par infostealer ou proxy offensif contourne la MFA ; les attributs HttpOnly et Secure n'y suffisent pas, d'où des sessions courtes et liées à l'adresse IP, au navigateur ou à la zone géographique.
+
+      Le standard DBSC, supporté mi-2026 par le seul Google Chrome, protégera le cookie par le composant matériel du poste.
+
+   E. Sécuriser l'environnement d'hébergement.
+
+      Aucune interface d'administration, SSH, RDP, SNMP, console Web ou hyperviseur, ne doit être accessible depuis Internet.
+
+      Les équipements exposés doivent être corrigés immédiatement, les correctifs appliqués au moins chaque mois sur les frontaux, et les bibliothèques et serveurs internes aussi tenus à jour.
+
+      Il faut désactiver les services inutiles, faire écouter les services locaux sur 127.0.0.1, et adopter une architecture en trois couches : frontaux en DMZ, middleware interne, stockage isolé.
+
+      L'administration se fait depuis des postes dédiés, chiffrés, sans navigation Web ni messagerie, sur un réseau d'administration filtré, car un infostealer sur un poste d'administrateur livre tous les secrets.
+
+   F. Tracer les actions des utilisateurs.
+
+      Chaque action doit être attribuée à un utilisateur et à une adresse réseau, succès comme échecs, sur tous les composants.
+
+      Les journaux doivent être centralisés dans un puits protégé, conservés au moins six mois, horodatés à la milliseconde selon l'ISO 8601, au format Syslog IETF, sur une source de temps commune et un fuseau unique comme UTC.
+
+      Derrière un proxy inverse, l'application perd par défaut l'adresse source de l'usager : il faut journaliser les en-têtes X-Forwarded-For, Forwarded ou X-Real-IP.
+
+   G. Superviser les journaux.
+
+      Des règles métier doivent signaler les comportements anormaux : voyage impossible, énumération de comptes, taille de réponse anormale, connexion depuis Tor, en heures non ouvrées ou vers des données d'un autre rattachement.
+
+      Les règles peuvent être écrites au format standard Sigma, indépendant de l'outil de supervision.
+
+   H. Déclencher des réactions automatiques.
+
+      Les attaquants agissent en quelques minutes et hors des heures ouvrées, et les données de millions de personnes ne pèsent que quelques gigaoctets.
+
+      Il faut des seuils métiers : pour une secrétaire médicale traitant 40 dossiers par jour, une alerte à 50 dossiers et une désactivation du compte à 75, avec des seuils cumulés sur le mois.
+
+      Les actions d'endiguement sont la désactivation d'un compte, le blocage d'une source, la révocation de sessions ou de jetons, la limitation de bande passante et la réduction de l'exposition, en s'appuyant sur les fiches réflexes de l'InterCERT-France.
+
+   I. Vérifier la sécurité de l'application.
+
+      Auditer avant la mise en production puis dans la durée par le maintien en condition de sécurité, tenir un inventaire ou une SBOM, faire une veille de vulnérabilités et mesurer l'exposition au moins chaque mois.
+
+      Les audits qualifiés PASSI et les services du CERT-FR accessibles par le ClubSSI, SILENE pour l'exposition et ADS pour Active Directory, aident les entités publiques et régulées.
+
+      Une mesure temporaire ne doit jamais devenir définitive sans correction de la faille.
+
+   J. Homologuer chaque application publique.
+
+      L'homologation est obligatoire pour les autorités administratives au titre du RGS et, pour les systèmes de l'État, du décret 2022-513 du 8 avril 2022.
+
+      Elle impose une analyse de risque intégrant la confidentialité des données, couplée à l'AIPD pour les traitements à risque élevé, et des mesures centrées sur la protection des données.
+
+POINTS D'ATTENTION.
+
+      La plupart des fuites de données applicatives n'exploitent aucune vulnérabilité technique mais des identifiants légitimes ou des données exposées.
+
+      196 incidents d'exfiltration en 2025 contre 130 en 2024.
+
+      En 2026, le seul couple login et mot de passe est obsolète.
+
+      Un attaquant patient consulte d'abord peu de fiches avec un compte légitime avant d'automatiser une extraction massive.
+
+      Les mesures proposées réduisent fortement le risque même sur une application ancienne, sans attendre son remplacement.
+
+EXEMPLES CITES.
+
+      Le faux convertisseur Word vers PDF qui a propagé un infostealer dans l'agroalimentaire.
+
+      Le seuil d'alerte à 50 dossiers patients et de désactivation à 75.
+
+      Le remplacement de listen *:8888 par listen 127.0.0.1:8888.
+
+      Le passage d'un adressage public interne 136.13.0.0/16 à l'adressage privé 10.13.0.0/16.

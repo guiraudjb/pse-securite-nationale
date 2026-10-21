@@ -18,3 +18,18 @@ Qu'est-ce que le phishing-as-a-service ?;Un service de pêche;Un antivirus;Des p
 Quelle part de l'ingénierie sociale aurait été appuyée par l'IA début 2025 ?;Aucune;Plus de 80 pour cent;20 pour cent;5 pour cent;3;L'IA est devenue un élément déterminant.
 Quelles dépendances numériques sont de plus en plus exploitées ?;Les câbles électriques;Les imprimantes;Les claviers;Dépôts libres, extensions de navigateur et prestataires;5;Elles amplifient les risques en cascade.
 Vers quoi évolue la menace selon l'ETL 2025 ?;Une baisse de l'hameçonnage;Des campagnes continues et convergentes qui érodent la résilience;Uniquement des incidents isolés majeurs;Une disparition progressive;3;Avec moins d'incidents isolés à fort impact.
+Quelle période couvre l'ENISA Threat Landscape 2026 ?;De 2021 à 2025;De juillet 2024 à juin 2025;Du 1er janvier au 31 décembre 2025;L'année 2026;4;L'ETL passe à l'année civile.
+Combien d'incidents l'ETL 2026 analyse-t-il ?;540;4 875;48 000;8 257;5;Contre 4 875 pour l'ETL 2025.
+Quel est le premier type d'incident dans l'ETL 2026 ?;L'espionnage avec 40 pour cent;Le rançongiciel avec 80 pour cent;La fraude avec 60 pour cent;Le DDoS avec 51,3 pour cent;5;Devant les accès non autorisés, 39,5 pour cent.
+Quel est le premier vecteur d'intrusion identifié pour les accès non autorisés ?;La clé USB;La menace interne;L'exploitation de vulnérabilités;Le vol physique;4;60,4 pour cent des cas identifiés.
+Quel secteur est le plus visé dans l'ETL 2026 ?;L'administration publique;La santé;L'énergie;La finance;2;31,8 pour cent des incidents.
+Quelle technique pousse la victime à exécuter elle-même une commande malveillante ?;ClickFix;Le quishing;Le typosquatting;Le credential stuffing;2;Elle a été très utilisée en 2025, notamment par Qilin.
+Quelle évolution majeure des rançongiciels l'ETL 2026 souligne-t-il ?;L'abandon du vol de données;La bascule du chiffrement vers l'exfiltration et l'extorsion;Le retour aux disquettes;La fin des rançons;3;L'exfiltration représente 73,3 pour cent des techniques observées.
+Quels rançongiciels sont les plus actifs dans l'Union en 2025 ?;Emotet et Trickbot;LockBit uniquement;Qilin, SafePay, Akira, INC Ransom et Hunters International;WannaCry et NotPetya;4;LockBit semble inactif depuis mai 2025.
+Quel kit d'hameçonnage était le plus répandu en 2025 ?;Lighthouse;Lucid;Tycoon 2FA;Evilginx;4;Il contourne la MFA par adversaire au milieu.
+Quelle part des modes opératoires étatiques actifs dans l'Union est liée à la Russie ?;9 pour cent;15,5 pour cent;90 pour cent;47,6 pour cent;5;Devant la Chine, 15,5 pour cent.
+Quelle technique Storm-2372 a-t-il utilisée ?;Le rançongiciel;Le device code phishing;Le défacement;Le DDoS;3;Avec de faux messages WhatsApp, Signal et Teams.
+Combien d'incidents FIMI le SEAE a-t-il analysés en 2025 ?;540;4 709;8 257;27;2;29 pour cent attribués à la Russie.
+Quelle part des revendications de NoName057(16) a pu être confirmée ?;48 pour cent;23,8 pour cent;89,5 pour cent;100 pour cent;3;Les revendications servent aussi à l'influence.
+Combien de vulnérabilités CVE ont été publiées en 2025 ?;Plus de 48 000;Environ 4 800;245;Plus de 480 000;2;Une hausse de 22 pour cent.
+Quel rôle l'ENISA a-t-elle pris en novembre 2025 ?;Root CVE;Centre de crise de l'OTAN;Autorité de surveillance du marché du CRA;Régulateur des télécoms;2;Elle tient aussi la base européenne EUVD.

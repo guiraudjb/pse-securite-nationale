@@ -1,4 +1,4 @@
-CERT-FR, SECTEUR DE LA SANTÉ, ÉTAT DE LA MENACE INFORMATIQUE, CERTFR-2024-CTI-010 DU 7 NOVEMBRE 2024, ET ÉTAT DE LA MENACE SUR LE SECTEUR DE L'EAU, CERTFR-2024-CTI-011.
+CERT-FR, SECTEUR DE LA SANTÉ, ÉTAT DE LA MENACE INFORMATIQUE, CERTFR-2024-CTI-010 DU 7 NOVEMBRE 2024, ÉTAT DE LA MENACE SUR LE SECTEUR DE L'EAU, CERTFR-2024-CTI-011, ET VULNÉRABILITÉS DE PRODUITS DU SECTEUR SANTÉ, RETOUR D'EXPÉRIENCE DU CERT SANTÉ ET DU CERT-FR, CERTFR-2026-CTI-007 DU 2 OCTOBRE 2026.
 
 LEXIQUE COMPLET.
 
@@ -19,6 +19,20 @@ LEXIQUE COMPLET.
       Une interface homme-machine, IHM, permet de superviser et de commander un équipement industriel.
 
       La télégestion pilote à distance des infrastructures réparties sur le territoire.
+
+      Une XSS, injection de code indirecte, consiste à injecter du code JavaScript qui s'exécute dans le navigateur des autres utilisateurs.
+
+      Une SQLi, injection SQL, consiste à injecter du code SQL exécuté par le serveur de base de données.
+
+      Un pare-feu applicatif Web, WAF, filtre les requêtes adressées à une application Web, sans remplacer la correction de l'application.
+
+      Le contrôle d'accès limite chaque utilisateur aux seules actions et données légitimes, selon le principe de moindre privilège.
+
+      Le Cyber Resilience Act, CRA, règlement européen 2024/2847, fixe les exigences de cybersécurité des produits comportant des éléments numériques.
+
+      La divulgation coordonnée des vulnérabilités organise le signalement d'une faille à l'éditeur puis sa publication une fois le correctif disponible.
+
+      L'Agence nationale des fréquences, ANFR, est prévue comme autorité française de surveillance du marché au titre du CRA.
 
 COURS DÉTAILLÉ.
 
@@ -96,6 +110,82 @@ II. LE SECTEUR DE L'EAU.
 
       Utiliser des protocoles sécurisés comme OPC-UA, ou des tunnels IPsec ou TLS, et ne jamais exposer les interfaces SCADA sur Internet.
 
+III. VULNÉRABILITÉS DES PRODUITS DU SECTEUR SANTÉ, RETOUR D'EXPÉRIENCE DE 2026.
+
+   A. Le constat.
+
+      Le CERT Santé et le CERT-FR traitent les vulnérabilités qui leur sont signalées par des tiers et accompagnent les éditeurs dans la correction et la communication vers leurs clients.
+
+      Ils ont observé des vulnérabilités critiques, faciles à exploiter depuis Internet, dans plusieurs solutions numériques déployées dans les structures de santé.
+
+      Selon un sondage de l'Agence du numérique en santé, 82 pour cent des établissements répondants ont eu connaissance de vulnérabilités sur leur système dans les douze derniers mois.
+
+      74 pour cent ont été confrontés à des éditeurs qui tardent ou refusent de corriger, et 90 pour cent n'ont pas de canal formalisé pour remonter les vulnérabilités aux éditeurs.
+
+      Le nombre d'incidents d'origine malveillante traités par le CERT Santé est passé de 328 en 2024 à 400 en 2025, soit une hausse de 22 pour cent, et la menace est amplifiée par l'intelligence artificielle.
+
+      Un même logiciel très déployé expose simultanément de nombreuses structures à la même faille, ce qui augmente le risque d'attaque à large échelle.
+
+   B. Des correctifs trop lents.
+
+      Chez 4 éditeurs importants, le traitement de vulnérabilités dure depuis plus d'un an, et dans un cas le dernier correctif d'une faille de criticité moyenne a été planifié 5 ans après son signalement.
+
+      Les correctifs de sécurité sont souvent intégrés aux évolutions fonctionnelles, espacées, payantes ou contraignantes, que les clients retardent ou refusent.
+
+      Le support d'un grand nombre de versions et d'environnements multiplie les tests et les risques d'effet de bord.
+
+      L'absence de canal pour prévenir les clients, la refonte coûteuse d'un code conçu sans sécurité et le marquage CE des dispositifs médicaux allongent aussi les délais.
+
+   C. Mauvaise gestion des secrets.
+
+      Les produits d'au moins 3 éditeurs majeurs exposaient des secrets : mot de passe du serveur lisible par une simple adresse dans le navigateur, répertoire .git accessible sur le site avec le code source, identifiants administrateur écrits dans le code, identifiants de télémaintenance laissés à leur valeur par défaut.
+
+      Ces failles permettent une latéralisation vers les clients : dans un cas, des identifiants trouvés dans le code auraient donné accès aux serveurs de dizaines d'établissements et aux données de milliers de patients.
+
+      Le cycle de développement doit identifier, protéger et distribuer correctement les secrets, et toute fuite impose de les remplacer sur toutes les instances.
+
+   D. Injections de code.
+
+      Des failles XSS et SQLi permettent du vol de session jusqu'à la prise de contrôle de l'application, du serveur et des données.
+
+      Une même faille se retrouvait souvent à plusieurs endroits, et un contre-audit a encore trouvé plusieurs XSS plus d'un an après le premier correctif.
+
+      Toute donnée venant d'un utilisateur, champ de formulaire, en-tête HTTP ou paramètre d'URL, doit être considérée comme manipulable et contrôlée systématiquement.
+
+      Il faut utiliser des briques logicielles éprouvées, maintenues et documentées pour toutes les fonctions de sécurité, et proscrire les développements internes d'authentification, de stockage des mots de passe ou de chiffrement.
+
+      Un WAF, parfois vendu par l'éditeur lui-même, peut aider mais ne remplace jamais la correction de l'application.
+
+   E. Accès distants sans authentification.
+
+      De nombreuses instances d'un même logiciel de santé étaient exposées sur Internet sans authentification, notamment par des accès VNC.
+
+      Certains clients ont choisi de garder ces accès en signant une décharge de responsabilité.
+
+      Les CERT recommandent de configurer systématiquement une authentification robuste, native et simple, puis d'envisager MFA ou VPN.
+
+   F. Contrôle d'accès déficient.
+
+      Plusieurs logiciels, souvent en mode SaaS, laissaient un utilisateur légitime, praticien ou même patient, consulter les données d'autres patients.
+
+      Les attaquants compromettent d'abord un compte de professionnel de santé par hameçonnage ou mot de passe compromis, puis élargissent leur accès de façon massive et discrète.
+
+      Parfois ce comportement avait été développé volontairement pour faciliter la coopération demandée par des clients.
+
+      Le contrôle d'accès doit suivre le moindre privilège, les demandes des clients ne doivent pas être satisfaites aux dépens de la sécurité, et une détection des accès inhabituels ou massifs est recommandée.
+
+   G. Le cadre réglementaire, le Cyber Resilience Act.
+
+      Le règlement européen 2024/2847 s'appliquera pleinement le 11 décembre 2027 aux logiciels et matériels de santé, sauf aux dispositifs médicaux qui relèvent des règlements 2017/745 et 2017/746.
+
+      Son article 14, qui oblige à déclarer les vulnérabilités activement exploitées et les incidents graves sur une plateforme unique européenne, s'applique depuis le 11 septembre 2026.
+
+      L'annexe 1 exige notamment une configuration sécurisée par défaut, des mises à jour de sécurité séparées des évolutions fonctionnelles quand c'est possible, une correction sans retard, des tests réguliers, une politique de divulgation coordonnée et une distribution sécurisée des mises à jour.
+
+      En France, l'ANFR contrôlera le marché et pourra infliger une amende jusqu'à 15 millions d'euros ou 2,5 pour cent du chiffre d'affaires annuel mondial, ainsi que le rappel ou le retrait du produit.
+
+      Le CERT Santé et le CERT-FR pourront signaler à l'ANFR les manquements des éditeurs constatés lors de leurs missions.
+
 POINTS D'ATTENTION.
 
       La santé représente une part croissante des incidents traités par l'ANSSI.
@@ -106,6 +196,14 @@ POINTS D'ATTENTION.
 
       Une IHM non sécurisée suffit à des attaquants peu compétents pour provoquer des dégâts.
 
+      En 2026, la faiblesse vient souvent des éditeurs de logiciels de santé, pas seulement des établissements.
+
+      90 pour cent des établissements n'ont aucun canal formalisé pour signaler une vulnérabilité à leur éditeur.
+
+      Un correctif de sécurité ne doit pas attendre une évolution fonctionnelle payante.
+
+      Un WAF ne dispense jamais de corriger l'application.
+
 EXEMPLES CITES.
 
       Le Centre hospitalier Sud Francilien en 2022.
@@ -115,3 +213,9 @@ EXEMPLES CITES.
       Cyber Army of Russia Reborn et le réservoir de Muleshoe.
 
       Volt Typhoon et le prépositionnement stratégique.
+
+      Un correctif planifié 5 ans après le signalement de la vulnérabilité.
+
+      Un répertoire .git accessible sur le site Web d'un éditeur.
+
+      Des accès VNC sans authentification maintenus contre décharge de responsabilité.

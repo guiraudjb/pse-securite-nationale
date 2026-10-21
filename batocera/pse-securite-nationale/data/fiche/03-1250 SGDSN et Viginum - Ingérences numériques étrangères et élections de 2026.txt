@@ -12,6 +12,8 @@ LEXIQUE COMPLET.
 
       PHAROS est la plateforme du ministère de l'Intérieur de signalement des contenus illicites en ligne.
 
+      Le règlement européen sur la transparence et le ciblage de la publicité politique, TTPA, encadre la publicité politique en ligne et a conduit Meta et Google à l'interdire dans l'Union européenne.
+
       Le règlement européen sur les services numériques, RSN ou DSA, impose aux grandes plateformes d'atténuer les risques systémiques, notamment électoraux.
 
 COURS DÉTAILLÉ.
@@ -86,11 +88,31 @@ IV. LES ÉLECTIONS PROVINCIALES EN NOUVELLE-CALÉDONIE.
 
       La Nouvelle-Calédonie a déjà été ciblée à plusieurs reprises par des acteurs de la menace informationnelle.
 
-   B. Le dispositif et le bilan.
+   B. Le dispositif.
 
-      Les plateformes ont été réunies le 18 juin 2026 par l'Arcom, Viginum, le Haut-Commissariat et la direction générale des outre-mer pour présenter leurs mesures d'atténuation.
+      Le RCPE a été reconduit avec les mêmes principes et les mêmes membres, rejoints par la direction générale des outre-mer et par le Haut-Commissariat de la République en Nouvelle-Calédonie, compétent pour organiser les élections provinciales.
 
-      Entre le 18 juin et le 2 juillet 2026, aucune ingérence numérique étrangère n'a été caractérisée ; seules deux publicités d'un média d'influence étranger ont été relevées.
+      Il s'est réuni trois fois entre le 18 juin et le 2 juillet 2026, et chaque réunion a donné lieu à un bulletin publié sur le site du SGDSN.
+
+      Le 18 juin, l'Arcom, Viginum, le Haut-Commissariat et la direction générale des outre-mer ont réuni les plateformes et moteurs de recherche pour qu'ils présentent leurs mesures d'atténuation, en application des lignes directrices électorales de la Commission européenne de juin 2024 au titre du règlement sur les services numériques et des préconisations de l'Arcom de début juin 2026.
+
+      Les plateformes ont aussi échangé avec les autorités locales du ministère de l'Intérieur sur les enjeux informationnels locaux.
+
+      La Nouvelle-Calédonie avait déjà été visée, notamment par la campagne UN-notorious BIG ciblant les DROM-COM et la Corse, documentée par le SGDSN.
+
+   C. Le bilan.
+
+      Entre le 18 juin et le 2 juillet 2026, aucune ingérence numérique étrangère ciblant le scrutin n'a été détectée ni caractérisée par Viginum.
+
+      Viginum a toutefois relevé sur les plateformes de Meta deux publications sponsorisées sur le scrutin, émises par un média d'influence étranger proche d'un mode opératoire déjà connu, ciblant la Nouvelle-Calédonie et la métropole.
+
+      Faute d'allégations manifestement inexactes et de diffusion massive et artificielle, la manœuvre n'a pas été qualifiée d'ingérence, mais le RCPE l'a signalée à Meta, qui a supprimé ces publicités contraires à ses standards.
+
+      Depuis le règlement européen sur la transparence et le ciblage de la publicité politique, TTPA, Meta et Google ont interdit la publicité politique dans l'Union européenne, Meta à partir d'octobre 2025.
+
+      Viginum constate que des acteurs étrangers contournent ces interdictions en déclarant leurs contenus sponsorisés comme non politiques, sans modération des plateformes.
+
+      Ces publicités peuvent aussi enfreindre le code électoral, et les plateformes doivent renforcer leurs mesures d'atténuation avant les prochaines échéances.
 
 POINTS D'ATTENTION.
 
@@ -102,6 +124,8 @@ POINTS D'ATTENTION.
 
       Storm-1516 prépare ses opérations en imitant des médias locaux grâce à l'IA.
 
+      Une publicité sponsorisée par un média d'influence étranger n'est pas forcément une ingérence, faute de contenu trompeur et de diffusion artificielle.
+
 EXEMPLES CITES.
 
       Les faux sites de presse locale de Storm-1516.
@@ -111,3 +135,5 @@ EXEMPLES CITES.
       Les vidéos de Storm-1679 et Matriochka sur la sécurité du scrutin.
 
       Les vingt-cinq tentatives d'ingérence de 2024.
+
+      Les deux publicités sponsorisées supprimées par Meta lors des élections provinciales de Nouvelle-Calédonie.

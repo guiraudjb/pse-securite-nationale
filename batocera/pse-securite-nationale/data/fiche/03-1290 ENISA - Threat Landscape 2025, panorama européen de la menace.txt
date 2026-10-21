@@ -1,4 +1,4 @@
-ENISA, AGENCE DE L'UNION EUROPÉENNE POUR LA CYBERSÉCURITÉ, ENISA THREAT LANDSCAPE 2025, OCTOBRE 2025, VERSION 1.3 DE SEPTEMBRE 2026, ET LIVRET DE SYNTHÈSE.
+ENISA, AGENCE DE L'UNION EUROPÉENNE POUR LA CYBERSÉCURITÉ, ENISA THREAT LANDSCAPE 2025, OCTOBRE 2025, VERSION 1.3 DE SEPTEMBRE 2026, LIVRET DE SYNTHÈSE, ET ENISA THREAT LANDSCAPE 2026, PUBLIÉ LE 22 SEPTEMBRE 2026.
 
 LEXIQUE COMPLET.
 
@@ -13,6 +13,20 @@ LEXIQUE COMPLET.
       Un courtier en accès initiaux revend des accès à des réseaux compromis, notamment VPN et RDP.
 
       Le phishing-as-a-service met à disposition des plateformes clés en main pour mener des campagnes d'hameçonnage.
+
+      ClickFix est une technique d'ingénierie sociale qui pousse la victime à « réparer » un faux problème en exécutant elle-même une commande malveillante copiée dans son presse-papiers.
+
+      Le device code phishing détourne la procédure légitime de connexion par code d'appareil pour obtenir les jetons d'accès d'un compte.
+
+      Un kit d'hameçonnage de type adversaire au milieu, AiTM, comme Tycoon 2FA, s'interpose entre la victime et le vrai site pour contourner l'authentification multifacteur.
+
+      Un infostealer est un logiciel malveillant qui vole identifiants, cookies de session et jetons d'authentification.
+
+      Le DDoS-as-a-Service, ou booter et stresser, loue des capacités de déni de service clés en main.
+
+      La base européenne des vulnérabilités, EUVD, est tenue par l'ENISA, devenue Root CVE en novembre 2025.
+
+      Un ensemble de manipulation de l'information, IMS, désigne un dispositif organisé de manipulation de l'information, comme Storm-1516 ou Doppelgänger.
 
 COURS DÉTAILLÉ.
 
@@ -80,6 +94,74 @@ III. LES SECTEURS ET LES VECTEURS.
 
       Les adversaires utilisent des modèles débridés, des médias synthétiques et l'empoisonnement de modèles pour gagner en efficacité.
 
+IV. L'ENISA THREAT LANDSCAPE 2026.
+
+   A. Méthode et chiffres clés.
+
+      L'ETL 2026, publié le 22 septembre 2026, passe à l'année civile : il couvre du 1er janvier au 31 décembre 2025, avec six mois de recouvrement avec l'ETL 2025, et analyse 8 257 incidents.
+
+      Les dénis de service distribués représentent 51,3 pour cent des incidents et les accès non autorisés 39,5 pour cent.
+
+      L'hameçonnage domine l'ingénierie sociale avec 77,8 pour cent, devant le malspam à 13 pour cent, et l'exploitation de vulnérabilités est le premier vecteur d'intrusion identifié, à 60,4 pour cent, devant les mauvaises configurations, 20,7 pour cent.
+
+      Par objectif, l'idéologie représente 57,3 pour cent des incidents, l'appât du gain 29,2 pour cent et l'espionnage environ 6 pour cent, mais la cybercriminalité reste la plus impactante à court terme et l'espionnage la plus stratégique à long terme.
+
+      Les entités essentielles et importantes au sens de NIS 2 concentrent environ 73 pour cent des incidents ; sous NIS 2, les États membres ont notifié 1 954 événements pour 2025.
+
+   B. Les secteurs.
+
+      Les cinq secteurs les plus visés sont l'administration publique, 31,8 pour cent, les services aux entreprises, 8,5 pour cent, les transports, 8 pour cent, l'industrie manufacturière, 6,9 pour cent, et la finance, 5,6 pour cent.
+
+      L'administration publique, centrale à 35,1 pour cent et locale à 33,8 pour cent, subit surtout des DDoS idéologiques, à 81,8 pour cent ; le vol de données Pajemploi et URSSAF, touchant potentiellement 1,2 million de personnes, est cité.
+
+      Dans les transports, le ferroviaire, 31,9 pour cent, et l'aérien, 30,4 pour cent, sont les plus visés ; le rançongiciel contre le logiciel d'enregistrement de Collins Aerospace en septembre 2025 a perturbé les aéroports de Bruxelles et Berlin.
+
+      Dans la santé, signalée par les États membres, les rançongiciels Qilin, INC et SafePay dominent, avec notamment le centre hospitalier du Gers.
+
+   C. La cybercriminalité.
+
+      Elle représente 29,3 pour cent des incidents : rançongiciels 47,3 pour cent, fuites de données 36 pour cent, fraude et usurpation 13,3 pour cent.
+
+      Les rançongiciels les plus actifs dans l'Union sont Qilin, SafePay, Akira, INC Ransom et Hunters International ; l'Allemagne, 26,5 pour cent, et la France, 14,7 pour cent, sont les pays les plus revendiqués.
+
+      L'exfiltration domine désormais, à 73,3 pour cent des techniques observées, contre 13,7 pour cent pour le chiffrement : le rançongiciel bascule vers l'extorsion par vol de données.
+
+      Les opérateurs neutralisent les EDR, par exemple avec EDRKillShifter ou des pilotes vulnérables, réutilisent des générateurs divulgués, et Qilin ajoute une fonction d'appel à un avocat pour presser les victimes.
+
+      ShinyHunters vole des données dans les environnements SaaS, Salesforce ou Microsoft 365, par hameçonnage vocal en se faisant passer pour le support informatique ; la plupart des annonces de fuites viennent de l'écosystème BreachForums.
+
+      Tycoon 2FA est le kit d'hameçonnage le plus répandu ; l'usurpation des administrations fiscales a été observée dans au moins neuf États membres ; 33 organisations ont été victimes à répétition, faute de remise en état après incident.
+
+      Parmi les opérations judiciaires de 2025 figurent Endgame, l'arrestation en France en juin des administrateurs de BreachForums et la fermeture de Cryptomixer.
+
+   D. La menace étatique.
+
+      52 modes opératoires étatiques ont été actifs dans l'Union ; ceux liés à la Russie pèsent 47,6 pour cent, la Chine 15,5 pour cent, la Corée du Nord 14,1 pour cent et l'Iran 9 pour cent.
+
+      L'exploitation de vulnérabilités représente 70 pour cent des vecteurs identifiés, notamment SharePoint, Ivanti et les pare-feu Cisco, et la menace interne progresse avec les faux informaticiens nord-coréens de Famous Chollima.
+
+      Les cinq modes opératoires les plus visibles sont Storm-2372, APT28, Famous Chollima, Callisto et Patchwork ; Storm-2372 a utilisé le device code phishing avec de faux WhatsApp, Signal et Teams.
+
+      En décembre 2025, une attaque de DragonFly contre le secteur de l'énergie a employé un wiper ; Salt Typhoon vise les télécommunications, et la France a attribué en avril 2025 à APT28 des attaques contre les Jeux de Paris 2024.
+
+   E. Manipulation de l'information et hacktivisme.
+
+      Le Service européen pour l'action extérieure a analysé 540 incidents FIMI en 2025, dont 29 pour cent attribués à la Russie et 6 pour cent à la Chine, et 27 pour cent mobilisaient l'IA.
+
+      La Russie suit un schéma électoral en trois phases : contrôle de l'espace informationnel, exploitation des divisions pendant la campagne, puis atteinte tardive à l'intégrité du scrutin.
+
+      Storm-1516 a presque doublé sa production et compte 453 sites, Portal Kombat diffuse environ 10 000 articles par jour et est soupçonné d'empoisonner les données d'entraînement des modèles de langage.
+
+      L'ENISA a relevé 4 709 revendications hacktivistes, à 89,5 pour cent des DDoS, dont 48 pour cent pour NoName057(16) ; seules 23,8 pour cent de ses revendications ont été confirmées.
+
+      Les revendications d'intrusion dans des systèmes industriels augmentent, 124 au quatrième trimestre, sans impact vérifié pour la plupart.
+
+   F. Vulnérabilités et perspectives.
+
+      Plus de 48 000 vulnérabilités CVE ont été publiées en 2025, soit plus 22 pour cent, et la XSS et l'injection SQL restent en tête du classement CWE.
+
+      L'ENISA anticipe une convergence des pratiques criminelles, hacktivistes et étatiques, l'importance croissante des dépendances numériques et une IA qui pourrait automatiser davantage d'étapes d'une attaque, jusqu'à des preuves de concept sans humain dans la boucle.
+
 POINTS D'ATTENTION.
 
       L'hacktivisme domine en volume, le rançongiciel en impact.
@@ -90,6 +172,12 @@ POINTS D'ATTENTION.
 
       L'IA est devenue un élément déterminant de la menace.
 
+      L'ETL 2026 couvre l'année civile 2025 et recoupe de six mois l'ETL 2025.
+
+      Le rançongiciel bascule du chiffrement vers l'exfiltration et l'extorsion.
+
+      Les revendications hacktivistes gonflent souvent l'impact réel.
+
 EXEMPLES CITES.
 
       NoName057(16) et la plateforme DDoSia.
@@ -97,3 +185,9 @@ EXEMPLES CITES.
       Les rançongiciels Akira et SafePay.
 
       APT28, APT29, Sandworm et Matriochka.
+
+      Collins Aerospace et les aéroports européens en septembre 2025.
+
+      Le vol de données Pajemploi et URSSAF.
+
+      Le device code phishing de Storm-2372.
