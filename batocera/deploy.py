@@ -12,6 +12,8 @@ assemblé ni copié localement.
    supprimé — un seul format, lu par le jeu et par la page web.
 2. Copie le dossier du jeu vers smb://<hôte>/share/roms/pygame/<dépôt>/, en
    n'envoyant que les fichiers absents ou de taille différente côté distant.
+   Les documents sources (data/source/, data/sources.json, onglet SOURCES de la page web) ne sont
+   pas envoyés : le jeu ne s'en sert pas.
 3. Ajoute l'entrée du jeu (nom + vignette) dans le gamelist.xml pygame
    distant si elle n'y est pas encore (sauvegarde gamelist.xml.bak avant).
 
@@ -32,6 +34,7 @@ REPO_NAME = os.path.basename(REPO_DIR)
 GAME_DIR = os.path.join(BATOCERA_DIR, REPO_NAME)
 DATA_DIR = os.path.join(GAME_DIR, 'data')
 THUMB = os.path.join(BATOCERA_DIR, 'vignette.png')
+EXCLUS_JEU = {'source', 'sources.json'}   # data/source/*.pdf + index : page web seulement
 
 
 def convert_podcasts():
@@ -78,6 +81,9 @@ def deploy(host):
     sent = skipped = failed = 0
     for root, dirs, files in os.walk(GAME_DIR):
         dirs[:] = [d for d in dirs if d != '__pycache__']
+        if root == DATA_DIR:   # documents sources (onglet SOURCES de la page web) : inutiles au jeu
+            dirs[:] = [d for d in dirs if d not in EXCLUS_JEU]
+        files = [f for f in files if not (root == DATA_DIR and f in EXCLUS_JEU)]
         rel_dir = os.path.relpath(root, BATOCERA_DIR)
         url_dir = smb_url(host, rel_dir)
         subprocess.run(['gio', 'mkdir', '-p', url_dir], capture_output=True)

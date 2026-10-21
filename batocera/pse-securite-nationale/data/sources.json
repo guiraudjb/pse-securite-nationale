@@ -1,0 +1,1840 @@
+{
+ "00-10 ANSSI - Rapport d'incident sur les cyberattaques ayant touché la DGFiP (2026)": [
+  {
+   "fichier": "source/20260923_ANSSI_Rapport_incident_DGFIP.pdf",
+   "titre": "N° 3033/ANSSI/SDO/NP Rapport d’incident – Septembre 2026 Actes malveillants observés sur le système d’information de la",
+   "pages": 20,
+   "taille": 690267
+  }
+ ],
+ "03-10 ANSSI - Panorama de la cybermenace 2025": [
+  {
+   "fichier": "source/CERTFR-2026-CTI-002.pdf",
+   "titre": "Panorama de la cybermenace",
+   "pages": 60,
+   "taille": 9230792,
+   "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2026-CTI-002.pdf"
+  }
+ ],
+ "03-20 ANSSI - Stratégie Nationale de Cybersécurité 2026-2030": [
+  {
+   "fichier": "source/SGDSN-SNC-2026-2030.pdf",
+   "titre": "Stratégie nationale de cybersécurité - 2026",
+   "pages": 36,
+   "taille": 1107237,
+   "url": "https://www.sgdsn.gouv.fr/files/files/Publications/20260129_SNC_0.pdf"
+  }
+ ],
+ "03-30 ANSSI - EBIOS Risk Manager Méthodologie d’appréciation des risques": [
+  {
+   "fichier": "source/03-30-ANSSI---EBIOS-Risk-Manager-Methodologie-d-appreciation-des-risques.pdf",
+   "titre": "ANSSI - EBIOS Risk Manager Méthodologie d’appréciation des risques",
+   "pages": 100,
+   "taille": 3840591
+  }
+ ],
+ "03-40 ANSSI - CyberDico Le lexique de la cybersécurité": [
+  {
+   "fichier": "source/CyberDico_ANSSI_2024.pdf",
+   "titre": "CyberDico de l'ANSSI, lexique français-anglais de la cybersécurité (2024)",
+   "pages": 34,
+   "taille": 449366,
+   "url": "https://cyber.gouv.fr/sites/default/files/document/CyberDico_ANSSI_2024.pdf"
+  }
+ ],
+ "03-50 ANSSI - Guide d'hygiène informatique": [
+  {
+   "fichier": "source/03-50-ANSSI---Guide-d-hygiene-informatique.pdf",
+   "titre": "ANSSI - Guide d'hygiène informatique",
+   "pages": 72,
+   "taille": 4792863
+  }
+ ],
+ "03-60 COMCYBER-MI - Rapport annuel sur la cybercriminalité 2025": [
+  {
+   "fichier": "source/03-60-COMCYBER-MI---Rapport-annuel-sur-la-cybercriminalite-2025.pdf",
+   "titre": "COMCYBER-MI - Rapport annuel sur la cybercriminalité 2025",
+   "pages": 68,
+   "taille": 4005938
+  }
+ ],
+ "03-70 SGDSN - Guide pour l'élaboration d'un Plan de Continuité d'Activité": [
+  {
+   "fichier": "source/03-70-SGDSN---Guide-pour-l-elaboration-d-un-Plan-de-Continuite-d-Activite.pdf",
+   "titre": "SGDSN - Guide pour l'élaboration d'un Plan de Continuité d'Activité",
+   "pages": 80,
+   "taille": 1330733
+  }
+ ],
+ "03-80 SGDSN - Stratégie nationale de lutte contre les manipulations de l'information d'origine étrangère 2026-2030": [
+  {
+   "fichier": "source/snlmi-2026-2030.pdf",
+   "titre": "Stratégie nationale de lutte contre les manipulations de l'information d'origine étrangère 2026-2030",
+   "pages": 66,
+   "taille": 829080
+  }
+ ],
+ "03-85 Vigipirate - Objectifs de cybersécurité": [
+  {
+   "fichier": "source/Objectifs_de_cybersecurite_document_public.pdf",
+   "titre": "Vigipirate partie publique objectifs de cybersécurité",
+   "pages": 46,
+   "taille": 533728
+  }
+ ],
+ "03-90 Mission Villani - Donner un sens à l'intelligence artificielle (2018)": [
+  {
+   "fichier": "source/rapport-villani-donner-un-sens-ia-2018.pdf",
+   "titre": "Donner un sens à l’intelligence artificielle : pour une stratégie nationale et européenne",
+   "pages": 235,
+   "taille": 4669533
+  }
+ ],
+ "03-95 Conseil de l'IA et du numérique - IA et cybersécurité": [
+  {
+   "fichier": "source/IA-cybersecurite.pdf",
+   "titre": "Note IA & cybersécurité anticiper",
+   "pages": 5,
+   "taille": 827778
+  }
+ ],
+ "03-100 ANSSI - Rapport d'activité 2024": [
+  {
+   "fichier": "source/rapport_activite_2024__rapport_activite_ANSSI_2024_xP2XxcD.pdf",
+   "titre": "RAPPORT D’ACTIVITÉ La montée",
+   "pages": 52,
+   "taille": 5606766
+  }
+ ],
+ "03-110 ANSSI - Rapport d'activité 2025": [
+  {
+   "fichier": "source/rapport_activite_2025__RA_FR_2025_WEB.pdf",
+   "titre": "Rapport d’activité",
+   "pages": 60,
+   "taille": 8292723
+  }
+ ],
+ "03-120 ANSSI - Panorama de la cybermenace 2024": [
+  {
+   "fichier": "source/panorama_cybermenace_2024__CERTFR-2025-CTI-003.pdf",
+   "titre": "Panorama de la cybermenace",
+   "pages": 52,
+   "taille": 9911220
+  }
+ ],
+ "03-130 ANSSI - Sécurisation des réseaux Wi-Fi": [
+  {
+   "fichier": "source/anssi_essentiels_wifi_1.0.pdf",
+   "titre": "LES ESSENTIELS SÉCURISATION DES RÉSEAUX WI-FI Le Wi-Fi est une technologie de communications radiofréquences destinée",
+   "pages": 2,
+   "taille": 180642
+  }
+ ],
+ "03-140 ANSSI - Cœur de confiance": [
+  {
+   "fichier": "source/anssi_essentiel_coeur_de_confiance_1.0.pdf",
+   "titre": "Identification du coeur de confiance d'un SI",
+   "pages": 2,
+   "taille": 184923
+  }
+ ],
+ "03-150 ANSSI - Défense en profondeur": [
+  {
+   "fichier": "source/anssi_essentiels_defense_profondeur_mise_en_oeuvre_1.0.pdf",
+   "titre": "DEFENSE EN PROFONDEUR",
+   "pages": 2,
+   "taille": 145629
+  }
+ ],
+ "03-160 ANSSI - Sécuriser une migration numérique": [
+  {
+   "fichier": "source/anssi_essentiels_migration_1.0.pdf",
+   "titre": "LES ESSENTIELS SÉCURISER UNE MIGRATION NUMÉRIQUE Retrouvez une quinzaine de bonnes pratiques et ressources essentielles de",
+   "pages": 2,
+   "taille": 155311
+  }
+ ],
+ "03-170 ANSSI - Mise en œuvre sécurisée d'un serveur Windows": [
+  {
+   "fichier": "source/anssi_essentiels_serveur_Windows_membre_AD_DS_v1.0.pdf",
+   "titre": "Mise en œuvre d’un serveur Windows et de sa sécurisation",
+   "pages": 2,
+   "taille": 222897
+  }
+ ],
+ "03-180 ANSSI - Architecture sécurisée de SI": [
+  {
+   "fichier": "source/anssi_essentiels_architecture_securisee_v1.0.pdf",
+   "titre": "ARCHITECTURES SÉCURISéES",
+   "pages": 2,
+   "taille": 170166
+  }
+ ],
+ "03-190 ANSSI - Infrastructure de gestion de clés IGC": [
+  {
+   "fichier": "source/anssi_essentiels_igc_1.0.pdf",
+   "titre": "Sujet technique du doc (sans article ni verbe)",
+   "pages": 2,
+   "taille": 206450
+  }
+ ],
+ "03-200 ANSSI - Modèle Zero Trust": [
+  {
+   "fichier": "source/anssi_essentiels_zero_trust_1.0.pdf",
+   "titre": "LES ESSENTIELS MODÈLE ZERO TRUST L’objectif principal du modèle Zero Trust (ZT) est de réduire la confiance",
+   "pages": 2,
+   "taille": 188966
+  }
+ ],
+ "03-210 ANSSI - Sélection d'un logiciel libre": [
+  {
+   "fichier": "source/anssi_essentiels_selection_logiciel_libre_1.0.pdf",
+   "titre": "LES ESSENTIELS SÉLECTION D’UN LOGICIEL LIBRE Le choix d’un produit (outil, bibliothèque, cadriciel) pour son organisation",
+   "pages": 2,
+   "taille": 178678
+  }
+ ],
+ "03-220 ANSSI - Hygiène numérique des téléphones mobiles": [
+  {
+   "fichier": "source/anssi_essentiels_hygiene_telephones_mobiles_1.1.pdf",
+   "titre": "LES ESSENTIELS HYGIÈNE NUMÉRIQUE DES TÉLÉPHONES MOBILES Dans un contexte de prolifération de menaces ciblant les téléphones",
+   "pages": 1,
+   "taille": 113693
+  }
+ ],
+ "03-230 ANSSI - Données et traitements sensibles": [
+  {
+   "fichier": "source/anssi_essentiels_donnees_traitements_sensibles_1.0.pdf",
+   "titre": "données et traitements sensibles",
+   "pages": 2,
+   "taille": 188274
+  }
+ ],
+ "03-240 ANSSI - Bases de données relationnelles": [
+  {
+   "fichier": "source/anssi_essentiels_bdd_relationnelles_1.0.pdf",
+   "titre": "LES ESSENTIELS BASES DE DONNÉES RELATIONNELLES Retrouvez, en une dizaine de bonnes pratiques, les ressources essentielles",
+   "pages": 2,
+   "taille": 165362
+  }
+ ],
+ "03-250 ANSSI - Se protéger des fuites de données": [
+  {
+   "fichier": "source/anssi_essentiels_fuites_donnees_1.0.pdf",
+   "titre": "SE Protéger des fuites de données",
+   "pages": 2,
+   "taille": 169128
+  }
+ ],
+ "03-260 ANSSI - Hébergement dans le cloud des SI sensibles": [
+  {
+   "fichier": "source/20240814_np_anssi_recommandations_hebergement_cloud_si_a5_v1g_fr.pdf",
+   "titre": "Recommandations pour l’hébergement dans le cloud",
+   "pages": 16,
+   "taille": 1682746
+  }
+ ],
+ "03-270 ANSSI - Dénis de service distribués DDoS": [
+  {
+   "fichier": "source/anssi_essentiels_denis-de-service-distribues_v2.0.pdf",
+   "titre": "Les essentiels dénis de service distribués (ddos *) 1/ les attaques ddos, une menace protéiforme",
+   "pages": 2,
+   "taille": 208085
+  }
+ ],
+ "03-280 ANSSI - DevSecOps": [
+  {
+   "fichier": "source/anssi_essentiels_devsecops_v1.0.pdf",
+   "titre": "LES ESSENTIELS DEVSECOPS Le DevSecOps est une méthodologie qui vise à inclure les pratiques de",
+   "pages": 1,
+   "taille": 93321
+  }
+ ],
+ "03-290 ANSSI - Virtualisation": [
+  {
+   "fichier": "source/anssi_essentiels_virtualisation_v1.0.pdf",
+   "titre": "LES ESSENTIELS VIRTUALISATION La virtualisation est une technologie socle sur laquelle reposent de",
+   "pages": 1,
+   "taille": 91666
+  }
+ ],
+ "03-300 ANSSI - Mise en œuvre sécurisée d'un CMS": [
+  {
+   "fichier": "source/anssi_essentiels_mise-en-oeuvre-securisee-cms_v1.1.pdf",
+   "titre": "LES ESSENTIELS MISE EN ŒUVRE SÉCURISÉE D’UN CMS Retrouvez, en dix bonnes pratiques, les ressources essentielles de l’ANSSI",
+   "pages": 2,
+   "taille": 148356
+  }
+ ],
+ "03-310 ANSSI - Sauvegarde des systèmes d'information": [
+  {
+   "fichier": "source/anssi_fondamentaux_sauvegarde_systemes_dinformation_v1.1.pdf",
+   "titre": "Sauvegarde des systèmes d’information les fondamentaux",
+   "pages": 12,
+   "taille": 652678
+  }
+ ],
+ "03-320 ANSSI - Sécurisation du poste de travail multi-environnements": [
+  {
+   "fichier": "source/anssi-fondamentaux-securisation-poste-multi-environnements-v1-0.pdf",
+   "titre": "Sécurisation du poste de travail multi-environnements (non classifiés)",
+   "pages": 26,
+   "taille": 920179
+  }
+ ],
+ "03-330 ANSSI - Sécurisation d'une infrastructure VMware": [
+  {
+   "fichier": "source/anssi-fondamentaux-securisation_infrastructure_vmware_v1-0.pdf",
+   "titre": "Sécurisation d’une infrastructure vmware les fondamentaux",
+   "pages": 20,
+   "taille": 960962
+  }
+ ],
+ "03-340 ANSSI - Automatisation de la gestion des certificats avec ACME": [
+  {
+   "fichier": "source/anssi-fondamentaux-securisation-acme-v1-1.pdf",
+   "titre": "Automatisation de la gestion des certificats avec acme les fondamentaux",
+   "pages": 34,
+   "taille": 1205011
+  }
+ ],
+ "03-350 ANSSI - Recommandations de sécurité relatives à TLS": [
+  {
+   "fichier": "source/anssi-guide-recommandations_de_securite_relatives_a_tls-v1.2.pdf",
+   "titre": "Recommandations de sécurité relatives à TLS",
+   "pages": 72,
+   "taille": 451871
+  }
+ ],
+ "03-360 ANSSI - Recommandations de sécurité relatives à IPsec": [
+  {
+   "fichier": "source/NT_IPsec.pdf",
+   "titre": "DAT-NT-003/ANSSI/SDE PREMIER MINISTRE Secrétariat général",
+   "pages": 18,
+   "taille": 1145627
+  }
+ ],
+ "03-370 ANSSI - Recommandations pour un usage sécurisé d'OpenSSH": [
+  {
+   "fichier": "source/NT_OpenSSH.pdf",
+   "titre": "DAT-NT-007/ANSSI/SDE PREMIER MINISTRE Secrétariat général",
+   "pages": 22,
+   "taille": 1065938
+  }
+ ],
+ "03-380 ANSSI - Recommandations de déploiement du protocole 802.1X": [
+  {
+   "fichier": "source/guide_802.1x_anssi_pa_043_v1.pdf",
+   "titre": "Recommandations de déploiement du protocole 802.1x pour le contrôle d'accès à des réseaux",
+   "pages": 38,
+   "taille": 661277
+  }
+ ],
+ "03-390 ANSSI - Recommandations relatives à l'interconnexion d'un SI à Internet": [
+  {
+   "fichier": "source/anssi-guide-passerelle_internet_securisee-v3.pdf",
+   "titre": "Recommandations relatives à l'interconnexion d'un système d'information à internet",
+   "pages": 58,
+   "taille": 3139496
+  }
+ ],
+ "03-400 ANSSI - Sécurisation de la mise en œuvre du protocole OpenID Connect": [
+  {
+   "fichier": "source/anssi-guide-recommandations_pour_la_securisation_de_la_mise_en_oeuvre_du_protoco.pdf",
+   "titre": "Recommandations pour la sécurisation de la mise en œuvre du protocole openid connect",
+   "pages": 38,
+   "taille": 813513
+  }
+ ],
+ "03-410 ANSSI - Nettoyage d'une politique de filtrage réseau d'un pare-feu": [
+  {
+   "fichier": "source/np_nettoyage-politique-pare-feu.pdf",
+   "titre": "DAT-NT-32/ANSSI/SDE PREMIER MINISTRE Secrétariat général",
+   "pages": 18,
+   "taille": 777074
+  }
+ ],
+ "03-420 ANSSI - Définition d'une politique de filtrage réseau d'un pare-feu": [
+  {
+   "fichier": "source/NP_Politique_pare_feu_NoteTech.pdf",
+   "titre": "DAT-NT-006/ANSSI/SDE PREMIER MINISTRE Secrétariat général",
+   "pages": 16,
+   "taille": 889961
+  }
+ ],
+ "03-430 ANSSI - Recommandations pour la mise en place de cloisonnement système": [
+  {
+   "fichier": "source/guide_cloisonnement_systeme_anssi_pg_040_v1.pdf",
+   "titre": "Recommandations pour la mise en place de cloisonnement système",
+   "pages": 38,
+   "taille": 495646
+  }
+ ],
+ "03-440 ANSSI - Recommandations pour choisir des pare-feux maîtrisés dans les zones exposées à Internet": [
+  {
+   "fichier": "source/guide_preconisations-pare-feux-zone-exposee-internet_anssi_pa_044_v1.pdf",
+   "titre": "Recommandations pour choisir des pare-feux maîtrisés dans les zones exposées à internet",
+   "pages": 26,
+   "taille": 779924
+  }
+ ],
+ "03-450 ANSSI - Configuration sécurisée d'un pare-feu Stormshield Network Security (SNS)": [
+  {
+   "fichier": "source/anssi-guide-recommandations_configuration_securisee_pare_feu_stormshield_network.pdf",
+   "titre": "Recommandations pour une configuration sécurisée d'un pare-feu stormshield network",
+   "pages": 60,
+   "taille": 1027248
+  }
+ ],
+ "03-460 ANSSI - Bonnes pratiques de configuration de BGP": [
+  {
+   "fichier": "source/guide_configuration_BGP.pdf",
+   "titre": "Bonnes pratiques de conﬁguration de BGP",
+   "pages": 72,
+   "taille": 1522124
+  }
+ ],
+ "03-470 ANSSI - Recommandations de configuration d'un système GNU-Linux": [
+  {
+   "fichier": "source/fr_np_linux_configuration-v2.0.pdf",
+   "titre": "Recommandations de configuration d'un système gnu/linux",
+   "pages": 86,
+   "taille": 2502770
+  }
+ ],
+ "03-480 ANSSI - Recommandations de sécurité relatives à Active Directory": [
+  {
+   "fichier": "source/NP_ActiveDirectory_NoteTech.pdf",
+   "titre": "DAT-NT-17/ANSSI/SDE PREMIER MINISTRE Secrétariat général",
+   "pages": 49,
+   "taille": 1113812
+  }
+ ],
+ "03-490 ANSSI - Administration sécurisée des SI reposant sur Active Directory": [
+  {
+   "fichier": "source/anssi-guide-admin_securisee_si_ad_v1-0.pdf",
+   "titre": "Recommandations relatives à l'administration sécurisée des systèmes d'information reposant",
+   "pages": 166,
+   "taille": 2794931
+  }
+ ],
+ "03-500 ANSSI - Recommandations relatives à l'administration sécurisée des systèmes d'information": [
+  {
+   "fichier": "source/anssi-guide-admin_securisee_si_v3-0.pdf",
+   "titre": "Recommandations relatives à l'administration sécurisée des systèmes d'information",
+   "pages": 78,
+   "taille": 2784556
+  }
+ ],
+ "03-510 ANSSI - Journalisation des systèmes Microsoft Windows en environnement Active Directory": [
+  {
+   "fichier": "source/anssi-guide-recommandations_securite_journalisation_systemes_microsoft_windows_e.pdf",
+   "titre": "Recommandations de sécurité pour la journalisation des systèmes microsoft windows en",
+   "pages": 100,
+   "taille": 2055450
+  }
+ ],
+ "03-520 ANSSI - Recommandations de configuration matérielle de postes clients et serveurs x86": [
+  {
+   "fichier": "source/NP_ConfigMateriel.pdf",
+   "titre": "DAT-24/ANSSI/SDE PREMIER MINISTRE Secrétariat général",
+   "pages": 15,
+   "taille": 949945
+  }
+ ],
+ "03-530 ANSSI - Fonctionnalités de sécurité de Windows 10 reposant sur la virtualisation": [
+  {
+   "fichier": "source/np_securisation_windows10_securite_reposant_sur_la_virtualisation_v1.pdf",
+   "titre": "Mise en œuvre des fonctionnalités de sécurité de windows 10 reposant sur la",
+   "pages": 54,
+   "taille": 978645
+  }
+ ],
+ "03-540 ANSSI - Préoccupations relatives au respect de la vie privée et à la confidentialité des données sous Windows 10": [
+  {
+   "fichier": "source/np_securisation_windows10_collecte_de_donnees_v1.2.pdf",
+   "titre": "Préoccupations relatives au respect de la vie privée et à la confidentialité des données sous",
+   "pages": 30,
+   "taille": 1695761
+  }
+ ],
+ "03-550 ANSSI - Recommandations pour la mise en œuvre d'une politique de restrictions logicielles sous Windows": [
+  {
+   "fichier": "source/np_applocker_notetech-v2.pdf",
+   "titre": "DAT-NT-13/ANSSI/SDE PREMIER MINISTRE Secrétariat général",
+   "pages": 22,
+   "taille": 2630123
+  }
+ ],
+ "03-560 ANSSI - Recommandations de sécurité relatives aux environnements d'exécution Java sur les postes de travail Microsoft Windows": [
+  {
+   "fichier": "source/np_securiser_jre_notetech.pdf",
+   "titre": "PREMIER MINISTRE Secrétariat général de la défense",
+   "pages": 31,
+   "taille": 835239
+  }
+ ],
+ "03-570 DRSD - Guide pratique d'analyse de risques": [
+  {
+   "fichier": "source/guide-analyse-risques-drsd-2023.pdf",
+   "titre": "Guide pratique analyse de",
+   "pages": 80,
+   "taille": 4226647
+  }
+ ],
+ "03-580 DRSD - Guide pratique de gestion de la sûreté des PME et ETI de la BITD": [
+  {
+   "fichier": "source/Guide-pratique-gestion-de-la-surete-VF.pdf",
+   "titre": "Guide pratique Gestion de la sûreté à l’usage des PME et des ETI de la BITD",
+   "pages": 76,
+   "taille": 867835
+  }
+ ],
+ "03-590 DRSD - Guide de survie face à la crise": [
+  {
+   "fichier": "source/GUIDE-SURVIE-CRISE-DRSD-BLN.pdf",
+   "titre": "Ministère des armées et des anciens",
+   "pages": 94,
+   "taille": 1934994
+  }
+ ],
+ "03-600 DRSD - Réflexes de sûreté, salons, Diffusion Restreinte et visites": [
+  {
+   "fichier": "source/20241212-DRSD-Affiche-sensibilisation-surete-employes.pdf",
+   "titre": "Ne jamais sous-estimer l’importance d’un fait inhabituel ou d’un incident de",
+   "pages": 1,
+   "taille": 418597
+  },
+  {
+   "fichier": "source/Badge-hors-site-cible-identifiee.pdf",
+   "titre": "RESPECT DES CONSIGNES DE SÛRETÉ AU TRAVAIL BADGE hors site CIBLE",
+   "pages": 1,
+   "taille": 76862
+  },
+  {
+   "fichier": "source/Badge-oublie-journee-compliquee.pdf",
+   "titre": "RESPECT DES CONSIGNES DE SÛRETÉ AU TRAVAIL BADGE OUBLIé",
+   "pages": 1,
+   "taille": 1922329
+  },
+  {
+   "fichier": "source/Ce-qui-se-dit-ici-reste-ici.pdf",
+   "titre": "Respect des consignes de discrétion professionnelle ce qui se dit ici",
+   "pages": 1,
+   "taille": 1921458
+  },
+  {
+   "fichier": "source/Ici-la-discretion-est-une-valeur.pdf",
+   "titre": "RESPECT DES CONSIGNES DE DISCRÉTION PROFESSIONNELLE Ici la discretion",
+   "pages": 1,
+   "taille": 1921341
+  },
+  {
+   "fichier": "source/Ici-politique-du-bureau-propre.pdf",
+   "titre": "Respect des consignes de protection des informations bureau propre",
+   "pages": 1,
+   "taille": 75943
+  },
+  {
+   "fichier": "source/Impression-oubliee-information-devoilee.pdf",
+   "titre": "Respect des consignes de protection des informations impression",
+   "pages": 1,
+   "taille": 76862
+  },
+  {
+   "fichier": "source/Le-broyeur-est-votre-meilleur-ami.pdf",
+   "titre": "RESPECT DES CONSIGNES DE DESTRUCTION DES DOCUMENTS SENSIBLES Ne laissez aucun document sensible dans",
+   "pages": 1,
+   "taille": 1921371
+  },
+  {
+   "fichier": "source/Le-couloir-n-est-pas-une-salle-de-reunion.pdf",
+   "titre": "RESPECT DES CONSIGNES DE DISCRÉTION PROFESSIONNELLE Evitez d’évoquer des sujets sensibles dans",
+   "pages": 1,
+   "taille": 1922314
+  },
+  {
+   "fichier": "source/Les-espions-prennent-aussi-les-transports.pdf",
+   "titre": "Respect des consignes de discrétion professionnelle en déplacement",
+   "pages": 1,
+   "taille": 76280
+  },
+  {
+   "fichier": "source/Les-menaces-evoluent-nos-mesures-aussi.pdf",
+   "titre": "Respect des consignes de sûreté au travail les menaces évoluent",
+   "pages": 1,
+   "taille": 75692
+  },
+  {
+   "fichier": "source/Les-murs-ont-des-oreilles-les-telephones-aussi.pdf",
+   "titre": "LES MURS ONT DES OREILLES LES Téléphones",
+   "pages": 1,
+   "taille": 1922315
+  },
+  {
+   "fichier": "source/Mot-de-passe-robuste-donnees-protegees.pdf",
+   "titre": "Respect des mesures d’hygiène numérique mot de passe robuste",
+   "pages": 1,
+   "taille": 77609
+  },
+  {
+   "fichier": "source/PARCOURS-DE-NOTORIETE-DRSD.pdf",
+   "titre": "recevoir des visiteurs tout en protégeant son patrimoine LE PARCOURS DE NOTORIÉTÉ",
+   "pages": 19,
+   "taille": 318159
+  },
+  {
+   "fichier": "source/Tiens-notre-site-attire-les-curieux.pdf",
+   "titre": "RESPECT DES CONSIGNES DE REMONTÉE D’INCIDENTS Un individu en train de photographier,",
+   "pages": 1,
+   "taille": 1922200
+  },
+  {
+   "fichier": "source/Une-viennoiserie-offerte-pour-une-session-ouverte.pdf",
+   "titre": "RESPECT DES MESURES DE PROTECTION DES INFORMATIONS UNE viennoiserie",
+   "pages": 1,
+   "taille": 76374
+  },
+  {
+   "fichier": "source/Vos-secrets-n-aiment-pas-les-salons.pdf",
+   "titre": "Respect des consignes de protection des informations en déplacement",
+   "pages": 1,
+   "taille": 76597
+  },
+  {
+   "fichier": "source/Votre-poubelle-ne-doit-pas-tout-savoir.pdf",
+   "titre": "Respect des consignes de destruction des documents sensibles votre poubelle",
+   "pages": 1,
+   "taille": 1921484
+  },
+  {
+   "fichier": "source/Votre-voiture-n-est-pas-un-coffre-fort.pdf",
+   "titre": "Respect des consignes de protection des informations votre voiture",
+   "pages": 1,
+   "taille": 1921534
+  },
+  {
+   "fichier": "source/les-extincteurs-ne-font-pas-de-bons-portiers.pdf",
+   "titre": "RESPECT DES CONSIGNES DE SÛRETÉ Les extincteurs Retirez systématiquement tout objet",
+   "pages": 1,
+   "taille": 1922041
+  },
+  {
+   "fichier": "source/oh-Un-drone-c-est-surprenant.pdf",
+   "titre": "RESPECT DES CONSIGNES DE REMONTÉE D’INCIDENTS Oh ! un drone Un drone en stationnaire au-dessus du",
+   "pages": 1,
+   "taille": 1922068
+  },
+  {
+   "fichier": "source/question-intrusive-reponse-evasive.pdf",
+   "titre": "Respect des consignes de discrétion professionnelle question intrusive",
+   "pages": 1,
+   "taille": 1922458
+  },
+  {
+   "fichier": "source/signalez-tout-fait-inhabituel.pdf",
+   "titre": "RESPECT DES CONSIGNES DE REMONTÉE D’INCIDENTS SIGNALEz TOUT FAIT",
+   "pages": 1,
+   "taille": 1922280
+  },
+  {
+   "fichier": "source/votre-vigilance-notre-force.pdf",
+   "titre": "RESPECT DES CONSIGNES DE REMONTÉE D’INCIDENTS VOTRE VIGILANCE Un individu en train de photographier le",
+   "pages": 1,
+   "taille": 1921909
+  },
+  {
+   "fichier": "source/what-happens-in-france-stays-in-france.pdf",
+   "titre": "RESPECT DES CONSIGNES DE DISCRÉTION PROFESSIONNELLE Un document portant la mention de",
+   "pages": 1,
+   "taille": 1922669
+  },
+  {
+   "fichier": "source/MEMO-SALONS-FR.pdf",
+   "titre": "MEMO Les bons réflexes à adopter lors des salons en France et à l’étranger",
+   "pages": 7,
+   "taille": 769015
+  },
+  {
+   "fichier": "source/20260122-DRSD_Fiche-gestion-document-DR.pdf",
+   "titre": "La mention DIFFUSION RESTREINTE GESTION DES DOCUMENTS PAPIER Vous venez de recevoir, peut-être pour la première fois, un document papier",
+   "pages": 2,
+   "taille": 105467
+  }
+ ],
+ "03-610 DRSD - Lettres d'information économique, cyber, exportations, secret et propriété intellectuelle": [
+  {
+   "fichier": "source/LIE-n-21---Propriete-intellectuelle-dans-la-sphere-defense.pdf",
+   "titre": "LIE n°21 - Propriété intellectuelle dans la sphère défense",
+   "pages": 15,
+   "taille": 842317
+  },
+  {
+   "fichier": "source/20250218_LIE_n-18_La_BITD_francaise_apres_3_ans_de_conflit_en_Ukraine.pdf",
+   "titre": "LIE n°18 - La BITD française après 3 ans de conflit en Ukraine",
+   "pages": 13,
+   "taille": 988434
+  },
+  {
+   "fichier": "source/LIE_17_RMC.pdf",
+   "titre": "Lettre d'information économique n°17 de la DRSD",
+   "pages": 12,
+   "taille": 898732
+  },
+  {
+   "fichier": "source/LIE-19---La-protection-du-secret-dans-les-contrats-Defense.pdf",
+   "titre": "LIE 19 - La protection du secret dans les contrats Défense",
+   "pages": 14,
+   "taille": 1151651
+  }
+ ],
+ "03-615 DRSD - Panoramas des ingérences contre la sphère défense 2024-2025 et salons d'armement": [
+  {
+   "fichier": "source/LIE-n-22---Panorama-des-ingerences-a-l-encontre-de-la-sphere-defense-en-2025.pdf",
+   "titre": "LIE n°22 - Panorama des ingérences à l'encontre de la sphère défense en 2025",
+   "pages": 8,
+   "taille": 2009971
+  }
+ ],
+ "03-620 DGSI - Flash ingérence, facteur humain, débauchages et menace interne": [
+  {
+   "fichier": "source/Flash-ingerence-106---octobre-2024---Vols-de-donnees-par-des-collaborateurs-inte.pdf",
+   "titre": "Flash ingérence 106 - octobre 2024 - Vols de données par des collaborateurs internes à la société",
+   "pages": 6,
+   "taille": 545753
+  },
+  {
+   "fichier": "source/Flash-ingerence-112---avril-2025---Le-facteur-humain-principal-vecteur-de-compro.pdf",
+   "titre": "Flash ingérence 112 - avril 2025 - Le facteur humain, principal vecteur de compromission des systèmes d'information",
+   "pages": 7,
+   "taille": 2125811
+  },
+  {
+   "fichier": "source/Flash_Ingerence_116.pdf",
+   "titre": "FLASH INGÉRENCE ÉCONOMIQUE DGSI #116 Novembre 2025 APPROCHES MALVEILLANTES SUR LES RÉSEAUX SOCIAUX",
+   "pages": 6,
+   "taille": 656288
+  },
+  {
+   "fichier": "source/Flash_Ingerence_102.pdf",
+   "titre": "Ministère de l’intérieur et des outre-mer",
+   "pages": 6,
+   "taille": 817271
+  }
+ ],
+ "03-630 DGSI - Flash ingérence, recherche, innovation, logiciels et intelligence artificielle": [
+  {
+   "fichier": "source/Flash-Ingerence-115---octobre-2025---Risques-associes-a-l-absence-de-protection-.pdf",
+   "titre": "Flash Ingérence 115 - octobre 2025 - Risques associés à l'absence de protection des logiciels à usage industriel",
+   "pages": 6,
+   "taille": 637592
+  },
+  {
+   "fichier": "source/Flash-ingerence-114-juin-2025---Incidents-impliquant-des-chercheurs-etrangers-ac.pdf",
+   "titre": "Flash ingérence 114-juin 2025 - Incidents impliquant des chercheurs étrangers accueillis dans le cadre de programmes académiques officiels",
+   "pages": 6,
+   "taille": 395912
+  },
+  {
+   "fichier": "source/Flash-ingerence-104---Interets-etrangers-pour-les-chercheurs-francais-laureats-d.pdf",
+   "titre": "Flash ingérence 104 - Intérêts étrangers pour les chercheurs français lauréats de distinctions scientifiques",
+   "pages": 6,
+   "taille": 358684
+  },
+  {
+   "fichier": "source/Flash_117_0.pdf",
+   "titre": "FLASH INGÉRENCE ÉCONOMIQUE DGSI #117 Décembre 2025 RISQUES ASSOCIÉS À L’USAGE DE L’INTELLIGENCE",
+   "pages": 7,
+   "taille": 671722
+  }
+ ],
+ "03-640 DGSI - Flash ingérence, sûreté physique, repérages, sabotages, salons et outils numériques": [
+  {
+   "fichier": "source/Flash_Ingerence_103.pdf",
+   "titre": "Ministère de l’intérieur et des outre-mer",
+   "pages": 6,
+   "taille": 429554
+  },
+  {
+   "fichier": "source/Flash_Ingerence_108.pdf",
+   "titre": "FLASH INGÉRENCE ÉCONOMIQUE DGSI #108 Décembre 2024 DÉSTABILISATION DE L’ACTIVITÉ D’ENTREPRISES OU DE",
+   "pages": 6,
+   "taille": 516343
+  },
+  {
+   "fichier": "source/Flash-ingerence-113---mai---2025---Risques-lies-aux-defaillances-en-matiere-de-s.pdf",
+   "titre": "Flash ingerence 113 - mai - 2025 - Risques liés aux défaillances en matière de sûreté bâtimentaire",
+   "pages": 6,
+   "taille": 406118
+  },
+  {
+   "fichier": "source/Flash_110.pdf",
+   "titre": "FLASH INGÉRENCE ÉCONOMIQUE DGSI #110 Février 2025 INCIDENTS SURVENUS À L’OCCASION DE VISITES",
+   "pages": 6,
+   "taille": 384108
+  },
+  {
+   "fichier": "source/Flash-ingerence-111.pdf",
+   "titre": "Flash ingérence 111",
+   "pages": 6,
+   "taille": 372005
+  }
+ ],
+ "03-650 DGSI - Flash ingérence, escroqueries, investisseurs, lois extraterritoriales, embargos et réputation": [
+  {
+   "fichier": "source/Flash-ingerence-107---novembre-2024---L-importance-du-processus-de-due-diligence.pdf",
+   "titre": "Flash ingérence 107 - novembre 2024 - L'importance du processus de due diligence permettant de contrôler l'honorabilité d'un investisseur potentiel",
+   "pages": 6,
+   "taille": 696741
+  },
+  {
+   "fichier": "source/Flash-ingerence-105---septembre-2024---Tentatives-de-contournement-des-embargos-.pdf",
+   "titre": "Flash ingérence 105 - septembre 2024 - Tentatives de contournement des embargos et sanctions européennes et internationales par des sociétés étrangères",
+   "pages": 7,
+   "taille": 542856
+  },
+  {
+   "fichier": "source/2024-03-28---Flash-101---mars-2024---Les-risques-associes-aux-escroqueries-par-u.pdf",
+   "titre": "Ministère de l’intérieur et des outre-mer",
+   "pages": 6,
+   "taille": 375539
+  },
+  {
+   "fichier": "source/Flash-ingerence-economique-N100-fevrier-2024.pdf",
+   "titre": "Flash ingérence économique N100-février 2024",
+   "pages": 11,
+   "taille": 1251243
+  },
+  {
+   "fichier": "source/Flash-Ingerence-109---janvier-2025---Les-risques-d-atteinte-a-la-reputation-d-en.pdf",
+   "titre": "Flash Ingérence 109 - janvier 2025 - Les risques d'atteinte à la réputation d'entreprises ou de laboratoires français évoluant à l'international",
+   "pages": 6,
+   "taille": 457898
+  }
+ ],
+ "03-660 Viginum - Ingérences numériques étrangères, rapport 2024 et kits de sensibilisation": [
+  {
+   "fichier": "source/03-660-Viginum---Ingerences-numeriques-etrangeres-rapport-2024-et-kits-de-sensib.pdf",
+   "titre": "Viginum - Ingérences numériques étrangères, rapport 2024 et kits de sensibilisation",
+   "pages": 32,
+   "taille": 4518577
+  }
+ ],
+ "03-670 SGDSN - Rapport d'activité 2025, Revue nationale stratégique et Mémento de la sécurité nationale": [
+  {
+   "fichier": "source/Rapport-d-activite-2025_SGDSN.pdf",
+   "titre": "Rapport d’activité secrétariat général de la défense et de la sécurité nationale",
+   "pages": 68,
+   "taille": 13410979
+  }
+ ],
+ "03-680 SGDSN - Feuille de route sécurité numérique de l'État 2026-2027 et résilience nationale CIRN 4": [
+  {
+   "fichier": "source/Feuille-de-route-Securite-numerique-de-l-Etat-2026-2027.pdf",
+   "titre": "Feuille de route Sécurité numérique de l'Etat 2026-2027",
+   "pages": 9,
+   "taille": 450684
+  }
+ ],
+ "03-690 Cybermalveillance - Kit de sensibilisation aux risques numériques": [
+  {
+   "fichier": "source/240320_ToisiemeKit_SCREEN.pdf",
+   "titre": "Kit de sensibilisation aux risques numériques dispositif national d’assistance",
+   "pages": 32,
+   "taille": 3479857
+  }
+ ],
+ "03-700 Cybermalveillance - Fiches réflexes face aux cybermalveillances": [
+  {
+   "fichier": "source/230602_FicheReflexe_FauxOrdresDeVirement.pdf",
+   "titre": "SI VOUS ÊTES VICTIME IDENTIFIEZ LES VIREMENTS FRAUDULEUX. Identifiez tous les",
+   "pages": 2,
+   "taille": 153522
+  },
+  {
+   "fichier": "source/230602_FicheReflexe_FraudeCarteBancaire.pdf",
+   "titre": "Si vous êtes victime faites immédiatement opposition à votre",
+   "pages": 2,
+   "taille": 167708
+  },
+  {
+   "fichier": "source/230602_FicheReflexe_Piratage.pdf",
+   "titre": "Un système informatique (ou système d’information) désigne tout appareil,",
+   "pages": 2,
+   "taille": 160413
+  },
+  {
+   "fichier": "source/230417_FicheReflexe_UsurpationIdentite_Particuliers.pdf",
+   "titre": "L’usurpation d’identité est un délit qui désigne l’utilisation d’informations",
+   "pages": 2,
+   "taille": 169751
+  },
+  {
+   "fichier": "source/260505_FicheReflexe_Usurpation-de-site-internet-professionnel.pdf",
+   "titre": "L’usurpation de site internet professionnel si vous êtes victime",
+   "pages": 2,
+   "taille": 138963
+  },
+  {
+   "fichier": "source/230417_FicheReflexe_Virus.pdf",
+   "titre": "Un virus est un programme informatique malveillant dont l’objectif",
+   "pages": 2,
+   "taille": 158108
+  }
+ ],
+ "03-710 Cybermalveillance et Bpifrance - Guide de cybersécurité des dirigeants de TPE, PME et ETI": [
+  {
+   "fichier": "source/Guide-de-cybersecurite-a-destination-des-dirigeants-de-TPE-PME-et-ETI.pdf",
+   "titre": "Guide cybersécurité à destination",
+   "pages": 39,
+   "taille": 919656
+  }
+ ],
+ "03-720 Cybermalveillance et CNIL - Cybersécurité et RGPD des collectivités territoriales": [
+  {
+   "fichier": "source/cnil-guide-collectivite-territoriale.pdf",
+   "titre": "Guide de sensibilisation au RGPD pour les collectivités territoriales",
+   "pages": 43,
+   "taille": 896284
+  }
+ ],
+ "03-730 Cybermalveillance - Cyber guide famille, parents et seniors": [
+  {
+   "fichier": "source/250328_GuideFamilles_SCREEN.pdf",
+   "titre": "CYBER GUIDE FAMILLE 10 BONNES PRATIQUES ESSENTIELLES pour protéger les usages numériques de la famille",
+   "pages": 16,
+   "taille": 3261686
+  }
+ ],
+ "03-740 Campus Cyber et ENISA - Kit conseil cybersécurité PME, collectivités et bonnes pratiques de cyber-résilience": [
+  {
+   "fichier": "source/Kit-Conseil-Cyber_PME_Collectivites.pdf",
+   "titre": "Kit Conseil Cyber",
+   "pages": 15,
+   "taille": 922151
+  }
+ ],
+ "03-750 IHEMI - Revue Défis n°1, la cybersécurité et l'intelligence stratégique en 2013": [
+  {
+   "fichier": "source/defis1.pdf",
+   "titre": "DéfIS 1 L’Intelligence stratégique au service de la compétitivité",
+   "pages": 48,
+   "taille": 1215866
+  }
+ ],
+ "03-760 ANSSI - REACTIV point de situation septembre 2026": [
+  {
+   "fichier": "source/CERTFR-2026-CTI-006.pdf",
+   "titre": "REACTIV Point de situation Septembre 2026",
+   "pages": 10,
+   "taille": 807599
+  }
+ ],
+ "03-770 ANSSI et C4 - Ciblage d'entités françaises par le mode opératoire Turla du FSB": [
+  {
+   "fichier": "source/CERTFR-2026-CTI-004.pdf",
+   "titre": "CERT-FR - Ciblage d'entités françaises par le mode opératoire Turla",
+   "pages": 7,
+   "taille": 1927529
+  }
+ ],
+ "03-780 ANSSI - L'IA générative face aux attaques informatiques, synthèse de la menace 2025": [
+  {
+   "fichier": "source/03-780-ANSSI---L-IA-generative-face-aux-attaques-informatiques-synthese-de-la-me.pdf",
+   "titre": "ANSSI - L'IA générative face aux attaques informatiques, synthèse de la menace 2025",
+   "pages": 12,
+   "taille": 377959
+  }
+ ],
+ "03-790 ANSSI et G7 - Préparer l'ère post-quantique, appel à l'action": [
+  {
+   "fichier": "source/G7-post-quantum-call-to-action.pdf",
+   "titre": "GROUPE DE TRAVAIL CYBERSÉCURITÉ CYBERSECURITY WORKING GROUP Preparing",
+   "pages": 8,
+   "taille": 980150
+  }
+ ],
+ "03-800 ANSSI - Kit d'exercice de crise cyber du secteur agroalimentaire": [
+  {
+   "fichier": "source/1.1._ANSSI_-_KitAgroalimentaire_-_TTX_-__Briefing_des_animateurs.pdf",
+   "titre": "Les futurs joueurs ne doivent pas prendre connaissance de ce document",
+   "pages": 18,
+   "taille": 1836027
+  },
+  {
+   "fichier": "source/1.2._ANSSI_-_KitAgroalimentaire_-__TTX_-_Briefing_des_joueurs.pdf",
+   "titre": "KIT EXERCICE DE CRISE CYBER AGROALIMENTAIRE 2026 Briefing joueurs TTX",
+   "pages": 8,
+   "taille": 1010088
+  },
+  {
+   "fichier": "source/1.3._ANSSI_-_KitAgroalimentaire_-_TTX_-_Chronogramme_Niveau_1.pdf",
+   "titre": "Les futurs joueurs ne doivent pas prendre connaissance de ce document",
+   "pages": 25,
+   "taille": 1319611
+  },
+  {
+   "fichier": "source/1.4_ANSSI_-_KitAgroalimentaire_-_TTX_-_Pieces_jointes_chronogramme_niveau_1.pdf",
+   "titre": "KIT EXERCICE DE CRISE CYBER AGROALIMENTAIRE 2026 Pièces-Jointes de l’exercice",
+   "pages": 21,
+   "taille": 1559744
+  },
+  {
+   "fichier": "source/1.6._ANSSI_-_KitAgroalimentaire-_TTX_-_Debriefing.pdf",
+   "titre": "KIT EXERCICE DE CRISE CYBER AGROALIMENTAIRE 2026 Débriefing de l’exercice sur table - TTX",
+   "pages": 15,
+   "taille": 1442776
+  },
+  {
+   "fichier": "source/2.1._ANSSI_-_KitAgroalimentaire_-_Simulations_-_Briefing_des_animateurs.pdf",
+   "titre": "Les futurs joueurs ne doivent pas prendre connaissance de ce document",
+   "pages": 23,
+   "taille": 2089233
+  },
+  {
+   "fichier": "source/2.2._ANSSI_-_KitAgroalimentaire_-_Simulations_-_Briefing_des_joueurs.pdf",
+   "titre": "KIT EXERCICE DE CRISE CYBER AGROALIMENTAIRE 2026 Briefing joueurs SIMULATIONS Niveau 2 et",
+   "pages": 8,
+   "taille": 1056712
+  },
+  {
+   "fichier": "source/2.5._ANSSI_-_KitAgroalimentaire_-_Simulations_-_Scenario_2_-_Pieces_jointes.pdf",
+   "titre": "KIT EXERCICE DE CRISE CYBER AGROALIMENTAIRE 2026 Pièces-Jointes de l’exercice - Simulations",
+   "pages": 30,
+   "taille": 1736717
+  },
+  {
+   "fichier": "source/2.5._ANSSI_-_KitAgroalimentaire_-_Simulations_-_Scenario_3_-_Pieces_jointes.pdf",
+   "titre": "KIT EXERCICE DE CRISE CYBER AGROALIMENTAIRE 2026 Pièces-Jointes de l’exercice - Simulations",
+   "pages": 29,
+   "taille": 1552625
+  },
+  {
+   "fichier": "source/2.9._ANSSI_-_KitAgroalimentaire_-Simulations_-_Debriefing.pdf",
+   "titre": "KIT EXERCICE DE CRISE CYBER AGROALIMENTAIRE 2026 Debriefing de l’exercice SIMULATIONS",
+   "pages": 16,
+   "taille": 1596044
+  },
+  {
+   "fichier": "source/ANSSI_KitAgroalimentaire_GuideUtilisation.pdf",
+   "titre": "Guide d’utilisation du kit d'exercice de crise d’origine cyber dédié au secteur",
+   "pages": 9,
+   "taille": 964602
+  }
+ ],
+ "03-810 ANSSI et DINUM - Le guide de l'homologation de sécurité des systèmes d'information (2025)": [
+  {
+   "fichier": "source/anssi-guide-homologation-2025.pdf",
+   "titre": "Collection gestion des risques cyber le guide de",
+   "pages": 47,
+   "taille": 1424744
+  }
+ ],
+ "03-820 SGDSN - Feuille de route stratégique de l'OSIIC 2024-2027": [
+  {
+   "fichier": "source/03-820-SGDSN---Feuille-de-route-strategique-de-l-OSIIC-2024-2027.pdf",
+   "titre": "SGDSN - Feuille de route stratégique de l'OSIIC 2024-2027",
+   "pages": 10,
+   "taille": 2304019
+  }
+ ],
+ "03-830 ANSSI - Recommandations pour les architectures des SI sensibles ou Diffusion Restreinte": [
+  {
+   "fichier": "source/anssi-pg-075-architectures-si-sensibles-dr-v1.2.pdf",
+   "titre": "Recommandations pour les architectures des systèmes d'information sensibles ou",
+   "pages": 112,
+   "taille": 3835320
+  }
+ ],
+ "03-840 SGDSN - IGI 1300 sur la protection du secret de la défense nationale (2021)": [
+  {
+   "fichier": "source/igi-1300-20210809.pdf",
+   "titre": "PREMIER MINISTRE Secrétariat général de la défense et de la sécurité nationale",
+   "pages": 225,
+   "taille": 1618781
+  }
+ ],
+ "03-850 Évolution des architectures réseau d'entreprise - de l'ARPANET au Zero Trust": [],
+ "03-860 SGDSN et ANSSI - Feuille de route de la sécurité numérique de l'État 2026-2027": [
+  {
+   "fichier": "source/Feuille-de-route-Securite-numerique-de-l-Etat-2026-2027.pdf",
+   "titre": "Feuille de route Sécurité numérique de l'Etat 2026-2027",
+   "pages": 9,
+   "taille": 450684
+  }
+ ],
+ "03-870 COMCYBER - Politique ministérielle de lutte informatique défensive (LID)": [
+  {
+   "fichier": "source/lid-politique-ministerielle.pdf",
+   "titre": "Politique ministérielle de lutte informatique défensive",
+   "pages": 12,
+   "taille": 417890
+  }
+ ],
+ "03-880 COMCYBER - Doctrine militaire de lutte informatique offensive (LIO)": [
+  {
+   "fichier": "source/lio-2019.pdf",
+   "titre": "Éléments publics de doctrine militaire de lutte informatique offensive",
+   "pages": 12,
+   "taille": 407924
+  }
+ ],
+ "03-890 COMCYBER - Doctrine militaire de lutte informatique d'influence (L2I)": [
+  {
+   "fichier": "source/l2i-2021.pdf",
+   "titre": "Éléments publics de doctrine militaire de lutte informatique d’influence (l2i)",
+   "pages": 14,
+   "taille": 2253845
+  }
+ ],
+ "03-900 DGSE - Missions, organisation et héritage du service de renseignement extérieur": [
+  {
+   "fichier": "source/web-du-bcra-a-la-dgse.pdf",
+   "titre": "Du BCRA à la DGSE | Ministère des Armées et des Anciens combattants",
+   "pages": 6,
+   "taille": 153023,
+   "url": "http://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/sorties-guerre/du-bcra-dgse"
+  },
+  {
+   "fichier": "source/web-nos-metiers.pdf",
+   "titre": "Nos domaines de spécialités | DGSE",
+   "pages": 8,
+   "taille": 135538,
+   "url": "https://www.dgse.gouv.fr/fr/le-recrutement/nos-metiers"
+  },
+  {
+   "fichier": "source/web-nos-missions.pdf",
+   "titre": "Nos missions | DGSE",
+   "pages": 10,
+   "taille": 151023,
+   "url": "https://www.dgse.gouv.fr/fr/nous-connaitre/nos-missions"
+  },
+  {
+   "fichier": "source/web-notre-heritage.pdf",
+   "titre": "Notre héritage | DGSE",
+   "pages": 19,
+   "taille": 175418,
+   "url": "https://www.dgse.gouv.fr/fr/nous-connaitre/notre-heritage"
+  },
+  {
+   "fichier": "source/web-nous-rejoindre.pdf",
+   "titre": "Nos modes de recrutement | DGSE",
+   "pages": 7,
+   "taille": 136755,
+   "url": "https://www.dgse.gouv.fr/fr/le-recrutement/nous-rejoindre"
+  },
+  {
+   "fichier": "source/web-qui-sommes-nous.pdf",
+   "titre": "Qui sommes-nous ? | DGSE",
+   "pages": 8,
+   "taille": 136470,
+   "url": "https://www.dgse.gouv.fr/fr/nous-connaitre/qui-sommes-nous"
+  }
+ ],
+ "03-910 CNRLT - Stratégie nationale du renseignement 2025": [
+  {
+   "fichier": "source/snr-2025.pdf",
+   "titre": "Stratégie nationale du renseignement 2025",
+   "pages": 42,
+   "taille": 6276331
+  },
+  {
+   "fichier": "source/cnrlt-presentation.pdf",
+   "titre": "CNRLT - Présentation de la coordination nationale du renseignement",
+   "pages": 11,
+   "taille": 2194636
+  }
+ ],
+ "03-920 ANSSI - Crise cyber, gestion opérationnelle et stratégique, exercices et communication de crise": [
+  {
+   "fichier": "source/anssi-guide-gestion_crise_cyber.pdf",
+   "titre": "Collection gestion de crise cyber crise d’origine cyber",
+   "pages": 80,
+   "taille": 770829
+  },
+  {
+   "fichier": "source/anssi-guide-organiser-un-exercice-de-gestion-de-crise-cyber-v1.0.pdf",
+   "titre": "Collection gestion de crise cyber organiser",
+   "pages": 128,
+   "taille": 1976438
+  }
+ ],
+ "03-930 ANSSI - Cyberattaques et remédiation, clés de décision, pilotage, Tier 0 Active Directory et préparation": [
+  {
+   "fichier": "source/20231218_Volet_strategique_cyberattaquesetremediation_v1g.pdf",
+   "titre": "Collection remédiation cyberattaques",
+   "pages": 12,
+   "taille": 713747
+  },
+  {
+   "fichier": "source/20231218_Volet_technique_cyberattaquesetremediation_a5_v1h.pdf",
+   "titre": "Collection remédiation cyberattaques",
+   "pages": 60,
+   "taille": 1199427
+  },
+  {
+   "fichier": "source/20231218_Volet_operationnel_cyberattaquesetremediation_a5_v1j.pdf",
+   "titre": "Collection remédiation cyberattaques",
+   "pages": 96,
+   "taille": 1222924
+  },
+  {
+   "fichier": "source/preparation_remediation_fr-web.pdf",
+   "titre": "Collection remédiation cyberattaques",
+   "pages": 52,
+   "taille": 995257
+  }
+ ],
+ "03-940 ANSSI - La supervision de sécurité, clés de décision et pilotage d'un projet": [
+  {
+   "fichier": "source/anssi_supervision_les_cles_de_decision_1.0_-1.pdf",
+   "titre": "Collection supervision de sécurité",
+   "pages": 14,
+   "taille": 915566
+  },
+  {
+   "fichier": "source/anssi_supervision_piloter_un_projet_de_supervision_1.0.pdf",
+   "titre": "Collection supervision de sécurité",
+   "pages": 33,
+   "taille": 1243954
+  }
+ ],
+ "03-950 ANSSI - L'investigation et la qualification d'incidents, les clés de décision": [
+  {
+   "fichier": "source/ANSSI_investigation_qualification_incidents_cles_de_decision.pdf",
+   "titre": "Collection investigation l’investigation",
+   "pages": 16,
+   "taille": 4552820
+  }
+ ],
+ "03-960 ANSSI - Sécurité des systèmes d'IA générative et confiance dans l'IA par les risques cyber": [
+  {
+   "fichier": "source/Recommandations_de_securite_pour_un_systeme_d_IA_generative.pdf",
+   "titre": "Recommandations de sécurité pour un système d'ia générative guide anssi",
+   "pages": 38,
+   "taille": 2013873
+  },
+  {
+   "fichier": "source/Document_Analyse_de_risques_FR.pdf",
+   "titre": "ANALYSE COMMUNE HAUT NIVEAU DES RISQUES CYBER LIÉS À L’IA Développer",
+   "pages": 16,
+   "taille": 462821
+  }
+ ],
+ "03-970 ANSSI - Migration vers la cryptographie post-quantique, avis 2022 et 2023 et transition de TLS, SSH et IPsec": [
+  {
+   "fichier": "source/anssi-avis-migration-vers-la-cryptographie-post-quantique.pdf",
+   "titre": "Avis scientifique et technique de l’ANSSI sur la migration vers",
+   "pages": 8,
+   "taille": 291409
+  },
+  {
+   "fichier": "source/Avis_de_lANSSI_sur_la_migration_vers_la_cryptographie.pdf",
+   "titre": "Avis de l'ANSSI sur la migration vers la cryptographie post-quantique (suivi 2023)",
+   "pages": 8,
+   "taille": 186014
+  }
+ ],
+ "03-980 ANSSI - Mécanismes cryptographiques, règles de dimensionnement, sélection des algorithmes et analyse de risque": [
+  {
+   "fichier": "source/anssi-guide-mecanismes-crypto-3.00.pdf",
+   "titre": "Règles et recommandations concernant le choix et le dimensionnement des",
+   "pages": 81,
+   "taille": 1365473
+  },
+  {
+   "fichier": "source/anssi-guide-selection_crypto-1.0.pdf",
+   "titre": "Guide de sélection d'algorithmes cryptographiques guide anssi",
+   "pages": 58,
+   "taille": 428530
+  },
+  {
+   "fichier": "source/analyse-de-risque-usages-de-la-cryptographie-FR.pdf",
+   "titre": "Analyse de risque de haut niveau sur le chiffrement et autres usages de la",
+   "pages": 18,
+   "taille": 423224
+  },
+  {
+   "fichier": "source/anssi-avis-migration-vers-la-cryptographie-post-quantique.pdf",
+   "titre": "Avis scientifique et technique de l’ANSSI sur la migration vers",
+   "pages": 8,
+   "taille": 291409
+  }
+ ],
+ "03-990 ANSSI - Cybersécurité des systèmes industriels, méthode de classification et mesures détaillées": [
+  {
+   "fichier": "source/anssi-guide-systemes_industriels-methode_de_classification_v2-0.pdf.pdf",
+   "titre": "La cybersécurité des systèmes industriels - méthode de classification",
+   "pages": 54,
+   "taille": 1314262
+  },
+  {
+   "fichier": "source/cybersecurite-analyse-des-risques-cyber-pour-le-secteur-de-la-chimiev2.pdf",
+   "titre": "Cybersécurité : analyse des risques cyber pour le secteur de la chimie",
+   "pages": 3,
+   "taille": 246383
+  }
+ ],
+ "03-1000 ANSSI - Internet des objets industriels et gestion technique du bâtiment": [
+  {
+   "fichier": "source/approche_ssi_pour_l_internet_des_objets_industriels_2025.pdf",
+   "titre": "Approche ssi pour l'internet des objets industriels anssi-pg-109",
+   "pages": 34,
+   "taille": 1384945
+  },
+  {
+   "fichier": "source/Guide__Systemes_industriels___GTB_GTC_2025.pdf",
+   "titre": "Recommandations de sécurité relatives à la gestion technique et",
+   "pages": 40,
+   "taille": 1937019
+  }
+ ],
+ "03-1010 ANSSI - Recommandations relatives à la sécurité des objets connectés": [
+  {
+   "fichier": "source/anssi-guide-securite_des_systemes_objets_connectes_iot-v1.0.pdf",
+   "titre": "Recommandations relatives à la sécurité des (systèmes d') objets",
+   "pages": 42,
+   "taille": 468612
+  }
+ ],
+ "03-1020 ANSSI - Recommandations relatives à l'authentification multifacteur et aux mots de passe": [
+  {
+   "fichier": "source/anssi-guide-authentification_multifacteur_et_mots_de_passe.pdf",
+   "titre": "Recommandations relatives à l'authentification multifacteur et",
+   "pages": 52,
+   "taille": 551076
+  }
+ ],
+ "03-1030 ANSSI - Recommandations sur le nomadisme numérique": [
+  {
+   "fichier": "source/guide_nomadisme_anssi_pa_054_v2.pdf",
+   "titre": "Recommandations sur le nomadisme numérique guide anssi",
+   "pages": 94,
+   "taille": 5650092
+  }
+ ],
+ "03-1040 ANSSI - Recommandations relatives aux architectures des services DNS": [
+  {
+   "fichier": "source/anssi-guide-archi_services_dns-v1-0.pdf",
+   "titre": "Recommandations relatives aux architectures des services dns guide anssi",
+   "pages": 36,
+   "taille": 2148808
+  }
+ ],
+ "03-1050 ANSSI - Recommandations de sécurité pour l'architecture d'un système de journalisation": [
+  {
+   "fichier": "source/anssi-guide-recommandations_securite_architecture_systeme_journalisation.pdf",
+   "titre": "Recommandations de sécurité pour l'architecture d'un système de journalisation",
+   "pages": 50,
+   "taille": 839732
+  }
+ ],
+ "03-1060 ANSSI - Recommandations pour les architectures des interconnexions multiniveaux": [
+  {
+   "fichier": "source/anssi-guide-archi_interco_mn-v1-0.pdf",
+   "titre": "Recommandations pour les architectures des interconnexions multiniveaux",
+   "pages": 76,
+   "taille": 1557382
+  }
+ ],
+ "03-1070 ANSSI - Recommandations pour le reconditionnement des ordinateurs de bureau ou portables": [
+  {
+   "fichier": "source/anssi-guide-reconditionnement_ordinateurs_bureau_portables_v1-0.pdf",
+   "titre": "Recommandations relatives au reconditionnement des ordinateurs de bureau ou",
+   "pages": 30,
+   "taille": 669313
+  }
+ ],
+ "03-1080 ANSSI - Mesures cyber préventives prioritaires et fiches ReCyF en pratique": [
+  {
+   "fichier": "source/20230503_anssi_mesures-cyber-preventives-prioritaires.pdf",
+   "titre": "Mesures cyber préventives prioritaires",
+   "pages": 7,
+   "taille": 665900
+  }
+ ],
+ "03-1090 ANSSI - Cybersécurité des start-up du numérique et protection contre les failles IDOR": [
+  {
+   "fichier": "source/anssi_essentiels_IDOR_1.0.pdf",
+   "titre": "Sujet technique du doc (sans article ni verbe)",
+   "pages": 2,
+   "taille": 140147
+  },
+  {
+   "fichier": "source/guide_cybersecurite_start-up_numerique_FR_v1.pdf",
+   "titre": "Guide de cybersécurité à l'usage",
+   "pages": 40,
+   "taille": 3794743
+  }
+ ],
+ "03-1100 ANSSI - Panoramas de la cybermenace 2021, 2022 et 2023": [
+  {
+   "fichier": "source/20220309_NP_WHITE_ANSSI_panorama-menace-ANSSI.pdf",
+   "titre": "PANORAMA DE LA MENACE INFORMATIQUE 2021 9 mars 2022",
+   "pages": 18,
+   "taille": 1321134
+  },
+  {
+   "fichier": "source/CERTFR-2023-CTI-001.pdf",
+   "titre": "Panorama de la cybermenace",
+   "pages": 40,
+   "taille": 12215816
+  },
+  {
+   "fichier": "source/CERTFR-2024-CTI-001.pdf",
+   "titre": "Panorama de la cybermenace",
+   "pages": 48,
+   "taille": 6288478
+  }
+ ],
+ "03-1110 ANSSI - Rapports d'activité 2021, 2022 et 2023": [
+  {
+   "fichier": "source/rapport_activite_ANSSI_2022.pdf",
+   "titre": "Pour assurer « une résilience cyber de premier plan », la Revue Nationale Stratégique a réaffirmé cet été",
+   "pages": 2,
+   "taille": 867776
+  },
+  {
+   "fichier": "source/rapport_activite_ANSSI_2023.pdf",
+   "titre": "rapport activite ANSSI 2023",
+   "pages": 8,
+   "taille": 707020
+  },
+  {
+   "fichier": "source/rapport_activite_ANSSI_2021.pdf",
+   "titre": "Face à cette menace grandissante, l’engagement des femmes et des hommes qui incarnent l’ANSSI n’a jamais",
+   "pages": 2,
+   "taille": 1080536
+  }
+ ],
+ "03-1120 CERT-FR - Synthèses de la menace ciblant les collectivités territoriales 2023 et 2025": [
+  {
+   "fichier": "source/CERTFR-2023-CTI-008.pdf",
+   "titre": "Synthèse de la menace ciblant les collectivités territoriales",
+   "pages": 7,
+   "taille": 2377321
+  },
+  {
+   "fichier": "source/CERTFR-2025-CTI-002.pdf",
+   "titre": "Collectivités territoriales synthèse de la menace",
+   "pages": 11,
+   "taille": 407994
+  }
+ ],
+ "03-1130 CERT-FR - État de la menace sur les secteurs de la santé et de l'eau": [
+  {
+   "fichier": "source/CERTFR-2026-CTI-007.pdf",
+   "titre": "Le CERT Santé et le CERT-FR assurent le traitement des vulnérabilités qui leur sont signalées par des",
+   "pages": 6,
+   "taille": 573287
+  },
+  {
+   "fichier": "source/CERTFR-2024-CTI-010.pdf",
+   "titre": "Secteur de la santé état de la menace informatique",
+   "pages": 45,
+   "taille": 733570
+  },
+  {
+   "fichier": "source/CERTFR-2024-CTI-011.pdf",
+   "titre": "Secteur de l’eau état de la menace informatique",
+   "pages": 21,
+   "taille": 704167
+  }
+ ],
+ "03-1140 CERT-FR - État de la menace sur les télécommunications et le cloud computing": [
+  {
+   "fichier": "source/CERTFR-2023-CTI-010.pdf",
+   "titre": "État de la menace ciblant le secteur des télécommunications",
+   "pages": 31,
+   "taille": 2498577
+  },
+  {
+   "fichier": "source/CERTFR-2025-CTI-001.pdf",
+   "titre": "Cloud computing état de la menace informatique",
+   "pages": 46,
+   "taille": 645188
+  }
+ ],
+ "03-1150 CERT-FR - Menace sur les transports urbains et les grands évènements sportifs": [
+  {
+   "fichier": "source/CERTFR-2025-CTI-005.pdf",
+   "titre": "Transports urbains état de la menace informatique",
+   "pages": 43,
+   "taille": 630105
+  },
+  {
+   "fichier": "source/20230515_NP_TLPCLEAR_PAPCLEAR_AMC_GrandsEvenementsSportifs.pdf",
+   "titre": "Grands évènements sportifs en france évaluation de la menace 2023",
+   "pages": 27,
+   "taille": 2797181
+  },
+  {
+   "fichier": "source/CERTFR-2024-CTI-003.pdf",
+   "titre": "Grands évènements sportifs en france évaluation de la menace 2024",
+   "pages": 28,
+   "taille": 2798930
+  }
+ ],
+ "03-1160 CERT-FR - Menace sur la recherche, les think tanks et les cabinets d'avocats": [
+  {
+   "fichier": "source/CERTFR-2024-CTI-008.pdf",
+   "titre": "Organismes de recherche et think tanks état de la menace informatique",
+   "pages": 27,
+   "taille": 724841
+  },
+  {
+   "fichier": "source/CERTFR-2023-CTI-004.pdf",
+   "titre": "État de la menace informatique contre les cabinets d'avocats",
+   "pages": 22,
+   "taille": 2429517
+  }
+ ],
+ "03-1170 CERT-FR - Le mode opératoire d'attaque APT28 et ses campagnes depuis 2021": [
+  {
+   "fichier": "source/CERTFR-2023-CTI-009.pdf",
+   "titre": "Campagnes d'attaques du mode opératoire apt28 depuis 2021",
+   "pages": 23,
+   "taille": 2487153
+  },
+  {
+   "fichier": "source/CERTFR-2025-CTI-006.pdf",
+   "titre": "Ciblage et compromission d’entités françaises au moyen du mode opératoire d’attaque apt28",
+   "pages": 7,
+   "taille": 375955
+  }
+ ],
+ "03-1180 CERT-FR - Les modes opératoires APT31, Nobelium et Houken": [
+  {
+   "fichier": "source/CERTFR-2021-CTI-013.pdf",
+   "titre": "Apt31 intrusion set campaign description and countermeasures",
+   "pages": 16,
+   "taille": 1155418
+  },
+  {
+   "fichier": "source/CERTFR-2021-CTI-011.pdf",
+   "titre": "PHISHING CAMPAIGNS BY THE NOBELIUM INTRUSION SET 06 December 2021",
+   "pages": 11,
+   "taille": 908381
+  },
+  {
+   "fichier": "source/CERTFR-2024-CTI-006.pdf",
+   "titre": "Malicious activities linked to the nobelium intrusion set 2024-06-19",
+   "pages": 3,
+   "taille": 930774
+  },
+  {
+   "fichier": "source/CERTFR-2025-CTI-009.pdf",
+   "titre": "Houken seeking a path by living on the edge with zero-days",
+   "pages": 22,
+   "taille": 423607
+  }
+ ],
+ "03-1190 CERT-FR - Groupes cybercriminels Lockean et FIN12 et écosystème des rançongiciels": [
+  {
+   "fichier": "source/CERTFR-2021-CTI-009.pdf",
+   "titre": "Identification of a new cyber criminal group: lockean",
+   "pages": 26,
+   "taille": 5458176
+  },
+  {
+   "fichier": "source/CERTFR-2023-CTI-007.pdf",
+   "titre": "FIN12 UN GROUPE CYBERCRIMINEL AUX MULTIPLES RANÇONGICIELS 18 septembre 2023",
+   "pages": 15,
+   "taille": 2457887
+  }
+ ],
+ "03-1200 CERT-FR - Téléphones mobiles, état de la menace et recommandations": [
+  {
+   "fichier": "source/CERTFR-2025-CTI-012.pdf",
+   "titre": "Téléphones mobiles état de la menace depuis 2015",
+   "pages": 43,
+   "taille": 1245872
+  }
+ ],
+ "03-1210 CERT-FR - Retours d'expérience, vols de cookies, logiciels non maîtrisés et exfiltration de données": [
+  {
+   "fichier": "source/CERTFR-2024-CTI-009.pdf",
+   "titre": "Exfiltration de données du secteur social : retour d’expérience du cert-fr",
+   "pages": 10,
+   "taille": 284272
+  },
+  {
+   "fichier": "source/CERTFR-2022-CTI-005.pdf",
+   "titre": "Menaces liées aux vols de cookies et contre-mesures",
+   "pages": 9,
+   "taille": 1081413
+  },
+  {
+   "fichier": "source/CERTFR-2022-CTI-006.pdf",
+   "titre": "Illustration des problématiques liées à l'intégration de logiciels",
+   "pages": 9,
+   "taille": 2339799
+  }
+ ],
+ "03-1220 SGDSN - Revue nationale stratégique 2025": [
+  {
+   "fichier": "source/20250713_NP_SGDSN_Actualisation_2025_RNS_FR.pdf",
+   "titre": "Actualisation 2025 - RNS",
+   "pages": 104,
+   "taille": 953394
+  }
+ ],
+ "03-1230 Viginum - Les campagnes RRN, Portal Kombat et Matriochka": [
+  {
+   "fichier": "source/20250224_TLP-CLEAR_NP_SGDSN_VIGINUM_Guerre_en_Ukraine_Trois_annees_doperations_i.pdf",
+   "titre": "Guerre en Ukraine Trois années d’opérations informationnelles russes",
+   "pages": 12,
+   "taille": 1305111
+  },
+  {
+   "fichier": "source/20240610_NP_SGDSN_VIGINUM_Matriochka_VD.pdf",
+   "titre": "MATRIOCHKA Une campagne prorusse ciblant les médias et la communauté des",
+   "pages": 16,
+   "taille": 1814896
+  },
+  {
+   "fichier": "source/20240214_NP_SGDSN_VIGINUM_RAPPORT-RESEAU-PORTAL-KOMBAT_PARTIE2_VF.pdf",
+   "titre": "PORTAL KOMBAT Un réseau structuré et coordonné de propagande",
+   "pages": 12,
+   "taille": 1459905
+  },
+  {
+   "fichier": "source/20240428_NP_SGDSN_VIGINUM_RAPPORT-RESEAU-PORTAL-KOMBAT_NVX_NDD_-PARTIE3-_VF.pdf",
+   "titre": "PORTAL KOMBAT Extension du réseau de propagande prorusse : de",
+   "pages": 9,
+   "taille": 671089
+  }
+ ],
+ "03-1240 Viginum - Storm-1516 et menace informationnelle liée à l'intelligence artificielle": [
+  {
+   "fichier": "source/20260206_NP_TLP-CLEAR_SGDSN_VIGINUM_Fiche-Technique-Storm-1516_0.pdf",
+   "titre": "Secrétariat général de la défense et de la sécurité nationale FICHE TECHNIQUE",
+   "pages": 2,
+   "taille": 245321
+  },
+  {
+   "fichier": "source/20250207_NP_SGDSN_VIGINUM_Rapport_menace_informationnelle_IA_VF.pdf",
+   "titre": "20250207 NP SGDSN VIGINUM Rapport menace informationnelle IA VF",
+   "pages": 28,
+   "taille": 1242112
+  },
+  {
+   "fichier": "source/20250507_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport_technique_Storm-1516.pdf",
+   "titre": "20250507 TLP-CLEAR NP SGDSN VIGINUM Rapport technique Storm-1516",
+   "pages": 41,
+   "taille": 2170374
+  }
+ ],
+ "03-1250 SGDSN et Viginum - Ingérences numériques étrangères et élections de 2026": [
+  {
+   "fichier": "source/20260917_NP_SGDSN_Note_publique_RETEX_VF2.pdf",
+   "titre": "20260917 NP SGDSN Note publique RETEX VF2",
+   "pages": 7,
+   "taille": 667913
+  }
+ ],
+ "03-1260 COMCYBER-MI - Rapports annuels sur la cybercriminalité 2024 et 2026": [
+  {
+   "fichier": "source/vp_302981.pdf",
+   "titre": "Le Rapport annuel sur la cybercriminalité 2026",
+   "pages": 76,
+   "taille": 7926041
+  },
+  {
+   "fichier": "source/vp_295072.pdf",
+   "titre": "Rapport annuel sur la cybercriminalité",
+   "pages": 53,
+   "taille": 4253396
+  }
+ ],
+ "03-1270 Cybermalveillance.gouv.fr - Rapports d'activité 2021 à 2025 et état de la menace": [
+  {
+   "fichier": "source/240226_RA_2023_SCREEN.pdf",
+   "titre": "RAPPORT D’ACTiViTÉ Au cœur",
+   "pages": 44,
+   "taille": 6466552
+  },
+  {
+   "fichier": "source/250403_RA_2024_SCREEN.pdf",
+   "titre": "RAPPORT D’ACTiViTÉ Au cœur",
+   "pages": 52,
+   "taille": 7944985
+  },
+  {
+   "fichier": "source/RA_2025_Cybermalveillance_gouv_fr.pdf",
+   "titre": "RAPPORT D’ACTIVITÉ Au cœur de l'action cyber",
+   "pages": 64,
+   "taille": 3089346
+  },
+  {
+   "fichier": "source/Rapport-activite-2022.pdf",
+   "titre": "RAPPORT D’ACTiViTÉ Dispositif national d’assistance aux victimes d’actes",
+   "pages": 32,
+   "taille": 2260183
+  },
+  {
+   "fichier": "source/cybermalveillance-rapport-activite-2021.pdf",
+   "titre": "RAPPORT D’ACTiViTÉ Dispositif national d’assistance",
+   "pages": 56,
+   "taille": 4354811
+  }
+ ],
+ "03-1280 CNIL - Recommandation relative à l'authentification multifacteur": [
+  {
+   "fichier": "source/mfa.pdf",
+   "titre": "Recommandation relative à l'authentificaiton multifacteur",
+   "pages": 17,
+   "taille": 427894
+  }
+ ],
+ "03-1290 ENISA - Threat Landscape 2025, panorama européen de la menace": [
+  {
+   "fichier": "source/ETL2025_v1.3.pdf",
+   "titre": "Enisa threat landscape 2025 october 2025",
+   "pages": 89,
+   "taille": 4593194
+  }
+ ],
+ "03-1300 Campus Cyber - Studio des communs, groupes de travail et prospective Horizon Cyber 2030": [
+  {
+   "fichier": "source/220322_CC_GT_Cycle-3.pdf",
+   "titre": "Organisation des Groupes de travail (GT) Cycle 3",
+   "pages": 13,
+   "taille": 854372
+  },
+  {
+   "fichier": "source/LIVRET-INTERACTIF-1.pdf",
+   "titre": "Horizon cyber 2030 perspectives",
+   "pages": 92,
+   "taille": 4782240
+  }
+ ],
+ "03-1310 Viginum - Menace informationnelle des JOP 2024 et trois ans d'opérations russes en Ukraine": [
+  {
+   "fichier": "source/20240913_NP_SGDSN_VIGINUM_Rapport_menace_informationnelle_durant_les_JOP24_VFF_0.pdf",
+   "titre": "Synthèse de la menace informationnelle ayant visé les Jeux Olympiques et",
+   "pages": 11,
+   "taille": 1091911
+  },
+  {
+   "fichier": "source/20250224_TLP-CLEAR_NP_SGDSN_VIGINUM_Guerre_en_Ukraine_Trois_annees_doperations_i.pdf",
+   "titre": "Guerre en Ukraine Trois années d’opérations informationnelles russes",
+   "pages": 12,
+   "taille": 1305111
+  }
+ ],
+ "03-1320 CND - Commissariat au numérique de défense, organisation, missions et vision stratégique": [
+  {
+   "fichier": "source/vision-strategique-cnd-2026.pdf",
+   "titre": "Pourquoi la création du cnd ?",
+   "pages": 2,
+   "taille": 638402
+  },
+  {
+   "fichier": "source/cloud.pdf",
+   "titre": "Le Cloud | Ministère des Armées et des Anciens combattants",
+   "pages": 5,
+   "taille": 143227,
+   "url": "http://www.defense.gouv.fr/cnd/nos-missions/enjeux-du-commissariat-au-numerique-defense/cloud"
+  },
+  {
+   "fichier": "source/contribuer-au-systeme-combat-souverain-demain.pdf",
+   "titre": "Contribuer au système de combat souverain de demain | Ministère des Armées et des Anciens combattants",
+   "pages": 6,
+   "taille": 149670,
+   "url": "http://www.defense.gouv.fr/cnd/nos-missions/contribuer-au-systeme-combat-souverain-demain"
+  },
+  {
+   "fichier": "source/direction.pdf",
+   "titre": "La direction | Ministère des Armées et des Anciens combattants",
+   "pages": 3,
+   "taille": 97884,
+   "url": "http://www.defense.gouv.fr/cnd/mieux-nous-connaitre/direction"
+  },
+  {
+   "fichier": "source/donnees-ia.pdf",
+   "titre": "Données et IA | Ministère des Armées et des Anciens combattants",
+   "pages": 5,
+   "taille": 136518,
+   "url": "http://www.defense.gouv.fr/cnd/nos-missions/enjeux-du-commissariat-au-numerique-defense/donnees-ia"
+  },
+  {
+   "fichier": "source/enjeux-du-commissariat-au-numerique-defense.pdf",
+   "titre": "Les enjeux du Commissariat au Numérique de Défense | Ministère des Armées et des Anciens combattants",
+   "pages": 3,
+   "taille": 102167,
+   "url": "http://www.defense.gouv.fr/cnd/nos-missions/enjeux-du-commissariat-au-numerique-defense"
+  },
+  {
+   "fichier": "source/enjeux-transformation-numerique.pdf",
+   "titre": "Les enjeux de la transformation numérique | Ministère des Armées et des Anciens combattants",
+   "pages": 6,
+   "taille": 163177,
+   "url": "http://www.defense.gouv.fr/cnd/numerique-defense/enjeux-transformation-numerique"
+  },
+  {
+   "fichier": "source/garantir-soutien-numerique-proximite.pdf",
+   "titre": "Garantir un soutien numérique de proximité | Ministère des Armées et des Anciens combattants",
+   "pages": 5,
+   "taille": 145799,
+   "url": "http://www.defense.gouv.fr/cnd/nos-missions/garantir-soutien-numerique-proximite"
+  },
+  {
+   "fichier": "source/lecosysteme-du-numerique-du-ministere-armees.pdf",
+   "titre": "L’écosystème du numérique du ministère des Armées | Ministère des Armées et des Anciens combattants",
+   "pages": 5,
+   "taille": 143888,
+   "url": "http://www.defense.gouv.fr/cnd/numerique-defense/lecosysteme-du-numerique-du-ministere-armees"
+  },
+  {
+   "fichier": "source/presentation-du-commissariat-au-numerique-defense.pdf",
+   "titre": "Présentation du Commissariat au Numérique de Défense | Ministère des Armées et des Anciens combattants",
+   "pages": 8,
+   "taille": 174416,
+   "url": "http://www.defense.gouv.fr/cnd/mieux-nous-connaitre/presentation-du-commissariat-au-numerique-defense"
+  },
+  {
+   "fichier": "source/ressources-documentaires.pdf",
+   "titre": "Ressources documentaires | Ministère des Armées et des Anciens combattants",
+   "pages": 4,
+   "taille": 120560,
+   "url": "http://www.defense.gouv.fr/cnd/ressources-documentaires"
+  },
+  {
+   "fichier": "source/soutenir-operations-via-numerique-performant.pdf",
+   "titre": "Soutenir les opérations via un numérique performant | Ministère des Armées et des Anciens combattants",
+   "pages": 5,
+   "taille": 140970,
+   "url": "http://www.defense.gouv.fr/cnd/nos-missions/soutenir-operations-via-numerique-performant"
+  },
+  {
+   "fichier": "source/transformation-du-numerique-au-minarm.pdf",
+   "titre": "La transformation du numérique au MINARM | Ministère des Armées et des Anciens combattants",
+   "pages": 5,
+   "taille": 138472,
+   "url": "http://www.defense.gouv.fr/cnd/numerique-defense/transformation-du-numerique-au-minarm"
+  },
+  {
+   "fichier": "source/transformation-numerique-metiers.pdf",
+   "titre": "La transformation numérique des métiers | Ministère des Armées et des Anciens combattants",
+   "pages": 5,
+   "taille": 133117,
+   "url": "http://www.defense.gouv.fr/cnd/nos-missions/enjeux-du-commissariat-au-numerique-defense/transformation-numerique-metiers"
+  },
+  {
+   "fichier": "source/vision-strategique-du-commissariat-au-numerique-defense.pdf",
+   "titre": "Vision Stratégique du Commissariat au Numérique de Défense | Ministère des Armées et des Anciens combattants",
+   "pages": 4,
+   "taille": 116736,
+   "url": "http://www.defense.gouv.fr/cnd/mieux-nous-connaitre/vision-strategique-du-commissariat-au-numerique-defense"
+  }
+ ],
+ "03-1330 CERT-FR - Violations de données applicatives, retour d'expérience": [
+  {
+   "fichier": "source/CERTFR-2026-CTI-008.pdf",
+   "titre": "Retex du cert-fr sur les violations de donnees applicatives",
+   "pages": 80,
+   "taille": 2362722
+  }
+ ]
+}
