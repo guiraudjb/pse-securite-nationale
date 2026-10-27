@@ -818,6 +818,20 @@
    "titre": "Viginum - Ingérences numériques étrangères, rapport 2024 et kits de sensibilisation",
    "pages": 32,
    "taille": 4518577
+  },
+  {
+   "fichier": "source/viginum-guide-municipales-2026.pdf",
+   "titre": "Viginum, Protéger le débat public numérique en contexte électoral, guide pour les équipes de campagne (décembre 2025)",
+   "pages": 12,
+   "taille": 223183,
+   "url": "https://www.sgdsn.gouv.fr/files/files/viginum/Publications/Guide_sensibilisation_elections_municipales_vdef.pdf"
+  },
+  {
+   "fichier": "source/viginum-cdse-guide-entreprises-2025.pdf",
+   "titre": "Viginum et CDSE, Guide de sensibilisation à la menace informationnelle pour les acteurs économiques (décembre 2025)",
+   "pages": 28,
+   "taille": 8268381,
+   "url": "https://www.sgdsn.gouv.fr/files/files/viginum/Publications/CDSE_VIGINUM_Guide_sensibilisation_entreprises_FR_12-25.pdf"
   }
  ],
  "03-670 SGDSN - Rapport d'activité 2025, Revue nationale stratégique et Mémento de la sécurité nationale": [
@@ -1631,6 +1645,20 @@
    "titre": "20260917 NP SGDSN Note publique RETEX VF2",
    "pages": 7,
    "taille": 667913
+  },
+  {
+   "fichier": "source/viginum-rokh-solis-2026.pdf",
+   "titre": "Viginum, Rokh Solis, rapport technique (11 juin 2026)",
+   "pages": 41,
+   "taille": 5199781,
+   "url": "https://www.sgdsn.gouv.fr/files/files/viginum/Publications/20260611_SGDSN_VIGINUM_Rapport-technique_Rokh-Solis.pdf"
+  },
+  {
+   "fichier": "source/viginum-roumanie-risques-france-2025.pdf",
+   "titre": "Viginum, Manipulation d'algorithmes et instrumentalisation d'influenceurs, Roumanie et risques pour la France (février 2025)",
+   "pages": 14,
+   "taille": 750033,
+   "url": "https://www.sgdsn.gouv.fr/files/files/viginum/Publications/20250204_NP_SGDSN_VIGINUM_Rapport_public_Elections_roumanie_risques_france_VFF_1.pdf"
   }
  ],
  "03-1260 COMCYBER-MI - Rapports annuels sur la cybercriminalité 2024 et 2026": [
@@ -1914,6 +1942,70 @@
    "pages": 5,
    "taille": 265647,
    "url": "https://fr.wikipedia.org/wiki/R%C3%A9seau_radio_du_futur"
+  }
+ ],
+ "03-1350 Viginum - Influence russe en Afrique, African Initiative et GlobUs": [
+  {
+   "fichier": "source/viginum-african-initiative-2025.pdf",
+   "titre": "Viginum, FCDO et SEAE, African Initiative, rapport technique (12 juin 2025)",
+   "pages": 51,
+   "taille": 3409395,
+   "url": "https://www.sgdsn.gouv.fr/files/files/viginum/Publications/20250612_TLP-CLEAR_VIGINUM_FCDO_EEAS_Rapport_Technique_African_Initiative_FR.pdf"
+  },
+  {
+   "fichier": "source/viginum-globus-2026.pdf",
+   "titre": "Viginum, GlobUs, rapport technique (27 octobre 2026)",
+   "pages": 33,
+   "taille": 3460379,
+   "url": "https://www.sgdsn.gouv.fr/files/files/viginum/Publications/20261027_TLP-CLEAR_NP_SGDSN_VIGINUM_Rapport-technique_Globus.pdf"
+  }
+ ],
+ "03-1360 DGSI - Flash ingérence 2026, déplacements, applications et audits étrangers, recherche et cadeaux": [
+  {
+   "fichier": "source/dgsi-flash-ingerence-118.pdf",
+   "titre": "DGSI, Flash ingérence n° 118, les séjours à l'étranger (février 2026)",
+   "pages": 8,
+   "taille": 375150,
+   "url": "https://www.dgsi.interieur.gouv.fr/sites/dgsi/files/medias/documents/2026-02/Flash_118.pdf"
+  },
+  {
+   "fichier": "source/dgsi-flash-ingerence-119.pdf",
+   "titre": "DGSI, Flash ingérence n° 119, applications et solutions étrangères (avril 2026)",
+   "pages": 7,
+   "taille": 916777
+  },
+  {
+   "fichier": "source/dgsi-flash-ingerence-120.pdf",
+   "titre": "DGSI, Flash ingérence n° 120, les audits étrangers (mai 2026)",
+   "pages": 6,
+   "taille": 431800
+  },
+  {
+   "fichier": "source/dgsi-flash-ingerence-121.pdf",
+   "titre": "DGSI, Flash ingérence n° 121, transferts de savoirs de la recherche (juin 2026)",
+   "pages": 6,
+   "taille": 1061133
+  },
+  {
+   "fichier": "source/dgsi-flash-ingerence-122.pdf",
+   "titre": "DGSI, Flash ingérence n° 122, modes opératoires de l'ingérence économique (août 2026)",
+   "pages": 9,
+   "taille": 753687
+  },
+  {
+   "fichier": "source/dgsi-flash-ingerence-123.pdf",
+   "titre": "DGSI, Flash ingérence n° 123, cadeaux offerts par des acteurs étrangers (septembre 2026)",
+   "pages": 7,
+   "taille": 763080
+  }
+ ],
+ "03-1380 ANSSI - Vote par internet pour les élections non politiques": [
+  {
+   "fichier": "source/anssi-guide-vote-internet-2026.pdf",
+   "titre": "ANSSI, Recommandations pour la mise en œuvre du vote par Internet pour les élections non politiques, ANSSI-PA-118 (24 avril 2026)",
+   "pages": 151,
+   "taille": 1587655,
+   "url": "https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-vote-internet-elections-non-politiques.pdf"
   }
  ]
 }

@@ -1,4 +1,4 @@
-CIBLAGE ET COMPROMISSION D'ENTITÉS FRANÇAISES AU MOYEN DU MODE OPÉRATOIRE D'ATTAQUE TURLA, ACTIVITÉS D'ESPIONNAGE DU 16E CENTRE DU FSB DEPUIS LES ANNÉES 2010 (CERT-FR, CERTFR-2026-CTI-004 DU 13 JUILLET 2026).
+CIBLAGE ET COMPROMISSION D'ENTITÉS FRANÇAISES AU MOYEN DU MODE OPÉRATOIRE D'ATTAQUE TURLA, ACTIVITÉS D'ESPIONNAGE DU 16E CENTRE DU FSB DEPUIS LES ANNÉES 2010 (CERT-FR, CERTFR-2026-CTI-004 DU 13 JUILLET 2026, ET NOTE D'ALERTE CERTFR-2026-ALE-003 SUR LES MESSAGERIES INSTANTANÉES).
 
 LEXIQUE COMPLET.
 
@@ -154,6 +154,28 @@ IV. LA VICTIMOLOGIE FRANÇAISE.
 
       En 2025, le C4 a été informé d'activités potentiellement liées à Turla contre une entité travaillant sur des technologies avancées.
 
+V. L'ALERTE DU C4 SUR LES MESSAGERIES INSTANTANÉES, CERTFR-2026-ALE-003.
+
+   A. La menace.
+
+      Publiée le 20 mars 2026 et mise à jour le 18 juin 2026, la note d'alerte CERTFR-2026-ALE-003 signale une recrudescence d'attaques contre les comptes de messagerie instantanée, issue des travaux des services membres du C4.
+
+      Elles visent surtout les personnalités politiques et les cadres de l'administration, mais aussi les journalistes et les industriels exerçant des fonctions sensibles.
+
+      Des campagnes contre Signal ont été observées, et les méthodes valent pour WhatsApp ; aucune vulnérabilité n'est exploitée et le téléphone lui-même n'est pas compromis.
+
+   B. Les deux techniques.
+
+      L'invitation à rejoindre un groupe en scannant un code QR associe en réalité le compte à un appareil de l'attaquant, qui lit les conversations alors que la victime garde l'accès.
+
+      La prise de contact par un faux support, nommé par exemple Signal Support ou Signal Security ChatBot, pousse la victime à donner son code PIN ou son code de vérification, ce qui permet de changer le numéro et de prendre le compte de façon irrémédiable.
+
+   C. Les réactions et préconisations.
+
+      En cas de compromission, prévenir ses contacts par un autre canal, supprimer les comptes en doublon dans les groupes et les appareils associés inconnus, et porter plainte auprès de la section J3 de lutte contre la cybercriminalité du parquet de Paris.
+
+      En prévention, définir un code PIN, ne jamais scanner un code QR reçu ni communiquer de code, rappeler que le support ne contacte jamais les utilisateurs, vérifier les appareils associés et les numéros de sécurité des contacts.
+
 POINTS D'ATTENTION.
 
       Le C4 réunit cinq membres, l'ANSSI, le COMCYBER, la DGA, la DGSE et la DGSI.
@@ -169,6 +191,8 @@ POINTS D'ATTENTION.
       Les victimes intermédiaires ne sont pas la cible finale, elles servent de relais pour attaquer d'autres victimes.
 
       La compromission de l'ambassade de France à Moscou date de 2018 et celle de la justice par SharePoint de 2019.
+
+      Le support technique d'une messagerie n'envoie jamais de message direct à ses utilisateurs ; un tel message est une tentative de prise de compte.
 
 EXEMPLES CITÉS.
 

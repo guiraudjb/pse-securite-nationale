@@ -1,0 +1,279 @@
+DGSI, FLASH INGÉRENCE ÉCONOMIQUE 2026, NUMÉROS 118 À 123, DÉPLACEMENTS, APPLICATIONS ET AUDITS ÉTRANGERS, RECHERCHE, MODES OPÉRATOIRES ET CADEAUX.
+
+LEXIQUE COMPLET.
+
+      La DGSI est la direction générale de la sécurité intérieure, service de renseignement du ministère de l'Intérieur chargé notamment du contre-espionnage et de la protection économique.
+
+      Le Flash ingérence est la publication de la DGSI qui présente, de manière anonymisée, des actions d'ingérence économique dont des sociétés et laboratoires français ont été victimes, pour diffuser une culture de sécurité.
+
+      L'ingérence économique désigne les actions d'un acteur étranger, étatique ou privé, visant à capter des informations, des savoir-faire ou des technologies, ou à déstabiliser une entité française.
+
+      La captation d'informations consiste à obtenir des données sensibles par des moyens humains, techniques ou juridiques, à l'insu ou contre la volonté de leur détenteur.
+
+      Le piégeage d'un outil numérique est l'installation à l'insu de l'utilisateur d'un programme ou d'un dispositif permettant d'en extraire les données.
+
+      Une législation extraterritoriale est une loi étrangère qui s'applique à des entreprises françaises en raison de leurs activités, de leurs données ou de leurs intérêts dans le pays concerné.
+
+      La loi de blocage est la loi du 26 juillet 1968, réformée en 2022, qui interdit de communiquer à des autorités étrangères des informations sensibles d'ordre économique, commercial, industriel, financier ou technique pouvant porter atteinte aux intérêts nationaux.
+
+      Le SISSE est le service de l'information stratégique et de la sécurité économiques, rattaché à la direction générale des entreprises du ministère de l'Économie, guichet obligatoire pour l'application de la loi de blocage.
+
+      Le DISSE est le délégué à l'information stratégique et à la sécurité économiques, correspondant régional du SISSE.
+
+      Le contrôle des investissements étrangers en France, ou IEF, prévu par le code monétaire et financier, soumet à autorisation préalable certains investissements étrangers dans des secteurs stratégiques ; il est mis en œuvre par la direction générale du Trésor.
+
+      La PPST est la protection du potentiel scientifique et technique de la Nation, dispositif réglementaire qui encadre l'accès aux savoirs sensibles.
+
+      Une ZRR est une zone à régime restrictif créée au sein d'un laboratoire sensible, dont l'accès est soumis à autorisation.
+
+      Le FSD est le fonctionnaire de sécurité et de défense d'un établissement, interlocuteur obligatoire avant toute mobilité ou coopération étrangère sensible.
+
+      Le SHFDS est le service du haut fonctionnaire de défense et de sécurité d'un ministère.
+
+      Le SILL, socle interministériel des logiciels libres, recense les logiciels libres préconisés par l'État sur le site code.gouv.fr.
+
+      L'hébergement sur site, ou on premise, consiste à héberger soi-même ses données plutôt que de les confier à un prestataire.
+
+      Une liste blanche est la liste des seuls logiciels dont l'installation est autorisée sur un appareil professionnel.
+
+COURS DÉTAILLÉ.
+
+I. LES FLASH INGÉRENCE DE 2026.
+
+   A. Présentation.
+
+      La DGSI publie selon l'actualité ses Flash ingérence, illustrés de cas réels rendus anonymes, avec des commentaires et des préconisations.
+
+      En 2026, six numéros ont été publiés : le 118 en février sur les séjours à l'étranger, le 119 en avril sur les applications étrangères, le 120 en mai sur les audits étrangers, le 121 en juin sur les transferts de savoir-faire de la recherche, le 122 en août sur les modes opératoires de l'ingérence et le 123 en septembre sur les cadeaux.
+
+      Tout incident ou toute approche suspecte peut être signalé à la DGSI par l'adresse électronique securite-economique@interieur.gouv.fr.
+
+      La DGSI propose aussi des conférences de sensibilisation aux entreprises et aux établissements de recherche.
+
+II. LES SÉJOURS À L'ÉTRANGER, FLASH 118 DE FÉVRIER 2026.
+
+   A. Les risques.
+
+      Les déplacements à l'étranger permettent à des acteurs privés ou étatiques d'approcher des cadres, experts ou chercheurs pour capter des informations.
+
+      Les risques sont le piégeage des outils numériques, le vol de matériels ou de documents et les approches humaines par des inconnus.
+
+      Les aéroports, gares, hôtels, bars et restaurants sont des lieux privilégiés pour ces approches.
+
+      Les séjours personnels et touristiques, pendant lesquels la vigilance baisse, sont aussi exposés.
+
+   B. Les cas présentés.
+
+      Un chercheur invité par un ancien doctorant étranger s'est vu imposer des réunions avec cinq experts non identifiés, a été questionné sur ses travaux, s'est vu proposer plusieurs milliers d'euros en espèces pour collaborer, puis son ordinateur a disparu de son bagage à main au retour.
+
+      Un autre chercheur a subi un contrôle douanier intrusif : son passeport a été confisqué, son téléphone déverrouillé laissé hors de la pièce a vu sa double authentification désactivée et des appareils inconnus connectés.
+
+      Le dirigeant d'une start-up invité à l'étranger a subi des fouilles de sa chambre et de ses valises, a été filmé en permanence et son téléphone a été manipulé lors d'une soirée ; sensibilisé par la DGSI, il n'avait emporté qu'un téléphone vierge et aucun document sensible.
+
+   C. Les préconisations.
+
+      Avant le départ, il faut utiliser du matériel dédié à la mission, limiter les données emportées, faire une sauvegarde, utiliser une authentification forte et des mots de passe différents, et vérifier que les moyens de chiffrement sont autorisés dans le pays de destination.
+
+      Il faut répondre sincèrement aux questionnaires de visa sans entrer dans les détails, maîtriser son exposition sur les réseaux sociaux et consulter le RSSI et les guides de l'ANSSI.
+
+      À l'aéroport, il faut garder un contact physique avec ses appareils, ne pas s'opposer à un contrôle mais l'accompagner et demander à assister à l'inspection des appareils.
+
+      Pendant le séjour, il ne faut pas recharger ses appareils sur des bornes USB publiques, éviter les réseaux Wi-Fi publics ou utiliser un VPN, être discret, utiliser des filtres de confidentialité et refuser les cadeaux de valeur disproportionnée.
+
+      Au retour, il faut renouveler les mots de passe, faire décontaminer les appareils par le service informatique avant de les reconnecter, et signaler toute approche suspecte à sa hiérarchie, à la direction sûreté ou au FSD.
+
+III. LES APPLICATIONS ET SOLUTIONS ÉTRANGÈRES, FLASH 119 D'AVRIL 2026.
+
+   A. Les risques.
+
+      Messageries, visioconférence, stockage en ligne, intelligence artificielle et progiciels de gestion sont souvent des solutions étrangères dont les entreprises peuvent difficilement se passer.
+
+      Elles exposent à des risques cyber, juridiques, de confidentialité, de dépendance et d'interruption de service.
+
+   B. Les cas présentés.
+
+      Le sous-traitant d'un grand groupe stratégique utilisait une solution étrangère qui sauvegardait les échanges et générait des résumés, exposant des procédés industriels au droit du pays du fournisseur.
+
+      Une entreprise exportatrice a dû installer un logiciel étranger pour ses démarches administratives ; une seconde application cachée installait des pilotes vulnérables et surveillait en permanence le réseau interne.
+
+      Des salariés en mission ont été contraints d'installer une application étrangère de paiement et de communication très intrusive, exigeant l'accès à toutes les données de leur téléphone.
+
+   C. Les préconisations.
+
+      Il faut évaluer la réputation du fournisseur et le rapport entre risques et bénéfices, en tenant compte des coûts totaux d'utilisation.
+
+      Il faut distinguer l'usage d'une application et l'hébergement de ses données, et héberger les données sensibles en France ou sur site.
+
+      Il faut classer les données par niveau de sensibilité, former les utilisateurs, appliquer une liste blanche de logiciels et limiter les autorisations d'accès des applications.
+
+      Il faut privilégier les solutions françaises, certifiées ou qualifiées par l'ANSSI ou labellisées France Cybersecurity, ou des logiciels libres du SILL.
+
+IV. LES AUDITS ÉTRANGERS, FLASH 120 DE MAI 2026.
+
+   A. Les risques.
+
+      Les entreprises et laboratoires présents à l'étranger sont soumis à des audits réglementaires imposés par des autorités étrangères, parfois intrusifs.
+
+      Ces audits peuvent entraîner des sanctions commerciales ou financières et permettre la captation de savoir-faire ; ils peuvent aussi être déclenchés par des concurrents dans le cadre de litiges.
+
+   B. Les cas présentés.
+
+      Un audit prolongé sur l'utilisation finale de matières premières importées a retardé les livraisons et presque provoqué une rupture d'approvisionnement d'une entreprise industrielle.
+
+      Un laboratoire inspecté en France par un pays importateur a refusé les modifications coûteuses exigées et a perdu ce marché.
+
+      Une entreprise en litige avec un concurrent local a dû livrer ses données financières et ses procédés de fabrication, puis a subi une surtaxe et perdu la majeure partie de ses clients.
+
+   C. Les préconisations.
+
+      Il faut assurer une veille juridique sur chaque pays d'implantation, réaliser un audit de conformité avec un prestataire de préférence français et identifier les données qu'un auditeur ne doit pas voir.
+
+      Pendant l'audit, il faut désigner les seuls interlocuteurs des auditeurs, répondre sans dépasser les questions posées, garder la trace de tout ce qui est transmis et utiliser une solution d'échange sécurisée et souveraine.
+
+      La saisine du SISSE est obligatoire pour toute demande d'information sensible relevant de la loi de blocage : son avis précise ce qui peut être transmis sans engager sa responsabilité pénale en France.
+
+V. LES TRANSFERTS DE SAVOIR-FAIRE DE LA RECHERCHE, FLASH 121 DE JUIN 2026.
+
+   A. Les risques.
+
+      L'excellence de la recherche française attire des sollicitations étrangères ; des universités et entreprises étrangères débauchent des chercheurs par des avantages financiers ou des promesses de reconnaissance.
+
+      Les savoirs captés peuvent servir à des programmes militaires, souvent à l'insu des chercheurs.
+
+   B. Les cas présentés.
+
+      Un chercheur d'un laboratoire sensible a créé deux centres de recherche concurrents à l'étranger, dont un dans une université liée à l'appareil militaire, et a ciblé ses anciens collègues.
+
+      Un chercheur titulaire de nombreux brevets a caché pendant des années sa nomination comme professeur dans une université étrangère et a cosigné des articles sur les sujets de son laboratoire.
+
+      Un chercheur étranger d'un institut français a créé, malgré le refus de son cumul d'activités, une société concurrente à l'étranger, l'a vendue à un acteur étranger, puis a tenté d'attirer ses anciens doctorants.
+
+   C. Les préconisations.
+
+      Il faut sensibiliser régulièrement les personnels, évaluer les risques avant tout partenariat et consulter obligatoirement le FSD avant toute mobilité ou cumul d'activités.
+
+      Il faut faire signer des clauses de confidentialité et de non-concurrence et inscrire les coopérations dans un cadre officiel protégeant la propriété intellectuelle.
+
+      Il faut envisager la création d'une zone à régime restrictif au titre de la PPST et signaler tout manquement au FSD, au SHFDS ou à la DGSI.
+
+VI. LES MODES OPÉRATOIRES DE L'INGÉRENCE ÉCONOMIQUE, FLASH 122 D'AOÛT 2026.
+
+   A. Les atteintes capitalistiques.
+
+      Ce sont les rachats ou prises de participation par des investisseurs étrangers, qui peuvent conduire à des délocalisations et à la récupération de savoir-faire.
+
+      Exemple : un groupe étranger a racheté un groupe comprenant une entreprise française innovante, l'a liquidée et a transféré ses brevets à une autre entité à l'étranger.
+
+      Il faut vérifier l'honorabilité des repreneurs, protéger juridiquement la propriété intellectuelle, contacter le DISSE et vérifier si l'opération relève du contrôle des investissements étrangers.
+
+   B. Les atteintes humaines.
+
+      Les débauchages et recrutements à risque sont l'une des menaces les plus importantes.
+
+      Exemple : un concurrent étranger a créé une filiale en France pour débaucher des cadres d'une entreprise stratégique, dans le cadre d'un rattrapage technologique de son État.
+
+      Il faut surveiller les concurrents, anticiper les tensions internes, protéger les contrats de travail, récupérer les supports et révoquer les accès au départ d'un salarié.
+
+   C. Les atteintes cybernétiques.
+
+      Ce sont les intrusions informatiques et les vols de supports ; l'intelligence artificielle crée de nouvelles failles.
+
+      Exemple : début 2026, une société d'intelligence artificielle sous contrat a publié plus de 1 500 images des locaux d'un groupe industriel, dont des plans de sites sensibles.
+
+      Exemple : au printemps 2026, des employés d'une entreprise pharmaceutique envoyaient chaque jour des documents très sensibles à une intelligence artificielle gratuite pour les convertir en PDF.
+
+      Il faut encadrer l'usage de l'intelligence artificielle dans une charte, privilégier une intelligence artificielle installée localement ou un partenaire national, ne pas y soumettre de données personnelles ou sensibles et vérifier ses résultats.
+
+   D. Les atteintes physiques.
+
+      Ce sont les vols et intrusions, notamment lors de visites de délégations étrangères mal encadrées.
+
+      Exemple : un individu en tenue de serveur a photographié des contrats laissés dans une salle après une réunion avec des représentants étrangers.
+
+      Il faut contrôler les accès, demander à l'avance l'identité des visiteurs, définir un parcours de visite et réaliser un audit de sûreté bâtimentaire.
+
+   E. Les atteintes juridiques.
+
+      Elles reposent sur l'extraterritorialité des lois étrangères et le détournement des audits.
+
+      Exemple : après un audit, des inspecteurs étrangers ont profité d'un moment de convivialité pour interroger les cadres sur les formules et les matières premières.
+
+   F. Les atteintes à la réputation.
+
+      Ce sont les rumeurs, la diffamation et les mises en cause environnementales ou sociales, pouvant aller jusqu'à la manipulation de l'information.
+
+      Exemple : deux concurrents étrangers ont transmis à des parlementaires et à une chaîne d'information de fausses accusations d'implication d'une entreprise française dans des opérations de guerre.
+
+      Il faut surveiller son image en ligne, anticiper une réponse médiatique et judiciaire, porter plainte en cas de diffamation et alerter la DGSI.
+
+VII. LES CADEAUX OFFERTS PAR DES ACTEURS ÉTRANGERS, FLASH 123 DE SEPTEMBRE 2026.
+
+   A. Les risques.
+
+      Les cadeaux doivent rester proportionnés et respecter les règles contre la corruption, la prise illégale d'intérêts et le blanchiment.
+
+      Ils peuvent cacher des dispositifs de captation, créer une dépendance commerciale, compromettre le bénéficiaire et devenir un motif de chantage même des années plus tard.
+
+   B. Les cas présentés.
+
+      Des objets offerts par une délégation étrangère après une visite présentaient des différences de poids ; l'un d'eux contenait une anomalie grave et tous ont été écartés.
+
+      Lors d'un salon en France, des cadres français ont été invités à un dîner puis en discothèque pour plusieurs dizaines de milliers d'euros, afin de recueillir des informations et de les photographier dans des situations gênantes.
+
+      Un fournisseur étranger a livré gratuitement plus du double du matériel commandé et a invité le responsable commercial à l'étranger ; alerté par la DGSI, le client a renvoyé le matériel.
+
+      Lors d'un salon, deux des cinq clés USB offertes par une société étrangère contenaient un logiciel malveillant caché sous un raccourci Windows.
+
+   C. Les préconisations.
+
+      Il faut évaluer l'acteur à l'origine du cadeau, étudier avec le responsable sûreté toute invitation et analyser les objets reçus avant de les conserver.
+
+      Il ne faut pas exposer de cadeaux dans les salles de réunion ou les bureaux sensibles, ne jamais utiliser un support numérique offert sans analyse et se débarrasser de tout cadeau suspect.
+
+      Il faut sensibiliser en priorité les dirigeants, les acheteurs et les personnes en contact avec l'étranger, et adopter une charte des cadeaux imposant la déclaration des offres étrangères.
+
+POINTS D'ATTENTION.
+
+      Les Flash couvrent toutes les entités : entreprises, laboratoires, universités et administrations.
+
+      Le numéro 122 est un flash spécial qui classe l'ingérence en six familles d'atteintes : capitalistiques, humaines, cybernétiques, physiques, juridiques et réputationnelles.
+
+      La saisine du SISSE au titre de la loi de blocage est une obligation et son avis protège juridiquement l'entreprise.
+
+      La consultation du FSD est obligatoire avant toute mobilité ou cumul d'activités d'un chercheur dans un domaine sensible.
+
+      Le facteur humain reste central : approches informelles, soirées, cadeaux et relations de confiance anciennes sont exploités.
+
+      Tout fait inhabituel, même anecdotique, doit être signalé, car il peut recouper d'autres signalements.
+
+      Les numéros 100 à 117 de 2024 et 2025 sont traités dans les modules 03-620 à 03-650.
+
+EXEMPLES CITES.
+
+      Le chercheur auquel on a proposé plusieurs milliers d'euros en espèces et dont l'ordinateur a disparu au retour.
+
+      Le téléphone dont la double authentification a été désactivée pendant un contrôle douanier.
+
+      Le logiciel d'export qui installait en secret une seconde application espionne.
+
+      L'entreprise ayant livré ses procédés à un audit puis subi une surtaxe au profit de son concurrent.
+
+      Les 1 500 images de locaux publiées par une société d'intelligence artificielle.
+
+      Le faux serveur photographiant des contrats.
+
+      Les deux clés USB piégées offertes sur un salon.
+
+SOURCES.
+
+      DGSI, Flash ingérence économique numéro 118, Les séjours à l'étranger, propices aux manœuvres de captation étrangères, février 2026.
+
+      DGSI, Flash ingérence économique numéro 119, Risques associés à l'utilisation d'applications et de solutions étrangères dans l'environnement professionnel, avril 2026.
+
+      DGSI, Flash ingérence économique numéro 120, Les audits étrangers, vecteurs de déstabilisation et d'ingérence pour les entités stratégiques françaises, mai 2026.
+
+      DGSI, Flash ingérence économique numéro 121, Transferts non maîtrisés vers l'étranger de savoirs et savoir-faire développés par la recherche française, juin 2026.
+
+      DGSI, Flash ingérence économique numéro 122, Les différents modes opératoires de l'ingérence économique étrangère, illustrations et préconisations, août 2026.
+
+      DGSI, Flash ingérence économique numéro 123, Risques associés aux cadeaux offerts par des acteurs étrangers, septembre 2026.

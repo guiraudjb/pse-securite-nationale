@@ -1,4 +1,4 @@
-VIGINUM, SERVICE DE VIGILANCE ET DE PROTECTION CONTRE LES INGÉRENCES NUMÉRIQUES ÉTRANGÈRES, RAPPORT D'ACTIVITÉ 2024 ET KITS DE SENSIBILISATION EN MISSION AVEC VIGINUM.
+VIGINUM, SERVICE DE VIGILANCE ET DE PROTECTION CONTRE LES INGÉRENCES NUMÉRIQUES ÉTRANGÈRES, RAPPORT D'ACTIVITÉ 2024 ET KITS DE SENSIBILISATION EN MISSION AVEC VIGINUM, GUIDES DE SENSIBILISATION DE DÉCEMBRE 2025 POUR LES ÉQUIPES DE CAMPAGNE DES MUNICIPALES ET POUR LES ACTEURS ÉCONOMIQUES, CE DERNIER AVEC LE CDSE.
 
 LEXIQUE COMPLET.
 
@@ -29,6 +29,12 @@ LEXIQUE COMPLET.
       Le spammouflage, technique d'acteurs pro-chinois, dissimule des messages politiques au milieu de contenus anodins.
 
       Le troll est une personne réelle qui provoque ou insulte pour déstabiliser le débat, alors que le bot est un compte automatisé.
+
+      Le CDSE, club ou cercle des directeurs de sécurité des entreprises, a coproduit avec Viginum le guide de sensibilisation des acteurs économiques.
+
+      Le deepfake est un trucage audio ou vidéo fondé sur l'intelligence artificielle qui change le visage d'une personne ou reproduit sa voix.
+
+      Le debunking consiste à dévoiler ou discréditer des revendications ou informations fausses ou exagérées ; le fact-checking vérifie la véracité d'une information.
 
 COURS DÉTAILLÉ.
 
@@ -124,6 +130,72 @@ V. LES CONSEILS AU PUBLIC.
 
       Réfléchir avant de repartager et signaler les contenus illicites aux plateformes ou sur Pharos.
 
+VI. LE GUIDE POUR LES ÉQUIPES DE CAMPAGNE DES MUNICIPALES DE 2026.
+
+   A. Les risques.
+
+      Publié en décembre 2025 avant les municipales des 15 et 22 mars 2026, le guide rappelle que la menace vient surtout de MOI prépositionnés et vise la légitimité du scrutin.
+
+      Il retient quatre stratégies : décrédibiliser la procédure électorale, polariser le débat sur des thèmes clivants, alimenter la défiance envers les médias et nuire à la réputation d'un candidat ou d'un parti.
+
+   B. Les techniques et leurs exemples.
+
+      L'usurpation d'identité et le typosquatting, comme le faux site de la coalition Ensemble créé par Storm-1516 aux législatives de 2024, promettant 100 euros contre un vote.
+
+      Les faux médias, comme les quatre faux sites de presse du MOI pro-iranien Storm-2035 lors de la présidentielle américaine de 2024.
+
+      L'instrumentalisation de la procédure, comme les faux bulletins et la fausse alerte terroriste relayés lors des élections espagnoles de 2023.
+
+      Les comptes inauthentiques, l'astroturfing et le copy pasta, les publicités politiques détournées, comme pour le MOI RRN, et le recours dissimulé à des influenceurs, comme en Roumanie en 2024.
+
+      Les mots-dièses, la décontextualisation de vidéos de violences urbaines présentées comme des suites des législatives de 2024, et les deepfakes, comme celui de Storm-1516 contre Tim Walz.
+
+   C. Les conseils aux équipes.
+
+      Se connaître : sensibiliser l'équipe, identifier les sujets manipulables et organiser une veille dédiée dès la campagne.
+
+      Se préparer : conduire des exercices de crise informationnelle et définir une stratégie de communication de crise.
+
+      Réagir : vérifier la source, ne pas relayer ni répondre à une fausse information, signaler aux plateformes puis à l'Arcom en l'absence de réponse, à PHAROS pour un contenu illicite, à la police ou à la gendarmerie pour une fraude électorale, et à Viginum pour un acteur étranger.
+
+VII. LE GUIDE VIGINUM ET CDSE POUR LES ACTEURS ÉCONOMIQUES.
+
+   A. Pourquoi les entreprises sont visées.
+
+      Coproduit en décembre 2025 avec le CDSE, le guide rappelle que les actifs économiques, scientifiques et industriels majeurs relèvent des intérêts fondamentaux de la Nation.
+
+      Une entreprise incarne la France par son origine, son secteur stratégique, ses liens avec les pouvoirs publics ou le profil de ses dirigeants.
+
+      Selon le chef de Viginum, pas une semaine ne passe sans tentative d'ingérence numérique étrangère ou de déstabilisation visant des entreprises françaises.
+
+      La menace se distingue d'une simple crise d'e-réputation par son caractère dissimulé, son mode opératoire coordonné et sa finalité de déstabilisation.
+
+      Elle devient plus sophistiquée grâce à l'IA, plus dissimulée par le recours à des intermédiaires du marketing digital, et combine opérations de long terme et actions opportunistes ; elle touche aussi la grande distribution, le textile, l'agroalimentaire et les télécommunications.
+
+   B. Les techniques observées.
+
+      Le raid numérique, comme les mots-dièses appelant au boycott d'un distributeur français resté en Russie.
+
+      L'incitation à des actions physiques, comme les rassemblements pro-russes devant les sites d'un groupe industriel, ensuite amplifiés par la propagande d'État russe.
+
+      Le recours à des médias et influenceurs, comme les fausses informations sur une entreprise française de l'énergie lors des tensions avec le Niger.
+
+      La décontextualisation de visuels, comme une fausse vidéo d'un média national sur la cession d'une filiale pharmaceutique, et le typosquatting, comme de faux communiqués sur un site miroir ayant fait chuter un titre en Bourse.
+
+   C. Les impacts.
+
+      Les impacts sont réputationnels, économiques, sécuritaires, par des troubles à l'ordre public, et de déstabilisation interne, par une perte de cohésion des salariés et partenaires.
+
+   D. Les préconisations.
+
+      Sensibiliser du comité exécutif aux opérationnels, mettre en place une veille, désigner un référent propriétaire du sujet, intégrer le risque informationnel aux exercices de crise et capitaliser sur les retours d'expérience.
+
+      À l'extérieur, identifier les relais utiles, tenir un fichier de contacts et une liste de diffusion, et contacter Viginum à l'adresse viginum_signalement@sgdsn.gouv.fr.
+
+      Face à un incident, prioriser les sujets, se méfier des métriques des plateformes, manipulables et non comparables, et se demander si le phénomène touche une vulnérabilité, appelle à l'action ou est repris par des relais influents.
+
+      Les moyens juridiques incluent la fausse alerte de l'article 322-14 du code pénal, les montages non signalés de l'article 226-8, y compris par IA, et la fausse nouvelle troublant la paix publique de l'article 27 de la loi de 1881, ainsi que les voies civiles ; la direction juridique doit être saisie.
+
 POINTS D'ATTENTION.
 
       Une INE exige la réunion des quatre critères, notamment l'implication d'un acteur étranger.
@@ -133,6 +205,10 @@ POINTS D'ATTENTION.
       Le meilleur antidote reste le questionnement et la vérification de l'information par chaque citoyen.
 
       Des personnalités politiques ont parfois repartagé des contenus de Storm-1516 de manière inconsciente ou opportuniste.
+
+      Une information manipulée ne crée pas forcément de crise : y répondre peut lui donner une visibilité qu'elle n'aurait pas eue.
+
+      Le délit de fausse nouvelle de la loi de 1881 est presque jamais utilisé et rarement avec succès, et le temps judiciaire ne répond pas à la phase aiguë d'une crise.
 
 EXEMPLES CITÉS.
 
@@ -145,3 +221,15 @@ EXEMPLES CITÉS.
       Matriochka a usurpé l'identité de BFM TV, du Monde, du Parisien et de Viginum lui-même.
 
       Le typosquatting diplomatie.gouv.fm au lieu de diplomatie.gouv.fr est une technique fréquente du MOI RRN.
+
+      Le faux site de la coalition Ensemble promettant 100 euros par vote aux législatives de 2024.
+
+      Le raid numérique appelant au boycott d'un distributeur français resté en Russie.
+
+SOURCES.
+
+      Viginum, rapport d'activité 2024 et kits de sensibilisation En mission avec Viginum.
+
+      Viginum, Protéger le débat public numérique en contexte électoral, guide de sensibilisation à l'attention des équipes de campagne, décembre 2025.
+
+      Viginum et CDSE, Guide de sensibilisation à la menace informationnelle à destination des acteurs économiques français, décembre 2025.

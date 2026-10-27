@@ -1,0 +1,323 @@
+VIGINUM, INFLUENCE RUSSE EN AFRIQUE, AFRICAN INITIATIVE ET GLOBUS, RAPPORTS TECHNIQUES DE JUIN 2025 ET D'OCTOBRE 2026.
+
+LEXIQUE COMPLET.
+
+      VIGINUM est le service de vigilance et de protection contre les ingérences numériques étrangères, créé le 13 juillet 2021 et rattaché au SGDSN.
+
+      Le SGDSN est le secrétariat général de la défense et de la sécurité nationale, placé auprès du Premier ministre.
+
+      Un mode opératoire informationnel, ou MOI, est l'ensemble des comportements, outils, tactiques, techniques, procédures et ressources mis en œuvre par un acteur malveillant dans une ou plusieurs opérations informationnelles numériques.
+
+      Les TTP sont les tactiques, techniques et procédures qui caractérisent la manière d'agir d'un acteur malveillant.
+
+      FIMI désigne la manipulation de l'information et l'ingérence étrangères, Foreign Information Manipulation and Interference.
+
+      La galaxie Prigojine désigne l'ensemble des structures d'influence, médiatiques et militaires créées par Evgueni Prigojine, chef de la société militaire privée Wagner, mort le 23 août 2023.
+
+      La SMP Wagner est la société militaire privée russe fondée par Evgueni Prigojine, active notamment en Centrafrique, au Mali et en Libye.
+
+      Le projet Lakhta, aussi appelé Internet Research Agency, est la structure semi-clandestine créée en 2013 par Evgueni Prigojine pour préparer et conduire des opérations d'influence vers l'étranger.
+
+      Afrique Politologie est la direction du projet Lakhta chargée des opérations d'influence en Afrique, avec un back-office à Saint-Pétersbourg et un front-office dans les pays où Wagner opérait.
+
+      La Compagnie est le nom interne d'un réseau d'experts russes qui mène des campagnes d'influence au profit de la Russie, révélé en février 2026 par une fuite de 1 431 pages de documents internes.
+
+      L'AFRIC, Association pour la recherche libre et la coopération internationale, était une façade du projet Lakhta qui organisait de fausses missions d'observation électorale en Afrique.
+
+      Le SVR est le service de renseignement extérieur russe, qui aurait pris le contrôle du projet Lakhta et de la Compagnie.
+
+      Le GRU est le service de renseignement militaire russe, qui supervise le Corps africain et, selon le département d'État américain, African Initiative.
+
+      Le Corps africain, Afrikansky Korpous ou Africa Corps, est l'unité intégrée aux forces armées russes qui remplace la SMP Wagner en Afrique.
+
+      African Initiative est une agence de presse russe créée en septembre 2023 à Moscou, qui se présente comme le pont d'information entre la Russie et l'Afrique.
+
+      GlobUs est une structure russe créée en 2022, qui se présente comme un club international d'experts ou une association humanitaire, et que Viginum qualifie de façade d'influence.
+
+      Un polit-technologue est, en Russie, un spécialiste de l'ingénierie politique, comparable à un spin doctor, qui conduit des campagnes d'influence parfois clandestines.
+
+      Un entrepreneur d'influence est un acteur qui fait de l'influence et de l'ingérence informationnelle une activité rémunératrice servant à la fois l'État russe et ses propres intérêts.
+
+      Une structure adhocratique est une structure agile et informelle qui opère à la marge de la bureaucratie russe classique et procure à l'État un déni plausible.
+
+      Le blanchiment de narratifs consiste à faire porter des récits pro-russes par des médias, journalistes ou influenceurs locaux pour masquer leur origine.
+
+      Rossotroudnitchestvo est l'agence fédérale russe chargée des compatriotes et de la coopération humanitaire internationale, qui gère le réseau des Maisons russes.
+
+      Une Maison russe est un centre culturel russe implanté à l'étranger, parfois géré selon un modèle de franchise, et parfois utilisé comme façade d'influence.
+
+      L'AES, Alliance des États du Sahel, regroupe le Mali, le Burkina Faso et le Niger.
+
+      AFree est une application de réseau social présentée comme africaine, lancée le 27 février 2024, qui est en réalité un projet d'African Initiative.
+
+      AI-Freak est le nom donné par Viginum au mode opératoire informationnel, détecté par Meta et OpenAI sous le nom de StopNews, probablement sous-traité par African Initiative à une société de marketing.
+
+      Le référencement abusif, ou Black Hat SEO, regroupe des procédés contraires aux règles des moteurs de recherche pour manipuler leurs résultats.
+
+      Un réseau de blogs privés, ou PBN, est un ensemble de sites créés uniquement pour placer des liens entrants vers un site que l'on veut faire remonter dans les moteurs de recherche.
+
+      Un rétrolien, ou backlink, est un lien placé sur un site externe et pointant vers le site que l'on veut promouvoir.
+
+      Un GAN, réseau antagoniste génératif, est un modèle d'intelligence artificielle capable de créer de fausses photos de visages.
+
+      D3lta est la méthode du datalab de Viginum qui mesure la similarité entre deux textes, même traduits ou reformulés.
+
+COURS DÉTAILLÉ.
+
+I. LE CONTEXTE DE L'INFLUENCE RUSSE EN AFRIQUE APRÈS PRIGOJINE.
+
+   A. Le pivot russe vers l'Afrique.
+
+      Depuis l'invasion de l'Ukraine le 24 février 2022, la Russie, isolée des pays occidentaux, recherche de nouveaux partenaires, notamment en Afrique.
+
+      Ce pivot est inscrit dans le Concept de politique étrangère de la Fédération de Russie de 2023 et s'accompagne d'une intensification des opérations de manipulation de l'information.
+
+      La stratégie russe reposait sur deux volets : un volet officiel et assumé porté par les médias d'État RT et Sputnik, et un volet officieux fait d'opérations clandestines conduites notamment par le projet Lakhta.
+
+   B. La restructuration après la mort de Prigojine.
+
+      La tentative de coup d'État d'Evgueni Prigojine en juin 2023, puis sa mort le 23 août 2023, ont entraîné le démantèlement de la galaxie Prigojine.
+
+      Ses entités ont été en partie captées par l'État russe, en priorité par ses services de renseignement.
+
+      Le GRU a pris en main le volet militaire avec la création du Corps africain et le volet informationnel avec African Initiative.
+
+      Le SVR aurait placé sous sa tutelle financière et logistique le projet Lakhta et Afrique Politologie, dont la Compagnie serait le reliquat.
+
+      Le marché de l'influence russe en Afrique est devenu très concurrentiel et en partie centralisé par l'État, ce qui pousse les anciens polit-technologues à s'adapter.
+
+   C. La fuite des documents de la Compagnie.
+
+      Le 14 février 2026, un consortium de médias et d'enquêteurs en sources ouvertes, dont Forbidden Stories, le Centre Dossier, Vajnye Istorii, INPACT et The Continent, a publié des enquêtes fondées sur 1 431 pages de documents internes de la Compagnie.
+
+      Ces documents montrent que des spécialistes russes ont placé des articles payés dans des médias africains, par exemple au moins 132 articles sur le site d'Afrique Média TV entre juin et octobre 2024 pour environ 28 000 euros.
+
+      Ils décrivent aussi une phase de préparation faite de sondages, de cartographie des acteurs, d'approche de responsables politiques et d'infiltration de relais d'opinion, avant le déclenchement d'opérations de déstabilisation.
+
+      Ils révèlent une campagne menée pour maintenir l'ANC au pouvoir avant les élections sud-africaines de mai 2024.
+
+II. AFRICAN INITIATIVE, L'AGENCE DE PRESSE.
+
+   A. Présentation et audience.
+
+      African Initiative a été créée en septembre 2023 et est basée à Moscou, dans la tour Federation de Moskva-City.
+
+      Son site afrinz.ru, enregistré le 13 septembre 2023, publie en russe, anglais, français et arabe, avec au moins 18 127 articles jusqu'au 30 avril 2025.
+
+      Son audience reste faible : environ 104 818 visites uniques entre décembre 2024 et février 2025, soit environ 35 000 visites par mois.
+
+      Elle dispose de cinq chaînes Telegram officielles en russe, anglais, français, portugais et arabe, qui cumulent 69 720 abonnés, ainsi que de comptes Facebook, VK, Rutube et TikTok.
+
+      Son lancement a été couvert par Zvezda, chaîne de télévision du ministère russe de la Défense, avant même la mise en ligne du site.
+
+   B. Une rédaction liée aux services de renseignement.
+
+      Le rédacteur en chef Artyom Koureïev, directeur de la structure Initsiativa-23 qui détient le site, a une longue expérience des opérations d'influence en Europe et dans les pays baltes ; l'Union européenne l'a sanctionné en décembre 2024.
+
+      Le département d'État américain a affirmé le 12 février 2024 que les services de renseignement russes fournissent un soutien matériel et des lignes directrices à African Initiative.
+
+      Viktor Loukovenko, blogueur condamné pour meurtre puis collaborateur du projet Lakhta, proche du GRU, a fondé la branche associative du Burkina Faso avant de quitter le projet en juillet 2024.
+
+      Les rédacteurs en chef adjoints Maksim Reva, propagandiste pro-russe en Estonie, et Anna Zamaraïeva, ancienne cadre du centre Wagner, illustrent le recyclage d'anciens de la galaxie Prigojine.
+
+   C. Les liens avec l'État russe.
+
+      African Initiative a été la première à annoncer, le 20 novembre 2023, la création du Corps africain, et elle en assure probablement le volet informationnel.
+
+      Le 24 janvier 2024, elle a publié avant le canal officiel les images de l'arrivée de 100 militaires russes à Ouagadougou.
+
+      Elle coopère avec de grandes universités : le RusAfro Club de l'université d'État de Moscou et le Club africain du MGIMO, vivier de futurs journalistes et de futures recrues.
+
+      Elle participe à des tables rondes de la Douma d'État, comme celle du 6 mars 2025 avec Maria Zakharova, où Artyom Koureïev a plaidé pour un centre unique de travail avec les blogueurs africains.
+
+   D. Les récits et les modes d'action.
+
+      Les récits dénoncent un modèle occidental néocolonialiste et impérialiste et présentent la Russie comme le partenaire de la souveraineté africaine.
+
+      La première conférence internationale d'African Initiative, le 14 octobre 2023, portait sur la lutte contre le néocolonialisme ; deux anciens cadres de l'AFRIC y participaient.
+
+      L'agence produit des contenus éducatifs et culturels : le podcast Pulse of Africa, des vidéos sur Rutube dont un quart de celles de la chaîne Afrique Libre visent la France, des documentaires et un mod du jeu vidéo Hearts of Iron IV intitulé L'aube africaine.
+
+      Elle relaie et amplifie les opérations d'autres acteurs russes, comme la chaîne Telegram African Kalashnikov ou la campagne contre la société militaire américaine Bancroft en Centrafrique.
+
+III. AFRICAN INITIATIVE, L'ASSOCIATION LOCALE.
+
+   A. Le modèle associatif au Burkina Faso.
+
+      Le 7 novembre 2023, une association russo-burkinabè portant le même nom et le même logo a été créée à Ouagadougou.
+
+      Elle organise des événements sportifs et culturels, des veillées citoyennes avec projection du film de propagande Touriste produit par la société Aurum de Prigojine, et a lancé le label musical Afrin Records.
+
+      Elle diffuse l'émission L'Heure russe sur Savane FM, l'une des radios privées les plus écoutées du pays, animée par le rappeur MC Ruskof.
+
+      Elle est le partenaire privilégié de la Maison russe de Ouagadougou, inaugurée le 13 janvier 2024, après la réouverture de l'ambassade de Russie le 28 décembre 2023.
+
+   B. La campagne sur la dengue.
+
+      En 2023, le Burkina Faso a connu une épidémie de dengue avec 570 décès au 19 novembre 2023.
+
+      Une délégation médicale russe conduite par un général de l'académie militaire de protection nucléaire, radiologique, biologique et chimique est venue du 10 au 14 novembre 2023.
+
+      En parallèle, African Initiative et des relais panafricanistes comme Egountchi Behanzin ont accusé les Occidentaux, le FMI, la Banque mondiale et le projet Target Malaria d'être à l'origine des épidémies.
+
+      Le 5 décembre 2023, l'agence a accusé les Américains de faire du Kenya un terrain d'essai d'armes biologiques et a diffusé un graffiti non authentifié de moustique robot au drapeau américain.
+
+      Cette campagne rappelle l'opération soviétique Infektion des années 1980, qui attribuait la création du virus du sida au département américain de la Défense.
+
+   C. L'exportation du modèle.
+
+      Au Mali, l'agence a invité en mai 2024 des blogueurs pro-russes à Moscou et à Marioupol, dont l'administrateur de la page Gandhi Malien qui compte 1,3 million d'abonnés.
+
+      En juillet 2024, elle a soutenu la création de l'association russo-malienne La Perspective Sahélienne et de son école russe de journalisme à Bamako, où Internet est présenté comme un champ de bataille.
+
+      Au Niger, un correspondant a filmé en mars 2024 des étudiants brûlant une image d'Emmanuel Macron en vampire, puis l'association Ensemble Main dans la Main Niger-Russie a été créée en mai 2024.
+
+      L'agence s'étend aussi au Sénégal, en Libye, au Togo et en Guinée équatoriale, où elle a organisé le 8 mai 2025 une exposition comparant le nazisme au néocolonialisme occidental.
+
+IV. LE MODE OPÉRATOIRE AI-FREAK.
+
+   A. Origine et sites.
+
+      Meta a révélé le 1er août 2024 une campagne venant de Russie fondée sur de faux sites d'actualité, puis OpenAI a suspendu le 1er octobre 2024 des comptes du réseau Stop News.
+
+      Viginum a baptisé ce mode opératoire AI-Freak, en référence à l'intelligence artificielle, au référencement abusif et aux initiales d'African Initiative.
+
+      Il s'appuie sur quatre pseudo-médias : newstop.africa pour l'Afrique francophone de l'Ouest, et euronewstop.co.uk, britishattitudes.com et britishtalks.com pour le Royaume-Uni.
+
+      Ces sites mêlent sport, culture et faits divers attrape-clics avec une rubrique latérale de récits pro-russes, anti-Ukraine et anti-occidentaux.
+
+   B. Les tactiques, techniques et procédures.
+
+      Des comptes X aux photos de profil générées par GAN, créés en janvier 2024, se présentent comme les auteurs des articles ; d'autres comptes ont été volés ou rachetés.
+
+      Un réseau de quatorze blogs privés publie des articles neutres contenant des rétroliens : 94 pour cent des 2 953 articles de l'écosystème Afrique renvoient vers newstop.africa.
+
+      Les opérateurs ont probablement piraté des sites WordPress légitimes, comme celui d'une église anglaise, pour y cacher des pages de faux partenariats.
+
+      Au moins 105 comptes automatisés ont déposé des liens dans les commentaires de blogs, avec des textes générés par intelligence artificielle.
+
+      Les images sont produites avec DALL-E et les textes avec de grands modèles de langage, ce que trahissent des formules parasites comme bien sûr, voici une reformulation.
+
+   C. Le lien avec African Initiative.
+
+      Les comptes WordPress des sites sont paramétrés en russe et leur code contient des caractères cyrilliques.
+
+      Sur 1 596 articles de newstop.africa publiés en un an, 20 pour cent sont identiques ou très proches d'articles d'afrinz.ru selon la méthode D3lta.
+
+      Le réseau fait la promotion de l'application AFree, présentée comme un réseau social africain, lancée lors d'événements au Maroc, au Cameroun, au Nigeria et au Kenya.
+
+      Une publicité pour AFree a été tournée par la société russe Fraimer prod pour African Initiative, dont les locaux affichent un tableau au logo d'AFree : il est presque certain qu'AFree est un projet d'African Initiative.
+
+V. GLOBUS, UNE FAÇADE D'INFLUENCE ET D'INGÉRENCE.
+
+   A. Présentation.
+
+      GlobUs a été créée en 2022, peu après l'invasion de l'Ukraine, et a fêté son quatrième anniversaire le 3 mars 2026.
+
+      Elle se présente comme un club international d'experts, puis en République du Congo comme une association internationale ou humanitaire.
+
+      Son site globus.expert, hébergé en Russie et enregistré le 19 avril 2022, ne génère presque aucun trafic ; ses trois chaînes Telegram cumulent plus de 75 000 abonnés.
+
+      Sa stratégie hybride associe le parrainage d'émissions dans des médias panafricains, des tables rondes avec des entités de l'État russe dont la Douma, et une implantation locale dans des pays africains.
+
+   B. Des dirigeants issus de la galaxie Prigojine.
+
+      La directrice Youlia Berg, anciennement Afanasyeva, était l'une des principales cadres de l'AFRIC ; elle est sanctionnée par le Trésor américain depuis 2021 pour avoir organisé une ingérence dans les élections sud-africaines de 2019.
+
+      Son nom apparaît dans la fuite de la Compagnie, sur un billet d'avion Johannesburg-Moscou du 14 mars 2024, peu avant les élections sud-africaines.
+
+      Le cofondateur Andreï Gromov, ancien membre du conseil d'experts de Russie unie et ancien observateur électoral de l'AFRIC en République démocratique du Congo en 2018, dirige aussi l'agence de relations gouvernementales GR-Group.
+
+      Il a créé en 2022 la fondation Renaissance, qui diffusait les récits russes sur le Donbass et organisait des voyages dans les territoires occupés d'Ukraine.
+
+      Le couple dirige aussi l'IBAC, Centre international de promotion des entreprises, et l'Association énergétique afro-russe, qui cherchent à implanter les entreprises énergétiques russes en Afrique.
+
+      Youlia Berg siège au Conseil d'experts Russie-Afrique placé auprès du vice-président de la Douma, et a coanimé en mars 2025 la table ronde Pont d'information Russie-Afrique avec Maria Zakharova et le rédacteur en chef d'African Initiative.
+
+   C. Les relais et les experts.
+
+      La journaliste camerounaise Clarisse Wiydorven, connaissance de Youlia Berg depuis l'AFRIC, anime les émissions Global Insights et assure les relations publiques de GlobUs.
+
+      Les experts de GlobUs sont d'anciens cadres de l'AFRIC et des relais connus de la propagande russe, souvent anciens faux observateurs électoraux dans les territoires occupés.
+
+      Ce réseau donne l'illusion d'un soutien international étendu aux récits russes.
+
+   D. Au Cameroun, le blanchiment de narratifs.
+
+      GlobUs s'est appuyé successivement sur trois médias panafricanistes camerounais pro-russes.
+
+      Afrique Média TV, partenaire de RT depuis décembre 2022, a diffusé de 2022 à 2023 des émissions avec des membres de GlobUs ; son fondateur a été sanctionné par l'Union européenne en mai 2025, et sa page Facebook compte encore 1,2 million d'abonnés.
+
+      For You Média Africa, chaîne de l'homme politique Serge Espoir Matomba, a repris en 2024 les émissions Global Insights, rediffuse des émissions de RT en français et a signé des accords avec Sputnik, la chaîne Union du Donbass et International Reporters.
+
+      Serge Espoir Matomba n'a obtenu que 0,35 pour cent des voix à l'élection présidentielle camerounaise d'octobre 2025, ce qui relativise l'efficacité réelle des polit-technologues.
+
+      Depuis février 2025, les émissions passent sur Panafrican Média TV, fondée par Mohamed Bachir Ladan, également responsable de l'Alliance internationale des BRICS pour l'Afrique de l'Ouest et du Centre ; GlobUs y parraine depuis septembre 2025 l'émission en français Regard sur le monde.
+
+      Ces émissions accusent faussement la France d'ingérence au Bénin et de déstabiliser le Sahel et le Niger.
+
+   E. En République du Congo, une stratégie dans les champs numérique et physique.
+
+      Entre août 2025 et l'élection présidentielle de mars 2026, GlobUs a déroulé un mode opératoire en quatre phases.
+
+      Première phase : une exposition photo inaugurée le 30 août 2025 à Brazzaville en présence de l'ambassadeur de Russie, reprenant les récits russes sur l'Ukraine.
+
+      Deuxième phase : des enquêtes socio-économiques réalisées à partir d'octobre 2025 par des jeunes formés comme sondeurs, pour identifier les leviers d'action et les publics cibles.
+
+      Troisième phase : une école des médias ouverte en septembre 2025 pour former des blogueurs et des relais d'opinion, avec des intervenantes comme Christelle Néant et Clarisse Wiydorven.
+
+      Quatrième phase : le mouvement Avenir du Congo, présenté comme endogène mais conçu par GlobUs et animé par les diplômés de l'école.
+
+      Le site avenir.cg, hébergé en Russie et créé avec des outils russes, est un jeu concours à points qui promeut le réseau AFree et exposait les données personnelles des participants.
+
+      Un écosystème de comptes TikTok et Instagram paramétrés en russe diffuse des dessins animés pro-russes générés par intelligence artificielle.
+
+      Le premier championnat national de combat corps à corps et l'école d'arts martiaux de Brazzaville montrent la proximité opérationnelle entre GlobUs, African Initiative et la Maison russe.
+
+   F. Les conclusions de Viginum.
+
+      Viginum estime probable que GlobUs soit une façade servant les intérêts de l'État russe et de ses cofondateurs, identifiée et exploitée par un service de renseignement russe.
+
+      GlobUs pourrait avoir remplacé l'AFRIC et participe à la stratégie russe de territorialisation de l'espace informationnel.
+
+      L'efficacité réelle de ces opérations doit être relativisée, car les polit-technologues exagèrent leurs succès et cherchent à imposer l'image d'une Russie omniprésente.
+
+      Le Cameroun, principal pays ciblé, compte de nombreux ressortissants recrutés sous de fausses promesses d'embauche et envoyés sur le front russe.
+
+POINTS D'ATTENTION.
+
+      African Initiative est une agence de presse créée en septembre 2023 et GlobUs une structure créée en 2022 : ce sont deux acteurs distincts qui se soutiennent mutuellement.
+
+      Le rapport sur African Initiative a été publié le 12 juin 2025 avec le FCDO britannique et le service européen pour l'action extérieure ; le rapport sur GlobUs a été publié le 27 octobre 2026.
+
+      Viginum exprime ses conclusions avec des niveaux de confiance : probable, très probable, presque certain ou confiance élevée.
+
+      La faible audience des canaux numériques ne doit pas masquer la stratégie de terrain, qui vise à rendre les récits locaux et organiques.
+
+      Il faut éviter de surestimer l'influence russe, car l'image d'une Russie toute-puissante fait partie des récits que ces acteurs cherchent à diffuser.
+
+      Le modèle associatif local, les écoles de journalisme, les tournois sportifs et les Maisons russes servent à africaniser les récits.
+
+      Le MOI AI-Freak illustre l'usage combiné de l'intelligence artificielle générative et du référencement abusif.
+
+EXEMPLES CITES.
+
+      L'annonce du Corps africain par African Initiative le 20 novembre 2023, un mois avant la chaîne officielle de l'unité.
+
+      La campagne accusant les Occidentaux de propager la dengue au Burkina Faso en 2023.
+
+      Les étudiants nigériens brûlant une image d'Emmanuel Macron en vampire le 17 mars 2024.
+
+      Le mod L'aube africaine du jeu Hearts of Iron IV, réalisé avec l'équipe du joueur GrishaPutin.
+
+      La publicité d'AFree tournée par Fraimer prod et le tableau au logo d'AFree dans les locaux d'African Initiative.
+
+      L'émission Global Insights du 11 décembre 2025 présentant la France comme faisant de l'ingérence au Bénin.
+
+      L'exposition de Brazzaville du 30 août 2025 et le mouvement Avenir du Congo.
+
+SOURCES.
+
+      SGDSN, Viginum, avec le FCDO et le SEAE, African Initiative, de la diplomatie publique aux opérations d'influence numériques, rapport technique, 12 juin 2025.
+
+      SGDSN, Viginum, GlobUs, structure d'influence et d'ingérence informationnelle russe en Afrique, rapport technique, 27 octobre 2026.

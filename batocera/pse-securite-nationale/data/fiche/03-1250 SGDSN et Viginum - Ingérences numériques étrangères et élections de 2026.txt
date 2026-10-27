@@ -1,4 +1,4 @@
-SGDSN ET VIGINUM, BULLETINS DU RÉSEAU DE COORDINATION ET DE PROTECTION DES ÉLECTIONS, NUMÉROS 1 À 10, DU 30 JANVIER AU 26 MARS 2026, ET SYNTHÈSE PUBLIQUE SUR LES ÉLECTIONS PROVINCIALES EN NOUVELLE-CALÉDONIE DE JUIN 2026, DU 17 SEPTEMBRE 2026.
+SGDSN ET VIGINUM, BULLETINS DU RÉSEAU DE COORDINATION ET DE PROTECTION DES ÉLECTIONS, NUMÉROS 1 À 10, DU 30 JANVIER AU 26 MARS 2026, ET SYNTHÈSE PUBLIQUE SUR LES ÉLECTIONS PROVINCIALES EN NOUVELLE-CALÉDONIE DE JUIN 2026, DU 17 SEPTEMBRE 2026, RAPPORT TECHNIQUE VIGINUM SUR LE MODE OPÉRATOIRE ROKH SOLIS DU 11 JUIN 2026 ET RAPPORT VIGINUM SUR L'ÉLECTION PRÉSIDENTIELLE ROUMAINE DE FÉVRIER 2025.
 
 LEXIQUE COMPLET.
 
@@ -15,6 +15,20 @@ LEXIQUE COMPLET.
       Le règlement européen sur la transparence et le ciblage de la publicité politique, TTPA, encadre la publicité politique en ligne et a conduit Meta et Google à l'interdire dans l'Union européenne.
 
       Le règlement européen sur les services numériques, RSN ou DSA, impose aux grandes plateformes d'atténuer les risques systémiques, notamment électoraux.
+
+      Un mode opératoire informationnel, MOI, est un ensemble cohérent d'actifs numériques et de procédés employés par un même opérateur pour mener des campagnes de manipulation de l'information.
+
+      Rokh Solis est le MOI détecté par Viginum en mars 2026, qui a visé La France Insoumise et trois de ses candidats aux municipales et cherché à polariser le débat en instrumentalisant la communauté musulmane.
+
+      Blackcore est une entité israélienne d'influence numérique sans statut légal connu, vers laquelle les investigations de Viginum sur Rokh Solis se sont orientées.
+
+      L'astroturfing consiste à faire croire qu'un sujet est un phénomène de masse alors qu'il émane de quelques comptes coordonnés qui publient en grand nombre.
+
+      Un algorithme de recommandation sélectionne les contenus proposés à chaque utilisateur d'une plateforme ; il peut être manipulé par des commentaires et des mots-clés massifs.
+
+      Un nano-influenceur compte moins de 10 000 abonnés, un micro-influenceur entre 10 000 et 100 000, un macro-influenceur plus de 100 000.
+
+      Une plateforme de marketing d'influence met en relation des annonceurs et des créateurs de contenus rémunérés, comme FameUp en Roumanie.
 
 COURS DÉTAILLÉ.
 
@@ -114,6 +128,62 @@ IV. LES ÉLECTIONS PROVINCIALES EN NOUVELLE-CALÉDONIE.
 
       Ces publicités peuvent aussi enfreindre le code électoral, et les plateformes doivent renforcer leurs mesures d'atténuation avant les prochaines échéances.
 
+V. LE MODE OPÉRATOIRE ROKH SOLIS, MUNICIPALES DE 2026.
+
+   A. Le dispositif.
+
+      Viginum a publié le 11 juin 2026 un rapport technique sur Rokh Solis, détecté en mars 2026 et qualifié d'ingérence numérique étrangère.
+
+      Quatre sites créés entre le 9 et le 19 février 2026, blogdesophie.com, delogupourpalestine.com, piquemalzero.com et lalternative2026.com, partagent la même adresse IP, des dates de dépôt et des métadonnées d'images communes.
+
+      Deux autres sites s'y rattachent : forsane-alizza.eu, qui reprend le nom d'un groupe islamiste radical dissous, et rcn-france.org, vitrine d'une prétendue association Renaissance catholique nationale.
+
+      Les sites sont relayés sur TikTok, Instagram, X et Facebook par des comptes inauthentiques, dont un réseau de 500 pages et comptes Facebook, et des collages de tracts à code QR ont été promus à Marseille.
+
+   B. Les narratifs.
+
+      Le premier volet dénigre La France Insoumise et ses candidats à Marseille, Toulouse et Roubaix par des accusations de crimes et l'usurpation de l'identité d'une association de protection de l'enfance.
+
+      Le second volet oppose un faux projet communautariste musulman, L'Alternative 2026, à un faux mouvement souverainiste et catholique, afin de polariser le débat sur la place des musulmans en France.
+
+      Les images ont été produites avec l'IA générative Gemini et l'outil Canva.
+
+   C. L'implication étrangère.
+
+      Viginum relève des caractères hébreux dans les métadonnées, un compte TikTok localisé en Israël qui diffusait auparavant les mots-dièses TheWestIsNext en anglais, et des relais communs avec des comptes amplifiant l'organisation pro-israélienne ELNET.
+
+      Les investigations orientent vers Blackcore, entité israélienne revendiquant 1 600 avatars, insérée dans un écosystème d'entreprises cyber israéliennes ; le commanditaire n'est pas identifié.
+
+      Malgré de nombreuses tentatives d'amplification artificielle, la visibilité de Rokh Solis est restée très faible.
+
+VI. LES ENSEIGNEMENTS DE LA PRÉSIDENTIELLE ROUMAINE DE 2024.
+
+   A. Les faits.
+
+      Le 24 novembre 2024, Călin Georgescu, crédité de moins de 1 % d'intentions de vote un mois plus tôt et sans budget déclaré, arrive en tête du premier tour avec près de 23 % des voix, après une campagne menée presque entièrement sur TikTok.
+
+      Le 6 décembre 2024, la Cour constitutionnelle roumaine annule l'ensemble du processus électoral, et la Commission européenne ouvre une procédure contre TikTok au titre du DSA.
+
+      Après la Géorgie et la Moldavie, la Roumanie est le troisième pays européen visé par des manipulations électorales d'ampleur fin 2024.
+
+   B. Les modes opératoires.
+
+      Près de 25 000 comptes TikTok, dont certains créés dès 2016, ont été activés deux semaines avant le scrutin, coordonnés par des canaux Telegram et Discord prépositionnés depuis 2022.
+
+      Ces comptes ont publié massivement des commentaires et des mots-dièses pour tromper l'algorithme de recommandation, en modifiant les vidéos pour échapper à la modération.
+
+      Plus d'une centaine d'influenceurs sans lien avec la politique, totalisant plus de 8 millions d'abonnés, ont été recrutés via la plateforme FameUp pour publier, contre rémunération non déclarée, des vidéos sur le candidat idéal.
+
+      Au moins 381 000 dollars de dons TikTok ont été versés à des influenceurs soutenant le candidat, et une société écran sud-africaine, FA Agency, liée selon Viginum à des entreprises de marketing de jeux d'argent, proposait 1 000 euros par vidéo.
+
+   C. Les risques pour la France.
+
+      Viginum, dans un rapport de février 2025, juge ces procédés facilement transposables en France, où TikTok compte plus de 21 millions d'utilisateurs mensuels et sert de plus en plus à s'informer.
+
+      Le service alerte les influenceurs sur le risque d'être instrumentalisés via des intermédiaires commerciaux, et signale des fermes de contenus francophones animées depuis l'étranger qui pourraient être réactivées par un État.
+
+      Le principal préjudice de la campagne roumaine a été la perte de confiance des électeurs dans la fiabilité du processus électoral.
+
 POINTS D'ATTENTION.
 
       Les quatre critères de l'ingérence et les quatre stratégies électorales sont à distinguer.
@@ -126,6 +196,10 @@ POINTS D'ATTENTION.
 
       Une publicité sponsorisée par un média d'influence étranger n'est pas forcément une ingérence, faute de contenu trompeur et de diffusion artificielle.
 
+      Rokh Solis montre qu'une ingérence peut être caractérisée même avec une très faible visibilité.
+
+      En Roumanie, l'annulation du scrutin repose sur des irrégularités de financement et de transparence, et le commanditaire de la campagne reste inconnu.
+
 EXEMPLES CITES.
 
       Les faux sites de presse locale de Storm-1516.
@@ -137,3 +211,17 @@ EXEMPLES CITES.
       Les vingt-cinq tentatives d'ingérence de 2024.
 
       Les deux publicités sponsorisées supprimées par Meta lors des élections provinciales de Nouvelle-Calédonie.
+
+      Les sites blogdesophie.com et lalternative2026.com du mode opératoire Rokh Solis.
+
+      Les influenceurs recrutés via FameUp et la société écran FA Agency en Roumanie.
+
+SOURCES.
+
+      SGDSN, bulletins du réseau de coordination et de protection des élections, numéros 1 à 10, janvier à mars 2026.
+
+      SGDSN, synthèse publique sur les élections provinciales en Nouvelle-Calédonie, 17 septembre 2026.
+
+      Viginum, rapport technique Rokh Solis, 11 juin 2026.
+
+      Viginum, Manipulation d'algorithmes et instrumentalisation d'influenceurs, enseignements de l'élection présidentielle en Roumanie et risques pour la France, février 2025.

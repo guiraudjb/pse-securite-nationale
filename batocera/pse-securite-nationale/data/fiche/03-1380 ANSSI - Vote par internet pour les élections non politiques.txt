@@ -1,0 +1,253 @@
+ANSSI, RECOMMANDATIONS POUR LA MISE EN ŒUVRE DU VOTE PAR INTERNET POUR LES ÉLECTIONS NON POLITIQUES, GUIDE ANSSI-PA-118, VERSION 1.0 DU 24 AVRIL 2026.
+
+LEXIQUE COMPLET.
+
+      Le vote par correspondance électronique est le vote réalisé à distance depuis un équipement connecté à Internet ; il est aussi appelé vote par Internet, vote en ligne ou élection dématérialisée.
+
+      Une élection non politique est un scrutin dont les listes électorales ne sont pas extraites du Répertoire électoral unique de l'INSEE, comme les élections professionnelles, les assemblées d'actionnaires ou de copropriétaires, les ordres professionnels, les fédérations sportives, les associations et les universités.
+
+      Le suffrage est l'expression du vote de l'électeur.
+
+      Le bulletin est, dans le vote par Internet, la donnée qui contient le suffrage chiffré ; il correspond à l'enveloppe du vote à l'urne.
+
+      Le client de vote est la partie logicielle exécutée sur l'équipement de l'électeur, en général une application JavaScript dans un navigateur.
+
+      L'urne électronique est l'espace de stockage des bulletins sur le serveur de vote.
+
+      Le bureau électoral est l'entité responsable du contrôle des opérations de vote par voie électronique.
+
+      L'émargement est la mise à jour par le serveur de vote de la liste d'émargement qui atteste que l'électeur a voté.
+
+      Le récépissé est le document délivré à l'électeur à la fin du vote, qui ne contient aucune information sur son bulletin.
+
+      La preuve de vote est la donnée générée par le client de vote, cryptographiquement liée au bulletin, qui permet à l'électeur de vérifier la présence de son bulletin dans l'urne.
+
+      La clé publique de l'élection sert à chiffrer les suffrages ; la clé privée de l'élection sert à les déchiffrer lors du dépouillement.
+
+      L'étanchéité est la stricte séparation entre l'identité de l'électeur et l'expression de son vote.
+
+      L'accumulation calcule le chiffré de la somme des suffrages sans déchiffrer les bulletins un par un ; elle suppose un chiffrement homomorphe.
+
+      Le mélange cryptographique réordonne et transforme les bulletins de l'urne pour rompre le lien entre l'ordre de dépôt et les suffrages.
+
+      ElGamal est un mécanisme de chiffrement asymétrique dont la sécurité repose sur la difficulté du logarithme discret ; il est largement utilisé dans les systèmes de vote mais il est malléable.
+
+      Une preuve à divulgation nulle de connaissance démontre qu'une affirmation est vraie, par exemple la validité d'un bulletin, sans rien révéler d'autre.
+
+      Le partage de secret à seuil fragmente la clé privée entre plusieurs attributaires, de sorte qu'un nombre minimal d'entre eux suffise au dépouillement.
+
+      La receipt-freeness est la propriété selon laquelle l'électeur ne peut pas prouver son suffrage à un tiers grâce aux données du système de vote ; elle ne signifie pas absence de récépissé.
+
+      La coercition est le vote sous contrainte ; l'achat de vote consiste à payer un électeur pour son suffrage.
+
+      Le pastillage associe des attributs, comme le collège ou la circonscription, au bulletin.
+
+      La PDMA, perte de données maximale admissible, mesure la quantité de données qu'un système peut perdre ; pour le vote, elle doit être nulle.
+
+      La vérifiabilité individuelle permet à l'électeur de contrôler que son bulletin a été enregistré dans l'urne.
+
+      La vérifiabilité universelle permet à tous de constater que le résultat proclamé correspond au contenu de l'urne.
+
+      Le cast-as-intended, ou vérifiabilité de l'intention, est la garantie que le suffrage émis correspond à l'intention de l'électeur.
+
+      L'everlasting privacy est la garantie inconditionnelle du secret du scrutin, y compris face à un futur ordinateur quantique.
+
+      Store now, decrypt later désigne la conservation de données chiffrées pour les déchiffrer plus tard avec un ordinateur quantique.
+
+      EBIOS Risk Manager est la méthode française de référence d'analyse de risque publiée par l'ANSSI.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE DU GUIDE.
+
+   A. Objet et public.
+
+      Le guide ANSSI-PA-118, version 1.0 du 24 avril 2026, approfondit la délibération de la CNIL n° 2026-045 du 19 mars 2026 sur la sécurité des systèmes de vote par correspondance électronique.
+
+      Cette délibération abroge les délibérations n° 2010-371 du 21 octobre 2010 et n° 2019-053 du 25 avril 2019.
+
+      Le guide remplace la page du site de la CNIL qui jouait ce rôle jusqu'en 2026.
+
+      Il s'adresse d'abord aux organisateurs de scrutin, responsables de traitement, puis aux prestataires de solutions de vote et aux experts indépendants qui vérifient la conformité.
+
+      Il ne concerne que le scrutin secret et les élections non politiques ; les primaires des partis politiques sont traitées comme des élections non politiques.
+
+      Les élections politiques, dont le vote par Internet des Français de l'étranger aux législatives, appellent des mesures complémentaires hors du guide.
+
+      Le modèle de référence est celui d'un organisateur qui achète un service clé en main à un prestataire, en mode SaaS.
+
+      Les recommandations n'ont aucun caractère normatif, même lorsqu'elles emploient le verbe devoir.
+
+   B. Les principes fondamentaux des opérations électorales.
+
+      La CNIL rappelle le secret du scrutin, le caractère personnel et libre du vote, la sincérité des opérations, l'intégrité des suffrages, l'accès au vote pour tous, la surveillance effective et le contrôle a posteriori par le juge.
+
+      Un système de vote ne peut pas être traité comme un système d'information classique, car il peut être compromis par l'entité même qui l'opère, et le secret du scrutin rend la compromission difficile à détecter.
+
+      Le vote par Internet numérise à la fois l'authentification de l'électeur et le traitement du bulletin, ce qui crée le risque de relier l'identité de l'électeur à son suffrage.
+
+   C. Les enjeux particuliers.
+
+      La vérifiabilité individuelle et la vérifiabilité universelle mettent en œuvre l'indépendance logicielle : le résultat doit pouvoir être vérifié sans supposer que le système de vote est de confiance.
+
+      La transparence impose de publier les mécanismes cryptographiques et le protocole de vote, selon le principe de Kerckhoffs.
+
+      La surveillance repose sur la journalisation et la supervision, rendues nécessaires par la durée du vote et la centralisation du serveur.
+
+      L'équipement de l'électeur ne peut pas être sécurisé, et l'absence d'isoloir expose à la coercition et à l'achat de vote.
+
+      Les chiffrements actuels sont vulnérables à un futur ordinateur quantique ; le guide ne vise donc qu'un secret du scrutin protégé à court terme, environ cinq ans.
+
+      Il n'existe pas de labellisation des solutions de vote par Internet, au contraire des machines à voter qui font l'objet d'un agrément.
+
+II. LES TROIS NIVEAUX DE SCRUTIN DE LA CNIL.
+
+   A. Le principe des niveaux.
+
+      L'organisateur estime les risques et classe son scrutin en niveau 1, 2 ou 3 ; à chaque niveau correspond une liste d'objectifs de sécurité.
+
+      Le guide compte 74 recommandations, R1 à R74, cumulatives : un scrutin de niveau 3 applique aussi celles des niveaux 1 et 2.
+
+      Les recommandations R70 à R74 sont complémentaires au niveau 3 et se retiennent selon l'analyse de risque.
+
+   B. Le niveau 1, risques faibles.
+
+      Il vise des scrutins à faible nombre de votants, sans conflit et à faible enjeu, comme les représentants de parents d'élèves ou les associations locales.
+
+      Le système, le prestataire et l'organisateur sont supposés de confiance ; aucune transparence ni preuve n'est exigée.
+
+      Ses onze objectifs, 1-01 à 1-11, couvrent notamment le vote indivisible, l'authentification, la confidentialité du bulletin, l'étanchéité, le partage du secret de dépouillement et la vacuité de l'urne avant l'ouverture.
+
+   C. Le niveau 2, risques modérés.
+
+      Il vise par exemple les élections des représentants du personnel dans des organismes de petite ou moyenne taille.
+
+      Le prestataire et l'organisateur peuvent porter atteinte à la sécurité ; il faut donc durcir le système et surveiller effectivement le vote.
+
+      Ses neuf objectifs, 2-01 à 2-09, demandent une haute disponibilité, des contrôles automatiques et manuels d'intégrité, l'alerte du bureau électoral, le cloisonnement entre scrutins, la vérification par l'électeur de son bulletin dans l'urne, une authentification renforcée et la publication du protocole de vote.
+
+   D. Le niveau 3, risques significatifs.
+
+      Il vise les ordres professionnels, les primaires de partis politiques et les élections du personnel dans les grandes organisations.
+
+      Le système peut être attaqué par des acteurs internes ou externes disposant de ressources importantes.
+
+      Ses cinq objectifs, 3-01 à 3-05, imposent une analyse de risque par une méthode éprouvée, un dépouillement vérifiable par un outil tiers, une très haute disponibilité tenant compte de la perte d'un centre de données, une clé privée jamais manipulée sur un serveur capable de relier électeurs et bulletins, et la publication du code source du client de vote.
+
+III. LES PRINCIPALES RECOMMANDATIONS.
+
+   A. Solution, vote et récépissé.
+
+      Le prestataire fournit des procédures détaillées, cartographie le système, le maintient à jour et utilise des mécanismes cryptographiques conformes aux référentiels de l'ANSSI.
+
+      Le vote est une opération indivisible qui enchaîne la validation du suffrage, l'enregistrement dans l'urne, l'émargement et la délivrance du récépissé.
+
+      Le récépissé peut être envoyé par courriel mais ne doit contenir aucune information liée au bulletin.
+
+   B. Authentification des électeurs.
+
+      Au niveau 1, il est recommandé d'utiliser une solution d'authentification externe présentant des garanties suffisantes ou, à défaut, un secret dédié au scrutin comme un mot de passe.
+
+      Aux niveaux 2 et 3, il faut combiner deux secrets d'authentification, dont un dédié au scrutin, transmis par deux canaux différents.
+
+      Le recouvrement d'un secret perdu ne doit pas abaisser la sécurité de l'authentification.
+
+   C. Confidentialité et intégrité du bulletin.
+
+      Le suffrage est chiffré par le client de vote, et non par le serveur, avec un chiffrement asymétrique probabiliste et non malléable.
+
+      Le client de vote ne doit pas appeler de ressources tierces non maîtrisées, comme un service de CAPTCHA externe ou un CDN pour les scripts.
+
+      Les connexions sont protégées par TLS, et les flux internes par TLS à double authentification.
+
+      Le serveur vérifie la validité du bulletin et détecte toute modification illégitime grâce à une signature ou à un chaînage.
+
+      La PDMA du système de vote doit être nulle : aucun bulletin ne doit être perdu.
+
+   D. Étanchéité et dépouillement.
+
+      Il est recommandé de renoncer à l'horodatage individuel des bulletins, sans que cette mesure suffise seule.
+
+      L'étanchéité est assurée par accumulation ou mélange cryptographique ; un mélange non cryptographique doit être écarté.
+
+      La clé privée de l'élection est fragmentée par un partage de secret à seuil, les fragments sont stockés de façon sécurisée et tout dépouillement illégitime doit être détecté.
+
+      La receipt-freeness rend plus difficile pour l'électeur de prouver son suffrage à un tiers.
+
+      Le pastillage doit permettre de détecter tout déplacement d'un bulletin d'une urne à l'autre ; ElGamal est compatible avec les trois niveaux lorsqu'un pastillage est mis en œuvre.
+
+   E. Surveillance et disponibilité.
+
+      Le système journalise les événements de fonctionnement et ceux qui touchent au secret, à l'intégrité et à la sincérité, et permet un nouveau décompte.
+
+      Au niveau 2, il est dimensionné, redondé, protégé contre le déni de service, scellé, et le bureau électoral reçoit les contrôles d'intégrité et les alertes.
+
+      Au niveau 3, le système est répliqué dans un second centre de données suffisamment distant, ou dans une autre zone de disponibilité d'un cloud public.
+
+   F. Vérifiabilité et transparence.
+
+      Au niveau 2, le client de vote remet une preuve de vote sans identité ni horodatage, et le protocole de vote est rendu public.
+
+      Au niveau 3, il faut un mélange vérifiable ou une accumulation, un déchiffrement vérifiable par preuves à divulgation nulle de connaissance, la conservation des preuves et la publication des spécifications d'un outil de vérification.
+
+      Le code source du client de vote est publié, complet et non obscurci, et doit correspondre à celui transmis aux électeurs.
+
+   G. Les recommandations complémentaires.
+
+      R70 signer les bulletins avec une clé indépendante de la solution, R71 manipuler la clé privée sur un serveur dédié hors ligne, R72 générer la clé de manière distribuée, R73 utiliser un déchiffrement vérifiable distribué, R74 utiliser un partage de secret à seuil vérifiable.
+
+      Elles visent le bourrage d'urne, la fuite de la clé privée et une génération de clé favorisant un attributaire.
+
+IV. LES RISQUES NON COUVERTS.
+
+   A. Les cinq limites.
+
+      Aucune recommandation n'empêche la copie illicite de la clé privée, par exemple en cas de collusion d'attributaires.
+
+      Aucune ne garantit complètement la résistance à l'achat de vote ou à la coercition.
+
+      Aucune n'assure la vérifiabilité de l'intention de l'électeur face à un navigateur ou un système d'exploitation compromis.
+
+      Aucune ne traite la résistance à l'ordinateur quantique ni l'everlasting privacy.
+
+      Aucune ne protège contre la déstabilisation par une diffusion massive de fausses informations contestant le résultat.
+
+   B. La conséquence.
+
+      Même au niveau 3, le guide ne protège pas contre un État, des complicités internes ou une forte volonté de déstabilisation.
+
+      Si les risques ne peuvent être ni réduits ni acceptés, le vote par Internet peut être abandonné au profit du vote à l'urne.
+
+POINTS D'ATTENTION.
+
+      Le guide ne s'applique pas aux élections politiques, mais il s'applique aux primaires des partis.
+
+      Le bulletin numérique correspond à l'enveloppe et non au bulletin papier.
+
+      La receipt-freeness ne signifie pas l'absence de récépissé.
+
+      Un seul secret d'authentification suffit au niveau 1, deux sont recommandés aux niveaux 2 et 3.
+
+      Le chiffrement ElGamal seul est malléable et n'assure ni le secret ni l'intégrité sans preuves complémentaires.
+
+      Le secret n'est protégé qu'à court terme, environ cinq ans, en raison de la menace quantique.
+
+      Les prestataires peuvent soumettre leurs moyens à l'ANSSI à l'adresse conseil.technique@ssi.gouv.fr.
+
+EXEMPLES CITES.
+
+      Élections de représentants de parents d'élèves et d'associations locales, au niveau 1.
+
+      Élections du personnel dans des organismes de petite ou moyenne taille, au niveau 2.
+
+      Ordres professionnels, primaires de partis et grandes organisations, au niveau 3.
+
+      Vote des Français de l'étranger aux élections législatives, exclu du guide.
+
+      Revote utilisé dans d'autres pays contre la coercition, peu usuel en France.
+
+SOURCES.
+
+      ANSSI, Recommandations pour la mise en œuvre du vote par Internet pour les élections non politiques, ANSSI-PA-118, version 1.0, 24 avril 2026, 151 pages.
+
+      CNIL, délibération n° 2026-045 du 19 mars 2026 portant adoption d'une recommandation relative à la sécurité des systèmes de vote par correspondance électronique.
