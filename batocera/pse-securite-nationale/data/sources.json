@@ -1836,5 +1836,84 @@
    "pages": 80,
    "taille": 2362722
   }
+ ],
+ "03-1340 ACMOSS - Réseau Radio du Futur, communications mobiles critiques des services de sécurité et de secours": [
+  {
+   "fichier": "source/bdt-decret-creation-acmoss.pdf",
+   "titre": "Localtis, décret de création de l'ACMOSS (3 avril 2023)",
+   "pages": 2,
+   "taille": 55667,
+   "url": "https://www.banquedesterritoires.fr/un-decret-precise-les-contours-de-lagence-des-communications-mobiles-operationnelles-de-securite-et"
+  },
+  {
+   "fichier": "source/bdt-rrf-experimentations.pdf",
+   "titre": "Localtis, le RRF passe aux expérimentations de terrain (21 juin 2024)",
+   "pages": 4,
+   "taille": 211753,
+   "url": "https://www.banquedesterritoires.fr/le-reseau-radio-du-futur-passe-aux-experimentations-de-terrain"
+  },
+  {
+   "fichier": "source/acmoss-accueil.pdf",
+   "titre": "ACMOSS, site officiel, accueil",
+   "pages": 12,
+   "taille": 1900568,
+   "url": "https://www.acmoss.fr/"
+  },
+  {
+   "fichier": "source/acmoss-abonnements.pdf",
+   "titre": "ACMOSS, les abonnements RRF",
+   "pages": 5,
+   "taille": 836925,
+   "url": "https://www.acmoss.fr/abonnements"
+  },
+  {
+   "fichier": "source/acteurs-publics-rrf-sur-pied.pdf",
+   "titre": "Acteurs Publics, le RRF enfin sur pied (28 novembre 2025)",
+   "pages": 5,
+   "taille": 3142788,
+   "url": "https://acteurspublics.fr/articles/le-reseau-radio-du-futur-du-ministere-de-linterieur-enfin-sur-pied/"
+  },
+  {
+   "fichier": "source/ccr-acmoss-bilan-2025.pdf",
+   "titre": "Critical Communications Review, ACMOSS in 2025 (5 janvier 2026)",
+   "pages": 6,
+   "taille": 1813682,
+   "url": "https://www.criticalcommunicationsreview.com/ccr/news/117758/acmoss-in-2025-a-milestone-year-for-the-future-radio-network-in-france"
+  },
+  {
+   "fichier": "source/ccr-acmoss-directeur-2026.pdf",
+   "titre": "Critical Communications Review, nouveau directeur et essais de Marseille (8 mai 2026)",
+   "pages": 5,
+   "taille": 1640197,
+   "url": "https://www.criticalcommunicationsreview.com/ccr/news/118704/acmoss-in-motion-r-mi-de-gouvion-saint-cyr-appointed-director-as-rrf-reinforcement-management-trials-conclude-in-marseille"
+  },
+  {
+   "fichier": "source/an-question-ecrite-8685-rrf-sdis.pdf",
+   "titre": "Assemblée nationale, question écrite n° 8685 et réponse (28 avril 2026)",
+   "pages": 2,
+   "taille": 62125,
+   "url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE8685"
+  },
+  {
+   "fichier": "source/axione-decryptage-rrf-2026-04-27.pdf",
+   "titre": "Axione, Réseau Radio du Futur, l'heure de la bascule (27 avril 2026)",
+   "pages": 3,
+   "taille": 96988,
+   "url": "https://www.axione.com/wp-content/uploads/2026/05/decryptage-rrf-florence-erpelding-27042026-vf.pdf"
+  },
+  {
+   "fichier": "source/atos-si-g-rrf.pdf",
+   "titre": "Atos, le système d'information et de gestion du RRF (6 août 2026)",
+   "pages": 7,
+   "taille": 5692994,
+   "url": "https://www.atos.ai/fr/references-clients/un-outil-de-pilotage-robuste-pour-le-reseau-radio-du-futur"
+  },
+  {
+   "fichier": "source/wikipedia-reseau-radio-du-futur.pdf",
+   "titre": "Wikipédia, Réseau radio du futur",
+   "pages": 5,
+   "taille": 265647,
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9seau_radio_du_futur"
+  }
  ]
 }

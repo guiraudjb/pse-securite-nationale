@@ -1,0 +1,321 @@
+ACMOSS, RÉSEAU RADIO DU FUTUR, COMMUNICATIONS MOBILES CRITIQUES DES SERVICES DE SÉCURITÉ ET DE SECOURS, DOSSIER DOCUMENTAIRE D'OCTOBRE 2026.
+
+LEXIQUE COMPLET.
+
+      L'ACMOSS, Agence des communications mobiles opérationnelles de sécurité et de secours, est l'établissement public administratif créé en 2023 sous la tutelle du ministère de l'Intérieur pour concevoir, déployer et exploiter le Réseau Radio du Futur.
+
+      Le RRF, Réseau Radio du Futur, est le réseau de communications mobiles critiques très haut débit, 4G puis 5G, commun aux services de sécurité, de secours et de gestion de crise.
+
+      L'INPT, infrastructure nationale partageable des transmissions, est le réseau radio numérique bas débit, vieux d'environ trente ans, que le RRF remplace.
+
+      TETRAPOL est la norme de radiocommunication professionnelle numérique des années 1990, développée par Matra puis Airbus, sur laquelle reposent la plupart des réseaux de l'INPT.
+
+      ACROPOL est le réseau radio historique de la police nationale.
+
+      RUBIS et CORAIL NG sont les réseaux radio historiques de la gendarmerie nationale.
+
+      ANTARES est le réseau radio historique des sapeurs-pompiers et des SAMU, adossé à l'INPT.
+
+      La LOPMI est la loi d'orientation et de programmation du ministère de l'Intérieur pour 2023 à 2027, dont le décret de création de l'ACMOSS est le premier texte d'application.
+
+      Un MVNO, opérateur de réseau mobile virtuel, fournit un service mobile sans posséder son propre réseau d'antennes, en louant l'accès radio à des opérateurs.
+
+      Les services MCX, pour mission critical, regroupent selon les normes du 3GPP la voix en alternat critique MCPTT, les données critiques MCData et la vidéo critique MCVideo.
+
+      Le 3GPP est l'organisme international de normalisation des réseaux mobiles 4G et 5G.
+
+      La priorité et la préemption sont les mécanismes qui réservent la capacité du réseau aux flux des secours en cas de congestion, au besoin en interrompant des flux moins prioritaires.
+
+      L'itinérance nationale permet à un terminal RRF de basculer sur le réseau d'un autre opérateur lorsque celui de l'opérateur de référence est indisponible.
+
+      S8HR désigne le mode d'itinérance par lequel le trafic d'un réseau visité est ramené vers le cœur de réseau du RRF.
+
+      Le MOCN est un mode de partage d'accès radio dans lequel plusieurs cœurs de réseau utilisent les mêmes antennes.
+
+      SYRIUS est l'application d'Airbus installée sur les terminaux du RRF, qui offre voix, messagerie chiffrée, vidéo en temps réel et géolocalisation.
+
+      Le SI-G est le système d'information et de gestion du RRF, conçu par Atos, qui gère utilisateurs, abonnements, équipements, commandes, facturation et qualité de service.
+
+      La console dispatcher est le poste fixe des salles de commandement qui pilote les communications des agents de terrain.
+
+      Le RV1 est la solution de relais véhicule qui prolonge la couverture du RRF autour d'un véhicule d'intervention.
+
+      La VSR, vérification de service régulier, est la phase de validation en conditions opérationnelles achevée en novembre 2025, qui marque le passage à l'exploitation du RRF.
+
+      Un OIV, opérateur d'importance vitale, est une entreprise ou une administration dont l'activité est indispensable à la vie de la nation et qui pourra rejoindre le RRF.
+
+      Un SDIS est un service départemental d'incendie et de secours, financé principalement par le département.
+
+COURS DÉTAILLÉ.
+
+I. POURQUOI UN RÉSEAU RADIO DU FUTUR.
+
+   A. Des réseaux historiques à bout de souffle.
+
+      Les policiers, gendarmes, sapeurs-pompiers et services d'aide médicale urgente communiquent depuis les années 1990 par l'INPT, un ensemble de réseaux radio numériques bas débit.
+
+      Ces réseaux sont ACROPOL pour la police nationale, RUBIS et CORAIL NG pour la gendarmerie nationale et ANTARES pour les sapeurs-pompiers et les SAMU.
+
+      Ils reposent pour la plupart sur la norme TETRAPOL, conçue par Matra puis reprise par Airbus, qui ne permet que la voix et des données très limitées.
+
+      Une étude du Sénat de 2022 relevait que le système était déjà saturé en Île-de-France et difficile à maintenir au-delà de 2025.
+
+   B. Les ambitions du RRF.
+
+      Le RRF doit offrir un réseau très haut débit, multimédia, interopérable, prioritaire, résilient et sécurisé, commun à tous les acteurs de la sécurité et des secours.
+
+      L'objectif résumé par les acteurs du programme est de couvrir partout et tout le temps, pour garantir la continuité des missions régaliennes en toutes circonstances.
+
+      Le haut débit permet la géolocalisation précise de chaque agent, la remontée de vidéos en temps réel vers la salle de commandement et une messagerie sécurisée pour échanger messages et fichiers, par exemple entre sapeurs-pompiers et SAMU lors d'un secours à personne.
+
+      Le réseau offre autant de conférences radio que nécessaire et permet d'interconnecter toutes les institutions engagées sur une même crise.
+
+   C. Les utilisateurs visés.
+
+      Les utilisateurs sont la police et la gendarmerie nationales, les polices municipales, les SDIS, les SAMU et SMUR, les préfectures, les agences régionales de santé, les douanes, les directions interdépartementales des routes, l'administration pénitentiaire, les parquets et les armées.
+
+      Le périmètre peut être étendu à certains opérateurs d'importance vitale, par exemple des gestionnaires de réseaux de transport ou d'énergie.
+
+      La cible est de 300 000 utilisateurs, annoncée pour 2027 en 2024 et 2025, pour fin 2028 par l'ACMOSS en 2026 et pour 2029 lors de la nomination de son nouveau directeur en mai 2026.
+
+II. L'ACMOSS, OPÉRATEUR DU RRF.
+
+   A. La création par le décret du 30 mars 2023.
+
+      L'ACMOSS est créée par le décret n° 2023-225 du 30 mars 2023, publié au Journal officiel du 31 mars 2023.
+
+      Ce décret est le premier texte d'application de la LOPMI, la loi d'orientation et de programmation du ministère de l'Intérieur.
+
+      L'ACMOSS est un établissement public administratif, distinct de l'État, placé sous la tutelle du ministère de l'Intérieur.
+
+      Sa mission est de concevoir, déployer, fournir et assurer la continuité, la disponibilité, l'interopérabilité et la résilience d'un service de communications mobiles critiques pour la sécurité, les secours et l'aide médicale urgente.
+
+   B. Un opérateur sans antennes.
+
+      L'ACMOSS a le statut d'opérateur de réseau mobile virtuel au sens du code des postes et des communications électroniques, car elle ne possède pas de réseau radio propre.
+
+      Elle loue l'accès radio aux opérateurs commerciaux et exploite elle-même le cœur de réseau, les serveurs de communication critique et le système de gestion.
+
+      Le RRF constitue de fait un monopole pour les communications critiques des services de sécurité et de secours.
+
+   C. Gouvernance, siège et moyens.
+
+      Le conseil d'administration compte vingt-quatre membres, dont dix-sept représentants de l'État, les présidents de Départements de France et de l'Association des maires de France et deux présidents de conseils d'administration de SDIS.
+
+      Le président de la commission consultative des polices municipales assiste au conseil avec voix consultative.
+
+      Le siège est à la Liberty Tower, à Courbevoie, dans le quartier de La Défense, où se trouve aussi le centre de supervision du réseau.
+
+      L'agence comptait environ soixante agents en 2024 et plus de soixante-dix fin 2025, et recrute en 2026 des ingénieurs réseau 4G, 5G et MCX.
+
+   D. Les directeurs.
+
+      Le préfet Guillaume Lambert porte le programme depuis 2019, d'abord par une délégation au secrétariat général du ministère, puis comme directeur de l'ACMOSS.
+
+      Par décret du Président de la République du 17 avril 2026, le colonel de gendarmerie Rémi de Gouvion Saint-Cyr est nommé directeur à compter du 1er mai 2026.
+
+      Il dirigeait auparavant la sécurité et l'architecture de l'Agence du numérique des forces de sécurité intérieure, l'ANFSI.
+
+III. L'ARCHITECTURE TECHNIQUE DU RRF.
+
+   A. L'accès radio par les opérateurs.
+
+      Le RRF utilise en métropole les antennes 4G et 5G de deux opérateurs de référence, Orange et Bouygues Telecom, ce dernier ayant ouvert son accès radio en octobre 2025.
+
+      Une itinérance nationale sur les réseaux de SFR et de Free prend le relais lorsque le réseau de référence fait défaut, avec une bascule automatique vers l'opérateur le plus adapté.
+
+      Le réseau s'appuie notamment sur la bande des 700 mégahertz, qui porte loin et pénètre bien dans les bâtiments.
+
+      À terme, des réseaux privés, par exemple des réseaux 5G d'opérateurs d'importance vitale, pourront être raccordés en itinérance S8HR ou en partage d'accès radio MOCN.
+
+   B. Le cœur du système.
+
+      Le cœur de réseau et les serveurs de communication critique sont installés dans les centres de données souverains du ministère de l'Intérieur.
+
+      Les services de communication critique suivent les normes MCX du 3GPP, soit la voix en alternat, les données et la vidéo critiques.
+
+      La qualité de service repose sur la priorisation et la préemption des flux, qui garantissent aux secours un accès au réseau même en cas de congestion.
+
+   C. Les moyens tactiques et la résilience.
+
+      Des stations de base déployables, qui utilisent des fréquences propres au ministère de l'Intérieur, apportent la couverture au plus près des besoins opérationnels.
+
+      Le contrat de renfort permet de déployer des unités 4G de renfort en moins de six heures partout en métropole.
+
+      Le relais véhicule RV1 étend la couverture autour des véhicules d'intervention, et une solution de mode direct permet de communiquer sans réseau.
+
+   D. Terminaux et applications.
+
+      Les agents reçoivent des smartphones et tablettes durcis Samsung sous Android, équipés d'une carte SIM dédiée au RRF.
+
+      Un premier marché de deux cent mille terminaux attribué à Crosscall en 2021 a finalement été confié à un consortium associant Airbus et Samsung.
+
+      L'application SYRIUS d'Airbus fournit la voix, la messagerie chiffrée, la vidéo en temps réel et la géolocalisation.
+
+      L'application ATRIA, primée en 2025, et la console dispatcher des salles de commandement complètent l'offre, et l'interopérabilité avec le système STORM a été testée.
+
+   E. Le système d'information et de gestion.
+
+      Le SI-G, conçu et intégré par Atos, gère les utilisateurs, les abonnements, les équipements et les commandes, la facturation et le suivi de la qualité de service.
+
+      Il intègre Infonova pour la gestion commerciale, Camunda pour l'orchestration des processus et les outils de supervision de Nokia, et peut administrer jusqu'à trois cent mille utilisateurs.
+
+   F. Les industriels.
+
+      Le système principal est conçu par un consortium mené par Airbus Public Safety and Security et Capgemini, intégrateur du lot 2.
+
+      Atos fournit le système d'information, et Orange et Bouygues Telecom fournissent l'accès radio.
+
+IV. DU PROJET À L'EXPLOITATION.
+
+   A. Les étapes de construction.
+
+      Le projet de rénovation est envisagé dès 2016 et 2017, le programme est lancé en 2019, puis inscrit dans la LOPMI avec un coup d'envoi en octobre 2022.
+
+      L'ACMOSS est créée en mars 2023, et un incident chez Capgemini endommage la même année des serveurs neufs.
+
+      Les premières briques sont livrées et testées en juin 2024, mois où l'ACMOSS et l'ANFR signent une convention pour exploiter les mesures de couverture de l'application OpenBarres.
+
+      Des expérimentations de terrain ont lieu dès l'été 2024 dans la Loire, les Bouches-du-Rhône et le Val-de-Marne.
+
+   B. Un lancement retardé.
+
+      Le RRF devait être opérationnel avant les Jeux olympiques de Paris en 2024, mais son ouverture a été repoussée à avril puis mai 2025.
+
+      La vérification d'acceptation comprend plus de cinq cents tests portant sur les services critiques, la téléphonie, l'accès internet sécurisé, la résilience et l'interopérabilité.
+
+      La vérification de service régulier mobilise près de huit cents utilisateurs des Bouches-du-Rhône, de la Loire, de la Gironde et de Paris, issus des préfectures, de la police, de la gendarmerie, des douanes, de l'administration pénitentiaire et des parquets.
+
+      Les premiers services entrent en exploitation le 7 octobre 2025 auprès des SAMU de Saint-Étienne et de Roanne.
+
+      La VSR est validée en novembre 2025, ce qui ouvre le déploiement national à tous les utilisateurs avec environ un an de retard.
+
+   C. Le déploiement par plaques départementales.
+
+      Le calendrier initial prévoyait quarante-trois départements en 2025, trente en 2026 et vingt-quatre en 2027, soit quatre-vingt-dix-sept départements.
+
+      Le déploiement progressif par plaques départementales s'étend désormais jusqu'en 2028.
+
+      Fin 2025, plus de cent conventions d'adhésion étaient signées et plus de trois cents formateurs avaient été formés à SYRIUS et au SI-G.
+
+      Le RRF comptait trois mille six cent vingt-cinq abonnés actifs en janvier 2026 et plus de six mille en février 2026, très loin encore de la cible.
+
+   D. Les SDIS et la gestion des renforts.
+
+      Le 5 mai 2026, une journée technique au SDIS des Bouches-du-Rhône, à Marseille, a testé la gestion des renforts extra-départementaux avec la DGSCGC, le bataillon de marins-pompiers de Marseille, l'Agence du numérique de la sécurité civile et Airbus.
+
+      Trois scénarios y ont été joués : un renfort au sein d'une même zone de défense, un renfort vers une autre zone et une mobilisation zonale avec attribution progressive des moyens.
+
+      Les travaux portent sur l'interopérabilité et l'intégration aux systèmes de gestion opérationnelle des SDIS, notamment NexSIS.
+
+      En 2026, le SDIS de l'Ain estimait encore que l'offre proposée aux sapeurs-pompiers n'était pas suffisamment aboutie.
+
+   E. La dimension européenne.
+
+      Le RRF a reçu en juin 2025, à Bruxelles, le premier prix du meilleur projet de réseau de sécurité publique, et ATRIA un prix spécial du jury.
+
+      En octobre 2026, l'ACMOSS participe aux travaux sur le futur système européen de communications critiques avec la Commission européenne, les opérateurs et les industriels.
+
+V. LA COUVERTURE DES LIEUX À RISQUE DE ZONE BLANCHE.
+
+   A. Les arrêtés de 2024.
+
+      L'arrêté du 26 mars 2024 définit les références techniques de continuité des radiocommunications dans les tunnels pour les services publics qui concourent à la sécurité civile.
+
+      L'arrêté du 28 juin 2024 modifie le règlement de sécurité contre l'incendie et la panique dans les établissements recevant du public.
+
+      Ces arrêtés font du RRF le réseau de référence et confient aux gestionnaires et exploitants des tunnels, des établissements recevant du public et des parkings de plus d'un niveau de sous-sol la responsabilité de la continuité des communications des secours.
+
+   B. Les solutions de couverture intérieure.
+
+      Les gestionnaires doivent diagnostiquer leurs infrastructures et choisir la solution adaptée, en suivant le calendrier de déploiement du RRF.
+
+      Les solutions possibles sont la couverture intérieure des opérateurs, les réseaux 5G privés pour les sites sensibles, le transport ou l'énergie, et dans certains cas le Wi-Fi.
+
+VI. LE FINANCEMENT.
+
+   A. Le coût du programme.
+
+      Selon la réponse du ministre de l'Intérieur publiée au Journal officiel du 28 avril 2026, le programme représente un coût total de 896,4 millions d'euros.
+
+      L'État a entièrement financé les coûts de développement et d'infrastructure.
+
+      D'autres montants circulent selon les dates et les périmètres : 345 millions d'euros de 2020 à 2026, plus de 700 millions d'euros d'investissement et jusqu'à deux milliards d'euros en coût global selon des estimations de presse.
+
+   B. Un modèle économique d'opérateur.
+
+      Chaque service utilisateur finance ensuite le réseau par des abonnements, comme chez un opérateur de téléphonie, et par l'achat ou la location de ses terminaux.
+
+      L'abonnement des utilisateurs opérationnels commence à 39,80 euros par mois, avec des forfaits de données de un, cinq ou dix gigaoctets, les communications critiques en 4G, les appels et les SMS illimités en métropole.
+
+      L'abonnement dispatcher fixe, accessible par le réseau interministériel de l'État ou par un VPN sur Internet, coûte 6,10 euros par mois.
+
+   C. La question du coût pour les SDIS.
+
+      Le SDIS du Puy-de-Dôme, dont la bascule était prévue à partir d'avril 2026, estimait le surcoût entre quatre cent mille euros et plus d'un million d'euros par an, sans réemploi possible des équipements existants.
+
+      La députée Christine Pirès Beaune a interrogé le ministre à ce sujet par la question écrite n° 8685 du 15 juillet 2025.
+
+      Le ministre a répondu que le coût du RRF et de l'INPT était sensiblement identique pour les services d'incendie et de secours.
+
+      La contribution des SDIS peut être qualifiée de subvention d'équipement et inscrite en section d'investissement, ce qui allège leurs dépenses de fonctionnement.
+
+      Les SDIS peuvent étaler leur versement sur dix ans au lieu des deux ans annoncés au lancement du programme.
+
+POINTS D'ATTENTION.
+
+      L'ACMOSS est un établissement public administratif créé par le décret n° 2023-225 du 30 mars 2023, sous la tutelle du ministère de l'Intérieur.
+
+      L'ACMOSS est un opérateur de réseau mobile virtuel qui ne possède pas d'antennes et s'appuie sur Orange et Bouygues Telecom, avec itinérance sur SFR et Free.
+
+      Le RRF remplace l'INPT, c'est-à-dire ACROPOL, RUBIS, CORAIL NG et ANTARES, fondés sur la norme TETRAPOL.
+
+      La priorité et la préemption des flux distinguent le RRF d'un abonnement mobile ordinaire.
+
+      Le cœur de réseau est hébergé dans les centres de données souverains du ministère de l'Intérieur.
+
+      La VSR de novembre 2025 marque le passage à l'exploitation, avec environ un an de retard sur l'objectif des Jeux olympiques de 2024.
+
+      Le coût officiel du programme est de 896,4 millions d'euros selon la réponse ministérielle d'avril 2026, et les autres chiffres doivent être cités avec leur source.
+
+      La cible de 300 000 utilisateurs a glissé de 2027 à 2028, voire 2029.
+
+      Depuis les arrêtés de 2024, la couverture des tunnels, des établissements recevant du public et des parkings souterrains incombe à leurs gestionnaires.
+
+EXEMPLES CITES.
+
+      Les premiers services en exploitation auprès des SAMU de Saint-Étienne et de Roanne le 7 octobre 2025.
+
+      L'application SYRIUS d'Airbus sur smartphone durci Samsung.
+
+      Le relais véhicule RV1 et les unités 4G de renfort déployables en moins de six heures.
+
+      La journée technique de Marseille du 5 mai 2026 sur les renforts extra-départementaux des SDIS.
+
+      Le SDIS du Puy-de-Dôme et son surcoût estimé entre quatre cent mille euros et plus d'un million d'euros par an.
+
+      La convention entre l'ACMOSS et l'ANFR sur les données de l'application OpenBarres.
+
+SOURCES.
+
+      Banque des Territoires, Localtis, Un décret précise les contours de l'agence des communications mobiles opérationnelles de sécurité et de secours, 3 avril 2023.
+
+      Banque des Territoires, Localtis, Le réseau radio du futur passe aux expérimentations de terrain, 21 juin 2024.
+
+      ACMOSS, site officiel, page d'accueil et page des abonnements, consultés le 27 octobre 2026.
+
+      Acteurs Publics, Le Réseau radio du futur du ministère de l'Intérieur enfin sur pied, 28 novembre 2025.
+
+      Critical Communications Review, ACMOSS in 2025, a milestone year for the Future Radio Network in France, 5 janvier 2026.
+
+      Critical Communications Review, ACMOSS in motion, nomination de Rémi de Gouvion Saint-Cyr et essais de gestion des renforts à Marseille, 8 mai 2026.
+
+      Assemblée nationale, question écrite n° 8685 de Christine Pirès Beaune, publiée le 15 juillet 2025, et réponse du ministre de l'Intérieur publiée le 28 avril 2026.
+
+      Axione, Décryptage d'expert, Réseau Radio du Futur, l'heure de la bascule, 27 avril 2026.
+
+      Atos, Un outil de pilotage robuste et performant pour le Réseau Radio du Futur, 6 août 2026.
+
+      Wikipédia, article Réseau radio du futur, consulté le 27 octobre 2026.
+
+      Offres d'emploi de l'ACMOSS publiées sur Choisir le service public en 2025 et 2026.
