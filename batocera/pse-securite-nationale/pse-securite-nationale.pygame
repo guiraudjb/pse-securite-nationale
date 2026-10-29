@@ -855,22 +855,23 @@ class App:
         self.tp_build_lines()
 
     def tp_build_lines(self):
-        """Lignes à afficher (texte, couleur) : énoncé, puis corrigé s'il est révélé."""
+        """Lignes à afficher (texte, couleur, x, zones colorées) : énoncé, puis corrigé s'il est révélé."""
         self.tp_lines = []
         if not self.tp_items:
             return
         ex = self.tp_items[self.tp_index]
         width = self.screen_w - 2 * self.TP_MARGIN
-        self.tp_lines.append(('ÉNONCÉ', ui.COLOR_PRIMARY))
-        self.tp_lines += [(l, ui.COLOR_TEXT) for l in ui.wrap_paragraphs(self.fonts.medium, ex['enonce'], width)]
+        self.tp_lines.append(('ÉNONCÉ', ui.COLOR_PRIMARY, 0, []))
+        self.tp_lines += ui.tp_lignes(self.fonts.medium, ex['enonce'], width,
+                                      ui.COLOR_TEXT, ui.COLOR_PRIMARY, ui.COLOR_ACCENT)
         self.tp_solution_line = len(self.tp_lines) + 1
         if self.tp_show_solution:
-            self.tp_lines.append(('', ui.COLOR_TEXT))
-            self.tp_lines.append(('CORRIGÉ', ui.COLOR_SUCCESS))
-            # Une étape par ligne à l'écran : séparateur « | » des corrigés générés ou
-            # numérotation « 1. », « 2. »… des réponses structurées (même règle que la page web)
-            etapes = re.sub(r' (?=\d{1,2}\. [A-ZÉÈÀÂÎÔÇ])', '\n', ex['solution'].replace(' | ', '\n'))
-            self.tp_lines += [(l, ui.COLOR_TEXT) for l in ui.wrap_paragraphs(self.fonts.medium, etapes, width)]
+            self.tp_lines.append(('', ui.COLOR_TEXT, 0, []))
+            self.tp_lines.append(('CORRIGÉ', ui.COLOR_SUCCESS, 0, []))
+            # Une étape par ligne (« | » ou « 1. »), plans en retrait, intitulés et résultats
+            # en couleur : mêmes règles que la page web (ui.tp_lignes)
+            self.tp_lines += ui.tp_lignes(self.fonts.medium, ex['solution'], width,
+                                          ui.COLOR_TEXT, ui.COLOR_PRIMARY, ui.COLOR_ACCENT)
 
     def tp_visible_lines(self):
         top = self.HEADER_H + 20
@@ -913,10 +914,11 @@ class App:
         line_h = self.fonts.medium.get_sized_height() + 8
         visible = self.tp_visible_lines()
         y = top
-        for text, color in self.tp_lines[self.tp_scroll:self.tp_scroll + visible]:
-            if text:
-                font = self.fonts.small if text in ('ÉNONCÉ', 'CORRIGÉ') else self.fonts.medium
-                font.render_to(self.screen, (self.TP_MARGIN, y), text, color)
+        for text, color, x, zones in self.tp_lines[self.tp_scroll:self.tp_scroll + visible]:
+            if text in ('ÉNONCÉ', 'CORRIGÉ') and not x:
+                self.fonts.small.render_to(self.screen, (self.TP_MARGIN, y), text, color)
+            elif text:
+                ui.draw_zones(self.screen, self.fonts.medium, (self.TP_MARGIN + x, y), text, color, zones)
             y += line_h
         if not self.tp_show_solution:
             invite = "A : afficher le corrigé"

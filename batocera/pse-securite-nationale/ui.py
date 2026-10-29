@@ -1,5 +1,6 @@
 """Widgets et utilitaires de rendu pour le jeu pygame PSE25-27."""
 import os
+import re
 import pygame
 import pygame.freetype
 
@@ -309,3 +310,68 @@ def draw_choice_rows(surface, fonts, screen_w, top, bottom, choices, selected_in
         text_x = badge_rect.right + 24
         text_rect_area = pygame.Rect(text_x, rect.y, rect.right - text_x - 20, rect.height)
         draw_scrolling_text(surface, fonts.medium, label, text_rect_area, fg)
+
+
+# --- TP : mise en forme du corrigé (mêmes règles que la page web) ---
+# Une étape par ligne (« | » ou « 1. »), parties de plan « I. » / « A. » en retrait,
+# intitulé de rubrique (« Objectifs : ») et résultat de calcul (« = 879 k€ ») en couleur.
+TP_PLAN = re.compile(r'^(I{1,3}|IV|V|[A-D]|\d{1,2})\. ')
+TP_INTITULE = re.compile(r"^([A-ZÉÈÀÂÎÔÇ][^:=.?!]{1,60}?) :(?= |$)")
+TP_VERBE = re.compile(r' (est|sont|a|ont|reste|restent|doit|doivent|peut|peuvent|permet|fait)( |$)')
+TP_RESULTAT = re.compile(r'= (-?\d[\d   ]*(?:,\d+)?(?: ?(?:k€|M€|Md€|€|%|ans?|mois|jours?|points?))?)(?=[ .,;)]|$)')
+
+
+def tp_etapes(texte):
+    """Étapes d'un corrigé : séparateur « | » ou numérotation « 1. », « 2. »…"""
+    texte = re.sub(r' (?=\d{1,2}\. [A-ZÉÈÀÂÎÔÇ])', '\n', texte.replace(' | ', '\n'))
+    return [e.strip() for e in texte.split('\n') if e.strip()]
+
+
+def tp_lignes(font, texte, max_width, couleur, couleur_titre, couleur_resultat, retrait=40):
+    """Lignes d'affichage d'un corrigé de TP : liste de (texte, couleur, x, zones),
+    zones = [(début, fin, couleur)] à colorer dans la ligne."""
+    etapes = tp_etapes(texte)
+    lignes = []
+    for e in etapes:
+        plan = TP_PLAN.match(e) if len(etapes) > 1 else None
+        x, suite, base, zones_tete = 0, 0, couleur, []
+        if plan:
+            marque = plan.group(1)
+            if re.fullmatch('[A-D]', marque):
+                x = retrait
+            elif not marque.isdigit():
+                base = couleur_titre          # partie I., II. : toute la ligne en couleur de titre
+            zones_tete = [(0, len(plan.group(0)) - 1, couleur_titre)]
+            suite = advance(font, plan.group(0))   # retrait des lignes suivantes, sous le texte
+        else:
+            m = TP_INTITULE.match(e)
+            if m and len(m.group(1).split(' ')) <= 6 and not TP_VERBE.search(m.group(1)):
+                zones_tete = [(0, len(m.group(1)), couleur_titre)]
+        repli = wrap_text(font, e, max_width - x - suite)
+        for i, l in enumerate(repli):
+            zones = list(zones_tete) if i == 0 else []
+            zones += [(r.start(1), r.end(1), couleur_resultat) for r in TP_RESULTAT.finditer(l)]
+            lignes.append((l, base, x + (suite if i else 0), zones))
+    return lignes
+
+
+def advance(font, texte):
+    """Largeur d'avance d'un texte (espaces compris), pour placer les morceaux colorés."""
+    return int(sum(m[4] for m in font.get_metrics(texte) if m))
+
+
+def draw_zones(surface, font, pos, texte, couleur, zones):
+    """Affiche une ligne en colorant certaines zones [(début, fin, couleur)]."""
+    # Placement sur la ligne de base (origin) : les morceaux restent alignés entre eux
+    x, y = pos[0], pos[1] + font.get_sized_ascender()
+    origine, font.origin = font.origin, True
+    i = 0
+    for debut, fin, c in sorted(zones) + [(len(texte), len(texte), None)]:
+        if debut < i:
+            continue
+        for morceau, col in ((texte[i:debut], couleur), (texte[debut:fin], c)):
+            if morceau and col:
+                font.render_to(surface, (x, y), morceau, col)
+                x += advance(font, morceau)
+        i = fin
+    font.origin = origine
