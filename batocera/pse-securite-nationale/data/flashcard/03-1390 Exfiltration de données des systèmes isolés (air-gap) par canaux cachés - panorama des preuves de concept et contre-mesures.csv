@@ -17,4 +17,6 @@
 "Durcissement matériel ?","Désactiver/retirer les composants émetteurs (haut-parleurs, LED, ports, Wi-Fi, caméras). Efficace mais dégrade les fonctions."
 "Limites de la détection ?","Surveillance des émissions = beaucoup de fausses alertes (bruit ambiant) ; pare-feu ultrasonique contournable par un malware à privilèges élevés."
 "Cadre français ?","ANSSI : règles TEMPEST et zonage ; IGI 1300 pour le secret de la défense ; guides SI sensibles / diffusion restreinte. Revue 2025 : clause ISO 27001 dédiée."
+"TrojPix (2026) ?","Modulation de pixels imperceptibles faisant rayonner le câble vidéo : 8,1 Mbit/s et jusqu'à 208 m, sans privilège ni matériel. USENIX Security 2026, université du Shandong. Rompt la limite du débit faible."
+"SPECTER (2026) ?","Bits codés par la gestion de l'alimentation USB (hors transferts de données), lus par la charge d'un smartphone, un périphérique ou une antenne au contact du câble ; 0,2 à 1 bit/s. Université de Corée."
 "Nature de ces travaux ?","Preuves de concept académiques (article + démonstration), publiées pour mesurer le risque et concevoir les parades : recherche défensive."

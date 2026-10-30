@@ -84,6 +84,10 @@ II. LES CANAUX ÉLECTROMAGNÉTIQUES ET RADIO.
 
       Air-Fi, en 2022, fait émettre la machine dans la bande Wi-Fi, captée par un simple récepteur Wi-Fi.
 
+      TrojPix, publié à USENIX Security 2026 par une équipe de l'université du Shandong, module des pixels imperceptibles pour faire rayonner le câble vidéo numérique, sans privilège ni modification matérielle ; il atteint 8,1 mégabits par seconde en pointe et jusqu'à 208 mètres de portée, mesurés séparément.
+
+      TrojPix marque une rupture, car il réunit un débit élevé, une longue portée et l'invisibilité à l'écran, trois propriétés que les canaux antérieurs n'obtenaient pas ensemble.
+
    C. Les émissions de la mémoire et de l'alimentation.
 
       RAMBO, en 2024, pilote les accès à la mémoire vive pour épeler des données en signaux radio, jusqu'à environ 1 000 bits par seconde à quelques mètres.
@@ -154,6 +158,8 @@ VI. LES CANAUX THERMIQUES, ÉLECTRIQUES ET VIBRATOIRES.
 
       PowerHammer, en 2019, module la consommation du processeur et fait voyager le signal dans le câble électrique du bâtiment.
 
+      SPECTER, publié en 2026 par une équipe de l'université de Corée, code des bits par la gestion de l'alimentation USB de la machine, sans placer de données dans les transferts USB ; le signal est lu par l'état de charge d'un smartphone, le comportement d'un périphérique ou une antenne radio au contact du câble, à très bas débit, de l'ordre de 0,2 à 1 bit par seconde.
+
    B. Les vibrations lues par les smartphones.
 
       AiR-ViBeR, en 2020, transmet des vibrations au plan de travail, lues par l'accéléromètre d'un téléphone posé dessus.
@@ -210,7 +216,7 @@ POINTS D'ATTENTION.
 
       L'infection d'un réseau isolé passe presque toujours par un support amovible, comme l'ont montré Stuxnet et Agent.btz.
 
-      Les débits sont faibles : ces canaux volent des secrets courts, pas de gros fichiers.
+      Les débits sont le plus souvent faibles : ces canaux volent des secrets courts, pas de gros fichiers ; mais TrojPix (2026) atteint 8,1 mégabits par seconde, ce qui lève cette limite pour le canal du câble vidéo.
 
       Un récepteur doit être à portée, souvent quelques mètres, ce qui limite la menace mais ne l'annule pas.
 
@@ -240,6 +246,10 @@ EXEMPLES CITES.
 
       DiskSpy (2025) : vibrations d'un disque dur lues par radar à ondes millimétriques, jusqu'à vingt-deux mètres sans vue directe.
 
+      TrojPix (2026) : rayonnement du câble vidéo par pixels imperceptibles, 8,1 mégabits par seconde et jusqu'à 208 mètres.
+
+      SPECTER (2026) : bits codés par la gestion de l'alimentation USB, lus par la charge d'un smartphone ou une antenne au contact du câble.
+
       Stuxnet (2010) et Agent.btz (2008) : franchissement réel d'un air-gap par clé USB.
 
       APT37 (décembre 2025) : supports amovibles comme canal de commande vers des réseaux isolés.
@@ -257,5 +267,9 @@ SOURCES.
       Mordechai Guri, COVID-bit, Keep a Distance of at least 2m From My Air-Gap Computer, arXiv 2212.03520, 2022.
 
       Weiye Xu et autres, DiskSpy, Exploring a Long-Range Covert-Channel Attack against Air-Gapped Systems, USENIX Security 2025.
+
+      Guoming Zhang et autres, TrojPix, Electromagnetic Covert Channels via Imperceptible Pixel Modulation, USENIX Security 2026.
+
+      Hyeongjun Choi, Ji Hyuk Jung et Ji Won Yoon, SPECTER, Covert Data Exfiltration from Air-Gapped Systems via USB Power Modulation, arXiv 2610.28401, octobre 2026.
 
       Markus Kuhn et Ross Anderson, Soft TEMPEST, Hidden Data Transmission Using Electromagnetic Emanations, 1998.

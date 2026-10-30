@@ -2129,6 +2129,20 @@
    "pages": 19,
    "taille": 2282132,
    "url": "https://www.usenix.org/conference/usenixsecurity25"
+  },
+  {
+   "fichier": "source/trojpix-usenix-2026.pdf",
+   "titre": "Guoming Zhang et al., TrojPix, Electromagnetic Covert Channels via Imperceptible Pixel Modulation (USENIX Security 2026)",
+   "pages": 17,
+   "taille": 1134290,
+   "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/zhang-guoming"
+  },
+  {
+   "fichier": "source/specter-2026.pdf",
+   "titre": "Hyeongjun Choi, Ji Hyuk Jung, Ji Won Yoon, SPECTER, Covert Data Exfiltration via USB Power Modulation (arXiv 2610.28401, 2026)",
+   "pages": 11,
+   "taille": 239782,
+   "url": "https://arxiv.org/abs/2610.28401"
   }
  ]
 }
