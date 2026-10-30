@@ -1,0 +1,143 @@
+LA POLITIQUE DE SÉCURITÉ DES SYSTÈMES D'INFORMATION DE L'ÉTAT (PSSIE) ET LE RÉFÉRENTIEL GÉNÉRAL DE SÉCURITÉ (RGS).
+
+LEXIQUE COMPLET.
+
+      La politique de sécurité des systèmes d'information de l'État, ou PSSIE, est le cadre fixé par le Premier ministre par la circulaire n° 5725/SG du 17 juillet 2014, qui définit les règles de protection des systèmes d'information des administrations de l'État.
+
+      Le référentiel général de sécurité, ou RGS, est le référentiel qui fixe les règles de sécurité que doivent respecter les systèmes d'information des autorités administratives dans leurs échanges électroniques, avec les usagers et entre elles.
+
+      Une autorité administrative est, au sens du RGS, l'État, les collectivités territoriales, les établissements publics et les organismes chargés d'une mission de service public.
+
+      Le téléservice est un service de l'administration accessible par voie électronique, par lequel un usager accomplit une démarche en ligne, et qui doit respecter le RGS.
+
+      La fonction de sécurité est, dans le RGS, une catégorie de besoin à couvrir, parmi l'identification, l'authentification, la signature électronique, la confidentialité et l'horodatage.
+
+      Le niveau de sécurité, noté par une, deux ou trois étoiles, mesure la robustesse exigée d'une fonction de sécurité, du plus faible au plus élevé.
+
+      L'homologation de sécurité est la décision par laquelle une autorité atteste qu'un système est conforme aux objectifs de sécurité et accepte les risques résiduels ; elle est obligatoire pour les téléservices soumis au RGS.
+
+      La qualification est la reconnaissance par l'ANSSI qu'un produit de sécurité ou un prestataire répond à un niveau d'exigence défini.
+
+      Un prestataire de services de confiance qualifié est un organisme qualifié pour délivrer des services tels que la certification électronique, l'horodatage ou la signature.
+
+      Le règlement eIDAS est le règlement européen n° 910/2014 sur l'identification électronique et les services de confiance, avec lequel le RGS s'articule.
+
+      La chaîne fonctionnelle de la sécurité des systèmes d'information est l'organisation des responsables SSI de l'État, du niveau interministériel au niveau local, qui met en œuvre la PSSIE.
+
+      Le haut fonctionnaire de défense et de sécurité, ou HFDS, anime la politique de sécurité au sein de chaque ministère.
+
+      Le fonctionnaire de sécurité des systèmes d'information, ou FSSI, assiste le HFDS et pilote la SSI du ministère.
+
+      L'autorité qualifiée en sécurité des systèmes d'information, ou AQSSI, est responsable de la SSI de son périmètre et prononce les homologations.
+
+      La défense en profondeur est la superposition de plusieurs lignes de protection indépendantes pour qu'une défaillance unique ne compromette pas tout le système.
+
+COURS DÉTAILLÉ.
+
+I. DEUX TEXTES DE PORTÉE DIFFÉRENTE.
+
+   A. La PSSIE, une politique interne à l'État.
+
+      La PSSIE s'adresse aux administrations de l'État et fixe les règles qu'elles doivent appliquer pour protéger leurs propres systèmes d'information.
+
+      Elle a été arrêtée par le Premier ministre par la circulaire n° 5725/SG du 17 juillet 2014 et s'appuie sur l'ANSSI pour sa mise en œuvre.
+
+   B. Le RGS, une exigence tournée vers les échanges.
+
+      Le RGS fixe les règles de sécurité des systèmes d'information des autorités administratives lorsqu'elles échangent par voie électronique, avec les usagers et entre elles.
+
+      Il concerne donc les téléservices et les démarches en ligne, au-delà du seul État, puisqu'il s'applique aussi aux collectivités territoriales et aux établissements publics.
+
+II. LA POLITIQUE DE SÉCURITÉ DES SYSTÈMES D'INFORMATION DE L'ÉTAT.
+
+   A. Les objectifs.
+
+      La PSSIE vise à protéger les systèmes d'information de l'État, à garantir la continuité des missions et à renforcer la confiance des usagers dans l'administration numérique.
+
+      Elle pose un socle commun de règles, décliné ensuite par chaque ministère dans sa propre politique de sécurité.
+
+   B. Les principes directeurs.
+
+      La PSSIE repose sur une série de principes stratégiques, parmi lesquels la responsabilité des autorités, la défense en profondeur, l'homologation des systèmes et le recours à des produits et prestataires qualifiés.
+
+      Elle impose le cloisonnement des réseaux, la maîtrise des interconnexions avec Internet, la journalisation des événements et la sensibilisation des agents.
+
+      Elle s'appuie sur la chaîne fonctionnelle de la sécurité des systèmes d'information, du HFDS et du FSSI dans chaque ministère jusqu'à l'AQSSI et au RSSI.
+
+   C. La mise en œuvre.
+
+      Chaque ministère décline la PSSIE dans une politique ministérielle et rend compte de son application.
+
+      L'ANSSI appuie les administrations, publie des guides et contrôle le respect des règles ; les systèmes sensibles sont homologués avant leur mise en service.
+
+III. LE RÉFÉRENTIEL GÉNÉRAL DE SÉCURITÉ.
+
+   A. Le fondement juridique.
+
+      Le RGS trouve son fondement dans l'ordonnance n° 2005-1516 du 8 décembre 2005 relative aux échanges électroniques entre les usagers et les autorités administratives, et dans ses décrets d'application.
+
+      Sa version 2.0 a été approuvée en 2014 et s'articule avec le règlement européen eIDAS sur l'identification électronique et les services de confiance.
+
+   B. Les cinq fonctions de sécurité.
+
+      Le RGS organise la sécurité autour de cinq fonctions, l'identification, l'authentification, la signature électronique, la confidentialité et l'horodatage.
+
+      Pour chaque fonction, il définit des niveaux de sécurité notés par une, deux ou trois étoiles, à choisir selon les risques du téléservice.
+
+   C. La démarche imposée.
+
+      L'autorité administrative conduit une analyse des risques du téléservice, puis choisit les fonctions et niveaux de sécurité adaptés.
+
+      Le téléservice doit être homologué avant sa mise en service, l'homologation attestant la conformité au RGS et l'acceptation des risques résiduels.
+
+      Les produits de sécurité et les prestataires de services de confiance employés doivent être qualifiés au niveau requis, par exemple pour la certification électronique ou l'horodatage.
+
+IV. L'ARTICULATION DES DEUX TEXTES.
+
+   A. Des rôles complémentaires.
+
+      La PSSIE protège les systèmes internes de l'État, le RGS encadre la sécurité des échanges électroniques avec les usagers et entre administrations.
+
+      Les deux s'appuient sur les mêmes principes, l'analyse de risque, l'homologation et la qualification des produits et prestataires par l'ANSSI.
+
+   B. Le rôle central de l'ANSSI.
+
+      L'ANSSI prépare ces textes, publie les guides d'application, qualifie les produits et les prestataires et contrôle leur mise en œuvre.
+
+      Elle assure ainsi la cohérence entre la sécurité interne des administrations et la sécurité de leurs services en ligne.
+
+POINTS D'ATTENTION.
+
+      La PSSIE protège les systèmes d'information internes de l'État, le RGS encadre la sécurité des échanges électroniques et des téléservices.
+
+      La PSSIE découle de la circulaire n° 5725/SG du 17 juillet 2014 du Premier ministre.
+
+      Le RGS découle de l'ordonnance n° 2005-1516 du 8 décembre 2005 et de ses décrets, et sa version 2.0 date de 2014.
+
+      Le RGS définit cinq fonctions de sécurité, identification, authentification, signature électronique, confidentialité et horodatage, à trois niveaux notés par des étoiles.
+
+      L'homologation de sécurité est obligatoire avant la mise en service d'un téléservice soumis au RGS.
+
+      Le RGS impose des produits et des prestataires de confiance qualifiés par l'ANSSI, et s'articule avec le règlement européen eIDAS.
+
+      Le RGS s'applique à toutes les autorités administratives, l'État mais aussi les collectivités et les établissements publics, alors que la PSSIE vise les administrations de l'État.
+
+EXEMPLES CITES.
+
+      Une mairie qui ouvre un téléservice de demande en ligne conduit une analyse de risque, choisit les fonctions et niveaux du RGS, puis l'homologue avant ouverture.
+
+      Un ministère décline la PSSIE dans sa politique ministérielle et homologue ses systèmes sensibles avant mise en service.
+
+      Un téléservice qui exige une signature électronique recourt à un prestataire de certification qualifié au niveau requis.
+
+      L'ANSSI qualifie un produit d'horodatage employé par une administration pour un téléservice soumis au RGS.
+
+SOURCES.
+
+      Politique de sécurité des systèmes d'information de l'État, circulaire du Premier ministre n° 5725/SG du 17 juillet 2014.
+
+      Référentiel général de sécurité, version 2.0, corps du texte, ANSSI et direction interministérielle du numérique.
+
+      Ordonnance n° 2005-1516 du 8 décembre 2005 relative aux échanges électroniques entre les usagers et les autorités administratives.
+
+      Règlement (UE) n° 910/2014 du 23 juillet 2014 sur l'identification électronique et les services de confiance (eIDAS), pour l'articulation européenne.

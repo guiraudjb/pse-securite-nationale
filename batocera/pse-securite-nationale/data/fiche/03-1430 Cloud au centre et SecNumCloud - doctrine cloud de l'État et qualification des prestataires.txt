@@ -1,0 +1,131 @@
+LA DOCTRINE CLOUD AU CENTRE DE L'ÉTAT ET LA QUALIFICATION SECNUMCLOUD.
+
+LEXIQUE COMPLET.
+
+      L'informatique en nuage, ou cloud computing, est un modèle qui fournit à la demande, par un réseau, des ressources informatiques partagées et configurables, comme le calcul, le stockage et des applications.
+
+      La doctrine Cloud au centre est la doctrine d'utilisation de l'informatique en nuage par l'État, fixée par la circulaire du Premier ministre n° 6282/SG du 5 juillet 2021, puis actualisée par la circulaire n° 6404/SG du 31 mai 2023.
+
+      Le principe du cloud au centre signifie que le recours à l'informatique en nuage devient le mode d'hébergement et de production par défaut des nouveaux projets numériques de l'État.
+
+      Le cloud de confiance est une offre de cloud qui réunit un haut niveau de sécurité et une protection contre l'application des législations extraterritoriales, matérialisée par la qualification SecNumCloud.
+
+      SecNumCloud est le référentiel de l'ANSSI qui fixe les exigences applicables aux prestataires de services d'informatique en nuage et permet de les qualifier.
+
+      La qualification SecNumCloud est la reconnaissance par l'ANSSI qu'un prestataire de cloud satisfait aux exigences du référentiel, pour un niveau de sécurité élevé.
+
+      Une législation extraterritoriale est une loi étrangère qui prétend s'appliquer à des données hébergées hors de son territoire, par exemple au motif de la nationalité du prestataire.
+
+      Le Cloud Act est une loi des États-Unis qui permet à leurs autorités d'exiger d'un fournisseur soumis au droit américain la communication de données, où qu'elles soient stockées.
+
+      L'immunité aux lois extraterritoriales est la garantie qu'un prestataire qualifié n'est pas soumis à un droit étranger susceptible de contraindre à divulguer les données qu'il héberge.
+
+      Une donnée sensible est, dans ce cadre, une donnée dont la compromission porterait une atteinte sérieuse, sans nécessairement relever du secret de la défense nationale.
+
+      Le cloud interne, ou cloud privé de l'État, est une offre d'informatique en nuage opérée par l'État lui-même pour ses propres besoins.
+
+      Le cloud commercial est une offre fournie par un prestataire du marché, qui doit être qualifiée SecNumCloud pour accueillir les données les plus sensibles de l'État.
+
+      Le label cloud de confiance est la reconnaissance, par l'État, d'offres commerciales qualifiées SecNumCloud et protégées des législations extraterritoriales.
+
+COURS DÉTAILLÉ.
+
+I. LA DOCTRINE CLOUD AU CENTRE.
+
+   A. Un changement de modèle d'hébergement.
+
+      La doctrine Cloud au centre, fixée par la circulaire n° 6282/SG du 5 juillet 2021, érige l'informatique en nuage en mode d'hébergement par défaut des projets numériques de l'État.
+
+      Elle remplace l'ancienne logique où chaque administration hébergeait ses applications sur ses propres serveurs, au profit d'un recours systématique au cloud.
+
+      La circulaire n° 6404/SG du 31 mai 2023 a actualisé cette doctrine et précisé ses modalités, en confirmant le principe.
+
+   B. Les offres mises à disposition.
+
+      L'État dispose d'offres de cloud interne, opérées par ses propres services, et peut recourir à des offres commerciales du marché.
+
+      Le choix de l'offre dépend de la sensibilité des données et des applications concernées.
+
+   C. L'orientation selon la sensibilité des données.
+
+      Les données les plus sensibles de l'État doivent être hébergées sur une offre qualifiée SecNumCloud, protégée des législations extraterritoriales.
+
+      Les données moins sensibles peuvent recourir à des offres commerciales plus larges, dans le respect des règles de sécurité.
+
+II. LA QUALIFICATION SECNUMCLOUD.
+
+   A. Un référentiel d'exigences de l'ANSSI.
+
+      SecNumCloud est le référentiel par lequel l'ANSSI fixe les exigences de sécurité applicables aux prestataires de services d'informatique en nuage.
+
+      Il couvre la gouvernance de la sécurité, la protection physique et logique, la gestion des incidents, la localisation et la réversibilité des données.
+
+      La version de référence est la version 3.2, publiée le 8 mars 2022.
+
+   B. La protection contre les lois extraterritoriales.
+
+      Au-delà de la sécurité technique, SecNumCloud impose des garanties juridiques visant à soustraire le prestataire à l'emprise de législations extraterritoriales.
+
+      Le prestataire qualifié ne doit pas pouvoir être contraint, par un droit étranger comme le Cloud Act américain, de divulguer les données qu'il héberge.
+
+      Cette combinaison de sécurité et d'immunité juridique fonde la notion de cloud de confiance.
+
+   C. La portée de la qualification.
+
+      La qualification SecNumCloud atteste qu'un prestataire satisfait à l'ensemble des exigences du référentiel, à un niveau de sécurité élevé.
+
+      Elle est délivrée pour une durée limitée, à l'issue d'une évaluation, et peut être retirée en cas de manquement.
+
+III. L'ARTICULATION DE LA DOCTRINE ET DE LA QUALIFICATION.
+
+   A. Le cloud de confiance pour les données sensibles.
+
+      La doctrine Cloud au centre impose, pour les données sensibles de l'État, le recours à une offre qualifiée SecNumCloud, c'est-à-dire de confiance.
+
+      La qualification est ainsi le critère de sécurité qui conditionne l'hébergement des données les plus sensibles.
+
+   B. Le rôle de l'ANSSI et de la DINUM.
+
+      L'ANSSI élabore le référentiel SecNumCloud, évalue et qualifie les prestataires.
+
+      La direction interministérielle du numérique, ou DINUM, pilote la transformation numérique de l'État et la mise en œuvre de la doctrine Cloud au centre.
+
+   C. Les enjeux de souveraineté.
+
+      Le cloud de confiance répond à un enjeu de souveraineté numérique, en réduisant la dépendance de l'État à des prestataires soumis à des droits étrangers.
+
+      Il vise à garantir que les données publiques les plus sensibles restent protégées, y compris contre les demandes d'autorités étrangères.
+
+POINTS D'ATTENTION.
+
+      La doctrine Cloud au centre fait de l'informatique en nuage le mode d'hébergement par défaut des projets numériques de l'État.
+
+      Elle découle de la circulaire n° 6282/SG du 5 juillet 2021, actualisée par la circulaire n° 6404/SG du 31 mai 2023.
+
+      SecNumCloud est un référentiel de l'ANSSI qui qualifie les prestataires de cloud, dans sa version 3.2 du 8 mars 2022.
+
+      Le cloud de confiance réunit la qualification SecNumCloud et la protection contre les législations extraterritoriales comme le Cloud Act.
+
+      Les données sensibles de l'État doivent être hébergées sur une offre qualifiée SecNumCloud.
+
+      La qualification porte à la fois sur la sécurité technique et sur l'immunité juridique du prestataire.
+
+      La DINUM pilote la doctrine Cloud au centre, l'ANSSI élabore et délivre la qualification SecNumCloud.
+
+EXEMPLES CITES.
+
+      Un nouveau projet numérique de l'État est hébergé dans le cloud par défaut, conformément à la doctrine Cloud au centre.
+
+      Une application traitant des données sensibles est hébergée chez un prestataire qualifié SecNumCloud, donc de confiance.
+
+      Un prestataire qualifié SecNumCloud ne peut être contraint par le Cloud Act américain de divulguer les données qu'il héberge.
+
+      L'ANSSI retire une qualification SecNumCloud à un prestataire qui ne respecte plus les exigences du référentiel.
+
+SOURCES.
+
+      Circulaire du Premier ministre n° 6282/SG du 5 juillet 2021 relative à la doctrine d'utilisation de l'informatique en nuage par l'État (Cloud au centre).
+
+      Circulaire du Premier ministre n° 6404/SG du 31 mai 2023 actualisant la doctrine Cloud au centre.
+
+      ANSSI, Référentiel SecNumCloud, exigences applicables aux prestataires de services d'informatique en nuage, version 3.2 du 8 mars 2022.

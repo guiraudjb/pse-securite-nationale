@@ -1,0 +1,137 @@
+LES DIRECTIVES EUROPÉENNES NIS 1 ET NIS 2 SUR LA SÉCURITÉ DES RÉSEAUX ET DES SYSTÈMES D'INFORMATION.
+
+LEXIQUE COMPLET.
+
+      La directive NIS, pour Network and Information Security, est la législation de l'Union européenne qui impose des mesures de cybersécurité aux acteurs essentiels de l'économie et de la société.
+
+      La directive NIS 1 est la directive (UE) 2016/1148 du 6 juillet 2016, première législation européenne commune sur la cybersécurité.
+
+      La directive NIS 2 est la directive (UE) 2022/2555 du 14 décembre 2022, qui abroge et remplace NIS 1 en élargissant fortement son champ et ses exigences.
+
+      Un opérateur de services essentiels, ou OSE, est, sous NIS 1, une entité dont l'activité est essentielle et dépend des réseaux et systèmes d'information, désignée par l'État.
+
+      Un fournisseur de service numérique, ou FSN, est, sous NIS 1, un fournisseur de place de marché en ligne, de moteur de recherche ou de service d'informatique en nuage.
+
+      Une entité essentielle est, sous NIS 2, une entité des secteurs les plus critiques et de grande taille, soumise au régime le plus exigeant.
+
+      Une entité importante est, sous NIS 2, une entité d'un secteur critique qui n'atteint pas le niveau d'entité essentielle, soumise à un régime allégé mais contraignant.
+
+      La notification d'incident est l'obligation de signaler à l'autorité nationale, dans des délais fixés, les incidents de sécurité significatifs.
+
+      La gestion des risques est l'ensemble des mesures techniques et organisationnelles qu'une entité doit prendre pour maîtriser les risques pesant sur ses réseaux et systèmes d'information.
+
+      L'ANSSI, Agence nationale de la sécurité des systèmes d'information, est l'autorité nationale française compétente pour la mise en œuvre des directives NIS.
+
+      La transposition est l'opération par laquelle un État membre introduit dans son droit national les obligations d'une directive européenne.
+
+      Le référentiel cyber France, ou ReCyF, est le référentiel publié par l'ANSSI pour accompagner les entités dans la mise en conformité avec les exigences de type NIS 2.
+
+      La directive sur la résilience des entités critiques, ou directive CER, est la directive (UE) 2022/2557, adoptée en même temps que NIS 2, qui traite de la résilience physique des entités critiques.
+
+COURS DÉTAILLÉ.
+
+I. LA DIRECTIVE NIS 1.
+
+   A. La première législation européenne de cybersécurité.
+
+      La directive NIS 1, directive (UE) 2016/1148 du 6 juillet 2016, est la première législation commune de l'Union européenne en matière de cybersécurité.
+
+      Elle vise à élever le niveau de sécurité des réseaux et des systèmes d'information dans l'ensemble de l'Union.
+
+      La France l'a transposée par la loi n° 2018-133 du 26 février 2018 et ses textes d'application.
+
+   B. Les entités concernées.
+
+      NIS 1 distingue les opérateurs de services essentiels, désignés par l'État dans des secteurs comme l'énergie, les transports, la santé, l'eau, la banque et les infrastructures numériques.
+
+      Elle vise aussi les fournisseurs de service numérique, places de marché en ligne, moteurs de recherche et services d'informatique en nuage.
+
+   C. Les obligations.
+
+      Les entités doivent prendre des mesures techniques et organisationnelles pour gérer les risques pesant sur leurs systèmes.
+
+      Elles doivent notifier à l'autorité nationale les incidents ayant un impact significatif.
+
+      En France, l'ANSSI est l'autorité nationale, reçoit les notifications et peut conduire des contrôles.
+
+II. LA DIRECTIVE NIS 2.
+
+   A. Un élargissement majeur.
+
+      La directive NIS 2, directive (UE) 2022/2555 du 14 décembre 2022, abroge NIS 1 et élargit fortement le champ de la cybersécurité européenne.
+
+      Elle couvre un nombre beaucoup plus grand de secteurs et d'entités, de l'énergie et la santé à l'administration publique, l'espace, la gestion des déchets ou l'agroalimentaire.
+
+      Elle remplace la désignation au cas par cas par des critères, notamment de taille, qui font entrer automatiquement dans le champ les moyennes et grandes entreprises des secteurs visés.
+
+   B. Entités essentielles et entités importantes.
+
+      NIS 2 distingue les entités essentielles, dans les secteurs les plus critiques et de grande taille, et les entités importantes, à un niveau d'exigence un peu allégé.
+
+      Les entités essentielles sont soumises à une supervision plus stricte que les entités importantes.
+
+   C. Des obligations renforcées.
+
+      Les entités doivent mettre en œuvre des mesures de gestion des risques détaillées, couvrant notamment la sécurité de la chaîne d'approvisionnement et la continuité d'activité.
+
+      La notification d'incident est encadrée par des délais courts, avec une première alerte rapide suivie d'un rapport plus complet.
+
+      La directive engage la responsabilité des organes de direction et prévoit des sanctions, y compris des amendes significatives.
+
+III. LA SITUATION EN FRANCE ET L'ARTICULATION DES TEXTES.
+
+   A. Un délai de transposition dépassé.
+
+      La directive NIS 2 fixait aux États membres un délai de transposition expirant le 17 octobre 2024.
+
+      À la date de la fiche, la transposition française n'est pas encore en vigueur, le projet de loi de résilience et de cybersécurité n'ayant pas abouti.
+
+      La Commission européenne a engagé une procédure contre la France pour ce retard de transposition.
+
+   B. L'anticipation par l'ANSSI.
+
+      Pour accompagner les futures entités régulées, l'ANSSI a publié en 2026 un référentiel cyber France, destiné à préparer la mise en conformité.
+
+      Les entités concernées sont invitées à se préparer sans attendre l'entrée en vigueur de la loi de transposition.
+
+   C. L'articulation avec les autres dispositifs.
+
+      NIS 2 est adoptée en même temps que la directive sur la résilience des entités critiques, qui traite de la résilience physique, les deux se complétant.
+
+      En France, les futures entités NIS 2 recoupent en partie les opérateurs d'importance vitale, mais le champ de NIS 2 est beaucoup plus large.
+
+POINTS D'ATTENTION.
+
+      NIS 1 est la directive (UE) 2016/1148 du 6 juillet 2016, première législation européenne de cybersécurité, transposée en France par la loi du 26 février 2018.
+
+      NIS 2 est la directive (UE) 2022/2555 du 14 décembre 2022, qui abroge NIS 1 et élargit fortement le champ.
+
+      NIS 1 vise les opérateurs de services essentiels et les fournisseurs de service numérique.
+
+      NIS 2 distingue les entités essentielles et les entités importantes, avec une entrée automatique selon la taille et le secteur.
+
+      La transposition française de NIS 2 n'est pas en vigueur à la date de la fiche, malgré un délai expiré le 17 octobre 2024, et la Commission a engagé une procédure contre la France.
+
+      L'ANSSI a publié un référentiel cyber France pour préparer les entités à la mise en conformité.
+
+      NIS 2 va de pair avec la directive sur la résilience des entités critiques, qui traite du volet physique.
+
+EXEMPLES CITES.
+
+      Sous NIS 1, un gestionnaire de réseau d'électricité désigné opérateur de services essentiels notifie à l'ANSSI un incident majeur.
+
+      Sous NIS 2, une entreprise de taille moyenne d'un secteur critique entre automatiquement dans le champ sans désignation individuelle.
+
+      Une entité essentielle met en place une gestion des risques couvrant sa chaîne d'approvisionnement et notifie rapidement tout incident significatif.
+
+      En l'absence de loi de transposition en vigueur, une entreprise s'appuie sur le référentiel cyber France de l'ANSSI pour se préparer.
+
+SOURCES.
+
+      Directive (UE) 2016/1148 du Parlement européen et du Conseil du 6 juillet 2016 concernant des mesures destinées à assurer un niveau élevé commun de sécurité des réseaux et des systèmes d'information dans l'Union (NIS 1).
+
+      Directive (UE) 2022/2555 du Parlement européen et du Conseil du 14 décembre 2022 concernant des mesures pour un niveau élevé commun de cybersécurité dans l'ensemble de l'Union (NIS 2).
+
+      Loi n° 2018-133 du 26 février 2018 portant diverses dispositions d'adaptation au droit de l'Union européenne dans le domaine de la sécurité, pour la transposition de NIS 1.
+
+      ANSSI, référentiel cyber France, publié en 2026 pour accompagner la préparation aux exigences de type NIS 2.

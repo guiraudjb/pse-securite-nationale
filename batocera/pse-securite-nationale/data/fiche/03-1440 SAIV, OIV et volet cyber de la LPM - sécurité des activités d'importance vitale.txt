@@ -1,0 +1,143 @@
+LA SÉCURITÉ DES ACTIVITÉS D'IMPORTANCE VITALE, LES OPÉRATEURS D'IMPORTANCE VITALE ET LE VOLET CYBER DE LA LOI DE PROGRAMMATION MILITAIRE.
+
+LEXIQUE COMPLET.
+
+      La sécurité des activités d'importance vitale, ou SAIV, est le dispositif national qui associe l'État et des opérateurs à la protection des activités indispensables à la vie de la Nation et au potentiel de défense et de sécurité.
+
+      Un secteur d'activités d'importance vitale est un domaine regroupant des activités essentielles, comme l'énergie, les transports, la santé, l'eau, les communications ou la finance ; le dispositif en compte douze.
+
+      Un opérateur d'importance vitale, ou OIV, est un opérateur public ou privé désigné par l'État parce qu'il exploite des installations dont l'indisponibilité ou la destruction porterait gravement atteinte à la Nation.
+
+      Un point d'importance vitale, ou PIV, est une installation précise d'un OIV dont la protection est jugée essentielle.
+
+      Un système d'information d'importance vitale, ou SIIV, est un système d'information dont l'atteinte compromettrait les activités vitales d'un OIV, et qui est soumis à des obligations de cybersécurité renforcées.
+
+      La directive nationale de sécurité, ou DNS, est un document établi par secteur qui fixe les objectifs et les menaces de référence à prendre en compte par les OIV du secteur.
+
+      Le plan de sécurité d'opérateur, ou PSO, est le plan par lequel un OIV décrit l'organisation et les mesures qu'il met en place pour protéger ses activités vitales.
+
+      Le plan particulier de protection, ou PPP, est le plan de protection propre à chaque point d'importance vitale, préparé par l'opérateur.
+
+      Le plan de protection externe, ou PPE, est le plan établi par le préfet pour la protection d'un point d'importance vitale par les forces de l'État.
+
+      La loi de programmation militaire, ou LPM, est la loi qui fixe pour plusieurs années les moyens et les orientations de la défense, et qui a introduit les obligations de cybersécurité des OIV.
+
+      L'ANSSI, Agence nationale de la sécurité des systèmes d'information, est l'autorité nationale qui fixe les règles de cybersécurité des OIV, reçoit les déclarations d'incidents et conduit les contrôles.
+
+      Le secrétariat général de la défense et de la sécurité nationale, ou SGDSN, pilote le dispositif SAIV et prépare les instructions interministérielles qui l'encadrent.
+
+      L'instruction générale interministérielle n° 6600, ou IGI 6600/SGDSN du 7 janvier 2014, précise l'organisation et les modalités du dispositif de sécurité des activités d'importance vitale.
+
+      Un prestataire de détection des incidents de sécurité, ou PDIS, est un prestataire qualifié par l'ANSSI pour exploiter les systèmes de détection des OIV.
+
+COURS DÉTAILLÉ.
+
+I. LE DISPOSITIF DE SÉCURITÉ DES ACTIVITÉS D'IMPORTANCE VITALE.
+
+   A. Le fondement et le pilotage.
+
+      Le dispositif SAIV est défini par le code de la défense, aux articles L. 1332-1 et suivants, et piloté par le secrétariat général de la défense et de la sécurité nationale.
+
+      Il est précisé par l'instruction générale interministérielle n° 6600/SGDSN du 7 janvier 2014, qui en organise la mise en œuvre.
+
+      Il associe l'État et des opérateurs à la protection des activités indispensables à la vie de la Nation.
+
+   B. Les secteurs et les opérateurs.
+
+      Le dispositif distingue douze secteurs d'activités d'importance vitale, comme l'énergie, les transports, la santé, l'eau, l'alimentation, les communications électroniques et la finance.
+
+      Dans chaque secteur, l'État désigne des opérateurs d'importance vitale, publics ou privés, dont les installations sont essentielles.
+
+      On dénombre de l'ordre de trois cents opérateurs d'importance vitale et environ mille cinq cents points d'importance vitale.
+
+   C. Les outils de protection.
+
+      Pour chaque secteur, une directive nationale de sécurité fixe les objectifs et les menaces de référence.
+
+      Chaque opérateur établit un plan de sécurité d'opérateur, puis un plan particulier de protection pour chacun de ses points d'importance vitale.
+
+      Le préfet établit, pour chaque point d'importance vitale, un plan de protection externe mobilisant les forces de l'État.
+
+II. LES OBLIGATIONS DE CYBERSÉCURITÉ ISSUES DE LA LOI DE PROGRAMMATION MILITAIRE.
+
+   A. Un volet cyber introduit en 2013.
+
+      La loi de programmation militaire pour les années 2014 à 2019, du 18 décembre 2013, a introduit des obligations de cybersécurité pour les opérateurs d'importance vitale.
+
+      Ces obligations figurent désormais dans le code de la défense, aux articles L. 1332-6-1 et suivants.
+
+      Elles confient à l'ANSSI, au nom du Premier ministre, un rôle central dans leur définition et leur contrôle.
+
+   B. Les obligations des opérateurs.
+
+      Chaque opérateur d'importance vitale identifie et déclare à l'ANSSI ses systèmes d'information d'importance vitale.
+
+      Il applique les règles de sécurité fixées par arrêtés sectoriels pris par le Premier ministre sur proposition de l'ANSSI.
+
+      Il déclare sans délai à l'ANSSI les incidents affectant ses systèmes d'information d'importance vitale.
+
+      Il met en place des systèmes de détection exploités par des prestataires qualifiés, et se soumet à des contrôles de l'ANSSI.
+
+   C. Le renforcement par les lois suivantes.
+
+      La loi de programmation militaire du 13 juillet 2018 a renforcé la détection des menaces, en permettant la mise en place de dispositifs sur les réseaux des opérateurs.
+
+      La loi de programmation militaire pour les années 2024 à 2030, du 1er août 2023, a étendu les capacités de l'ANSSI et des opérateurs face aux menaces.
+
+      Ces lois successives ont consolidé un cadre dans lequel les OIV sont tenus à un niveau élevé de cybersécurité.
+
+III. L'ARTICULATION AVEC LES AUTRES DISPOSITIFS.
+
+   A. Le lien avec la sécurité physique.
+
+      Le volet cyber de la loi de programmation militaire s'ajoute au dispositif SAIV existant, qui protège aussi les installations physiques.
+
+      Un même opérateur applique donc à la fois les plans de protection physique et les règles de cybersécurité de ses systèmes d'information d'importance vitale.
+
+   B. Le lien avec la réglementation européenne.
+
+      Les opérateurs d'importance vitale recoupent largement les opérateurs de services essentiels de la réglementation européenne sur la sécurité des réseaux et des systèmes d'information.
+
+      La réforme européenne en cours, autour de la directive NIS 2 et de la directive sur la résilience des entités critiques, doit élargir le périmètre des entités soumises à des obligations.
+
+   C. Le rôle de l'ANSSI et du SGDSN.
+
+      Le SGDSN pilote le dispositif SAIV et prépare les instructions interministérielles.
+
+      L'ANSSI fixe les règles de cybersécurité des OIV, reçoit les déclarations d'incidents, qualifie les prestataires et conduit les contrôles.
+
+POINTS D'ATTENTION.
+
+      Le dispositif SAIV repose sur le code de la défense, articles L. 1332-1 et suivants, et sur l'instruction générale interministérielle n° 6600/SGDSN du 7 janvier 2014.
+
+      Il n'existe pas d'instruction portant le numéro 1337 en la matière ; la référence correcte est l'IGI 6600.
+
+      Le dispositif distingue douze secteurs d'activités d'importance vitale, de l'ordre de trois cents OIV et environ mille cinq cents points d'importance vitale.
+
+      Les outils de protection sont la directive nationale de sécurité par secteur, le plan de sécurité d'opérateur, le plan particulier de protection par point et le plan de protection externe établi par le préfet.
+
+      Le volet cyber vient de la loi de programmation militaire du 18 décembre 2013, codifiée aux articles L. 1332-6-1 et suivants du code de la défense.
+
+      Les OIV déclarent leurs systèmes d'information d'importance vitale, appliquent des règles sectorielles, déclarent les incidents et se soumettent aux contrôles de l'ANSSI.
+
+      Les lois de programmation militaire de 2018 et de 2023 ont renforcé la détection et les capacités face aux menaces.
+
+EXEMPLES CITES.
+
+      Un opérateur du secteur de l'énergie désigné OIV déclare ses systèmes d'information d'importance vitale et applique les arrêtés sectoriels de l'ANSSI.
+
+      Un point d'importance vitale fait l'objet d'un plan particulier de protection par l'opérateur et d'un plan de protection externe par le préfet.
+
+      Un OIV déclare sans délai à l'ANSSI un incident majeur affectant un de ses systèmes d'information d'importance vitale.
+
+      Un opérateur met en place un système de détection exploité par un prestataire qualifié PDIS, conformément à la loi de programmation militaire.
+
+SOURCES.
+
+      Code de la défense, articles L. 1332-1 et suivants et L. 1332-6-1 et suivants, relatifs à la sécurité des activités d'importance vitale et à la cybersécurité des opérateurs d'importance vitale.
+
+      Instruction générale interministérielle n° 6600/SGDSN relative à la sécurité des activités d'importance vitale, du 7 janvier 2014.
+
+      Loi n° 2013-1168 du 18 décembre 2013 relative à la programmation militaire pour les années 2014 à 2019, pour le volet cyber des opérateurs d'importance vitale.
+
+      Loi n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030.

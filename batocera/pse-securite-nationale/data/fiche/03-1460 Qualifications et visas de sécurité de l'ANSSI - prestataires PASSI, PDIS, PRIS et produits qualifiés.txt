@@ -1,0 +1,131 @@
+LES QUALIFICATIONS ET VISAS DE SÉCURITÉ DE L'ANSSI, PRESTATAIRES PASSI, PDIS, PRIS ET PRODUITS QUALIFIÉS.
+
+LEXIQUE COMPLET.
+
+      Le visa de sécurité de l'ANSSI est le label qui regroupe les certifications et les qualifications délivrées par l'agence pour attester la confiance dans un produit ou un prestataire de sécurité.
+
+      La certification est l'évaluation technique de la robustesse d'un produit de sécurité, conduite par un centre d'évaluation agréé et validée par l'ANSSI.
+
+      La qualification est la recommandation par l'État d'un produit ou d'un prestataire, pour un usage défini et un niveau de confiance donné, qui s'appuie sur une évaluation et sur des critères complémentaires.
+
+      La certification de sécurité de premier niveau, ou CSPN, est une certification française rapide, qui évalue un produit à l'épreuve d'attaques en un temps et une charge limités.
+
+      Les critères communs sont un référentiel international d'évaluation de la sécurité des produits, avec des niveaux d'assurance notés de EAL1 à EAL7.
+
+      Un centre d'évaluation de la sécurité des technologies de l'information, ou CESTI, est un laboratoire agréé qui réalise les évaluations en vue d'une certification.
+
+      Le prestataire d'audit de la sécurité des systèmes d'information, ou PASSI, est un prestataire qualifié par l'ANSSI pour réaliser des audits de sécurité.
+
+      Le prestataire de détection des incidents de sécurité, ou PDIS, est un prestataire qualifié pour détecter les incidents de sécurité, notamment pour les opérateurs d'importance vitale.
+
+      Le prestataire de réponse aux incidents de sécurité, ou PRIS, est un prestataire qualifié pour aider une entité à répondre à un incident et à en réduire les effets.
+
+      Le prestataire d'accompagnement et de conseil en sécurité, ou PACS, est un prestataire qualifié pour conseiller les entités dans la sécurisation de leurs systèmes.
+
+      Le niveau de qualification, élémentaire, standard ou renforcé, mesure le degré de confiance attaché à un produit qualifié.
+
+      L'homologation de sécurité est la décision par laquelle une autorité atteste qu'un système est protégé conformément aux objectifs et accepte les risques résiduels, en s'appuyant souvent sur des produits et prestataires qualifiés.
+
+COURS DÉTAILLÉ.
+
+I. LA LOGIQUE DES VISAS DE SÉCURITÉ.
+
+   A. Donner confiance dans les produits et les prestataires.
+
+      L'ANSSI délivre des visas de sécurité pour permettre aux utilisateurs de choisir des produits et des prestataires dont la sécurité a été vérifiée.
+
+      Le visa de sécurité regroupe deux grandes familles, les certifications, qui évaluent des produits, et les qualifications, qui recommandent des produits ou des prestataires.
+
+   B. La différence entre certification et qualification.
+
+      La certification est une évaluation technique de la robustesse d'un produit, réalisée par un centre d'évaluation agréé et validée par l'ANSSI.
+
+      La qualification va plus loin, car c'est une recommandation de l'État pour un usage, qui ajoute à l'évaluation des critères de confiance, notamment sur l'éditeur et le respect de la réglementation.
+
+      Un produit qualifié est donc d'abord évalué, puis recommandé par l'État pour un niveau d'usage déterminé.
+
+II. LA CERTIFICATION ET LA QUALIFICATION DES PRODUITS.
+
+   A. Les deux schémas de certification.
+
+      La certification de sécurité de premier niveau, ou CSPN, est une évaluation rapide d'un produit soumis à des attaques en temps et charge limités.
+
+      Les critères communs offrent une évaluation plus approfondie, reconnue à l'international, selon des niveaux d'assurance de EAL1 à EAL7.
+
+      Dans les deux cas, l'évaluation est conduite par un centre d'évaluation agréé, le CESTI.
+
+   B. Les niveaux de qualification.
+
+      La qualification d'un produit est délivrée à l'un des trois niveaux, élémentaire, standard ou renforcé, selon le degré de confiance recherché.
+
+      Le niveau de qualification requis dépend de la sensibilité du contexte d'emploi, par exemple pour un système sensible ou pour un opérateur d'importance vitale.
+
+III. LA QUALIFICATION DES PRESTATAIRES DE SERVICES DE CONFIANCE.
+
+   A. Les grandes familles de prestataires.
+
+      Le prestataire d'audit de la sécurité des systèmes d'information, PASSI, réalise des audits selon plusieurs portées, comme l'audit d'architecture, de configuration, de code source, les tests d'intrusion et l'audit organisationnel et physique.
+
+      Le prestataire de détection des incidents de sécurité, PDIS, exploite les dispositifs de détection, en particulier pour les opérateurs d'importance vitale.
+
+      Le prestataire de réponse aux incidents de sécurité, PRIS, intervient après un incident pour aider à y répondre et à en limiter les effets.
+
+      Le prestataire d'accompagnement et de conseil en sécurité, PACS, conseille les entités dans la sécurisation de leurs systèmes.
+
+   B. Le sens de la qualification des prestataires.
+
+      La qualification d'un prestataire atteste qu'il dispose des compétences, des méthodes et des garanties nécessaires pour fournir un service de sécurité de confiance.
+
+      Elle est délivrée pour une durée limitée, après évaluation, et peut être retirée en cas de manquement.
+
+IV. L'USAGE DES QUALIFICATIONS DANS LA RÉGLEMENTATION.
+
+   A. Une exigence des grands textes.
+
+      Le recours à des produits et des prestataires qualifiés est imposé par plusieurs textes, dont la politique de sécurité des systèmes d'information de l'État et le référentiel général de sécurité.
+
+      La loi de programmation militaire impose aux opérateurs d'importance vitale de recourir à des prestataires qualifiés, par exemple pour la détection des incidents.
+
+      La qualification SecNumCloud s'inscrit dans la même logique pour les prestataires d'informatique en nuage.
+
+   B. Le lien avec l'homologation.
+
+      Les autorités qui homologuent un système s'appuient sur des produits et des prestataires qualifiés pour maîtriser les risques.
+
+      La qualification est ainsi un maillon de la chaîne de confiance, du produit évalué au système homologué.
+
+POINTS D'ATTENTION.
+
+      Le visa de sécurité de l'ANSSI regroupe les certifications, qui évaluent des produits, et les qualifications, qui recommandent des produits ou des prestataires.
+
+      La certification est une évaluation technique, la qualification est une recommandation de l'État pour un usage, qui ajoute des critères de confiance.
+
+      Les deux schémas de certification des produits sont la CSPN, rapide, et les critères communs, approfondis et internationaux, avec des niveaux EAL1 à EAL7.
+
+      La qualification d'un produit est délivrée à l'un des trois niveaux, élémentaire, standard ou renforcé.
+
+      Les prestataires qualifiés comprennent le PASSI pour l'audit, le PDIS pour la détection, le PRIS pour la réponse aux incidents et le PACS pour le conseil.
+
+      Le PASSI couvre plusieurs portées d'audit, dont l'architecture, la configuration, le code source, les tests d'intrusion et l'audit organisationnel et physique.
+
+      Le recours aux produits et prestataires qualifiés est exigé par la PSSIE, le RGS, la loi de programmation militaire et la qualification SecNumCloud.
+
+EXEMPLES CITES.
+
+      Un produit de chiffrement passe une certification de sécurité de premier niveau, puis obtient une qualification au niveau standard pour un usage défini.
+
+      Un opérateur d'importance vitale confie la détection de ses incidents à un prestataire qualifié PDIS.
+
+      Une administration fait réaliser un test d'intrusion par un prestataire qualifié PASSI avant d'homologuer un téléservice.
+
+      Une entreprise victime d'une cyberattaque fait appel à un prestataire qualifié PRIS pour répondre à l'incident.
+
+SOURCES.
+
+      ANSSI, visas de sécurité, présentation des certifications et des qualifications de produits et de prestataires.
+
+      ANSSI, référentiel d'exigences des prestataires d'audit de la sécurité des systèmes d'information (PASSI).
+
+      ANSSI, référentiels d'exigences des prestataires de détection (PDIS) et de réponse aux incidents de sécurité (PRIS).
+
+      ANSSI, certification de sécurité de premier niveau (CSPN) et critères communs, schémas de certification des produits.

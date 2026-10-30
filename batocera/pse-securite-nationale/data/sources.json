@@ -2160,5 +2160,98 @@
    "taille": 1618781,
    "url": "https://cyber.gouv.fr/instruction-generale-interministerielle-n1300"
   }
+ ],
+ "03-1410 IGI 2100 et IGI 2102 - protection des informations classifiées de l'OTAN et de l'Union européenne": [
+  {
+   "fichier": "source/eur-lex-decision-2013-488-ue.pdf",
+   "titre": "Décision 2013/488/UE du Conseil du 23 septembre 2013 concernant les règles de sécurité aux fins de la protection des informations classifiées de l'Union européenne",
+   "pages": 102,
+   "taille": 490528,
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013D0488"
+  },
+  {
+   "fichier": "source/igi-1300-20210809.pdf",
+   "titre": "IGI n° 1300/SGDSN sur la protection du secret de la défense nationale (9 août 2021), pour les exigences applicables aux systèmes d'information",
+   "pages": 225,
+   "taille": 1618781,
+   "url": "https://cyber.gouv.fr/instruction-generale-interministerielle-n1300"
+  }
+ ],
+ "03-1420 PSSIE et RGS - politique de sécurité des SI de l'État et référentiel général de sécurité": [
+  {
+   "fichier": "source/rgs-v2-corps.pdf",
+   "titre": "Référentiel général de sécurité (RGS) version 2.0, corps du texte, ANSSI et DINUM",
+   "pages": 25,
+   "taille": 315585,
+   "url": "https://cyber.gouv.fr/le-referentiel-general-de-securite-rgs"
+  },
+  {
+   "fichier": "source/eur-lex-reglement-910-2014-eidas.pdf",
+   "titre": "Règlement (UE) n° 910/2014 du 23 juillet 2014 sur l'identification électronique et les services de confiance (eIDAS)",
+   "pages": 49,
+   "taille": 331468,
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32014R0910"
+  }
+ ],
+ "03-1430 Cloud au centre et SecNumCloud - doctrine cloud de l'État et qualification des prestataires": [
+  {
+   "titre": "ANSSI, Référentiel SecNumCloud — exigences applicables aux prestataires de services d'informatique en nuage, version 3.2 du 8 mars 2022",
+   "url": "https://cyber.gouv.fr/offre-de-service/solutions-certifiees-et-qualifiees/comprendre-levaluation-de-securite/qualification-de-produit-et-services/referentiels-qualification/"
+  },
+  {
+   "titre": "Circulaire du Premier ministre n° 6282/SG du 5 juillet 2021 relative à la doctrine d'utilisation de l'informatique en nuage par l'État (Cloud au centre)",
+   "url": "https://www.legifrance.gouv.fr/circulaire/id/45205"
+  },
+  {
+   "titre": "Circulaire du Premier ministre n° 6404/SG du 31 mai 2023 actualisant la doctrine Cloud au centre",
+   "url": "https://www.numerique.gouv.fr/publications/la-doctrine-dutilisation-du-cloud-au-sein-de-letat-cloud-au-centre/"
+  }
+ ],
+ "03-1440 SAIV, OIV et volet cyber de la LPM - sécurité des activités d'importance vitale": [
+  {
+   "fichier": "source/igi-6600-sgdsn-saiv-2014.pdf",
+   "titre": "Instruction générale interministérielle n° 6600/SGDSN relative à la sécurité des activités d'importance vitale (7 janvier 2014)",
+   "pages": 71,
+   "taille": 941114,
+   "url": "https://armement.defense.gouv.fr/sites/default/files/2022-03/6600%20-%20Instruction%20g%C3%A9n%C3%A9rale%20interminist%C3%A9rielle%20SGDSN%20-%207%20janvier%202014.pdf"
+  },
+  {
+   "titre": "Code de la défense, articles L. 1332-1 et suivants et L. 1332-6-1 et suivants (SAIV et cybersécurité des OIV)",
+   "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071307/LEGISCTA000006167410/"
+  },
+  {
+   "titre": "Loi n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030",
+   "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000047914986"
+  }
+ ],
+ "03-1450 Directives NIS 1 et NIS 2 - sécurité des réseaux et des systèmes d'information dans l'Union européenne": [
+  {
+   "fichier": "source/eur-lex-nis1-directive-2016-1148.pdf",
+   "titre": "Directive (UE) 2016/1148 du 6 juillet 2016 sur la sécurité des réseaux et des systèmes d'information (NIS 1)",
+   "pages": 41,
+   "taille": 317976,
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016L1148"
+  },
+  {
+   "fichier": "source/eur-lex-nis2-directive-2022-2555.pdf",
+   "titre": "Directive (UE) 2022/2555 du 14 décembre 2022 sur un niveau élevé commun de cybersécurité dans l'Union (NIS 2)",
+   "pages": 98,
+   "taille": 606896,
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022L2555"
+  }
+ ],
+ "03-1460 Qualifications et visas de sécurité de l'ANSSI - prestataires PASSI, PDIS, PRIS et produits qualifiés": [
+  {
+   "titre": "ANSSI, Visa de sécurité — certifications et qualifications de produits et de prestataires de confiance",
+   "url": "https://cyber.gouv.fr/le-visa-de-securite-anssi"
+  },
+  {
+   "titre": "ANSSI, Référentiel d'exigences des prestataires d'audit de la sécurité des systèmes d'information (PASSI)",
+   "url": "https://cyber.gouv.fr/prestataires-daudit-de-la-securite-des-systemes-dinformation-passi-qualifies"
+  },
+  {
+   "titre": "ANSSI, Prestataires de détection (PDIS) et de réponse aux incidents de sécurité (PRIS) qualifiés",
+   "url": "https://cyber.gouv.fr/les-visas-de-securite"
+  }
  ]
 }

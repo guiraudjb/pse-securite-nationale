@@ -1,0 +1,153 @@
+PROTECTION DES INFORMATIONS CLASSIFIÉES DE L'OTAN (IGI 2100) ET DE L'UNION EUROPÉENNE (IGI 2102).
+
+LEXIQUE COMPLET.
+
+      L'instruction interministérielle n° 2100, ou II 2100/SGDN/SSD, organise en France la protection des informations classifiées de l'Organisation du traité de l'Atlantique Nord, l'OTAN.
+
+      L'instruction générale interministérielle n° 2102, ou IGI 2102/SGDSN/PSE/PSD, organise en France la protection des informations classifiées de l'Union européenne.
+
+      Une information classifiée de l'OTAN est une information produite par l'OTAN ou confiée à l'OTAN par un État membre, dont la compromission porterait atteinte aux intérêts de l'Alliance, et qui porte un marquage de classification OTAN.
+
+      Une information classifiée de l'Union européenne, ou ICUE, est une information dont la divulgation non autorisée pourrait porter atteinte aux intérêts de l'Union ou d'un ou plusieurs États membres, et qui porte un marquage de classification de l'Union.
+
+      Le marquage de classification OTAN comporte quatre niveaux, COSMIC TOP SECRET, NATO SECRET, NATO CONFIDENTIAL et NATO RESTRICTED, du plus élevé au plus bas.
+
+      Le marquage de classification de l'Union comporte quatre niveaux, TRÈS SECRET UE ou EU TOP SECRET, SECRET UE ou EU SECRET, CONFIDENTIEL UE ou EU CONFIDENTIAL et RESTREINT UE ou EU RESTRICTED, du plus élevé au plus bas.
+
+      L'autorité nationale de sécurité, ou ANS, est l'autorité responsable au niveau national de la protection des informations classifiées échangées avec l'OTAN et l'Union, et des relations avec leurs bureaux de sécurité.
+
+      L'autorité de sécurité désignée, ou ASD, est une autorité qui exerce, dans un domaine ou un ministère, des responsabilités déléguées par l'autorité nationale de sécurité.
+
+      L'homologation de sécurité est la décision par laquelle une autorité atteste qu'un système d'information est apte à traiter des informations classifiées à un niveau donné et accepte les risques résiduels.
+
+      Le bureau d'ordre, ou registre de contrôle, est l'organe qui enregistre, conserve et suit les documents classifiés OTAN ou de l'Union, pour en assurer la traçabilité.
+
+      Le besoin d'en connaître est le principe selon lequel une information classifiée n'est communiquée qu'à la personne qui en a besoin pour l'exercice de ses fonctions.
+
+      L'habilitation est la décision qui reconnaît qu'une personne peut accéder à des informations classifiées jusqu'à un niveau déterminé, après une enquête.
+
+      Le cloisonnement est la séparation des réseaux et des informations selon leur origine et leur niveau, pour éviter qu'une compromission ne se propage.
+
+      Un article contrôlé de la sécurité des systèmes d'information, ou ACSSI, est un article de sécurité, souvent un moyen de chiffrement, suivi de sa fabrication à sa destruction, dont la gestion relève de l'II 910.
+
+COURS DÉTAILLÉ.
+
+I. DEUX RÉGIMES DISTINCTS DU DROIT NATIONAL.
+
+   A. Des informations qui ne sont pas des informations nationales.
+
+      Les informations classifiées de l'OTAN et de l'Union européenne ne sont pas des informations nationales classifiées au titre de l'IGI 1300.
+
+      Elles appartiennent à l'OTAN ou à l'Union, qui fixent leurs propres règles de sécurité, que la France applique au moyen d'instructions dédiées.
+
+      L'II 2100 traduit en droit national les règles de sécurité de l'OTAN, l'IGI 2102 traduit celles de l'Union européenne.
+
+   B. Le lien avec les textes nationaux.
+
+      Pour les systèmes d'information, ces instructions renvoient aux exigences de l'IGI 1300 sur la protection du secret de la défense nationale, adaptées au contexte international.
+
+      La gestion des articles de sécurité, en particulier les moyens de chiffrement, relève de l'II 910 relative aux ACSSI.
+
+      La chaîne des responsables de la sécurité des systèmes d'information s'applique aussi à ces informations.
+
+II. LA PROTECTION DES INFORMATIONS CLASSIFIÉES DE L'OTAN.
+
+   A. Le cadre et les niveaux.
+
+      L'II 2100 applique en France la politique de sécurité de l'OTAN, fixée par le document C-M(2002)49 et les directives qui le complètent.
+
+      Les quatre niveaux de classification OTAN sont COSMIC TOP SECRET, NATO SECRET, NATO CONFIDENTIAL et NATO RESTRICTED.
+
+      Ces niveaux se rapprochent des niveaux français, COSMIC TOP SECRET correspondant au plus haut degré de protection, NATO RESTRICTED au plus bas.
+
+   B. L'organisation nationale.
+
+      Une autorité nationale de sécurité assure la protection des informations OTAN en France et le lien avec le bureau de sécurité de l'OTAN.
+
+      L'ANSSI agit au nom du secrétariat général de la défense et de la sécurité nationale comme autorité d'homologation des systèmes d'information traitant des informations OTAN au niveau NATO RESTRICTED et au-dessus.
+
+      Les documents sont enregistrés et suivis dans des bureaux d'ordre, selon le besoin d'en connaître et l'habilitation des personnes.
+
+   C. L'ancienneté du texte.
+
+      L'II 2100 est un texte ancien, qui remonte à 1975, et ne fixe pas d'exigences détaillées pour les systèmes d'information modernes.
+
+      Pour ces systèmes, l'IGI 1300 et les guides de l'ANSSI servent de référence technique, l'II 2100 fixant le cadre général.
+
+III. LA PROTECTION DES INFORMATIONS CLASSIFIÉES DE L'UNION EUROPÉENNE.
+
+   A. Le cadre et les niveaux.
+
+      L'IGI 2102 applique en France les règles de sécurité de l'Union européenne, fondées sur la décision du Conseil 2013/488/UE concernant la protection des informations classifiées de l'Union.
+
+      Les quatre niveaux d'information classifiée de l'Union sont TRÈS SECRET UE, SECRET UE, CONFIDENTIEL UE et RESTREINT UE, chacun doublé de sa forme anglaise EU TOP SECRET, EU SECRET, EU CONFIDENTIAL et EU RESTRICTED.
+
+      Chaque niveau de l'Union se rapproche du niveau national équivalent, du plus élevé au plus bas.
+
+   B. L'organisation nationale.
+
+      Une autorité nationale de sécurité assure la protection des informations de l'Union en France et le lien avec le bureau de sécurité du Conseil et des institutions.
+
+      L'ANSSI exerce le rôle d'autorité d'homologation des systèmes d'information traitant des informations classifiées de l'Union au niveau RESTREINT UE et au-dessus.
+
+      La protection repose sur le besoin d'en connaître, l'habilitation, l'enregistrement des documents et le cloisonnement des systèmes.
+
+   C. Le renvoi aux textes nationaux.
+
+      L'IGI 2102 renvoie, pour les systèmes d'information, aux exigences de l'IGI 1300, et, pour les articles de sécurité, à l'II 910 relative aux ACSSI.
+
+      Elle précise les règles de marquage, de transmission, de reproduction et de destruction propres aux informations de l'Union.
+
+IV. LES PRINCIPES COMMUNS AUX DEUX RÉGIMES.
+
+   A. Les principes de fond.
+
+      L'accès à une information classifiée OTAN ou de l'Union suppose à la fois une habilitation au niveau requis et un besoin d'en connaître.
+
+      Les documents sont marqués, enregistrés dans un bureau d'ordre, suivis, et détruits selon des règles précises.
+
+      Les systèmes d'information qui traitent ces informations sont homologués et cloisonnés selon leur niveau et leur origine.
+
+   B. La protection des moyens de chiffrement.
+
+      Les moyens de chiffrement protégeant ces informations sont des ACSSI, gérés selon l'II 910, de leur fabrication à leur destruction.
+
+      Les produits de chiffrement employés doivent être agréés pour le niveau de classification concerné.
+
+POINTS D'ATTENTION.
+
+      Les informations OTAN et de l'Union ne sont pas des informations nationales, mais appartiennent à l'OTAN et à l'Union, dont la France applique les règles.
+
+      L'II 2100 vise l'OTAN, l'IGI 2102 vise l'Union européenne ; il ne faut pas les confondre.
+
+      Les quatre niveaux OTAN sont COSMIC TOP SECRET, NATO SECRET, NATO CONFIDENTIAL et NATO RESTRICTED.
+
+      Les quatre niveaux de l'Union sont TRÈS SECRET UE, SECRET UE, CONFIDENTIEL UE et RESTREINT UE.
+
+      L'ANSSI est autorité d'homologation des systèmes traitant ces informations à partir du niveau restreint.
+
+      L'IGI 2102 s'appuie sur la décision du Conseil 2013/488/UE ; l'II 2100 s'appuie sur la politique de sécurité de l'OTAN C-M(2002)49.
+
+      L'II 2100 est un texte ancien, de 1975, complété pour les systèmes d'information par l'IGI 1300 et les guides de l'ANSSI.
+
+      L'accès repose toujours sur l'habilitation au bon niveau et le besoin d'en connaître.
+
+EXEMPLES CITES.
+
+      Un système d'information traitant des documents NATO SECRET doit être homologué par l'ANSSI avant sa mise en service.
+
+      Un document marqué RESTREINT UE est enregistré dans un bureau d'ordre et communiqué selon le besoin d'en connaître.
+
+      Un moyen de chiffrement protégeant des informations SECRET UE est géré comme un ACSSI au titre de l'II 910.
+
+      Une personne habilitée au niveau SECRET n'accède à une information NATO SECRET que si elle a aussi le besoin d'en connaître.
+
+SOURCES.
+
+      Instruction interministérielle n° 2100/SGDN/SSD relative à la protection en France des informations classifiées de l'OTAN.
+
+      Instruction générale interministérielle n° 2102/SGDSN/PSE/PSD relative à la protection en France des informations classifiées de l'Union européenne.
+
+      Décision 2013/488/UE du Conseil du 23 septembre 2013 concernant les règles de sécurité aux fins de la protection des informations classifiées de l'Union européenne.
+
+      Instruction générale interministérielle n° 1300/SGDSN sur la protection du secret de la défense nationale, pour les exigences applicables aux systèmes d'information.
