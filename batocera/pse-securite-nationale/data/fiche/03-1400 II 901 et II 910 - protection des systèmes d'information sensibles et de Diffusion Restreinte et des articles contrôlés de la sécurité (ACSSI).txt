@@ -1,0 +1,161 @@
+PROTECTION DES SYSTÈMES D'INFORMATION SENSIBLES ET DE DIFFUSION RESTREINTE (II 901) ET DES ARTICLES CONTRÔLÉS DE LA SÉCURITÉ DES SYSTÈMES D'INFORMATION (II 910).
+
+LEXIQUE COMPLET.
+
+      L'instruction interministérielle n° 901, ou II 901/SGDSN/ANSSI du 28 janvier 2015, fixe les objectifs et les mesures de protection des systèmes d'information sensibles, dont ceux qui portent la mention Diffusion Restreinte.
+
+      Un système d'information sensible est un système qui traite des informations dont la divulgation à des personnes non autorisées, l'altération ou l'indisponibilité portent atteinte à la réalisation des missions de l'entité, sans relever du secret de la défense nationale.
+
+      La mention Diffusion Restreinte, ou DR, n'est pas un niveau de classification mais une mention de protection ; elle signale une information dont la divulgation est préjudiciable et impose des mesures minimales de protection.
+
+      Le secret de la défense nationale relève de l'IGI 1300 et non de l'II 901 ; l'II 901 s'arrête au niveau sensible et Diffusion Restreinte.
+
+      L'instruction interministérielle n° 910, ou II 910/SGDSN/ANSSI, organise la protection des articles contrôlés de la sécurité des systèmes d'information.
+
+      Un article contrôlé de la sécurité des systèmes d'information, ou ACSSI, est un dispositif ou un logiciel de sécurité, le plus souvent de chiffrement, dont la compromission affaiblirait la protection des informations, et qui fait l'objet d'un suivi particulier.
+
+      Le marquage ACSSI est l'identification et l'enregistrement d'un tel article, qui impose une traçabilité de sa fabrication à sa destruction.
+
+      L'homologation de sécurité est la décision par laquelle une autorité atteste qu'un système d'information est protégé conformément aux objectifs fixés et accepte les risques résiduels.
+
+      L'autorité d'homologation est la personne qui prononce l'homologation et endosse la responsabilité des risques résiduels.
+
+      La défense en profondeur est la superposition de plusieurs lignes de protection indépendantes, de sorte que la défaillance de l'une n'ouvre pas tout le système.
+
+      Un produit qualifié est un produit de sécurité évalué par l'ANSSI et reconnu apte à un usage, selon un niveau élémentaire, standard ou renforcé.
+
+      La chaîne fonctionnelle de la sécurité des systèmes d'information est l'organisation hiérarchique des responsables SSI de l'État, du niveau interministériel au niveau local.
+
+      Le haut fonctionnaire de défense et de sécurité, ou HFDS, anime et contrôle la politique de sécurité au sein de chaque ministère.
+
+      Le fonctionnaire de sécurité des systèmes d'information, ou FSSI, assiste le HFDS et pilote la SSI du ministère.
+
+      L'autorité qualifiée en sécurité des systèmes d'information, ou AQSSI, est responsable de la SSI de son périmètre et prononce les homologations.
+
+      Le responsable de la sécurité des systèmes d'information, ou RSSI, met en œuvre la politique de sécurité au niveau opérationnel.
+
+      Le cloisonnement est la séparation physique ou logique de réseaux ou de données pour limiter la propagation d'une compromission.
+
+      La journalisation est l'enregistrement horodaté des événements d'un système, centralisé pour permettre la détection et l'analyse des incidents.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE GÉNÉRAL.
+
+   A. Deux instructions complémentaires.
+
+      L'II 901 et l'II 910 sont deux instructions interministérielles prises par le secrétariat général de la défense et de la sécurité nationale, préparées par l'ANSSI.
+
+      L'II 901 protège les systèmes d'information sensibles et de Diffusion Restreinte ; l'II 910 protège les articles de sécurité eux-mêmes, en particulier les moyens de chiffrement.
+
+      Elles se situent sous le niveau du secret de la défense nationale, qui relève de l'IGI 1300.
+
+      Elles s'appuient toutes deux sur la chaîne fonctionnelle de la sécurité des systèmes d'information définie dans le cadre interministériel.
+
+   B. La place dans la hiérarchie des mentions.
+
+      Le plus haut niveau est le secret, décliné en Secret et Très Secret par l'IGI 1300.
+
+      En dessous se trouve la mention Diffusion Restreinte, qui n'est pas une classification mais impose des mesures minimales, encadrées par l'II 901.
+
+      Les informations sensibles sans mention particulière relèvent aussi de l'II 901.
+
+II. L'INSTRUCTION INTERMINISTÉRIELLE 901.
+
+   A. Le champ d'application.
+
+      L'II 901 s'applique aux administrations de l'État et à tout organisme, public ou privé, qui met en œuvre un système d'information traitant d'informations sensibles ou portant la mention Diffusion Restreinte.
+
+      Elle fixe des objectifs de sécurité et un socle de mesures, sans se substituer à l'analyse de risque propre à chaque système.
+
+      Elle ne concerne pas les systèmes traitant du secret de la défense nationale, qui relèvent de l'IGI 1300.
+
+   B. Les exigences principales.
+
+      L'entité doit disposer d'une politique de sécurité des systèmes d'information qui décline les objectifs de l'instruction.
+
+      Chaque système sensible ou de Diffusion Restreinte doit être homologué avant sa mise en service, l'homologation attestant que les risques sont maîtrisés et acceptés.
+
+      La protection repose sur la défense en profondeur, le cloisonnement des réseaux, la maîtrise des interconnexions, en particulier avec Internet, et la journalisation centralisée des événements.
+
+      Les informations de Diffusion Restreinte doivent être chiffrées lorsqu'elles sortent du système ou transitent sur un réseau non maîtrisé, au moyen de produits qualifiés par l'ANSSI.
+
+      Le recours à des produits et des prestataires qualifiés est exigé pour les fonctions de sécurité essentielles.
+
+   C. Les recommandations d'architecture.
+
+      L'ANSSI complète l'II 901 par un guide de recommandations pour l'architecture des systèmes d'information sensibles ou de Diffusion Restreinte.
+
+      Ce guide précise l'isolement vis-à-vis d'Internet, les passerelles maîtrisées, le cloisonnement et le durcissement, pour traduire l'instruction en architecture concrète.
+
+III. L'INSTRUCTION INTERMINISTÉRIELLE 910.
+
+   A. L'objet.
+
+      L'II 910 assure la traçabilité et la protection des articles contrôlés de la sécurité des systèmes d'information, dont l'atteinte à l'intégrité pourrait compromettre des informations protégées.
+
+      Sont concernés les moyens de chiffrement, certains équipements et logiciels de sécurité, et les éléments secrets associés, comme les clés.
+
+   B. Les obligations.
+
+      Chaque ACSSI est identifié, marqué et enregistré, puis suivi de sa fabrication jusqu'à sa destruction.
+
+      La détention, le transport, le stockage et l'emploi des ACSSI obéissent à des règles strictes, et toute perte ou compromission doit être signalée et traitée.
+
+      La gestion des ACSSI s'inscrit dans la chaîne fonctionnelle de la sécurité des systèmes d'information, avec des responsables désignés à chaque niveau.
+
+IV. LA CHAÎNE FONCTIONNELLE DE LA SÉCURITÉ DES SYSTÈMES D'INFORMATION.
+
+   A. Les niveaux de responsabilité.
+
+      Au niveau interministériel, l'ANSSI, service du secrétariat général de la défense et de la sécurité nationale, est l'autorité nationale en matière de sécurité des systèmes d'information.
+
+      Dans chaque ministère, le haut fonctionnaire de défense et de sécurité anime et contrôle la politique de sécurité, assisté du fonctionnaire de sécurité des systèmes d'information.
+
+      Les autorités qualifiées en sécurité des systèmes d'information sont responsables de la sécurité de leur périmètre et prononcent les homologations.
+
+      Les responsables de la sécurité des systèmes d'information mettent en œuvre la politique au niveau opérationnel.
+
+   B. Le rôle de l'homologation.
+
+      L'homologation est l'acte central du dispositif : elle engage une autorité qui accepte formellement les risques résiduels d'un système.
+
+      Elle s'appuie sur une analyse de risque, le plus souvent conduite avec la méthode EBIOS Risk Manager, et sur un dossier d'homologation.
+
+      Elle est prononcée pour une durée limitée et doit être revue en cas d'évolution notable du système ou de la menace.
+
+POINTS D'ATTENTION.
+
+      L'II 901 traite du sensible et de la Diffusion Restreinte, l'IGI 1300 traite du secret de la défense nationale ; il ne faut pas confondre les deux.
+
+      La Diffusion Restreinte n'est pas un niveau de classification, mais une mention de protection assortie de mesures minimales.
+
+      L'II 910 ne protège pas des informations mais des articles de sécurité, les ACSSI, surtout les moyens de chiffrement.
+
+      L'homologation est obligatoire avant la mise en service d'un système sensible ou de Diffusion Restreinte.
+
+      Les informations de Diffusion Restreinte sont chiffrées avec des produits qualifiés par l'ANSSI quand elles quittent le système.
+
+      La chaîne fonctionnelle SSI, du HFDS à l'AQSSI et au RSSI, structure l'application des deux instructions.
+
+      L'II 901 date du 28 janvier 2015 et reste la référence à la date de la fiche.
+
+EXEMPLES CITES.
+
+      Un ministère qui déploie une messagerie de Diffusion Restreinte doit l'homologuer et chiffrer les échanges sortants avec un produit qualifié.
+
+      Un moyen de chiffrement classé ACSSI est marqué, enregistré et suivi jusqu'à sa destruction au titre de l'II 910.
+
+      Une autorité qualifiée prononce l'homologation d'un système sensible après une analyse de risque EBIOS Risk Manager.
+
+      La perte d'un article ACSSI déclenche une procédure de signalement et de traitement de la compromission.
+
+SOURCES.
+
+      Instruction interministérielle n° 901/SGDSN/ANSSI du 28 janvier 2015 relative à la protection des systèmes d'information sensibles.
+
+      Instruction interministérielle n° 910/SGDSN/ANSSI relative à la protection des articles contrôlés de la sécurité des systèmes d'information (ACSSI).
+
+      ANSSI, Recommandations pour les architectures des systèmes d'information sensibles ou Diffusion Restreinte.
+
+      Instruction générale interministérielle n° 1300/SGDSN sur la protection du secret de la défense nationale, pour la distinction des niveaux.
