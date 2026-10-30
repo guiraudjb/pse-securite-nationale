@@ -2145,5 +2145,20 @@
    "url": "https://arxiv.org/abs/2610.28401"
   }
  ],
- "03-1400 II 901 et II 910 - protection des systèmes d'information sensibles et de Diffusion Restreinte et des articles contrôlés de la sécurité (ACSSI)": []
+ "03-1400 II 901 et II 910 - protection des systèmes d'information sensibles et de Diffusion Restreinte et des articles contrôlés de la sécurité (ACSSI)": [
+  {
+   "fichier": "source/anssi-pg-075-architectures-si-sensibles-dr-v1.2.pdf",
+   "titre": "ANSSI, Recommandations pour les architectures des SI sensibles ou Diffusion Restreinte (PG-075, v1.2), guide d'application de l'II 901",
+   "pages": 112,
+   "taille": 3835320,
+   "url": "https://cyber.gouv.fr/publications/recommandations-pour-les-architectures-des-si-sensibles-ou-diffusion-restreinte"
+  },
+  {
+   "fichier": "source/igi-1300-20210809.pdf",
+   "titre": "IGI n° 1300/SGDSN sur la protection du secret de la défense nationale (9 août 2021), pour la distinction des niveaux",
+   "pages": 225,
+   "taille": 1618781,
+   "url": "https://cyber.gouv.fr/instruction-generale-interministerielle-n1300"
+  }
+ ]
 }
