@@ -1999,6 +1999,85 @@
    "taille": 763080
   }
  ],
+ "03-1370 Bitchat - Messagerie hors réseau en maillage Bluetooth, coupures d'internet et limites de sécurité": [
+  {
+   "fichier": "source/bitchat-readme.pdf",
+   "titre": "Permissionless Tech, dépôt bitchat, README (consulté le 30 octobre 2026)",
+   "pages": 7,
+   "taille": 418719,
+   "url": "https://github.com/permissionlesstech/bitchat"
+  },
+  {
+   "fichier": "source/bitchat-whitepaper.pdf",
+   "titre": "Permissionless Tech, bitchat Protocol Whitepaper, version 2.0 (6 juillet 2026)",
+   "pages": 8,
+   "taille": 163655,
+   "url": "https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md"
+  },
+  {
+   "fichier": "source/bitchat-privacy-assessment.pdf",
+   "titre": "Permissionless Tech, bitchat Privacy Assessment (juillet 2026)",
+   "pages": 7,
+   "taille": 164664,
+   "url": "https://github.com/permissionlesstech/bitchat/blob/main/docs/privacy-assessment.md"
+  },
+  {
+   "fichier": "source/bitchat-verifying-a-build.pdf",
+   "titre": "Permissionless Tech, Verifying bitchat, vérification des versions",
+   "pages": 4,
+   "taille": 141816,
+   "url": "https://github.com/permissionlesstech/bitchat/blob/main/docs/VERIFYING-A-BUILD.md"
+  },
+  {
+   "fichier": "source/bitchat-android-readme.pdf",
+   "titre": "Permissionless Tech, dépôt bitchat-android, README (consulté le 30 octobre 2026)",
+   "pages": 5,
+   "taille": 2655859,
+   "url": "https://github.com/permissionlesstech/bitchat-android"
+  },
+  {
+   "fichier": "source/bisi-bitchat-2026.pdf",
+   "titre": "Tom Everill, BISI, Bitchat, Bluetooth Mesh Networks and Internet Shutdowns (27 janvier 2026)",
+   "pages": 7,
+   "taille": 671308,
+   "url": "https://bisi.org.uk/reports/bitchat-bluetooth-mesh-networks-and-internet-shutdowns"
+  },
+  {
+   "fichier": "source/trailofbits-bitchat-2025.pdf",
+   "titre": "Jim Miller, Trail of Bits, Building secure messaging is hard, a nuanced take on the Bitchat security debate (18 juillet 2025)",
+   "pages": 5,
+   "taille": 520083,
+   "url": "https://blog.trailofbits.com/2025/07/18/building-secure-messaging-is-hard-a-nuanced-take-on-the-bitchat-security-debate/"
+  },
+  {
+   "fichier": "source/reuters-bitchat-ouganda-iran-2026.pdf",
+   "titre": "Reuters, Ugandans, Iranians turn to Dorsey's messaging app Bitchat in web crackdowns (14 janvier 2026)",
+   "pages": 3,
+   "taille": 97646,
+   "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/01/14/ugandans-iranians-turn-to-dorsey-s-messaging-app-bitchat-in-web-crackdowns"
+  },
+  {
+   "fichier": "source/decrypt-bitchat-nepal-2025.pdf",
+   "titre": "Decrypt, Jack Dorsey's Bitchat Surges in Nepal, Indonesia Amid Protest Crackdowns (septembre 2025)",
+   "pages": 9,
+   "taille": 1963405,
+   "url": "https://decrypt.co/339015/jack-dorseys-bitchat-surges-in-nepal-indonesia-amid-protest-crackdowns"
+  },
+  {
+   "fichier": "source/bitcoinmagazine-bitchat-inde-2026.pdf",
+   "titre": "Bitcoin Magazine, Bitchat Mesh App Defies India Cybercrime Notice (30 juillet 2026)",
+   "pages": 4,
+   "taille": 371032,
+   "url": "https://bitcoinmagazine.com/politics/bitchat-mesh-app-defies-india-cybercrime-notice-after-protesters-use-it-during-network-restrictions"
+  },
+  {
+   "fichier": "source/ce-tiktok-nouvelle-caledonie-2025.pdf",
+   "titre": "Conseil d'État, décision n° 494511 du 1er avril 2025, blocage de TikTok en Nouvelle-Calédonie",
+   "pages": 6,
+   "taille": 195683,
+   "url": "https://conseil-etat.fr/Media/actualites/documents/2025/avril-2025/494511-494583-495174.pdf"
+  }
+ ],
  "03-1380 ANSSI - Vote par internet pour les élections non politiques": [
   {
    "fichier": "source/anssi-guide-vote-internet-2026.pdf",

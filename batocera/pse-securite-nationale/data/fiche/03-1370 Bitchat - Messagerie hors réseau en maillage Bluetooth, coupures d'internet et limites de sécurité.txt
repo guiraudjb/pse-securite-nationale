@@ -1,0 +1,379 @@
+BITCHAT, MESSAGERIE HORS RÉSEAU EN MAILLAGE BLUETOOTH, USAGES PENDANT LES COUPURES D'INTERNET ET LIMITES DE SÉCURITÉ, ÉTAT AU 30 OCTOBRE 2026.
+
+LEXIQUE COMPLET.
+
+      Bitchat est une application de messagerie pair à pair, gratuite et open source, lancée en juillet 2025 par Jack Dorsey, qui fonctionne sans internet ni réseau mobile grâce à un maillage Bluetooth entre téléphones proches.
+
+      Le réseau maillé, ou mesh, est un réseau sans infrastructure dans lequel chaque appareil reçoit les messages et les relaie vers ses voisins, de proche en proche.
+
+      Le Bluetooth Low Energy, ou BLE, est la version basse consommation du Bluetooth ; sa portée utile va de quelques dizaines de mètres à une centaine de mètres selon l'environnement.
+
+      Le saut est le passage d'un message d'un appareil à l'appareil voisin ; Bitchat limite un message à 7 sauts.
+
+      Le TTL, time to live, est le compteur de sauts restants porté par chaque paquet ; chaque relais le diminue d'une unité et le paquet meurt à zéro.
+
+      L'inondation contrôlée, ou controlled flood, est la diffusion d'un paquet à tous les voisins, bornée par le TTL, la déduplication et un délai aléatoire.
+
+      Nostr est un protocole ouvert de messagerie décentralisée qui s'appuie sur des relais publics sur internet ; Bitchat l'utilise comme second transport quand une connexion existe.
+
+      Le geohash est un code alphanumérique qui désigne une zone géographique ; plus il est long, plus la zone est petite, du pays au pâté de maisons.
+
+      Le protocole Noise est un cadre de protocoles d'établissement de clés chiffrées, utilisé par Bitchat pour les sessions privées sur le maillage.
+
+      Le motif Noise XX est un échange de clés dans lequel les deux parties s'authentifient mutuellement et obtiennent une confidentialité persistante.
+
+      Le motif Noise X est un scellement à sens unique vers la clé statique du destinataire, utilisé pour le courrier différé, sans confidentialité persistante.
+
+      La confidentialité persistante, ou forward secrecy, garantit que le vol ultérieur d'une clé à long terme ne permet pas de déchiffrer les messages déjà échangés.
+
+      Le Double Ratchet est l'algorithme de Signal qui renouvelle les clés à chaque message ; il sert de référence pour la confidentialité persistante.
+
+      Le stockage et retransmission, ou store and forward, est la conservation d'un message en attendant que son destinataire soit joignable.
+
+      Le coursier, ou courier, est un téléphone tiers qui transporte physiquement une enveloppe chiffrée et la remet au destinataire quand il le croise.
+
+      Le spray and wait est une méthode de diffusion où un nombre limité de copies est distribué à des coursiers, qui se partagent ce budget en se croisant.
+
+      Les métadonnées sont les informations sur la communication et non sur son contenu, comme qui parle, quand, d'où, combien et avec qui.
+
+      L'UUID de service est l'identifiant fixe que Bitchat annonce en Bluetooth ; il permet à un scanner passif de savoir qu'un appareil utilise l'application.
+
+      L'effacement d'urgence, ou panic wipe, est la suppression immédiate des clés, contacts, messages en attente et historiques, déclenchée par un triple appui.
+
+      L'usurpation d'identité est l'attaque qui consiste à se faire passer pour un contact de confiance ; elle a été démontrée sur Bitchat en juillet 2025.
+
+      L'attaque de l'homme du milieu, ou man in the middle, place un attaquant entre deux interlocuteurs qui croient se parler directement.
+
+      Le dépassement de tampon, ou buffer overflow, est une erreur de gestion de la mémoire exploitable par un attaquant ; un cas a été corrigé en quatre heures sur Bitchat.
+
+      Une coupure d'internet, ou internet shutdown, est l'interruption volontaire de l'accès à internet ou aux données mobiles, décidée par une autorité sur un territoire.
+
+      L'interception légale est la captation des communications par les autorités dans un cadre légal ; en France, ce sont notamment les techniques de renseignement du code de la sécurité intérieure.
+
+      Le fork est une copie du code source d'un logiciel, qui peut évoluer séparément et, s'il est malveillant, contenir un piège.
+
+      Le manifeste de source, SOURCE-MANIFEST.txt, est la liste des empreintes SHA-256 de chaque fichier d'une version publiée, qui permet de vérifier le code obtenu.
+
+      Tor est un réseau d'anonymisation qui masque l'adresse IP ; Bitchat fait passer par défaut son trafic Nostr par Tor grâce à la bibliothèque Arti.
+
+      Bridgefy et FireChat sont des messageries Bluetooth antérieures, utilisées lors des manifestations de Hong Kong ; Bridgefy a été jugée vulnérable par des chercheurs en 2020.
+
+COURS DÉTAILLÉ.
+
+I. PRÉSENTATION ET CONTEXTE.
+
+   A. Origine et diffusion.
+
+      Jack Dorsey, fondateur de Twitter puis de Block, publie le 6 juillet 2025 une version bêta de Bitchat, présentée comme un projet de week-end pour apprendre les réseaux maillés Bluetooth.
+
+      Le dépôt GitHub permissionlesstech/bitchat a été créé le 4 juillet 2025 et compte environ 37 000 étoiles en octobre 2026.
+
+      L'application est disponible sur l'App Store pour iOS et macOS et sur Google Play pour Android, et le fichier d'installation Android est aussi publié sur GitHub.
+
+      Les versions iOS et Android sont compatibles et communiquent sur le même maillage.
+
+      Les dernières versions publiées sont la v1.8.0 pour iOS le 23 octobre 2026 et la v2.2.0 pour Android le 28 octobre 2026.
+
+      Le livre blanc du protocole est en version 2.0 du 6 juillet 2026.
+
+      Le code est placé dans le domaine public sous la licence Unlicense.
+
+   B. Le principe.
+
+      Bitchat se décrit comme une messagerie décentralisée sans compte, sans numéro de téléphone et sans serveur central.
+
+      L'application associe deux transports : le maillage Bluetooth pour communiquer hors ligne, et le protocole Nostr pour joindre des correspondants éloignés quand internet est disponible.
+
+      Les usages revendiqués sont les manifestations, les catastrophes, les zones isolées et les grands rassemblements où le réseau mobile sature.
+
+      L'interface reprend l'esprit des salons IRC, avec des commandes comme /msg, /who ou /join.
+
+      L'application n'est utile que si suffisamment de personnes l'ont installée à proximité, car chaque téléphone sert de relais.
+
+II. LE FONCTIONNEMENT TECHNIQUE.
+
+   A. Le maillage Bluetooth.
+
+      Chaque appareil joue à la fois le rôle de central et de périphérique Bluetooth Low Energy et relaie les paquets des autres, sans appairage ni compte.
+
+      Un paquet part avec un TTL de 7 ; dans un réseau dense, au-delà de six liens, les relais limitent la diffusion à 5 sauts.
+
+      Les doublons sont écartés grâce à une mémoire des 1 000 derniers paquets vus pendant 5 minutes, et chaque relais attend un délai aléatoire de 10 à 220 millisecondes.
+
+      Les messages publics ne sont renvoyés qu'à un sous-ensemble de voisins, environ le logarithme en base 2 du nombre de liens, pour éviter la saturation.
+
+      Les annonces de présence citent jusqu'à 10 voisins directs, ce qui donne à chaque nœud une carte locale du réseau et permet un routage par la source quand un chemin est confirmé.
+
+      Les paquets trop gros pour le lien sont découpés en fragments d'environ 469 octets, réassemblés à l'arrivée, avec un plafond de 1 mégaoctet.
+
+      Sur Android, le Wi-Fi Aware peut servir de transport local à plus haut débit sur les appareils compatibles.
+
+      Jack Dorsey a revendiqué une portée de 300 mètres par saut, alors que les produits concurrents annoncent plutôt une centaine de mètres.
+
+   B. Le transport par internet avec Nostr.
+
+      Quand internet est disponible, Bitchat passe par plus de 440 relais Nostr répartis dans le monde.
+
+      Les salons géolocalisés utilisent un geohash : 7 caractères pour un pâté de maisons, 6 pour un quartier, 5 pour une ville, 4 pour une province et 2 pour une grande région.
+
+      Une clé éphémère différente est utilisée pour chaque zone géographique.
+
+      Les messages privés passent par Nostr seulement entre favoris mutuels, quand le Bluetooth ne permet pas de joindre le destinataire.
+
+      Le trafic Nostr passe par défaut par Tor, avec la bibliothèque Arti intégrée ; si Tor n'est pas prêt, les requêtes attendent au lieu de partir en clair.
+
+      Désactiver l'option Tor expose l'adresse IP de l'appareil à chaque opérateur de relais, y compris pour les messages privés.
+
+   C. Le choix du chemin pour un message privé.
+
+      Le routeur de messages privilégie une liaison Bluetooth active avec une session Noise établie, qui est le chemin le plus rapide et le plus discret.
+
+      À défaut, il utilise Nostr avec la clé publique Nostr du destinataire.
+
+      Si aucun transport n'est disponible, le message est mis en file d'attente et le système de coursiers prend le relais.
+
+III. LE CHIFFREMENT ET L'IDENTITÉ.
+
+   A. Les clés de l'appareil.
+
+      Chaque appareil possède deux paires de clés durables stockées dans le trousseau : une clé Curve25519 pour l'échange de clés Noise et une clé Ed25519 pour signer les paquets.
+
+      L'identifiant de pair de 8 octets est tiré de l'empreinte SHA-256 de la clé statique Noise ; il n'est donc pas éphémère et ne change qu'après un effacement d'urgence.
+
+      Mettre un contact en favori enregistre sa clé publique complète ; une vérification par QR code en face à face associe un pseudonyme à une empreinte.
+
+   B. Les sessions directes en Noise XX.
+
+      Deux pairs connectés établissent une session Noise XX, avec Curve25519, ChaCha20-Poly1305 et SHA-256, qui assure l'authentification mutuelle et la confidentialité persistante.
+
+      Les relais intermédiaires ne voient que des paquets chiffrés opaques.
+
+      Seuls les paquets Noise sont complétés jusqu'à des tailles fixes de 256, 512, 1 024 ou 2 048 octets ; les autres paquets circulent à leur taille réelle, qui reste donc observable.
+
+   C. Le courrier différé en Noise X.
+
+      Le courrier confié aux coursiers est scellé vers la clé statique du destinataire avec le motif à sens unique Noise X.
+
+      Ce chemin n'a pas de confidentialité persistante : si la clé statique du destinataire est volée, le courrier scellé non encore remis peut être lu.
+
+   D. Les enveloppes privées sur Nostr.
+
+      Les messages privés sur Nostr utilisent un format propre à Bitchat, à trois couches, avec XChaCha20-Poly1305 et des clés dérivées par ECDH secp256k1 et HKDF-SHA256.
+
+      Ce format reprend les numéros de type des normes NIP-17 et NIP-59 mais n'est compatible ni avec NIP-17, ni avec NIP-44, ni avec NIP-59 ; seuls les clients Bitchat peuvent le lire.
+
+      Les relais voient la clé publique Nostr du destinataire mais ni le contenu ni l'identité stable de l'expéditeur ; les horodatages publics sont décalés au hasard de 15 minutes au plus.
+
+      Ce chemin n'offre pas non plus de confidentialité persistante.
+
+   E. Les groupes protégés sur Android.
+
+      Sur Android, les salons thématiques peuvent être protégés par mot de passe, avec une dérivation Argon2id et un chiffrement AES-256-GCM.
+
+IV. LE STOCKAGE ET LA RETRANSMISSION.
+
+   A. La boîte d'envoi.
+
+      Un message privé sans chemin immédiat est conservé jusqu'à 24 heures, à raison de 100 messages par destinataire au plus, et renvoyé à chaque reconnexion.
+
+      Après 8 tentatives sans succès, il est abandonné et l'échec est affiché.
+
+      La boîte d'envoi est enregistrée chiffrée sur le disque, avec une clé gardée dans le trousseau.
+
+   B. Les coursiers.
+
+      Une enveloppe scellée peut être confiée à 3 téléphones connectés susceptibles de croiser le destinataire.
+
+      La seule information d'adressage est une étiquette de 16 octets qui change chaque jour, calculée à partir de la clé du destinataire ; un coursier ne connaît ni l'expéditeur, ni le destinataire, ni le contenu.
+
+      Un favori mutuel peut déposer 5 enveloppes, un pair simplement vérifié 2, dans une réserve de 40 places dont 20 au plus pour les pairs non favoris.
+
+      Une enveloppe pèse 16 kilooctets au plus et vit 24 heures au plus ; les coursiers ne transportent que du texte.
+
+      Avec le spray and wait, une enveloppe part avec un budget de 4 copies, plafonné à 8, et un coursier qui en croise un autre lui cède la moitié de son budget.
+
+      Un coursier malveillant peut détruire le courrier mais ne peut ni le lire, ni le relier d'un jour à l'autre, ni le multiplier.
+
+   C. L'historique public et les boîtes Nostr.
+
+      Les messages publics sont gardés en cache, 1 000 paquets au plus, et synchronisés entre voisins toutes les 15 secondes environ pendant 6 heures.
+
+      Un téléphone qui passe d'un groupe isolé à un autre transporte ainsi l'historique récent du salon.
+
+      Sur Nostr, les enveloppes privées restent sur les relais et l'application relit les dernières 24 heures à chaque reconnexion.
+
+   D. L'effacement d'urgence.
+
+      Un triple appui efface les clés d'identité, les favoris, le courrier transporté, la boîte d'envoi, l'historique public et les compteurs.
+
+      Les images et messages vocaux reçus sont écrits sur le disque sans chiffrement propre à l'application, avec un quota de 100 mégaoctets et une durée de 7 jours.
+
+V. LES USAGES LORS DES COUPURES ET DES CRISES.
+
+   A. Les mouvements de contestation.
+
+      Au Népal, en septembre 2025, le gouvernement bloque 26 plateformes, dont Facebook, WhatsApp, YouTube et Instagram ; les téléchargements de Bitchat passent d'environ 3 300 à 48 781 par jour, selon un développeur du projet.
+
+      Ces manifestations font au moins 34 morts et le Premier ministre K. P. Sharma Oli démissionne le 9 septembre 2025.
+
+      En Indonésie, à la même période, environ 11 000 personnes installent l'application pendant les manifestations nationales.
+
+      À Madagascar, en octobre 2025, les téléchargements augmentent pendant les manifestations contre les coupures d'eau et d'électricité.
+
+      En Ouganda, les autorités coupent internet et limitent la téléphonie mobile le 13 janvier 2026, avant l'élection présidentielle du 15 janvier ; Bitchat dépasse 28 000 téléchargements depuis le début de l'année, selon Apptopia, après un appel de l'opposant Bobi Wine.
+
+      En Iran, en janvier 2026, l'usage de Bitchat triple pendant les coupures d'internet décidées contre les manifestations, selon Reuters.
+
+      En Inde, en juillet 2026, des manifestants l'utilisent pendant les coupures de données mobiles liées au mouvement né de l'annulation du concours de médecine NEET-UG.
+
+   B. La réaction des États.
+
+      Le 24 juillet 2026, l'I4C, centre indien de coordination contre la cybercriminalité, demande à GitHub de restreindre sous trois heures l'accès à trois dépôts Bitchat.
+
+      L'avis reproche à l'application d'entraver l'interception, l'attribution et les enquêtes, en fonctionnant pendant les coupures de réseau.
+
+      Les dépôts restent accessibles dans les heures suivantes et des copies sont diffusées, notamment sur la plateforme décentralisée Radicle.
+
+      Le BISI, Bloomsbury Intelligence and Security Institute, prévoit en janvier 2026 des avertissements publics, des menaces d'interdiction et des essais de détection et de perturbation du Bluetooth à court terme.
+
+      À moyen terme, il prévoit l'hameçonnage, la diffusion de versions piégées, la dissuasion juridique et l'exploitation des métadonnées.
+
+      Selon Access Now et la coalition #KeepItOn, 296 coupures d'internet ont été recensées dans 54 pays en 2024.
+
+   C. Le cadre français.
+
+      En France, l'utilisation des moyens de cryptologie est libre, selon l'article 30 de la loi du 21 juin 2004 pour la confiance dans l'économie numérique ; leur fourniture et leur importation relèvent d'un régime de déclaration auprès de l'ANSSI.
+
+      Le refus de remettre aux autorités judiciaires la convention de déchiffrement d'un moyen de cryptologie ayant servi à un crime ou un délit est puni par l'article 434-15-2 du code pénal.
+
+      Le 14 mai 2024, le Premier ministre fait bloquer TikTok en Nouvelle-Calédonie pendant les émeutes, du 15 au 29 mai 2024, en invoquant des circonstances exceptionnelles.
+
+      Le 23 mai 2024, le juge des référés du Conseil d'État refuse de suspendre la mesure, faute d'urgence démontrée.
+
+      Le 1er avril 2025, le Conseil d'État juge ce blocage illégal : une interruption complète n'est possible qu'à titre provisoire, si aucune mesure moins attentatoire n'est possible dans l'immédiat, et pour la durée nécessaire à la recherche de cette mesure.
+
+      Le Conseil d'État rattache la liberté d'accéder aux services en ligne à l'article 11 de la Déclaration des droits de l'homme et du citoyen de 1789.
+
+      Hors circonstances exceptionnelles, l'article 11 de la loi du 3 avril 1955 sur l'état d'urgence ne permet d'interrompre que les services qui provoquent au terrorisme ou en font l'apologie.
+
+      Pour les forces de sécurité et de secours, la réponse française à la résilience des communications est le Réseau Radio du Futur, réseau mobile critique piloté par l'ACMOSS, et non une messagerie grand public.
+
+VI. LES LIMITES DE SÉCURITÉ.
+
+   A. Les failles relevées au lancement.
+
+      Le 9 juillet 2025, TechCrunch relève que l'application, présentée comme sûre, n'a fait l'objet d'aucun test de sécurité ; un avertissement est ensuite ajouté au dépôt.
+
+      Le chercheur Alex Radocea démontre qu'un attaquant peut se faire passer pour un contact favori, par une attaque de l'homme du milieu permise par une authentification défaillante.
+
+      Il conteste aussi la confidentialité persistante annoncée, car les clés restaient statiques pendant toute la session.
+
+      Un dépassement de tampon signalé par un contributeur est corrigé en moins de quatre heures.
+
+      Le 15 juillet 2025, Jack Dorsey annonce l'adoption du protocole Noise.
+
+      Le 18 juillet 2025, Jim Miller, de Trail of Bits, juge ces failles sérieuses et y voit des défauts de conception et non de simples bogues ; il déconseille de s'appuyer sur Bitchat pour des communications sensibles.
+
+      Trail of Bits salue cependant l'ouverture du code, les avertissements explicites et la rapidité des corrections, et recommande des protocoles éprouvés comme Noise et le Double Ratchet.
+
+      Aucun audit de sécurité indépendant complet n'a été publié à la date de la fiche.
+
+   B. Les métadonnées, point faible reconnu.
+
+      Le livre blanc reconnaît que les métadonnées sont la partie la plus faible de la conception.
+
+      L'identifiant de pair figure en clair dans chaque paquet et ne change jamais ; les annonces publient en clair le pseudonyme et les clés publiques.
+
+      Un récepteur passif à portée radio peut donc reconnaître un appareil précis d'un lieu à l'autre, recenser les participants et suivre leurs déplacements.
+
+      Les annonces révèlent jusqu'à 10 voisins directs, ce qui livre à un seul capteur le graphe local des relations.
+
+      Un paquet d'origine part avec le TTL par défaut, ce qui permet de repérer l'appareil émetteur par le nombre de sauts.
+
+      L'UUID de service Bluetooth est une constante publique : un scanner passif peut détecter que Bitchat est utilisé, et l'équipe juge ce point impossible à corriger pour une application ouverte qui découvre des inconnus.
+
+      La rotation de l'adresse Bluetooth par le système ne protège donc pas, car l'application publie des identifiants stables au-dessus.
+
+      Alan Woodward, de l'université du Surrey, rappelle que même chiffrés, les échanges révèlent qui communique, quand et selon quels schémas, ce qui peut suffire à identifier des organisateurs.
+
+      Les évolutions prévues sont un identifiant tournant, l'échange des clés statiques à l'intérieur de la poignée de main chiffrée et le bourrage de tous les types de paquets.
+
+   C. Les copies piégées.
+
+      Le dépôt ayant fait l'objet de demandes de retrait, des copies invérifiables apparaissent quand le dépôt officiel devient inaccessible.
+
+      Une version modifiée peut enregistrer les messages en clair, envoyer les clés à un tiers ou affaiblir le maillage tout en paraissant normale.
+
+      Seul l'App Store permet de vérifier un binaire de bout en bout ; sinon il faut compiler soi-même un code contrôlé avec le manifeste de source SHA-256 de chaque version.
+
+      Le contrôle des empreintes ne suffit pas : il faut aussi vérifier qu'aucun fichier n'a été ajouté, car l'outil de compilation compile tout fichier présent.
+
+   D. Les limites pratiques.
+
+      La portée du Bluetooth, la densité d'utilisateurs et la batterie limitent l'usage ; le maillage ne fonctionne bien que dans une foule équipée.
+
+      Un appareil saisi déverrouillé peut révéler l'historique public, les médias et les relations de groupe.
+
+      Un appareil destinataire compromis divulgue le contenu en clair, quel que soit le chiffrement.
+
+      Le BISI conclut que Bitchat n'est pas une solution miracle mais une brique d'une stratégie de résilience à plusieurs couches.
+
+POINTS D'ATTENTION.
+
+      Bitchat fonctionne sans internet grâce au Bluetooth, mais utilise internet par Nostr quand il est disponible.
+
+      La limite est de 7 sauts par message, réduite à 5 dans un réseau dense.
+
+      La confidentialité persistante existe pour les sessions directes Noise XX, mais pas pour le courrier différé Noise X ni pour les enveloppes Nostr.
+
+      Le format privé sur Nostr est propriétaire et incompatible avec NIP-17, NIP-44 et NIP-59.
+
+      L'identifiant de pair n'est pas éphémère : il dérive de la clé statique et ne change qu'après un effacement d'urgence.
+
+      Le chiffrement protège le contenu mais pas les métadonnées, que le livre blanc reconnaît comme le point faible.
+
+      Un scanner passif peut savoir qu'un appareil utilise Bitchat grâce à l'UUID de service fixe.
+
+      Les chiffres de téléchargement viennent surtout des développeurs et de sociétés de mesure, sans vérification indépendante.
+
+      Aucun audit externe complet n'a été publié et Trail of Bits déconseille l'usage pour des communications sensibles.
+
+      En France, l'utilisation de la cryptologie est libre, mais une interruption de service en ligne n'est légale qu'à titre provisoire et en circonstances exceptionnelles, selon le Conseil d'État du 1er avril 2025.
+
+      Il ne faut installer Bitchat que depuis les magasins officiels ou depuis un code source vérifié.
+
+EXEMPLES CITES.
+
+      Népal, septembre 2025 : blocage de 26 plateformes et 48 781 téléchargements de Bitchat en une journée.
+
+      Indonésie, septembre 2025 : environ 11 000 nouveaux utilisateurs pendant les manifestations.
+
+      Madagascar, octobre 2025 : pic de téléchargements pendant les manifestations contre les coupures d'eau et d'électricité.
+
+      Ouganda, janvier 2026 : coupure d'internet avant l'élection présidentielle et plus de 28 000 téléchargements.
+
+      Iran, janvier 2026 : usage multiplié par trois pendant les coupures d'internet.
+
+      Inde, juillet 2026 : demande de l'I4C à GitHub de restreindre trois dépôts Bitchat sous trois heures.
+
+      Nouvelle-Calédonie, mai 2024 : blocage de TikTok jugé illégal par le Conseil d'État le 1er avril 2025.
+
+      Hong Kong, 2014 et 2019 à 2020 : usages de FireChat puis de Bridgefy, messageries Bluetooth antérieures.
+
+SOURCES.
+
+      Permissionless Tech, dépôt GitHub bitchat, README, livre blanc du protocole version 2.0 du 6 juillet 2026, évaluation de confidentialité de juillet 2026 et guide de vérification des versions, consultés le 30 octobre 2026.
+
+      Permissionless Tech, dépôt GitHub bitchat-android, README, consulté le 30 octobre 2026.
+
+      Tom Everill, BISI, Bitchat, Bluetooth Mesh Networks and Internet Shutdowns, 27 janvier 2026.
+
+      Jim Miller, Trail of Bits, Building secure messaging is hard, a nuanced take on the Bitchat security debate, 18 juillet 2025.
+
+      Reuters, Ugandans, Iranians turn to Dorsey's messaging app Bitchat in web crackdowns, 14 janvier 2026.
+
+      Decrypt, Jack Dorsey's Bitchat surges in Nepal, Indonesia amid protest crackdowns, septembre 2025.
+
+      Bitcoin Magazine, Bitchat Mesh App Defies India Cybercrime Notice, 30 juillet 2026.
+
+      Conseil d'État, décision n° 494511, 494583 et 495174 du 1er avril 2025, Ligue des droits de l'homme et autres, blocage de TikTok en Nouvelle-Calédonie.
