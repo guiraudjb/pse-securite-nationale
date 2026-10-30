@@ -2086,5 +2086,49 @@
    "taille": 1587655,
    "url": "https://messervices.cyber.gouv.fr/documents-guides/anssi-guide-vote-internet-elections-non-politiques.pdf"
   }
+ ],
+ "03-1390 Exfiltration de données des systèmes isolés (air-gap) par canaux cachés - panorama des preuves de concept et contre-mesures": [
+  {
+   "fichier": "source/mind-the-gap-2024.pdf",
+   "titre": "Mordechai Guri, Mind The Gap, Can Air-Gaps Keep Your Private Data Secure (arXiv 2409.04190, septembre 2024)",
+   "pages": 18,
+   "taille": 263647,
+   "url": "https://arxiv.org/abs/2409.04190"
+  },
+  {
+   "fichier": "source/rambo-2024.pdf",
+   "titre": "Mordechai Guri, RAMBO, Leaking Secrets from Air-Gap Computers via Covert Radio Signals from RAM (arXiv 2409.02292, 2024)",
+   "pages": 18,
+   "taille": 355986,
+   "url": "https://arxiv.org/abs/2409.02292"
+  },
+  {
+   "fichier": "source/pixhell-2024.pdf",
+   "titre": "Mordechai Guri, PIXHELL Attack, Leaking Information from Air-Gap Computers via Singing Pixels (arXiv 2409.04930, 2024)",
+   "pages": 12,
+   "taille": 309860,
+   "url": "https://arxiv.org/abs/2409.04930"
+  },
+  {
+   "fichier": "source/smartattack-2025.pdf",
+   "titre": "Mordechai Guri, SmartAttack, Ultrasonic Air-Gap Attack via Smartwatches (arXiv 2506.08866, 2025)",
+   "pages": 11,
+   "taille": 353528,
+   "url": "https://arxiv.org/abs/2506.08866"
+  },
+  {
+   "fichier": "source/covid-bit-2022.pdf",
+   "titre": "Mordechai Guri, COVID-bit, Keep a Distance of at least 2m From My Air-Gap Computer (arXiv 2212.03520, 2022)",
+   "pages": 13,
+   "taille": 506131,
+   "url": "https://arxiv.org/abs/2212.03520"
+  },
+  {
+   "fichier": "source/diskspy-usenix-2025.pdf",
+   "titre": "Weiye Xu et al., DiskSpy, Long-Range Covert-Channel Attack against Air-Gapped Systems (USENIX Security 2025)",
+   "pages": 19,
+   "taille": 2282132,
+   "url": "https://www.usenix.org/conference/usenixsecurity25"
+  }
  ]
 }

@@ -1,0 +1,261 @@
+EXFILTRATION DE DONNÉES DES SYSTÈMES ISOLÉS (AIR-GAP) PAR CANAUX CACHÉS, PANORAMA DES PREUVES DE CONCEPT ET CONTRE-MESURES, ÉTAT AU 30 OCTOBRE 2026.
+
+LEXIQUE COMPLET.
+
+      Un système isolé, ou air-gap, est un ordinateur ou un réseau physiquement et logiquement séparé d'Internet et de tout autre réseau, afin de protéger des informations sensibles.
+
+      Un canal caché, ou covert channel, est une voie de communication détournée qui transmet de l'information en contournant les contrôles de sécurité, au moyen d'un support non prévu pour communiquer.
+
+      L'exfiltration est la sortie non autorisée de données hors d'un système ; l'infiltration est l'opération inverse, l'envoi de données ou de commandes vers le système isolé.
+
+      Une preuve de concept, ou PoC, est une démonstration expérimentale qu'une attaque est réalisable, publiée en général avec un article de recherche et une vidéo.
+
+      Un émetteur est le composant de la machine isolée détourné pour produire un signal ; un récepteur est l'appareil proche qui capte ce signal, par exemple un téléphone, une caméra, un drone ou un autre ordinateur.
+
+      TEMPEST est le nom de code des travaux sur les émanations électromagnétiques compromettantes des équipements et des mesures de protection associées.
+
+      Une émanation compromettante est un rayonnement involontaire d'un équipement qui laisse fuir de l'information exploitable.
+
+      La séparation rouge-noir est le principe d'architecture qui sépare strictement les équipements traitant des informations sensibles, dits rouges, des équipements non sensibles, dits noirs.
+
+      Une cage de Faraday est une enceinte conductrice qui bloque les champs électromagnétiques et confine donc les émissions radio.
+
+      Le zonage est la définition de zones de sécurité autour des équipements sensibles, avec une distance minimale interdite aux appareils non maîtrisés.
+
+      Le durcissement matériel consiste à configurer et restreindre un équipement pour réduire ses émissions et désactiver les composants inutiles, comme les ports, le sans-fil, les haut-parleurs ou les LED.
+
+      Un MEMS est un microcapteur mécanique miniature intégré, comme l'accéléromètre, le gyroscope ou le microphone d'un smartphone, utilisé comme récepteur dans certaines attaques.
+
+      Les ultrasons sont des sons de fréquence supérieure à environ 20 kilohertz, inaudibles pour l'oreille humaine, souvent utilisés comme canal acoustique discret.
+
+      Une onde millimétrique, ou mmWave, est une onde radio de très haute fréquence utilisée comme radar pour mesurer à distance de infimes vibrations.
+
+      Un APT, menace persistante avancée, est un attaquant structuré et durable, souvent étatique, capable de viser des réseaux isolés.
+
+      Le débit est la quantité d'information transmise par unité de temps, mesurée en bits par seconde ; sur ces canaux il est faible, de quelques bits à quelques milliers de bits par seconde.
+
+      La portée est la distance maximale entre l'émetteur et le récepteur pour que le signal reste exploitable.
+
+      Un canal hors vue directe, ou non-line-of-sight, fonctionne même quand un obstacle masque l'émetteur du récepteur.
+
+COURS DÉTAILLÉ.
+
+I. LE PRINCIPE ET LE MODÈLE D'ATTAQUE.
+
+   A. Pourquoi isoler, et pourquoi cela ne suffit pas.
+
+      Les organisations protègent leurs données les plus sensibles, militaires, gouvernementales, industrielles ou financières, sur des réseaux coupés de tout, dits air-gap.
+
+      L'isolement empêche l'accès par le réseau mais ne rend pas l'information hermétique : un attaquant motivé et compétent peut faire franchir le vide physique à des données.
+
+      Les travaux de recherche, pour l'essentiel ceux de Mordechai Guri et du centre de cybersécurité de l'université Ben-Gourion en Israël, ont démontré des dizaines de canaux cachés depuis 2014.
+
+      Ces attaques sont des preuves de concept publiées, destinées à mesurer le risque réel et à concevoir les parades ; elles relèvent de la recherche défensive.
+
+   B. Les deux étapes et leurs limites.
+
+      Toute attaque suppose d'abord l'infection de la machine isolée, étape distincte de l'exfiltration.
+
+      L'infection passe par un support amovible ou la chaîne d'approvisionnement ; les cas réels Stuxnet, Agent.btz, Fanny, Flame, ProjectSauron, Brutal Kangaroo ou Ramsay ont tous franchi l'air-gap par des clés USB.
+
+      Une fois le logiciel malveillant en place, il transforme un composant ordinaire en émetteur et code les données dans un signal physique.
+
+      Les débits restent faibles, de quelques bits à quelques milliers de bits par seconde : ces canaux servent à voler des mots de passe, des clés ou de petits fichiers, pas des volumes importants.
+
+      Un récepteur doit se trouver à portée, ce qui suppose un complice, un appareil compromis ou un capteur placé à proximité.
+
+II. LES CANAUX ÉLECTROMAGNÉTIQUES ET RADIO.
+
+   A. Les signaux radio émis par les composants.
+
+      Soft TEMPEST, décrit par Markus Kuhn et Ross Anderson en 1998, fait rayonner par la carte vidéo des signaux radio modulés : c'est l'ancêtre du domaine.
+
+      AirHopper, en 2014, fait générer par la carte graphique un signal en modulation de fréquence capté par la radio FM d'un téléphone, à quelques mètres.
+
+      GSMem, en 2015, fait émettre le bus mémoire sur les fréquences GSM, captées par un téléphone ordinaire.
+
+      USBee, en 2016, tire un signal radio des émissions du bus USB.
+
+   B. Les câbles détournés en antennes.
+
+      LANTENNA, en 2021, fait du câble Ethernet une antenne qui émet un signal radio.
+
+      SATAn, en 2022, utilise le câble SATA reliant les disques comme antenne.
+
+      Air-Fi, en 2022, fait émettre la machine dans la bande Wi-Fi, captée par un simple récepteur Wi-Fi.
+
+   C. Les émissions de la mémoire et de l'alimentation.
+
+      RAMBO, en 2024, pilote les accès à la mémoire vive pour épeler des données en signaux radio, jusqu'à environ 1 000 bits par seconde à quelques mètres.
+
+      COVID-bit, en 2022, exploite le rayonnement de l'alimentation à découpage, capté à plus de deux mètres par une petite antenne reliée à un téléphone.
+
+III. LES CANAUX MAGNÉTIQUES.
+
+   A. L'intérêt du champ magnétique.
+
+      Le champ magnétique à basse fréquence traverse les murs et même une cage de Faraday, ce qui en fait un canal redoutable.
+
+      MAGNETO, en 2018, module le champ magnétique produit par la charge des cœurs du processeur, lu par la boussole d'un smartphone posé à côté.
+
+      ODINI, en 2019, est conçu pour que les émissions magnétiques sortent d'une cage de Faraday.
+
+      MagView, en 2020, cache des données dans les émanations magnétiques liées à l'affichage vidéo.
+
+IV. LES CANAUX ACOUSTIQUES.
+
+   A. Le bruit des pièces mécaniques.
+
+      Fansmitter, en 2016, module la vitesse des ventilateurs du processeur pour coder des données dans le bruit, sur une machine sans haut-parleur.
+
+      DiskFiltration, en 2017, utilise le bruit des têtes d'un disque dur mécanique, à environ 180 bits par minute.
+
+      CD-LEAK, en 2020, exploite le bruit d'un lecteur optique.
+
+   B. Les ultrasons et les composants sonores cachés.
+
+      MOSQUITO, en 2018, fait communiquer deux appareils par ultrasons de haut-parleur à haut-parleur.
+
+      POWER-SUPPLaY, en 2021, transforme l'alimentation en haut-parleur ultrasonore, sur une machine privée de haut-parleur.
+
+      El-Grillo, en 2023, détourne le petit buzzer de la carte mère.
+
+      PIXHELL, en 2024, fait produire un sifflement par les bobines de l'écran à cristaux liquides au moyen de motifs de pixels, sans aucun matériel audio, à environ deux mètres.
+
+      SmartAttack, en 2025, fait émettre des ultrasons captés par le microphone d'une montre connectée, jusqu'à huit mètres avec un haut-parleur.
+
+V. LES CANAUX OPTIQUES.
+
+   A. Les diodes et les écrans.
+
+      LED-it-GO, en 2017, module la LED d'activité du disque dur, invisible à l'œil mais lisible par une caméra.
+
+      aIR-Jumper, en 2017, utilise les LED infrarouges des caméras de sécurité, en sortie comme en entrée, de façon invisible.
+
+      xLED, en 2018, module les LED des commutateurs et routeurs réseau, de dix bits par seconde à plus de mille par diode.
+
+      CTRL-ALT-LED, en 2019, se sert des LED d'état du clavier, comme le verrouillage majuscule, jusqu'à quelques milliers de bits par seconde avec un capteur optique.
+
+      BRIGHTNESS, en 2019, cache les données dans des variations de luminosité de l'écran, invisibles pour l'utilisateur.
+
+      ETHERLED, en 2022, émet en morse par les LED de la carte réseau.
+
+   B. L'apport d'un émetteur externe.
+
+      LaserShark, publié par une équipe de l'université technique de Berlin en 2021, pilote de l'extérieur, au laser, les LED intégrées des appareils, et établit une liaison dans les deux sens jusqu'à vingt-cinq mètres.
+
+      Les récepteurs optiques, caméras ou drones, peuvent capter ces signaux à des dizaines voire des centaines de mètres.
+
+VI. LES CANAUX THERMIQUES, ÉLECTRIQUES ET VIBRATOIRES.
+
+   A. La chaleur et les lignes électriques.
+
+      BitWhisper, en 2015, fait communiquer deux ordinateurs voisins par manipulation de leur température, lue par leurs capteurs internes, à très bas débit, de l'ordre de quelques bits par heure.
+
+      PowerHammer, en 2019, module la consommation du processeur et fait voyager le signal dans le câble électrique du bâtiment.
+
+   B. Les vibrations lues par les smartphones.
+
+      AiR-ViBeR, en 2020, transmet des vibrations au plan de travail, lues par l'accéléromètre d'un téléphone posé dessus.
+
+      GAIROSCOPE, en 2021, produit des vibrations ultrasonores mesurées par le gyroscope MEMS d'un smartphone proche.
+
+      DiskSpy, publié en 2025, module les vibrations d'un disque dur et les lit à distance par un radar à ondes millimétriques, jusqu'à vingt-deux mètres et même sans vue directe.
+
+VII. LA MENACE RÉELLE ET LE CADRE FRANÇAIS.
+
+   A. Des attaques déjà observées.
+
+      Les canaux cachés physiques restent surtout des travaux de laboratoire, mais l'infection de réseaux isolés, elle, est avérée.
+
+      Stuxnet, découvert en 2010, a saboté des centrifugeuses iraniennes après avoir franchi un air-gap par clé USB.
+
+      Agent.btz a infecté des réseaux classifiés de l'armée américaine en 2008 par un support amovible.
+
+      En décembre 2025, le groupe APT37 a visé des réseaux isolés avec un maliciel utilisant les supports amovibles comme canal de commande.
+
+   B. La réponse française et internationale.
+
+      La protection contre les émanations compromettantes relève en France de l'ANSSI, qui définit les règles TEMPEST et le zonage des équipements traitant des informations classifiées.
+
+      L'instruction générale interministérielle 1300 encadre la protection du secret de la défense nationale, et des guides de l'ANSSI traitent des architectures des systèmes d'information sensibles ou de diffusion restreinte.
+
+      Une revue de 2025 propose d'inscrire explicitement les canaux cachés air-gap dans la norme ISO 27001 de management de la sécurité de l'information.
+
+VIII. LES CONTRE-MESURES.
+
+   A. Les mesures physiques et d'architecture.
+
+      Le contrôle d'accès physique empêche d'approcher un récepteur ou de connecter un appareil non autorisé.
+
+      Le blindage, les cages de Faraday, l'insonorisation, le contrôle de la température et l'amortissement des vibrations réduisent les émissions involontaires.
+
+      La séparation rouge-noir isole strictement les systèmes sensibles des systèmes non sensibles.
+
+      Le zonage impose une distance de sécurité autour des équipements, car la plupart de ces canaux ont une portée courte.
+
+   B. Le durcissement et la détection.
+
+      Le durcissement désactive ou retire les composants émetteurs, haut-parleurs, LED, ports, caméras et interfaces sans fil, au prix d'une perte de fonctionnalités.
+
+      La surveillance des émissions radio, acoustiques, thermiques et vibratoires cherche à détecter un canal actif, mais souffre d'un fort taux de fausses alertes dû au bruit ambiant.
+
+      Un pare-feu ultrasonique a été proposé contre les attaques par ultrasons, mais un logiciel malveillant à privilèges élevés peut contourner les protections logicielles.
+
+      La formation du personnel et les tests d'intrusion réguliers complètent le dispositif.
+
+POINTS D'ATTENTION.
+
+      Ces attaques supposent que la machine isolée est déjà infectée : l'exfiltration est une seconde étape, distincte de l'infection.
+
+      L'infection d'un réseau isolé passe presque toujours par un support amovible, comme l'ont montré Stuxnet et Agent.btz.
+
+      Les débits sont faibles : ces canaux volent des secrets courts, pas de gros fichiers.
+
+      Un récepteur doit être à portée, souvent quelques mètres, ce qui limite la menace mais ne l'annule pas.
+
+      Le champ magnétique traverse une cage de Faraday, contrairement aux émissions radio : MAGNETO et ODINI l'exploitent.
+
+      Certaines attaques récentes utilisent les capteurs des objets connectés, smartphone ou montre, comme récepteurs.
+
+      DiskSpy fonctionne jusqu'à vingt-deux mètres et sans vue directe, ce qui augmente nettement la portée par rapport aux canaux plus anciens.
+
+      Le durcissement est efficace mais dégrade les capacités de l'appareil, ce qui le rend difficile à généraliser.
+
+      La détection par surveillance des émissions produit beaucoup de fausses alertes.
+
+      En France, la protection contre les émanations compromettantes relève du cadre TEMPEST et du zonage pilotés par l'ANSSI.
+
+EXEMPLES CITES.
+
+      AirHopper (2014) et GSMem (2015) : fuite radio vers un téléphone, par la carte vidéo puis le bus mémoire.
+
+      RAMBO (2024) : signaux radio épelés par la mémoire vive, jusqu'à mille bits par seconde.
+
+      MAGNETO (2018) et ODINI (2019) : champ magnétique du processeur traversant une cage de Faraday.
+
+      PIXHELL (2024) : sifflement de l'écran à cristaux liquides, sans matériel audio.
+
+      SmartAttack (2025) : ultrasons captés par le microphone d'une montre connectée, jusqu'à huit mètres.
+
+      DiskSpy (2025) : vibrations d'un disque dur lues par radar à ondes millimétriques, jusqu'à vingt-deux mètres sans vue directe.
+
+      Stuxnet (2010) et Agent.btz (2008) : franchissement réel d'un air-gap par clé USB.
+
+      APT37 (décembre 2025) : supports amovibles comme canal de commande vers des réseaux isolés.
+
+SOURCES.
+
+      Mordechai Guri, Mind The Gap, Can Air-Gaps Keep Your Private Data Secure, arXiv 2409.04190, septembre 2024, synthèse et contre-mesures.
+
+      Mordechai Guri, RAMBO, Leaking Secrets from Air-Gap Computers by Spelling Covert Radio Signals from Computer RAM, arXiv 2409.02292, 2024.
+
+      Mordechai Guri, PIXHELL Attack, Leaking Sensitive Information from Air-Gap Computers via Singing Pixels, arXiv 2409.04930, 2024.
+
+      Mordechai Guri, SmartAttack, Ultrasonic Air-Gap Attack via Smartwatches, arXiv 2506.08866, 2025.
+
+      Mordechai Guri, COVID-bit, Keep a Distance of at least 2m From My Air-Gap Computer, arXiv 2212.03520, 2022.
+
+      Weiye Xu et autres, DiskSpy, Exploring a Long-Range Covert-Channel Attack against Air-Gapped Systems, USENIX Security 2025.
+
+      Markus Kuhn et Ross Anderson, Soft TEMPEST, Hidden Data Transmission Using Electromagnetic Emanations, 1998.
