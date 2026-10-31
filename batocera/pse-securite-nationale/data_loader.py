@@ -187,6 +187,22 @@ def infographie_path(base):
     return media_source('infographie', base)[0]
 
 
+def infographie_plus(base):
+    """Infographie supplémentaire du module (data/infographie_plus/<base>.png, ex. un
+    pense-bête), avec son libellé (<base>.txt, première ligne) : (chemin, libellé)
+    ou (None, None)."""
+    path = os.path.join(DATA_DIR, 'infographie_plus', base + '.png')
+    if not os.path.exists(path):
+        return None, None
+    libelle = ''
+    try:
+        with open(path[:-4] + '.txt', encoding='utf-8') as f:
+            libelle = f.readline().strip()
+    except OSError:
+        pass
+    return path, libelle or 'Infographie supplémentaire'
+
+
 def paroles_chanson(base):
     """Paroles de la chanson du module (chanson/<module>.txt), ou None."""
     path = os.path.join(DATA_DIR, 'chanson', base + '.txt')

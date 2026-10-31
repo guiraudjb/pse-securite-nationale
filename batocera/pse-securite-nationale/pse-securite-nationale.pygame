@@ -197,6 +197,8 @@ class App:
         self.paroles_lines = []
         self.paroles_scroll = 0
         self.info_source = None
+        self.info_plus = False          # infographie supplémentaire affichée (A)
+        self.info_plus_scroll = 0
         self.media_path = None
         self.media_playing = False
         self.media_info_surface = None
@@ -1270,9 +1272,40 @@ class App:
         base = self.current_module['base']
         self.info_path, self.info_source = dl.media_source('infographie', base, source)
         self.info_surface = self._load_surface(self.info_path, max_h=self.screen_h - self.HEADER_H - 48 - 40 - 36)
+        self.info_plus = False
         self.state = STATE_INFO
 
+    INFO_PLUS_STEP = 120
+
+    def info_plus_zone(self):
+        """Hauteur visible de l'infographie supplémentaire (entre l'en-tête et le bandeau)."""
+        return self.screen_h - self.HEADER_H - 20 - 48 - 40
+
+    def basculer_info_plus(self):
+        """A : infographie supplémentaire (pleine largeur, défilement ▲▼) ou infographie du module."""
+        if self.info_plus:
+            self.info_plus = False
+            return
+        path, self.info_plus_libelle = dl.infographie_plus(self.current_module['base'])
+        if not path:
+            return
+        self.info_plus_surface = self._load_surface(path, max_w=self.screen_w - 40, max_h=10 ** 6)
+        self.info_plus_scroll = 0
+        self.info_plus = self.info_plus_surface is not None
+
     def handle_info(self, action):
+        if action == 'action':
+            self.basculer_info_plus()
+            return
+        if self.info_plus:
+            if action in ('up', 'down', 'left', 'right'):
+                pas = self.INFO_PLUS_STEP * (1 if action in ('up', 'down') else 4)
+                sens = -1 if action in ('up', 'left') else 1
+                bas = max(0, self.info_plus_surface.get_height() - self.info_plus_zone())
+                self.info_plus_scroll = max(0, min(bas, self.info_plus_scroll + sens * pas))
+            elif action == 'back':
+                self.info_plus = False
+            return
         if action in ('shoulder_l', 'shoulder_r', 'trigger_l', 'trigger_r') and self.info_source \
                 and len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
             self.start_info(dl.autre_source(self.info_source))
@@ -1795,20 +1828,39 @@ class App:
                               right_text=status, right_color=status_color)
 
     def draw_info(self):
+        if self.info_plus:
+            self.draw_info_plus()
+            return
         self.draw_header("INFOGRAPHIE  —  {}".format(self.current_module['label']))
+        plus = dl.infographie_plus(self.current_module['base'])[1]
         if self.info_surface is None:
             self.fonts.medium.render_to(self.screen, (60, self.HEADER_H + 40),
                                          "Aucune infographie disponible pour ce module.", ui.COLOR_TEXT)
-            ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, [('B/Select', 'Retour')])
+            ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h,
+                                 ([('A', plus)] if plus else []) + [('B/Select', 'Retour')])
             return
         rect = self.info_surface.get_rect()
         rect.centerx = self.screen_w // 2
         rect.top = self.HEADER_H + 20
         self.screen.blit(self.info_surface, rect)
         hints = [('B/Select', 'Retour')]
+        if plus:
+            hints.insert(0, ('A', plus))
         if len(dl.sources_disponibles('infographie', self.current_module['base'])) > 1:
             hints.insert(0, ('L1/R1/R2', 'Autre version'))
         self.draw_bandeau(self.note_source('infographie', self.info_source, 'L1/R1/R2'))
+        ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints)
+
+    def draw_info_plus(self):
+        self.draw_header("{}  —  {}".format(self.info_plus_libelle.upper(), self.current_module['label']))
+        surf, zone = self.info_plus_surface, self.info_plus_zone()
+        top = self.HEADER_H + 20
+        vue = pygame.Rect(0, self.info_plus_scroll, surf.get_width(), min(zone, surf.get_height()))
+        self.screen.blit(surf, ((self.screen_w - surf.get_width()) // 2, top), vue)
+        hints = [('▲▼', 'Défiler'), ('◄►', 'Page'), ('A', 'Infographie du module'), ('B/Select', 'Retour')]
+        if surf.get_height() > zone:
+            pct = int(100 * self.info_plus_scroll / max(1, surf.get_height() - zone))
+            self.draw_bandeau('{} %'.format(pct))
         ui.draw_button_hints(self.screen, self.fonts, self.screen_w, self.screen_h, hints)
 
 
