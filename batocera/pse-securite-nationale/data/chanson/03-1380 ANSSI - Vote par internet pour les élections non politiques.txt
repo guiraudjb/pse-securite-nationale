@@ -1,0 +1,53 @@
+TITRE : Vote par Internet Riddim
+
+[Intro]
+ANSSI et CNIL donnent le tempo,
+Pour les élections non politiques, c'est le nouveau niveau.
+
+[Couplet 1]
+Le guide cent dix-huit version un point zéro,
+Vient le vingt-quatre avril deux mille vingt-six, c'est le mot.
+Pour les associations ou les ordres professionnels,
+On oublie les élections politiques et les Français de l'étranger.
+Le bulletin c'est la donnée, le suffrage c'est l'expression,
+Le client de vote est une application dans le navigateur, attention.
+L'urne électronique stocke les bulletins chiffrés,
+Et le bureau électoral doit tout surveiller.
+
+[Refrain]
+Vérifiabilité individuelle et universelle,
+Pour que la démocratie soit toujours réelle.
+Étanchéité du vote et intégrité du scrutin,
+Le secret du suffrage est notre seul chemin.
+
+[Couplet 2]
+Trois niveaux de risques pour l'organisateur,
+Le niveau un pour les petits, sans grand danger.
+Le niveau deux pour les moyens, avec surveillance,
+Le niveau trois pour les grands, avec haute disponibilité.
+Soixante-quatorze recommandations à respecter,
+L'accumulation ou le mélange pour tout protéger.
+Le partage de secret à seuil pour la clé privée,
+Et la preuve de vote pour que l'électeur soit rassuré.
+
+[Refrain]
+Vérifiabilité individuelle et universelle,
+Pour que la démocratie soit toujours réelle.
+Étanchéité du vote et intégrité du scrutin,
+Le secret du suffrage est notre seul chemin.
+
+[Pont]
+ElGamal est malléable, il faut du pastillage,
+La menace quantique rend le secret fragile.
+Cinq ans de protection pour l'everlasting privacy,
+Contre le store now decrypt later, restons vigilants ici.
+
+[Refrain final]
+Vérifiabilité individuelle et universelle,
+Pour que la démocratie soit toujours réelle.
+Étanchéité du vote et intégrité du scrutin,
+Le secret du suffrage est notre seul chemin.
+
+[Outro]
+EBIOS Risk Manager pour analyser les dangers,
+Le vote par Internet est un art à protéger.

@@ -1,0 +1,53 @@
+TITRE : Bitchat Mesh Riddim
+
+[Intro]
+Écoute le message qui voyage sans fil
+Dans le maillage Bluetooth, c'est le signal subtil
+
+[Couplet 1]
+Jack Dorsey lance la bêta en juillet deux mille vingt-cinq
+Sans numéro ni serveur, c'est un projet sans fin
+Le réseau mesh relaie de proche en proche les paquets
+Avec un TTL de sept pour ne pas s'égarer
+Le Bluetooth Low Energy fait sauter les messages
+Mais le saut est limité par les sept relais de passage
+Si internet revient, Nostr prend le relais
+Via Tor et la bibliothèque Arti, pour rester en paix
+
+[Refrain]
+Bitchat vibre sans réseau, même en pleine coupure
+Le maillage Bluetooth offre une autre structure
+Chiffrement Noise pour la vie, mais attention aux métadonnées
+La liberté de communiquer ne doit jamais être arrêtée
+
+[Couplet 2]
+Au Népal en septembre deux mille vingt-cinq, les téléchargements s'envolent
+Quarante-huit mille sept cent quatre-vingt-un par jour, c'est le rôle
+En Ouganda en janvier deux mille vingt-six, Bobi Wine appelle
+Pendant que l'Inde et l'Iran voient l'usage s'élever
+Le motif Noise XX assure la confidentialité persistante
+Mais le courrier Noise X est une faille inquiétante
+Le coursier transporte l'enveloppe avec le spray and wait
+En attendant que le destinataire sorte de son retrait
+
+[Refrain]
+Bitchat vibre sans réseau, même en pleine coupure
+Le maillage Bluetooth offre une autre structure
+Chiffrement Noise pour la vie, mais attention aux métadonnées
+La liberté communiquer ne doit jamais être arrêtée
+
+[Pont]
+L'UUID de service est fixe, un scanner peut vous suivre
+Le triple appui pour le panic wipe, pour ne pas subir
+En France le Conseil d'État juge le blocage illégal
+L'article onze protège ce droit fondamental
+
+[Refrain final]
+Bitchat vibre sans réseau, même en pleine coupure
+Le maillage Bluetooth offre une autre structure
+Chiffrement Noise pour la vie, mais attention aux métadonnées
+La liberté communiquer ne doit jamais être arrêtée
+
+[Outro]
+Vérifie le manifeste de source, SHA deux cent cinquante-six
+Pour éviter les copies piégées et les faux réflexes

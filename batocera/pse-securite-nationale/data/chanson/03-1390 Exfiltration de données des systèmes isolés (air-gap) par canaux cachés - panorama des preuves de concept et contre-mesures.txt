@@ -1,0 +1,53 @@
+TITRE : Air-Gap Riddim
+
+[Intro]
+Écoute le rythme de la sécurité,
+L'information cherche sa liberté.
+
+[Couplet 1]
+Un système isolé est physiquement séparé,
+Mais l'attaquant peut faire franchir le vide de données.
+L'infection arrive par une clé USB ou un support,
+Comme Stuxnet en deux mille dix ou Agent.btz en deux mille huit.
+Mordechai Guri montre des dizaines de canaux cachés,
+Depuis deux mille quatorze, les secrets sont menacés.
+L'exfiltration sort les données sans autorisation,
+C'est une preuve de concept, une démonstration.
+
+[Refrain]
+Oh, l'air-gap n'est pas un mur de béton,
+Les canaux cachés passent par l'horizon.
+De l'électromagnétique au son ultrasonore,
+Protège tes données, reste toujours fort.
+
+[Couplet 2]
+AirHopper en deux mille quatorze utilise la radio FM,
+TrojPix en deux mille vingt-six brise enfin le problème.
+Huit virgule un mégabits par seconde en pointe,
+Deux cent huit mètres de portée, la menace est éteinte.
+MAGNETO en deux mille dix-huit utilise le champ magnétique,
+Qui traverse la cage de Faraday, c'est fantastique.
+DiskSpy en deux mille vingt-cinq utilise le radar,
+Vingt-deux mètres sans vue directe, c'est un vrai cauchemar.
+
+[Refrain]
+Oh, l'air-gap n'est pas un mur de béton,
+Les canaux cachés passent par l'horizon.
+De l'électromagnétique au son ultrasonore,
+Protège tes données, reste toujours fort.
+
+[Pont]
+L'ANSSI définit le zonage et le cadre TEMPEST,
+La séparation rouge-noir pour que le secret reste.
+Le durcissement matériel réduit les émissions,
+Pour contrer les APT et leurs infiltrations.
+
+[Refrain final]
+Oh, l'air-gap n'est pas un mur de béton,
+Les canaux cachés passent par l'horizon.
+De l'électromagnétique au son ultrasonore,
+Protège tes données, reste toujours fort.
+
+[Outro]
+Vigilance et contrôle, c'est la seule voie,
+Pour que tes informations gardent leur loi.
