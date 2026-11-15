@@ -1,0 +1,237 @@
+ANALYSE DES ACTIVITÉS CYBER OFFENSIVES IRANIENNES CIBLANT LES INTÉRÊTS FRANÇAIS.
+
+LEXIQUE COMPLET.
+
+      Le C4 désigne le Centre de Coordination des Crises Cyber, une instance interministérielle traitant de l'analyse de la menace informatique qui rassemble l'ANSSI, le COMCYBER, la DGA, la DGSE et la DGSI.
+
+      Le CGRI-CEC désigne le Centre électronique et cyber du Corps des Gardiens de la Révolution Islamique iranien.
+
+      L'unité Shahid Kaveh désigne une unité cyber-offensive affiliée au CGRI-CEC, dirigée par Reza Salarvand et Mahdi Lashgarian, spécialisée dans le sabotage d'équipements industriels.
+
+      L'unité Shahid Shoostari désigne une unité du CGRI-CEC, également connue sous les noms de Iliyanet ou Emennet Pasargad, menant des opérations à but de déstabilisation.
+
+      Le protocole Modbus désigne un protocole utilisé sur le port cinq cent deux pour effectuer des actions de reconnaissance sur des systèmes de contrôle industriel, notamment ceux de Schneider Electric.
+
+      L'outil FOFA désigne un outil de scan utilisé par l'unité Shahid Kaveh dans son mode opératoire d'attaque.
+
+      Le MOA désigne le mode opératoire d'attaque, défini comme un ensemble de techniques, tactiques et procédures, codes et infrastructures, évolutifs mais cohérents dans le temps.
+
+      CyberbanNews désigne l'organe de communication en ligne associé à l'unité Shahid Kaveh, chargé de relayer et de revendiquer certaines attaques.
+
+      Les avatars numériques hacktivistes désignent des entités comme CyberAveng3rs, Soldiers of Solomon, Mr. Soul ou Cyber Isnaad Front, utilisées par l'unité Shahid Kaveh pour revendiquer publiquement des attaques.
+
+      TLP:CLEAR désigne un marquage de classification d'information présent sur le document source.
+
+COURS DÉTAILLÉ.
+
+I. PRÉSENTATION DU CADRE ET DES ACTEURS.
+
+   A. Rôle du Centre de Coordination des Crises Cyber.
+
+      Le Centre de Coordination des Crises Cyber, désigné par le sigle C4, est une instance interministérielle.
+
+      Sa mission principale consiste à traiter l'analyse de la menace informatique.
+
+      Le C4 rassemble plusieurs entités dont l'ANSSI, le COMCYBER, la DGA, la DGSE et la DGSI.
+
+      C'est cet organisme qui a observé et imputé les attaques à but de déstabilisation menées contre les intérêts français.
+
+   B. Structure du CGRI-CEC et unités offensives.
+
+      Le Centre électronique et cyber du Corps des Gardiens de la Révolution Islamique iranien, nommé CGRI-CEC, est dirigé par Hamid Reza LASHGARIAN.
+
+      Le CGRI-CEC s'appuie sur des unités cyber-offensives, notamment l'unité Shahid Kaveh et l'unité Shahid Shoostari.
+
+      L'unité Shahid Kaveh est placée sous le commandement de Mahdi LASHGARIAN et Reza SALARVAND.
+
+      Cette unité utilise des avatars hacktivistes comme CyberAveng3rs, Soldiers of Solomon, Mr. Soul et Cyber Isnaad Front, ainsi que l'organe de communication CyberbanNews.
+
+      L'unité Shahid Shoostari est également connue et documentée sous les noms de Iliyanet ou Emennet Pasargad.
+
+   C. Objectifs globaux de sabotage et de déstabilisation.
+
+      Les acteurs liés au CGRI mènent des opérations visant le sabotage et la déstabilisation d'intérêts français, américains et israéliens.
+
+      L'unité Shahid Kaveh cible particulièrement les équipements industriels à grande échelle, comme les systèmes de contrôle de marques Schneider Electric, Siemens et Rockwell.
+
+      Un exemple majeur est l'attaque des onze et douze octobre deux mille vingt-six ayant visé les contrôleurs de froid de sept cents sites de grande distribution en France.
+
+      L'unité Shahid Shoostari mène des actions de représailles et d'intimidation, comme les attaques contre Charlie Hebdo en deux mille vingt et deux mille vingt-trois.
+
+      Elle a également tenté de déstabiliser l'organisation des Jeux Olympiques et Paralympiques de Paris deux mille vingt-quatre en ciblant une entreprise d'affichage vidéo dès le vingt juillet deux mille vingt-quatre.
+
+II. L'ATTAQUE MASSIVE CONTRE LA CHAÎNE DU FROID.
+
+   A. Cibles et secteurs d'activité touchés.
+
+      L'attaque a ciblé les contrôleurs de froid d'environ sept cents sites de la grande distribution en France.
+
+      Les entités affectées appartiennent principalement à la grande distribution, notamment les groupes Casino, Leclerc, Coopérative U, Metro, Carrefour et Intermarché.
+
+      Le Centre de Coordination des Crises Cyber a également identifié d'autres victimes dans le secteur de l'agroalimentaire.
+
+      Ce secteur comprend plusieurs petites boucheries, un abattoir ainsi que des usines agroalimentaires coopératives.
+
+   B. Impacts techniques et conséquences matérielles.
+
+      L'attaque s'est déroulée dans la nuit du dimanche onze au lundi douze octobre deux mille vingt-six.
+
+      Les attaquants ont modifié les paramètres de dégivrage des équipements pour les fixer à de hautes températures.
+
+      Cette manipulation technique a entraîné des pertes de marchandise importantes pour les sites compromis.
+
+      L'agressivité de l'attaque a provoqué des départs de feu dans au moins quinze cas.
+
+   C. Ciblage concomitant des installations hydroélectriques.
+
+      Le Centre de Coordination des Crises Cyber a observé un ciblage simultané lié à la même attaque.
+
+      Cette opération a visé plusieurs équipements Schneider Electric appartenant à de petites installations hydroélectriques en France.
+
+      Les effets sur ces équipements spécifiques sont qualifiés de modérés.
+
+      L'infrastructure utilisée pour cette action a également servi à mener des reconnaissances sur des unités de production d'énergie et d'eau.
+
+III. IMPUTATION DE L'ATTAQUE À L'UNITÉ SHAHID KAVEH.
+
+   A. Profil et avatars hacktivistes de l'unité.
+
+      L'unité Shahid Kaveh est affiliée au Centre électronique et cyber du Corps des Gardiens de la Révolution Islamique d'Iran. Elle est dirigée par Reza Salarvand et Mahdi Lashgarian.
+
+      Cette unité est principalement connue à travers ses avatars numériques hacktivistes. Parmi eux figurent CyberAveng3rs, Soldiers of Solomon, Mr. Soul et Cyber Isnaad Front.
+
+      L'unité utilise également un organe de communication en ligne nommé CyberbanNews. Ces avatars sont chargés de revendiquer publiquement certaines des attaques menées par l'unité.
+
+      L'unité mène des campagnes de sabotage ciblant des équipements industriels à grande échelle. Ses actions visent principalement Israël et les États-Unis, mais aussi la France et d'autres pays européens.
+
+      Elle a notamment revendiqué via son avatar CyberAveng3rs une campagne en novembre deux mille vingt-trois contre la société israélienne Unitronics. En mars et avril deux mille vingt-six, elle a également saboté des équipements de contrôle industriel, dont des systèmes frigorifiques israéliens.
+
+   B. Capacités techniques et protocoles utilisés.
+
+      L'unité Shahid Kaveh possède depuis juin deux mille vingt-quatre des scripts spécifiques. Ces outils permettent de scanner, d'accéder et de contrôler des équipements de contrôle industriel des marques Schneider Electric, Siemens et Rockwell.
+
+      En avril deux mille vingt-six, l'unité a été vue utilisant le protocole Modbus sur le port cinq cent deux. Ce protocole a servi à effectuer des actions massives de reconnaissance sur des systèmes de contrôle industriel Schneider Electric, notamment en France.
+
+   C. Indices techniques et preuves d'imputation.
+
+      L'infrastructure utilisée pour l'attaque des onze et douze octobre deux mille vingt-six a servi simultanément à mener des actions de reconnaissance sur des équipements Schneider Electric. Les techniques employées, comme le protocole Modbus sur le port cinq cent deux, sont connues pour être utilisées par l'unité depuis avril deux mille vingt-six.
+
+      Les opérateurs ont utilisé l'outil de scan FOFA pour mener l'attaque sur les systèmes de réfrigération français. Cet outil est habituellement utilisé dans le mode opératoire d'attaque de l'unité.
+
+      La cyberattaque ciblant les contrôleurs de réfrigération a été relayée dès le treize octobre deux mille vingt-six sur l'organe de propagande CyberbanNews. Ce média est directement associé à l'unité Shahid Kaveh.
+
+      Enfin, des traces d'utilisation du farsi ont été retrouvées dans l'infrastructure d'attaque. Ces éléments constituent un faisceau d'indices imputant l'attaque au Corps des Gardiens de la Révolution Islamique et à l'unité Shahid Kaveh.
+
+IV. OPÉRATIONS DE L'UNITÉ SHAHID SHOOSTARI CONTRE LA FRANCE.
+
+   A. Ciblage et intimidation de Charlie Hebdo.
+
+      Le CGRI-CEC a mené des opérations contre l'hebdomadaire Charlie Hebdo depuis deux mille vingt via son unité Shahid Shoostari, également connue sous les noms de Iliyanet ou Emennet Pasargad.
+
+      Un plan de cyberattaque a été révélé en deux mille vingt et un par Lab Dookhtegan, un groupe se présentant comme une organisation hacktiviste dissidente iranienne. Cette action s'inscrivait dans une logique de représailles et d'intimidation suite à la réédition de caricatures du Prophète en septembre deux mille vingt.
+
+      Le quatre janvier deux mille vingt-trois, les équipes de la société éditrice du journal ont constaté la défiguration de sa boutique en ligne. Cette date correspondait à la publication prévue des résultats d'un concours de caricatures d'Ali Khamenei.
+
+      L'attaque a également entraîné l'exfiltration des informations contenues dans la base de données de la boutique. Les investigations ont permis d'imputer ces faits à l'unité Shahid Shoostari agissant pour le compte du CGRI.
+
+   B. Tentative de déstabilisation lors des JOP deux mille vingt-quatre.
+
+      À partir du vingt juillet deux mille vingt-quatre, l'unité Shahid Shoostari a compromis une société française spécialisée dans la gestion de bornes d'affichage vidéo. Cette opération s'est déroulée dans le cadre de l'organisation des Jeux Olympiques et Paralympiques de Paris deux mille vingt-quatre.
+
+      L'objectif des attaquants était de détourner ces bornes pour diffuser des photo-montages dénonçant la participation des athlètes israéliens aux JOP deux mille vingt-quatre. L'ensemble des clients de l'entreprise aurait pu être touché par cette tentative.
+
+      La compromission a été découverte avant que les images ne soient affichées sur les bornes. Des investigations lancées le vingt-cinq juillet deux mille vingt-quatre ont confirmé des activités malveillantes remontant à plusieurs jours avant la découverte.
+
+      L'analyse a révélé que les attaquants ont effectué des activités de navigation sur plusieurs sites de médias français avant l'ouverture des JOP deux mille vingt-quatre. L'utilisation de deux adresses IP appartenant à des FAI iraniens a été observée sur le réseau de la victime.
+
+   C. Méthodes d'exfiltration et de manipulation d'image.
+
+      L'unité Shahid Shoostari a utilisé un mode opératoire d'attaque spécifique pour compromettre la société d'affichage vidéo. Des outils employés lors de l'attaque ont été documentés par des partenaires internationaux et des éditeurs de sécurité comme étant associés à Emennet Pasargad.
+
+      Concernant la manipulation d'image, les photo-montages destinés aux bornes ont été publiés initialement le vingt-quatre juillet deux mille vingt-quatre sur un compte Instagram s'exprimant en persan.
+
+      Ces contenus ont ensuite été relayés par deux comptes X ainsi que dans le journal iranien jahannews[.]com. Cette diffusion a eu lieu un jour avant la découverte de la compromission du système.
+
+      Pour l'attaque contre Charlie Hebdo, les méthodes ont permis la défiguration du site et l'exfiltration de données. L'imputation s'est appuyée sur des éléments techniques de l'infrastructure et des revendications publiées sur Internet.
+
+V. PREUVES ET MARQUEURS D'ATTRIBUTION.
+
+   A. Utilisation d'infrastructures et d'IP iraniennes.
+
+      Des traces d'utilisation du farsi ont été retrouvées dans l'infrastructure d'attaque utilisée pour cibler les contrôleurs de réfrigération.
+
+      L'infrastructure employée pour l'attaque des onze et douze octobre deux mille vingt-six a également servi à mener des actions de reconnaissance sur des équipements Schneider Electric.
+
+      Ces actions de reconnaissance visaient notamment des petites et moyennes unités de production d'énergie et d'eau.
+
+      Concernant l'attaque contre l'entreprise d'affichage vidéo des JOP2024, les investigations ont permis d'observer l'utilisation de deux adresses IP appartenant à des FAI iraniens.
+
+   B. Analyse des réseaux sociaux et organes de propagande.
+
+      La cyberattaque ciblant les contrôleurs de réfrigération a été relayée dès le treize octobre deux mille vingt-six sur l'organe de propagande CyberbanNews associé à l'unité Shahid Kaveh.
+
+      L'unité Shahid Kaveh utilise des avatars numériques hacktivistes comme CyberAveng3rs, Soldiers of Solomon, Mr. Soul et Cyber Isnaad Front pour revendiquer publiquement ses actions.
+
+      L'avatar CyberAveng3rs a notamment revendiqué une campagne menée en novembre deux mille vingt-trois contre la société israélienne Unitronics.
+
+      Pour l'attaque des JOP deux mille vingt-quatre, les photo-montages ont été publiés le vingt-quatre juillet deux mille vingt-quatre sur un compte Instagram s'exprimant en persan.
+
+      Ces images ont ensuite été relayées par deux comptes X ainsi que dans le journal iranien jahannews[.]com.
+
+   C. Identification des outils et signatures techniques.
+
+      L'unité Shahid Kaveh a utilisé l'outil de scan FOFA, un élément habituel de son mode opératoire d'attaque.
+
+      Les attaquants ont employé le protocole Modbus sur le port cinq cent deux pour effectuer des reconnaissances massives sur des systèmes Schneider Electric en France dès avril deux mille vingt-six.
+
+      L'unité Shahid Kaveh possède depuis juin deux mille vingt-quatre des scripts permettant de contrôler des équipements industriels des marques Schneider Electric, Siemens et Rockwell.
+
+      Pour l'attaque des JOP2024, des outils employés par les attaquants ont été identifiés par des éditeurs de sécurité comme étant associés à Emennet Pasargad.
+
+      Emennet Pasargad est un autre nom sous lequel est documentée l'unité Shahid Shoostari.
+
+VI. HIÉRARCHIE ET COMMANDEMENT.
+
+   A. Direction du Centre électronique et cyber.
+
+      Le Centre électronique et cyber est désigné sous le sigle CGRI-CEC.
+
+      Cette entité est rattachée au Corps des Gardiens de la Révolution Islamique iranien.
+
+      La direction du CGRI-CEC est assurée par Hamid Reza Lashgarian.
+
+      Ce centre supervise des unités cyber-offensives telles que Shahid Kaveh et Shahid Shoostari.
+
+   B. Commandement de l'unité Shahid Kaveh.
+
+      L'unité Shahid Kaveh est affiliée au Centre électronique et cyber du Corps des Gardiens de la Révolution Islamique d'Iran.
+
+      Le commandement de l'unité Shahid Kaveh est exercé par Mahdi Lashgarian et Reza Salarvand.
+
+      Cette unité utilise des avatars numériques hacktivistes pour revendiquer ses actions, notamment CyberAveng3rs, Soldiers of Solomon, Mr. Soul et Cyber Isnaad Front.
+
+      L'unité s'appuie également sur son organe de communication en ligne nommé CyberbanNews.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre les unités Shahid Kaveh et Shahid Shoostari, car elles mènent des types d'attaques différents.
+
+      L'unité Shahid Kaveh se spécialise dans le sabotage d'équipements industriels, tandis que Shahid Shoostari vise plutôt la déstabilisation.
+
+      Il est important de noter que les avatars comme CyberAveng3rs sont des façades numériques et non des entités indépendantes.
+
+      Le C4 est une instance interministérielle regroupant l'ANSSI, le COMCYBER, la DGA, la DGSE et la DGSI.
+
+      Les attaques contre les contrôleurs de froid ont eu des conséquences physiques concrètes, notamment quinze départs de feu.
+
+EXEMPLES CITÉS.
+
+      L'attaque des onze et douze octobre deux mille vingt-six a visé les contrôleurs de froid de sept cents sites de la grande distribution, dont Casino et Carrefour.
+
+      L'unité Shahid Shoostari a ciblé la boutique en ligne de Charlie Hebdo le quatre janvier deux mille vingt-trois pour exfiltrer des données.
+
+      En juillet deux mille vingt-quatre, une entreprise d'affichage vidéo a été compromise pour tenter de diffuser des images contre les athlètes israéliens aux JOP2024.
+
+      L'unité Shahid Kaveh a utilisé le protocole Modbus sur le port cinq cent deux pour scanner des systèmes Schneider Electric en avril deux mille vingt-six.
+
+      Le CGRI-CEC est dirigé par Hamid Reza LASHGARIAN, tandis que l'unité Shahid Kaveh est commandée par Mahdi LASHGARIAN et Reza SALARVAND.
